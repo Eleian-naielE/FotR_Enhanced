@@ -1,0 +1,3 @@
+return {
+	["GEONOSIAN_CRUISER_INFLUENCE"] = 0
+}
