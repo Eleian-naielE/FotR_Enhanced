@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ASCII'?>
 <Upgrade_Units>
 	<!-- Republic -->
-	<DummyStructure Name="Dreadnaught_Carrier_Upgrade">
+	<DummyStructure Name="DHC_Carrier_Upgrade">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 		<GUI_Row> 0 </GUI_Row>
 
@@ -10,16 +10,16 @@
 		<Build_Time_Seconds>2</Build_Time_Seconds>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<AI_Combat_Power>500</AI_Combat_Power>
-		
+
 		<Text_ID>TEXT_UNIT_DREADNAUGHT_UPGRADE</Text_ID>
 		<Lua_Script>DelayedSelfDelete</Lua_Script>
 		<Affiliation>Empire</Affiliation>
 		<Icon_Name>I_BUTTON_DREADNAUGHT_REP_UPGRADE.TGA</Icon_Name>
 
 		<Tech_Level>2</Tech_Level>
-		
+
 		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_DREADNAUGHT_CARRIER_UPGRADE
+		TEXT_TOOLTIP_DREADNAUGHT_CARRIER_UPGRADEABLE
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
 		TEXT_TOOLTIP_DREADNAUGHT_CARRIER_HULL 
 		TEXT_TOOLTIP_DREADNAUGHT_SHIELD
@@ -33,12 +33,12 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
-		
+
 		<Required_Special_Structures>AI_Category_Dummy | Heavy_Frigate_Category_Dummy</Required_Special_Structures>
-		<Required_Orbiting_Units>Dreadnaught_Lasers</Required_Orbiting_Units>
-		
+		<Required_Orbiting_Units>PDF_DHC</Required_Orbiting_Units>
+
 		<Unit_Abilities_Data SubObjectList="No">
 
 		</Unit_Abilities_Data>
@@ -53,16 +53,16 @@
 		<Build_Time_Seconds>5</Build_Time_Seconds>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<AI_Combat_Power>3253</AI_Combat_Power>
-		
+
 		<Text_ID>TEXT_UNIT_MANDATOR_UPGRADE</Text_ID>
 		<Lua_Script>DelayedSelfDelete</Lua_Script>
 		<Affiliation>Empire</Affiliation>
 		<Icon_Name>i_button_mandator_upgrade.tga</Icon_Name>
 
 		<Tech_Level>3</Tech_Level>
-		
+
 		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_MANDATOR_UPGRADE
+		TEXT_TOOLTIP_MANDATOR_UPGRADEABLE
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_MANDATOR2_HULL
 		TEXT_TOOLTIP_MANDATOR2_SHIELD
@@ -78,23 +78,25 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
-		
+
 		<Required_Special_Structures>AI_Category_Dummy | Dreadnought_Category_Dummy</Required_Special_Structures>
-		<Required_Orbiting_Units>Generic_Mandator</Required_Orbiting_Units>
-		
+		<Required_Orbiting_Units>Mandator_I_Dreadnought</Required_Orbiting_Units>
+
 		<Unit_Abilities_Data SubObjectList="No">
 
 		</Unit_Abilities_Data>
 	</DummyStructure>
+	
+	<!-- FotR_Enhanced -->
 
 	<DummyStructure Name="OFC_SPHA_T_Refit">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 		<GUI_Row> 0 </GUI_Row>
 
 		<Population_Value>0</Population_Value>
-		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>2</Build_Time_Seconds>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<AI_Combat_Power>1000</AI_Combat_Power>
@@ -105,33 +107,54 @@
 		<Icon_Name>i_button_jedi_Cruiser_rep_SPHAT.tga</Icon_Name>
 
 		<Tech_Level>4</Tech_Level>
-		
+		<!--
+			<Encyclopedia_Text> 
+				TEXT_TOOLTIP_OFC_SPHA_T_REFIT
+				TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+				TEXT_TOOLTIP_VENATOR_OFC_HULL 
+				TEXT_TOOLTIP_VENATOR_SHIELD
+				TEXT_TOOLTIP_VENATOR_MOVE 
+				TEXT_TOOLTIP_VENATOR_OFC_SQUADRON
+				TEXT_TOOLTIP_VENATOR_OFC_WEAP1
+				TEXT_TOOLTIP_VENATOR_WEAP2 
+				TEXT_TOOLTIP_VENATOR_WEAP3
+				TEXT_TOOLTIP_VENATOR_WEAP4
+				TEXT_TOOLTIP_VENATOR_WEAP5
+				TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+				TEXT_TOOLTIP_VENATOR_WEAP_INTEGRITY
+				TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+				TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+				TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+				TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+				TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+				TEXT_TOOLTIP_BUILDLIMIT_VENATOR_OFC_SPHA_T
+			</Encyclopedia_Text>
+		-->
 		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_OFC_SPHA_T_REFIT
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-		TEXT_TOOLTIP_VENATOR_OFC_HULL 
-		TEXT_TOOLTIP_VENATOR_SHIELD
-		TEXT_TOOLTIP_VENATOR_MOVE 
-		TEXT_TOOLTIP_VENATOR_OFC_SQUADRON
-		TEXT_TOOLTIP_VENATOR_OFC_WEAP1
-		TEXT_TOOLTIP_VENATOR_WEAP2 
-		TEXT_TOOLTIP_VENATOR_WEAP3
-		TEXT_TOOLTIP_VENATOR_WEAP4
-		TEXT_TOOLTIP_VENATOR_WEAP5
-		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
-		TEXT_TOOLTIP_VENATOR_WEAP_INTEGRITY
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
-		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
-		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
-		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
-		TEXT_TOOLTIP_BUILDLIMIT_VENATOR_OFC_SPHA_T
+			TEXT_TOOLTIP_OFC_SPHA_T_REFIT
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+			TEXT_TOOLTIP_VENATOR_HULL 
+			TEXT_TOOLTIP_VENATOR_SHIELD
+			TEXT_TOOLTIP_VENATOR_MOVE 
+			TEXT_TOOLTIP_VENATOR_SQUADRON
+			TEXT_TOOLTIP_VENATOR_WEAP1
+			TEXT_TOOLTIP_VENATOR_WEAP2 
+			TEXT_TOOLTIP_VENATOR_WEAP3
+			TEXT_TOOLTIP_VENATOR_WEAP4
+			TEXT_TOOLTIP_VENATOR_WEAP5
+			TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+			TEXT_TOOLTIP_VENATOR_WEAP_INTEGRITY
+			TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+			TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+			TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+			TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+			TEXT_TOOLTIP_BUILDLIMIT_VENATOR_OFC_SPHA_T
 		</Encyclopedia_Text>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
 		
 		<Required_Special_Structures>AI_Category_Dummy | Capital_Category_Dummy </Required_Special_Structures>
-		<Required_Orbiting_Units>Generic_Venator_OFC, Anakin_Eta</Required_Orbiting_Units>
+		<Required_Orbiting_Units>Generic_Venator, Anakin_Eta</Required_Orbiting_Units>
 		<Build_Limit_Lifetime_Per_Player>3</Build_Limit_Lifetime_Per_Player>
 		
 		<Unit_Abilities_Data SubObjectList="No">
@@ -139,77 +162,6 @@
 		</Unit_Abilities_Data>
 
 	</DummyStructure>
-
-	<!--<SpaceUnit Name="Venator_Decolorize">
-		<Variant_Of_Existing_Type>Generic_Venator</Variant_Of_Existing_Type>
-		<GUI_Row> 0 </GUI_Row>
-
-		<Population_Value>0</Population_Value>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
-		<Build_Time_Seconds>1</Build_Time_Seconds>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<AI_Combat_Power>1000</AI_Combat_Power>
-		
-		<Text_ID>TEXT_UNIT_VENATOR_DECOLORIZE</Text_ID>
-		<Lua_Script>HeroSwitcher</Lua_Script>
-		<Affiliation>Empire</Affiliation>
-		<Icon_Name>I_BUTTON_JEDI_CRUISER.tga</Icon_Name>
-
-		<Tech_Level>0</Tech_Level>
-		
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_VENATOR_DECOLORIZE
-		</Encyclopedia_Text>
-		
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_DECOLORIZE</Encyclopedia_Unit_Class>
-		
-		<Required_Special_Structures>AI_Category_Dummy | Capital_Category_Dummy</Required_Special_Structures>
-		<Required_Orbiting_Units>Generic_Venator</Required_Orbiting_Units>
-		
-	</SpaceUnit>
-
-	<SpaceUnit Name="OFC_Assign">
-		<Variant_Of_Existing_Type>Generic_Venator</Variant_Of_Existing_Type>
-		<GUI_Row> 0 </GUI_Row>
-
-		<Population_Value>0</Population_Value>
-		<Build_Cost_Credits>1500</Build_Cost_Credits>
-		<Build_Time_Seconds>4</Build_Time_Seconds>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<AI_Combat_Power>1000</AI_Combat_Power>
-		
-		<Text_ID>TEXT_UNIT_OFC_ASSIGN</Text_ID>
-		<Lua_Script>HeroSwitcher</Lua_Script>
-		<Affiliation>Empire</Affiliation>
-		<Icon_Name>i_button_jedi_Cruiser_rep_OFC_upgrade.tga</Icon_Name>
-		
-		<Tech_Level>0</Tech_Level>
-		
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_OFC_ASSIGN
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-		TEXT_TOOLTIP_VENATOR_OFC_HULL 
-		TEXT_TOOLTIP_VENATOR_SHIELD
-		TEXT_TOOLTIP_VENATOR_MOVE 
-		TEXT_TOOLTIP_VENATOR_OFC_SQUADRON
-		TEXT_TOOLTIP_VENATOR_OFC_WEAP1
-		TEXT_TOOLTIP_VENATOR_WEAP2 
-		TEXT_TOOLTIP_VENATOR_WEAP3
-		TEXT_TOOLTIP_VENATOR_WEAP4
-		TEXT_TOOLTIP_VENATOR_WEAP5
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
-		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
-		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
-		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
-		TEXT_TOOLTIP_BUILDLIMIT_VENATOR_OFC
-		</Encyclopedia_Text>
-		
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
-		
-		<Required_Special_Structures>AI_Category_Dummy | Capital_Category_Dummy</Required_Special_Structures>
-		<Required_Orbiting_Units>Generic_Venator</Required_Orbiting_Units>
-	</SpaceUnit>-->
 
 	<!-- CIS -->
 	<DummyStructure Name="Battlecarrier_Lucrehulk_Upgrade">
@@ -221,16 +173,16 @@
 		<Build_Time_Seconds>4</Build_Time_Seconds>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<AI_Combat_Power>1000</AI_Combat_Power>
-		
+
 		<Text_ID>TEXT_UNIT_AUXILIARY_UPGRADE</Text_ID>
 		<Lua_Script>DelayedSelfDelete</Lua_Script>
 		<Affiliation>Rebel</Affiliation>
 		<Icon_Name>I_BUTTON_LUCREHULK_AUXILIARY_UPGRADE.TGA</Icon_Name>
 
 		<Tech_Level>1</Tech_Level>
-		
+
 		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_LUCREHULKAUXILIARY_UPGRADE
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_UPGRADEABLE
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
 		TEXT_TOOLTIP_LUCREHULK_HULL
 		TEXT_TOOLTIP_LUCREHULK_SHIELD
@@ -243,19 +195,19 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
-		
+
 		<Required_Special_Structures>AI_Category_Dummy | Dreadnought_Category_Dummy</Required_Special_Structures>
-		<Required_Orbiting_Units>Auxiliary_Lucrehulk</Required_Orbiting_Units>
-		
+		<Required_Orbiting_Units>Lucrehulk_Auxiliary</Required_Orbiting_Units>
+
 		<Unit_Abilities_Data SubObjectList="No">
 
 		</Unit_Abilities_Data>
 	</DummyStructure>
-	
+
 	<!-- Hutts -->
-	<DummyStructure Name="Venator_Refit_Upgrade">
+	<DummyStructure Name="Refit_Venator_Star_Destroyer_Upgrade">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 		<GUI_Row> 0 </GUI_Row>
 
@@ -264,12 +216,14 @@
 		<Build_Time_Seconds>2</Build_Time_Seconds>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<AI_Combat_Power>500</AI_Combat_Power>
-		
+
 		<Text_ID>TEXT_UNIT_VENATOR_UPGRADE</Text_ID>
 		<Lua_Script>DelayedSelfDelete</Lua_Script>
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Icon_Name>I_BUTTON_JEDI_CRUISER_REP_UPGRADE.TGA</Icon_Name>
-		
+
+		<Tech_Level>0</Tech_Level>
+
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_VENATOR_REFIT_UPGRADE
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
@@ -287,15 +241,15 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
-		
+
 		<Required_Special_Structures>AI_Category_Dummy | Capital_Category_Dummy</Required_Special_Structures>
-		<Required_Orbiting_Units>Generic_Venator</Required_Orbiting_Units>
-		
+		<Required_Orbiting_Units>Venator_Star_Destroyer</Required_Orbiting_Units>
+
 		<Unit_Abilities_Data SubObjectList="No">
 
 		</Unit_Abilities_Data>
 	</DummyStructure>
-	
+
 </Upgrade_Units>

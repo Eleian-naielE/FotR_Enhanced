@@ -14,7 +14,7 @@
 		<Space_Model_Name>Nu-Class_Attack_Shuttle_Space.ALO</Space_Model_Name>
 		<Land_Model_Name>Nu-Class_Attack_Shuttle_Land.ALO</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		
+
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Landing</Landing_Transport_Variant>
 
 		<Max_Speed>2.5</Max_Speed>
@@ -25,15 +25,15 @@
 		<Shield_Refresh_Rate>1.4</Shield_Refresh_Rate>
 
 		<HardPoints>HP_Nu_Shuttle_01, HP_Nu_Shuttle_02, HP_Nu_Shuttle_03, HP_Nu_Shuttle_04</HardPoints>
-		
+
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lamda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lamda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lamda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lamda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
@@ -48,9 +48,9 @@
 
 		<Behavior>TRANSPORT</Behavior>
 		<LandBehavior></LandBehavior>
-		
+
 		<HardPoints>HP_Nu_Shuttle_Ground_01</HardPoints>
-		
+
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 
@@ -59,7 +59,6 @@
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Landing_Cinematic">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 		<User_Bound_Min>0, 0, 0</User_Bound_Min>
@@ -71,7 +70,6 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Clones_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Clones_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -80,7 +78,6 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_ARC_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_ARC_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -89,7 +86,6 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Commander_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Commander_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -103,7 +99,7 @@
 		<Space_Model_Name>Rho-Class_Transport_Shuttle_Space.ALO</Space_Model_Name>
 		<Land_Model_Name>Rho-Class_Transport_Shuttle_Land.ALO</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		
+
 		<Landing_Transport_Variant>Rho_Shuttle_Landing_Craft_Landing</Landing_Transport_Variant>
 
 		<Max_Speed>2.0</Max_Speed>
@@ -115,22 +111,21 @@
 		<Shield_Refresh_Rate>1.2</Shield_Refresh_Rate>
 
 		<HardPoints>HP_Nu_Shuttle_01, HP_Nu_Shuttle_02, HP_Nu_Shuttle_03, HP_Nu_Shuttle_04</HardPoints>
-		
+
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lamda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lamda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lamda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lamda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 	</TransportUnit>
-
 	<TransportUnit Name="Rho_Shuttle_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>Rho_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Scale_Factor>1.2</Scale_Factor>
@@ -138,9 +133,9 @@
 
 		<Behavior>TRANSPORT</Behavior>
 		<LandBehavior></LandBehavior>
-		
+
 		<HardPoints>HP_Nu_Shuttle_Ground_01</HardPoints>
-		
+
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 
@@ -154,7 +149,6 @@
 		<Variant_Of_Existing_Type>Rho_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Rho_Shuttle_Landing_Craft_Clones_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Rho_Shuttle_Landing_Craft_Clones_Landing">
 		<Variant_Of_Existing_Type>Rho_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -163,7 +157,6 @@
 		<Variant_Of_Existing_Type>Rho_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Rho_Shuttle_Landing_Craft_Commander_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Rho_Shuttle_Landing_Craft_Commander_Landing">
 		<Variant_Of_Existing_Type>Rho_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -172,7 +165,6 @@
 		<Variant_Of_Existing_Type>Rho_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Rho_Shuttle_Landing_Craft_Light_Vehicles_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Rho_Shuttle_Landing_Craft_Light_Vehicles_Landing">
 		<Variant_Of_Existing_Type>Rho_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -186,7 +178,7 @@
 		<Space_Model_Name>Theta-class_T-2c_shuttle_space.ALO</Space_Model_Name>
 		<Land_Model_Name>Theta-class_T-2c_shuttle_land.ALO</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		
+
 		<Landing_Transport_Variant>Theta_Shuttle_Landing_Craft_Landing</Landing_Transport_Variant>
 
 		<Max_Speed>3.0</Max_Speed>
@@ -199,22 +191,21 @@
 		<Shield_Refresh_Rate>1.6</Shield_Refresh_Rate>
 
 		<HardPoints>HP_ThetaShuttle_01, HP_ThetaShuttle_02, HP_ThetaShuttle_03</HardPoints>
-		
+
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lamda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lamda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lamda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lamda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 	</TransportUnit>
-
 	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Scale_Factor>1.2</Scale_Factor>
@@ -222,9 +213,9 @@
 
 		<Behavior>TRANSPORT</Behavior>
 		<LandBehavior></LandBehavior>
-		
+
 		<HardPoints>HP_ThetaShuttle_Ground_01, HP_ThetaShuttle_Ground_02</HardPoints>
-		
+
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 
@@ -238,7 +229,6 @@
 		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Theta_Shuttle_Landing_Craft_Clones_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Clones_Landing">
 		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -247,8 +237,16 @@
 		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Theta_Shuttle_Landing_Craft_Troops_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Troops_Landing">
+		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+	
+	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Admin">
+		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Theta_Shuttle_Landing_Craft_Admin_Landing</Landing_Transport_Variant>
+		<Hyperspace_Speed>0.2</Hyperspace_Speed>
+	</TransportUnit>
+	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Admin_Landing">
 		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
@@ -261,7 +259,7 @@
 		<Space_Model_Name>T-6_Jedi_Ambassador_Shuttle_space.ALO</Space_Model_Name>
 		<Land_Model_Name>T-6_Jedi_Ambassador_Shuttle_land.ALO</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		
+
 		<Landing_Transport_Variant>T6_Shuttle_Landing_Craft_Landing</Landing_Transport_Variant>
 
 		<Max_Speed>3.0</Max_Speed>
@@ -273,22 +271,21 @@
 		<Shield_Refresh_Rate>1.6</Shield_Refresh_Rate>
 
 		<HardPoints/>
-		
+
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lamda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lamda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lamda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lamda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 	</TransportUnit>
-
 	<TransportUnit Name="T6_Shuttle_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>T6_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Scale_Factor>1.2</Scale_Factor>
@@ -296,9 +293,9 @@
 
 		<Behavior>TRANSPORT</Behavior>
 		<LandBehavior></LandBehavior>
-		
+
 		<HardPoints></HardPoints>
-		
+
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 
@@ -307,20 +304,19 @@
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 	</TransportUnit>
-
-	<TransportUnit Name="T6_Shuttle_Landing_Craft_Jedi">
-		<Variant_Of_Existing_Type>T6_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>T6_Shuttle_Landing_Craft_Jedi_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-	<TransportUnit Name="T6_Shuttle_Landing_Craft_Jedi_Landing">
-		<Variant_Of_Existing_Type>T6_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
-	</TransportUnit>
-
 	<TransportUnit Name="T6_Shuttle_Landing_Craft_Landing_Cinematic">
 		<Variant_Of_Existing_Type>T6_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 		<User_Bound_Min>0, 0, 0</User_Bound_Min>
 		<User_Bound_Max>0, 0, 0</User_Bound_Max>
+	</TransportUnit>
+	
+	<TransportUnit Name="T6_Shuttle_Landing_Craft_Admin">
+		<Variant_Of_Existing_Type>T6_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>T6_Shuttle_Landing_Craft_Admin_Landing</Landing_Transport_Variant>
+		<Hyperspace_Speed>0.2</Hyperspace_Speed>
+	</TransportUnit>
+	<TransportUnit Name="T6_Shuttle_Landing_Craft_Admin_Landing">
+		<Variant_Of_Existing_Type>T6_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
 	<!-- CR20 -->
@@ -332,7 +328,7 @@
 		<Space_Model_Name>cr20_transport_space.ALO</Space_Model_Name>
 		<Land_Model_Name>cr20_transport.ALO</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		
+
 		<Landing_Transport_Variant>CR20_Landing_Craft_Landing</Landing_Transport_Variant>
 
 		<Max_Speed>3.0</Max_Speed>
@@ -344,22 +340,21 @@
 		<Shield_Refresh_Rate>2.4</Shield_Refresh_Rate>
 
 		<HardPoints>HP_CR20_01_Space, HP_CR20_02_Space</HardPoints>
-		
+
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lamda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lamda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lamda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lamda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 	</TransportUnit>
-
 	<TransportUnit Name="CR20_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>CR20_Landing_Craft</Variant_Of_Existing_Type>
 		<Scale_Factor>5.3</Scale_Factor>
@@ -367,9 +362,9 @@
 
 		<Behavior>TRANSPORT</Behavior>
 		<LandBehavior></LandBehavior>
-		
+
 		<HardPoints>HP_CR20_01_Ground</HardPoints>
-		
+
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 
@@ -383,7 +378,6 @@
 		<Variant_Of_Existing_Type>CR20_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR20_Landing_Craft_Commando_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR20_Landing_Craft_Commando_Landing">
 		<Variant_Of_Existing_Type>CR20_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -392,7 +386,6 @@
 		<Variant_Of_Existing_Type>CR20_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR20_Landing_Craft_Light_Vehicles_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR20_Landing_Craft_Light_Vehicles_Landing">
 		<Variant_Of_Existing_Type>CR20_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -401,7 +394,6 @@
 		<Variant_Of_Existing_Type>CR20_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR20_Landing_Craft_Troops_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR20_Landing_Craft_Troops_Landing">
 		<Variant_Of_Existing_Type>CR20_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -410,7 +402,6 @@
 		<Variant_Of_Existing_Type>CR20_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR20_Landing_Craft_Clones_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR20_Landing_Craft_Clones_Landing">
 		<Variant_Of_Existing_Type>CR20_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -419,7 +410,6 @@
 		<Variant_Of_Existing_Type>CR20_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR20_Landing_Craft_Commander_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR20_Landing_Craft_Commander_Landing">
 		<Variant_Of_Existing_Type>CR20_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -428,7 +418,6 @@
 		<Variant_Of_Existing_Type>CR20_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR20_Landing_Craft_Clone_Commander_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR20_Landing_Craft_Clone_Commander_Landing">
 		<Variant_Of_Existing_Type>CR20_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -437,7 +426,6 @@
 		<Variant_Of_Existing_Type>CR20_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR20_Landing_Craft_Army_Commander_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR20_Landing_Craft_Army_Commander_Landing">
 		<Variant_Of_Existing_Type>CR20_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -446,7 +434,6 @@
 		<Variant_Of_Existing_Type>CR20_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR20_Landing_Craft_Jedi_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR20_Landing_Craft_Jedi_Landing">
 		<Variant_Of_Existing_Type>CR20_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -454,6 +441,15 @@
 	<TransportUnit Name="CR20_Landing_Craft_Noncombat">
 		<Variant_Of_Existing_Type>CR20_Landing_Craft</Variant_Of_Existing_Type>
 		<Can_Participate_In_Space_Battle> No </Can_Participate_In_Space_Battle>
+	</TransportUnit>
+	
+	<TransportUnit Name="CR20_Landing_Craft_Admin">
+		<Variant_Of_Existing_Type>CR20_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>CR20_Landing_Craft_Admin_Landing</Landing_Transport_Variant>
+		<Hyperspace_Speed>0.2</Hyperspace_Speed>
+	</TransportUnit>
+	<TransportUnit Name="CR20_Landing_Craft_Admin_Landing">
+		<Variant_Of_Existing_Type>CR20_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
 	<!-- CR25 -->
@@ -465,7 +461,7 @@
 		<Space_Model_Name>cr25_transport.ALO</Space_Model_Name>
 		<Land_Model_Name>cr25_transport_land.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		
+
 		<Landing_Transport_Variant>CR25_Landing_Craft_Landing</Landing_Transport_Variant>
 
 		<Max_Speed>3.0</Max_Speed>
@@ -477,22 +473,21 @@
 		<Shield_Refresh_Rate>2.4</Shield_Refresh_Rate>
 
 		<HardPoints>HP_CR20_01_Space, HP_CR20_02_Space</HardPoints>
-		
+
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lamda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lamda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lamda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lamda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 	</TransportUnit>
-
 	<TransportUnit Name="CR25_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft</Variant_Of_Existing_Type>
 		<Scale_Factor>1.05</Scale_Factor>
@@ -500,9 +495,9 @@
 
 		<Behavior>TRANSPORT</Behavior>
 		<LandBehavior></LandBehavior>
-		
+
 		<HardPoints>HP_CR20_01_Ground</HardPoints>
-		
+
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 
@@ -516,7 +511,6 @@
 		<Variant_Of_Existing_Type>CR25_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR25_Landing_Craft_Air_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR25_Landing_Craft_Air_Landing">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -525,7 +519,6 @@
 		<Variant_Of_Existing_Type>CR25_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR25_Landing_Craft_Clones_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR25_Landing_Craft_Clones_Landing">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -534,7 +527,6 @@
 		<Variant_Of_Existing_Type>CR25_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR25_Landing_Craft_Artillery_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR25_Landing_Craft_Artillery_Landing">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -545,26 +537,15 @@
 		<Space_Model_Name>cr25_transportbox.ALO</Space_Model_Name>
 		<Landing_Transport_Variant>CR25_Landing_Craft_Heavy_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR25_Landing_Craft_Heavy_Landing">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Landing</Variant_Of_Existing_Type>
 		<Land_Model_Name>cr25_transportbox_land.ALO</Land_Model_Name>
-	</TransportUnit>
-
-	<TransportUnit Name="CR25_Landing_Craft_LAAT">
-		<Variant_Of_Existing_Type>CR25_Landing_Craft</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>CR25_Landing_Craft_LAAT_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-	<TransportUnit Name="CR25_Landing_Craft_LAAT_Landing">
-		<Variant_Of_Existing_Type>CR25_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
 	<TransportUnit Name="CR25_Landing_Craft_Light_Vehicles">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR25_Landing_Craft_Light_Vehicles_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR25_Landing_Craft_Light_Vehicles_Landing">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -573,11 +554,9 @@
 		<Variant_Of_Existing_Type>CR25_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR25_Landing_Craft_Tanks_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR25_Landing_Craft_Tanks_Landing">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
-
 
 	<!-- Atmospheric Flyer Lander -->
 
@@ -587,7 +566,6 @@
 		<Landing_Transport_Variant>Atmospheric_Flyer_Landing_Craft_Landing</Landing_Transport_Variant>
 		<Hover_Offset>10.0</Hover_Offset>
 	</TransportUnit>
-
 	<TransportUnit Name="Atmospheric_Flyer_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>Atmospheric_Flyer_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
@@ -600,9 +578,9 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 		<Layer_Z_Adjust>-34.93</Layer_Z_Adjust>
-		
+
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, null</SFXEvent_Hardpoint_Destroyed>
-		
+
 		<HardPoints>
 		AtmosphericFlyer_Lander_01_Weap_AV_01, AtmosphericFlyer_Lander_01_Weap_AV_02, AtmosphericFlyer_Lander_01_Weap_AV_03,
 		AtmosphericFlyer_Lander_02_Weap_AV_01, AtmosphericFlyer_Lander_02_Weap_AV_02, AtmosphericFlyer_Lander_02_Weap_AV_03,
@@ -618,7 +596,6 @@
 		<Landing_Transport_Variant>Flashblind_Landing_Craft_Landing</Landing_Transport_Variant>
 		<Hover_Offset>10.0</Hover_Offset>
 	</TransportUnit>
-
 	<TransportUnit Name="Flashblind_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>Flashblind_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
@@ -631,9 +608,9 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
-		
+
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, null</SFXEvent_Hardpoint_Destroyed>
-		
+
 		<HardPoints>
 			HP_Flashblind_01_Lander_Laser_Main, HP_Flashblind_01_Lander_Laser_Left, HP_Flashblind_01_Lander_Laser_Right,
 			HP_Flashblind_02_Lander_Laser_Main, HP_Flashblind_02_Lander_Laser_Left, HP_Flashblind_02_Lander_Laser_Right
@@ -647,7 +624,6 @@
 		<Land_Model_Name>Rep_HAET_Lander.alo</Land_Model_Name>
 		<Landing_Transport_Variant>HAET_Landing_Craft_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="HAET_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>HAET_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
@@ -660,15 +636,14 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
-		
+
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, null</SFXEvent_Hardpoint_Destroyed>
-		
+
 		<HardPoints>
 			HP_HAET_Lander_Main,
 			HP_HAET_Lander_Laser_01, HP_HAET_Lander_Laser_02, HP_HAET_Lander_Laser_03, HP_HAET_Lander_Laser_04, HP_HAET_Lander_Laser_05, HP_HAET_Lander_Laser_06
 		</HardPoints>
 	</TransportUnit>
-
 
 	<!-- VAAT Lander -->
 
@@ -678,7 +653,6 @@
 		<Land_Model_Anim_Override_Name>EV_VAATe_Lander.alo</Land_Model_Anim_Override_Name>
 		<Landing_Transport_Variant>Rep_VAAT_Landing_Craft_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Rep_VAAT_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>Rep_VAAT_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
@@ -691,10 +665,10 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
-		
+
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, null</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, null</SFXEvent_Hardpoint_Destroyed>
-		
+
 		<HardPoints>
 			HP_VAAT_Lander_Missiles,
 			HP_VAAT_Lander_Laser_01, HP_VAAT_Lander_Laser_02
@@ -707,7 +681,6 @@
 		<Land_Model_Anim_Override_Name>EV_VAATe_Lander.alo</Land_Model_Anim_Override_Name>
 		<Landing_Transport_Variant>Hutt_VAAT_Landing_Craft_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Hutt_VAAT_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>Hutt_VAAT_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
@@ -720,18 +693,18 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
-		
+
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, null</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, null</SFXEvent_Hardpoint_Destroyed>
-		
+
 		<HardPoints>
 			HP_VAAT_Lander_Missiles,
 			HP_VAAT_Lander_Laser_01, HP_VAAT_Lander_Laser_02
 		</HardPoints>
 	</TransportUnit>
 
-
 	<!-- LAAT Lander -->
+
 	<TransportUnit Name="LAAT_Landing_Craft">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_LAAT</Text_ID>
@@ -740,7 +713,6 @@
 		<Landing_Transport_Variant>LAAT_Landing_Craft_LAAT_Landing</Landing_Transport_Variant>
 		<Hover_Offset>10.0</Hover_Offset>
 	</TransportUnit>
-
 	<TransportUnit Name="LAAT_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>LAAT_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
@@ -753,10 +725,10 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
-		
+
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, null</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, null</SFXEvent_Hardpoint_Destroyed>
-		
+
 		<HardPoints>
 			HP_LAAT_Beam_01,
 			HP_LAAT_Beam_02,
@@ -767,7 +739,6 @@
 			HP_LAAT_Laser_03
 		</HardPoints>
 	</TransportUnit>
-
 	<TransportUnit Name="LAAT_Lander_Landing_Cinematic">
 		<Variant_Of_Existing_Type>LAAT_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
@@ -778,13 +749,13 @@
 		<User_Bound_Max>0, 0, 0</User_Bound_Max>
 		<Has_Space_Evaluator>False</Has_Space_Evaluator>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Layer_Z_Adjust>-5.0</Layer_Z_Adjust>
 	</TransportUnit>
 
 	<TransportUnit Name="LAAT_Landing_Craft_LAAT">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>LAAT_Landing_Craft_LAAT_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="LAAT_Landing_Craft_LAAT_Landing">
 		<Variant_Of_Existing_Type>LAAT_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -795,7 +766,6 @@
 		<Land_Model_Name>LAAT_Drop_Off_Lander.alo</Land_Model_Name>
 		<Space_Model_Name>low_altitude_assault_transport.alo</Space_Model_Name>
 	</TransportUnit>
-
 	<TransportUnit Name="LAAT_Drop_Off_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>LAAT_Drop_Off_Landing_Craft</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -804,12 +774,12 @@
 		<Variant_Of_Existing_Type>LAAT_Drop_Off_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>LAAT_Drop_Off_Landing_Craft_ARC_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="LAAT_Drop_Off_Landing_Craft_ARC_Landing">
 		<Variant_Of_Existing_Type>LAAT_Drop_Off_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
 	<!-- Sheathipede -->
+
 	<TransportUnit Name="CIS_Sheathipede_Landing_Craft">
 		<Variant_Of_Existing_Type>Template_Transport</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_SHEATHIPEDE</Text_ID>
@@ -818,7 +788,7 @@
 		<Space_Model_Name>CIS_Sheathipede-class_transport_shuttle_space.ALO</Space_Model_Name>
 		<Land_Model_Name>CIS_Sheathipede-class_transport_shuttle.ALO</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		
+
 		<Landing_Transport_Variant>CIS_Sheathipede_Landing_Craft_Landing</Landing_Transport_Variant>
 
 		<Max_Speed>2.5</Max_Speed>
@@ -830,22 +800,21 @@
 		<Shield_Refresh_Rate>0.8</Shield_Refresh_Rate>
 
 		<HardPoints>HP_Sheathipede_01, HP_Sheathipede_02, HP_Sheathipede_03</HardPoints>
-		
+
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lamda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lamda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lamda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lamda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 	</TransportUnit>
-
 	<TransportUnit Name="CIS_Sheathipede_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>CIS_Sheathipede_Landing_Craft</Variant_Of_Existing_Type>
 		<Scale_Factor>1.2</Scale_Factor>
@@ -853,9 +822,9 @@
 
 		<Behavior>TRANSPORT</Behavior>
 		<LandBehavior></LandBehavior>
-		
+
 		<HardPoints>HP_Sheathipede_Ground_01</HardPoints>
-		
+
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 
@@ -864,7 +833,6 @@
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 	</TransportUnit>
-
 	<TransportUnit Name="CIS_Sheathipede_Landing_Craft_Landing_Cinematic">
 		<Variant_Of_Existing_Type>CIS_Sheathipede_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
@@ -881,7 +849,6 @@
 		<Landing_Transport_Variant>CIS_Sheathipede_Landing_Craft_Commando_Landing</Landing_Transport_Variant>
 		<CategoryMask>Transport</CategoryMask>
 	</TransportUnit>
-
 	<TransportUnit Name="CIS_Sheathipede_Landing_Craft_Commando_Landing">
 		<Variant_Of_Existing_Type>CIS_Sheathipede_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -890,13 +857,21 @@
 		<Variant_Of_Existing_Type>CIS_Sheathipede_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CIS_Sheathipede_Landing_Craft_Commander_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CIS_Sheathipede_Landing_Craft_Commander_Landing">
 		<Variant_Of_Existing_Type>CIS_Sheathipede_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
-
+	
+	<TransportUnit Name="CIS_Sheathipede_Landing_Craft_Admin">
+		<Variant_Of_Existing_Type>CIS_Sheathipede_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>CIS_Sheathipede_Landing_Craft_Admin_Landing</Landing_Transport_Variant>
+		<Hyperspace_Speed>0.2</Hyperspace_Speed>
+	</TransportUnit>
+	<TransportUnit Name="CIS_Sheathipede_Landing_Craft_Admin_Landing">
+		<Variant_Of_Existing_Type>CIS_Sheathipede_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
 
 	<!-- Sheathipede B-->
+
 	<TransportUnit Name="Sheathipede_B_Type_Landing_Craft">
 		<Variant_Of_Existing_Type>Template_Transport</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_SHEATHIPEDE</Text_ID>
@@ -905,7 +880,7 @@
 		<Space_Model_Name>Class_Type_B_transport_shuttle_Space.ALO</Space_Model_Name>
 		<Land_Model_Name>Class_Type_B_transport_shuttle.ALO</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		
+
 		<Landing_Transport_Variant>Sheathipede_B_Type_Landing_Craft_Landing</Landing_Transport_Variant>
 
 		<Max_Speed>2.5</Max_Speed>
@@ -917,22 +892,21 @@
 		<Shield_Refresh_Rate>0.8</Shield_Refresh_Rate>
 
 		<HardPoints>HP_Sheathipede_01, HP_Sheathipede_02, HP_Sheathipede_03</HardPoints>
-		
+
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lamda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lamda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lamda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lamda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 	</TransportUnit>
-
 	<TransportUnit Name="Sheathipede_B_Type_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>Sheathipede_B_Type_Landing_Craft</Variant_Of_Existing_Type>
 		<Scale_Factor>1.2</Scale_Factor>
@@ -940,9 +914,9 @@
 
 		<Behavior>TRANSPORT</Behavior>
 		<LandBehavior></LandBehavior>
-		
+
 		<HardPoints>HP_Sheathipede_Ground_01</HardPoints>
-		
+
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 
@@ -956,7 +930,6 @@
 		<Variant_Of_Existing_Type>Sheathipede_B_Type_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Sheathipede_B_Type_Landing_Craft_Commando_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Sheathipede_B_Type_Landing_Craft_Commando_Landing">
 		<Variant_Of_Existing_Type>Sheathipede_B_Type_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -965,12 +938,12 @@
 		<Variant_Of_Existing_Type>Sheathipede_B_Type_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Sheathipede_B_Type_Landing_Craft_Light_Vehicles_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Sheathipede_B_Type_Landing_Craft_Light_Vehicles_Landing">
 		<Variant_Of_Existing_Type>Sheathipede_B_Type_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
 	<!-- Sheathipede Stock -->
+
 	<TransportUnit Name="Stock_Sheathipede_Landing_Craft">
 		<Variant_Of_Existing_Type>Template_Transport</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_SHEATHIPEDE</Text_ID>
@@ -979,7 +952,7 @@
 		<Space_Model_Name>Sheathipede-class_transport_shuttle_Space.ALO</Space_Model_Name>
 		<Land_Model_Name>Sheathipede-class_transport_shuttle.ALO</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		
+
 		<Landing_Transport_Variant>Stock_Sheathipede_Landing_Craft_Landing</Landing_Transport_Variant>
 
 		<Max_Speed>2.5</Max_Speed>
@@ -991,22 +964,21 @@
 		<Shield_Refresh_Rate>0.8</Shield_Refresh_Rate>
 
 		<HardPoints>HP_Sheathipede_01, HP_Sheathipede_02, HP_Sheathipede_03</HardPoints>
-		
+
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lamda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lamda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lamda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lamda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 	</TransportUnit>
-
 	<TransportUnit Name="Stock_Sheathipede_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>Stock_Sheathipede_Landing_Craft</Variant_Of_Existing_Type>
 		<Scale_Factor>1.2</Scale_Factor>
@@ -1014,9 +986,9 @@
 
 		<Behavior>TRANSPORT</Behavior>
 		<LandBehavior></LandBehavior>
-		
+
 		<HardPoints>HP_Sheathipede_Ground_01</HardPoints>
-		
+
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 
@@ -1030,12 +1002,21 @@
 		<Variant_Of_Existing_Type>Stock_Sheathipede_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Stock_Sheathipede_Landing_Craft_Commander_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Stock_Sheathipede_Landing_Craft_Commander_Landing">
+		<Variant_Of_Existing_Type>Stock_Sheathipede_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+	
+	<TransportUnit Name="Stock_Sheathipede_Landing_Craft_Admin">
+		<Variant_Of_Existing_Type>Stock_Sheathipede_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Stock_Sheathipede_Landing_Craft_Admin_Landing</Landing_Transport_Variant>
+		<Hyperspace_Speed>0.2</Hyperspace_Speed>
+	</TransportUnit>
+	<TransportUnit Name="Stock_Sheathipede_Landing_Craft_Admin_Landing">
 		<Variant_Of_Existing_Type>Stock_Sheathipede_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
 	<!-- Trade Fed Lander -->
+
 	<TransportUnit Name="TF_Landing_Craft">
 		<Variant_Of_Existing_Type>Template_Transport</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_TRADEFED_TRANSPORT</Text_ID>
@@ -1044,7 +1025,7 @@
 		<Space_Model_Name>CIS_Transport.ALO</Space_Model_Name>
 		<Land_Model_Name>CIS_Transport_Land.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		
+
 		<Landing_Transport_Variant>TF_Landing_Craft_Landing</Landing_Transport_Variant>
 
 		<Max_Speed>2.0</Max_Speed>
@@ -1056,22 +1037,21 @@
 		<Shield_Refresh_Rate>3.6</Shield_Refresh_Rate>
 
 		<HardPoints>HP_TF_Transport_Space_01, HP_TF_Transport_Space_02</HardPoints>
-		
+
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lamda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lamda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lamda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lamda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 	</TransportUnit>
-
 	<TransportUnit Name="TF_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Scale_Factor>5.3</Scale_Factor>
@@ -1079,9 +1059,9 @@
 
 		<Behavior>TRANSPORT</Behavior>
 		<LandBehavior></LandBehavior>
-		
+
 		<HardPoints>HP_TF_Transport_Ground</HardPoints>
-		
+
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 
@@ -1095,7 +1075,6 @@
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>TF_Landing_Craft_Light_Vehicles_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="TF_Landing_Craft_Light_Vehicles_Landing">
 		<Variant_Of_Existing_Type>TF_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1104,7 +1083,6 @@
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>TF_Landing_Craft_Troops_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="TF_Landing_Craft_Troops_Landing">
 		<Variant_Of_Existing_Type>TF_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1113,7 +1091,6 @@
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>TF_Landing_Craft_Commando_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="TF_Landing_Craft_Commando_Landing">
 		<Variant_Of_Existing_Type>TF_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1122,7 +1099,6 @@
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>TF_Landing_Craft_Droid_Commander_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="TF_Landing_Craft_Droid_Commander_Landing">
 		<Variant_Of_Existing_Type>TF_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1131,7 +1107,6 @@
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>TF_Landing_Craft_Artillery_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="TF_Landing_Craft_Artillery_Landing">
 		<Variant_Of_Existing_Type>TF_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1140,7 +1115,6 @@
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>TF_Landing_Craft_Tanks_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="TF_Landing_Craft_Tanks_Landing">
 		<Variant_Of_Existing_Type>TF_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1149,7 +1123,6 @@
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>TF_Landing_Craft_Air_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="TF_Landing_Craft_Air_Landing">
 		<Variant_Of_Existing_Type>TF_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1158,7 +1131,6 @@
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>TF_Landing_Craft_Heavy_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="TF_Landing_Craft_Heavy_Landing">
 		<Variant_Of_Existing_Type>TF_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1169,18 +1141,18 @@
 	</TransportUnit>
 
 	<!-- MAF Lander -->
+
 	<TransportUnit Name="CIS_MAF_Landing_Craft">
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_MAF</Text_ID>
 		<Encyclopedia_Text>
-		<!-- stats -->	
+		<!-- stats -->
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_GUNSHIP </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_maf_cis.tga</Icon_Name>
 		<Land_Model_Name>CIS_MAF_Lander.alo</Land_Model_Name>
 		<Landing_Transport_Variant>CIS_MAF_Landing_Craft_CIS_MAF_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CIS_MAF_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>CIS_MAF_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
@@ -1207,7 +1179,6 @@
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CIS_MAF_Landing_Craft_CIS_MAF_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CIS_MAF_Landing_Craft_CIS_MAF_Landing">
 		<Variant_Of_Existing_Type>CIS_MAF_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1216,7 +1187,7 @@
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_MAF</Text_ID>
 		<Encyclopedia_Text>
-		<!-- stats -->	
+		<!-- stats -->
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_GUNSHIP </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_maf.tga</Icon_Name>
@@ -1224,7 +1195,6 @@
 		<Land_Model_Anim_Override_Name>CIS_MAF_Lander.alo</Land_Model_Anim_Override_Name>
 		<Landing_Transport_Variant>MAF_Landing_Craft_MAF_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="MAF_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>MAF_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
@@ -1251,24 +1221,23 @@
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>MAF_Landing_Craft_MAF_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="MAF_Landing_Craft_MAF_Landing">
 		<Variant_Of_Existing_Type>MAF_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
 	<!-- HMP Lander -->
+
 	<TransportUnit Name="HMP_Landing_Craft">
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HMP</Text_ID>
 		<Encyclopedia_Text>
-		<!-- stats -->	
+		<!-- stats -->
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_GUNSHIP </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_hmp.tga</Icon_Name>
 		<Land_Model_Name>HMP_Lander.alo</Land_Model_Name>
 		<Landing_Transport_Variant>HMP_Landing_Craft_HMP_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="HMP_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>HMP_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
@@ -1299,13 +1268,12 @@
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>HMP_Landing_Craft_HMP_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="HMP_Landing_Craft_HMP_Landing">
 		<Variant_Of_Existing_Type>HMP_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
-
 	<!-- Star Courier -->
+
 	<TransportUnit Name="Star_Courier">
 		<Variant_Of_Existing_Type>Template_Transport</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_STAR_COURIER</Text_ID>
@@ -1314,7 +1282,7 @@
 		<Space_Model_Name>Sith_Infiltrator_Scimitar.ALO</Space_Model_Name>
 		<Land_Model_Name>Sith_Infiltrator_Scimitar_land.ALO</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		
+
 		<Landing_Transport_Variant>Star_Courier_Landing</Landing_Transport_Variant>
 
 		<Max_Speed>4.0</Max_Speed>
@@ -1331,17 +1299,16 @@
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lamda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lamda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lamda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lamda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 	</TransportUnit>
-
 	<TransportUnit Name="Star_Courier_Landing">
 		<Variant_Of_Existing_Type>Star_Courier</Variant_Of_Existing_Type>
 		<Scale_Factor>1.2</Scale_Factor>
@@ -1349,9 +1316,9 @@
 
 		<Behavior>TRANSPORT</Behavior>
 		<LandBehavior></LandBehavior>
-		
+
 		<HardPoints>HP_Star_Courier_Ground_01</HardPoints>
-		
+
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 
@@ -1365,15 +1332,32 @@
 		<Variant_Of_Existing_Type>Star_Courier</Variant_Of_Existing_Type>
 		<Can_Participate_In_Space_Battle> No </Can_Participate_In_Space_Battle>
 	</TransportUnit>
+	
+	<TransportUnit Name="Star_Courier_Yansu">
+		<Variant_Of_Existing_Type>Star_Courier</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Star_Courier_Yansu_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	
+	<TransportUnit Name="Star_Courier_Yansu_Landing">
+		<Variant_Of_Existing_Type>Star_Courier_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
 
 	<!-- Command Staff transports - need to be unique for retire orbiting prereqs -->
 	<!-- Clone officers -->
+
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Cody">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Cody_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Cody_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Cody2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Cody2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Cody2_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
@@ -1381,8 +1365,15 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Rex_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Rex_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Rex2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Rex2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Rex2_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
@@ -1390,8 +1381,15 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Appo_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Appo_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Appo2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Appo2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Appo2_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
@@ -1399,7 +1397,6 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Bow_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Bow_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1408,7 +1405,6 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Vill_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Vill_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1417,8 +1413,15 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_71_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_71_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_71_2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_71_2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_71_2_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
@@ -1426,7 +1429,6 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Keller_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Keller_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1435,16 +1437,31 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Bacara_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Bacara_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Bacara2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Bacara2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Bacara2_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Jet">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Jet_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Jet_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
-	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Jet_Landing">
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Jet2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Jet2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Jet2_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
@@ -1452,7 +1469,6 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Faie_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Faie_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1461,8 +1477,15 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Gree_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Gree_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Gree2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Gree2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Gree2_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
@@ -1470,8 +1493,15 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Deviss_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Deviss_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Deviss2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Deviss2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Deviss2_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
@@ -1479,8 +1509,15 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Bly_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Bly_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Bly2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Bly2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Bly2_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
@@ -1488,17 +1525,24 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Wolffe_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Wolffe_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Wolffe2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Wolffe2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Wolffe2_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
 	<!-- Special Forces -->
+
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Delta">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Delta_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Delta_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1507,7 +1551,6 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Omega_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Omega_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1516,7 +1559,6 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Voca_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Voca_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1525,8 +1567,15 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Alpha_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Alpha_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Alpha2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Alpha2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Alpha2_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
@@ -1534,7 +1583,6 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Ordo_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Ordo_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1543,8 +1591,15 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Aden_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Aden_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+	
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Aden2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Aden2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Aden2_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
@@ -1552,7 +1607,6 @@
 		<Variant_Of_Existing_Type>Rho_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Rho_Shuttle_Landing_Craft_Gregor_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Rho_Shuttle_Landing_Craft_Gregor_Landing">
 		<Variant_Of_Existing_Type>Rho_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1561,26 +1615,121 @@
 		<Variant_Of_Existing_Type>Rho_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Rho_Shuttle_Landing_Craft_Neyo_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Rho_Shuttle_Landing_Craft_Neyo_Landing">
 		<Variant_Of_Existing_Type>Rho_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
+	
+	<TransportUnit Name="Rho_Shuttle_Landing_Craft_Neyo2">
+		<Variant_Of_Existing_Type>Rho_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Rho_Shuttle_Landing_Craft_Neyo2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Rho_Shuttle_Landing_Craft_Neyo2_Landing">
+		<Variant_Of_Existing_Type>Rho_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
 
+
+	<TransportUnit Name="CR25_Landing_Craft_Gaffa">
+		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>CR25_Landing_Craft_Gaffa_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="CR25_Landing_Craft_Gaffa_Landing">
+		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+
+	<TransportUnit Name="LAAT_Landing_Craft_Fordo">
+		<Variant_Of_Existing_Type>LAAT_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>LAAT_Landing_Craft_Fordo_Landing</Landing_Transport_Variant>
+		<Land_Model_Name>REP_ARC_LAAT.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>LAAT_LANDER.alo</Land_Model_Anim_Override_Name>
+	</TransportUnit>
+	<TransportUnit Name="LAAT_Landing_Craft_Fordo_Landing">
+		<Variant_Of_Existing_Type>LAAT_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<TransportUnit Name="LAAT_Landing_Craft_Fordo2">
+		<Variant_Of_Existing_Type>LAAT_Landing_Craft_Fordo</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>LAAT_Landing_Craft_Fordo2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="LAAT_Landing_Craft_Fordo2_Landing">
+		<Variant_Of_Existing_Type>LAAT_Landing_Craft_Fordo_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<TransportUnit Name="LAAT_Landing_Craft_501st">
+		<Variant_Of_Existing_Type>LAAT_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>LAAT_Landing_Craft_501st_Landing</Landing_Transport_Variant>
+		<No_Colorization_Color> 25, 25, 255, 255 </No_Colorization_Color>
+	</TransportUnit>
+	<TransportUnit Name="LAAT_Landing_Craft_501st_Landing">
+		<Variant_Of_Existing_Type>LAAT_Landing_Craft_Landing</Variant_Of_Existing_Type>
+		<No_Colorization_Color> 25, 25, 255, 255 </No_Colorization_Color>
+	</TransportUnit>
+
+	<TransportUnit Name="LAAT_Landing_Craft_Plos_Bros">
+		<Variant_Of_Existing_Type>LAAT_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>LAAT_Landing_Craft_Plos_Bros_Landing</Landing_Transport_Variant>
+		<Land_Model_Name>LAAT_LANDER_Plo_Bro.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>LAAT_LANDER.alo</Land_Model_Anim_Override_Name>
+		<No_Colorization_Color> 50, 77, 107, 255 </No_Colorization_Color>
+	</TransportUnit>
+	<TransportUnit Name="LAAT_Landing_Craft_Plos_Bros_Landing">
+		<Variant_Of_Existing_Type>LAAT_Landing_Craft_Landing</Variant_Of_Existing_Type>
+		<No_Colorization_Color> 50, 77, 107, 255 </No_Colorization_Color>
+	</TransportUnit>
+	
+	<TransportUnit Name="Rep_VAAT_Landing_Craft_Hero">
+		<Variant_Of_Existing_Type>Rep_VAAT_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Rep_LAAT_Landing_Craft_Hero_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Rep_LAAT_Landing_Craft_Hero_Landing">
+		<Variant_Of_Existing_Type>Rep_VAAT_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
 	<!-- Army Commanders -->
+
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Rom_Mohc">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Rom_Mohc_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Rom_Mohc_Landing">
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
-
+	
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Rom_Mohc2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Rom_Mohc2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Rom_Mohc2_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+	
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Grunger">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Grunger_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Grunger_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+	
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Kligson">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Kligson_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Kligson_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+	
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Kligson2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Kligson2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Kligson2_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+	
 	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Jayfon">
 		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Theta_Shuttle_Landing_Craft_Jayfon_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Jayfon_Landing">
 		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1589,18 +1738,16 @@
 		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Theta_Shuttle_Landing_Craft_Jesra_Loture_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Jesra_Loture_Landing">
 		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
-	<TransportUnit Name="LAAT_Landing_Craft_Ozzel">
+	<TransportUnit Name="LAAT_Landing_Craft_Gentis">
 		<Variant_Of_Existing_Type>LAAT_Landing_Craft</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>LAAT_Landing_Craft_Ozzel_Landing</Landing_Transport_Variant>
+		<Landing_Transport_Variant>LAAT_Landing_Craft_Gentis_Landing</Landing_Transport_Variant>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 	</TransportUnit>
-
-	<TransportUnit Name="LAAT_Landing_Craft_Ozzel_Landing">
+	<TransportUnit Name="LAAT_Landing_Craft_Gentis_Landing">
 		<Variant_Of_Existing_Type>LAAT_Landing_Craft_Landing</Variant_Of_Existing_Type>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 	</TransportUnit>
@@ -1609,17 +1756,15 @@
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR25_Landing_Craft_Romodi_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR25_Landing_Craft_Romodi_Landing">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
-	<TransportUnit Name="CR25_Landing_Craft_Gentis">
+	<TransportUnit Name="CR25_Landing_Craft_Ozzel">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>CR25_Landing_Craft_Gentis_Landing</Landing_Transport_Variant>
+		<Landing_Transport_Variant>CR25_Landing_Craft_Ozzel_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
-	<TransportUnit Name="CR25_Landing_Craft_Gentis_Landing">
+	<TransportUnit Name="CR25_Landing_Craft_Ozzel_Landing">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
@@ -1627,7 +1772,6 @@
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR25_Landing_Craft_Geen_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR25_Landing_Craft_Geen_Landing">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1636,7 +1780,6 @@
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>CR25_Landing_Craft_Solomahal_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="CR25_Landing_Craft_Solomahal_Landing">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1645,7 +1788,6 @@
 		<Variant_Of_Existing_Type>Gozanti_Heavy_Transport_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Gozanti_Heavy_Landing_Craft_Khamar_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Gozanti_Heavy_Landing_Craft_Khamar_Landing">
 		<Variant_Of_Existing_Type>Gozanti_Heavy_Transport_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1654,44 +1796,25 @@
 		<Variant_Of_Existing_Type>Gozanti_Heavy_Transport_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Gozanti_Heavy_Landing_Craft_Gideon_Tarkin_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Gozanti_Heavy_Landing_Craft_Gideon_Tarkin_Landing">
 		<Variant_Of_Existing_Type>Gozanti_Heavy_Transport_Landing_Craft_Landing</Variant_Of_Existing_Type>
-	</TransportUnit>
-
-	<TransportUnit Name="CR25_Landing_Craft_Gaffa">
-		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>CR25_Landing_Craft_Gaffa_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-	<TransportUnit Name="CR25_Landing_Craft_Gaffa_Landing">
-		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy_Landing</Variant_Of_Existing_Type>
-	</TransportUnit>
-
-	<TransportUnit Name="CR25_Landing_Craft_Fordo">
-		<Variant_Of_Existing_Type>CR25_Landing_Craft</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>CR25_Landing_Craft_Fordo_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-	<TransportUnit Name="CR25_Landing_Craft_Fordo_Landing">
-		<Variant_Of_Existing_Type>CR25_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
 	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Onara">
 		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Theta_Shuttle_Landing_Craft_Onara_Landing</Landing_Transport_Variant>
+		<Hyperspace_Speed>0.2</Hyperspace_Speed>
 	</TransportUnit>
-
 	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Onara_Landing">
 		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
-
+	
 	<!-- Jedi Generals -->
+
 	<TransportUnit Name="Kappa_Shuttle_Landing_Craft_Kota">
 		<Variant_Of_Existing_Type>Kappa_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Kappa_Shuttle_Landing_Craft_Kota_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Kappa_Shuttle_Landing_Craft_Kota_Landing">
 		<Variant_Of_Existing_Type>Kappa_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
@@ -1700,33 +1823,21 @@
 		<Variant_Of_Existing_Type>Kappa_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Kappa_Shuttle_Landing_Craft_Halcyon_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Kappa_Shuttle_Landing_Craft_Halcyon_Landing">
 		<Variant_Of_Existing_Type>Kappa_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
 	<!-- CIS Heroes -->
+
 	<TransportUnit Name="Ground_Tactical_Droid_Landing_Craft">
 		<Variant_Of_Existing_Type>TF_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Ground_Tactical_Droid_Landing_Craft_Landing</Landing_Transport_Variant>
 	</TransportUnit>
-
 	<TransportUnit Name="Ground_Tactical_Droid_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>TF_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
-	<TransportUnit Name="CIS_Hero_Landing_Craft">
-		<Variant_Of_Existing_Type>CIS_Sheathipede_Landing_Craft</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>CIS_Hero_Landing_Craft_Landing</Landing_Transport_Variant>
-		<CategoryMask>Transport</CategoryMask>
-	</TransportUnit>
-
-	<TransportUnit Name="CIS_Hero_Landing_Craft_Landing">
-		<Variant_Of_Existing_Type>CIS_Sheathipede_Landing_Craft_Landing</Variant_Of_Existing_Type>
-	</TransportUnit>
-
-
-	<!-- FotR_Enhanced -->
+<!-- FotR_Enhanced -->
 
 	<!-- Dooku's Variant for 'Required_Orbiting_Units' feature -->
 
@@ -1750,6 +1861,15 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Prudii2">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Prudii2_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Prudii2_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
 	<!-- Oppo Rancisis -->
 
 	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Oppo">
@@ -1759,78 +1879,6 @@
 
 	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Oppo_Landing">
 		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
-	</TransportUnit>
-
-	<!-- Order 66 grey army commanders -->
-
-	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Rom_Mohc_Imp">
-		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Rom_Mohc_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Jayfon_Imp">
-		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>Theta_Shuttle_Landing_Craft_Jayfon_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Jesra_Loture_Imp">
-		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>Theta_Shuttle_Landing_Craft_Jesra_Loture_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-	<TransportUnit Name="LAAT_Landing_Craft_Ozzel_Imp">
-		<Variant_Of_Existing_Type>LAAT_Landing_Craft</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>LAAT_Landing_Craft_Ozzel_Landing</Landing_Transport_Variant>
-		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
-	</TransportUnit>
-
-	<TransportUnit Name="CR25_Landing_Craft_Romodi_Imp">
-		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>CR25_Landing_Craft_Romodi_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-	<TransportUnit Name="CR25_Landing_Craft_Gentis_Imp">
-		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>CR25_Landing_Craft_Gentis_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-	<TransportUnit Name="CR25_Landing_Craft_Geen_Imp">
-		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>CR25_Landing_Craft_Geen_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-	<TransportUnit Name="CR25_Landing_Craft_Solomahal_Imp">
-		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>CR25_Landing_Craft_Solomahal_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-	<TransportUnit Name="CR25_Landing_Craft_Gaffa_Imp">
-		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>CR25_Landing_Craft_Gaffa_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-
-	<!-- Order 65 Senator Heroes -->
-
-	<!--
-	<TransportUnit Name="_">
-		<Variant_Of_Existing_Type></Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-	<TransportUnit Name="_Landing">
-		<Variant_Of_Existing_Type>_Landing</Variant_Of_Existing_Type>
-	</TransportUnit>
-	-->
-
-
-	<TransportUnit Name="CR20_Landing_Craft_Garm">
-		<Variant_Of_Existing_Type>CR20_Landing_Craft</Variant_Of_Existing_Type>
-		<Landing_Transport_Variant>CR20_Landing_Craft_Garm_Landing</Landing_Transport_Variant>
-	</TransportUnit>
-
-	<TransportUnit Name="CR20_Landing_Craft_Garm_Landing">
-		<Variant_Of_Existing_Type>CR20_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
 </TransportUnits>
