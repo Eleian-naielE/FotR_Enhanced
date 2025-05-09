@@ -11019,7 +11019,7 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Required_Planets></Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft_Prudii</Company_Transport_Unit>
+		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft_Prudii2</Company_Transport_Unit>
 		<Company_Units>Prudii_Skirata2</Company_Units>
 		<Is_Homogeneous>No</Is_Homogeneous>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -11084,6 +11084,28 @@
 		</Encyclopedia_Text>
 	</DummyStructure>
 
+	<DummyStructure Name="Prudii_Assign2">
+		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
+		
+		<Text_ID>TEXT_HERO_PRUDII</Text_ID>
+		<Icon_Name>i_button_prudii_p2_command.tga</Icon_Name>
+		
+		<SFXEvent_Build_Started> </SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled> </SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete> </SFXEvent_Build_Complete>	
+
+		<Affiliation>Empire</Affiliation>
+
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_ASSIGN_REPUBLIC_COMMANDO
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_CREATIVE
+		TEXT_TOOLTIP_TRAIT_STEALTHOPS
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PRUDII
+		</Encyclopedia_Text>
+	</DummyStructure>
+
 	<DummyStructure Name="Prudii_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 		
@@ -11106,6 +11128,27 @@
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Prudii</Required_Orbiting_Units>
 	</DummyStructure>
 
+	<DummyStructure Name="Prudii_Retire2">
+		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
+		
+		<Text_ID>TEXT_HERO_PRUDII</Text_ID>
+		<!--<Icon_Name>i_button_prudi_p2_retire.tga</Icon_Name>-->
+		<Icon_Name>I_BUTTON_PRUDII_P2.tga</Icon_Name>
+		
+		<SFXEvent_Build_Started> </SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled> </SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete> </SFXEvent_Build_Complete>
+		
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_RETIRE_REPUBLIC_COMMANDO
+		</Encyclopedia_Text>
+
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Prudii2</Required_Orbiting_Units>
+	</DummyStructure>
 
 
 </Republic_Heroes>
