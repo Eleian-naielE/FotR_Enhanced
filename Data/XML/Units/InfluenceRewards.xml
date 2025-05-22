@@ -3,10 +3,10 @@
 
 	<!-- ******************************************************************** -->
 	<!-- *************************** Space ********************************** -->
-	<!-- ******************************************************************** -->	
+	<!-- ******************************************************************** -->
 
 	<SpaceUnit Name="Geonosian_Cruiser_Influence">
-		<Variant_Of_Existing_Type>Geonosian_Cruiser</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Template_Geonosian_Cruiser</Variant_Of_Existing_Type>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<GUI_Row> 0 </GUI_Row>
 		<Required_Special_Structures>
@@ -14,15 +14,16 @@
 		CIS_Shipyard_Level_Four |
 		Hutt_Shipyard_Level_Four,
 		INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT | INFLUENCE_SEVEN,
-		AI_Category_Dummy | Non_Capital_Category_Dummy	
+		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
 		<Required_Planets>Geonosis</Required_Planets>
 		<Affiliation>Rebel, Empire, Hutt_Cartels, Commerce_Guild, Trade_Federation, Techno_Union, Banking_Clan</Affiliation>
 		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 	</SpaceUnit>
 
-	<SpaceUnit Name="Komrk_Gunship_Squadron_Influence">
-		<Variant_Of_Existing_Type>Komrk_Gunship_Squadron</Variant_Of_Existing_Type>
+	<SpaceUnit Name="Komrk_Gunship_Group_Influence">
+		<Variant_Of_Existing_Type>Komrk_Gunship_Group</Variant_Of_Existing_Type>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<GUI_Row> 0 </GUI_Row>
 		<Required_Special_Structures>
@@ -30,12 +31,15 @@
 		CIS_Shipyard_Level_Three |
 		Hutt_Shipyard_Level_Three,
 		INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT | INFLUENCE_SEVEN,
-		AI_Category_Dummy | Non_Capital_Category_Dummy	
+		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
 		<Required_Planets>Mandalore</Required_Planets>
 		<Affiliation>Rebel, Empire, Hutt_Cartels, Commerce_Guild, Trade_Federation, Techno_Union, Banking_Clan</Affiliation>
 		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 	</SpaceUnit>
+
+	<!-- FotR_Enhanced -->
 
 	<SpaceUnit Name="Umbaran_Frigate_Influence">
 		<Variant_Of_Existing_Type>Umbaran_Frigate</Variant_Of_Existing_Type>
@@ -49,12 +53,13 @@
 		<Tech_Level>0</Tech_Level>
 	</SpaceUnit>
 
+
 	<!-- ******************************************************************** -->
 	<!-- *************************** Ground ********************************* -->
-	<!-- ******************************************************************** -->	
+	<!-- ******************************************************************** -->
 
-	<GroundCompany Name="Storm_Cloud_Car_Company">
-		<Variant_Of_Existing_Type>Storm_Cloud_Car_Group</Variant_Of_Existing_Type>
+	<GroundCompany Name="Storm_Cloud_Car_Influence_Company">
+		<Variant_Of_Existing_Type>Storm_Cloud_Car_Company</Variant_Of_Existing_Type>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Affiliation>Rebel, Empire, Hutt_Cartels, Commerce_Guild, Trade_Federation, Techno_Union, Banking_Clan</Affiliation>
 		<Required_Special_Structures> INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT | INFLUENCE_SEVEN </Required_Special_Structures>
@@ -72,17 +77,17 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
-	
-	<GroundCompany Name="Ailon_Nova_Guard_Company">
-		<Variant_Of_Existing_Type>Ailon_Nova_Guard_Squad</Variant_Of_Existing_Type>
+
+	<GroundCompany Name="Ailon_Nova_Guard_Influence_Company">
+		<Variant_Of_Existing_Type>Ailon_Nova_Guard_Company</Variant_Of_Existing_Type>
 		<Tech_Level>0</Tech_Level>
 		<Affiliation>Rebel, Empire, Hutt_Cartels, Commerce_Guild, Trade_Federation, Techno_Union, Banking_Clan</Affiliation>
 		<Required_Special_Structures> INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT | INFLUENCE_SEVEN </Required_Special_Structures>
 		<Required_Planets>Ailon</Required_Planets>
 		<GUI_Row> 0 </GUI_Row>
-		
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		
+
 		<!--<MULTIPLAYER SKEAMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>240</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
@@ -90,11 +95,11 @@
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		
+
 	</GroundCompany>
 
-	<GroundCompany Name="Mandalorian_Soldier_Company">
-		<Variant_Of_Existing_Type>Mandalorian_Soldier_Team</Variant_Of_Existing_Type>
+	<GroundCompany Name="Mandalorian_Soldier_Influence_Company">
+		<Variant_Of_Existing_Type>Mandalorian_Soldier_Company</Variant_Of_Existing_Type>
 		<Tech_Level>0</Tech_Level>
 		<Affiliation>Rebel, Empire, Hutt_Cartels, Commerce_Guild, Trade_Federation, Techno_Union, Banking_Clan</Affiliation>
 		<Required_Special_Structures> INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT | INFLUENCE_SEVEN </Required_Special_Structures>
@@ -114,8 +119,8 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
-	<GroundCompany Name="Mandalorian_Commando_Company">
-		<Variant_Of_Existing_Type>Mandalorian_Commando_Team</Variant_Of_Existing_Type>
+	<GroundCompany Name="Mandalorian_Commando_Influence_Company">
+		<Variant_Of_Existing_Type>Mandalorian_Commando_Company</Variant_Of_Existing_Type>
 		<Tech_Level>0</Tech_Level>
 		<Affiliation>Rebel, Empire, Hutt_Cartels, Commerce_Guild, Trade_Federation, Techno_Union, Banking_Clan</Affiliation>
 		<Required_Special_Structures> INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT </Required_Special_Structures>
@@ -135,16 +140,16 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
-	<GroundCompany Name="Sun_Guard_Company">
-		<Variant_Of_Existing_Type>Sun_Guard_Squad</Variant_Of_Existing_Type>
+	<GroundCompany Name="Sun_Guard_Influence_Company">
+		<Variant_Of_Existing_Type>Sun_Guard_Company</Variant_Of_Existing_Type>
 		<Tech_Level>0</Tech_Level>
 		<Affiliation>Rebel, Empire, Hutt_Cartels, Commerce_Guild, Trade_Federation, Techno_Union, Banking_Clan</Affiliation>
 		<Required_Special_Structures> INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT | INFLUENCE_SEVEN </Required_Special_Structures>
 		<Required_Planets>Thyrsus</Required_Planets>
 		<GUI_Row> 0 </GUI_Row>
-		
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		
+
 		<!--<MULTIPLAYER SKEAMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>235</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
@@ -152,7 +157,28 @@
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		
+
+	</GroundCompany>
+	
+	<GroundCompany Name="CorSec_Trooper_Influence_Company">
+		<Variant_Of_Existing_Type>CorSec_Trooper_Company</Variant_Of_Existing_Type>
+		<Tech_Level>0</Tech_Level>
+		<Affiliation>Rebel, Empire, Hutt_Cartels, Commerce_Guild, Trade_Federation, Techno_Union, Banking_Clan</Affiliation>
+		<Required_Special_Structures> INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT | INFLUENCE_SEVEN </Required_Special_Structures>
+		<Required_Planets>Corellia</Required_Planets>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Company_Transport_Unit>CR20_Landing_Craft_Troops</Company_Transport_Unit>
+
+		<!--<MULTIPLAYER SKEAMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>230</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+
 	</GroundCompany>
 
 	<GroundCompany Name="LR_57_Droid_Company">
@@ -162,7 +188,7 @@
 		<Required_Special_Structures> INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT | INFLUENCE_SEVEN </Required_Special_Structures>
 		<Required_Planets>Christophsis</Required_Planets>
 		<GUI_Row> 0 </GUI_Row>
-		
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 	</GroundCompany>
 
@@ -179,7 +205,6 @@
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_wookflutter.tga</Icon_Name>
 
-		<Autoresolve_Health>40</Autoresolve_Health>
 		<Damage>24</Damage>
 
 		<Ship_Class>walker</Ship_Class>
@@ -195,18 +220,19 @@
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		
+
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>225</Score_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 		<Population_Value>1</Population_Value>
 
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Affiliation>Rebel, Empire, Hutt_Cartels, Commerce_Guild, Trade_Federation, Techno_Union, Banking_Clan</Affiliation>
 		<Required_Special_Structures> INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT | INFLUENCE_SEVEN </Required_Special_Structures>
-		<Required_Planets>Kashyyyk</Required_Planets>
+		<Required_Planets>Kashyyyk, Alaris</Required_Planets>
 
-		<Political_Control/>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
@@ -214,22 +240,14 @@
 		<Max_Squad_Size>1</Max_Squad_Size>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 
-		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Select_Wookie</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Move_Wookie</SFXEvent_Fleet_Move>
-
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-
 		<Formation_Prority>1</Formation_Prority>
 		<Company_Units>Wookiee_Flutter, Wookiee_Flutter, Wookiee_Flutter, Wookiee_Flutter, Wookiee_Flutter, Wookiee_Flutter, Wookiee_Flutter, Wookiee_Flutter</Company_Units>
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Wookiee</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Move_Wookiee</SFXEvent_Fleet_Move>
 		
 		<!--<MULTIPLAYER SKEAMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>170</Tactical_Build_Cost_Multiplayer>
