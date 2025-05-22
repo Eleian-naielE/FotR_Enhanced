@@ -1,58 +1,335 @@
 <?xml version="1.0"?>
 <Event_Dummies>
+<!-- Era Selection -->
 
-	<!--- Order 66/65 Selector Dummies -->
-
-	<DummyStructure Name="Republic_Future_Choice_Header">
+	<DummyStructure Name="Progressive_Start_Header">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_EVENT_REPUBLIC_FUTURE_CHOICE_HEADER</Text_ID>
+		<Text_ID>TEXT_EVENT_PROGRESSIVE_START_HEADER</Text_ID>
 		<Encyclopedia_Text> </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
 		<Icon_Name>nothing.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-
-		<Neutralization_Cost>1.0</Neutralization_Cost>
 	</DummyStructure>
-
-	<DummyStructure Name="Republic_Future_Choice_Body">
+	<DummyStructure Name="Progressive_Start_Body">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_EVENT_REPUBLIC_FUTURE_CHOICE_BODY</Text_ID>
+		<Text_ID>TEXT_EVENT_PROGRESSIVE_START_MAIN_BODY</Text_ID>
 		<Encyclopedia_Text> </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
-		<Icon_Name>I_MULTIPLAY_EMPIRE.TGA</Icon_Name>
+		<Icon_Name>i_button_empire.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-
-		<Neutralization_Cost>1.0</Neutralization_Cost>
 	</DummyStructure>
-
-	<DummyStructure Name="Republic_Future_Choice_Order_66">
+	<DummyStructure Name="Progressive_Start_1">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_EVENT_REPUBLIC_FUTURE_CHOICE_ORDER_66_HEADER</Text_ID>
-		<Encyclopedia_Text>TEXT_EVENT_REPUBLIC_FUTURE_CHOICE_ORDER_66_BODY </Encyclopedia_Text>
+		<Text_ID>TEXT_EVENT_PROGRESSIVE_START_ERA_1</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_PROGRESSIVE_START_ERA_1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
+		<Icon_Name>I_BUTTON_YEAR_SELECT_23BBY.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	<DummyStructure Name="Progressive_Start_2">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_PROGRESSIVE_START_ERA_2</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_EVENT_TOOLTIP_PROGRESSIVE_START_ERA_2
+		TEXT_NONE
+		TEXT_TOOLTIP_SEPARATOR_AVAILABLE_BLOCK
+		TEXT_TOOLTIP_SEPARATOR_FACTION_REPUBLIC
+		TEXT_UNIT_PHASE_ONE_PLATOON
+		TEXT_UNIT_ARC_TROOPER_P1_COMPANY
+		TEXT_UNIT_74Z_SPEEDER_BIKE
+		TEXT_UNIT_AT_XT_WALKER
+		TEXT_UNIT_GABA18
+		TEXT_UNIT_TX130S
+		TEXT_UNIT_INVINCIBLE
+		TEXT_TOOLTIP_SEPARATOR_FACTION_CIS
+		TEXT_UNIT_DESTROYER_DROID_MK1_W
+		TEXT_UNIT_GAT
+		TEXT_UNIT_PROVIDENCE_DESTROYER
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_YEAR_SELECT_22BBY.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	<DummyStructure Name="Progressive_Start_3">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_PROGRESSIVE_START_ERA_3</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_EVENT_TOOLTIP_PROGRESSIVE_START_ERA_3
+		TEXT_NONE
+		TEXT_TOOLTIP_SEPARATOR_AVAILABLE_BLOCK
+		TEXT_TOOLTIP_SEPARATOR_FACTION_REPUBLIC
+		TEXT_UNIT_PHASE_ONE_PLATOON
+		TEXT_UNIT_ARC_TROOPER_P1_COMPANY
+		TEXT_UNIT_74Z_SPEEDER_BIKE
+		TEXT_UNIT_AT_XT_WALKER
+		TEXT_UNIT_GABA18
+		TEXT_UNIT_TX130S
+		TEXT_UNIT_VENATOR
+		TEXT_UNIT_INVINCIBLE
+		TEXT_TOOLTIP_SEPARATOR_FACTION_CIS
+		TEXT_UNIT_DESTROYER_DROID_MK1_W
+		TEXT_UNIT_GAT
+		TEXT_UNIT_PROVIDENCE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_YEAR_SELECT_21BBY.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	<DummyStructure Name="Progressive_Start_4">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_PROGRESSIVE_START_ERA_4</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_EVENT_TOOLTIP_PROGRESSIVE_START_ERA_4
+		TEXT_NONE
+		TEXT_TOOLTIP_SEPARATOR_AVAILABLE_BLOCK
+		TEXT_TOOLTIP_SEPARATOR_FACTION_REPUBLIC
+		TEXT_UNIT_PHASE_TWO_PLATOON
+		TEXT_UNIT_ARC_TROOPER_P2_COMPANY
+		TEXT_UNIT_BARC_SPEEDER
+		TEXT_UNIT_SWAMP_SPEEDER
+		TEXT_UNIT_TX130S
+		TEXT_UNIT_FLASHBLIND
+		TEXT_UNIT_VENATOR
+		TEXT_UNIT_VICTORY_DESTROYER_MK1
+		TEXT_TOOLTIP_SEPARATOR_FACTION_CIS
+		TEXT_UNIT_DESTROYER_DROID_MK1_W
+		TEXT_UNIT_PURSUER
+		TEXT_UNIT_PROVIDENCE
+		TEXT_UNIT_LUCREHULKBATTLESHIP
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_YEAR_SELECT_20BBY.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	<DummyStructure Name="Progressive_Start_5">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_PROGRESSIVE_START_ERA_5</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_EVENT_TOOLTIP_PROGRESSIVE_START_ERA_5
+		TEXT_NONE
+		TEXT_TOOLTIP_SEPARATOR_AVAILABLE_BLOCK
+		TEXT_TOOLTIP_SEPARATOR_FACTION_REPUBLIC
+		TEXT_UNIT_PHASE_TWO_PLATOON
+		TEXT_UNIT_ARC_TROOPER_P2_COMPANY
+		TEXT_UNIT_BARC_SPEEDER
+		TEXT_UNIT_SWAMP_SPEEDER
+		TEXT_UNIT_TX130T
+		TEXT_UNIT_HAET
+		TEXT_UNIT_VENATOR
+		TEXT_UNIT_VICTORY_DESTROYER_MK1
+		TEXT_TOOLTIP_SEPARATOR_FACTION_CIS
+		TEXT_UNIT_DESTROYER_DROID_MK1_Q
+		TEXT_UNIT_DESTROYER_DROID_MK2
+		TEXT_UNIT_HMP
+		TEXT_UNIT_PURSUER
+		TEXT_UNIT_BULWARK_I
+		TEXT_UNIT_PROVIDENCE
+		TEXT_UNIT_LUCREHULKBATTLESHIP
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_YEAR_SELECT_19BBY.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+<!-- Senate Approval Choice Selector Dummies -->
+
+	<DummyStructure Name="Senate_Choice_Order_6X_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_SENATE_CHOICE_SUBHEADER</Text_ID>
+		<Icon_Name>nothing.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Order_6X_Body">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CHOOSE_AN_OPTION_HEADER</Text_ID>
+		<Icon_Name>nothing.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Order_6X_Order_66">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_SENATE_CHOICE_ORDER_6X_ORDER_66_HEADER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_EVENT_SENATE_CHOICE_ORDER_6X_ORDER_66_BODY
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_GOVERNMENT_REPUBLIC_APPROVAL_ORDER_66_HEADER
+		TEXT_GOVERNMENT_REPUBLIC_APPROVAL_ORDER_66_1
+		TEXT_GOVERNMENT_REPUBLIC_APPROVAL_ORDER_66_2
+		TEXT_GOVERNMENT_REPUBLIC_APPROVAL_ORDER_66_3
+		TEXT_GOVERNMENT_REPUBLIC_APPROVAL_ORDER_66_4
+		TEXT_GOVERNMENT_REPUBLIC_APPROVAL_ORDER_66_5
+		TEXT_GOVERNMENT_REPUBLIC_APPROVAL_ORDER_66_KUAT_1
+		TEXT_GOVERNMENT_REPUBLIC_APPROVAL_ORDER_66_KUAT_2
+		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_PALPATINE_FOTR.TGA</Icon_Name>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-
-		<Neutralization_Cost>1.0</Neutralization_Cost>
 	</DummyStructure>
-
-	<DummyStructure Name="Republic_Future_Choice_Order_65">
+	<DummyStructure Name="Senate_Choice_Order_6X_Order_65">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_EVENT_REPUBLIC_FUTURE_CHOICE_ORDER_65_HEADER </Text_ID>
-		<Encyclopedia_Text>TEXT_EVENT_REPUBLIC_FUTURE_CHOICE_ORDER_65_BODY </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
-
+		<Text_ID>TEXT_EVENT_SENATE_CHOICE_ORDER_6X_ORDER_65_HEADER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_EVENT_SENATE_CHOICE_ORDER_6X_ORDER_65_BODY
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_GOVERNMENT_REPUBLIC_APPROVAL_ORDER_65_HEADER
+		TEXT_GOVERNMENT_REPUBLIC_APPROVAL_ORDER_65_1
+		TEXT_GOVERNMENT_REPUBLIC_APPROVAL_ORDER_65_2
+		TEXT_GOVERNMENT_REPUBLIC_APPROVAL_ORDER_65_3
+		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_MON_MOTHMA_CW.TGA</Icon_Name>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
 
-		<Neutralization_Cost>1.0</Neutralization_Cost>
+	<DummyStructure Name="Senate_Choice_Mil_Enh_Header">
+		<Variant_Of_Existing_Type>Senate_Choice_Order_6X_Header</Variant_Of_Existing_Type>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Mil_Enh_Body">
+		<Variant_Of_Existing_Type>Senate_Choice_Order_6X_Body</Variant_Of_Existing_Type>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Mil_Enh_Mothma">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_SENATE_CHOICE_MIL_ENH_MOTHMA_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_SENATE_CHOICE_MIL_ENH_MOTHMA_BODY</Encyclopedia_Text>
+		<Icon_Name>i_button_mon_mothma_cw.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Mil_Enh_Pestage">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_SENATE_CHOICE_MIL_ENH_PESTAGE_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_SENATE_CHOICE_MIL_ENH_PESTAGE_BODY</Encyclopedia_Text>
+		<Icon_Name>i_button_pestage_cw.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Senate_Choice_Enh_Sec_Header">
+		<Variant_Of_Existing_Type>Senate_Choice_Order_6X_Header</Variant_Of_Existing_Type>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Enh_Sec_Body">
+		<Variant_Of_Existing_Type>Senate_Choice_Order_6X_Body</Variant_Of_Existing_Type>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Enh_Sec_Mothma">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_SENATE_CHOICE_ENH_SEC_MOTHMA_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_SENATE_CHOICE_ENH_SEC_MOTHMA_BODY</Encyclopedia_Text>
+		<Icon_Name>i_button_mon_mothma_cw.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Enh_Sec_Tarkin">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_SENATE_CHOICE_ENH_SEC_TARKIN_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_SENATE_CHOICE_ENH_SEC_TARKIN_BODY</Encyclopedia_Text>
+		<Icon_Name>i_button_paige_tarkin.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Senate_Choice_Kuat_Header">
+		<Variant_Of_Existing_Type>Senate_Choice_Order_6X_Header</Variant_Of_Existing_Type>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Kuat_Body">
+		<Variant_Of_Existing_Type>Senate_Choice_Order_6X_Body</Variant_Of_Existing_Type>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Kuat_Onara">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_SENATE_CHOICE_KUAT_ONARA_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_SENATE_CHOICE_KUAT_ONARA_BODY</Encyclopedia_Text>
+		<Icon_Name>i_button_onara_kuat.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Kuat_Giddean">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_SENATE_CHOICE_KUAT_GIDDEAN_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_SENATE_CHOICE_KUAT_GIDDEAN_BODY</Encyclopedia_Text>
+		<Icon_Name>i_button_giddean_danu.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Senate_Choice_Sec_Gov_Header">
+		<Variant_Of_Existing_Type>Senate_Choice_Order_6X_Header</Variant_Of_Existing_Type>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Sec_Gov_Body">
+		<Variant_Of_Existing_Type>Senate_Choice_Order_6X_Body</Variant_Of_Existing_Type>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Sec_Gov_Mothma">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_SENATE_CHOICE_SEC_GOV_MOTHMA_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_SENATE_CHOICE_SEC_GOV_MOTHMA_BODY</Encyclopedia_Text>
+		<Icon_Name>i_button_mon_mothma_cw.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Senate_Choice_Sec_Gov_Pestage">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_SENATE_CHOICE_SEC_GOV_PESTAGE_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_SENATE_CHOICE_SEC_GOV_PESTAGE_BODY</Encyclopedia_Text>
+		<Icon_Name>i_button_pestage_cw.tga</Icon_Name>
+	</DummyStructure>
+
+<!-- Republic Knightfall Tactical Mission Selector Dummies -->
+	<DummyStructure Name="Mission_Knightfall_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_MISSION_KNIGHTFALL_SUBHEADER</Text_ID>
+		<Icon_Name>nothing.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Mission_Knightfall_Body">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CHOOSE_AN_OPTION_HEADER</Text_ID>
+		<Icon_Name>nothing.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Mission_Knightfall_Play">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_MISSION_KNIGHTFALL_PLAY_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_MISSION_KNIGHTFALL_PLAY_BODY</Encyclopedia_Text>
+		<Icon_Name>i_button_anakin_darkside.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Mission_Knightfall_Skip">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_MISSION_KNIGHTFALL_SKIP_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_MISSION_KNIGHTFALL_SKIP_BODY</Encyclopedia_Text>
+		<Icon_Name>i_button_vader.tga</Icon_Name>
+	</DummyStructure>
+
+<!-- CIS Mandalorian Choice Selector Dummies -->
+	<DummyStructure Name="CIS_Mando_Choice_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CIS_MANDO_CHOICE_SUBHEADER</Text_ID>
+		<Icon_Name>nothing.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="CIS_Mando_Choice_Body">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CHOOSE_AN_OPTION_HEADER</Text_ID>
+		<Icon_Name>nothing.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="CIS_Mando_Choice_Protectors">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CIS_MANDO_CHOICE_PROTECTORS_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CIS_MANDO_CHOICE_PROTECTORS_BODY</Encyclopedia_Text>
+		<Icon_Name>i_button_mandalore_protectors.TGA</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="CIS_Mando_Choice_Death_Watch">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CIS_MANDO_CHOICE_DEATH_WATCH_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CIS_MANDO_CHOICE_DEATH_WATCH_BODY</Encyclopedia_Text>
+		<Icon_Name>i_button_mandalore_death_watch.TGA</Icon_Name>
 	</DummyStructure>
 
 	<!-- Malevolence Hunt Selector Dummies -->
@@ -63,7 +340,7 @@
 	<!-- Foerost Campaign Selector Dummies -->
 	<!-- Outer Rim Sieges Selector Dummies -->
 
-	<!--- Fighter Selector Headers -->
+<!--- Fighter Selector Headers -->
 
 	<DummyStructure Name="Arhul_Narra_Selector_Header">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
@@ -85,7 +362,7 @@
 
 		<Icon_Name>i_button_erk_harman.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-	</DummyStructure>	
+	</DummyStructure>
 
 	<DummyStructure Name="Garven_Dreis_Selector_Header">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
@@ -141,50 +418,70 @@
 		<Icon_Name>i_button_rhys_dallows.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
+	
+	<DummyStructure Name="Aron_Onstall_Selector_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
+		<Text_ID>TEXT_EVENT_ARON_ONSTALL_SELECTOR_HEADER</Text_ID>
+
+		<Icon_Name>I_BUTTON_ARON_ONSTALL.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
 	<DummyStructure Name="Warthog_P1_Selector_Header">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_EVENT_WARTHOG_SELECTOR_HEADER</Text_ID>
+		<Text_ID>TEXT_EVENT_WARTHOG_SELECTOR</Text_ID>
 		<Encyclopedia_Text> </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
-		<Icon_Name>i_button_warthog_p1.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_WARTHOG_P1.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
 	<DummyStructure Name="Warthog_P2_Selector_Header">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_EVENT_WARTHOG_SELECTOR_HEADER</Text_ID>
+		<Text_ID>TEXT_EVENT_WARTHOG_SELECTOR</Text_ID>
 		<Encyclopedia_Text> </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
-		<Icon_Name>i_button_warthog_p2.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_WARTHOG_P2.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-
-	<DummyStructure Name="Jag_P2_Selector_Header">
+	
+	<DummyStructure Name="Jorn_Kulish_Selector_Header">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_EVENT_JAG_SELECTOR_HEADER</Text_ID>
+		<Text_ID>TEXT_EVENT_JORN_KULISH_SELECTOR_HEADER</Text_ID>
 		<Encyclopedia_Text> </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
-		<Icon_Name>i_button_jag_p2.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_JORN_KULISH.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-
-	<DummyStructure Name="Bythen_Forral_Selector_Header">
+	
+	<DummyStructure Name="Shea_Hublin_Selector_Header">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_EVENT_BYTHEN_FORRAL_SELECTOR_HEADER</Text_ID>
+		<Text_ID>TEXT_EVENT_SHEA_HUBLIN_SELECTOR_HEADER</Text_ID>
 		<Encyclopedia_Text> </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
-		<Icon_Name>I_BUTTON_BYTHEN_FORRAL.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_SHEA_HUBLIN.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-	</DummyStructure>	
+	</DummyStructure>
+	
+	<DummyStructure Name="Brand_Selector_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_BRAND_SELECTOR_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_BRAND_FOTR.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
 
 	<DummyStructure Name="DFS1VR_Selector_Header">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
@@ -194,6 +491,17 @@
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
 		<Icon_Name>i_button_dfs1vr.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="88th_Flight_Selector_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_88TH_FLIGHT_SELECTOR_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_88TH_FLIGHT.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
@@ -229,7 +537,28 @@
 		<Icon_Name>i_button_vulpus.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
+	
+	<DummyStructure Name="Nwon_Raines_Selector_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
+		<Text_ID>TEXT_EVENT_NWON_RAINES_SELECTOR_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_NWON_RAINES.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Gorgol_Selector_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_GORGOL_SELECTOR_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_GORGOL.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
 
 	<DummyStructure Name="Piknab_Carsels_Selector_Header">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
@@ -242,6 +571,50 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 	
+	<DummyStructure Name="Siqo_Vass_Selector_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_SIQO_VASS_SELECTOR_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_SIQO_VASS.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Teroch_Selector_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_TEROCH_SELECTOR_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_TEROCH.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Serissu_Selector_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_SERISSU_SELECTOR_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_SERISSU.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Torani_Kulda_Selector_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_TORANI_KULDA_SELECTOR_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_TORANI_KULDA.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
 	<DummyStructure Name="Ssurussk_Selector_Header">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -253,8 +626,65 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
-	<!--- Fighter Selector Dummies -->
+	<!-- FotR_Enhanced -->
 
+	<DummyStructure Name="Jag_P2_Selector_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_JAG_SELECTOR_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_jag_p2.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Bythen_Forral_Selector_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_BYTHEN_FORRAL_SELECTOR_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_BYTHEN_FORRAL.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+<!--- Fighter Selector Dummies -->
+	
+	<DummyStructure Name="Fighter_Selector_Trachta">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_TRACHTA</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_TRACHTA.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Wessex">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_DENN_WESSEX</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_denn_wessex.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Byluir">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_BYLUIR</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_BYLUIR.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
 	<DummyStructure Name="Fighter_Selector_Baraka">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -263,6 +693,28 @@
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
 		<Icon_Name>I_BUTTON_BARAKA.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Dron">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_DRON</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_DRON.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Dao">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_DAO</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_DAO.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
@@ -274,10 +726,9 @@
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
 		<Icon_Name>i_button_grumby_cw.tga</Icon_Name>
-
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Wessel">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -286,7 +737,6 @@
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
 		<Icon_Name>I_BUTTON_WESSEL_CW.tga</Icon_Name>
-
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
@@ -366,6 +816,17 @@
 		<Icon_Name>I_BUTTON_GRANT_CW.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Coy">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_COY</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_COY_CW.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
 
 	<DummyStructure Name="Fighter_Selector_Ravik">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
@@ -407,8 +868,7 @@
 		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
-		<!--<Icon_Name>i_button_autem.tga</Icon_Name>-->
-		<Icon_Name>i_button_autem_alt.tga</Icon_Name>
+		<Icon_Name>i_button_autem.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
@@ -420,10 +880,9 @@
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
 		<Icon_Name>i_button_dallin.tga</Icon_Name>
-
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Martz">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -432,7 +891,6 @@
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
 		<Icon_Name>I_BUTTON_MARTZ.tga</Icon_Name>
-
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
@@ -512,6 +970,17 @@
 		<Icon_Name>i_button_coburn.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Mulleen">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_MULLEEN</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_MULLEEN.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
 
 	<DummyStructure Name="Fighter_Selector_Grievous">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
@@ -521,6 +990,39 @@
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
 		<Icon_Name>i_button_grievous.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Trench">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_TRENCH</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_trench.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Tuuk">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_TUUK</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_tuuk.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Shu_Mai">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_SHU_MAI</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_SHU_MAI.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
@@ -543,6 +1045,17 @@
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
 		<Icon_Name>i_button_tonith.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Canteval">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_CANTEVAL</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_canteval.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
@@ -600,6 +1113,17 @@
 		<Icon_Name>I_BUTTON_MERAI.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Dalesham">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_DALESHAM</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_DALESHAM.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
 
 	<DummyStructure Name="Fighter_Selector_Shonn">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
@@ -609,6 +1133,28 @@
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
 		<Icon_Name>I_BUTTON_SHONN_VOLTA.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Vetlya">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_KARAKSK_VETLYA</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_KARAKSK_VETLYA.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Dellso">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_DELLSO</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_dellso.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
@@ -655,6 +1201,39 @@
 		<Icon_Name>I_BUTTON_TDOCTOR.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Yago">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_MELLOR_YAGO</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_MELLOR_YAGO.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Devastation">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_DEVASTATION</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_DEVASTATION.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Sai_Sircu">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_SAI_SIRCU</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_SAI_SIRCU.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
 
 	<DummyStructure Name="Fighter_Selector_Colicoid">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
@@ -666,7 +1245,7 @@
 		<Icon_Name>i_button_colicoid_swarm.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Riboga">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -677,7 +1256,7 @@
 		<Icon_Name>I_BUTTON_RIBOGA.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Ulal">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -688,7 +1267,7 @@
 		<Icon_Name>I_BUTTON_ULAL.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Ganis">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -699,7 +1278,7 @@
 		<Icon_Name>I_BUTTON_GANIS.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Jiliac">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -710,7 +1289,7 @@
 		<Icon_Name>I_BUTTON_JILIAC.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Jabba">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -719,6 +1298,28 @@
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
 		<Icon_Name>i_button_jabba.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Fighter_Selector_Tobba">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_TOBBA</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_TOBBA.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Fighter_Selector_Mika">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_MIKA</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_MIKA.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 	
@@ -732,7 +1333,7 @@
 		<Icon_Name>i_button_pundar.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Quist">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -744,6 +1345,17 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 	
+	<DummyStructure Name="Fighter_Selector_Quince">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_QUINCE</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_quince.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
 	<DummyStructure Name="Fighter_Selector_Slagorth">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -754,7 +1366,7 @@
 		<Icon_Name>i_button_slagorth.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Selima_Kim">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -765,7 +1377,7 @@
 		<Icon_Name>i_button_selima_kim.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Eyttyrmin_Batiiv">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -776,7 +1388,7 @@
 		<Icon_Name>i_button_eyttyrmin_batiiv.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Sorority">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -787,7 +1399,7 @@
 		<Icon_Name>i_button_veiled_queen.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Zan_Dane">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -798,7 +1410,7 @@
 		<Icon_Name>i_button_zan_dane.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Targrim">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -809,7 +1421,7 @@
 		<Icon_Name>i_button_targrim.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Thalassian">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -831,7 +1443,7 @@
 		<Icon_Name>i_button_aycen.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Norulac">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -842,7 +1454,7 @@
 		<Icon_Name>i_button_norulac.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Ardella">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -853,7 +1465,7 @@
 		<Icon_Name>i_button_ardella.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Renthal">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -864,7 +1476,7 @@
 		<Icon_Name>i_button_renthal.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Drednar">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -875,7 +1487,7 @@
 		<Icon_Name>i_button_drednar.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Vulture_Pirates">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -886,7 +1498,7 @@
 		<Icon_Name>i_button_vultures.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
 	<DummyStructure Name="Fighter_Selector_Loose_Cannon">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -898,55 +1510,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
-	<SpaceUnit Name="Custom_GC_Republic">
-		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_gar.TGA</Icon_Name>
-		<Text_ID>TEXT_FACTION_REPUBLIC </Text_ID>
-	</SpaceUnit>
-	
-	<SpaceUnit Name="Custom_GC_Sector">
-		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
-		<Icon_Name>I_BUTTON_SECTOR_FORCES.TGA</Icon_Name>
-		<Text_ID>TEXT_FACTION_SECTORFORCES </Text_ID>
-	</SpaceUnit>
-	
-	<SpaceUnit Name="Custom_GC_CIS">
-		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
-		<Icon_Name>I_BUTTON_CIS.TGA</Icon_Name>
-		<Text_ID>TEXT_FACTION_CIS </Text_ID>
-	</SpaceUnit>
-	
-	<SpaceUnit Name="Custom_GC_Hutts">
-		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
-		<Icon_Name>I_BUTTON_HUTTS.tga</Icon_Name>
-		<Text_ID>TEXT_FACTION_HUTTS </Text_ID>
-	</SpaceUnit>
-	
-	<SpaceUnit Name="Custom_GC_IGBC">
-		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_banking_clan.TGA</Icon_Name>
-		<Text_ID>TEXT_FACTION_BANKING_CLAN </Text_ID>
-	</SpaceUnit>
-	
-	<SpaceUnit Name="Custom_GC_Commerce_Guild">
-		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_commerce_guild.TGA</Icon_Name>
-		<Text_ID>TEXT_FACTION_COMMERCE_GUILD </Text_ID>
-	</SpaceUnit>
-	
-	<SpaceUnit Name="Custom_GC_Trade_Federation">
-		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_trade_federation.TGA</Icon_Name>
-		<Text_ID>TEXT_FACTION_TRADEFED </Text_ID>
-	</SpaceUnit>
-	
-	<SpaceUnit Name="Custom_GC_Techno_Union">
-		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_techno_union.TGA</Icon_Name>
-		<Text_ID>TEXT_FACTION_TECHNO_UNION </Text_ID>
-	</SpaceUnit>
-
-<!-- FotR_Enhanced -->
+	<!-- FotR_Enhanced -->
 
 	<DummyStructure Name="Fighter_Selector_Block">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
@@ -970,18 +1534,6 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
-
-	<DummyStructure Name="Fighter_Selector_Dron">
-		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_HERO_DRON</Text_ID>
-		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
-
-		<Icon_Name>i_button_dron.tga</Icon_Name>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-	</DummyStructure>
-
 	<DummyStructure Name="Fighter_Selector_Denimoor">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -1002,6 +1554,434 @@
 
 		<Icon_Name>i_button_seerdon.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+<!-- Custom GC Dummies -->
+
+	<SpaceUnit Name="Custom_GC_Republic">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>i_button_gar.TGA</Icon_Name>
+		<Text_ID>TEXT_FACTION_REPUBLIC </Text_ID>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Custom_GC_Sector">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_SECTOR_FORCES.TGA</Icon_Name>
+		<Text_ID>TEXT_FACTION_SECTORFORCES </Text_ID>
+		<Encyclopedia_Text>
+		TEXT_DUMMY_CUSTOM_GC_RANDOM_FACTION_DESCRIPTION
+		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+		TEXT_DUMMY_CUSTOM_GC_RANDOM_FACTION_DESCRIPTION2
+		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+		TEXT_DUMMY_CUSTOM_GC_SECTOR_FORCES_DESCRIPTION
+		</Encyclopedia_Text>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Custom_GC_CIS">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_CIS.TGA</Icon_Name>
+		<Text_ID>TEXT_FACTION_CIS </Text_ID>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Custom_GC_Hutts">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_HUTTS.tga</Icon_Name>
+		<Text_ID>TEXT_FACTION_HUTT_CARTELS </Text_ID>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Custom_GC_IGBC">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>i_button_banking_clan.TGA</Icon_Name>
+		<Text_ID>TEXT_FACTION_BANKING_CLAN </Text_ID>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Custom_GC_Commerce_Guild">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>i_button_commerce_guild.TGA</Icon_Name>
+		<Text_ID>TEXT_FACTION_COMMERCE_GUILD </Text_ID>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Custom_GC_Trade_Federation">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>i_button_trade_federation.TGA</Icon_Name>
+		<Text_ID>TEXT_FACTION_TRADE_FEDERATION </Text_ID>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Custom_GC_Techno_Union">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>i_button_techno_union.TGA</Icon_Name>
+		<Text_ID>TEXT_FACTION_TECHNO_UNION </Text_ID>
+	</SpaceUnit>
+		
+	<SpaceUnit Name="Custom_GC_Light_Corvette">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_CORVETTE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Heavy_Corvette">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_CORVETTE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Heavy_Corvette2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_CORVETTE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Superheavy_Corvette">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_CORVETTE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Superheavy_Corvette2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_CORVETTE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_FrigateA">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_FrigateB">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_FrigateB2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_FrigateB3">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_FrigateC">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_FrigateC2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_FrigateD">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_FrigateE">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_FrigateF">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_FrigateG">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_FrigateH">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Heavy_Frigate">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_HEAVY_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Heavy_Frigate2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_HEAVY_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Heavy_Frigate3">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_HEAVY_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Heavy_Frigate4">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_HEAVY_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Superheavy_Frigate">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_HEAVY_FRIGATE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_CapitalShip">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_CAPITAL.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_CapitalShipB">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_CAPITAL.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Light_Battlecruiser">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_CAPITAL.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Heavy_Battlecruiser">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_SUPER_CAPITAL.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Heavy_Battlecruiser2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_SUPER_CAPITAL.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Light_Infantry">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_INFANTRY.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Light_Infantry2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_INFANTRY.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Heavy_Infantry">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_INFANTRY.TGA </Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Heavy_Infantry2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_INFANTRY.TGA </Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Commando">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_INFANTRY.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Commando2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_INFANTRY.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Commando3">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_INFANTRY.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Commando4">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_INFANTRY.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Bike">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_BIKE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Bike2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_BIKE.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Light_Walker">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_LIGHT.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Light_Vehicle">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_LIGHT.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Light_Vehicle2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_LIGHT.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Light_Vehicle3">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_LIGHT.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Medium_Vehicle">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_MEDIUM.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Medium_Vehicle2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_MEDIUM.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_2PerCompany">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_MEDIUM.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_2PerCompany2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_MEDIUM.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_2PerCompany3">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_MEDIUM.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Airspeeder">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_AIR.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Heavy_Vehicle">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_HEAVY.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Heavy_Vehicle2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_HEAVY.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Heavy_Vehicle3">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_HEAVY.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Gunship">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_AIR.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Gunship2">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_AIR.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Custom_GC_Artillery">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_ARTILLERY.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
+	</SpaceUnit>
+	
+	<DummyStructure Name="Custom_GC_AA">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_TARGET_VEHICLE_ARTILLERY.TGA</Icon_Name>
+		<Text_ID>TEXT_MAPPED_ROSTER_DUMMY </Text_ID>
+		<Encyclopedia_Text>TEXT_MAPPED_ROSTER_DESCRIPTION</Encyclopedia_Text>
 	</DummyStructure>
 
 </Event_Dummies>
