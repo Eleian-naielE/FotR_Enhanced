@@ -366,6 +366,32 @@
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Ahalas_Svindren_VAAT"}
 	</Svindren_In_Orbit>
 
+	<!-- FotR_Enhanced -->
+
+	<Block_Negotiator_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Block_Negotiator"}
+	</Block_Negotiator_In_Orbit>
+
+	<Block_Vigilance_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Block_Vigilance"}
+	</Block_Vigilance_In_Orbit>
+
+	<Dron_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Dron_Venator"}
+	</Dron_In_Orbit>
+
+	<Yularen_Resolute_SPHAT_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yularen_Resolute_SPHAT"}
+	</Yularen_Resolute_SPHAT_In_Orbit>
+
+	<Yularen_Resolute_66_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yularen_Resolute_66"}
+	</Yularen_Resolute_66_In_Orbit>
+
+	<Yularen_Integrity_66_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yularen_Integrity_66"}
+	</Yularen_Integrity_66_In_Orbit>
+
 	<!-- CoreSaga -->
 	
 	<Bossk_In_Orbit>
