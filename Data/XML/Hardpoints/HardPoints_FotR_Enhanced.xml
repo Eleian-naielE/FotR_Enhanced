@@ -503,7 +503,7 @@
 
     <!-- SPHA-T -->
     
-	<HardPoint Name="HP_SPHAT_Main">
+	<HardPoint Name="HP_SPHAT_Main"> <!-- Change Projectile? -->
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>

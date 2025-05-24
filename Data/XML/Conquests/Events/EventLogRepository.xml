@@ -1,0 +1,381 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+<!--*****************************************-->
+<!--**************Progressive****************-->
+<!--*****************************************-->
+
+	<!-- Republic -->
+
+	<Event Name="Pre_Clone_Wars_Republic_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PRE_CLONE_WARS_REPUBLIC_START</Event_Param2>
+	</Event>
+
+	<Event Name="Pre_Clone_Wars_Republic_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Republic</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Pre_Clone_Wars</Story_Tag>
+		<Prereq>Pre_Clone_Wars_Republic_Intro_Complete</Prereq>
+	</Event>
+
+
+	<Event Name="Clone_Wars_22BBY_Republic_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CLONE_WARS_22BBY_REPUBLIC_START</Event_Param2>
+	</Event>
+
+	<Event Name="Clone_Wars_22BBY_Republic_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Republic</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Clone_Wars_22BBY</Story_Tag>
+		<Prereq>Clone_Wars_22BBY_Republic_Intro_Complete</Prereq>
+	</Event>
+
+
+	<Event Name="Clone_Wars_21BBY_Republic_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CLONE_WARS_21BBY_REPUBLIC_START</Event_Param2>
+	</Event>
+
+	<Event Name="Clone_Wars_21BBY_Republic_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Republic</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>Clone_Wars_21BBY</Story_Tag>
+		<Prereq>Clone_Wars_21BBY_Republic_Intro_Complete</Prereq>
+	</Event>
+
+
+	<Event Name="Clone_Wars_20BBY_Republic_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CLONE_WARS_20BBY_REPUBLIC_START</Event_Param2>
+	</Event>
+
+	<Event Name="Clone_Wars_20BBY_Republic_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Republic</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>Clone_Wars_20BBY</Story_Tag>
+		<Prereq>Clone_Wars_20BBY_Republic_Intro_Complete</Prereq>
+	</Event>
+
+
+	<Event Name="Clone_Wars_19BBY_Republic_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CLONE_WARS_19BBY_REPUBLIC_START</Event_Param2>
+	</Event>
+
+	<Event Name="Clone_Wars_19BBY_Republic_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Republic</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Tag>Clone_Wars_19BBY</Story_Tag>
+		<Prereq>Clone_Wars_19BBY_Republic_Intro_Complete</Prereq>
+	</Event>
+
+
+	<!-- Confederacy -->
+
+	<Event Name="Pre_Clone_Wars_Confederacy_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PRE_CLONE_WARS_CONFEDERACY_START</Event_Param2>
+	</Event>
+
+	<Event Name="Pre_Clone_Wars_Confederacy_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Confederacy</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Pre_Clone_Wars</Story_Tag>
+		<Prereq>Pre_Clone_Wars_Confederacy_Intro_Complete</Prereq>
+	</Event>
+
+
+	<Event Name="Clone_Wars_22BBY_Confederacy_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CLONE_WARS_22BBY_CONFEDERACY_START</Event_Param2>
+	</Event>
+
+	<Event Name="Clone_Wars_22BBY_Confederacy_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Confederacy</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Clone_Wars_22BBY</Story_Tag>
+		<Prereq>Clone_Wars_22BBY_Confederacy_Intro_Complete</Prereq>
+	</Event>
+
+
+	<Event Name="Clone_Wars_21BBY_Confederacy_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CLONE_WARS_21BBY_CONFEDERACY_START</Event_Param2>
+	</Event>
+
+	<Event Name="Clone_Wars_21BBY_Confederacy_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Confederacy</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>Clone_Wars_21BBY</Story_Tag>
+		<Prereq>Clone_Wars_21BBY_Confederacy_Intro_Complete</Prereq>
+	</Event>
+
+
+	<Event Name="Clone_Wars_20BBY_Confederacy_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CLONE_WARS_20BBY_CONFEDERACY_START</Event_Param2>
+	</Event>
+
+	<Event Name="Clone_Wars_20BBY_Confederacy_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Confederacy</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>Clone_Wars_20BBY</Story_Tag>
+		<Prereq>Clone_Wars_20BBY_Confederacy_Intro_Complete</Prereq>
+	</Event>
+
+
+	<Event Name="Clone_Wars_19BBY_Confederacy_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CLONE_WARS_19BBY_CONFEDERACY_START</Event_Param2>
+	</Event>
+
+	<Event Name="Clone_Wars_19BBY_Confederacy_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Confederacy</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Tag>Clone_Wars_19BBY</Story_Tag>
+		<Prereq>Clone_Wars_19BBY_Confederacy_Intro_Complete</Prereq>
+	</Event>
+
+
+	<!-- Hutt_Cartels -->
+
+	<Event Name="Pre_Clone_Wars_Hutt_Cartels_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PRE_CLONE_WARS_HUTT_CARTELS_START</Event_Param2>
+	</Event>
+
+	<Event Name="Pre_Clone_Wars_Hutt_Cartels_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hutt_Cartels</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Pre_Clone_Wars</Story_Tag>
+		<Prereq>Pre_Clone_Wars_Hutt_Cartels_Intro_Complete</Prereq>
+	</Event>
+
+
+	<Event Name="Clone_Wars_22BBY_Hutt_Cartels_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CLONE_WARS_22BBY_HUTT_CARTELS_START</Event_Param2>
+	</Event>
+
+	<Event Name="Clone_Wars_22BBY_Hutt_Cartels_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hutt_Cartels</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Clone_Wars_22BBY</Story_Tag>
+		<Prereq>Clone_Wars_22BBY_Hutt_Cartels_Intro_Complete</Prereq>
+	</Event>
+
+
+	<Event Name="Clone_Wars_21BBY_Hutt_Cartels_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CLONE_WARS_21BBY_HUTT_CARTELS_START</Event_Param2>
+	</Event>
+
+	<Event Name="Clone_Wars_21BBY_Hutt_Cartels_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hutt_Cartels</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>Clone_Wars_21BBY</Story_Tag>
+		<Prereq>Clone_Wars_21BBY_Hutt_Cartels_Intro_Complete</Prereq>
+	</Event>
+
+
+	<Event Name="Clone_Wars_20BBY_Hutt_Cartels_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CLONE_WARS_20BBY_HUTT_CARTELS_START</Event_Param2>
+	</Event>
+
+	<Event Name="Clone_Wars_20BBY_Hutt_Cartels_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hutt_Cartels</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>Clone_Wars_20BBY</Story_Tag>
+		<Prereq>Clone_Wars_20BBY_Hutt_Cartels_Intro_Complete</Prereq>
+	</Event>
+
+
+	<Event Name="Clone_Wars_19BBY_Hutt_Cartels_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CLONE_WARS_19BBY_HUTT_CARTELS_START</Event_Param2>
+	</Event>
+
+	<Event Name="Clone_Wars_19BBY_Hutt_Cartels_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hutt_Cartels</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Tag>Clone_Wars_19BBY</Story_Tag>
+		<Prereq>Clone_Wars_19BBY_Hutt_Cartels_Intro_Complete</Prereq>
+	</Event>
+
+
+	<!-- Clone Phase II -->
+
+	<Event Name="Clone_Trooper_II_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PHASE_TWO_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Clone_Trooper_II_Research</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>CLONE_TROOPER_II_TAG</Story_Tag>
+	</Event>
+
+	<Event Name="Clone_Trooper_II_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PHASE_TWO_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>CLONE_TROOPER_II_TAG</Reward_Param1>
+	</Event>
+
+	<!-- Venator Research -->
+
+	<Event Name="Venator_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VENATOR_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Venator_Research</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Venator_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Venator_Dialog_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VENATOR_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Venator_Tag</Reward_Param1>
+	</Event>
+
+	<!-- Victory Research --> 
+
+	<Event Name="Victory_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VICTORY1_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Victory_Research</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Victory_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Victory_Dialog_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VICTORY1_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Victory_Tag</Reward_Param1>
+	</Event>
+	
+	<!-- Providence Research -->
+
+	<Event Name="Providence_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PROVIDENCE_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Providence_Research</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Providence_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Providence_Dialog_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PROVIDENCE_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Providence_Tag</Reward_Param1>
+	</Event>
+
+	<!-- Bulwark 1 Research -->
+
+	<Event Name="Bulwark_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>BULWARK1_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Bulwark_Research</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Bulwark_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Bulwark_Dialog_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>BULWARK1_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Bulwark_Tag</Reward_Param1>
+	</Event>
+
+	<!-- Victory 2 Research --> 
+
+	<Event Name="Victory2_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VICTORY2_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Victory2_Research</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Victory2_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Victory2_Dialog_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VICTORY2_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Victory2_Tag</Reward_Param1>
+	</Event>
+
+	<!-- Bulwark 2 Research -->
+
+	<Event Name="Bulwark2_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>BULWARK2_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Bulwark2_Research</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Bulwark2_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Bulwark2_Dialog_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>BULWARK2_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Bulwark2_Tag</Reward_Param1>
+	</Event>
+
+	<!-- Mandalore Support -->
+
+	<Event Name="Mandalore_Support_Timer">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CIS_MANDALORE_SUPPORT_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Mandalore_Support_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Mandalore_Support</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Mandalore_Support_Tag</Story_Tag>
+		<Prereq>Mandalore_Support_Timer</Prereq>
+	</Event>
+
+	<Event Name="Mandalore_Support_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CIS_MANDALORE_SUPPORT_CHOSEN</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Mandalore_Support_Tag</Reward_Param1>
+	</Event>
+</Story>

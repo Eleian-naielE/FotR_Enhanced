@@ -4693,7 +4693,7 @@
 		<Tech_Level>99</Tech_Level>
 	</SpaceUnit>
 
-	<SpaceUnit Name="Generic_Venator_SPHA_T">
+	<SpaceUnit Name="Venator_SPHA_T">
 		<Variant_Of_Existing_Type>Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_VENATOR_OFC_SPHA_T</Text_ID>
         <Lua_Script>GenericGameObject</Lua_Script>

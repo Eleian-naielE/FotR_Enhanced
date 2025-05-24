@@ -4,74 +4,68 @@ require("PGSpawnUnits")
 
 return {
     on_enter = function(self, state_context)
-
-		self.BattleshipEvents = false
-        self.VictoryEvents = false
-
         self.entry_time = GetCurrentTime()
 
-		if self.entry_time <= 5 then
-
+        if self.entry_time <= 5 then
             UnitUtil.SetLockList("EMPIRE", {
-                "Dreadnaught_Lasers",
-                "Dreadnaught_Carrier",
-                "Galleon",
-                "Citadel_Cruiser_Squadron",
+                "PDF_DHC",
+                "DHC_Carrier",
+                "Citadel_Cruiser_Group",
                 "Republic_A4_Juggernaut_Company",
-                "Republic_Navy_Trooper_Squad",
-                "Republic_Trooper_Team",
-                "Special_Tactics_Trooper_Squad",				
-				"Republic_ULAV_Company",
+                "Republic_Navy_Trooper_Company",
+                "Republic_Trooper_Company",
+                "Special_Tactics_Trooper_Company",
+                "Republic_ULAV_Company",
                 "Republic_ISP_Company",
-                "Republic_Flashblind_Group",
-                "Generic_Acclamator_Assault_Ship_II",
-                "Republic_HAET_Group",
+                "Republic_Flashblind_Company",
+                "Acclamator_II",
+                "HAET_Company",
                 "Republic_AT_AP_Walker_Company",
-                "Republic_AT_OT_Walker_Company",
-				"Republic_Gian_Company"
+                "AT_OT_Walker_Company",
+                "Republic_Gian_Company"
             }, false)
-			           
+
             UnitUtil.SetLockList("REBEL", {
-                "Auxiliary_Lucrehulk",
-                "HMP_Group",
+                "Lucrehulk_Auxiliary",
+                "HMP_Company",
                 "Destroyer_Droid_II_Company",
             }, false)
-			
+
             UnitUtil.SetLockList("BANKING_CLAN", {
-                "HMP_Group",
+                "HMP_Company",
                 "Destroyer_Droid_II_Company"
             }, false)
 
-			UnitUtil.SetLockList("TRADE_FEDERATION", {
-                "HMP_Group",
+            UnitUtil.SetLockList("TRADE_FEDERATION", {
+                "HMP_Company",
                 "Destroyer_Droid_II_Company"
             }, false)
 
-			UnitUtil.SetLockList("COMMERCE_GUILD", {
-                "HMP_Group",
+            UnitUtil.SetLockList("COMMERCE_GUILD", {
+                "HMP_Company",
                 "Destroyer_Droid_II_Company"
             }, false)
 
-			UnitUtil.SetLockList("TECHNO_UNION", {
-                "HMP_Group",
+            UnitUtil.SetLockList("TECHNO_UNION", {
+                "HMP_Company",
                 "Destroyer_Droid_II_Company"
             }, false)
 			
+            UnitUtil.SetLockList("TECHNO_UNION", {
+                "Skakoan_Combat_Engineer_Company",
+                "Marauder_Cruiser"
+            })
+
             UnitUtil.SetLockList("HUTT_CARTELS", {
 
-            }, false)			
-			
-			 UnitUtil.SetLockList("HUTT_CARTELS", {
-				"Consular_Refit"
-            })			
-			
-			
-        else
-            
+            }, false)
 
+             UnitUtil.SetLockList("HUTT_CARTELS", {
+                "Consular_Refit"
+            })
         end
     end,
-    on_update = function(self, state_context)  
+    on_update = function(self, state_context)
     end,
     on_exit = function(self, state_context)
     end

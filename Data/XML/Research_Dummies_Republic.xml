@@ -1,0 +1,518 @@
+<?xml version="1.0" ?>
+<Republic_Research_Dummies>
+	<!-- Chancellor Effects -->
+	<DummyStructure Name="DUMMY_CHIEFOFSTATE_MOTHMA">
+		<Affiliation>Empire</Affiliation>
+		<Text_ID>TEXT_HERO_MON_MOTHMA</Text_ID>
+		<Space_Model_Name>diamond_planet.ALO</Space_Model_Name>
+		<Land_Model_Name>diamond_planet.ALO</Land_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Select_Box_Scale>0</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Max_Instances_Per_Planet> 0 </Build_Max_Instances_Per_Planet>
+		<Size_Value>1</Size_Value>
+		<Base_Position>In_Base</Base_Position>
+		<Shield_Points>0</Shield_Points>
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>6</Required_Star_Base_Level>
+		<Required_Special_Structures>Placeholder_Category_Dummy</Required_Special_Structures>
+		<Required_Planets />
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Tactical_Health>1</Tactical_Health>
+		<Behavior>DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>DUMMY_LAND_BASE_LEVEL_COMPONENT</SpaceBehavior>
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		<Space_FOW_Reveal_Range>0.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>0.0</Targeting_Max_Attack_Distance>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
+		<Icon_Name>
+		</Icon_Name>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Scale_Factor>1</Scale_Factor>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+		<CategoryMask></CategoryMask>
+		<Score_Cost_Credits> 0 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Space_Layer> StaticObject </Space_Layer>
+	</DummyStructure>
+
+	<DummyStructure Name="DUMMY_CHIEFOFSTATE_PALPATINE">
+		<Affiliation>Empire</Affiliation>
+		<Text_ID>TEXT_HERO_CHANCELLOR_PALPATINE</Text_ID>
+		<Space_Model_Name>diamond_planet.ALO</Space_Model_Name>
+		<Land_Model_Name>diamond_planet.ALO</Land_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Select_Box_Scale>0</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Max_Instances_Per_Planet> 0 </Build_Max_Instances_Per_Planet>
+		<Size_Value>1</Size_Value>
+		<Base_Position>In_Base</Base_Position>
+		<Shield_Points>0</Shield_Points>
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>6</Required_Star_Base_Level>
+		<Required_Special_Structures>Placeholder_Category_Dummy</Required_Special_Structures>
+		<Required_Planets />
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Tactical_Health>1</Tactical_Health>
+		<Behavior>DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>DUMMY_LAND_BASE_LEVEL_COMPONENT</SpaceBehavior>
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		<Space_FOW_Reveal_Range>0.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>0.0</Targeting_Max_Attack_Distance>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
+		<Icon_Name>
+		</Icon_Name>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Scale_Factor>1</Scale_Factor>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+		<CategoryMask></CategoryMask>
+		<Score_Cost_Credits> 0 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Space_Layer> StaticObject </Space_Layer>
+	</DummyStructure>
+
+	<DummyStructure Name="DUMMY_CHIEFOFSTATE_EMPEROR_PALPATINE">
+		<Affiliation>Empire</Affiliation>
+		<Text_ID>TEXT_HERO_EMPEROR_PALPATINE</Text_ID>
+		<Space_Model_Name>diamond_planet.ALO</Space_Model_Name>
+		<Land_Model_Name>diamond_planet.ALO</Land_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Select_Box_Scale>0</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Max_Instances_Per_Planet> 0 </Build_Max_Instances_Per_Planet>
+		<Size_Value>1</Size_Value>
+		<Base_Position>In_Base</Base_Position>
+		<Shield_Points>0</Shield_Points>
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>6</Required_Star_Base_Level>
+		<Required_Special_Structures>Placeholder_Category_Dummy</Required_Special_Structures>
+		<Required_Planets />
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Tactical_Health>1</Tactical_Health>
+		<Behavior>DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>DUMMY_LAND_BASE_LEVEL_COMPONENT</SpaceBehavior>
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		<Space_FOW_Reveal_Range>0.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>0.0</Targeting_Max_Attack_Distance>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
+		<Icon_Name>
+		</Icon_Name>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Scale_Factor>1</Scale_Factor>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+		<CategoryMask></CategoryMask>
+		<Score_Cost_Credits> 0 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Space_Layer> StaticObject </Space_Layer>
+	</DummyStructure>
+
+	<!-- Researches -->
+	<DummyStructure Name="Dummy_Research_Republic_Fighters">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID> TEXT_RESEARCH_REPUBLIC_FIGHTER_NAME </Text_ID>
+		<Encyclopedia_Text> TEXT_RESEARCH_REPUBLIC_FIGHTER_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_RESEARCH_REP_FIGHTERS.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>3</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
+		<Build_Time_Seconds>100</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Lua_Script>ResearchRepublicFighters</Lua_Script>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Dummy_Research_Venator">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_RESEARCH_VENATOR_NAME</Text_ID>
+		<Encyclopedia_Text> TEXT_RESEARCH_VENATOR_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_RESEARCH_JEDI_CRUISER.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>2</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Kuat</Required_Planets>
+		<Build_Cost_Credits>13500</Build_Cost_Credits>
+		<Build_Time_Seconds>100</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Dummy_Research_Clone_Trooper_II">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_RESEARCH_CLONE_PHASE_II_NAME</Text_ID>
+		<Encyclopedia_Text> TEXT_RESEARCH_CLONE_PHASE_II_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_RESEARCH_CLONE_P2.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Kamino</Required_Planets>
+		<Build_Cost_Credits>13500</Build_Cost_Credits>
+		<Build_Time_Seconds>100</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Dummy_Research_Victory1_FoerostCampaign">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_RESEARCH_VSD1_NAME</Text_ID>
+		<Encyclopedia_Text> TEXT_RESEARCH_VSD1_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_RESEARCH_VICTORY_I.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Rendili</Required_Planets>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Dummy_Research_Victory1">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_RESEARCH_VSD1_NAME</Text_ID>
+		<Encyclopedia_Text> TEXT_RESEARCH_VSD1_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_RESEARCH_VICTORY_I.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>3</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Kuat, Rendili</Required_Planets>
+		<Build_Cost_Credits>13500</Build_Cost_Credits>
+		<Build_Time_Seconds>100</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Dummy_Research_Victory2">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_RESEARCH_VSD2_NAME</Text_ID>
+		<Encyclopedia_Text> TEXT_RESEARCH_VSD2_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_RESEARCH_VICTORY_II.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>4</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Kuat, Rendili</Required_Planets>
+		<Build_Cost_Credits>15000</Build_Cost_Credits>
+		<Build_Time_Seconds>100</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Dummy_Research_YWing">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID> TEXT_RESEARCH_BTLB_YWING_NAME </Text_ID>
+		<Encyclopedia_Text> TEXT_RESEARCH_BTLB_YWING_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_RESEARCH_BTLB.TGA</Icon_Name>
+
+
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Time_Seconds>40</Build_Time_Seconds>
+		<Required_Planets>Bormus</Required_Planets>
+
+		<Lua_Script>ResearchYwing</Lua_Script>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Dummy_Research_Gladiator">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_RESEARCH_GLADIATOR_NAME</Text_ID>
+		<Encyclopedia_Text> TEXT_RESEARCH_GLADIATOR_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_RESEARCH_GLADIATOR.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>3</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets/>
+		<Build_Cost_Credits>2500</Build_Cost_Credits>
+		<Build_Time_Seconds>50</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Dummy_Research_Transfer_Rogue_Jedi">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID> TEXT_RESEARCH_TRANSFER_ROGUE_JEDI_NAME </Text_ID>
+		<Encyclopedia_Text> TEXT_RESEARCH_TRANSFER_ROGUE_JEDI_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH </Encyclopedia_Unit_Class>
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<GUI_Row>1</GUI_Row>
+
+
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>Rogue_Jedi_Detention_Facility, AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets/>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Time_Seconds>80</Build_Time_Seconds>
+		<Icon_Name>I_BUTTON_TRANSFER_ROGUE_JEDI.TGA</Icon_Name>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Dummy_Research_Experimental_Frigate_Doctrine">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_RESEARCH_EXPERIMENTAL_FRIGATE_DOCTRINE_NAME</Text_ID>
+		<Encyclopedia_Text> TEXT_RESEARCH_EXPERIMENTAL_FRIGATE_DOCTRINE_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_RESEARCH_EXPERIMENTAL_FRIGATE_DOCTRINE.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>4</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets/>
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
+		<Build_Time_Seconds>100</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Dummy_KDY_Contract">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_GOVERNMENT_KUAT_CONTRACT</Text_ID>
+		<Encyclopedia_Text> TEXT_GOVERNMENT_KUAT_CONTRACT_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_kdy.tga</Icon_Name>
+
+		<CategoryMask>Wall</CategoryMask>
+
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>8000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+	</DummyStructure>
+
+	<!-- ODL research -->
+	<DummyStructure Name="Dummy_Research_Plague_Vaccine">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_RESEARCH_BRAINROT_PLAGUE_VACCINE_NAME</Text_ID>
+		<Encyclopedia_Text> TEXT_RESEARCH_BRAINROT_PLAGUE_VACCINE_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_RESEARCH_VIRUS_GENERIC.TGA</Icon_Name>
+
+		<CategoryMask>Upgrade</CategoryMask>
+
+
+		<GUI_Row> 0 </GUI_Row>
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		
+		<SFXEvent_Build_Started>RHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Dummy_Research_Duro_Investigations">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_RESEARCH_DURO_INVESTIGATIONS_NAME</Text_ID>
+		<Encyclopedia_Text> TEXT_RESEARCH_DURO_INVESTIGATIONS_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_INVESTIGATION_GENERIC.TGA</Icon_Name>
+
+		<CategoryMask>Upgrade</CategoryMask>
+
+
+		<GUI_Row> 0 </GUI_Row>
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		
+		<SFXEvent_Build_Started>RHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+</Republic_Research_Dummies>

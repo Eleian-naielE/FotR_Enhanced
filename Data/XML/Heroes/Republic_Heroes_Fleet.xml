@@ -1983,6 +1983,7 @@
 
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
 	</DummyStructure>
+
 	<DummyStructure Name="View_Admirals">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 		<GUI_Row> 1 </GUI_Row>
@@ -2011,6 +2012,7 @@
 
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
 	</DummyStructure>
+
 	<DummyStructure Name="Random_Admiral_Assign">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 		<GUI_Row> 0 </GUI_Row>
@@ -2147,6 +2149,7 @@
 		<Affiliation>Empire</Affiliation>
 
 	</DummyStructure>
+
 	<DummyStructure Name="Grumby_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -2322,6 +2325,7 @@
 		TEXT_TOOLTIP_COMMAND_KEBIR
 		</Encyclopedia_Text>
 	</DummyStructure>
+
 	<DummyStructure Name="Dallin_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -2476,6 +2480,7 @@
 		<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</UniqueUnit>
+
 	<UniqueUnit Name="Tallon_Battalion"> <!-- Order 65 Upgrade -->
 		<Variant_Of_Existing_Type>Praetor_I_Battlecruiser</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -2598,6 +2603,7 @@
 		<Required_Orbiting_Units>Tallon_Sundiver</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Four</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Tallon_Assign">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -2619,6 +2625,7 @@
 
 		<Affiliation>Empire</Affiliation>
 	</DummyStructure>
+
 	<DummyStructure Name="Tallon_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -2631,6 +2638,7 @@
 
 		<Required_Orbiting_Units>Tallon_Sundiver</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Tallon_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -2932,6 +2940,7 @@
 
 		<SFXEvent_Build_Complete>Unit_Upgrade_Maarisa</SFXEvent_Build_Complete>
 	</DummyStructure>
+	
 	<DummyStructure Name="Maarisa_Assign">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -2955,6 +2964,7 @@
 
 		<SFXEvent_Build_Complete>Unit_Complete_Maarisa</SFXEvent_Build_Complete>
 	</DummyStructure>
+	
 	<DummyStructure Name="Maarisa_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -2967,6 +2977,7 @@
 
 		<Required_Orbiting_Units>Maarisa_Captor</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Maarisa_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -3145,6 +3156,7 @@
 
 		<Affiliation>Empire</Affiliation>
 	</DummyStructure>
+	
 	<DummyStructure Name="Pellaeon_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -3252,6 +3264,7 @@
 		TEXT_TOOLTIP_COMMAND_NEXU
 		</Encyclopedia_Text>
 	</DummyStructure>
+	
 	<DummyStructure Name="Baraka_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -3364,6 +3377,7 @@
 		TEXT_TOOLTIP_COMMAND_PROSECUTOR
 		</Encyclopedia_Text>
 	</DummyStructure>
+	
 	<DummyStructure Name="Martz_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -3481,6 +3495,7 @@
 		TEXT_TOOLTIP_FLEET_LEGIONS_OCA
 		</Encyclopedia_Text>
 	</DummyStructure>
+	
 	<DummyStructure Name="Wieler_Retire">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 		<GUI_Row> 1 </GUI_Row>
@@ -3654,6 +3669,7 @@
 		TEXT_TOOLTIP_FLEET_LEGIONS_OCA
 		</Encyclopedia_Text>
 	</DummyStructure>
+	
 	<DummyStructure Name="Coburn_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -3842,6 +3858,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
+	
 	<UniqueUnit Name="Yularen_Integrity">
 		<Variant_Of_Existing_Type>Template_Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -4188,6 +4205,175 @@
 		</Abilities>
 	</UniqueUnit>
 
+	<!-- FotR_Enhanced -->
+
+	<UniqueUnit Name="Yularen_Resolute_SPHAT">
+		<Variant_Of_Existing_Type>Yularen_Resolute</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_YULAREN
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_RESOLUTE_FOTR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VENATOR_HULL 
+		TEXT_TOOLTIP_VENATOR_SHIELD
+		TEXT_TOOLTIP_VENATOR_MOVE
+		TEXT_TOOLTIP_VENATOR_SQUADRON
+		TEXT_TOOLTIP_YULAREN_SPECIAL
+		TEXT_TOOLTIP_VENATOR_WEAP1
+		TEXT_TOOLTIP_VENATOR_WEAP2 
+		TEXT_TOOLTIP_VENATOR_WEAP3
+		TEXT_TOOLTIP_VENATOR_WEAP4
+		TEXT_TOOLTIP_VENATOR_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_VENATOR_WEAP_INTEGRITY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_FLEET_LEGIONS_OCA
+		TEXT_TOOLTIP_YULAREN_UPGRADE
+		TEXT_TOOLTIP_YULAREN_INTEGRITY_RESPAWN
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+
+		<SpaceBehavior> LURE, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+
+		<HardPoints>
+		HP_Venator_Hero_Turret_01, HP_Venator_Hero_Turret_02, HP_Venator_Hero_Turret_03, HP_Venator_Hero_Turret_04, 
+			HP_Venator_Hero_01, HP_Venator_Hero_02, HP_Venator_Hero_03, HP_Venator_Hero_04, 
+			HP_Venator_Hero_05, HP_Venator_Hero_06, HP_Venator_Hero_07, HP_Venator_Hero_08,
+			Venator_Hero_Bay, Venator_Hero_Engines, Yularen_Venator_Bay_SPHAT
+		</HardPoints>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SUPER_LASER</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name> Venator_SPHAT_Ability </GUI_Activated_Ability_Name>
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<SFXEvent_Target_Ability> </SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Venator_SPHAT_Fire </SFXEvent_Special_Ability_Loop> 
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_YULAREN_SPHAT_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_YULAREN_SPHAT_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>LURE</Type>
+		
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_ability_Admiral_Yularen_Defence_Tactic</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_CAUTIOUSNESS_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_CAUTIOUSNESS_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_Cautiousness.tga</Alternate_Icon_Name>
+				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
+					 Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
+				<Effective_Radius>1</Effective_Radius>
+		
+				<Target_Types />
+
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<Expiration_Seconds>20</Expiration_Seconds>
+		
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>40</Max_Number_Of_Pulses>
+				<Particle_Effect>Cautiousness_Ability_Particle</Particle_Effect>
+
+				<Mod_Multiplier />
+				<Supports_Autofire>False</Supports_Autofire>	
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Super_Laser_Ability Name="Venator_SPHAT_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories> SpaceHero |  SuperCapital | Capital | Frigate | Corvette | Structure | SpaceStructure </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
+				<Owner_Particle_Bone_Name>HANGAR</Owner_Particle_Bone_Name>
+				<Activation_Min_Range>0</Activation_Min_Range>
+				<Activation_Max_Range>2000</Activation_Max_Range>
+				<Damage_Per_Frame>100</Damage_Per_Frame>	
+				<Fire_Frame>80</Fire_Frame>
+				<Beam_Texture_Name>tractor_beam01.tga</Beam_Texture_Name>
+				<Num_Anim_Frames>5</Num_Anim_Frames>
+				<Line_Width>20</Line_Width>
+				<Line_Color>87, 234, 226 255</Line_Color>
+			</Super_Laser_Ability>
+
+			<Combat_Bonus_Ability Name="Yularen_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.15</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.15</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Battlefield_Modifier_Ability Name="Yularen_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.15</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Combat_Bonus_Ability Name="Yularen_Combat_Bonus_Skywalker">
+				<Unit_Strength_Category />
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Anakin_Delta, Anakin_Eta, Vader_Eta</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.30</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.30</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<!-- note stacking category, this stacks with other hero combat bonuses -->
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<System_Spy_Ability Name="Yularen_Spy_Network">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>No</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Most_Powerful_Ship>Yes</See_Most_Powerful_Ship>
+				<See_Fleet_Contents>No</See_Fleet_Contents>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>No</See_Ground_Company_Contents>
+				<See_Special_Structures>No</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>Yes</See_Political_Control_Breakdown>
+				<See_Current_Production>No</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+
+			<!-- FotR_Enhanced -->
+			<Combat_Bonus_Ability Name="Yularen_OFC_Officer_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Generic_Venator_OFC, Generic_Venator_SPHA_T</Applicable_Unit_Types>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.10</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.05</Damage_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>-0.20</Ability_Recharge_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.05</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+
+	</UniqueUnit>
+
 	<DummyStructure Name="Yularen_Assign">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -4213,6 +4399,7 @@
 		TEXT_TOOLTIP_VENATOR_WEAP_INTEGRITY
 		</Encyclopedia_Text>
 	</DummyStructure>
+
 	<DummyStructure Name="Yularen_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -4229,6 +4416,24 @@
 
 		<Required_Orbiting_Units>Yularen_Resolute</Required_Orbiting_Units>
 	</DummyStructure>
+
+	<DummyStructure Name="Yularen_Retire1">
+		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
+
+		<SFXEvent_Build_Started> </SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled> </SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete> Unit_Unassigned_Admiral_Yularen </SFXEvent_Build_Complete>
+
+		<Text_ID>TEXT_HERO_YULAREN</Text_ID>
+		<Icon_Name>i_button_yularen_retire.tga</Icon_Name>
+
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Required_Orbiting_Units>Yularen_Resolute_SPHAT</Required_Orbiting_Units>
+	</DummyStructure>
+
 	<DummyStructure Name="Yularen_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -4245,6 +4450,7 @@
 
 		<Required_Orbiting_Units>Yularen_Integrity</Required_Orbiting_Units>
 	</DummyStructure>
+
 	<DummyStructure Name="Yularen_Retire3">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -4282,6 +4488,7 @@
 		<Required_Orbiting_Units>Yularen_Resolute</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Three | Republic_Shipyard_Level_Four</Required_Special_Structures>
 	</DummyStructure>
+
 	<DummyStructure Name="Yularen_Integrity_Upgrade_Invincible">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<GUI_Row> 1 </GUI_Row>
@@ -4300,6 +4507,28 @@
 
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Orbiting_Units>Yularen_Integrity</Required_Orbiting_Units>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Three | Republic_Shipyard_Level_Four</Required_Special_Structures>
+	</DummyStructure>
+
+	<!-- FotR_Enhanced -->
+
+	<DummyStructure Name="Yularen_Resolute_Upgrade_Resolute_SPHAT">
+		<Variant_Of_Existing_Type>Template_Flagship_Swap</Variant_Of_Existing_Type>
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
+
+		<Text_ID>TEXT_TOOLTIP_RESOLUTE_SPHAT_UPGRADE</Text_ID>
+		<Tech_Level>4</Tech_Level>
+		<Affiliation>Empire</Affiliation>
+		<Icon_Name>i_button_yularen.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_UPGRADE_FLAG
+		</Encyclopedia_Text>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Orbiting_Units>Yularen_Resolute</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Three | Republic_Shipyard_Level_Four</Required_Special_Structures>
 	</DummyStructure>
 
@@ -4485,6 +4714,7 @@
 		TEXT_TOOLTIP_FLEET_LEGIONS_OCA
 		</Encyclopedia_Text>
 	</DummyStructure>
+	
 	<DummyStructure Name="Kilian_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -4655,6 +4885,7 @@
 		TEXT_TOOLTIP_DAO_SPECIAL
 		</Encyclopedia_Text>
 	</DummyStructure>
+	
 	<DummyStructure Name="Dao_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -4790,6 +5021,7 @@
 		TEXT_TOOLTIP_FLEET_LEGIONS_OCA
 		</Encyclopedia_Text>
 	</DummyStructure>
+	
 	<DummyStructure Name="Tenant_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -4922,6 +5154,7 @@
 		TEXT_TOOLTIP_COMMAND_TENACIOUS
 		</Encyclopedia_Text>
 	</DummyStructure>
+	
 	<DummyStructure Name="Denimoor_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -5054,6 +5287,7 @@
 		TEXT_TOOLTIP_COMMAND_DRON
 		</Encyclopedia_Text>
 	</DummyStructure>
+	
 	<DummyStructure Name="Dron_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -5169,6 +5403,7 @@
 		TEXT_TOOLTIP_FLEET_LEGIONS_OCA
 		</Encyclopedia_Text>
 	</DummyStructure>
+	
 	<DummyStructure Name="Autem_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -5316,6 +5551,7 @@
 		TEXT_TOOLTIP_FORRAL_OVERRIDE
 		</Encyclopedia_Text>
 	</DummyStructure>
+	
 	<DummyStructure Name="Forral_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -5333,7 +5569,7 @@
 
 	<UniqueUnit Name="Block_Negotiator">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Variant_Of_Existing_Type>Template_Venator</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Template_Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Space_Model_Name>Venator_OFC.alo</Space_Model_Name>
 		<Icon_Name>i_button_block.tga</Icon_Name>
 		<Prevents_Story_Campaign_Autoresolve>no</Prevents_Story_Campaign_Autoresolve>
@@ -5562,6 +5798,17 @@
 		<Required_Orbiting_Units>Block_Vigilance</Required_Orbiting_Units>
 	</DummyStructure>
 
+	<UniqueUnit Name="Destruction_Survivor_Block_Nu_Shuttle">
+		<Variant_Of_Existing_Type>Destruction_Survivor_Transport</Variant_Of_Existing_Type>
+
+		<Space_Model_Name>Nu-Class_Attack_Shuttle_Space.ALO</Space_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+	</UniqueUnit>
+
 
 	<!-- Admiral Staff: Gladiator-I Heroes -->
 
@@ -5714,6 +5961,7 @@
 		TEXT_TOOLTIP_COMMAND_DEMOLISHER
 		</Encyclopedia_Text>
 	</DummyStructure>
+	
 	<DummyStructure Name="Screed_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -5897,6 +6145,7 @@
 		TEXT_TOOLTIP_COMMAND_ARDENT
 		</Encyclopedia_Text>
 	</DummyStructure>
+	
 	<DummyStructure Name="Dodonna_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -6003,6 +6252,7 @@
 		<SFXEvent_Build_Complete> </SFXEvent_Build_Complete>
 
 	</DummyStructure>
+	
 	<DummyStructure Name="Parck_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -6103,6 +6353,7 @@
 		</Abilities>
 
 	</UniqueUnit>
+	
 	<DummyStructure Name="Onara_Kuat_POTC_Upgrade">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<Build_Cost_Credits>10000</Build_Cost_Credits>
@@ -7592,6 +7843,7 @@
 			</Laser_Defense_Ability>
 		</Abilities>
 	</UniqueUnit>
+	
 	<UniqueUnit Name="Zozridor_Slayke_Carrack">
 		<Variant_Of_Existing_Type>Carrack_Cruiser_Lasers</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
