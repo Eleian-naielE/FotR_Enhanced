@@ -1604,6 +1604,7 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>PROXIMITY_MINES</Type>
+				<GUI_Activated_Ability_Name>Nimbus_Proximity_Mines_AV</GUI_Activated_Ability_Name>
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_NAME</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_ANTITANK_MINES.tga</Alternate_Icon_Name>

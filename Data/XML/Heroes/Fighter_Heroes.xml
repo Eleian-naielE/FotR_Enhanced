@@ -5107,7 +5107,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_ASSIGN_HERO_SQUAD
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_BELBULLAB23_SQUADRON
 		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
@@ -5129,7 +5129,7 @@
 		<Text_ID>TEXT_HERO_NWON_RAINES</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_NWON_RAINES
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -5166,6 +5166,27 @@
 				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Starfighter_Specialist -->
+			<Combat_Bonus_Ability Name="Starfighter_Specialist_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
+				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Starfighter_Specialist_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
+				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>1</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
 	</UniqueUnit>
 	<UniqueUnit Name="Belbullab23_Escort">
 		<Variant_Of_Existing_Type>Belbullab23</Variant_Of_Existing_Type>
@@ -6139,6 +6160,7 @@
 		TEXT_STATBLOCK_NANTEX_GORGOL_BASE
 		TEXT_STATBLOCK_NANTEX_MOVE
 		TEXT_STATBLOCK_NANTEX_WEAP1
+		TEXT_STATBLOCK_NANTEX_WEAP2
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ENGINEER</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_GORGOL.tga</Icon_Name>

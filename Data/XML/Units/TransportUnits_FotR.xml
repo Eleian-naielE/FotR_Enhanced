@@ -30,7 +30,7 @@
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Generic_Lambda_Shuttle</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
@@ -116,7 +116,7 @@
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Generic_Lambda_Shuttle</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
@@ -196,7 +196,7 @@
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Generic_Lambda_Shuttle</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
@@ -276,7 +276,7 @@
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Generic_Lambda_Shuttle</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
@@ -345,7 +345,7 @@
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Generic_Lambda_Shuttle</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
@@ -478,10 +478,10 @@
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_ATAT_Barge</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_ATAT_Barge</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_ATAT_Barge</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_ATAT_Barge</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
@@ -804,11 +804,11 @@
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
-		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Gallofree</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Gallofree</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gallofree</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Gallofree</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
@@ -896,11 +896,11 @@
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
-		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Gallofree</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Gallofree</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gallofree</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Gallofree</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
@@ -968,11 +968,11 @@
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
-		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Gallofree</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Gallofree</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gallofree</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Gallofree</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
@@ -1041,11 +1041,11 @@
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
-		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
+		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Gallofree</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Gallofree</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gallofree</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Gallofree</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
@@ -1299,7 +1299,7 @@
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
 
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Lambda_Shuttle</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Generic_Lambda_Shuttle</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Lambda_Shuttle</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lambda_Shuttle</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Lambda_Shuttle</SFXEvent_Attack>
@@ -1645,6 +1645,9 @@
 	</TransportUnit>
 	<TransportUnit Name="LAAT_Landing_Craft_Fordo_Landing">
 		<Variant_Of_Existing_Type>LAAT_Landing_Craft_Landing</Variant_Of_Existing_Type>
+		<Land_Model_Name>LAAT_LANDER_REP_ARC_LAAT.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>LAAT_LANDER.alo</Land_Model_Anim_Override_Name>
+		<Layer_Z_Adjust>29.0</Layer_Z_Adjust>
 	</TransportUnit>
 
 	<TransportUnit Name="LAAT_Landing_Craft_Fordo2">
@@ -1674,6 +1677,8 @@
 	</TransportUnit>
 	<TransportUnit Name="LAAT_Landing_Craft_Plos_Bros_Landing">
 		<Variant_Of_Existing_Type>LAAT_Landing_Craft_Landing</Variant_Of_Existing_Type>
+		<Land_Model_Name>LAAT_LANDER_Plo_Bro.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>LAAT_LANDER.alo</Land_Model_Anim_Override_Name>
 		<No_Colorization_Color> 50, 77, 107, 255 </No_Colorization_Color>
 	</TransportUnit>
 	

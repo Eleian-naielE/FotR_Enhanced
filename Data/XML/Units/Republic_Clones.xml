@@ -66,8 +66,7 @@
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, LANDING, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
-
+		<LandBehavior>SELECTABLE, LANDING, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
 		<HardPoints>HP_Clone_Rifle</HardPoints>
 
 		<Garrison_Category> Infantry </Garrison_Category>
@@ -210,9 +209,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
-		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		
 		<Turret_Rotate_Extent_Degrees>45.0</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>120.0</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>BIP01 Pelvis</Turret_Bone_Name>
@@ -224,13 +221,8 @@
 		<Turret_Targets_Ground_Infantry>1</Turret_Targets_Ground_Infantry>
 		<Turret_Targets_Air_Vehicles>3</Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else>4</Turret_Targets_Anything_Else>
-		<SFXEvent_Fire></SFXEvent_Fire>
-		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
 		<Property_Flags>Fodder</Property_Flags>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
-		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
@@ -1677,8 +1669,7 @@
 		TEXT_TOOLTIP_CLONE_P2_SQUAD
 		TEXT_TOOLTIP_CLONE_P2_HEALTH
 		TEXT_TOOLTIP_CLONE_P2_MOVE
-		TEXT_TOOLTIP_CLONE_SQUAD0_WEAP1
-		TEXT_TOOLTIP_CLONE_SQUAD0_WEAP2
+		TEXT_TOOLTIP_CLONE_SQUAD_WEAP1
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_LEGIONS
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
@@ -1980,8 +1971,9 @@
 		TEXT_TOOLTIP_CLONE_P2_SQUAD
 		TEXT_TOOLTIP_CLONE_P2_HEALTH
 		TEXT_TOOLTIP_CLONE_P2_MOVE
-		TEXT_TOOLTIP_CLONE_SQUAD0_WEAP1
-		TEXT_TOOLTIP_CLONE_SQUAD0_WEAP2
+		TEXT_TOOLTIP_CLONE_MEDIC_SQUAD_WEAP1A
+		TEXT_TOOLTIP_CLONE_MEDIC_SQUAD_WEAP2
+		TEXT_TOOLTIP_CLONE_MEDIC_SQUAD_WEAP3
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
@@ -2593,7 +2585,7 @@
 
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,TARGETING, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
 
 		<HardPoints>HP_Clone_Rifle_Skilled_ARC, HP_ARC_RPS, HP_ARC_Wrist_Rocket</HardPoints>
 
@@ -2911,7 +2903,7 @@
 		</Encyclopedia_Text>
 		<No_Colorization_Color> 228, 45, 49, 255 </No_Colorization_Color>
 
-		<LandBehavior> SELECTABLE, ABILITY_COUNTDOWN, LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DEMOLITION</LandBehavior>
+		<LandBehavior> SELECTABLE, ABILITY_COUNTDOWN, LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DEMOLITION</LandBehavior>
 		<HardPoints>HP_ARC_Carbine_Skilled, HP_ARC_Grenade, HP_ARC_Wrist_Flamer</HardPoints>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_LT</Highlight_Blob_Material_Name>
@@ -3243,7 +3235,9 @@
 			
 			<Unit_Ability>
 				<Type>PROXIMITY_MINES</Type>
+				<GUI_Activated_Ability_Name>ARC_Proximity_Mines_AV</GUI_Activated_Ability_Name>
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_ANTITANK_MINES.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
@@ -3508,7 +3502,7 @@
 		</Encyclopedia_Text>
 		<No_Colorization_Color> 228, 45, 49, 255 </No_Colorization_Color>
 
-		<LandBehavior> SELECTABLE, ABILITY_COUNTDOWN, LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DEMOLITION</LandBehavior>
+		<LandBehavior> SELECTABLE, ABILITY_COUNTDOWN, LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DEMOLITION</LandBehavior>
 		<HardPoints>HP_ARC_Carbine_Skilled, HP_ARC_Grenade, HP_ARC_Wrist_Flamer</HardPoints>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_LT</Highlight_Blob_Material_Name>
@@ -3839,6 +3833,9 @@
 			
 			<Unit_Ability>
 				<Type>PROXIMITY_MINES</Type>
+				<GUI_Activated_Ability_Name>ARC_Proximity_Mines_AV</GUI_Activated_Ability_Name>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_ANTITANK_MINES.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
@@ -3934,6 +3931,9 @@
 			
 			<Unit_Ability>
 				<Type>PROXIMITY_MINES</Type>
+				<GUI_Activated_Ability_Name>ARC_Proximity_Mines_AV</GUI_Activated_Ability_Name>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_ANTITANK_MINES.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
@@ -4029,7 +4029,7 @@
 
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 			<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, TARGETING, SHIELDED, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE, HINT</LandBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, SHIELDED, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE, HINT</LandBehavior>
 
 		<HardPoints>HP_Generic_Republic_Commando_Blaster, HP_Generic_Republic_Commando_Sniper, HP_Underslung_Proton_Grenade</HardPoints>
 
@@ -5257,7 +5257,7 @@
 
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,TARGETING, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
 
 		<HardPoints>HP_Clone_Rifle</HardPoints>
 
@@ -6085,7 +6085,7 @@
 
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,TARGETING, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
 
 		<HardPoints>HP_Clone_Rifle_Unskilled</HardPoints>
 
@@ -6932,7 +6932,7 @@
 
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,TARGETING, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
 
 		<HardPoints>HP_Clone_Carbine_Skilled</HardPoints>
 
@@ -7524,7 +7524,7 @@
 
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,TARGETING, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
 
 		<HardPoints> HP_BT_X42_Flamer_Underslung </HardPoints>
 
@@ -8012,7 +8012,7 @@
 
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,TARGETING, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
 
 		<HardPoints> HP_Clone_Carbine_Skilled </HardPoints>
 
@@ -8889,7 +8889,7 @@
 
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,TARGETING, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
 
 		<HardPoints> HP_Clone_Rifle_Skilled </HardPoints>
 

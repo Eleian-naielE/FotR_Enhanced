@@ -140,6 +140,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -338,6 +339,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 		
@@ -668,6 +670,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -876,6 +879,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -1669,6 +1673,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -2390,6 +2395,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -2572,6 +2578,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 		
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -2869,6 +2876,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -3165,6 +3173,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -3207,7 +3216,7 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>TARGETED_HACK</Type>
-				<Recharge_Seconds>120.0</Recharge_Seconds>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Gree_Hack_Ability </GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Guard_Clone_Trooper </SFXEvent_Target_Ability> 
 				<Supports_Autofire>False</Supports_Autofire>
@@ -3449,7 +3458,7 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>TARGETED_HACK</Type>
-				<Recharge_Seconds>120.0</Recharge_Seconds>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Gree_Hack_Ability </GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Guard_Clone_Trooper </SFXEvent_Target_Ability> 
 				<Supports_Autofire>False</Supports_Autofire>
@@ -3734,6 +3743,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -3910,6 +3920,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -4385,6 +4396,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -4670,6 +4682,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -4875,6 +4888,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -6079,6 +6093,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
@@ -6322,6 +6337,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
 		<Presence_Induced_Animations>
@@ -7428,12 +7444,12 @@
 		
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Respawn_Veers</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Veers</SFXEvent_Hero_Respawned>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Move_Fordo</SFXEvent_Fleet_Move>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
-		<Tactical_Build_Cost_Multiplayer>3950</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>4070</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
@@ -8640,7 +8656,7 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>TARGETED_HACK</Type>
-				<Recharge_Seconds>120.0</Recharge_Seconds>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Niner_Hack_Ability </GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Guard_Clone_Trooper </SFXEvent_Target_Ability> 
 				<Supports_Autofire>False</Supports_Autofire>
@@ -8709,9 +8725,15 @@
 					Empire_Anti_Aircraft_Turret,
 					Empire_Anti_Infantry_Turret,
 					Empire_Anti_Vehicle_Turret,
+					Empire_Bacta_Tank,
+					Empire_Repair_Facility,
+					Empire_Sensor_Node,
 					Rebel_Anti_Aircraft_Turret,
 					Rebel_Anti_Infantry_Turret,
 					Rebel_Anti_Vehicle_Turret,
+					Rebel_Bacta_Tank,
+					Rebel_Repair_Facility,
+					Rebel_Sensor_Node,
 					Hutt_Cartels_Anti_Aircraft_Turret,
 					Hutt_Cartels_Anti_Infantry_Turret,
 					Hutt_Cartels_Anti_Vehicle_Turret,
@@ -9597,6 +9619,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
 
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
@@ -9870,7 +9893,7 @@
 
 			<Unit_Ability>
 				<Type>TARGETED_HACK</Type>
-				<Recharge_Seconds>120.0</Recharge_Seconds>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Ordo_Hack_Ability </GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability/> 
 				<Supports_Autofire>False</Supports_Autofire>
@@ -9909,9 +9932,15 @@
 					Empire_Anti_Aircraft_Turret,
 					Empire_Anti_Infantry_Turret,
 					Empire_Anti_Vehicle_Turret,
+					Empire_Bacta_Tank,
+					Empire_Repair_Facility,
+					Empire_Sensor_Node,
 					Rebel_Anti_Aircraft_Turret,
 					Rebel_Anti_Infantry_Turret,
 					Rebel_Anti_Vehicle_Turret,
+					Rebel_Bacta_Tank,
+					Rebel_Repair_Facility,
+					Rebel_Sensor_Node,
 					Hutt_Cartels_Anti_Aircraft_Turret,
 					Hutt_Cartels_Anti_Infantry_Turret,
 					Hutt_Cartels_Anti_Vehicle_Turret,
@@ -10117,9 +10146,15 @@
 					Empire_Anti_Aircraft_Turret,
 					Empire_Anti_Infantry_Turret,
 					Empire_Anti_Vehicle_Turret,
+					Empire_Bacta_Tank,
+					Empire_Repair_Facility,
+					Empire_Sensor_Node,
 					Rebel_Anti_Aircraft_Turret,
 					Rebel_Anti_Infantry_Turret,
 					Rebel_Anti_Vehicle_Turret,
+					Rebel_Bacta_Tank,
+					Rebel_Repair_Facility,
+					Rebel_Sensor_Node,
 					Hutt_Cartels_Anti_Aircraft_Turret,
 					Hutt_Cartels_Anti_Infantry_Turret,
 					Hutt_Cartels_Anti_Vehicle_Turret,

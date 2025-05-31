@@ -1057,6 +1057,78 @@
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 	</DummyStructure>
 	
+	<UniqueUnit Name="Sai_Sircu_Devastation">
+		<Variant_Of_Existing_Type>Devastation</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_SAI_SIRCU</Text_ID>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_SAI_SIRCU
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_DEVASTATION
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_DEVASTATION_HULL
+		TEXT_TOOLTIP_DEVASTATION_SHIELD
+		TEXT_TOOLTIP_DEVASTATION_MOVE
+		TEXT_TOOLTIP_DEVASTATION_SQUADRON
+		TEXT_TOOLTIP_DEVASTATION_WEAP1 
+		TEXT_TOOLTIP_DEVASTATION_WEAP2 
+		TEXT_TOOLTIP_DEVASTATION_WEAP3
+		TEXT_TOOLTIP_DEVASTATION_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_DEVASTATION_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_NIGHTSISTER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_SAI_SIRCU.TGA</Icon_Name>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Tech_Level>99</Tech_Level>
+		<Affiliation>Rebel, Hostile, Independent_Forces</Affiliation>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+
+		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
+		<CategoryMask> SpaceHero | AntiCapital </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SUPER_LASER</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name>Super_Laser_Attack_Ability</GUI_Activated_Ability_Name> 
+				<Recharge_Seconds>180</Recharge_Seconds>
+				<Expiration_Seconds>3</Expiration_Seconds>
+				<SFXEvent_Target_Ability/>
+				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop> 
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Super_Laser_Ability Name="Super_Laser_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories> SpaceHero | SuperCapital | Capital | Frigate | Structure | SpaceStructure </Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
+				<Owner_Particle_Bone_Name>MuzzleA_00</Owner_Particle_Bone_Name>
+				<Activation_Min_Range>0</Activation_Min_Range>
+				<Activation_Max_Range>20000</Activation_Max_Range>
+				<Damage_Per_Frame>260</Damage_Per_Frame>
+				<Fire_Frame>106</Fire_Frame>
+				<Beam_Texture_Name>tractor_beam01.tga</Beam_Texture_Name>
+				<Num_Anim_Frames>5</Num_Anim_Frames>
+				<Line_Width>45</Line_Width>
+				<Line_Color>255 0 0 255</Line_Color>
+			</Super_Laser_Ability>
+		</Abilities>
+	</UniqueUnit>
 	<!-- Cruiser Heroes -->
 	<UniqueUnit Name="AutO_Providence"> <!-- Carrier/Destroyer Version -->
 		<Variant_Of_Existing_Type>Providence_Carrier_Destroyer</Variant_Of_Existing_Type>
@@ -1833,6 +1905,7 @@
 
 	<UniqueUnit Name="Vetlya_Core_Destroyer">
 		<Variant_Of_Existing_Type>Lucrehulk_Core_Destroyer</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_KARAKSK_VETLYA</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -1861,7 +1934,6 @@
 
 		<Tech_Level>99</Tech_Level>
 
-		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<GUI_Row> 1 </GUI_Row>
 
 		<Affiliation>Rebel </Affiliation>
@@ -1870,6 +1942,27 @@
 
 		<CategoryMask> SpaceHero | AntiFrigate | AntiFighter </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<SFXEvent_Select>Unit_Select_Bothan</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Bothan</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Bothan</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Bothan</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Bothan </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Bothan </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Bothan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Bothan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Bothan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Bothan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Bothan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Bothan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Bothan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Bothan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Bothan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Bothan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Bothan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Bothan </SFXEvent_Attack_Hardpoint>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -1898,10 +1991,7 @@
 		<Variant_Of_Existing_Type>Template_Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_VENATOR_RENOWN</Text_ID>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_VENATOR_RENOWN
-		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
-		TEXT_TOOLTIP_COMMAND_RENOWN
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_VENATOR_HULL 
 		TEXT_TOOLTIP_VENATOR_SHIELD

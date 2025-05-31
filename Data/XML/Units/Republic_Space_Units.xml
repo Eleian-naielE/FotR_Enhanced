@@ -6970,9 +6970,9 @@
 		<SFXEvent_Move>Unit_Move_ARC170</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Move_ARC170</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_ARC170</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
-		<SFXEvent_Assist_Move> Unit_Move_ARC170 </SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Attack> Unit_Attack_ARC170 </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Move_ARC170</SFXEvent_Guard>
+		<SFXEvent_Assist_Move/>
+		<SFXEvent_Assist_Attack/>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_ARC170 </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_ARC170 </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_DogfightWin_ARC170 </SFXEvent_Enemy_Damaged_Health_Low_Warning>

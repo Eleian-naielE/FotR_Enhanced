@@ -34,7 +34,7 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, STUNNABLE, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -55,7 +55,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Unique_Space_Unit>Obi_Wan_Delta</Unique_Space_Unit>
 
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1.45</Max_Speed>
@@ -113,9 +112,9 @@
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_ObiWan </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Die_ObiWan </Death_SFXEvent_Start_Die>   
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_ObiWan </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 		
@@ -330,20 +329,20 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HIGH_JEDI_GENERAL </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_obiwan.tga</Icon_Name>
-		<Build_Time_Seconds>15</Build_Time_Seconds>
+		
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Obi_Wan_Delta</Company_Transport_Unit>
+		<Company_Units>Obi_Wan</Company_Units>
+
+		<Population_Value>1</Population_Value>
+		
 		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
 		<Build_Cost_Credits> 2000 </Build_Cost_Credits>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Obi_Wan_Delta</Company_Transport_Unit>
-		<Company_Units>Obi_Wan</Company_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Available_In_Skirmish>yes</Available_In_Skirmish>
@@ -355,14 +354,10 @@
 		<Damage>50</Damage>
 		<Affiliation>Empire</Affiliation>
 
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_ObiWan</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_ObiWan</SFXEvent_Fleet_Move>
-
-		<Population_Value>1</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
 		<Tactical_Build_Cost_Multiplayer>2440</Tactical_Build_Cost_Multiplayer>
@@ -406,12 +401,8 @@
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
-
-		<HardPoints> HP_Delta7_Laser </HardPoints>
-
+		
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -427,20 +418,22 @@
 		<AI_Combat_Power>80</AI_Combat_Power>
 		<Landing_Transport_Variant>Obi_Wan_Delta_Landing</Landing_Transport_Variant>
 
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> Unit_Complete_ObiWan </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>  
+
 		<SFXEvent_Select>Unit_Select_ObiWan</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_ObiWan</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_ObiWan</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_ObiWan</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_ObiWan</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Move_ObiWan</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Attack_ObiWan</SFXEvent_Group_Attack>
-		<SFXEvent_Health_Low_Warning>Unit_Health_Low_ObiWan  </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_ObiWan </SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die>Unit_Die_ObiWan </Death_SFXEvent_Start_Die>   
-
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete> Unit_Complete_ObiWan </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>  
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_ObiWan </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_ObiWan </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_ObiWan</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_ObiWan </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Die_ObiWan </Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_ObiWan </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_ObiWan </SFXEvent_Attack_Hardpoint>
@@ -518,7 +511,6 @@
 		TEXT_TOOLTIP_LEGIONS_OBI_WAN
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit>Obi_Wan_Eta</Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 	</HeroUnit>
 	<HeroCompany Name="Obi_Wan_Eta_Team">
@@ -571,8 +563,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_ObiWan</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_ObiWan</SFXEvent_Fleet_Move>
 
@@ -618,12 +610,8 @@
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
-
-		<HardPoints> HP_Eta_Laser, HP_Eta_Ion </HardPoints>
-
+		
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -639,20 +627,22 @@
 		<AI_Combat_Power>80</AI_Combat_Power>
 		<Landing_Transport_Variant>Obi_Wan_Eta_Landing</Landing_Transport_Variant>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_ObiWan </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_ObiWan</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_ObiWan</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_ObiWan</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_ObiWan</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_ObiWan</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Move_ObiWan</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Attack_ObiWan</SFXEvent_Group_Attack>
-		<SFXEvent_Health_Low_Warning>Unit_Health_Low_ObiWan  </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_ObiWan </SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die>Unit_Die_ObiWan </Death_SFXEvent_Start_Die>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_ObiWan </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_ObiWan </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_ObiWan</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_ObiWan </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Die_ObiWan </Death_SFXEvent_Start_Die>
 		
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_ObiWan </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_ObiWan </SFXEvent_Attack_Hardpoint>
@@ -721,7 +711,7 @@
 	</TransportUnit>
 
 	<HeroUnit Name="Obi_Wan3"> <!-- Historical variant -->
-		<Variant_Of_Existing_Type>Obi_Wan</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Obi_Wan2</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_10_LAND
@@ -729,7 +719,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_OBI_WAN_KENOBI
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
-		TEXT_UNIT_TWILIGHT
+		TEXT_UNIT_ETA2_FIGHTER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_OBI_WAN_KENOBI_HEALTH
 		TEXT_TOOLTIP_OBI_WAN_KENOBI_MOVE
@@ -741,7 +731,6 @@
 		TEXT_TOOLTIP_LEGIONS_OBI_WAN
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit></Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_10 -->
@@ -916,7 +905,7 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -937,7 +926,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Unique_Space_Unit>Anakin_Delta</Unique_Space_Unit>
 
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1.45</Max_Speed>
@@ -978,7 +966,6 @@
 		<Projectile_Fire_Recharge_Seconds>0.1</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Appearance_Delay_Frames> 20 </Projectile_Appearance_Delay_Frames>
 
-
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
@@ -995,9 +982,9 @@
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Anakin_Skywalker</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Die_Anakin_Skywalker </Death_SFXEvent_Start_Die>   
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Anakin_Skywalker </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Presence_Induced_Animations>
 			Celebrate,
@@ -1248,11 +1235,14 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_GENERAL </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_anakin.tga</Icon_Name>
+		
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Anakin_Delta</Company_Transport_Unit>
+		<Company_Units>Anakin</Company_Units>
 
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>50</Damage>
 		<Affiliation>Empire</Affiliation>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
@@ -1264,9 +1254,6 @@
 		<Build_Cost_Credits> 2000 </Build_Cost_Credits>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Anakin_Delta</Company_Transport_Unit>
-		<Company_Units>Anakin</Company_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Available_In_Skirmish>yes</Available_In_Skirmish>
@@ -1274,8 +1261,8 @@
 		<Can_Be_Only_One>true</Can_Be_Only_One>
 		<Is_Buildable>Yes</Is_Buildable>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Anakin_Skywalker</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Anakin_Skywalker</SFXEvent_Fleet_Move>
 	</HeroCompany>
@@ -1314,11 +1301,8 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Delta7_Laser </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -1334,8 +1318,10 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Anakin_Skywalker</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Anakin_Skywalker</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Anakin_Skywalker</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Move_Anakin_Skywalker</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Attack_Anakin_Skywalker</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Anakin_Skywalker </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Anakin_Skywalker </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Anakin_Skywalker </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Anakin_Skywalker</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Die_Anakin_Skywalker </Death_SFXEvent_Start_Die>   
@@ -1451,7 +1437,6 @@
 		TEXT_TOOLTIP_LEGIONS_ANAKIN
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit>Anakin_Eta</Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 	</HeroUnit>
 	<HeroCompany Name="Anakin_Eta_Team">
@@ -1508,8 +1493,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Anakin_Skywalker</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Anakin_Skywalker</SFXEvent_Fleet_Move>
 
@@ -1557,11 +1542,7 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Eta_Laser, HP_Eta_Ion </HardPoints>
-
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -1577,8 +1558,8 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Anakin_Skywalker</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Anakin_Skywalker</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Anakin_Skywalker</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Move_Anakin_Skywalker</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Attack_Anakin_Skywalker</SFXEvent_Group_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Anakin_Skywalker </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Anakin_Skywalker </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Anakin_Skywalker </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Anakin_Skywalker</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Die_Anakin_Skywalker </Death_SFXEvent_Start_Die>   
@@ -1704,7 +1685,6 @@
 		TEXT_TOOLTIP_LEGIONS_ANAKIN
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit></Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 -->
@@ -2232,14 +2212,14 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE,  IMPOSING_PRESENCE </LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
 		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
 		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
 		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
-		<Holster_Holstered_Bone_Translation> 0.0, 0.0 0.0 </Holster_Holstered_Bone_Translation>
+		<Holster_Holstered_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Holstered_Bone_Translation>
 		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
 		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
 		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
@@ -2253,7 +2233,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Unique_Space_Unit>Ahsoka_Delta</Unique_Space_Unit>
 
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1.5</Max_Speed>
@@ -2355,7 +2334,7 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>TARGETED_HACK</Type>
-				<Recharge_Seconds>120.0</Recharge_Seconds>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Ahsoka_Hack_Ability </GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Hack_Ahsoka_Tano </SFXEvent_Target_Ability> 
 				<Supports_Autofire>False</Supports_Autofire>
@@ -2483,9 +2462,15 @@
 					Empire_Anti_Aircraft_Turret,
 					Empire_Anti_Infantry_Turret,
 					Empire_Anti_Vehicle_Turret,
+					Empire_Bacta_Tank,
+					Empire_Repair_Facility,
+					Empire_Sensor_Node,
 					Rebel_Anti_Aircraft_Turret,
 					Rebel_Anti_Infantry_Turret,
 					Rebel_Anti_Vehicle_Turret,
+					Rebel_Bacta_Tank,
+					Rebel_Repair_Facility,
+					Rebel_Sensor_Node,
 					Hutt_Cartels_Anti_Aircraft_Turret,
 					Hutt_Cartels_Anti_Infantry_Turret,
 					Hutt_Cartels_Anti_Vehicle_Turret,
@@ -2609,11 +2594,7 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Delta7_Laser </HardPoints>
-
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -2633,8 +2614,10 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ahsoka_Tano</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Ahsoka_Tano</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Ahsoka_Tano</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Group_Move_Ahsoka_Tano</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Group_Attack_Ahsoka_Tano</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Ahsoka_Tano </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Ahsoka_Tano </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Ahsoka_Tano </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Ahsoka_Tano</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Ahsoka_Tano </Death_SFXEvent_Start_Die>
@@ -2724,7 +2707,6 @@
 		TEXT_TOOLTIP_LEGIONS_ANAKIN
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit>Ahsoka_Eta</Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 	</HeroUnit>
 	<HeroCompany Name="Ahsoka_Eta_Team">
@@ -2777,8 +2759,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Ahsoka_Tano</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ahsoka_Tano</SFXEvent_Fleet_Move>
 
@@ -2829,11 +2811,7 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Eta_Laser, HP_Eta_Ion </HardPoints>
-
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -2853,6 +2831,10 @@
 		<SFXEvent_Fleet_Move>Unit_Move_Ahsoka_Tano</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Ahsoka_Tano</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Select_Ahsoka_Tano</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Ahsoka_Tano </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Ahsoka_Tano </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Ahsoka_Tano </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Ahsoka_Tano</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Ahsoka_Tano </Death_SFXEvent_Start_Die>
@@ -3007,7 +2989,6 @@
 		TEXT_TOOLTIP_LEGIONS_ANAKIN
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit></Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		<Lua_Script>ObjectScript_Ahsoka_Single_Saber</Lua_Script>
 		
@@ -3227,8 +3208,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Anakin_Ahsoka</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Anakin_Ahsoka</SFXEvent_Fleet_Move>
 
@@ -3261,6 +3242,7 @@
 		TEXT_TOOLTIP_TWILIGHT_HULL
 		TEXT_TOOLTIP_TWILIGHT_SHIELD
 		TEXT_TOOLTIP_TWILIGHT_MOVE
+		TEXT_TOOLTIP_TWILIGHT_SPECIAL
 		TEXT_TOOLTIP_TWILIGHT_WEAP1
 		TEXT_TOOLTIP_TWILIGHT_WEAP2
 		TEXT_TOOLTIP_TWILIGHT_WEAP3
@@ -3504,7 +3486,7 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>LURE, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
+		<LandBehavior>LURE, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE</LandBehavior>
 		<Lua_Script>ObjectScript_ForceSight</Lua_Script>
 		
 		<!-- Lightsaber holstering data -->
@@ -3526,7 +3508,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Unique_Space_Unit>Yoda_Delta</Unique_Space_Unit>
 
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1.2</Max_Speed>
@@ -3583,9 +3564,9 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Master_Yoda </SFXEvent_Health_Critical_Warning>   
 		<Death_SFXEvent_Start_Die> Unit_Die_Master_Yoda </Death_SFXEvent_Start_Die>  
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Master_Yoda </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 		
@@ -3838,7 +3819,7 @@
 		<Can_Be_Only_One>true</Can_Be_Only_One>
 
 		<SFXEvent_Build_Started>Unit_Move_Master_Yoda</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Master_Yoda</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Master_Yoda</SFXEvent_Fleet_Move>
 	</HeroCompany>
@@ -3860,6 +3841,7 @@
 		TEXT_STATBLOCK_DELTA7_WEAP1
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_GRAND </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_YODA.TGA</Icon_Name>
 
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -3875,11 +3857,8 @@
 
 		<SpaceBehavior>LURE, FIGHTER_LOCOMOTOR, SELECTABLE, ABILITY_COUNTDOWN, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Delta7_Laser </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -3890,21 +3869,20 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Master_Yoda </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Master_Yoda</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Master_Yoda</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Master_Yoda</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Master_Yoda</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Master_Yoda</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Assist_Move_Master_Yoda</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Assist_Attack_Master_Yoda</SFXEvent_Group_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Master_Yoda </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Master_Yoda </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Master_Yoda </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Master_Yoda </SFXEvent_Health_Critical_Warning>   
-		<Death_SFXEvent_Start_Die> Unit_Die_Master_Yoda </Death_SFXEvent_Start_Die>  
-
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Master_Yoda </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<Death_SFXEvent_Start_Die> Unit_Die_Master_Yoda </Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Master_Yoda </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Master_Yoda </SFXEvent_Attack_Hardpoint>
@@ -3917,7 +3895,6 @@
 		<Create_Team>No</Create_Team>
 		<Damage>1</Damage>
 		<AI_Combat_Power>80</AI_Combat_Power>
-		<Icon_Name>I_BUTTON_YODA.TGA</Icon_Name>
 		<Landing_Transport_Variant>Yoda_Delta_Landing</Landing_Transport_Variant>
 
 		<Unit_Abilities_Data SubObjectList="Yes"> 
@@ -4013,7 +3990,6 @@
 		TEXT_TOOLTIP_LEGIONS_LUMINARA
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit>Yoda_Eta</Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 	</HeroUnit>
 	<HeroCompany Name="Yoda_Eta_Team">
@@ -4058,7 +4034,7 @@
 		<Can_Be_Only_One>true</Can_Be_Only_One>
 
 		<SFXEvent_Build_Started>Unit_Move_Master_Yoda</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Master_Yoda</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Master_Yoda</SFXEvent_Fleet_Move>
 
@@ -4110,11 +4086,8 @@
 
 		<SpaceBehavior>LURE, FIGHTER_LOCOMOTOR, SELECTABLE, ABILITY_COUNTDOWN, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Eta_Laser, HP_Eta_Ion </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -4125,17 +4098,19 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 		
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Master_Yoda </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		
 		<SFXEvent_Select>Unit_Select_Master_Yoda</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Master_Yoda</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Master_Yoda</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Master_Yoda</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Master_Yoda</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Assist_Move_Master_Yoda</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Assist_Attack_Master_Yoda</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Master_Yoda </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Master_Yoda </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Master_Yoda </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Master_Yoda </SFXEvent_Health_Critical_Warning>   
 		<Death_SFXEvent_Start_Die> Unit_Die_Master_Yoda </Death_SFXEvent_Start_Die>
@@ -4173,7 +4148,6 @@
 					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.01f</Mod_Multiplier>
 					<Supports_Autofire>False</Supports_Autofire>
 				</Unit_Ability>
-
 			</Unit_Abilities_Data> 
 
 		<Abilities SubObjectList="Yes">
@@ -4319,10 +4293,9 @@
 		<Land_Model_Name>REP_WINDU.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>Jedi.alo</Land_Model_Anim_Override_Name>
 		
-		<Unique_Space_Unit>Windu_Delta</Unique_Space_Unit>
 		
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
+		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
@@ -4719,11 +4692,8 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Delta7_Laser </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -4739,17 +4709,19 @@
 		<AI_Combat_Power>80</AI_Combat_Power>
 		<Landing_Transport_Variant>Windu_Delta_Landing</Landing_Transport_Variant>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Mace_Windu </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Mace_Windu</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Mace_Windu</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mace_Windu</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Mace_Windu</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Mace_Windu</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Group_Move_Mace_Windu</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Group_Attack_Mace_Windu</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Mace_Windu </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Mace_Windu </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Mace_Windu </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Mace_Windu </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Mace_Windu </Death_SFXEvent_Start_Die>
@@ -4839,7 +4811,6 @@
 		TEXT_TOOLTIP_LEGIONS_MACE
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit>Windu_Eta</Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 	</HeroUnit>
 	<HeroCompany Name="Mace_Windu_Eta_Team">
@@ -4929,12 +4900,8 @@
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
-
-		<HardPoints> HP_Eta_Laser, HP_Eta_Ion </HardPoints>
-
+		
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -4952,17 +4919,19 @@
 		<AI_Combat_Power>80</AI_Combat_Power>
 		<Landing_Transport_Variant>Windu_Eta_Landing</Landing_Transport_Variant>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Mace_Windu </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Mace_Windu</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Mace_Windu</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mace_Windu</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Mace_Windu</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Mace_Windu</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Group_Move_Mace_Windu</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Group_Attack_Mace_Windu</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Mace_Windu </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Mace_Windu </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Mace_Windu </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Mace_Windu </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Mace_Windu </Death_SFXEvent_Start_Die>
@@ -5134,7 +5103,7 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -5155,7 +5124,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Unique_Space_Unit>Plo_Koon_Delta</Unique_Space_Unit>
 
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1.4</Max_Speed>
@@ -5202,9 +5170,9 @@
 		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Plo_Koon </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Plo_Koon</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Plo_Koon</SFXEvent_Move>
@@ -5490,14 +5458,14 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Plo_Koon</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Plo_Koon</SFXEvent_Fleet_Move>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
-		<Tactical_Build_Cost_Multiplayer>1615</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>3790</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
@@ -5539,11 +5507,8 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Delta7_Laser </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -5559,17 +5524,17 @@
 		<AI_Combat_Power>80</AI_Combat_Power>
 		<Landing_Transport_Variant>Plo_Koon_Delta_Landing</Landing_Transport_Variant>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Plo_Koon </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Plo_Koon</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Plo_Koon</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Plo_Koon</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Plo_Koon</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Plo_Koon</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Group_Move_Plo_Koon</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Group_Attack_Plo_Koon</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Plo_Koon </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Move_Plo_Koon </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Plo_Koon </SFXEvent_Health_Low_Warning>
@@ -5746,7 +5711,7 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -5767,7 +5732,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Unique_Space_Unit>Kit_Fisto_Delta</Unique_Space_Unit>
 
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1.4</Max_Speed>
@@ -5814,9 +5778,9 @@
 		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Kit_Fisto </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Kit_Fisto</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Kit_Fisto</SFXEvent_Move>
@@ -6071,8 +6035,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Kit_Fisto</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Move_Kit_Fisto</SFXEvent_Fleet_Move>
 
@@ -6119,12 +6083,8 @@
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
-
-		<HardPoints> HP_Delta7_Laser </HardPoints>
-
+		
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -6140,17 +6100,19 @@
 		<AI_Combat_Power>80</AI_Combat_Power>
 		<Landing_Transport_Variant>Kit_Fisto_Delta_Landing</Landing_Transport_Variant>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Kit_Fisto </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Kit_Fisto</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Kit_Fisto</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Kit_Fisto</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Kit_Fisto</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Kit_Fisto</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Group_Move_Kit_Fisto</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Group_Attack_Kit_Fisto</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Kit_Fisto </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Kit_Fisto </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Kit_Fisto </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Kit_Fisto </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Kit_Fisto</Death_SFXEvent_Start_Die>
@@ -6239,7 +6201,6 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit>Kit_Fisto_Eta</Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 	</HeroUnit>
 	<HeroCompany Name="Kit_Fisto_Eta_Team">
@@ -6293,8 +6254,8 @@
 
 		<Population_Value>1</Population_Value>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Kit_Fisto</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Move_Kit_Fisto</SFXEvent_Fleet_Move>
 
@@ -6339,12 +6300,8 @@
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
-
-		<HardPoints> HP_Eta_Laser, HP_Eta_Ion </HardPoints>
-
+		
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -6355,17 +6312,19 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Kit_Fisto </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Kit_Fisto</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Kit_Fisto</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Kit_Fisto</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Kit_Fisto</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Kit_Fisto</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Group_Move_Kit_Fisto</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Group_Attack_Kit_Fisto</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Kit_Fisto </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Kit_Fisto </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Kit_Fisto </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Kit_Fisto </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Kit_Fisto</Death_SFXEvent_Start_Die>
@@ -6540,7 +6499,7 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -6561,7 +6520,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Unique_Space_Unit>Aayla_Secura_Delta</Unique_Space_Unit>
 
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1.6</Max_Speed>
@@ -6608,9 +6566,9 @@
 		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Aayla_Secura </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Aayla_Secura</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Aayla_Secura</SFXEvent_Move>
@@ -6852,8 +6810,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Aayla_Secura</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Aayla_Secura</SFXEvent_Fleet_Move>
 
@@ -6907,12 +6865,9 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Delta7_Laser </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
-
+		
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
 		<MovementClass>Space</MovementClass>
@@ -6922,17 +6877,19 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Aayla_Secura </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Aayla_Secura</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Aayla_Secura</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Aayla_Secura</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Aayla_Secura</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Aayla_Secura</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Group_Move_Aayla_Secura</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Group_Attack_Aayla_Secura</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Aayla_Secura </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Aayla_Secura </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Aayla_Secura </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Aayla_Secura </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Aayla_Secura </Death_SFXEvent_Start_Die>
@@ -7023,7 +6980,6 @@
 		TEXT_TOOLTIP_LEGIONS_AAYLA
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit>Aayla_Secura_Eta</Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 	</HeroUnit>
 	<HeroCompany Name="Aayla_Secura_Eta_Team">
@@ -7077,8 +7033,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Aayla_Secura</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Aayla_Secura</SFXEvent_Fleet_Move>
 	</HeroCompany>
@@ -7120,12 +7076,9 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Eta_Laser, HP_Eta_Ion </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
-
+		
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
 		<MovementClass>Space</MovementClass>
@@ -7135,17 +7088,19 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Aayla_Secura </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Aayla_Secura</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Aayla_Secura</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Aayla_Secura</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Aayla_Secura</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Aayla_Secura</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Group_Move_Aayla_Secura</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Group_Attack_Aayla_Secura</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Aayla_Secura </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Aayla_Secura </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Aayla_Secura </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Aayla_Secura </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Aayla_Secura </Death_SFXEvent_Start_Die>
@@ -7313,14 +7268,14 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
 		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
 		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
 		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
-		<Holster_Holstered_Bone_Translation> 0.0, 0.0 0.0 </Holster_Holstered_Bone_Translation>
+		<Holster_Holstered_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Holstered_Bone_Translation>
 		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
 		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
 		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
@@ -7334,7 +7289,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Unique_Space_Unit>Ki_Adi_Mundi_Delta</Unique_Space_Unit>
 
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1.4</Max_Speed>
@@ -7383,7 +7337,7 @@
 
 		<SFXEvent_Tactical_Build_Started>  </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Ki_Adi_Mundi </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Ki_Adi_Mundi</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Ki_Adi_Mundi</SFXEvent_Move>
@@ -7628,8 +7582,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Ki_Adi_Mundi</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 	</HeroCompany>
@@ -7672,11 +7626,8 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Delta7_Laser </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -7687,15 +7638,19 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<SFXEvent_Tactical_Build_Started>  </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Ki_Adi_Mundi </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Ki_Adi_Mundi</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Ki_Adi_Mundi</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ki_Adi_Mundi</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Ki_Adi_Mundi</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Ki_Adi_Mundi</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Ki_Adi_Mundi </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Ki_Adi_Mundi </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Ki_Adi_Mundi</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Ki_Adi_Mundi</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Ki_Adi_Mundi</Death_SFXEvent_Start_Die>
@@ -7785,7 +7740,6 @@
 		TEXT_TOOLTIP_LEGIONS_MUNDI
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit>Ki_Adi_Mundi_Eta</Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 	</HeroUnit>
 	<HeroCompany Name="Ki_Adi_Mundi_Eta_Team">
@@ -7838,8 +7792,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Ki_Adi_Mundi</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ki_Adi_Mundi</SFXEvent_Fleet_Move>
 
@@ -7890,11 +7844,8 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Eta_Laser, HP_Eta_Ion </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -7904,16 +7855,18 @@
 		<Idle_Chase_Range>1200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
-
-		<SFXEvent_Tactical_Build_Started>  </SFXEvent_Tactical_Build_Started>
+			
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Ki_Adi_Mundi </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Ki_Adi_Mundi</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Ki_Adi_Mundi</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ki_Adi_Mundi</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Ki_Adi_Mundi</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Ki_Adi_Mundi</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Ki_Adi_Mundi </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Ki_Adi_Mundi </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Ki_Adi_Mundi</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Ki_Adi_Mundi</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Ki_Adi_Mundi</Death_SFXEvent_Start_Die>
@@ -8082,10 +8035,9 @@
 		<Land_Model_Name>Luminara_Unduli.alo</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>Jedi.alo</Land_Model_Anim_Override_Name>
 		
-		<Unique_Space_Unit>Luminara_Unduli_Delta</Unique_Space_Unit>
 		
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
+		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
@@ -8100,24 +8052,26 @@
 		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
 		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
 
-		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
 		<SFXEvent_Engine_Idle_Loop> Unit_Obiwan_Lightsaber_Idle_Loop  </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Obiwan_Lightsaber_Moving_Loop  </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Obiwan_Lightsaber_Cinematic_Loop  </SFXEvent_Engine_Cinematic_Focus_Loop>
 		
-		<SFXEvent_Tactical_Build_Complete> </SFXEvent_Tactical_Build_Complete>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
-		<SFXEvent_Select></SFXEvent_Select>
-		<SFXEvent_Move></SFXEvent_Move>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
-		<SFXEvent_Attack></SFXEvent_Attack>
-		<SFXEvent_Guard></SFXEvent_Guard>
-		<SFXEvent_Group_Move></SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack></SFXEvent_Group_Attack>
-		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning></SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die>  </Death_SFXEvent_Start_Die>   
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select>Unit_Select_Mara_Jade</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Mara_Jade</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mara_Jade</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Mara_Jade</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Mara_Jade</SFXEvent_Guard>
+		<SFXEvent_Group_Move>Unit_Group_Move_Mara_Jade</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Group_Attack_Mara_Jade</SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Mara_Jade </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Mara_Jade </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Mara_Jade </Death_SFXEvent_Start_Die>
 
 		<Armor_Type> ArmourG_Hero </Armor_Type>
 		<Tactical_Health>235</Tactical_Health>
@@ -8373,12 +8327,10 @@
 		<Damage>50</Damage>
 		<Affiliation>Empire</Affiliation>
 
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mara_Jade</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
 	<UniqueUnit Name="Luminara_Unduli_Delta">
@@ -8419,11 +8371,7 @@
 
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, ABILITY_COUNTDOWN, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Delta7_Laser </HardPoints>
-
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -8434,23 +8382,18 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<SFXEvent_Select></SFXEvent_Select>
-		<SFXEvent_Move></SFXEvent_Move>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
-		<SFXEvent_Attack></SFXEvent_Attack>
-		<SFXEvent_Guard></SFXEvent_Guard>
-
-		<SFXEvent_Group_Move></SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack></SFXEvent_Group_Attack>
-
-
-		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning></SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die>  </Death_SFXEvent_Start_Die>   
-
-		<SFXEvent_Tactical_Build_Started>  </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete>  </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Select>Unit_Select_Mara_Jade</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Mara_Jade</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mara_Jade</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Mara_Jade</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Mara_Jade</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Mara_Jade </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Mara_Jade </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Mara_Jade </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Mara_Jade </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Mara_Jade </Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
@@ -8537,7 +8480,6 @@
 		TEXT_TOOLTIP_LEGIONS_LUMINARA
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit>Luminara_Unduli_Eta</Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 	</HeroUnit>
 	<HeroCompany Name="Luminara_Unduli_Eta_Team">
@@ -8588,12 +8530,10 @@
 		<Damage>50</Damage>
 		<Affiliation>Empire</Affiliation>
 
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mara_Jade</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
 	<UniqueUnit Name="Luminara_Unduli_Eta">
@@ -8632,11 +8572,8 @@
 
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, ABILITY_COUNTDOWN, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Eta_Laser, HP_Eta_Ion </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -8646,24 +8583,19 @@
 		<Idle_Chase_Range>1200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
-
-		<SFXEvent_Select></SFXEvent_Select>
-		<SFXEvent_Move></SFXEvent_Move>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
-		<SFXEvent_Attack></SFXEvent_Attack>
-		<SFXEvent_Guard></SFXEvent_Guard>
-
-		<SFXEvent_Group_Move></SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack></SFXEvent_Group_Attack>
-
-
-		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning></SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die>  </Death_SFXEvent_Start_Die>   
-
-		<SFXEvent_Tactical_Build_Started>  </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete>  </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		
+		<SFXEvent_Select>Unit_Select_Mara_Jade</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Mara_Jade</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mara_Jade</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Mara_Jade</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Mara_Jade</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Mara_Jade </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Mara_Jade </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Mara_Jade </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Mara_Jade </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Mara_Jade </Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
@@ -8829,14 +8761,14 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
 		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
 		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
 		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
-		<Holster_Holstered_Bone_Translation> 0.0, 0.0 0.0 </Holster_Holstered_Bone_Translation>
+		<Holster_Holstered_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Holstered_Bone_Translation>
 		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
 		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
 		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
@@ -8850,7 +8782,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Unique_Space_Unit>Barriss_Offee_Delta</Unique_Space_Unit>
 
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1.45</Max_Speed>
@@ -8891,31 +8822,27 @@
 		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Appearance_Delay_Frames> 20 </Projectile_Appearance_Delay_Frames>
 
-
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
-		<SFXEvent_Select></SFXEvent_Select>
-		<SFXEvent_Move></SFXEvent_Move>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
-		<SFXEvent_Attack></SFXEvent_Attack>
-		<SFXEvent_Guard></SFXEvent_Guard>
-
-		<SFXEvent_Group_Move></SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack></SFXEvent_Group_Attack>
-
-
-		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning></SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die>  </Death_SFXEvent_Start_Die>   
-
-		<SFXEvent_Tactical_Build_Started>  </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete>  </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select>Unit_Select_Mara_Jade</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Mara_Jade</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mara_Jade</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Mara_Jade</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Mara_Jade</SFXEvent_Guard>
+		<SFXEvent_Group_Move>Unit_Group_Move_Mara_Jade</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Group_Attack_Mara_Jade</SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Mara_Jade </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Mara_Jade </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Mara_Jade </Death_SFXEvent_Start_Die>
 		
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
@@ -8957,18 +8884,6 @@
 				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Spawned_Object_Type> Proj_Special_Obiwan_Instant_Heal_Blast </Spawned_Object_Type>
 				<SFXEvent_Target_Ability/>
-			</Unit_Ability>
-			
-			<Unit_Ability>
-				<Type>LUCKY_SHOT</Type>
-				<Recharge_Seconds>60.0</Recharge_Seconds>
-				<Projectile_Types_Override>Proj_Special_Hero_Incapacitate</Projectile_Types_Override>
-				<GUI_Activated_Ability_Name> Barriss_Incapacitate </GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability/>
-				<Supports_Autofire>True</Supports_Autofire>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_INCAPACITATE_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_INCAPACITATE_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_INCAPACITATE.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -9100,12 +9015,6 @@
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 				<Excluded_Unit_Types>Jedi_Consular, Jedi_Guardian, Jedi_Sentinel, Jedi_Padawan, Dark_Jedi, Nightsister_Sith_Witch</Excluded_Unit_Types>
 			</Berserker_Ability>
-
-			<Lucky_Shot_Attack_Ability Name="Barriss_Incapacitate">
-				<Activation_Style> User_Input </Activation_Style>
-				<!-- We only consider the following unit types "valid targets" : -->
-				<Applicable_Unit_Categories>InfantryHero</Applicable_Unit_Categories>
-			</Lucky_Shot_Attack_Ability>
 		</Abilities>
 	</HeroUnit>
 	<HeroCompany Name="Barriss_Offee_Delta_Team">
@@ -9156,12 +9065,10 @@
 		<Damage>50</Damage>
 		<Affiliation>Empire</Affiliation>
 
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mara_Jade</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
 	<UniqueUnit Name="Barriss_Offee_Delta">
@@ -9202,12 +9109,9 @@
 
 		<SpaceBehavior>LURE, FIGHTER_LOCOMOTOR, SELECTABLE, ABILITY_COUNTDOWN, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Delta7_Laser </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
-
+		
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
 		<MovementClass>Space</MovementClass>
@@ -9217,23 +9121,18 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<SFXEvent_Select></SFXEvent_Select>
-		<SFXEvent_Move></SFXEvent_Move>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
-		<SFXEvent_Attack></SFXEvent_Attack>
-		<SFXEvent_Guard></SFXEvent_Guard>
-
-		<SFXEvent_Group_Move></SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack></SFXEvent_Group_Attack>
-
-
-		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning></SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die>  </Death_SFXEvent_Start_Die>   
-
-		<SFXEvent_Tactical_Build_Started>  </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete>  </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Select>Unit_Select_Mara_Jade</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Mara_Jade</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mara_Jade</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Mara_Jade</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Mara_Jade</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Mara_Jade </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Mara_Jade </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Mara_Jade </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Mara_Jade </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Mara_Jade </Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
@@ -9333,7 +9232,6 @@
 		TEXT_TOOLTIP_LEGIONS_LUMINARA
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit>Barriss_Offee_Eta</Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 	</HeroUnit>
 	<HeroCompany Name="Barriss_Offee_Eta_Team">
@@ -9384,12 +9282,10 @@
 		<Damage>50</Damage>
 		<Affiliation>Empire</Affiliation>
 
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mara_Jade</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
 	<UniqueUnit Name="Barriss_Offee_Eta">
@@ -9427,13 +9323,9 @@
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
 
 		<SpaceBehavior>LURE, FIGHTER_LOCOMOTOR, SELECTABLE, ABILITY_COUNTDOWN, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
-
-		<HardPoints> HP_Eta_Laser, HP_Eta_Ion </HardPoints>
-
+		
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
-
+		
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
 		<MovementClass>Space</MovementClass>
@@ -9443,23 +9335,18 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<SFXEvent_Select></SFXEvent_Select>
-		<SFXEvent_Move></SFXEvent_Move>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
-		<SFXEvent_Attack></SFXEvent_Attack>
-		<SFXEvent_Guard></SFXEvent_Guard>
-
-		<SFXEvent_Group_Move></SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack></SFXEvent_Group_Attack>
-
-
-		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning></SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die>  </Death_SFXEvent_Start_Die>   
-
-		<SFXEvent_Tactical_Build_Started>  </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete>  </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Select>Unit_Select_Mara_Jade</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Mara_Jade</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mara_Jade</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Mara_Jade</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Mara_Jade</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Mara_Jade </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Mara_Jade </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Mara_Jade </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Mara_Jade </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Mara_Jade </Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
@@ -9565,11 +9452,6 @@
 			<Unit_Ability>
 				<Type>AREA_EFFECT_HEAL</Type>
 			</Unit_Ability>
-			
-			<Unit_Ability>
-				<Type>LUCKY_SHOT</Type>
-				<Alternate_Icon_Name>I_SA_INCAPACITATE.tga</Alternate_Icon_Name>
-			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
@@ -9642,14 +9524,14 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
 		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
 		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
 		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
-		<Holster_Holstered_Bone_Translation> 0.0, 0.0 0.0 </Holster_Holstered_Bone_Translation>
+		<Holster_Holstered_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Holstered_Bone_Translation>
 		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
 		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
 		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
@@ -9663,7 +9545,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Unique_Space_Unit>Shaak_Ti_Delta</Unique_Space_Unit>
 
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1.45</Max_Speed>
@@ -9710,9 +9591,9 @@
 		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Shaak_Ti </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Shaak_Ti</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Shaak_Ti</SFXEvent_Move>
@@ -9934,8 +9815,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Shaak_Ti</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Move_Shaak_Ti</SFXEvent_Fleet_Move>
 
@@ -9988,11 +9869,9 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Delta7_Laser </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
 
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -10008,15 +9887,17 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Shaak_Ti</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Shaak_Ti</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Shaak_Ti</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Move_Shaak_Ti</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Attack_Shaak_Ti</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Shaak_Ti </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Shaak_Ti </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Shaak_Ti </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Shaak_Ti</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Die_Shaak_Ti </Death_SFXEvent_Start_Die>   
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Shaak_Ti </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Shaak_Ti </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Shaak_Ti </SFXEvent_Attack_Hardpoint>
@@ -10102,7 +9983,6 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Unique_Space_Unit>Shaak_Ti_Eta</Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 	</HeroUnit>
 	<HeroCompany Name="Shaak_Ti_Eta_Team">
@@ -10154,8 +10034,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Shaak_Ti</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Move_Shaak_Ti</SFXEvent_Fleet_Move>
 	</HeroCompany>
@@ -10196,11 +10076,8 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Eta_Laser, HP_Eta_Ion </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -10211,17 +10088,19 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Shaak_Ti </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Shaak_Ti</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Shaak_Ti</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Shaak_Ti</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Shaak_Ti</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Shaak_Ti</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Move_Shaak_Ti</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Attack_Shaak_Ti</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Shaak_Ti </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Shaak_Ti </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Shaak_Ti </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Shaak_Ti</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Die_Shaak_Ti </Death_SFXEvent_Start_Die>
@@ -10386,14 +10265,14 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
+		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, STUNNABLE, GARRISON_UNIT </LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
 		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
 		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
 		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
-		<Holster_Holstered_Bone_Translation> 0.0, 0.0 0.0 </Holster_Holstered_Bone_Translation>
+		<Holster_Holstered_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Holstered_Bone_Translation>
 		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
 		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
 		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
@@ -10453,9 +10332,9 @@
 		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Rahm_Kota </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Rahm_Kota</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rahm_Kota</SFXEvent_Move>
@@ -10733,8 +10612,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Rahm_Kota</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rahm_Kota</SFXEvent_Fleet_Move>
 
@@ -10833,14 +10712,14 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
+		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT STUNNABLE</LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
 		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
 		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
 		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
-		<Holster_Holstered_Bone_Translation> 0.0, 0.0 0.0 </Holster_Holstered_Bone_Translation>
+		<Holster_Holstered_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Holstered_Bone_Translation>
 		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
 		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
 		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
@@ -10900,9 +10779,9 @@
 		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<SFXEvent_Select>Unit_Select_Katarn</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Katarn</SFXEvent_Move>
@@ -11144,8 +11023,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Katarn</SFXEvent_Fleet_Move>
 	</HeroCompany>
@@ -11237,14 +11116,14 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 6 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
 		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
 		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
 		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
-		<Holster_Holstered_Bone_Translation> 0.0, 0.0 0.0 </Holster_Holstered_Bone_Translation>
+		<Holster_Holstered_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Holstered_Bone_Translation>
 		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
 		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
 		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
@@ -11258,7 +11137,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Unique_Space_Unit>Knol_Vennari_Skipray</Unique_Space_Unit>
 
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1.2</Max_Speed>
@@ -11525,8 +11403,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 	</HeroCompany>
@@ -11574,8 +11452,6 @@
 
 		<Affiliation>Empire</Affiliation>
 
-		<CategoryMask> SpaceHero | AntiFighter</CategoryMask>
-
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
 		<MovementClass>Space</MovementClass>
@@ -11585,20 +11461,20 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
+		<SFXEvent_Tactical_Build_Started>  </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete>  </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled>   </SFXEvent_Tactical_Build_Cancelled>
+
 		<SFXEvent_Select></SFXEvent_Select>
 		<SFXEvent_Move></SFXEvent_Move>
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 		<SFXEvent_Attack></SFXEvent_Attack>
 		<SFXEvent_Guard></SFXEvent_Guard>
-		<SFXEvent_Group_Move></SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack></SFXEvent_Group_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning></SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die>  </Death_SFXEvent_Start_Die>   
-
-		<SFXEvent_Tactical_Build_Started>  </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete>  </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled>   </SFXEvent_Tactical_Build_Cancelled>
+		<Death_SFXEvent_Start_Die>  </Death_SFXEvent_Start_Die>
 
 		<Abilities SubObjectList="Yes">
 			<Absorb_Blaster_Ability Name="Jedi_Fighter_Absorb_Blaster">
@@ -11718,7 +11594,7 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, IMPOSING_PRESENCE, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
+		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, IMPOSING_PRESENCE, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE</LandBehavior>
 		<Lua_Script>Palpatine</Lua_Script>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		
@@ -12101,7 +11977,6 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_ANAKIN_DARKSIDE.TGA</Icon_Name>
 		
-		<Unique_Space_Unit>Anakin_Darkside_Eta</Unique_Space_Unit>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		
 		<Tactical_Health>270</Tactical_Health>
@@ -12385,8 +12260,8 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Anakin_Vader</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Anakin_Vader</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Anakin_Vader</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Group_Move_Anakin_Vader</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Group_Attack_Anakin_Vader</SFXEvent_Group_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Anakin_Vader </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Anakin_Vader </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Anakin_Vader </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Anakin_Vader</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Anakin_Vader </Death_SFXEvent_Start_Die>  
@@ -12454,9 +12329,7 @@
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
-		
-		<Unique_Space_Unit>Vader_Eta</Unique_Space_Unit>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
 		
 		<Lua_Script>GroundHero</Lua_Script>
 
@@ -12846,11 +12719,8 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Eta_Laser, HP_Eta_Ion </HardPoints>
 
 		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -12866,8 +12736,10 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vader</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack> Unit_Attack_Vader_Ship </SFXEvent_Attack>
 		<SFXEvent_Guard> Unit_Guard_Vader </SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Group_Move_Vader</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Group_Attack_Vader</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Vader_Ship </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Vader_Ship </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Vader_Ship </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Vader_Ship </SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Vader_Ship </SFXEvent_Enemy_Damaged_Health_Low_Warning>

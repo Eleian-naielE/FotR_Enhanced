@@ -503,6 +503,7 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 		Handle_Hero_Add("Autem", admiral_data)
 
 		set_unit_index("Maarisa", 2, admiral_data)
+		set_unit_index("Yularen", 2, admiral_data)
 
 		Eta_Unlock()
 		Trachta_Checks = 1

@@ -962,6 +962,11 @@ function DefineUnitTable(faction, rosterOverride)
 			Space_Unit_Table = {
 				{"DH_Omni", 0.5}
 				,{"Marauder_Cruiser", 4}
+				,{"Pelta_Assault", 1, StartYear = -22}
+				,{"Charger_C70", 1, StartYear = -22}
+				,{"Consular_Refit", 1}
+				,{"CIS_DHC", 0.5}
+				,{"CIS_PDF_DHC", 2}
 				,{"Geonosian_Cruiser", 2}
 				,{"Neutron_Star_Mercenary", 4, StartYear = -22}
 			},
@@ -969,7 +974,13 @@ function DefineUnitTable(faction, rosterOverride)
 				{"Sith_War_Behemoth_Company", 0.5}
 				,{"JU9_Juggernaut_Droid_Company", 2}
 				,{"Mercenary_Company", 2}
+				,{"PDF_Soldier_Company", 1}
+				,{"PDF_Force_Cultist_Company", 2}
 				,{"Dark_Jedi_Company", 4}
+				,{"Antarian_Ranger_Company", 0.5}
+				,{"Republic_Heavy_Trooper_Company", 0.5}
+				,{"Republic_TX130S_Company", 0.5, StartYear = -22}
+				,{"AT_XT_Company", 0.5, StartYear = -22}
 			}
 		},
 		NIMBUS = {

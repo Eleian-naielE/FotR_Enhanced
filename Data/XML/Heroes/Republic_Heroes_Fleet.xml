@@ -1406,7 +1406,7 @@
 		TEXT_TOOLTIP_VENATOR_HULL 
 		TEXT_TOOLTIP_VENATOR_SHIELD
 		TEXT_TOOLTIP_VENATOR_MOVE
-		TEXT_TOOLTIP_VENATOR_SQUADRON
+		TEXT_TOOLTIP_VENATOR_SQUADRON_BYLUIR
 		TEXT_TOOLTIP_VENATOR_WEAP1
 		TEXT_TOOLTIP_VENATOR_WEAP2 
 		TEXT_TOOLTIP_VENATOR_WEAP3
@@ -1425,6 +1425,7 @@
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Tech_Level>99</Tech_Level>
 		<Affiliation>Empire</Affiliation>
+		<Population_Value>19</Population_Value>
 
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
@@ -1437,39 +1438,11 @@
 		Venator_Bay, Venator_Engines, HP_Venator_01, HP_Venator_02, HP_Venator_03, HP_Venator_04, HP_Venator_05, HP_Venator_06, HP_Venator_07, HP_Venator_08, HP_Venator_Turret_01, HP_Venator_Turret_02, HP_Venator_Turret_03, HP_Venator_Turret_04, HP_Venator_Shield_Leech
         </HardPoints>
 
-		<Starting_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> Torrent_Squadron, 1 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> Nimbus_V_Wing_Missile_Squadron, 1 </Starting_Spawned_Units_Tech_4>
-		
-		<Starting_Spawned_Units_Tech_1> Cloakshape_Squadron, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> Clone_Arc_170_Squadron, 1 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> Clone_Arc_170_Squadron, 1 </Starting_Spawned_Units_Tech_4>
-		
-		<Starting_Spawned_Units_Tech_1> 2_Warpod_Squadron, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> Clone_BTLB_Y_Wing_Squadron, 1 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> Clone_BTLB_Y_Wing_Squadron, 1 </Starting_Spawned_Units_Tech_4>
-		
-		<Starting_Spawned_Units_Tech_1> Scurrg_H6_Prototype_Squadron, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> NTB_630_Squadron, 1 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> NTB_630_Squadron, 1 </Starting_Spawned_Units_Tech_4>
-		
-		<Spawned_Squadron_Delay_Seconds> 5 </Spawned_Squadron_Delay_Seconds>
-		
-		<Reserve_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 4 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> Torrent_Squadron, 4 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> Nimbus_V_Wing_Missile_Squadron, 4 </Reserve_Spawned_Units_Tech_4>
-		
-		<Reserve_Spawned_Units_Tech_1> Cloakshape_Squadron, 3 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> Clone_Arc_170_Squadron, 3 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> Clone_Arc_170_Squadron, 3 </Reserve_Spawned_Units_Tech_4>
-		
-		<Reserve_Spawned_Units_Tech_1> 2_Warpod_Squadron, 4 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> Clone_BTLB_Y_Wing_Squadron, 4 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> Clone_BTLB_Y_Wing_Squadron, 4 </Reserve_Spawned_Units_Tech_4>
-		
-		<Reserve_Spawned_Units_Tech_1> Scurrg_H6_Prototype_Squadron, 3 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> NTB_630_Squadron, 3 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> NTB_630_Squadron, 3 </Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_0>Delta7_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>BTLS1_Y_Wing_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Delta7_Squadron_Double, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>BTLS1_Y_Wing_Squadron_Double, 4</Reserve_Spawned_Units_Tech_0>
 
 		<SFXEvent_Select>Unit_Select_Byluir</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Maarisa</SFXEvent_Move>
@@ -5332,14 +5305,15 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_autem.tga</Icon_Name>
 		
-		<Ranking_In_Category> 6 </Ranking_In_Category>
-		
 		<Space_Model_Name>Venator_OFC.alo</Space_Model_Name>
+		
+		<Ranking_In_Category> 6 </Ranking_In_Category>
 
 		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Tech_Level>99</Tech_Level>
 		<Affiliation>Empire</Affiliation>
+		<Population_Value>16</Population_Value>
 
 		<Starting_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 1 </Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_1> Cloakshape_Squadron, 1 </Starting_Spawned_Units_Tech_1>
@@ -5451,6 +5425,10 @@
 		
 		<Ranking_In_Category> 6 </Ranking_In_Category>
 
+		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
+
 		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Tech_Level>99</Tech_Level>
@@ -5462,13 +5440,10 @@
 		<Starting_Spawned_Units_Tech_1> Scurrg_H6_Prototype_Squadron, 1 </Starting_Spawned_Units_Tech_1>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 5 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1> Stock_ARC_170_Squadron, 4 </Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1> Stock_ARC_170_Squadron, 2 </Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1> 2_Warpod_Squadron, 2 </Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1> Scurrg_H6_Prototype_Squadron, 3 </Reserve_Spawned_Units_Tech_1>
 
-		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
-		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
-		<Property_Flags>GTSImmune</Property_Flags>
 
 		<Death_Clone>Damage_Normal, Venator_hero_nonOFC_Death_Clone</Death_Clone>
 
@@ -7544,7 +7519,7 @@
 	</UniqueUnit>
 
 	<UniqueUnit Name="Jarl_Pelta">
-		<Variant_Of_Existing_Type>Template_Pelta_Assault</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Template_Pelta_Support</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_JARL</Text_ID>
 		<Encyclopedia_Text>
@@ -7555,18 +7530,15 @@
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_TOOLTIP_COMMAND_JARL
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_PELTA_ASSAULT_HULL
-		TEXT_TOOLTIP_PELTA_ASSAULT_SHIELD
-		TEXT_TOOLTIP_PELTA_ASSAULT_MOVE
-		TEXT_TOOLTIP_PELTA_ASSAULT_WEAP1
-		TEXT_TOOLTIP_PELTA_ASSAULT_WEAP2
+		TEXT_TOOLTIP_PELTA_SUPPORT_HULL
+		TEXT_TOOLTIP_PELTA_SUPPORT_SHIELD
+		TEXT_TOOLTIP_PELTA_SUPPORT_MOVE
+		TEXT_TOOLTIP_PELTA_SUPPORT_WEAP1
 		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
 		TEXT_TOOLTIP_GALLEON_MINE
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_PELTA_SUPPORT_PD
 		TEXT_TOOLTIP_PELTA_SUPPORT_TENDER
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_JARL.tga</Icon_Name>
@@ -7576,8 +7548,9 @@
 		<!-- Ability requires the omission of fighters and bombers -->
 		<Starting_Spawned_Units_Tech_0>Interdiction_Minefield, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Interdiction_Minefield, 2</Reserve_Spawned_Units_Tech_0>
-
-		<Property_Flags> DoKite | Interdictor </Property_Flags>
+		
+		<CategoryMask> SpaceHero | AntiFighter | AntiBomber </CategoryMask>
+		<Property_Flags> GTSImmune | HealsVehicles  | Interdictor </Property_Flags>
 
 		<SpaceBehavior>TELEKINESIS_TARGET, SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 
@@ -7617,9 +7590,6 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
-		<CategoryMask> SpaceHero | AntiFighter | AntiBomber </CategoryMask>
-		<Property_Flags>GTSImmune</Property_Flags>
-
 	   <Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HARMONIC_BOMB</Type>
@@ -7639,8 +7609,7 @@
 				<Alternate_Icon_Name>i_sa_interdict.tga</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_INTERDICTION_MINES_NAME</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_INTERDICTION_MINES_DESCRIPTION</Alternate_Description_Text>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_deploy_mine_rep_Pelta_Support</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_Target_Ability> Unit_deploy_mine_rep_Pelta_Support </SFXEvent_Target_Ability> 
+				<SFXEvent_GUI_Unit_Ability_Activated/>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 

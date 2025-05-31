@@ -335,6 +335,12 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
+		<CategoryMask> Fighter | AntiFighter </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<Landing_Transport_Variant>Ginivex_Landing</Landing_Transport_Variant>	<!-- This should change to Z-95 -->
+
 		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Durge </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
@@ -344,17 +350,13 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Durge</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Durge</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Durge</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Move_Durge</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Attack_Durge</SFXEvent_Group_Attack>
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Durge </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Durge </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Durge</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Durge</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Durge </Death_SFXEvent_Start_Die>
-
-		<CategoryMask> Fighter | AntiFighter </CategoryMask>
-		<Property_Flags>GTSImmune</Property_Flags>
-		<Victory_Relevant>yes</Victory_Relevant>
-
-		<Landing_Transport_Variant>Ginivex_Landing</Landing_Transport_Variant>	<!-- This should change to Z-95 -->
 	</UniqueUnit>
 
 	<TransportUnit Name="Ginivex_Landing">	<!-- This should change to Z-95 -->
@@ -374,9 +376,6 @@
 	<HeroUnit Name="General_Kalani">
 		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Land_Model_Name>kalani.ALO</Land_Model_Name>
-		<Icon_Name>i_button_kalani.tga</Icon_Name>
-
 		<Text_ID>TEXT_HERO_KALANI</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -393,7 +392,10 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPER_TACTICAL_DROID </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_kalani.tga</Icon_Name>
 		
+		<Land_Model_Name>kalani.ALO</Land_Model_Name>
+
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
 		<Tactical_Health>200</Tactical_Health>

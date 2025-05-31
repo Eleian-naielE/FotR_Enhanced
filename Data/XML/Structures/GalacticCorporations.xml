@@ -1794,7 +1794,7 @@
 
 		<Affiliation>Rebel, Banking_Clan, Trade_Federation, Commerce_Guild, Techno_Union</Affiliation>
 
-		<Build_Cost_Credits>450</Build_Cost_Credits>
+		<Build_Cost_Credits>4500</Build_Cost_Credits>
 
 		<Required_Planets>Geonosis, Balmorra, Ord_Cestus, Telti, Foerost, Kuat, Fondor, Hypori, Metalorn, Mustafar, Nelvaan, Saleucami, Utapau, Vulpter, Tar_Morden</Required_Planets>
 
@@ -1834,7 +1834,7 @@
 			<Reduce_Production_Price_Ability Name="Techno_Union_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
-				Hardcell,
+				Hardcell, Bulwark_I, Bulwark_II,
 				Crab_Droid_Company, Persuader_Company, Magna_Octuptarra_Company
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
@@ -1844,7 +1844,7 @@
 			<Reduce_Production_Time_Ability Name="Techno_Union_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
-				Hardcell,
+				Hardcell, Bulwark_I, Bulwark_II,
 				Crab_Droid_Company, Persuader_Company, Magna_Octuptarra_Company 
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>

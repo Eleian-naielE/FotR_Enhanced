@@ -987,7 +987,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rom_Mohc</SFXEvent_Fleet_Move>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
-		<Tactical_Build_Cost_Multiplayer>4135</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2670</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>9</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
@@ -1298,7 +1298,7 @@
 		<Text_ID>TEXT_HERO_JAYFON</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_JAYFON
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -1367,15 +1367,6 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>SPRINT</Type>
-				<Expiration_Seconds> 8.0 </Expiration_Seconds>
-				<Recharge_Seconds> 45.0 </Recharge_Seconds>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated/>
-			</Unit_Ability>
-			
-			<Unit_Ability>
 				<Type>LUCKY_SHOT</Type>
 				<Recharge_Seconds>60.0</Recharge_Seconds>
 				<Projectile_Types_Override>Proj_Special_Hero_Incapacitate</Projectile_Types_Override>
@@ -1386,25 +1377,33 @@
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_INCAPACITATE_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_INCAPACITATE.tga</Alternate_Icon_Name>
 			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
-			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>    
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-			<Battlefield_Modifier_Ability Name="Command_Tier_02_FOW_Increase">
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.06</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -1435,7 +1434,7 @@
 		<Text_ID>TEXT_HERO_JAYFON</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_JAYFON
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -1486,7 +1485,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_ASSIGN_NR_ADMIRAL
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_JAYFON
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -1897,8 +1896,8 @@
 		<SFXEvent_Hero_Respawned>GUI_E_Field_Commander_Complete</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Empire_Field</SFXEvent_Fleet_Move>
 	
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
-		<Tactical_Build_Cost_Multiplayer>5050</Tactical_Build_Cost_Multiplayer>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>5840</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -2942,7 +2941,7 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>TARGETED_HACK</Type>
-				<Recharge_Seconds>120.0</Recharge_Seconds>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Ottegru_Hack_Ability </GUI_Activated_Ability_Name>
 				<Supports_Autofire>False</Supports_Autofire>
 			</Unit_Ability>
@@ -2997,9 +2996,15 @@
 					Empire_Anti_Aircraft_Turret,
 					Empire_Anti_Infantry_Turret,
 					Empire_Anti_Vehicle_Turret,
+					Empire_Bacta_Tank,
+					Empire_Repair_Facility,
+					Empire_Sensor_Node,
 					Rebel_Anti_Aircraft_Turret,
 					Rebel_Anti_Infantry_Turret,
 					Rebel_Anti_Vehicle_Turret,
+					Rebel_Bacta_Tank,
+					Rebel_Repair_Facility,
+					Rebel_Sensor_Node,
 					Hutt_Cartels_Anti_Aircraft_Turret,
 					Hutt_Cartels_Anti_Infantry_Turret,
 					Hutt_Cartels_Anti_Vehicle_Turret,
@@ -3384,38 +3389,41 @@
 
 		<Tactical_Health>200</Tactical_Health>
 
-		<Max_Speed>1.1</Max_Speed>
-		<OverrideAcceleration> 1.1 </OverrideAcceleration>
-		<OverrideDeceleration> 1.1 </OverrideDeceleration>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Max_Speed>1.0</Max_Speed>
+		<OverrideAcceleration> 1.0 </OverrideAcceleration>
+		<OverrideDeceleration> 1.0 </OverrideDeceleration>
 
 		<Scale_Factor>1.1</Scale_Factor>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Empire</Affiliation>
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
-
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
-
-		<HardPoints>HP_Hero_WESTAR_35_Pistol, HP_Hero_Wrist_Slug_Light_Repeater</HardPoints>
-
-		<SFXEvent_Select></SFXEvent_Select>
-		<SFXEvent_Move></SFXEvent_Move>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
-		<SFXEvent_Attack></SFXEvent_Attack>
-		<SFXEvent_Guard></SFXEvent_Guard>
-		<SFXEvent_Group_Move></SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack></SFXEvent_Group_Attack>
-		<SFXEvent_Health_Low_Warning> </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> </SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die>  </Death_SFXEvent_Start_Die>
 
         <Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
-		<AI_Combat_Power>38</AI_Combat_Power>
+		<AI_Combat_Power>33</AI_Combat_Power>
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
 		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
+
+		<HardPoints>HP_Hero_DH17_Pistol</HardPoints>
+		
+		<!-- Grenade throw -->
+		<Projectile_Types>HeroProj_Thrown_Concussion_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<SFXEvent_Select>Unit_Dark_Jedi_Select</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Dark_Jedi_Move</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Dark_Jedi_Fleet_Move</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Dark_Jedi_Attack</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Dark_Jedi_Move</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning> Unit_Dark_Jedi_Low_Health </SFXEvent_Health_Low_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Dark_Jedi_Death </Death_SFXEvent_Start_Die>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -3460,6 +3468,49 @@
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
+
+			<Absorb_Blaster_Ability Name="Torbin_Absorb_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<Absorb_Chance>0.2</Absorb_Chance>
+				<!-- Absorb Percentage and Amount work together in the following way: -->
+				<!-- Actual Amount healed = (Projectile Damage * Absorb Percentage) + Absorb Amount -->
+				<!-- Either value can be zero, but at least one should be non-zero. -->
+				<Damage_Absorb_Percentage>0.2</Damage_Absorb_Percentage>
+				<Damage_Absorb_Amount>1</Damage_Absorb_Amount>
+				<!-- We can absorb shots from the following units types (but no missiles or grenades): -->
+				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Force_Absorb</SFXEvent_Activate>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>2.0, 0.4, 0.4</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count />
+			</Absorb_Blaster_Ability>
+
+			<Force_Healing_Ability Name="Torbin_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.02 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				
+				<Applicable_Unit_Types>Laddinare_Torbin_Empire</Applicable_Unit_Types>
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
 			
 			<Stun_Ability Name="Laddinare_Torbin_Stun">
 				<Activation_Style> User_Input </Activation_Style>
@@ -3497,6 +3548,9 @@
 		TEXT_TOOLTIP_TORBIN_MOVE
 		TEXT_TOOLTIP_TORBIN_WEAP1
 		TEXT_TOOLTIP_TORBIN_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
+		TEXT_TOOLTIP_BONUS_FORCE_TRAINING_20
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
@@ -3506,7 +3560,7 @@
 		<Population_Value>1</Population_Value>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft</Company_Transport_Unit>
+		<Company_Transport_Unit>Theta_Shuttle_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>Laddinare_Torbin_Empire</Company_Units>
 		
 		<Is_Dummy>Yes</Is_Dummy>
@@ -3521,9 +3575,8 @@
 		
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Respawn_Veers</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Veers</SFXEvent_Hero_Respawned>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move>Unit_Dark_Jedi_Fleet_Move</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
 	<HeroUnit Name="Inglemenn_Barezz">

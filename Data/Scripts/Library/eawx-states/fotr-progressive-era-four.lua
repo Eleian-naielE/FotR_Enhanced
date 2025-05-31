@@ -81,6 +81,7 @@ return {
             crossplot:publish("VENATOR_RESEARCH_FINISHED", "empty")
             crossplot:publish("PHASE_TWO_RESEARCH_FINISHED", "empty")
             crossplot:publish("PROVIDENCE_RESEARCH_FINISHED", "empty")
+            crossplot:publish("BULWARK1_RESEARCH_FINISHED", "empty")
             crossplot:publish("VICTORY1_RESEARCH_FINISHED", "empty")
             crossplot:publish("UTAT_RESEARCH_FINISHED", "empty")
         end
