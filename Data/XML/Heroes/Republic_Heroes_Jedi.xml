@@ -12073,6 +12073,8 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Emperor</SFXEvent_Fleet_Move>
 	</HeroCompany>
 	
+	<!-- Darkside Anakin/Vader Exactor Rework needed -->
+	
 	<HeroUnit Name="Anakin_Darkside">
 		<Variant_Of_Existing_Type>Anakin</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_DARTH_VADER</Text_ID>
