@@ -3834,7 +3834,7 @@
 
 	<!--
 	<GroundInfantry Name="Combat_Tri">
-		<Text_ID></Text_ID>
+		<Text_ID>TEXT_UNIT_COMBAT_TRI</Text_ID>
 	</GroundInfantry>
 
 	<GroundCompany Name="Combata_Tri_Company">

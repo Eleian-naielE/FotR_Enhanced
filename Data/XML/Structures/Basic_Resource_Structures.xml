@@ -47,6 +47,18 @@
 
 	<SpecialStructure Name="Mining_Facility_Minerals_Ground"> <!-- FotR_Enhaced ; TNT garrison added -->
 		<Variant_Of_Existing_Type>Template_Mining_Facility_Minerals_Ground</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MINING_MINERALS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_COMPANY_HEALTH
+		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+		TEXT_TOOLTIP_RESOURCE_GARRISON
+		TEXT_TOOLTIP_RESOURCE_GARRISON_TNT
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_INCOME_MINES
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_MINES
+		</Encyclopedia_Text>
 		<Tech_Level>0</Tech_Level>
 
 		<Affiliation>Empire, Rebel, Hutt_Cartels, Trade_Federation, Techno_Union, Banking_Clan, Commerce_Guild, Sector_Forces</Affiliation>

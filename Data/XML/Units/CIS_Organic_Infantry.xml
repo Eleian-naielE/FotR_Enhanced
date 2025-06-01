@@ -1854,7 +1854,7 @@
 	
 <!-- FotR_Enhanced -->
 
-	<!--Dark Jedi From TR-->
+	<!--Dark Jedi From TR ; Needs rework if want to be used-->
 
 	<GroundInfantry Name="Dark_Acolyte">
 		<Variant_Of_Existing_Type>Dark_Jedi</Variant_Of_Existing_Type>
@@ -1919,10 +1919,10 @@
 		<Score_Cost_Credits>45</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Orbiting_Units>CIS_Sheathipede_Landing_Craft_Dooku</Required_Orbiting_Units>
+		<!--<Required_Orbiting_Units>CIS_Sheathipede_Landing_Craft_Dooku</Required_Orbiting_Units>-->
 
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control/>
@@ -1952,10 +1952,11 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+<!--
 	<GroundInfantry Name="Morgukai_Clone">
 		<Text_ID></Text_ID>
 		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> </Encyclopedia_Text>
   	</GroundInfantry>
-
+-->
 </CIS_Organic_Units>
