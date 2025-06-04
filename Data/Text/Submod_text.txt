@@ -3,7 +3,6 @@
 TEXT_CONQUEST_GOVERNMENT_REP_HERO_SWITCH_SPEECH_FORRAL,The war seems to near its end. I shall share my skill of piloting for the new generations of ace pilots. [Bythen Forral has retired and established Vensenor Flight Academy]
 TEXT_DOCUMENTATION_BODY_INFLUENCE_PLANET_UMBARA_FOTR,Umbara: Can build Umbaran Support Frigate at 8+ influence.
 TEXT_DOCUMENTATION_BODY_TRAITARCHDUKE,Archduke of Geonosis: 25% discounts on production time and cost on products produced on Geonosis
-TEXT_DOCUMENTATION_BODY_TRAITOFCOFFICER,Open Circle Fleet Officer: +10% Health\+5% Shield\+10% Firing Rate (OCF Venator & OCF Venator SPHA-T Only) [Stacking bonus]
 TEXT_DOCUMENTATION_BODY_TRAITPLOBRO,Plo's Bros: +20% Health (Plo Koon Only)
 TEXT_DOCUMENTATION_HEADER_FOTR_ENHANCED_FEATS,==== FotR_Enhanced features ==================
 TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_JAG,Jag (ARC-170 Starfighter Squadron) - Unlocks with Victory Is | Default Hero: Jan Dodonna
@@ -34,7 +33,6 @@ TEXT_TOOLTIP_A6_PROTOTYPE_WEAP4,2x Proton Missiles: 3 / 20.0s / 480m
 TEXT_TOOLTIP_AUTEM_OVERRIDE_2,Fighter Override: NTB-630 Naval Bomber on OCF Venator
 TEXT_TOOLTIP_BLOCK,Admiral Block was the commanding officer of the Negotiator, and later Vigilance, both serving the role as the flagship of Jedi general Obi Wan Kenobi.
 TEXT_TOOLTIP_BLOCK_VILGILANCE_RESPAWN,Block respawns in a Venator(Vigilance) after his first death
-TEXT_TOOLTIP_BUILDLIMIT_VENATOR_OFC,Build Limit: 12 | Lifetime: ∞
 TEXT_TOOLTIP_BUILDLIMIT_VENATOR_SPHA_T,Build Limit: 3 | Lifetime: 1
 TEXT_TOOLTIP_CAPITAL_GAR_16,Red Guard: 2 / 0
 TEXT_TOOLTIP_COMMAND_127TH_ARC170,ARC-170 Starfighter Squadron, 127th Gunship Wing
@@ -47,7 +45,6 @@ TEXT_TOOLTIP_ESCORT_P2_WOLFFE_SPECIAL,2x - Wolfpack Squad (P2)
 TEXT_TOOLTIP_ESCORT_PALPATINE_RED_GUARD,2x - Red Guards
 TEXT_TOOLTIP_JAG, CT-55/11-9009, known as Jai'galaar or Jag, was a clone pilot captin in the Clone Army. Originally a Clone Commander, he was demoted to captain after the Retreat at Katraasii. Later, Jedi General Plo Koon drafted the captin as the test pilot for the new ARC-170 starfighters and flew with him on many battles including the battle over Cato Neimoidia.
 TEXT_TOOLTIP_MAGNATRI_WEAP2,1x Heavy Proton Missiles: 2 / 8.33s / 480m
-TEXT_TOOLTIP_OFC_ASSIGN,Assign the Venator Star Destroyer to The Open Circle Fleet.
 TEXT_TOOLTIP_UNITS_SPHA_T_REFIT,SPHA-T on Venators : Attaches SPHA-T on the hanger bay of the Venator Star Destroyer.
 TEXT_TOOLTIP_OPPO_HEALTH,Health: 230 [4%/5s] (Hero)
 TEXT_TOOLTIP_OPPO_MOVE,Speed: 1.1
@@ -70,7 +67,6 @@ TEXT_TOOLTIP_TJ912,TJ-912 is a tactical droid that served under one of Count Doo
 TEXT_TOOLTIP_TM171,TM-171 was a CIS T-series tactical droid who was in charge of resupplying Umbaran Militia during the Republic campaign against the planet Umbara. During the resupply operation, three clone troopers infiltrated his ship and destroyed it despite droid's presence, preventing munitions delivery from the Confederacy.
 TEXT_TOOLTIP_TRAIT_ARCHDUKE,Archduke of Geonosis
 TEXT_TOOLTIP_TRAIT_BLOCKADE_ENFORCER,Blockade Enforcer
-TEXT_TOOLTIP_TRAIT_OFC_OFFICER,Open Circle Fleet Offcier
 TEXT_TOOLTIP_TRAIT_PLO_BRO,Plo's Bros
 TEXT_TOOLTIP_UMBARAN_FRIGATE,A fleet tender designed by the government of Umbara, this frigate is able to supply and reinforce CIS cruisers in battle and provide reapirs to fighter groups.
 TEXT_TOOLTIP_UMBARAN_FRIGATE_HULL,Hull: 2040 (Frigate)
@@ -80,13 +76,9 @@ TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP1,4x Light Turbolasers 2 / 1.0s / 5.1 km
 TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP2,4x Dual Light Lasercannons 2 / 0.4s / 3.7km
 TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP3,2x Light Anti-Fighter Ion Cannons 2 / 1.7s / 3.2km
 TEXT_TOOLTIP_VADER_SPECIAL,Special: Vader's Eta-2 Actis Interceptor
-TEXT_TOOLTIP_VENAOTR_OFC_SPECIAL,Special: 2x Republic Z-95 Squadron 1/2 [E3]
 TEXT_TOOLTIP_VENATOR_DECOLORIZE,Decolorize Venators to wipe out traces of Republic.
-TEXT_TOOLTIP_VENATOR_OFC,Venator Star Destroyer assigned under Open Circle Fleet. It has increased fire power in exchange for fighter complements.
 TEXT_TOOLTIP_VENATOR_SPHA_T,A Venator Star Destroyer equiped with SPHA-T on the hangar bay. An idea brought up by Anakin Skywalker, this upgrade made the Venators a more formidable against separatist warships.
 TEXT_TOOLTIP_VENATOR_UPGRADEABLE,Upgrade: Can be equiped with SPHA-T by Anakin Skywalker. [Requires Anakin Skywalker in orbit]
-TEXT_TOOLTIP_VENATOR_OFC_WEAP1,4x Heavy Dual Turbolasers: 5 / 3.5s / 7.2km
-TEXT_TOOLTIP_VENATOR_SQUADRON_OFC,Fighters: 2 / 8 [E2-3], 3 / 8 [E4-5] | Bombers: 2 / 6
 TEXT_TOOLTIP_WESSEX_OVERRIDE,Fighter Override: NTB-630 Naval Bomber on OCF Venator
 TEXT_TOOLTIP_WOLFPACK,These Elite Soldiers from the 104th serve under Jedi General Plo Koon and Commander Wolffe. They accompanied them in various battles, Relief Efforts and Rescue missions.
 TEXT_TOOLTIP_WOLFPACK_P1_HEALTH,Health: 30 (Infantry)
@@ -101,15 +93,12 @@ TEXT_TOOLTIP_WOLFPACK_SQUAD_WEAP5,1x EMP Launcher: 1 / 5.0s / 240m
 TEXT_TOOLTIP_WOLFPACK_SQUAD_WEAP6,1x Wrist Rocket: 1 / 10.0s / 220m
 TEXT_TOOLTIP_WOLFPACK_SQUAD_WEAP7,1x Light Repeating Blaster: 5 / 1.0s / 240m
 TEXT_UNIT_A6_PROTOTYPE,A6 Juggernaut Prototype
-TEXT_UNIT_ACCLAMATOR_I_OFC,OCF Acclamator-I (Carrier Loadout)
-TEXT_UNIT_C70_OFC,OCF Charger C70
 TEXT_UNIT_COMBATTRI,Combat Octuptarra Droid
 TEXT_UNIT_COMBATTRI_COMPANY,Combat Octuptarra Droid Company
 TEXT_UNIT_DARK_ACOLYTE,Dark Acolyte 
 TEXT_UNIT_DARK_ACOLYTE_COMPANY,Dark Acolyte Squad
 TEXT_UNIT_RED_GUARD,Red Guard
 TEXT_UNIT_UMBARAN_FRIGATE,Umbaran Support Frigate
-TEXT_UNIT_VENATOR_OFC,OCF Venator Star Destroyer
 TEXT_UNIT_VENATOR_SPHA_T,Venator Star Destroyer (SPHA-T)
 TEXT_UNIT_WOLFPACK_P1_CARBINER,Wolfpack Carbineer (Phase I)
 TEXT_UNIT_WOLFPACK_P1_CARBINER_GRENADIER,Wolfpack Carbineer Grenadier(Phase I)
