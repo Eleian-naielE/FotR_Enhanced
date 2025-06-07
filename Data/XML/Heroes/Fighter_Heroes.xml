@@ -2842,6 +2842,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
+	
 	<UniqueUnit Name="Torrent_Hunter">
 		<Variant_Of_Existing_Type>Torrent</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HUNTER_SQUADRON_TORRENT</Text_ID>
@@ -2871,6 +2872,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
+	
 	<Container Name="Warthog_Torrent_Hunter_Container">
 		<Variant_Of_Existing_Type>Torrent_Squadron_Container</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_WARTHOG</Text_ID>
@@ -2904,6 +2906,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
+	
 	<Squadron Name="Warthog_Torrent_Hunter_Squadron">
 		<Variant_Of_Existing_Type>Torrent_Squadron</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_WARTHOG</Text_ID>
@@ -3004,6 +3007,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
+	
 	<HeroCompany Name="Warthog_P1_Team">
 		<Variant_Of_Existing_Type>Republic_LAAT_Company</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_WARTHOG</Text_ID>
@@ -3191,6 +3195,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
+	
 	<UniqueUnit Name="Clone_Z95_Headhunter_Hunter">
 		<Variant_Of_Existing_Type>Clone_Z95_Headhunter</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HUNTER_SQUADRON_Z95</Text_ID>
@@ -3223,6 +3228,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
+	
 	<Container Name="Warthog_Clone_Z95_Hunter_Container">
 		<Variant_Of_Existing_Type>Clone_Z95_Headhunter_Squadron_Container</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_WARTHOG</Text_ID>
@@ -3256,6 +3262,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
+	
 	<Squadron Name="Warthog_Clone_Z95_Hunter_Squadron">
 		<Variant_Of_Existing_Type>Clone_Z95_Headhunter_Squadron</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_WARTHOG</Text_ID>
@@ -3319,6 +3326,7 @@
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_WARTHOG_P2.tga</Icon_Name>
 	</UniqueUnit>
+	
 	<HeroCompany Name="Warthog_P2_Team">
 		<Variant_Of_Existing_Type>Warthog_P1_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
@@ -3443,6 +3451,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
+	
 	<UniqueUnit Name="Z95_Bomber_Foxfire">
 		<Variant_Of_Existing_Type>Z95_Bomber</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_Z95_BOMBER_FOXFIRE</Text_ID>
@@ -3471,6 +3480,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
+	
 	<Container Name="Jorn_Kulish_Foxfire_Container">
 		<Variant_Of_Existing_Type>Z95_Bomber_Squadron_Container</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_JORN_KULISH</Text_ID>
@@ -3519,6 +3529,7 @@
 			</Lucky_Shot_Attack_Ability>
 		</Abilities>
 	</Container>
+	
 	<Squadron Name="Jorn_Kulish_Foxfire_Squadron">
 		<Variant_Of_Existing_Type>Z95_Bomber_Squadron</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_JORN_KULISH</Text_ID>
@@ -3655,6 +3666,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
+	
 	<UniqueUnit Name="T19_Erk_HArman_Escort">
 		<Variant_Of_Existing_Type>T19_Starfighter</Variant_Of_Existing_Type>
 
@@ -3684,6 +3696,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
+	
 	<Container Name="Erk_HArman_Container">
 		<Variant_Of_Existing_Type>T19_Squadron_Container</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_ERK_HARMAN</Text_ID>
@@ -3716,6 +3729,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
+	
 	<Squadron Name="Erk_HArman_Squadron">
 		<Variant_Of_Existing_Type>T19_Squadron</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_ERK_HARMAN</Text_ID>
@@ -3888,6 +3902,7 @@
 			</Absorb_Blaster_Ability>
 		</Abilities>
 	</UniqueUnit>
+	
 	<UniqueUnit Name="Delta7_Jedi_Ace">
 		<Variant_Of_Existing_Type>Delta7</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_JEDI_ACE_DELTA7_FIGHTER</Text_ID>
@@ -3918,6 +3933,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
+	
 	<Container Name="Brand_Delta7_Zeta_Container">
 		<Variant_Of_Existing_Type>Delta7_Squadron_Container</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_BRAND</Text_ID>
@@ -3949,6 +3965,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
+	
 	<Squadron Name="Brand_Delta7_Zeta_Squadron">
 		<Variant_Of_Existing_Type>Delta7_Squadron</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_BRAND</Text_ID>
