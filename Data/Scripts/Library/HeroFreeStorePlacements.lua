@@ -338,4 +338,13 @@ return {
 	,LUCREHULK_TRANSPORT_A = {"Is_Convoy_Planet", true}
 	,LUCREHULK_TRANSPORT_B = {"Is_Convoy_Planet", true}
 	,VENATOR_TRANQUILITY = {"Is_Production_Planet", true} --This is intentional
+
+
+-- FotR_Enhanced
+    ,BLOCK_NEGOTIATOR = {nil, true}
+    ,BLOCK_VIGILANCE = {nil, true}
+    ,TJ912_RECUSANT = {nil, true}
+    ,TM171_DH_OMNI={nil, true}
+    ,ROHN_TEAM = {nil, false}
+    ,YULAREN_RESOLUTE_SPHAT = {nil, true}
 }

@@ -90,7 +90,6 @@ return {
             crossplot:publish("CONQUER_RENDILI", "empty")
             crossplot:publish("VENATOR_RESEARCH_FINISHED", "empty")
             crossplot:publish("PROVIDENCE_RESEARCH_FINISHED", "empty")
-            crossplot:publish("UTAT_RESEARCH_FINISHED", "empty")
         end
     end,
     on_exit = function(self, state_context)

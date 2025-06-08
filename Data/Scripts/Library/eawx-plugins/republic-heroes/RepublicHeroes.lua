@@ -58,7 +58,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	crossplot:subscribe("SENATE_CHOICE_MADE", self.Senate_Choice_Handler, self)
 	--FotR_Enhanced
 	--crossplot:subscribe("DALLIN_UNLLOCK", self.Dallin_Unlock, self)
-	crossplot:subscribe("UTAT_HEROES", self.UTAT_Heores, self)
+	crossplot:subscribe("GEEN_UNLOCK", self.Geen_Unlock, self)
 	--FotR_Enhanced 
 	--Changes : 
 	--	Admiral : Yularen Resolute SPHAT variant added, Forral venator will be unlocked post Order 6X,
@@ -943,6 +943,7 @@ function Autem_Check()
 		Handle_Hero_Add("Tenant", admiral_data)
 		RepublicHeroes:Add_Fighter_Set("Odd_Ball_ARC170_Location_Set")
 		RepublicHeroes:Add_Fighter_Set("Warthog_Clone_Z95_Location_Set")
+		RepublicHeroes:Add_Fighter_Set("Jag_ARC170_Location_Set")
 		Clear_Fighter_Hero("ODD_BALL_TORRENT_SQUAD_SEVEN_SQUADRON")
 		Clear_Fighter_Hero("WARTHOG_TORRENT_HUNTER_SQUADRON")
 		RepublicHeroes:Remove_Fighter_Set("Odd_Ball_Torrent_Location_Set")
@@ -1068,6 +1069,7 @@ function RepublicHeroes:Senate_Choice_Handler(senate_option)
 		council_data.vacant_limit = -1
 		Decrement_Hero_Amount(10, council_data)
 		Clear_Fighter_Hero("IMA_GUN_DI_DELTA")
+		Forral_Check()
 	end
 end
 
@@ -1137,7 +1139,7 @@ end
 
 --FotR_Enhanced
 
-function RepublicHeroes:UTAT_Heroes()
+function RepublicHeroes:Geen_Unlock()
 	Handle_Hero_Add("Geen", general_data)
 end
 

@@ -118,8 +118,10 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 			"ROSTER_UPDATE_21BBY_M6",
 			"Template_Research_Dummy",
 			{"Empire"},
-			{"Republic_ISP_Company","Republic_Flashblind_Company"},
-			{"Invincible_Cruiser","Republic_Gaba18_Company","AT_XT_Company"}
+			{"Republic_ISP_Company","Republic_Flashblind_Company","UT_AT_Speeder_Company"},
+			{"Invincible_Cruiser","Republic_Gaba18_Company","AT_XT_Company"},
+			nil, nil,
+			{"GEEN_UNLOCK"}
 			)
 
 	--These events all fire together in 20 BBY month 6

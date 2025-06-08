@@ -3,7 +3,7 @@ return {
 		{month = 7, name = "PROVIDENCE_RESEARCH"},
 		{month = 7, name = "COMMAND_STAFF_RETURN", params = {{"Ahsoka"}, 3, true}},
 		{month = 10, name = "VENATOR_RESEARCH"},
-		{month = 11, name = "UTAT_RESEARCH"}
+		--{month = 11, name = "UTAT_RESEARCH"}
 	},
 	["21 BBY"] = {
 		{month = 6, name = "VICTORY1_RESEARCH"},

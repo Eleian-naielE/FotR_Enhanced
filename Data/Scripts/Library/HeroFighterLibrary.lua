@@ -43,7 +43,7 @@ function Get_Hero_Entries(upgrade_object)
 			Hero_Squadron = "ARHUL_NARRA_GUARDIAN_SQUADRON",
 			PopupHeader = "ARHUL_NARRA_SELECTOR_HEADER",
 			Options = {
-				{"DODONNA", Locations = {"DODONNA_ARDENT"}},
+				{"SEERDON", Locations = {"SEERDON_INVINCIBLE"}},
 				{"PARCK", Locations = {"PARCK_STRIKEFAST"}},
 				{"TARKIN", Locations = {"TARKIN_VENATOR","TARKIN_EXECUTRIX"}},
 				{"THERBON", Locations = {"THERBON_CERULEAN_SUNRISE"}},
@@ -75,9 +75,9 @@ function Get_Hero_Entries(upgrade_object)
 			Hero_Squadron = "RHYS_DALLOWS_BRAVO_SQUADRON",
 			PopupHeader = "RHYS_DALLOWS_SELECTOR_HEADER",
 			Options = {
-				{"AUTEM", Locations = {"AUTEM_VENATOR"}},
-				{"DALLIN", Locations = {"DALLIN_KEBIR"}},
 				{"HAUSER", Locations = {"HAUSER_DREADNAUGHT"}},
+				{"TENANT", Locations = {"TENANT_VENATOR"}},
+				{"DALLIN", Locations = {"DALLIN_KEBIR"}},
 				{"MAARISA", Locations = {"MAARISA_CAPTOR","MAARISA_RETALIATION"}},
 			}
 		},
@@ -88,7 +88,7 @@ function Get_Hero_Entries(upgrade_object)
 				{"TALLON", Locations = {"TALLON_SUNDIVER","TALLON_BATTALION"}},
 				{"GRANT", Locations = {"GRANT_VENATOR"}},
 				{"AUTEM", Locations = {"AUTEM_VENATOR"}},
-				{"DODONNA", Locations = {"DODONNA_ARDENT"}},
+				{"TENANT", Locations = {"TENANT_VENATOR"}},
 				{"MAARISA", Locations = {"MAARISA_CAPTOR","MAARISA_RETALIATION"}},
 			}
 		},
@@ -98,7 +98,7 @@ function Get_Hero_Entries(upgrade_object)
 			Options = {
 				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}, GroundPerception = "Yularen_In_Orbit"},
 				{"KILIAN", Locations = {"KILIAN_ENDURANCE"}, GroundPerception = "Kilian_In_Orbit"},
-				{"WIELER", Locations = {"WIELER_RESILIENT"}, GroundPerception = "Wieler_In_Orbit"},
+				{"BLOCK", Locations = {"BLOCK_NEGOTIATOR","BLOCK_VIGILANCE"}, GroundPerception = "Block_In_Orbit"},
 				{"WESSEX", Locations = {"WESSEX_REDOUBT"}, GroundPerception = "Denn_Wessex_In_Orbit"},
 			},
 			GroundCompany = "ODD_BALL_P1_TEAM",
@@ -113,8 +113,9 @@ function Get_Hero_Entries(upgrade_object)
 			Options = {
 				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}, GroundPerception = "Yularen_In_Orbit"},
 				{"KILIAN", Locations = {"KILIAN_ENDURANCE"}, GroundPerception = "Kilian_In_Orbit"},
-				{"WIELER", Locations = {"WIELER_RESILIENT"}, GroundPerception = "Wieler_In_Orbit"},
+				{"BLOCK", Locations = {"BLOCK_NEGOTIATOR","BLOCK_VIGILANCE"}, GroundPerception = "Block_In_Orbit"},
 				{"WESSEX", Locations = {"WESSEX_REDOUBT"}, GroundPerception = "Denn_Wessex_In_Orbit"},
+				{"ORGANA", Locations = {"BAIL_ORGANA_VENATOR"}, GroundPerception = "Bail_Organa_In_Orbit"},
 			},
 			GroundCompany = "ODD_BALL_P2_TEAM",
 			Factions = {"Empire"},
@@ -130,7 +131,6 @@ function Get_Hero_Entries(upgrade_object)
 				{"DODONNA", Locations = {"DODONNA_ARDENT"}, GroundPerception = "Jan_Dodonna_In_Orbit"},
 				{"WIELER", Locations = {"WIELER_RESILIENT"}, GroundPerception = "Wieler_In_Orbit"},
 				{"KILIAN", Locations = {"KILIAN_ENDURANCE"}, GroundPerception = "Kilian_In_Orbit"},
-				{"WESSEX", Locations = {"WESSEX_REDOUBT"}, GroundPerception = "Denn_Wessex_In_Orbit"},
 			},
 			GroundCompany = "WARTHOG_P1_TEAM",
 			Factions = {"Empire"},
@@ -147,7 +147,6 @@ function Get_Hero_Entries(upgrade_object)
 				{"DODONNA", Locations = {"DODONNA_ARDENT"}, GroundPerception = "Jan_Dodonna_In_Orbit"},
 				{"WIELER", Locations = {"WIELER_RESILIENT"}, GroundPerception = "Wieler_In_Orbit"},
 				{"KILIAN", Locations = {"KILIAN_ENDURANCE"}, GroundPerception = "Kilian_In_Orbit"},
-				{"COBURN", Locations = {"COBURN_VENATOR"}, GroundPerception = "Coburn_In_Orbit"},
 			},
 			GroundCompany = "WARTHOG_P2_TEAM",
 			Factions = {"Empire"},
@@ -164,7 +163,6 @@ function Get_Hero_Entries(upgrade_object)
 				{"THERBON", Locations = {"THERBON_CERULEAN_SUNRISE"}},
 				{"RAVIK", Locations = {"RAVIK_VICTORY"}},
 				{"MULLEEN", Locations = {"MULLEEN_IMPERATOR"}},
-				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}},
 				{"SCREED", Locations = {"SCREED_ARLIONNE","SCREED_DEMOLISHER"}},
 				{"PARCK", Locations = {"PARCK_STRIKEFAST"}},
 			}
@@ -206,7 +204,7 @@ function Get_Hero_Entries(upgrade_object)
 			PopupHeader = "JAG_P2_SELECTOR_HEADER",
 			NoInit = true,
 			Options = {
-				{"DODONNA", Locations = {"DODONNA_ARDENT"}},
+				{"DODONNA", Locations = {"DODONNA_ARDENT"}, GroundPerception = "Jan_Dodonna_In_Orbit"},
 				{"DALLIN", Locations =  {"DALLIN_KEBIR"}},
 				{"AUTEM", Locations = {"AUTEM_VENATOR"}},
 				{"COBURN", Locations = {"COBURN_VENATOR"}, GroundPerception = "Coburn_In_Orbit"},
@@ -221,6 +219,7 @@ function Get_Hero_Entries(upgrade_object)
 				{"BARAKA", Locations = {"BARAKA_NEXU"}},
 				{"SEERDON", Locations = {"SEERDON_INVINCIBLE"}},
 				{"DENIMOOR", Locations = {"DENIMOOR_TENACIOUS"}},
+				{"DRON", Locations = {"DRON_VENATOR"}},
 				{"KREUGE", Locations = {"KREUGE_GIBBON"}},
 			},
 			Factions = {"Empire"},

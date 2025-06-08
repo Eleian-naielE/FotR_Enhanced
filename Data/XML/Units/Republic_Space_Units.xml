@@ -4785,7 +4785,7 @@
 	<SpaceUnit Name="ARC_170_OFC">
 		<Variant_Of_Existing_Type>Clone_ARC_170</Variant_Of_Existing_Type>
 
-		<Space_Model_Name>ARC-170_starfighter_OFC</Space_Model_Name>
+		<Space_Model_Name>ARC-170_starfighter_OFC.alo</Space_Model_Name>
 	</SpaceUnit>
 
 	<Squadron Name="ARC_170_OFC_Squadron">

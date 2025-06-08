@@ -91,7 +91,7 @@
 	
 	<!-- FotR_Enhanced -->
 
-	<DummyStructure Name="OFC_SPHA_T_Refit">
+	<DummyStructure Name="Venator_SPHA_T_Upgrade">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 		<GUI_Row> 0 </GUI_Row>
 
@@ -101,37 +101,14 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		
-		<Text_ID>TEXT_UNIT_OFC_SPHA_T_REFIT</Text_ID>
+		<Text_ID>TEXT_UNIT_VENATOR_SPHA_T_UPGRADE</Text_ID>
 		<Lua_Script>DelayedSelfDelete</Lua_Script>
 		<Affiliation>Empire</Affiliation>
 		<Icon_Name>i_button_jedi_Cruiser_rep_SPHAT.tga</Icon_Name>
 
 		<Tech_Level>4</Tech_Level>
-		<!--
-			<Encyclopedia_Text> 
-				TEXT_TOOLTIP_OFC_SPHA_T_REFIT
-				TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-				TEXT_TOOLTIP_VENATOR_OFC_HULL 
-				TEXT_TOOLTIP_VENATOR_SHIELD
-				TEXT_TOOLTIP_VENATOR_MOVE 
-				TEXT_TOOLTIP_VENATOR_OFC_SQUADRON
-				TEXT_TOOLTIP_VENATOR_OFC_WEAP1
-				TEXT_TOOLTIP_VENATOR_WEAP2 
-				TEXT_TOOLTIP_VENATOR_WEAP3
-				TEXT_TOOLTIP_VENATOR_WEAP4
-				TEXT_TOOLTIP_VENATOR_WEAP5
-				TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
-				TEXT_TOOLTIP_VENATOR_WEAP_INTEGRITY
-				TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-				TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
-				TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
-				TEXT_TOOLTIP_CAPABILITY_BOARDABLE
-				TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
-				TEXT_TOOLTIP_BUILDLIMIT_VENATOR_OFC_SPHA_T
-			</Encyclopedia_Text>
-		-->
 		<Encyclopedia_Text> 
-			TEXT_TOOLTIP_OFC_SPHA_T_REFIT
+			TEXT_TOOLTIP_VENATOR_SPHA_T_UPGRADABLE
 			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
 			TEXT_TOOLTIP_VENATOR_HULL 
 			TEXT_TOOLTIP_VENATOR_SHIELD
@@ -148,13 +125,13 @@
 			TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
 			TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 			TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
-			TEXT_TOOLTIP_BUILDLIMIT_VENATOR_OFC_SPHA_T
+			TEXT_TOOLTIP_BUILDLIMIT_VENATOR_SPHA_T
 		</Encyclopedia_Text>
 
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
 		
 		<Required_Special_Structures>AI_Category_Dummy | Capital_Category_Dummy </Required_Special_Structures>
-		<Required_Orbiting_Units>Generic_Venator, Anakin_Eta</Required_Orbiting_Units>
+		<Required_Orbiting_Units>Venator_Star_Destroyer, Anakin_Eta</Required_Orbiting_Units>
 		<Build_Limit_Lifetime_Per_Player>3</Build_Limit_Lifetime_Per_Player>
 		
 		<Unit_Abilities_Data SubObjectList="No">

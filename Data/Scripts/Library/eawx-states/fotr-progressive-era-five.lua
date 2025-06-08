@@ -83,7 +83,7 @@ return {
             crossplot:publish("PROVIDENCE_RESEARCH_FINISHED", "empty")
             crossplot:publish("BULWARK1_RESEARCH_FINISHED", "empty")
             crossplot:publish("VICTORY1_RESEARCH_FINISHED", "empty")
-            crossplot:publish("UTAT_RESEARCH_FINISHED", "empty")
+            crossplot:publish("GEEN_UNLOCK", "empty")
         end
     end,
     on_exit = function(self, state_context)

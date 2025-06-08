@@ -60,7 +60,7 @@
 		TEXT_TOOLTIP_COMMAND_GUARDIAN_SQUADRON_ARC170
 		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
 		TEXT_TOOLTIP_ASSIGN_LOCATIONS
-		TEXT_HERO_JAN_DODONNA
+		TEXT_HERO_SEERDON
 		TEXT_HERO_VOSS_PARCK
 		TEXT_HERO_WILHUFF_TARKIN
 		TEXT_HERO_THERBON
@@ -751,10 +751,10 @@
 		TEXT_TOOLTIP_COMMAND_BRAVO_SQUADRON
 		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
 		TEXT_TOOLTIP_ASSIGN_LOCATIONS
-		TEXT_HERO_AUTEM
-		TEXT_HERO_DALLIN
 		TEXT_HERO_HAUSER
+		TEXT_HERO_DALLIN		
 		TEXT_HERO_MAARISA
+		TEXT_HERO_NILS_TENANT
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
 
@@ -1036,7 +1036,7 @@
 		TEXT_HERO_TALLON
 		TEXT_HERO_GRANT
 		TEXT_HERO_AUTEM
-		TEXT_HERO_JAN_DODONNA
+		TEXT_HERO_NILS_TENANT
 		TEXT_HERO_MAARISA
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
@@ -1231,7 +1231,6 @@
 		TEXT_HERO_THERBON
 		TEXT_HERO_RAVIK
 		TEXT_HERO_MULLEEN
-		TEXT_HERO_YULAREN
 		TEXT_HERO_TERRINALD_SCREED
 		TEXT_HERO_VOSS_PARCK
 		</Encyclopedia_Text>
@@ -1963,8 +1962,8 @@
 		TEXT_TOOLTIP_ASSIGN_LOCATIONS
 		TEXT_HERO_YULAREN
 		TEXT_HERO_KILIAN
-		TEXT_HERO_WIELER
-		TEXT_HERO_COBURN
+		TEXT_HERO_BLOCK
+		TEXT_HERO_DENN_WESSEX
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
 
@@ -2391,8 +2390,9 @@
 		TEXT_TOOLTIP_ASSIGN_LOCATIONS
 		TEXT_HERO_YULAREN
 		TEXT_HERO_KILIAN
-		TEXT_HERO_WIELER
-		TEXT_HERO_COBURN
+		TEXT_HERO_BLOCK
+		TEXT_HERO_DENN_WESSEX
+		TEXT_HERO_BAIL_ORGANA
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
 
@@ -2501,8 +2501,9 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</UniqueUnit>
+
 	<UniqueUnit Name="ARC170_Squad_Seven">
-		<Variant_Of_Existing_Type>Clone_ARC_170</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>ARC_170_OFC</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_SQUAD_SEVEN_ARC170</Text_ID>
 		<Encyclopedia_Text> 
@@ -2554,6 +2555,7 @@
 			</Sensor_Jamming_Ability>
 		</Abilities>
 	</UniqueUnit>
+
 	<Container Name="Odd_Ball_ARC170_Squad_Seven_Container">
 		<Variant_Of_Existing_Type>ARC_170_Squadron_Container</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_ODD_BALL</Text_ID>
@@ -2593,6 +2595,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
+
 	<Squadron Name="Odd_Ball_ARC170_Squad_Seven_Squadron">
 		<Variant_Of_Existing_Type>Clone_ARC_170_Squadron</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_ODD_BALL</Text_ID>
@@ -2635,6 +2638,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Squadron>
+
 	<UniqueUnit Name="Odd_Ball_P2_LAAT">
 		<Variant_Of_Existing_Type>Odd_Ball_P1_LAAT</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
@@ -2661,6 +2665,7 @@
 
 		<No_Colorization_Color> 25, 25, 255, 255 </No_Colorization_Color>
 	</UniqueUnit>
+
 	<HeroCompany Name="Odd_Ball_P2_Team">
 		<Variant_Of_Existing_Type>Odd_Ball_P1_Team</Variant_Of_Existing_Type>
 
@@ -2833,6 +2838,7 @@
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
+
 			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -2840,6 +2846,19 @@
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
+
+			<Combat_Bonus_Ability Name="Plo_Bro_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types>Plo_Koon_Delta</Applicable_Unit_Types>
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.00</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.00</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.00</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>	
 		</Abilities>
 	</UniqueUnit>
 	
@@ -3117,7 +3136,6 @@
 		TEXT_HERO_JAN_DODONNA
 		TEXT_HERO_WIELER
 		TEXT_HERO_KILIAN
-		TEXT_HERO_COBURN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
 
@@ -3186,6 +3204,7 @@
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
+
 			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -3193,6 +3212,19 @@
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
+
+			<Combat_Bonus_Ability Name="Plo_Bro_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types>Plo_Koon_Delta</Applicable_Unit_Types>
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.00</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.00</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.00</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>	
 		</Abilities>
 	</UniqueUnit>
 	
@@ -4035,6 +4067,7 @@
 		TEXT_HERO_JAN_DODONNA
 		TEXT_HERO_DALLIN
 		TEXT_HERO_AUTEM
+		TEXT_HERO_COBURN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
 
@@ -4042,7 +4075,7 @@
 	</DummyStructure>
 
 	<UniqueUnit Name="Jag_ARC170">
-		<Variant_Of_Existing_Type>Clone_ARC_170</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>ARC_170_OFC</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_HERO_JAG</Text_ID>
 		<Encyclopedia_Text>
@@ -4054,7 +4087,7 @@
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_TOOLTIP_COMMAND_127TH_ARC170
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_ODD_BALL_ARC170_BASE
+		TEXT_STATBLOCK_CLONE_HERO_ARC170_BASE
 		TEXT_STATBLOCK_ARC170_MOVE
 		TEXT_STATBLOCK_ARC170_WEAP1
 		TEXT_STATBLOCK_ARC170_WEAP2
@@ -4133,7 +4166,7 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
 
-			<Combat_Bonus_Ability Name="Jag_Plo_Koon_Bonus">
+			<Combat_Bonus_Ability Name="Plo_Bro_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>Plo_Koon_Delta</Applicable_Unit_Types>
@@ -4149,7 +4182,7 @@
 	</UniqueUnit>
 
 	<UniqueUnit Name="ARC170_127th">
-		<Variant_Of_Existing_Type>Clone_ARC_170</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>ARC_170_OFC</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_SQUAD_SEVEN_ARC170</Text_ID>
 		<Encyclopedia_Text> 
@@ -4208,13 +4241,14 @@
 		<Text_ID>TEXT_HERO_JAG</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_SPACE
 		TEXT_TOOLTIP_TRAIT_PLO_BRO
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_JAG
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
 		TEXT_TOOLTIP_COMMAND_127TH_ARC170
 		TEXT_TOOLTIP_SEPARATOR_FIGHTER_LEADER_STAT_BLOCK
-		TEXT_STATBLOCK_ODD_BALL_ARC170_BASE
+		TEXT_STATBLOCK_CLONE_HERO_ARC170_BASE
 		TEXT_TOOLTIP_SEPARATOR_FIGHTER_ESCORT_STAT_BLOCK
 		TEXT_STATBLOCK_ARC170_ESCORT_BASE
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -4233,7 +4267,12 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
+				<GUI_Activated_Ability_Name>Fighter_Sensor_Jamming</GUI_Activated_Ability_Name> 
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SENSOR_JAMMING_DESCRIPTION_100</Alternate_Description_Text>
+				<Recharge_Seconds>55.0</Recharge_Seconds> 
+				<Expiration_Seconds>5.0</Expiration_Seconds>
+				<Effective_Radius>100.0</Effective_Radius>
+				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 
 			<Unit_Ability>
@@ -4249,13 +4288,14 @@
 		<Text_ID>TEXT_HERO_JAG</Text_ID>	
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_SPACE
 		TEXT_TOOLTIP_TRAIT_PLO_BRO
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_JAG
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
 		TEXT_TOOLTIP_COMMAND_127TH_ARC170
 		TEXT_TOOLTIP_SEPARATOR_FIGHTER_LEADER_STAT_BLOCK
-		TEXT_STATBLOCK_ODD_BALL_ARC170_BASE
+		TEXT_STATBLOCK_CLONE_HERO_ARC170_BASE
 		TEXT_TOOLTIP_SEPARATOR_FIGHTER_ESCORT_STAT_BLOCK
 		TEXT_STATBLOCK_ARC170_ESCORT_BASE
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -4277,7 +4317,12 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
+				<GUI_Activated_Ability_Name>Fighter_Sensor_Jamming</GUI_Activated_Ability_Name> 
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SENSOR_JAMMING_DESCRIPTION_100</Alternate_Description_Text>
+				<Recharge_Seconds>55.0</Recharge_Seconds> 
+				<Expiration_Seconds>5.0</Expiration_Seconds>
+				<Effective_Radius>100.0</Effective_Radius>
+				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 
 			<Unit_Ability>
@@ -4319,6 +4364,8 @@
 		TEXT_HERO_BARAKA
 		TEXT_HERO_SEERDON
 		TEXT_HERO_DENIMOOR
+		TEXT_HERO_DRON
+		TEXT_HERO_KREUGE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
 
@@ -4331,7 +4378,7 @@
 		<Text_ID>TEXT_HERO_FORRAL</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_ACEPILOT
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK 
 		TEXT_TOOLTIP_FORRAL
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -4375,15 +4422,15 @@
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-			<Combat_Bonus_Ability Name="Bythen_Forral_Combat_Bonus_Ace_Pilot">
+			<Combat_Bonus_Ability Name="Starfighter_Specialist_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Applicable_Unit_Categories> Fighter | Bomber </Applicable_Unit_Categories>
-				<Health_Bonus_Percentage>0.10</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
+				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
 			</Combat_Bonus_Ability>
 		</Abilities>
 	</UniqueUnit>
@@ -4426,7 +4473,7 @@
 		<Text_ID>TEXT_HERO_FORRAL</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_ACEPILOT
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK 
 		TEXT_TOOLTIP_FORRAL
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -4469,7 +4516,7 @@
 		<Text_ID>TEXT_HERO_FORRAL</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_ACEPILOT
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK 
 		TEXT_TOOLTIP_FORRAL
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
