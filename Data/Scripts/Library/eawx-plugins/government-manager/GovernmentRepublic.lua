@@ -239,6 +239,16 @@ function GovernmentRepublic:ExecuteOrder66(stage)
 			"KOTAS_MILITIA_TROOPER_COMPANY_DUMMY",
 			"ANTARIAN_RANGER_COMPANY_DUMMY"
 		})
+		
+		local SPHA_T_Ven = "Venator_SPHA_T" 
+		if TestValid(Find_First_Object(SPHA_T_Ven)) then
+			local SPHA_T_List = Find_All_Objects_Of_Type(SPHA_T_Ven)
+			if table.getn(SPHA_T_List) ~= 0 then
+				for _, despawn_target in pairs(SPHA_T_List) do
+					UnitUtil.ReplaceAtLocation(despawn_target, "Generic_Venator")
+				end
+			end
+		end
 
 		crossplot:publish("SENATE_CHOICE_MADE", "ORDER_66_STAFF_CHANGES")
 
