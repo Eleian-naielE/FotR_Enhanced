@@ -39,6 +39,7 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 			{"VENATOR_HEROES"}
 			)
 		--FotR_Enhanced
+		--[[
 		self.UtatResearch = GenericResearch(self.galactic_conquest, 
 			"UTAT_RESEARCH", 
 			"Dummy_Research_UTAT", 
@@ -48,7 +49,7 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 			nil,nil,
 			{"UTAT_HEROES"}
 			)
-
+		]]
 		self.Victory1Research = GenericResearch(self.galactic_conquest,
 			"VICTORY1_RESEARCH",
 			"Dummy_Research_Victory1",

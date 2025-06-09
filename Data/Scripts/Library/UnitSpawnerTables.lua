@@ -168,6 +168,7 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"UT_AT_Speeder_Company", 1, StartYear = -21}
 				,{"Republic_AT_TE_Walker_Company", 1, StartYear = -22}
 				,{"Republic_Gian_Company", 1, LastYear = -21}
+				,{"SPHA_T_Company", 1, LastYear = -22}
 			},
 			Groundbase_Table = {
 				"E_Ground_Barracks",
