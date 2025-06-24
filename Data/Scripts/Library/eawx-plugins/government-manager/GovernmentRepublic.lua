@@ -127,23 +127,29 @@ function GovernmentRepublic:SenateChoiceMade(option)
 
 	--enhanced security
 	if option == "SENATE_CHOICE_ENH_SEC_MOTHMA" then
+		Story_Event("ENHANCED_SECURITY_MOTHMA")
 		crossplot:publish("SENATE_CHOICE_MADE", "ENHANCED_SECURITY_PREVENTED")
 	elseif option == "SENATE_CHOICE_ENH_SEC_TARKIN" then
+		Story_Event("ENHANCED_SECURITY_TARKIN")
 		crossplot:publish("SENATE_CHOICE_MADE", "ENHANCED_SECURITY_SUPPORTED")
 
 	--kuat power struggle
 	elseif option == "SENATE_CHOICE_KUAT_ONARA" then
+		Story_Event("KUAT_POWER_STRUGGLE_ONARA")
 		UnitUtil.SetLockList("EMPIRE", {"Onara_Kuat_POTC_Upgrade"})
 		StoryUtil.SpawnAtSafePlanet("KUAT", self.RepublicPlayer, self.Active_Planets, {"Onara_Kuat_Team","Ottegru_Grey_Team"})
 	elseif option == "SENATE_CHOICE_KUAT_GIDDEAN" then
+		Story_Event("KUAT_POWER_STRUGGLE_GIDDEAN")
 		UnitUtil.DespawnList({"ONARA_KUAT"})
 		StoryUtil.SpawnAtSafePlanet("BYSS", self.RepublicPlayer, self.Active_Planets, {"Giddean_Team","Kuat_of_Kuat_Procurator"})
 		UnitUtil.SetLockList("EMPIRE", {"Lancer_Frigate_Prototype"})
 
 	--military enhancement
 	elseif option == "SENATE_CHOICE_MIL_ENH_MOTHMA" then
+		Story_Event("MILITARY_ENHANCEMENT_MOTHMA")
 		StoryUtil.SpawnAtSafePlanet("BOTHAWUI", self.RepublicPlayer, self.Active_Planets, {"Bail_Organa_Team","Raymus_Tantive"})
 	elseif option == "SENATE_CHOICE_MIL_ENH_PESTAGE" then
+		Story_Event("MILITARY_ENHANCEMENT_PESTAGE")
 		UnitUtil.SetLockList("EMPIRE", {"DUMMY_RESEARCH_CLONE_TROOPER_II"})
 
 	--order 6x
@@ -181,9 +187,11 @@ function GovernmentRepublic:SenateChoiceMade(option)
 
 	--sector governance
 	elseif option == "SENATE_CHOICE_SEC_GOV_MOTHMA" then
+		Story_Event("SECTOR_GOVERNANCE_MOTHMA")
 		StoryUtil.SpawnAtSafePlanet("CORUSCANT", self.RepublicPlayer, self.Active_Planets, {"Giddean_Team"})
 		UnitUtil.SetLockList("EMPIRE", {"Tallon_Battalion_Upgrade", "Neutron_Star"})
 	elseif option == "SENATE_CHOICE_SEC_GOV_PESTAGE" then
+		Story_Event("SECTOR_GOVERNANCE_PESTAGE")
 		crossplot:publish("SENATE_CHOICE_MADE", "SECTOR_GOVERNANCE_DECREE_SUPPORTED")
 
 	--not actually choices

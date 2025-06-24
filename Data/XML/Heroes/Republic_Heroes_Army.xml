@@ -28,7 +28,6 @@
 
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
 	</DummyStructure>
-
 	<DummyStructure Name="View_Generals">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 		<GUI_Row> 1 </GUI_Row>
@@ -57,7 +56,6 @@
 
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
 	</DummyStructure>
-	
 	<DummyStructure Name="Random_General_Assign">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 		<GUI_Row> 0 </GUI_Row>
@@ -87,6 +85,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRUNGER
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -152,7 +151,6 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Lua_Script>GroundHero</Lua_Script>
 		
 		<Starting_Spawned_Units_Tech_0>Republic_Navy_Trooper_Squad, 4</Starting_Spawned_Units_Tech_0>
 
@@ -181,9 +179,7 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
 				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -211,12 +207,12 @@
 			</Redirect_Blaster_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Josef_Grunger_Team">
 		<Text_ID>TEXT_HERO_GRUNGER</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRUNGER
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -250,7 +246,6 @@
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 	</HeroCompany>
 
@@ -266,6 +261,7 @@
 		TEXT_TOOLTIP_ASSIGN_NR_ADMIRAL
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRUNGER
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -286,7 +282,6 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
-
 	<DummyStructure Name="Grunger_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -307,6 +302,8 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_INFANTRY
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_KLIGSON
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -433,16 +430,14 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 + Defense Focus + Infantry Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
@@ -452,6 +447,22 @@
 				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			<Combat_Bonus_Ability Name="Infantry_Specialist_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Infantry_Specialist_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>1</Stacking_Category>
 			</Battlefield_Modifier_Ability>
 			
 			<Grenade_Attack_Ability Name="Kligson_Grenade_Attack">
@@ -475,12 +486,13 @@
 			</Grenade_Attack_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Kligson_Team">
 		<Text_ID>TEXT_HERO_KLIGSON</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_INFANTRY
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_KLIGSON
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -503,7 +515,6 @@
 		
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Empire</Affiliation>
-		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -516,7 +527,6 @@
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Dark_Trooper_1</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Complete_Dark_Trooper_1</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Dark_Trooper_1</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
@@ -527,6 +537,8 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_INFANTRY
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_KLIGSON
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -655,16 +667,14 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 + Defense Focus + Infantry Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
@@ -674,6 +684,22 @@
 				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			<Combat_Bonus_Ability Name="Infantry_Specialist_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Infantry_Specialist_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>1</Stacking_Category>
 			</Battlefield_Modifier_Ability>
 			
 			<Grenade_Attack_Ability Name="Kligson_Grenade_Attack">
@@ -697,12 +723,13 @@
 			</Grenade_Attack_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Kligson2_Team">
 		<Variant_Of_Existing_Type>Kligson_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_INFANTRY
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_KLIGSON
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -733,6 +760,8 @@
 		TEXT_TOOLTIP_ASSIGN_NR_ADMIRAL
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_INFANTRY
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_KLIGSON
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -751,7 +780,6 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
-
 	<DummyStructure Name="Kligson_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -766,6 +794,8 @@
 		TEXT_TOOLTIP_ASSIGN_NR_ADMIRAL
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_INFANTRY
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_KLIGSON
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -801,7 +831,6 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Kligson</Required_Orbiting_Units>
 	</DummyStructure>
-
 	<DummyStructure Name="Kligson_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -862,16 +891,16 @@
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_DLT_20A_LMG, HP_ARC_Wrist_Rocket</HardPoints>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Rom_Mohc </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		
 		<SFXEvent_Select>Unit_Select_Rom_Mohc</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rom_Mohc</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rom_Mohc</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Rom_Mohc</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Rom_Mohc</SFXEvent_Guard>
-
-		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Rom_Mohc </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
 
@@ -880,9 +909,7 @@
 		<AI_Combat_Power>66</AI_Combat_Power>
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
-
-		<Lua_Script>GroundHero</Lua_Script>
-
+		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 			<Type>SPREAD_OUT</Type>
@@ -911,8 +938,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -929,8 +954,6 @@
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -956,7 +979,6 @@
 			</Berserker_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Rom_Mohc_Team">
 		<Text_ID>TEXT_HERO_ROM_MOHC</Text_ID>
 		<Encyclopedia_Text> 
@@ -992,7 +1014,6 @@
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Rom_Mohc</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Complete_Rom_Mohc</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rom_Mohc</SFXEvent_Fleet_Move>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
@@ -1057,12 +1078,13 @@
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		
+		<HardPoints>HP_Hero_Blaze_Trooper_Flamer, HP_Hero_Wrist_Rocket</HardPoints>
 
 		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Rom_Mohc </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
-		<HardPoints>HP_Hero_Blaze_Trooper_Flamer, HP_Hero_Wrist_Rocket</HardPoints>
 		<SFXEvent_Select>Unit_Select_Rom_Mohc</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rom_Mohc</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rom_Mohc</SFXEvent_Fleet_Move>
@@ -1070,12 +1092,7 @@
 		<SFXEvent_Guard>Unit_Guard_Rom_Mohc</SFXEvent_Guard>
 
 		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
-
-		<!-- Make Boba Fett die in a fiery explosion -->
-		<!-- <Death_SFXEvent_Start_Die> Unit_Defeat_Boba_Fett </Death_SFXEvent_Start_Die> -->	<!-- STUBBED FOR FRANK TO REPLACE -->
-
-		<!-- Engine loop for while Boba is flying around with his jet pack -->
-		<!-- Note: We do not want to do a special cinematic version, since he could also be standing around or running -->
+		
 		<SFXEvent_Engine_Moving_Loop> Unit_Jet_Pack_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
@@ -1083,8 +1100,6 @@
 		<AI_Combat_Power>68</AI_Combat_Power>
 
 		<Targeting_Priority_Set>AntiInfantryStructure</Targeting_Priority_Set>
-
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -1113,8 +1128,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1131,8 +1144,6 @@
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -1174,7 +1185,6 @@
 			</Redirect_Blaster_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Rom_Mohc2_Team">
 		<Text_ID>TEXT_HERO_ROM_MOHC</Text_ID>
 		<Encyclopedia_Text> 
@@ -1210,10 +1220,10 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
 		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
+		
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Rom_Mohc</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Complete_Rom_Mohc</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rom_Mohc</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
@@ -1246,7 +1256,6 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
-
 	<DummyStructure Name="Rom_Mohc_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -1289,7 +1298,6 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Rom_Mohc</Required_Orbiting_Units>
 	</DummyStructure>
-
 	<DummyStructure Name="Rom_Mohc_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -1331,7 +1339,7 @@
 		<Land_Model_Name>Senate_Commando_sergeant.alo</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>TrainedHero.alo</Land_Model_Anim_Override_Name>
 		
-		<Ranking_In_Category> 7 </Ranking_In_Category>
+		<Ranking_In_Category> 8 </Ranking_In_Category>
 		
 		<Tactical_Health>180</Tactical_Health>
 
@@ -1372,9 +1380,7 @@
 		<AI_Combat_Power>37</AI_Combat_Power>
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
-
-		<Lua_Script>GroundHero</Lua_Script>
-
+		
 		<Starting_Spawned_Units_Tech_0>Senate_Commando_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -1406,8 +1412,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1442,7 +1446,6 @@
 			</Lucky_Shot_Attack_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Jayfon_Team">
 		<Text_ID>TEXT_HERO_JAYFON</Text_ID>
 		<Encyclopedia_Text> 
@@ -1465,25 +1468,21 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_JAYFON.tga</Icon_Name>
 		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Empire</Affiliation>
-		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
-		
-		<Population_Value>1</Population_Value>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Tech_Level>99</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Theta_Shuttle_Landing_Craft_Jayfon</Company_Transport_Unit>
 		<Company_Units>Jayfon</Company_Units>
-		<Is_Homogeneous>No</Is_Homogeneous>
+		
+		<Population_Value>1</Population_Value>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>80</Damage>
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Score_Cost_Credits> 1 </Score_Cost_Credits>
 		
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Imp_Guard</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Complete_Imp_Guard</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Imp_Guard</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
@@ -1518,7 +1517,6 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
-
 	<DummyStructure Name="Jayfon_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -1562,7 +1560,7 @@
 
 		<Tactical_Health>160</Tactical_Health>
 		
-		<Ranking_In_Category> 7 </Ranking_In_Category>
+		<Ranking_In_Category> 8 </Ranking_In_Category>
 
 		<Max_Speed>1.1</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
@@ -1608,8 +1606,6 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Lua_Script>GroundHero</Lua_Script>
-
 		<Starting_Spawned_Units_Tech_0>Senate_Commando_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -1644,8 +1640,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1685,7 +1679,6 @@
 			</Redirect_Blaster_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Jesra_Loture_Team">
 		<Text_ID>TEXT_HERO_JESRA_LOTURE</Text_ID>
 		<Encyclopedia_Text> 
@@ -1708,17 +1701,16 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_JESRA_LOTURE.tga</Icon_Name>
 		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Empire</Affiliation>
-		<Population_Value>1</Population_Value>
-		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Tech_Level>99</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Theta_Shuttle_Landing_Craft_Jesra_Loture</Company_Transport_Unit>
 		<Company_Units>Jesra_Loture</Company_Units>
+		
+		<Affiliation>Empire</Affiliation>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>20</Damage>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
+		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
@@ -1758,7 +1750,6 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
-
 	<DummyStructure Name="Jesra_Loture_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -1805,7 +1796,6 @@
 		
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 		
-		<Lua_Script>GroundHero</Lua_Script>
 		<CategoryMask> AirGunship | AntiVehicle | AntiInfantry </CategoryMask>	<!-- VehicleHero is intentionally omitted - Rhino -->
 		<Property_Flags>CanContainGarrison | GarrisonCanFire | GTSImmune </Property_Flags>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
@@ -1830,8 +1820,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.24</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.24</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.24</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1847,8 +1835,6 @@
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -1863,7 +1849,6 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
-
 	<HeroCompany Name="Gentis_Team">
 		<Text_ID>TEXT_HERO_GENTIS</Text_ID>
 		<Encyclopedia_Text>
@@ -1910,7 +1895,6 @@
 		
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Hero_Respawned>GUI_E_Field_Commander_Complete</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Empire_Field</SFXEvent_Fleet_Move>
 	
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
@@ -1946,7 +1930,6 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
-
 	<DummyStructure Name="Gentis_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -1968,6 +1951,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_OZZEL_CW
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -1991,7 +1975,6 @@
 		
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask> VehicleHero | AntiInfantry | AntiVehicle </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 		<Property_Flags>GoodInfantryCrusher | CanContainGarrison | HealsInfantry | GTSImmune </Property_Flags>
 
 		<SFXEvent_Select>Unit_Select_Ozzel</SFXEvent_Select>
@@ -2024,15 +2007,13 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 + Offense Focus -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2072,12 +2053,12 @@
 		</Abilities>
 
 	</UniqueUnit>
-
 	<HeroCompany Name="Ozzel_Team">
 		<Text_ID>TEXT_HERO_OZZEL</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_OZZEL_CW
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -2109,14 +2090,12 @@
 		<Company_Units>Ozzel_AT_TE</Company_Units>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 		
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Ozzel</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Fleet_Move_Ozzel</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ozzel</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
@@ -2149,7 +2128,6 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
-
 	<DummyStructure Name="Ozzel_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -2192,7 +2170,6 @@
 		
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask> VehicleHero | AntiVehicle </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 		<Property_Flags> CanContainGarrison | GTSImmune </Property_Flags>
 
 		<!-- Turbolaser for alternate config -->
@@ -2246,8 +2223,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.21</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2261,7 +2236,6 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
-
 	<HeroCompany Name="Geen_Team">
 		<Text_ID>TEXT_HERO_GEEN</Text_ID>
 		<Encyclopedia_Text>
@@ -2304,7 +2278,6 @@
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Respawn_Veers</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Veers</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 	</HeroCompany>
 
@@ -2335,7 +2308,6 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
-
 	<DummyStructure Name="Geen_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -2381,18 +2353,15 @@
 		
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask> VehicleHero | AntiVehicle </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 		<Property_Flags>GoodInfantryCrusher | CanContainGarrison | GTSImmune </Property_Flags>
 
-		<SFXEvent_Select></SFXEvent_Select>
-		<SFXEvent_Move></SFXEvent_Move>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
-		<SFXEvent_Attack></SFXEvent_Attack>
-		<SFXEvent_Guard></SFXEvent_Guard>
-		<SFXEvent_Announce></SFXEvent_Announce>
-		<SFXEvent_Group_Move></SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack></SFXEvent_Group_Attack>
-		<Death_SFXEvent_Start_Die>  </Death_SFXEvent_Start_Die>
+		<SFXEvent_Select>Unit_Select_Juggernaut</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Juggernaut</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Juggernaut</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Juggernaut</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Juggernaut</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Juggernaut </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Juggernaut</SFXEvent_Assist_Attack>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -2422,8 +2391,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2437,7 +2404,6 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
-
 	<HeroCompany Name="Romodi_Team">
 		<Text_ID>TEXT_HERO_ROMODI</Text_ID>
 		<Encyclopedia_Text>
@@ -2481,7 +2447,6 @@
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Respawn_Veers</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Veers</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
@@ -2522,7 +2487,6 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
-
 	<DummyStructure Name="Romodi_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -2544,6 +2508,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
 		TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_01
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SOLOMAHAL
@@ -2566,18 +2531,7 @@
 
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask> VehicleHero | AntiVehicle </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 		<Property_Flags> GTSImmune </Property_Flags>
-
-		<SFXEvent_Select></SFXEvent_Select>
-		<SFXEvent_Move></SFXEvent_Move>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
-		<SFXEvent_Attack></SFXEvent_Attack>
-		<SFXEvent_Guard></SFXEvent_Guard>
-		<SFXEvent_Announce></SFXEvent_Announce>
-		<SFXEvent_Group_Move></SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack></SFXEvent_Group_Attack>
-		<Death_SFXEvent_Start_Die>  </Death_SFXEvent_Start_Die>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -2585,16 +2539,14 @@
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 		
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 and Agent_Tier_Agent_01 -->
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 + Defense Focus and Agent_Tier_Agent_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.24</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.24</Defense_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.30</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.24</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
@@ -2614,12 +2566,12 @@
 			</Reduce_Production_Price_Ability>
 		</Abilities>
 	</UniqueUnit>
-
 	<HeroCompany Name="Solomahal_Team">
 		<Text_ID>TEXT_HERO_SOLOMAHAL</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
 		TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_01
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SOLOMAHAL
@@ -2655,7 +2607,6 @@
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Respawn_Veers</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Veers</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -2679,6 +2630,7 @@
 		TEXT_TOOLTIP_ASSIGN_NR_ADMIRAL
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
 		TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_01
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SOLOMAHAL
@@ -2688,7 +2640,6 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
-
 	<DummyStructure Name="Solomahal_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -2772,7 +2723,6 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2799,8 +2749,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2838,7 +2786,6 @@
 			</Grenade_Attack_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Grudo_Team">
 		<Text_ID>TEXT_HERO_GRUDO</Text_ID>
 		<Encyclopedia_Text>
@@ -2963,7 +2910,6 @@
 
 		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
 
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -3060,7 +3006,6 @@
 			</Hack_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Ottegru_Grey_Team">
 		<Text_ID>TEXT_HERO_OTTEGRU_GREY</Text_ID>
 		<Encyclopedia_Text> 
@@ -3098,7 +3043,6 @@
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 	</HeroCompany>
 
@@ -3124,10 +3068,10 @@
 		<Icon_Name>I_BUTTON_PAIGE_TARKIN_ADMIN.tga</Icon_Name>
 		
 		<Land_Model_Name>HAP_Guard_Royal_Plain.ALO</Land_Model_Name>
-		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		
-		<Ranking_In_Category> 8 </Ranking_In_Category>
+		<Ranking_In_Category> 6 </Ranking_In_Category>
 
 		<Max_Speed>1.0</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
@@ -3209,7 +3153,6 @@
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Paige_Tarkin_Team">
 		<Text_ID>TEXT_HERO_PAIGE_TARKIN</Text_ID>
 		<Encyclopedia_Text>
@@ -3251,7 +3194,6 @@
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Respawn_Mothma</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Mothma</SFXEvent_Hero_Respawned>
 	</HeroCompany>
 
 	<HeroUnit Name="Armand_Isard">
@@ -3272,7 +3214,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTELLIGENCE_DIRECTOR </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_ARMAND_ISARD_ADMIN.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ARMAND_ISARD_SPYMASTER.tga</Icon_Name>
 
 		<Land_Model_Name>Armand_Isard.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>Civilian.alo</Land_Model_Anim_Override_Name>
@@ -3293,7 +3235,6 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
@@ -3351,7 +3292,6 @@
 			</System_Spy_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Armand_Isard_Team">
 		<Text_ID>TEXT_HERO_ARMAND_ISARD</Text_ID>
 		<Encyclopedia_Text> 
@@ -3368,27 +3308,23 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTELLIGENCE_DIRECTOR </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_ARMAND_ISARD_ADMIN.tga</Icon_Name>
-
-		<Population_Value>1</Population_Value>
-		<Is_Dummy>Yes</Is_Dummy>
+		<Icon_Name>I_BUTTON_ARMAND_ISARD_SPYMASTER.tga</Icon_Name>
 		
-		<Affiliation>Empire</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Tech_Level>99</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Theta_Shuttle_Landing_Craft_Admin</Company_Transport_Unit>
 		<Company_Units>Armand_Isard</Company_Units>
-		<Is_Homogeneous>No</Is_Homogeneous>
+		
+		<Population_Value>1</Population_Value>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>1</Damage>
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
 		
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 	</HeroCompany>
 
@@ -3398,7 +3334,8 @@
 		<Text_ID>TEXT_HERO_TORBIN</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_TORBIN
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -3406,6 +3343,9 @@
 		TEXT_TOOLTIP_TORBIN_MOVE
 		TEXT_TOOLTIP_TORBIN_WEAP1
 		TEXT_TOOLTIP_TORBIN_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
+		TEXT_TOOLTIP_BONUS_FORCE_TRAINING_20
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
@@ -3478,27 +3418,25 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
-			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 -->
+			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.21</Movement_Speed_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.24</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.24</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.30</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-			<Battlefield_Modifier_Ability Name="Command_Tier_07_FOW_Increase">
+			<Battlefield_Modifier_Ability Name="Command_Tier_08_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.21</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.33</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
-
+			
 			<Absorb_Blaster_Ability Name="Torbin_Absorb_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Absorb_Chance>0.2</Absorb_Chance>
@@ -3566,12 +3504,12 @@
 			</Stun_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Laddinare_Torbin_Empire_Team">
 		<Text_ID>TEXT_HERO_TORBIN</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_TORBIN
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -3611,6 +3549,7 @@
 	</HeroCompany>
 
 	<HeroUnit Name="Inglemenn_Barezz">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_INGLEMENN_BAREZZ</Text_ID>
 		<Encyclopedia_Text> 
@@ -3622,24 +3561,8 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTELLIGENCE </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_INGLEMENN_BAREZZ.tga</Icon_Name>
 		
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Type>Walk</Type>
-		<Affiliation>Empire</Affiliation>
-		<Political_Control>0</Political_Control>
 		<Political_Faction>Empire</Political_Faction>
-		
-		<Spawn_Planet>Coruscant</Spawn_Planet>
-		<Size_Value>75</Size_Value>
-		<Damage>100</Damage>
-		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<CategoryMask> NonCombatHero </CategoryMask>
 		<Ranking_In_Category> 10 </Ranking_In_Category>
-		<AI_Combat_Power>1</AI_Combat_Power>
-
-		<Neutralization_Cost>1000.0</Neutralization_Cost>
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 
 		<Abilities SubObjectList="Yes">
 			<System_Spy_Ability Name="Barezz_System_Spy">
@@ -3660,6 +3583,7 @@
 	</HeroUnit>
 	
 	<HeroCompany Name="Inglemenn_Barezz_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_INGLEMENN_BAREZZ</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -3669,24 +3593,11 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTELLIGENCE </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_INGLEMENN_BAREZZ.tga</Icon_Name>
-
-		<CategoryMask>NonCombatHero</CategoryMask>
-		<Population_Value>1</Population_Value>
 		
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Theta_Shuttle_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>Inglemenn_Barezz</Company_Units>
 		
-		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>600</Build_Cost_Credits>
-		<Build_Time_Seconds>30</Build_Time_Seconds>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Tech_Level>99</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 	</HeroCompany>
 
 	<!-- Non-Staff: Vehicle Heroes -->
@@ -3720,7 +3631,6 @@
 		
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask> VehicleHero | AntiInfantry </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 		<Property_Flags> CanContainGarrison | GoodInfantryCrusher | DoKite | GTSImmune </Property_Flags>
 
 		<LandBehavior> SPAWN_SQUADRON, SURFACE_FX, TREAD_SCROLL, WALK_LOCOMOTOR, IDLE, TARGETING, TURRET, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, GARRISON_VEHICLE, DAMAGE_TRACKING</LandBehavior>
@@ -3751,8 +3661,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -3766,7 +3674,6 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
-
 	<HeroCompany Name="Khamar_Team">
 		<Text_ID>TEXT_HERO_KHAMAR</Text_ID>
 		<Encyclopedia_Text> 
@@ -3811,7 +3718,6 @@
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Respawn_Veers</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Veers</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 	</HeroCompany>
 
@@ -3822,6 +3728,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
 		TEXT_TOOLTIP_GIDEON_TARKIN
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_UNIT_AT_OT_WALKER
@@ -3843,7 +3750,6 @@
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask> VehicleHero | AntiVehicle </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 		<Property_Flags> GoodInfantryCrusher | IsSupercrusher | GTSImmune </Property_Flags>
 
 		<LandBehavior>SPAWN_SQUADRON,ABILITY_COUNTDOWN, DEPLOY_TROOPERS, WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,STUNNABLE,DAMAGE_TRACKING,SQUASH,AFFECTED_BY_SHIELD</LandBehavior>
@@ -3877,16 +3783,14 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 + Defense Focus -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.27</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.21</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
@@ -3899,12 +3803,12 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
-
 	<HeroCompany Name="Gideon_Tarkin_Team">
 		<Text_ID>TEXT_HERO_GIDEON_TARKIN</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GIDEON_TARKIN
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -3943,7 +3847,6 @@
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Imperial_Walker</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Complete_Imperial_Walker</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Imperial_Walker</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
@@ -3972,7 +3875,6 @@
 
 		<Ranking_In_Category> 6 </Ranking_In_Category>
 		
-		<Lua_Script>GroundHero</Lua_Script>
 		<CategoryMask> AirGunship | AntiVehicle | AntiInfantry </CategoryMask>	<!-- VehicleHero is intentionally omitted - Rhino -->
 		<Property_Flags>CanContainGarrison | GarrisonCanFire | GTSImmune </Property_Flags>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
@@ -3997,8 +3899,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -4012,7 +3912,6 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
-
 	<HeroCompany Name="Ahalas_Svindren_Team">
 		<Text_ID>TEXT_HERO_AHALAS_SVINDREN</Text_ID>
 		<Encyclopedia_Text> 
@@ -4053,12 +3952,12 @@
 		
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Hero_Respawned>GUI_E_Field_Commander_Complete</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Empire_Field</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
 	<!-- Non-Staff: Economic Heroes -->
 	<HeroUnit Name="Ask_Aak">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_ASK_AAK</Text_ID>
 		<Encyclopedia_Text> 
@@ -4072,28 +3971,9 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_ASK_AAK_ADMIN.tga</Icon_Name>
 		
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-
-		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
-		<Political_Control>0</Political_Control>
-		<Political_Faction>Empire</Political_Faction>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<IsBuildable>No</IsBuildable>
-		<Size_Value>75</Size_Value>
-		<Damage>100</Damage>
-		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<CategoryMask> NonCombatHero </CategoryMask>
-		<AI_Combat_Power>1</AI_Combat_Power>
-
-		<Neutralization_Cost>1000.0</Neutralization_Cost>
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Senator -->
 			<Reduce_Production_Price_Ability Name="Admin_Tier_Senator_Reduce_Production_Price">
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -4116,8 +3996,8 @@
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Ask_Aak_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_ASK_AAK</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -4130,31 +4010,18 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_ASK_AAK_ADMIN.tga</Icon_Name>
 		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Theta_Shuttle_Landing_Craft_Admin</Company_Transport_Unit>
 		<Company_Units>Ask_Aak</Company_Units>
 		
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<CategoryMask>NonCombatHero</CategoryMask>
-		<Population_Value>1</Population_Value>
-
-		<Tech_Level>99</Tech_Level>
 		<Affiliation>Empire</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 	</HeroCompany>
 
 	<HeroUnit Name="Bail_Organa">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_BAIL_ORGANA</Text_ID>
 		<Encyclopedia_Text>
@@ -4168,27 +4035,8 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_BAIL_ORGANA_ADMIN.tga</Icon_Name>
 		
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-
-		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
 		<Ranking_In_Category> 4 </Ranking_In_Category>
-
-		<Political_Control>0</Political_Control>
-		<Political_Faction>Empire</Political_Faction>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<IsBuildable>No</IsBuildable>
-		<Size_Value>75</Size_Value>
-		<Damage>100</Damage>
-		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<CategoryMask> NonCombatHero </CategoryMask>
-		<AI_Combat_Power>1</AI_Combat_Power>
-
-		<Neutralization_Cost>1000.0</Neutralization_Cost>
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Senator -->
 			<Reduce_Production_Price_Ability Name="Admin_Tier_Senator_Reduce_Production_Price">
@@ -4212,8 +4060,8 @@
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Bail_Organa_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_BAIL_ORGANA</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -4225,29 +4073,19 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_BAIL_ORGANA_ADMIN.tga</Icon_Name>
-
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		
 		<Company_Transport_Unit>CIS_Sheathipede_Landing_Craft_Admin</Company_Transport_Unit> <!-- Funny TFU reference -->
 		<Company_Units>Bail_Organa</Company_Units>
 
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<CategoryMask>NonCombatHero</CategoryMask>
-		<Population_Value>1</Population_Value>
-
-		<Tech_Level>99</Tech_Level>
 		<Affiliation>Empire</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 	</HeroCompany>
 
 	<HeroUnit Name="Garm_Bel_Iblis">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_GARM_BEL_IBLIS</Text_ID>
 		<Encyclopedia_Text> 
@@ -4261,30 +4099,11 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_GARM_CW_ADMIN.TGA</Icon_Name>
 		
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-
-		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 		
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gargantuan</SFXEvent_Fleet_Move>
 
-		<Political_Control>0</Political_Control>
-		<Political_Faction>Empire</Political_Faction>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<IsBuildable>No</IsBuildable>
-		<Size_Value>75</Size_Value>
-		<Damage>100</Damage>
-		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<CategoryMask> NonCombatHero </CategoryMask>
-		<AI_Combat_Power>1</AI_Combat_Power>
-
-		<Neutralization_Cost>1000.0</Neutralization_Cost>
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Senator -->
 			<Reduce_Production_Price_Ability Name="Admin_Tier_Senator_Reduce_Production_Price">
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -4307,8 +4126,8 @@
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Garm_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_GARM_BEL_IBLIS</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -4321,28 +4140,19 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_GARM_CW_ADMIN.TGA</Icon_Name>
 		
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>CR20_Landing_Craft_Admin</Company_Transport_Unit> <!-- Corellian senator using corellian lander -->
 		<Company_Units>Garm_Bel_Iblis</Company_Units>
-
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<CategoryMask>NonCombatHero</CategoryMask>
-		<Population_Value>1</Population_Value>
-
-		<Tech_Level>99</Tech_Level>
+		
 		<Affiliation>Empire</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gargantuan</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
 	<HeroUnit Name="Giddean_Danu">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_GIDDEAN_DANU</Text_ID>
 		<Encyclopedia_Text>
@@ -4356,27 +4166,8 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_GIDDEAN_DANU_ADMIN.tga</Icon_Name>
 		
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-
-		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
-		<Ranking_In_Category> 5 </Ranking_In_Category>
-
-		<Political_Control>0</Political_Control>
-		<Political_Faction>Empire</Political_Faction>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<IsBuildable>No</IsBuildable>
-		<Size_Value>75</Size_Value>
-		<Damage>100</Damage>
-		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<CategoryMask> NonCombatHero </CategoryMask>
-		<AI_Combat_Power>1</AI_Combat_Power>
-
-		<Neutralization_Cost>1000.0</Neutralization_Cost>
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+		<Ranking_In_Category> 6 </Ranking_In_Category>
 		
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Senator -->
 			<Reduce_Production_Price_Ability Name="Admin_Tier_Senator_Reduce_Production_Price">
@@ -4400,8 +4191,8 @@
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Giddean_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_GIDDEAN_DANU</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -4414,31 +4205,18 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_GIDDEAN_DANU_ADMIN.tga</Icon_Name>
 		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Theta_Shuttle_Landing_Craft_Admin</Company_Transport_Unit> <!-- Funny TFU reference -->
 		<Company_Units>Giddean_Danu</Company_Units>
-
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<CategoryMask>NonCombatHero</CategoryMask>
-		<Population_Value>1</Population_Value>
-
-		<Tech_Level>99</Tech_Level>
+		
 		<Affiliation>Empire</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 	</HeroCompany>
 
 	<HeroUnit Name="Mon_Mothma">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_MON_MOTHMA</Text_ID>
 		<Encyclopedia_Text> 
@@ -4453,27 +4231,8 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_CHANCELLOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_MON_MOTHMA_CW_ADMIN.tga</Icon_Name>
 		
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-
-		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
-
-		<Political_Control>0</Political_Control>
-		<Political_Faction>Empire</Political_Faction>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<IsBuildable>No</IsBuildable>
-		<Size_Value>75</Size_Value>
-		<Damage>100</Damage>
-		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<CategoryMask> NonCombatHero </CategoryMask>
-		<AI_Combat_Power>1</AI_Combat_Power>
-
-		<Neutralization_Cost>1000.0</Neutralization_Cost>
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 		
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mon_Mothma</SFXEvent_Fleet_Move>
 
@@ -4499,8 +4258,8 @@
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Mon_Mothma_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_MON_MOTHMA_TEAM</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -4514,31 +4273,18 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_CHANCELLOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_MON_MOTHMA_CW_ADMIN.tga</Icon_Name>
 		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Theta_Shuttle_Landing_Craft_Admin</Company_Transport_Unit> <!-- Funny TFU reference -->
 		<Company_Units>Mon_Mothma</Company_Units>
-
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<CategoryMask>NonCombatHero</CategoryMask>
-		<Population_Value>1</Population_Value>
-
-		<Tech_Level>99</Tech_Level>
+		
 		<Affiliation>Empire</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 	</HeroCompany>
 
 	<HeroUnit Name="Nala_Se">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_NALA_SE</Text_ID>
 		<Encyclopedia_Text> 
@@ -4552,27 +4298,8 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SCIENTIST </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_NALA_SE_ADMIN.tga</Icon_Name>
 		
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-
-		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
-		<Ranking_In_Category> 8 </Ranking_In_Category>
-
-		<Political_Control>0</Political_Control>
-		<Political_Faction>Empire</Political_Faction>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<IsBuildable>No</IsBuildable>
-		<Size_Value>75</Size_Value>
-		<Damage>100</Damage>
-		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<CategoryMask> NonCombatHero </CategoryMask>
-		<AI_Combat_Power>1</AI_Combat_Power>
-		
-		<Neutralization_Cost>1000.0</Neutralization_Cost>
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+		<Ranking_In_Category> 9 </Ranking_In_Category>
 
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Admin_01 -->
 			<Reduce_Production_Price_Ability Name="Admin_Tier_Admin_01_Reduce_Production_Price">
@@ -4596,8 +4323,8 @@
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Nala_Se_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_NALA_SE</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -4610,30 +4337,18 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SCIENTIST </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_NALA_SE_ADMIN.tga</Icon_Name>
 		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Alliance_Shuttle_Landing_Craft_Admin</Company_Transport_Unit> <!-- PDF ship but not Gallofree -->
 		<Company_Units>Nala_Se</Company_Units>
-
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<Population_Value>1</Population_Value>
-
-		<Tech_Level>99</Tech_Level>
+		
 		<Affiliation>Empire</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 	</HeroCompany>
 
 	<HeroUnit Name="Orn_Free_Taa">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_ORN_FREE_TAA</Text_ID>
 		<Encyclopedia_Text> 
@@ -4647,27 +4362,8 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_ORN_FREE_TAA_ADMIN.tga</Icon_Name>
 		
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-
-		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
 		<Ranking_In_Category> 6 </Ranking_In_Category>
-
-		<Political_Control>0</Political_Control>
-		<Political_Faction>Empire</Political_Faction>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<IsBuildable>No</IsBuildable>
-		<Size_Value>75</Size_Value>
-		<Damage>100</Damage>
-		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<CategoryMask> NonCombatHero </CategoryMask>
-		<AI_Combat_Power>1</AI_Combat_Power>
-
-		<Neutralization_Cost>1000.0</Neutralization_Cost>
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Senator -->
 			<Reduce_Production_Price_Ability Name="Admin_Tier_Senator_Reduce_Production_Price">
@@ -4691,11 +4387,8 @@
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Orn_Free_Taa_Team">
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Is_Dummy>Yes</Is_Dummy>
-
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_ORN_FREE_TAA</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -4708,31 +4401,18 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_ORN_FREE_TAA_ADMIN.tga</Icon_Name>
 		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Theta_Shuttle_Landing_Craft_Admin</Company_Transport_Unit>
 		<Company_Units>Orn_Free_Taa</Company_Units>
-
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<CategoryMask>NonCombatHero</CategoryMask>
-		<Population_Value>1</Population_Value>
-
-		<Tech_Level>99</Tech_Level>
+		
 		<Affiliation>Empire</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 	</HeroCompany>
 
 	<HeroUnit Name="Sate_Pestage">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_PESTAGE</Text_ID>
 		<Encyclopedia_Text>
@@ -4746,28 +4426,9 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVISOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_PESTAGE_CW_ADMIN.tga</Icon_Name>
-
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-
-		<Type>Walk</Type>
+		
 		<Affiliation>Empire</Affiliation>
 		<Ranking_In_Category> 4 </Ranking_In_Category>
-
-		<Political_Control>0</Political_Control>
-		<Political_Faction>Empire</Political_Faction>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<IsBuildable>No</IsBuildable>
-		<Size_Value>75</Size_Value>
-		<Damage>100</Damage>
-		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<CategoryMask> NonCombatHero </CategoryMask>
-		<AI_Combat_Power>1</AI_Combat_Power>
-
-		<Neutralization_Cost>1000.0</Neutralization_Cost>
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 
 		<SFXEvent_Move>Unit_Fleet_Move_Sate_Pestage</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sate_Pestage</SFXEvent_Fleet_Move>
@@ -4795,8 +4456,8 @@
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
 	</HeroUnit>
-
 	<HeroCompany Name="Pestage_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_PESTAGE</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -4810,28 +4471,14 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVISOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_PESTAGE_CW_ADMIN.tga</Icon_Name>
 		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Theta_Shuttle_Landing_Craft_Admin</Company_Transport_Unit>
 		<Company_Units>Sate_Pestage</Company_Units>
-
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<CategoryMask>NonCombatHero</CategoryMask>
-		<Population_Value>1</Population_Value>
-
-		<Tech_Level>99</Tech_Level>
+		
 		<Affiliation>Empire</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 	</HeroCompany>
 
 
