@@ -3,6 +3,267 @@
 <!-- All upgraded heroes must have <Always_Spawn_In_Orbit>Yes ~Mord -->
 
 	<!-- Clone Officers -->
+	
+	<DummyStructure Name="Extra_Clone_Slot">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<GUI_Row> 1 </GUI_Row>
+
+		<Population_Value>0</Population_Value>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Time_Seconds>50</Build_Time_Seconds>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<AI_Combat_Power>10000</AI_Combat_Power>
+
+		<Text_ID>TEXT_HERO_OPEN_REPUBLIC_CLONE</Text_ID>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Affiliation>Empire</Affiliation>
+		<Icon_Name>i_button_view_clones_extra.tga</Icon_Name>
+
+
+		<Tech_Level>0</Tech_Level>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_OPEN_NR_ADMIRAL
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
+
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+	</DummyStructure>
+	
+	<DummyStructure Name="View_Clones">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<GUI_Row> 1 </GUI_Row>
+
+		<Population_Value>0</Population_Value>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<AI_Combat_Power>10000</AI_Combat_Power>
+
+		<CategoryMask>Wall</CategoryMask>
+
+		<Text_ID>TEXT_HERO_VIEW_CLONE</Text_ID>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Affiliation>Empire</Affiliation>
+		<Icon_Name>i_button_view_clones.tga</Icon_Name>
+
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Tech_Level>0</Tech_Level>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_VIEW_NR_ADMIRAL
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
+
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+	</DummyStructure>
+	
+	<DummyStructure Name="Random_Clone_Assign">
+		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Text_ID>TEXT_UNIT_RANDOM_ADMIRAL</Text_ID>
+		<Icon_Name>I_BUTTON_UNKNOWN.tga</Icon_Name>
+
+		<CategoryMask>Upgrade</CategoryMask>
+
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_ASSIGN_RANDOM_ADMIRAL
+		TEXT_DOCUMENTATION_SEPARATOR_SMALL
+		TEXT_TOOLTIP_ASSIGN_RANDOM_ADMIRAL2
+		</Encyclopedia_Text>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
+	</DummyStructure>
+
+
+	<HeroUnit Name="Cody">
+		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_CODY</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_CODY
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CODY_P1_HEALTH
+		TEXT_TOOLTIP_CODY_P1_MOVE
+		TEXT_TOOLTIP_CODY_WEAP1
+		TEXT_TOOLTIP_CODY_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_LEGIONS_OBI_WAN
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MARSHAL_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_cody.tga</Icon_Name>
+		
+		<Land_Model_Name>CodyP1.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name> TrainedHero.alo </Land_Model_Anim_Override_Name>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+		
+		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		
+		<Ranking_In_Category> 4 </Ranking_In_Category>
+
+		<Tactical_Health>135</Tactical_Health>
+
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<OverrideAcceleration> 1.0 </OverrideAcceleration>
+		<OverrideDeceleration> 1.0 </OverrideDeceleration>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Scale_Factor>1.1</Scale_Factor>
+		<Affiliation>Empire</Affiliation>
+
+		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints>HP_Hero_Clone_Rifle</HardPoints>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>HeroProj_Thrown_Thermal_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+        <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
+
+		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
+
+		<Presence_Induced_Animations>
+			Attention, 
+				Emperor_Palpatine, Vader,
+				Obi_Wan, Obi_Wan2,
+				Yoda, Yoda2,
+				Mace_Windu, Mace_Windu2,
+				Plo_Koon,
+				Kit_Fisto, Kit_Fisto2,
+				Aayla_Secura, Aayla_Secura2,
+				Ki_Adi_Mundi, Ki_Adi_Mundi2,
+				Barriss_Offee, Barriss_Offee2,
+				Shaak_Ti, Shaak_Ti2,
+				Rahm_Kota, Nejaa_Halcyon, Knol_Vennari,
+				Anakin, Anakin2, Anakin3, Anakin_Darkside,
+				Ahsoka, Ahsoka2, Ahsoka3,
+			Celebrate,
+				<!--MTT_Death_Clone,-->
+				<!--CIS_MTT_Death_Clone,-->
+				<!--Protodeka_Death_Clone,-->
+				HAG_Death_Clone, HAG_Deployed_Death_Clone,
+				Template_Planetary_Shield_Death_Clone,
+				RB_CommandCenter_Death_Clone,
+				CIS_Local_Government_Death_Clone,
+		</Presence_Induced_Animations>
+		<Presence_Range>150.0</Presence_Range>
+
+		<Death_Clone>Damage_Normal, Cody_Death_Clone</Death_Clone>
+
+		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
+
+		<AI_Combat_Power>37</AI_Combat_Power>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Squad, 4</Starting_Spawned_Units_Tech_0>
+
+		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+			<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Fleet_Move_Clone_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name>
+				</GUI_Activated_Ability_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
+			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.21</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_07_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.21</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</HeroUnit>
+	
+	<HeroCompany Name="Cody_Team">
+		<Text_ID>TEXT_HERO_CODY</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_CODY
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CODY_P1_HEALTH
+		TEXT_TOOLTIP_CODY_P1_MOVE
+		TEXT_TOOLTIP_CODY_WEAP1
+		TEXT_TOOLTIP_CODY_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_LEGIONS_OBI_WAN
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MARSHAL_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_cody.tga</Icon_Name>
+		
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft_Cody</Company_Transport_Unit>
+		<Company_Units>Cody</Company_Units>
+		
+		<Population_Value>1</Population_Value>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>40</Damage>
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Respawn_Veers</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>EHD_Reinforcements_En_Route</SFXEvent_Fleet_Move>
+	</HeroCompany>
 
 	<HeroUnit Name="Cody2">
 		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
@@ -164,6 +425,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Cody2_Team">
 		<Variant_Of_Existing_Type>Cody_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Text> 
@@ -213,6 +475,7 @@
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 		<Presence_Range>1000.0</Presence_Range>
 	</Death_Clone>
+	
 	<Death_Clone Name="Cody2_Death_Clone">
 		<Variant_Of_Existing_Type>Cody2</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
@@ -264,6 +527,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Cody_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -322,6 +586,7 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Cody</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Cody_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -507,6 +772,7 @@
 			</Grenade_Attack_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Rex_Team">
 		<Text_ID>TEXT_HERO_REX</Text_ID>
 		<Encyclopedia_Text> 
@@ -714,6 +980,7 @@
 			</Grenade_Attack_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Rex2_Team">
 		<Variant_Of_Existing_Type>Rex_Team</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_rex2.tga</Icon_Name>
@@ -764,6 +1031,7 @@
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 		<Presence_Range>1000.0</Presence_Range>
 	</Death_Clone>
+	
 	<Death_Clone Name="Rex2_Death_Clone">
 		<Variant_Of_Existing_Type>Rex2</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
@@ -816,6 +1084,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Rex_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -875,6 +1144,7 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Rex</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Rex_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -1028,6 +1298,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Commander_71_Team">
 		<Text_ID>TEXT_HERO_71</Text_ID>
 		<Encyclopedia_Text> 
@@ -1201,6 +1472,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Commander_71_2_Team">
 		<Variant_Of_Existing_Type>Commander_71_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Text> 
@@ -1262,6 +1534,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="71_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -1320,6 +1593,7 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_71</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="71_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -1479,6 +1753,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Keller_Team">
 		<Text_ID>TEXT_HERO_KELLER</Text_ID>
 		<Encyclopedia_Text> 
@@ -1567,6 +1842,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Keller_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -1750,6 +2026,7 @@
 			</Proximity_Mines_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Bacara_Team">
 		<Text_ID>TEXT_HERO_BACARA</Text_ID>
 		<Encyclopedia_Text> 
@@ -1892,6 +2169,7 @@
 			</Proximity_Mines_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Bacara2_Team">
 		<Variant_Of_Existing_Type>Bacara_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Text> 
@@ -1955,6 +2233,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Bacara_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -2013,6 +2292,7 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Bacara</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Bacara_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -2183,6 +2463,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Jet_Team">
 		<Text_ID>TEXT_HERO_JET</Text_ID>
 		<Encyclopedia_Text> 
@@ -2362,6 +2643,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Jet2_Team">
 		<Variant_Of_Existing_Type>Jet_Team</Variant_Of_Existing_Type>
 		<Icon_Name>I_BUTTON_JET2.tga</Icon_Name>
@@ -2422,6 +2704,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Jet_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -2479,6 +2762,7 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Jet</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Jet_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -2697,6 +2981,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Faie_Team">
 		<Text_ID>TEXT_HERO_FAIE</Text_ID>
 		<Encyclopedia_Text> 
@@ -2782,6 +3067,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Faie_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -2995,6 +3281,7 @@
 
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Gree_Team">
 		<Text_ID>TEXT_HERO_GREE</Text_ID>
 		<Encyclopedia_Text> 
@@ -3238,6 +3525,7 @@
 
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Gree2_Team">
 		<Variant_Of_Existing_Type>Gree_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Text> 
@@ -3300,6 +3588,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Gree_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -3358,6 +3647,7 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Gree</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Gree_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -3514,6 +3804,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Deviss_Team">
 		<Text_ID>TEXT_HERO_DEVISS</Text_ID>
 		<Encyclopedia_Text> 
@@ -3687,6 +3978,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Deviss2_Team">
 		<Variant_Of_Existing_Type>Deviss_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Text> 
@@ -3743,6 +4035,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Deviss_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -3796,6 +4089,7 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Deviss</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Deviss_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -3971,6 +4265,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Bly_Team">
 		<Text_ID>TEXT_HERO_BLY</Text_ID>
 		<Encyclopedia_Text> 
@@ -4165,6 +4460,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Bly2_Team">
 		<Variant_Of_Existing_Type>Bly_Team</Variant_Of_Existing_Type>
 		<Icon_Name>I_BUTTON_BLY2.tga</Icon_Name>
@@ -4225,6 +4521,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Bly_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -4282,6 +4579,7 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Bly</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Bly_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -4453,6 +4751,7 @@
 			</Grenade_Attack_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Wolffe_Team">
 		<Text_ID>TEXT_HERO_WOLFFE</Text_ID>
 		<Encyclopedia_Text> 
@@ -4503,177 +4802,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_WOLFFE
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_WOLFFE_P2_HEALTH
-		TEXT_TOOLTIP_WOLFFE_P2_MOVE
-		TEXT_TOOLTIP_WOLFFE_WEAP1
-		TEXT_TOOLTIP_WOLFFE_WEAP2
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_LEGIONS_PLOKOON
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_WOLFFE2.tga</Icon_Name>
-		
-		<Land_Model_Name>Clone_commander_Wolffe_phase2.alo</Land_Model_Name>
-		<Land_Model_Anim_Override_Name>TrainedJetpackHero.alo</Land_Model_Anim_Override_Name>
-		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
-		
-		<Ranking_In_Category> 7 </Ranking_In_Category>
-
-		<Tactical_Health>160</Tactical_Health>
-
-		<Uses_Multiple_Locomotors> Yes </Uses_Multiple_Locomotors>
-		<Hover_Offset>30.0</Hover_Offset>
-		<Primary_Locomotor_Name>WALK_LOCOMOTOR</Primary_Locomotor_Name>
-		<Secondary_Locomotor_Name>JETPACK_LOCOMOTOR</Secondary_Locomotor_Name>
-
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
-		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
-		<Max_Speed> 1.3 </Max_Speed>
-		<Alternate_Max_Speed> 2.5 </Alternate_Max_Speed>
-		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
-		<Alternate_Max_Rate_Of_Turn> 6.0 </Alternate_Max_Rate_Of_Turn>
-		<Min_Speed> .1 </Min_Speed>
-		<OverrideAcceleration> 1.3 </OverrideAcceleration>
-		<OverrideDeceleration> 1.3 </OverrideDeceleration>
-		<Max_Lift> .6 </Max_Lift>
-
-		<Scale_Factor>1.1</Scale_Factor>
-		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
-
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
-
-		<HardPoints>HP_Hero_Clone_Carbine</HardPoints>
-
-		<!-- Grenade throw -->
-		<Projectile_Types>HeroProj_Thrown_Thermal_Grenade</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
-        <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
-
-		<SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
-		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
-		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
-
-		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
-
-		<SFXEvent_Engine_Moving_Loop> Unit_Jet_Pack_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-
-		<Presence_Induced_Animations>
-			Attention, 
-				Emperor_Palpatine, Vader,
-				Obi_Wan, Obi_Wan2,
-				Yoda, Yoda2,
-				Mace_Windu, Mace_Windu2,
-				Plo_Koon,
-				Kit_Fisto, Kit_Fisto2,
-				Aayla_Secura, Aayla_Secura2,
-				Ki_Adi_Mundi, Ki_Adi_Mundi2,
-				Barriss_Offee, Barriss_Offee2,
-				Shaak_Ti, Shaak_Ti2,
-				Rahm_Kota, Nejaa_Halcyon, Knol_Vennari,
-				Anakin, Anakin2, Anakin3, Anakin_Darkside,
-				Ahsoka, Ahsoka2, Ahsoka3,
-			Celebrate,
-				<!--MTT_Death_Clone,-->
-				<!--CIS_MTT_Death_Clone,-->
-				<!--Protodeka_Death_Clone,-->
-				HAG_Death_Clone, HAG_Deployed_Death_Clone,
-				Template_Planetary_Shield_Death_Clone,
-				RB_CommandCenter_Death_Clone,
-				CIS_Local_Government_Death_Clone,
-		</Presence_Induced_Animations>
-		<Presence_Range>150.0</Presence_Range>
-
-		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
-
-		<AI_Combat_Power>56</AI_Combat_Power>
-
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
-
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Squad, 4</Starting_Spawned_Units_Tech_0>
-
-
-		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>JET_PACK</Type>
-				<Recharge_Seconds>90.0</Recharge_Seconds>
-				<SFXEvent_Target_Ability> Unit_Move_Clone_Trooper </SFXEvent_Target_Ability>
-				<Effective_Radius> -1.0 </Effective_Radius> <!-- For the Jet Pack jump, the effect radius of -1.0 means unlimited range -->
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>STICKY_BOMB</Type>
-				<Recharge_Seconds>30.0f </Recharge_Seconds>
-				<GUI_Activated_Ability_Name> Wolffe_Grenade_Attack </GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability> </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
-			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
-			</Combat_Bonus_Ability>
-			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
-				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
-				<Stacking_Category>0</Stacking_Category>
-			</Battlefield_Modifier_Ability>
-			<Grenade_Attack_Ability Name="Wolffe_Grenade_Attack">
-				<Activation_Style> User_Input </Activation_Style> <!-- Was Special_Attack -->
-				<!-- We need to be within this distance of the clicked target to consider throwing the grenade -->
-				<Activation_Min_Range>5.0</Activation_Min_Range>
-				<Activation_Max_Range>300.0</Activation_Max_Range>
-				<Requires_Direct_Player_Command> No </Requires_Direct_Player_Command> <!-- Was NO -->
-
-				<Grenade_Type>Proj_Hero_Sticky_Bomb</Grenade_Type>
-				<Grenade_Toss_Anim>BOMBTOSS</Grenade_Toss_Anim>
-				<Grenade_Spawn_Frame>12.0</Grenade_Spawn_Frame>
-				<Grenade_Spawn_Bone>MuzzleA_00</Grenade_Spawn_Bone>
-				<Grenade_Explode_Timer_In_Secs>3.0</Grenade_Explode_Timer_In_Secs>
-				<!-- Percentage chance to activate given a certain number of valid targets in range. -->
-				<!-- First number in the pair is the number of valid targets, second is the chance to activate. -->
-				<Activation_Chance>0,0.0, 1,1.0, 5,1.0, 500,1.0</Activation_Chance>
-				<!-- We only consider the following unit types "valid targets": -->
-				<Applicable_Unit_Categories>Vehicle, Structure</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-			</Grenade_Attack_Ability>
-		</Abilities>
-	</HeroUnit>
-	<HeroUnit Name="Wolffe2_Enhanced">
-		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Text_ID>TEXT_HERO_WOLFFE</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_WOLFFE
-		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
+		TEXT_TOOLTIP_ESCORT_P2_WOLFFE_SPECIAL
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_WOLFFE_P2_HEALTH
 		TEXT_TOOLTIP_WOLFFE_P2_MOVE
@@ -4774,7 +4903,6 @@
 
 		<Starting_Spawned_Units_Tech_0>Wolfpack_Phase_Two_Team_Deployed, 2</Starting_Spawned_Units_Tech_0>
 
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 
@@ -4802,8 +4930,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -4845,30 +4971,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_WOLFFE
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_WOLFFE_P2_HEALTH
-		TEXT_TOOLTIP_WOLFFE_P2_MOVE
-		TEXT_TOOLTIP_WOLFFE_WEAP1
-		TEXT_TOOLTIP_WOLFFE_WEAP2
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_LEGIONS_PLOKOON
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_WOLFFE2.tga</Icon_Name>
-		
-		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft_Wolffe2</Company_Transport_Unit>
-		<Company_Units>Wolffe2</Company_Units>
-	</HeroCompany>
-	<HeroCompany Name="Wolffe2_Enhanced_Team">
-		<Variant_Of_Existing_Type>Wolffe_Team</Variant_Of_Existing_Type>
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_WOLFFE
-		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
+		TEXT_TOOLTIP_ESCORT_P2_WOLFFE_SPECIAL
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_WOLFFE_P2_HEALTH
 		TEXT_TOOLTIP_WOLFFE_P2_MOVE
@@ -4916,6 +5019,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Wolffe_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -4973,6 +5077,7 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Wolffe</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Wolffe_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -5127,6 +5232,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Neyo_Team">
 		<Text_ID>TEXT_HERO_NEYO</Text_ID>
 		<Encyclopedia_Text> 
@@ -5282,6 +5388,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Neyo2_Team"> <!-- Vehicle Hero -->
 		<Variant_Of_Existing_Type>Neyo_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Text> 
@@ -5340,6 +5447,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Neyo_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -5397,6 +5505,7 @@
 
 		<Required_Orbiting_Units>Rho_Shuttle_Landing_Craft_Neyo</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Neyo_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -5553,6 +5662,7 @@
 			</Stealth_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Appo_Team">
 		<Text_ID>TEXT_HERO_APPO</Text_ID>
 		<Encyclopedia_Text>
@@ -5742,6 +5852,7 @@
 			</Grenade_Attack_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Appo2_Team">
 		<Variant_Of_Existing_Type>Appo_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Text> 
@@ -5805,6 +5916,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Appo_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -5843,6 +5955,7 @@
 		</Unit_Abilities_Data>
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
+	
 	</DummyStructure>
 
 	<DummyStructure Name="Appo_Retire">
@@ -5865,6 +5978,7 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Appo</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Appo_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -6030,6 +6144,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Bow_Team">
 		<Text_ID>TEXT_HERO_BOW</Text_ID>
 		<Encyclopedia_Text> 
@@ -6103,6 +6218,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Bow_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -6282,6 +6398,7 @@
 			</Grenade_Attack_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Vill_Team">
 		<Text_ID>TEXT_HERO_VILL</Text_ID>
 		<Encyclopedia_Text> 
@@ -6355,6 +6472,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Vill_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -6460,6 +6578,7 @@
 			</Bounty_On_Faction_Ability>
 		</Abilities>
 	</UniqueUnit>
+	
 	<HeroCompany Name="Gaffa_Team"> <!-- Vehicle Hero -->
 		<Text_ID>TEXT_HERO_GAFFA</Text_ID>
 		<Encyclopedia_Text>
@@ -6528,6 +6647,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Gaffa_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -6568,7 +6688,9 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
 
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+	
 	</DummyStructure>
+	
 	<DummyStructure Name="View_Commandos">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 		<GUI_Row> 1 </GUI_Row>
@@ -6597,6 +6719,7 @@
 
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Random_Commando_Assign">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 		<GUI_Row> 0 </GUI_Row>
@@ -6767,6 +6890,7 @@
 			</Grenade_Attack_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Alpha_17_Team">
 		<Text_ID>TEXT_HERO_ALPHA17</Text_ID>
 		<Encyclopedia_Text> 
@@ -6937,6 +7061,7 @@
 			</Grenade_Attack_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Alpha_17_2_Team">
 		<Text_ID>TEXT_HERO_ALPHA17</Text_ID>
 		<Encyclopedia_Text> 
@@ -7007,6 +7132,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Alpha_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -7062,6 +7188,7 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Alpha</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Alpha_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -7227,6 +7354,7 @@
 			</Force_Lightning_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Fordo_Team">
 		<Text_ID>TEXT_HERO_FORDO</Text_ID>
 		<Encyclopedia_Text>
@@ -7421,6 +7549,7 @@
 			</Force_Lightning_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Fordo2_Team">
 		<Variant_Of_Existing_Type>Fordo_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
@@ -7460,6 +7589,7 @@
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 		<Presence_Range>1000.0</Presence_Range>
 	</Death_Clone>
+	
 	<Death_Clone Name="Fordo2_Death_Clone">
 		<Variant_Of_Existing_Type>Fordo2</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
@@ -7533,6 +7663,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Fordo_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -7591,6 +7722,7 @@
 
 		<Required_Orbiting_Units>LAAT_Landing_Craft_Fordo</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Fordo_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -7778,6 +7910,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<Death_Clone Name="Boss_Death_Clone">
 		<Variant_Of_Existing_Type>Boss</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
@@ -7924,6 +8057,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<Death_Clone Name="Fixer_Death_Clone">
 		<Variant_Of_Existing_Type>Fixer</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
@@ -8064,6 +8198,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<Death_Clone Name="Sev_Death_Clone">
 		<Variant_Of_Existing_Type>Sev</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
@@ -8238,6 +8373,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<Death_Clone Name="Scorch_Death_Clone">
 		<Variant_Of_Existing_Type>Scorch</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
@@ -8354,6 +8490,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Delta_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -8565,6 +8702,7 @@
 		</Abilities>
 
 	</HeroUnit>
+	
 	<HeroUnit Name="Darman">
 		<Variant_Of_Existing_Type>Hero_Commando_Shielded_Template</Variant_Of_Existing_Type>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
@@ -8728,6 +8866,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroUnit Name="Atin">
 		<Variant_Of_Existing_Type>Hero_Commando_Shielded_Template</Variant_Of_Existing_Type>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
@@ -8847,6 +8986,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroUnit Name="Fi">
 		<Variant_Of_Existing_Type>Hero_Commando_Shielded_Template</Variant_Of_Existing_Type>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
@@ -8962,6 +9102,7 @@
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
 		</Abilities>
+	
 	</HeroUnit>
 
 	<HeroCompany Name="Omega_Squad">
@@ -9052,6 +9193,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Omega_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -9240,6 +9382,7 @@
 		</Abilities>
 
 	</HeroUnit>
+	
 	<HeroCompany Name="Voca_Team">
 		<Text_ID>TEXT_HERO_VOCA</Text_ID>
 		<Encyclopedia_Text> 
@@ -9317,6 +9460,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Voca_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -9467,6 +9611,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Gregor_Team">
 		<Text_ID>TEXT_HERO_GREGOR</Text_ID>
 		<Encyclopedia_Text> 
@@ -9542,7 +9687,9 @@
 		</Unit_Abilities_Data>
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
+	
 	</DummyStructure>
+	
 	<DummyStructure Name="Gregor_Retire">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -9737,6 +9884,7 @@
 			</Hack_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Ordo_Skirata_Team">
 		<Text_ID>TEXT_HERO_ORDO</Text_ID>
 		<Encyclopedia_Text> 
@@ -9944,6 +10092,7 @@
 			</Hack_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Ordo_Skirata2_Team">
 		<Text_ID>TEXT_HERO_ORDO</Text_ID>
 		<Encyclopedia_Text> 
@@ -10008,6 +10157,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Ordo_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -10220,6 +10370,7 @@
 			</Proximity_Mines_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Aden_Skirata_Team">
 		<Text_ID>TEXT_HERO_ADEN</Text_ID>
 		<Encyclopedia_Text>
@@ -10429,6 +10580,7 @@
 
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Aden_Skirata2_Team">
 		<Variant_Of_Existing_Type>Aden_Skirata_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_ADEN</Text_ID>
@@ -10486,6 +10638,7 @@
 		
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 	</DummyStructure>
+	
 	<DummyStructure Name="Aden_Assign2">
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
@@ -10541,6 +10694,7 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Aden</Required_Orbiting_Units>
 	</DummyStructure>
+	
 	<DummyStructure Name="Aden_Retire2">
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
@@ -10575,7 +10729,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_CREATIVE
-		TEXT_TOOLTIP_TRAIT_STEALTHOPS
+		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PRUDII
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -10624,8 +10778,6 @@
 		<AI_Combat_Power>37</AI_Combat_Power>
 
 		<Targeting_Priority_Set>AntiStructure</Targeting_Priority_Set>
-
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->	
@@ -10703,7 +10855,6 @@
 		<Icon_Name>I_BUTTON_PRUDII.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Empire</Affiliation>
-		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -10721,7 +10872,6 @@
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
 		<SFXEvent_Build_Complete>Unit_Respawn_Veers</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Veers</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>EHD_Reinforcements_En_Route</SFXEvent_Fleet_Move>
 
 		<Population_Value>1</Population_Value>
@@ -10739,7 +10889,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_CREATIVE
-		TEXT_TOOLTIP_TRAIT_STEALTHOPS
+		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PRUDII
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -10763,7 +10913,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_CREATIVE
-		TEXT_TOOLTIP_TRAIT_STEALTHOPS
+		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PRUDII
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -10792,7 +10942,6 @@
 		<Icon_Name>I_BUTTON_PRUDII_P2.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Empire</Affiliation>
-		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -10810,7 +10959,6 @@
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
 		<SFXEvent_Build_Complete>Unit_Respawn_Veers</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Veers</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>EHD_Reinforcements_En_Route</SFXEvent_Fleet_Move>
 
 		<Population_Value>1</Population_Value>
@@ -10828,7 +10976,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_CREATIVE
-		TEXT_TOOLTIP_TRAIT_STEALTHOPS
+		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PRUDII
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -10859,7 +11007,7 @@
 		TEXT_TOOLTIP_ASSIGN_REPUBLIC_COMMANDO
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_CREATIVE
-		TEXT_TOOLTIP_TRAIT_STEALTHOPS
+		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PRUDII
 		</Encyclopedia_Text>
@@ -10881,7 +11029,7 @@
 		TEXT_TOOLTIP_ASSIGN_REPUBLIC_COMMANDO
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_CREATIVE
-		TEXT_TOOLTIP_TRAIT_STEALTHOPS
+		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PRUDII
 		</Encyclopedia_Text>

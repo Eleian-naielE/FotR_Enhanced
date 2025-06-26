@@ -299,7 +299,7 @@ TEXT_CONQUEST_GOVERNMENT_HUTTS_KIMOGILA_KRAYT_AVAILABLE,[Kimogila Heavy Fighter 
 TEXT_CONQUEST_GOVERNMENT_HUTTS_KOSSAK_AVAILABLE,[Kossak Frigate Unlocked]
 TEXT_CONQUEST_GOVERNMENT_HUTTS_SCYK_AVAILABLE,[Scyk Fighter & Heavy Fighter Research Available]
 TEXT_CONQUEST_GOVERNMENT_HUTTS_SHADOW_COLLECTIVE_FORMATION,Darth Maul: I come to your Council to seek a partnership that shall be to both our benefits. I am forging an alliance against the Republic and Separatists. You have armies, but what you lack is a vision. My allies and I have skills and abilities that can strike down even Jedi. With our combined power all our enemies will bow before our might. All I ask in return is one thing; vengeance on my former master and the Jedi both.
-TEXT_CONQUEST_GOVERNMENT_HUTTS_SHADOW_COLLECTIVE_JOINED,[Darth Maul, Savage Opress, Gar Saxon and Rook Kast has joined your forces]
+TEXT_CONQUEST_GOVERNMENT_HUTTS_SHADOW_COLLECTIVE_JOINED,[Darth Maul, Savage Opress, Ziton Moj, Lom Pyke, Gar Saxon and Rook Kast has joined your forces]
 TEXT_CONQUEST_GOVERNMENT_HUTTS_TROONOL_AVAILABLE,[Troonol has joined your forces]
 TEXT_CONQUEST_GOVERNMENT_HUTTS_UBRIKKIAN_CRUISER_AVAILABLE,[Ubrikkian Cruiser Unlocked]
 TEXT_CONQUEST_GOVERNMENT_REP_HERO_REPLACEMENT_SPEECH_KILIAN,Admiral Kilian:  My days of fighting are nearly over. I have decided to retire on Anaxes and train young cadets for a career in the military.\n[Shoan Kilian has retired from the Republic Command Staff]
@@ -5422,7 +5422,7 @@ TEXT_TOOLTIP_GREGOR_MOVE,Speed: 1.0
 TEXT_TOOLTIP_GREGOR_SHIELD,Shields: 50 / [5/R] (Infantry)
 TEXT_TOOLTIP_GREGOR_WEAP1,1x DC-17m Blaster Rifle: 5 / 2.0s / 240m
 TEXT_TOOLTIP_GREGOR_WEAP2,1x DC-17m Grenade Launcher: 1 / 15.0s / 200m
-TEXT_TOOLTIP_GRIEVOUS,Born Qymaen jai Sheelal of Kalee, Grievous forged a hatred of the Republic and Jedi after they halted his war against Kalee's enemies. When an explosion left his body in tatters, he was made a cyborg, and then leader of the droid army. Trained in lightsaber combat by Count Dooku, his slaughter of Jedi made Grievous known as "The Knight Slayer."
+TEXT_TOOLTIP_GRIEVOUS,Born Qymaen jai Sheelal of Kalee, a near-death explosion had Grievous reborn as the cyborg leader of the droid army. A brilliant tactician trained in lightsaber combat by Count Dooku, his slaughter of Jedi made Grievous known as "The Knight Slayer."
 TEXT_TOOLTIP_GRIEVOUS_HEALTH,Health: 300 (Hero)
 TEXT_TOOLTIP_GRIEVOUS_MOVE,Speed: 1.5
 TEXT_TOOLTIP_GRIEVOUS_PROVIDENCE_SQUADRON,Fighters: 2 / 5 | Bombers: 2 / 6
@@ -6723,6 +6723,7 @@ TEXT_TOOLTIP_VENATOR_RENOWN,The Venator-class Star Destroyer Renown was stolen b
 TEXT_TOOLTIP_VENATOR_SQUADRON_BYLUIR,Fighters: 2 / 8 | Bombers: 2 / 8
 TEXT_TOOLTIP_VENATOR_SQUADRON_COBURN,Fighters: 4 / 12
 TEXT_TOOLTIP_VENATOR_SQUADRON_TARKIN,Fighters: 5 / 14
+TEXT_TOOLTIP_VENATOR_SQUADRON_TENANT,Fighters: 2 / 6 | Bombers: 2 / 7
 TEXT_TOOLTIP_VENATOR_SQUADRON_WIELER,Fighters: 9 / 26
 TEXT_TOOLTIP_VENATOR_TRANQUILITY,The Tranquility was a Venator-class Star Destroyer within the Open Circle Fleet that served as the flagship of Jedi General Luminara. The ship housed a highly secure detention level with several cells, each fitted with ray shields capable of withstanding several blaster shots and even lightsabers. Following the capture of Separatist Leader Viceroy Nute Gunray, the Tranquility was tasked with transporting him from Rodia to Coruscant where he would stand trial for his crimes against the Republic.
 TEXT_TOOLTIP_VENATOR_TRANQUILITY_FLEET,Escort Fleet: LAC 4 / 0 | Arquitens 2 / 0
