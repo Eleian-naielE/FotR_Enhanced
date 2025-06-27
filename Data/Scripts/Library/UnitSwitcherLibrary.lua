@@ -20,5 +20,6 @@ return {
 	["REFIT_VENATOR_STAR_DESTROYER_UPGRADE"] = {"Venator_Star_Destroyer","Refit_Venator_Star_Destroyer",["location_check"] = true},
 	--FotR_Enhanced
 	["YULAREN_RESOLUTE_UPGRADE_RESOLUTE_SPHAT"] = {"Yularen_Resolute", "Yularen_Resolute_SPHAT"},
+	["YULAREN_RESOLUTE_SPHAT_UPGRADE_INVINCIBLE"] = {"Yularen_Resolute_SPHAT", "Yularen_Invincible"},
 	["VENATOR_SPHA_T_UPGRADE"] = {"Venator_Star_Destroyer","Venator_SPHA_T",["location_check"] = true},
 }

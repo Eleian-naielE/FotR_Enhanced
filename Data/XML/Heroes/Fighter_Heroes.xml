@@ -139,8 +139,6 @@
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -543,7 +541,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_ASSIGN_HERO_SQUAD
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_REPUBLIC_TIE_SQUADRON
 		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
@@ -572,7 +570,7 @@
 		<Text_ID>TEXT_HERO_NIAL_DECLANN</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_NIAL_DECLANN
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -606,6 +604,21 @@
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Force_Sensitive_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Battlefield_Modifier_Ability Name="Force_Sensitive_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
 		   <Absorb_Blaster_Ability Name="Jedi_Fighter_Absorb_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Absorb_Chance>0.25</Absorb_Chance>
@@ -660,7 +673,7 @@
 		<Text_ID>TEXT_HERO_NIAL_DECLANN</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_NIAL_DECLANN
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -692,7 +705,7 @@
 		<Text_ID>TEXT_HERO_NIAL_DECLANN</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_NIAL_DECLANN
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -752,9 +765,9 @@
 		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
 		TEXT_TOOLTIP_ASSIGN_LOCATIONS
 		TEXT_HERO_HAUSER
-		TEXT_HERO_DALLIN		
-		TEXT_HERO_MAARISA
 		TEXT_HERO_NILS_TENANT
+		TEXT_HERO_DALLIN
+		TEXT_HERO_MAARISA
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
 
@@ -848,8 +861,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1294,8 +1305,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1311,8 +1320,6 @@
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -1518,8 +1525,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1780,8 +1785,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1896,7 +1899,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Squadron>
-
+	
 	<!-- Mixed ground-space squadron heroes -->
 
 	<!-- Odd Ball / Squad Seven -->
@@ -2066,8 +2069,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2246,7 +2247,6 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_odd_ball_p1.tga</Icon_Name>
 		
-		<Lua_Script>GroundHero</Lua_Script>
 		<CategoryMask> AirGunship | AntiVehicle | AntiInfantry | Clone </CategoryMask>	<!-- VehicleHero is intentionally omitted - Rhino -->
 		<Property_Flags>CanContainGarrison | GarrisonCanFire </Property_Flags>
 		<Ranking_In_Category> 6 </Ranking_In_Category>
@@ -2269,8 +2269,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2324,9 +2322,9 @@
 
 		<Company_Units>Odd_Ball_P1_LAAT</Company_Units>
 		<Company_Transport_Unit>LAAT_Landing_Craft_501st</Company_Transport_Unit>
-
-		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
 		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</HeroCompany>
 
 	<!-- ARC-170 -->
@@ -2470,9 +2468,7 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2831,9 +2827,7 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2891,14 +2885,12 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
-	
 	<Container Name="Warthog_Torrent_Hunter_Container">
 		<Variant_Of_Existing_Type>Torrent_Squadron_Container</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_WARTHOG</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND_SPACE
-		TEXT_TOOLTIP_TRAIT_PLO_BRO
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_WARTHOG
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -2925,14 +2917,12 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
-	
 	<Squadron Name="Warthog_Torrent_Hunter_Squadron">
 		<Variant_Of_Existing_Type>Torrent_Squadron</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_WARTHOG</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND_SPACE
-		TEXT_TOOLTIP_TRAIT_PLO_BRO
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_WARTHOG
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -2970,7 +2960,6 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND_SPACE
-		TEXT_TOOLTIP_TRAIT_PLO_BRO
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_WARTHOG
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -2995,7 +2984,6 @@
 		<Land_Model_Name>LAAT_PLO_BRO.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>low_altitude_assault_transport.ALO</Land_Model_Anim_Override_Name>
 
-		<Lua_Script>GroundHero</Lua_Script>
 		<CategoryMask> AirGunship | AntiVehicle | AntiInfantry | Clone </CategoryMask>	<!-- VehicleHero is intentionally omitted - Rhino -->
 		<Property_Flags>CanContainGarrison | GarrisonCanFire </Property_Flags>
 		<Ranking_In_Category> 7 </Ranking_In_Category>
@@ -3011,8 +2999,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -3026,14 +3012,12 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
-	
 	<HeroCompany Name="Warthog_P1_Team">
 		<Variant_Of_Existing_Type>Republic_LAAT_Company</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_WARTHOG</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND_SPACE
-		TEXT_TOOLTIP_TRAIT_PLO_BRO
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_WARTHOG
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -3067,9 +3051,9 @@
 
 		<Company_Units>Warthog_P1_LAAT</Company_Units>
 		<Company_Transport_Unit>LAAT_Landing_Craft_Plos_Bros</Company_Transport_Unit>
-
-		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
 		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</HeroCompany>
 
 	<!-- Clone Z-95 -->
@@ -3126,7 +3110,6 @@
 		TEXT_TOOLTIP_ASSIGN_HERO_SQUAD
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND_SPACE
-		TEXT_TOOLTIP_TRAIT_PLO_BRO
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_TOOLTIP_COMMAND_HUNTER_SQUADRON_Z95
 		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
@@ -3155,7 +3138,6 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND_SPACE
-		TEXT_TOOLTIP_TRAIT_PLO_BRO
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_WARTHOG
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -3198,13 +3180,10 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-
 			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -3212,22 +3191,8 @@
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
-
-			<Combat_Bonus_Ability Name="Plo_Bro_Bonus">
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Plo_Koon_Delta</Applicable_Unit_Types>
-				<Excluded_Unit_Types> </Excluded_Unit_Types>
-				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.00</Damage_Bonus_Percentage>    
-				<Shield_Bonus_Percentage>0.00</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.00</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>1</Stacking_Category>
-			</Combat_Bonus_Ability>	
 		</Abilities>
 	</UniqueUnit>
-	
 	<UniqueUnit Name="Clone_Z95_Headhunter_Hunter">
 		<Variant_Of_Existing_Type>Clone_Z95_Headhunter</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HUNTER_SQUADRON_Z95</Text_ID>
@@ -3260,14 +3225,12 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
-	
 	<Container Name="Warthog_Clone_Z95_Hunter_Container">
 		<Variant_Of_Existing_Type>Clone_Z95_Headhunter_Squadron_Container</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_WARTHOG</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
-		TEXT_TOOLTIP_TRAIT_PLO_BRO
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_WARTHOG
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -3294,14 +3257,12 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
-	
 	<Squadron Name="Warthog_Clone_Z95_Hunter_Squadron">
 		<Variant_Of_Existing_Type>Clone_Z95_Headhunter_Squadron</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_WARTHOG</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
-		TEXT_TOOLTIP_TRAIT_PLO_BRO
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_WARTHOG
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -3337,7 +3298,6 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND_SPACE
-		TEXT_TOOLTIP_TRAIT_PLO_BRO
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_WARTHOG
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -3358,13 +3318,11 @@
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_WARTHOG_P2.tga</Icon_Name>
 	</UniqueUnit>
-	
 	<HeroCompany Name="Warthog_P2_Team">
 		<Variant_Of_Existing_Type>Warthog_P1_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND_SPACE
-		TEXT_TOOLTIP_TRAIT_PLO_BRO
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_WARTHOG
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCKK
@@ -3483,7 +3441,6 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
-	
 	<UniqueUnit Name="Z95_Bomber_Foxfire">
 		<Variant_Of_Existing_Type>Z95_Bomber</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_Z95_BOMBER_FOXFIRE</Text_ID>
@@ -3512,7 +3469,6 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
-	
 	<Container Name="Jorn_Kulish_Foxfire_Container">
 		<Variant_Of_Existing_Type>Z95_Bomber_Squadron_Container</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_JORN_KULISH</Text_ID>
@@ -3561,7 +3517,6 @@
 			</Lucky_Shot_Attack_Ability>
 		</Abilities>
 	</Container>
-	
 	<Squadron Name="Jorn_Kulish_Foxfire_Squadron">
 		<Variant_Of_Existing_Type>Z95_Bomber_Squadron</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_JORN_KULISH</Text_ID>
@@ -3683,8 +3638,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -3698,7 +3651,6 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
-	
 	<UniqueUnit Name="T19_Erk_HArman_Escort">
 		<Variant_Of_Existing_Type>T19_Starfighter</Variant_Of_Existing_Type>
 
@@ -3728,7 +3680,6 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
-	
 	<Container Name="Erk_HArman_Container">
 		<Variant_Of_Existing_Type>T19_Squadron_Container</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_ERK_HARMAN</Text_ID>
@@ -3761,7 +3712,6 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
-	
 	<Squadron Name="Erk_HArman_Squadron">
 		<Variant_Of_Existing_Type>T19_Squadron</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_ERK_HARMAN</Text_ID>
@@ -3850,6 +3800,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BRAND_FOTR
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -3890,17 +3841,15 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.24</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Command_Tier_06_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.27</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -3934,7 +3883,6 @@
 			</Absorb_Blaster_Ability>
 		</Abilities>
 	</UniqueUnit>
-	
 	<UniqueUnit Name="Delta7_Jedi_Ace">
 		<Variant_Of_Existing_Type>Delta7</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_JEDI_ACE_DELTA7_FIGHTER</Text_ID>
@@ -3965,13 +3913,13 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
-	
 	<Container Name="Brand_Delta7_Zeta_Container">
 		<Variant_Of_Existing_Type>Delta7_Squadron_Container</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_BRAND</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BRAND_FOTR
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -3997,13 +3945,13 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
-	
 	<Squadron Name="Brand_Delta7_Zeta_Squadron">
 		<Variant_Of_Existing_Type>Delta7_Squadron</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_BRAND</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BRAND_FOTR
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -4903,7 +4851,6 @@
 
 		<Affiliation>Rebel, Techno_Union, Trade_Federation, Commerce_Guild, Banking_Clan</Affiliation>
 		<CategoryMask>VehicleHero | AntiInfantry | AntiVehicle</CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 		
 		<Tactical_Health>200</Tactical_Health>
 		<Armor_Type> ArmourG_Hero </Armor_Type>
@@ -4934,46 +4881,23 @@
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_dfs1vr.tga</Icon_Name>
 
-		<Damage>40</Damage>
-
-		<Ship_Class>infantry</Ship_Class>
-		<Formation_Priority>3</Formation_Priority>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Is_Escort>yes</Is_Escort>
-
-		<GUI_Row> 0 </GUI_Row>
-		<Build_Cost_Credits>2000</Build_Cost_Credits>
-		<Build_Time_Seconds>50</Build_Time_Seconds>
-		<Slice_Cost_Credits/>
-		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
-		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>no</Build_Initially_Locked>
-		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Score_Cost_Credits>500</Score_Cost_Credits>
-		<Population_Value>1</Population_Value>
-
-		<Tech_Level>6</Tech_Level>
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-
-		<Affiliation>Rebel, Techno_Union, Trade_Federation, Commerce_Guild, Banking_Clan</Affiliation>
-		<Political_Control/>
-
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-
-		<Create_Team_Type/>
-		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units>DFS1VR_Land</Company_Units>
 		<Company_Transport_Unit>TF_Landing_Craft_Air</Company_Transport_Unit>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		
+		<Population_Value>1</Population_Value>
+		<Affiliation>Rebel, Techno_Union, Trade_Federation, Commerce_Guild, Banking_Clan</Affiliation>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Damage>100</Damage>
+		<Tech_Level>99</Tech_Level>
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Tri_Fighter</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Move_Tri_Fighter</SFXEvent_Fleet_Move>
-
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Planets/>
-		<Company_Units>DFS1VR_Land</Company_Units>
-		<Maintenance_Cost>0.0</Maintenance_Cost>
 	</HeroCompany>
 	
 	<DummyStructure Name="Nas_Ghent_Location_Set">
@@ -5063,8 +4987,6 @@
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -5262,14 +5184,12 @@
 				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
+		
 		<Abilities SubObjectList="Yes"> <!-- Starfighter_Specialist -->
 			<Combat_Bonus_Ability Name="Starfighter_Specialist_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -5319,7 +5239,7 @@
 		<Text_ID>TEXT_HERO_NWON_RAINES</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_NWON_RAINES
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -5351,7 +5271,7 @@
 		<Text_ID>TEXT_HERO_NWON_RAINES</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_NWON_RAINES
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -5497,8 +5417,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -5744,8 +5662,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -6151,7 +6067,6 @@
 
 		<Affiliation>Rebel, Techno_Union, Trade_Federation, Commerce_Guild, Banking_Clan</Affiliation>
 		<CategoryMask>VehicleHero | AntiInfantry | AntiVehicle</CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 		
 		<Tactical_Health>200</Tactical_Health>
 		<Armor_Type> ArmourG_Hero </Armor_Type>
@@ -6182,20 +6097,19 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_INTERCEPTORLIGHT </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_88TH_FLIGHT.tga</Icon_Name>
 		
-		<Population_Value>1</Population_Value>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Units>88th_Flight_Land</Company_Units>
 		<Company_Transport_Unit>TF_Landing_Craft_Air</Company_Transport_Unit>
-
-		<Tech_Level>99</Tech_Level>
-		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>40</Damage>
-
-		<Tech_Level>99</Tech_Level>
-
+		
+		<Population_Value>1</Population_Value>
 		<Affiliation>Rebel, Techno_Union, Trade_Federation, Commerce_Guild, Banking_Clan</Affiliation>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>100</Damage>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
@@ -6544,8 +6458,6 @@
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -6761,8 +6673,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -7133,8 +7043,6 @@
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -7421,8 +7329,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -7653,8 +7559,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
