@@ -37,8 +37,6 @@
 
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
-
-		<Lua_Script>GroundHero</Lua_Script>
 		
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 
@@ -167,8 +165,6 @@
 					Boba_Fett
 				</Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -201,8 +197,6 @@
 				</Applicable_Unit_Types>
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>-0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>-0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>-0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>2</Stacking_Category>
@@ -285,7 +279,6 @@
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Move_Durge</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Move_Durge</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Move_Durge</SFXEvent_Fleet_Move>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
@@ -395,7 +388,7 @@
 		<Icon_Name>i_button_kalani.tga</Icon_Name>
 		
 		<Land_Model_Name>kalani.ALO</Land_Model_Name>
-
+		
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
 		<Tactical_Health>200</Tactical_Health>
@@ -432,7 +425,6 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Starting_Spawned_Units_Tech_0>BX_Commando_Squad, 2</Starting_Spawned_Units_Tech_0>
 
@@ -443,8 +435,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.21</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -476,31 +466,19 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPER_TACTICAL_DROID </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_kalani.tga</Icon_Name>
-		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Rebel</Affiliation>
-		<Damage>100</Damage>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Tech_Level>99</Tech_Level>
-		<Build_Cost_Credits>5000</Build_Cost_Credits>
-		<Build_Time_Seconds>30</Build_Time_Seconds>
-		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>CIS_Sheathipede_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>General_Kalani</Company_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Is_Force_Sensitive>No</Is_Force_Sensitive>
-		<Available_In_Skirmish>yes</Available_In_Skirmish>
-		<Can_Be_Only_One>true</Can_Be_Only_One>
-
-		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		
 		<Population_Value>1</Population_Value>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Damage>100</Damage>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
-		<Land_Override_Population_Value>1</Land_Override_Population_Value>
 		
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_bx_commando</SFXEvent_Fleet_Move>
 
@@ -514,13 +492,14 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</HeroCompany>
 	
-	<HeroUnit Name="Lorz_Geptun"> <!-- Hunt for Malevolence / Knight Hammer (as Republic -->
+	<HeroUnit Name="Lorz_Geptun"> <!-- Hunt for Malevolence / Knight Hammer (as Republic) -->
 		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_LORZ_GEPTUN</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_LORZ_GEPTUN
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -652,16 +631,14 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Command_Tier_04_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.21</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -786,7 +763,6 @@
 		<SFXEvent_Build_Started>UHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Plex_Soldier</SFXEvent_Fleet_Move>
 		<Population_Value>1</Population_Value>
 
@@ -884,7 +860,6 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Starting_Spawned_Units_Tech_0>Light_Mercenary_Squad, 1</Starting_Spawned_Units_Tech_0>
 
@@ -957,6 +932,7 @@
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Score_Cost_Credits>1</Score_Cost_Credits>
 
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
@@ -985,7 +961,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TACTICAL_DROID </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_TA_175.TGA</Icon_Name>
 
-		<Ranking_In_Category> 5 </Ranking_In_Category>
+		<Ranking_In_Category> 8 </Ranking_In_Category>
 
 		<Land_Model_Name>T-Series_Tactical_Droid.ALO</Land_Model_Name>
 		<No_Colorization_Color> 0, 64, 125, 255 </No_Colorization_Color>
@@ -996,7 +972,6 @@
 		<Min_Speed> .1 </Min_Speed>
 		<OverrideAcceleration> 1.0 </OverrideAcceleration>
 		<OverrideDeceleration> 1.0 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
 		<Scale_Factor>1.0</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
@@ -1024,7 +999,6 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Lua_Script>GroundHero</Lua_Script>
 		
 		<Starting_Spawned_Units_Tech_0>B1_Droid_Squad, 4</Starting_Spawned_Units_Tech_0>
 
@@ -1035,8 +1009,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1130,7 +1102,6 @@
 		<Affiliation>Rebel</Affiliation>
 
 		<CategoryMask> VehicleHero | AntiInfantry </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<LandBehavior> SPAWN_SQUADRON, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, TURRET, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, AFFECTED_BY_SHIELD, DAMAGE_TRACKING</LandBehavior>
 
@@ -1147,8 +1118,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.21</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1186,31 +1155,24 @@
 		TEXT_TOOLTIP_BONUS_AA_ACCURACY
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
-
 		<Icon_Name>i_button_whorm.tga</Icon_Name>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>3000</Build_Cost_Credits>
-		<Build_Time_Seconds>60</Build_Time_Seconds>
-		<Tech_Level>99</Tech_Level>
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>TF_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>Whorm_AAT</Company_Units>
 		
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		
 		<Population_Value>1</Population_Value>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>50</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 		
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete/>
-		<SFXEvent_Hero_Respawned/>
 		<SFXEvent_Fleet_Move/>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
@@ -1251,10 +1213,9 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_OOM_224.tga</Icon_Name>
 		
-		<Ranking_In_Category> 7 </Ranking_In_Category>
+		<Ranking_In_Category> 8 </Ranking_In_Category>
 		<Affiliation>Rebel</Affiliation>
 		<CategoryMask> VehicleHero | AntiInfantry </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<LandBehavior> SPAWN_SQUADRON, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, TURRET, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, AFFECTED_BY_SHIELD, DAMAGE_TRACKING</LandBehavior>
 
@@ -1271,8 +1232,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1311,30 +1270,23 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_OOM_224.tga</Icon_Name>
-
-		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>3000</Build_Cost_Credits>
-		<Build_Time_Seconds>60</Build_Time_Seconds>
-		<Tech_Level>99</Tech_Level>
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>TF_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>OOM_224_AAT</Company_Units>
-		
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		
+
 		<Population_Value>1</Population_Value>
+		<Damage>50</Damage>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 		
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete/>
-		<SFXEvent_Hero_Respawned/>
 		<SFXEvent_Fleet_Move/>
 	</HeroCompany>
 
@@ -1366,10 +1318,9 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TACTICAL_DROID </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_TX_20.TGA</Icon_Name>
 
-		<Ranking_In_Category> 7 </Ranking_In_Category>
+		<Ranking_In_Category> 8 </Ranking_In_Category>
 		<Affiliation>Rebel</Affiliation>
 		<CategoryMask> VehicleHero | AntiInfantry </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<LandBehavior> SPAWN_SQUADRON, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, TURRET, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, AFFECTED_BY_SHIELD, DAMAGE_TRACKING</LandBehavior>
 
@@ -1386,8 +1337,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1449,7 +1398,6 @@
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete/>
-		<SFXEvent_Hero_Respawned/>
 		<SFXEvent_Fleet_Move/>
 	</HeroCompany>
 
@@ -1478,7 +1426,6 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		<CategoryMask> VehicleHero | AntiInfantry </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Highlight_Blob_Material_Name>Highlight_CIS_Hero</Highlight_Blob_Material_Name>
 
@@ -1491,8 +1438,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1545,7 +1490,6 @@
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete/>
-		<SFXEvent_Hero_Respawned/>
 		<SFXEvent_Fleet_Move/>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
@@ -1581,11 +1525,10 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TACTICAL_DROID </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_TX_21.TGA</Icon_Name>
 
-		<Ranking_In_Category> 5 </Ranking_In_Category>
+		<Ranking_In_Category> 8 </Ranking_In_Category>
 		<Affiliation>Rebel</Affiliation>
 
 		<CategoryMask> VehicleHero | AntiVehicle | AntiStructure </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<LandBehavior>ABILITY_COUNTDOWN, SHIELDED, WALK_LOCOMOTOR,IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, STUNNABLE, DAMAGE_TRACKING, SURFACE_FX, AFFECTED_BY_SHIELD</LandBehavior>
 
@@ -1610,8 +1553,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1668,7 +1609,6 @@
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete/>
-		<SFXEvent_Hero_Respawned/>
 		<SFXEvent_Fleet_Move/>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
@@ -1714,7 +1654,6 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		<CategoryMask> VehicleHero | AntiInfantry | AntiVehicle </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 		<Property_Flags>GoodInfantryCrusher | CanContainGarrison | IsSupercrusher | GTSImmune</Property_Flags>
 
 		<Highlight_Blob_Material_Name>Highlight_CIS_Hero</Highlight_Blob_Material_Name>
@@ -1728,8 +1667,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1815,7 +1752,6 @@
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Juggernaut</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Complete_Juggernaut</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Juggernaut</SFXEvent_Fleet_Move>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
@@ -1858,7 +1794,6 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		<CategoryMask> AirGunship | AntiInfantry </CategoryMask>	<!-- VehicleHero is intentionally omitted - Rhino -->
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Highlight_Blob_Material_Name>Highlight_CIS_Hero</Highlight_Blob_Material_Name>
 		
@@ -1869,8 +1804,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1925,7 +1858,6 @@
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 	</HeroCompany>
 
@@ -1936,6 +1868,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_ZOLGHAST 
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -1993,16 +1926,14 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 + Defense Focus -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
@@ -2020,6 +1951,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_ZOLGHAST 
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -2059,7 +1991,6 @@
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 	</HeroCompany>
 
@@ -2095,15 +2026,14 @@
 		<Land_Model_Anim_Override_Name>Defoliator_deployment_tank.ALO</Land_Model_Anim_Override_Name>
 
 		<LandBehavior>SPAWN_SQUADRON, AFFECTED_BY_SHIELD, HUNT,WALK_LOCOMOTOR, IDLE,TARGETING, WEAPON, TURRET, POWERED, REVEAL,HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
-
-		<Starting_Spawned_Units_Tech_0>AAT, 2</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
 		<Affiliation>Rebel</Affiliation>
 		<CategoryMask> VehicleHero | AntiInfantry | AntiStructure </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 		<Property_Flags>GTSImmune</Property_Flags>
 
 		<Highlight_Blob_Material_Name>Highlight_CIS_Hero</Highlight_Blob_Material_Name>
+
+		<Starting_Spawned_Units_Tech_0>CIS_AAT, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -2112,8 +2042,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2130,8 +2058,6 @@
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types> Defoliator, CIS_Defoliator, J1_Cannon, Hailfire, Super_Tank, CIS_Super_Tank, HAG, CA_Artillery </Applicable_Unit_Types>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -2193,7 +2119,6 @@
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete/>
-		<SFXEvent_Hero_Respawned/>
 		<SFXEvent_Fleet_Move/>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
@@ -2242,7 +2167,6 @@
 		<Affiliation>Rebel</Affiliation>
 
 		<CategoryMask> VehicleHero | AntiVehicle | AntiStructure </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<LandBehavior>ABILITY_COUNTDOWN, SHIELDED, WALK_LOCOMOTOR,IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, STUNNABLE, DAMAGE_TRACKING, SURFACE_FX, AFFECTED_BY_SHIELD</LandBehavior>
 
@@ -2268,8 +2192,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2286,8 +2208,6 @@
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types> Defoliator, CIS_Defoliator, J1_Cannon, Hailfire, Super_Tank, CIS_Super_Tank, HAG, CA_Artillery </Applicable_Unit_Types>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -2348,7 +2268,6 @@
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete/>
-		<SFXEvent_Hero_Respawned/>
 		<SFXEvent_Fleet_Move/>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
@@ -2461,19 +2380,16 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_VICEROY </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_NUTE_GUNRAY_ADMIN.tga</Icon_Name>
-
-		<Population_Value>1</Population_Value>
 		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Rebel</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Tech_Level>99</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Stock_Sheathipede_Landing_Craft_Admin</Company_Transport_Unit>
 		<Company_Units>Nute_Gunray</Company_Units>
+		
+		<Population_Value>1</Population_Value>
+		<Damage>1</Damage>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
@@ -2530,6 +2446,7 @@
 	</HeroCompany>
 
 	<HeroUnit Name="Passel_Argente">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_PASSEL_ARGENTE</Text_ID>
 		<Encyclopedia_Text>
@@ -2544,26 +2461,7 @@
 		<Icon_Name>I_BUTTON_PASSEL_ARGENTE_ADMIN.TGA</Icon_Name>
 
 		<Ranking_In_Category> 3 </Ranking_In_Category>
-
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Type>Walk</Type>
 		<Affiliation>Rebel</Affiliation>
-		<Political_Control>0</Political_Control>
-		<Political_Faction>Rebel</Political_Faction>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-
-		<IsBuildable>No</IsBuildable>
-		<Size_Value>75</Size_Value>
-		<Damage>100</Damage>
-		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<CategoryMask> NonCombatHero </CategoryMask>
-
-		<Neutralization_Cost>1000.0</Neutralization_Cost>
-
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Megacorp -->
 			<Reduce_Production_Price_Ability Name="Admin_Tier_Megacorp_Reduce_Production_Price">
@@ -2591,6 +2489,7 @@
 		</Abilities>
 	</HeroUnit>
 	<HeroCompany Name="Argente_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_PASSEL_ARGENTE</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -2602,27 +2501,15 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MAGISTRATE </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_PASSEL_ARGENTE_ADMIN.TGA</Icon_Name>
-
-		<Population_Value>1</Population_Value>
 		
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>CIS_Sheathipede_Landing_Craft_Admin</Company_Transport_Unit>
 		<Company_Units>Passel_Argente</Company_Units>
 		
-		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Tech_Level>99</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 		
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Respawn_Mothma</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Mothma</SFXEvent_Hero_Respawned>
 	</HeroCompany>
 	
 	<HeroUnit Name="Poggle_AAT">
@@ -2659,7 +2546,6 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<CategoryMask> VehicleHero | AntiInfantry </CategoryMask>
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<LandBehavior> SPAWN_SQUADRON, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, TURRET, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, AFFECTED_BY_SHIELD, DAMAGE_TRACKING</LandBehavior>
 
@@ -2744,7 +2630,6 @@
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Respawn_Mothma</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Mothma</SFXEvent_Hero_Respawned>
 	</HeroCompany>
 
 	<HeroUnit Name="Wat_Tambor">
@@ -2775,7 +2660,7 @@
 		<Land_Model_Name>Tambor.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>Skakoan_Combat_Engineer.alo</Land_Model_Anim_Override_Name>
 		
-		<Ranking_In_Category> 4 </Ranking_In_Category>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
 		
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 
@@ -2852,8 +2737,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2867,19 +2750,17 @@
 			</Battlefield_Modifier_Ability>
 			
 			<Combat_Bonus_Ability Name="Fortification_Specialist_Combat_Bonus">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Structure | SpaceStructure</Applicable_Unit_Categories>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Fortification_Specialist_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Structure | SpaceStructure</Applicable_Unit_Categories>
 				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>1</Stacking_Category>
@@ -2973,21 +2854,18 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FOREMAN </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_wat.tga</Icon_Name>
-
-		<Population_Value>1</Population_Value>
 		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Rebel</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Tech_Level>99</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>CIS_Sheathipede_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>Wat_Tambor</Company_Units>
+
+		<Population_Value>1</Population_Value>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>20</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 		
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>

@@ -65,8 +65,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -197,8 +195,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -214,8 +210,6 @@
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -310,8 +304,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -392,8 +384,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -412,8 +402,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -564,8 +552,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
@@ -613,8 +599,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -774,8 +758,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.24</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.24</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.24</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -889,8 +871,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.24</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.24</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.24</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -997,8 +977,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1056,14 +1034,14 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 	</DummyStructure>
-	
+
 	<UniqueUnit Name="Sai_Sircu_Devastation">
 		<Variant_Of_Existing_Type>Devastation</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_SAI_SIRCU</Text_ID>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SAI_SIRCU
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -1112,6 +1090,20 @@
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Force_Sensitive_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Battlefield_Modifier_Ability Name="Force_Sensitive_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
 			<Super_Laser_Ability Name="Super_Laser_Attack_Ability">
 				<Activation_Style> User_Input </Activation_Style>
 				<Applicable_Unit_Categories> SpaceHero | SuperCapital | Capital | Frigate | Structure | SpaceStructure </Applicable_Unit_Categories>
@@ -1137,6 +1129,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_INTEL_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_AUTO 
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -1186,16 +1179,14 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.24</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Command_Tier_06_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.18</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.27</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -1299,8 +1290,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1351,6 +1340,7 @@
 		<Shield_Refresh_Rate>43.75</Shield_Refresh_Rate>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
 
 		<HardPoints>
 			IH_Hangar01, IH_Hangar02, IH_engine, Providence_01, Providence_02, Providence_03, Providence_04, Providence_05, Providence_06, Providence_07, Providence_08, Providence_09, Providence_10, Providence_11, Providence_12, Providence_13, Providence_14, Providence_Hero_01, Providence_Hero_02
@@ -1454,6 +1444,7 @@
 		<Shield_Refresh_Rate>43.75</Shield_Refresh_Rate>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
 
 		<HardPoints>
 			IH_Hangar01, IH_Hangar02, IH_engine, Providence_01, Providence_02, Providence_03, Providence_04, Providence_05, Providence_06, Providence_07, Providence_08, Providence_09, Providence_10, Providence_11, Providence_12, Providence_13, Providence_14, Providence_Hero_01, Providence_Hero_02
@@ -1632,8 +1623,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.27</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.27</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.27</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1674,6 +1663,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_DUA_NINGO
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -1795,9 +1785,7 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.27</Damage_Bonus_Percentage>    
 				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.21</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1811,6 +1799,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
+
 	<UniqueUnit Name="Calli_Trilm_Bulwark">
 		<Variant_Of_Existing_Type>Bulwark_I</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -1886,8 +1875,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1942,7 +1929,7 @@
 
 		<CategoryMask> SpaceHero | AntiFrigate | AntiFighter </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
-
+		
 		<SFXEvent_Select>Unit_Select_Bothan</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Bothan</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Bothan</SFXEvent_Attack>
@@ -1971,8 +1958,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2035,6 +2020,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_TF1726
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -2097,9 +2083,7 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
 				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2209,8 +2193,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2239,6 +2221,7 @@
 		<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</UniqueUnit>
+
 	<UniqueUnit Name="Harsol_Munificent">
 		<Variant_Of_Existing_Type>Munificent</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -2344,8 +2327,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2489,8 +2470,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2510,6 +2489,7 @@
 			</Bounty_On_Faction_Ability>
 		</Abilities>
 	</UniqueUnit>
+
 	<UniqueUnit Name="Shonn_Recusant">
 		<Variant_Of_Existing_Type>Recusant_Light_Destroyer</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -2517,6 +2497,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SHONN
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -2579,16 +2560,14 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.18</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -2602,6 +2581,7 @@
 		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</UniqueUnit>
+
 	<UniqueUnit Name="Stark_Recusant"> <!-- Commerce Guild Integration -->
 		<Variant_Of_Existing_Type>Recusant_Light_Destroyer</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -2702,8 +2682,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2804,8 +2782,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2902,8 +2878,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -2977,8 +2951,6 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -3159,6 +3131,7 @@
 		TEXT_TOOLTIP_RECUSANT_HULL 
 		TEXT_TOOLTIP_RECUSANT_SHIELD
 		TEXT_TOOLTIP_RECUSANT_MOVE 
+		TEXT_TOOLTIP_RECUSANT_SQUADRON_FOTR
 		TEXT_TOOLTIP_RECUSANT_WEAP1 
 		TEXT_TOOLTIP_RECUSANT_WEAP2
 		TEXT_TOOLTIP_RECUSANT_WEAP3 

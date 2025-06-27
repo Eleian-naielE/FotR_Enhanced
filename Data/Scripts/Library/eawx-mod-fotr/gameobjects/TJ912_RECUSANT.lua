@@ -1,7 +1,7 @@
 return {
 	Ship_Crew_Requirement = 10,
 	Fighters = {
-		["LIGHT_BOMBER"] = {
+		["LIGHT_BOMBER_HALF"] = {
 			DEFAULT = {Initial = 1, Reserve = 4, ResearchType = "VultureLatch"}
 		}
 	},

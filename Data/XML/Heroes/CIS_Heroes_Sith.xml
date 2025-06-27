@@ -6,9 +6,10 @@
 		<LOD_Bias>5</LOD_Bias>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_GRIEVOUS</Text_ID>
-		<Encyclopedia_Text> 
+		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS 
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -29,7 +30,8 @@
 		<Icon_Name>i_button_grievous.tga</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>		<Target_Bones> MuzzleA_00 </Target_Bones>
+		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
+		<Target_Bones> MuzzleA_00 </Target_Bones>
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 
@@ -79,16 +81,16 @@
 		<Projectile_Fire_Recharge_Seconds>0.1</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Appearance_Delay_Frames> 20 </Projectile_Appearance_Delay_Frames>
 
-
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>20.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
 		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_General_Grevious </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
 		<SFXEvent_Select>Unit_Select_General_Grevious</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_General_Grevious</SFXEvent_Move>
@@ -190,9 +192,7 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.33</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.39</Damage_Bonus_Percentage>    
 				<Defense_Bonus_Percentage>0.33</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.33</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -206,11 +206,13 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+
 	<HeroCompany Name="Grievous_Team">
 		<Text_ID>TEXT_HERO_GRIEVOUS</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -230,16 +232,18 @@
 		<Icon_Name>i_button_grievous.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
-		<Population_Value>1</Population_Value>
-		
-		<Affiliation>Rebel</Affiliation>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Soulless_One</Company_Transport_Unit>
 		<Company_Units>General_Grievous</Company_Units>
-
-		<Tech_Level>99</Tech_Level>
-		<Damage>40</Damage>
+		
+		<Population_Value>1</Population_Value>
 		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Affiliation>Rebel</Affiliation>
+		<Damage>100</Damage>
+		<Tech_Level>99</Tech_Level>
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 		
 		<SFXEvent_Build_Complete>Unit_Complete_General_Grevious</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_General_Grevious</SFXEvent_Fleet_Move>
@@ -250,6 +254,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -275,6 +280,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -323,6 +329,7 @@
 		<Abilities SubObjectList="No">
 		</Abilities>
 	</UniqueUnit>
+
 	<TransportUnit Name="Soulless_One_Landing">
 		<Variant_Of_Existing_Type>Soulless_One</Variant_Of_Existing_Type>
 
@@ -359,6 +366,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -488,9 +496,7 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.33</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.39</Damage_Bonus_Percentage>    
 				<Defense_Bonus_Percentage>0.33</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.33</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -520,6 +526,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -657,9 +664,7 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.33</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.39</Damage_Bonus_Percentage>    
 				<Defense_Bonus_Percentage>0.33</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.33</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -690,6 +695,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -795,9 +801,7 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.33</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.39</Damage_Bonus_Percentage>    
 				<Defense_Bonus_Percentage>0.33</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.33</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -828,6 +832,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -924,9 +929,7 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.33</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.39</Damage_Bonus_Percentage>    
 				<Defense_Bonus_Percentage>0.33</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.33</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -940,11 +943,13 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
+
 	<UniqueUnit Name="Grievous_Malevolence_2">
 		<Variant_Of_Existing_Type>Grievous_Malevolence</Variant_Of_Existing_Type>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -965,6 +970,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 	</UniqueUnit>
+
 	<UniqueUnit Name="Grievous_Malevolence_Hunt_Campaign">
 		<Variant_Of_Existing_Type>Subjugator</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -973,6 +979,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -1064,9 +1071,7 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.33</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.39</Damage_Bonus_Percentage>    
 				<Defense_Bonus_Percentage>0.33</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.33</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1122,6 +1127,7 @@
 		<Required_Orbiting_Units>Grievous_Recusant</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, CIS_Shipyard_Level_Three | CIS_Shipyard_Level_Four</Required_Special_Structures>
 	</DummyStructure>
+
 	<DummyStructure Name="Grievous_Swap_Providence_To_Recusant">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 
@@ -1143,6 +1149,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -1177,6 +1184,7 @@
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 
 	</DummyStructure>
+
 	<DummyStructure Name="Grievous_Upgrade_Munificent_To_Providence">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 
@@ -1187,6 +1195,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -1223,6 +1232,7 @@
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 
 	</DummyStructure>
+
 	<DummyStructure Name="Grievous_Upgrade_Munificent_To_Malevolence_2">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 
@@ -1258,7 +1268,8 @@
 
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS 
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -1289,6 +1300,7 @@
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 
 	</DummyStructure>
+
 	<DummyStructure Name="Grievous_Upgrade_Recusant_To_Malevolence_2">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 
@@ -1323,7 +1335,8 @@
 
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GRIEVOUS 
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -1366,6 +1379,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02
 		TEXT_TOOLTIP_TRAIT_UTILITY_PARTISAN_RECRUITER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
@@ -1389,7 +1403,6 @@
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
-		<Lua_Script>GroundHero</Lua_Script>
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 
@@ -1644,16 +1657,14 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.27</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.27</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.27</Movement_Speed_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.33</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Command_Tier_09_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.27</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.26</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -1667,11 +1678,13 @@
 			</Reduce_Production_Price_Ability>
 		</Abilities>
 	</HeroUnit>
+
 	<HeroCompany Name="Dooku_Team">
 		<Text_ID>TEXT_HERO_DOOKU</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02
 		TEXT_TOOLTIP_TRAIT_UTILITY_PARTISAN_RECRUITER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
@@ -1724,11 +1737,12 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</HeroCompany>
 
-	<HeroUnit Name="Dooku_Stealth">
+	<HeroUnit Name="Dooku_Stealth"> <!-- Historical variant -->
 		<Variant_Of_Existing_Type>Dooku</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02
 		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
@@ -1894,16 +1908,14 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.27</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.27</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.27</Movement_Speed_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.33</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Command_Tier_09_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.27</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.36</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -1918,11 +1930,13 @@
 		</Abilities>
 
 	</HeroUnit>
+
 	<HeroCompany Name="Dooku_Stealth_Team">
 		<Variant_Of_Existing_Type>Dooku_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02
 		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
@@ -1949,6 +1963,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SORA_BULQ
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -2078,7 +2093,6 @@
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
@@ -2101,16 +2115,14 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.24</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Command_Tier_06_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.18</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.27</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -2230,12 +2242,14 @@
 			</Berserker_Ability>
 		</Abilities>
 	</HeroUnit>
+
 	<HeroCompany Name="Sora_Bulq_Team">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_HERO_SORA_BULQ</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SORA_BULQ
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -2301,6 +2315,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_YANSU_GRJAK
@@ -2340,8 +2355,7 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Appearance_Delay_Frames>20</Projectile_Appearance_Delay_Frames>
-
-
+		
 		<SFXEvent_Select>Unit_Select_Night_Sister</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Night_Sister</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Move_Night_Sister</SFXEvent_Fleet_Move>
@@ -2469,16 +2483,14 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>		<!-- Pick the correct one for the hero, then delete me -->
-				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.18</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -2522,7 +2534,6 @@
 			</Absorb_Blaster_Ability>
 
 			<Force_Healing_Ability Name="Yansu_Grjak_Self_Heal">
-
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>5.0</Heal_Range>
 				<Heal_Amount> 0.0 </Heal_Amount>
@@ -2601,11 +2612,13 @@
 			</Drain_Life_Ability>
 		</Abilities>
 	</HeroUnit>
+
 	<HeroCompany Name="Yansu_Grjak_Team">
 		<Text_ID>TEXT_HERO_YANSU_GRJAK</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_YANSU_GRJAK
@@ -2622,11 +2635,11 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_NIGHTSISTER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_YANSU_GRJAK.TGA</Icon_Name>
-
+		
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
 		<Affiliation>Rebel</Affiliation>
-
+		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Star_Courier_Yansu</Company_Transport_Unit>
 		<Company_Units>Yansu_Grjak</Company_Units>
@@ -2670,6 +2683,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SEVRANCE
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -2691,7 +2705,6 @@
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
-		<Lua_Script>GroundHero</Lua_Script>
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 
@@ -2828,16 +2841,14 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.24</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.24</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.24</Movement_Speed_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.30</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Command_Tier_08_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.24</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.33</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -2960,11 +2971,13 @@
 			</Berserker_Ability>
 		</Abilities>
 	</HeroUnit>
+
 	<HeroCompany Name="SevRance_Team">
 		<Text_ID>TEXT_HERO_SEVRANCE</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SEVRANCE
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -3022,6 +3035,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SEVRANCE 
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -3047,7 +3061,7 @@
 		<SpaceBehavior>SHIELDED, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, REVEAL, ABILITY_COUNTDOWN </SpaceBehavior>
 
 		<HardPoints> HP_Ginivex_00, HP_Ginivex_01 </HardPoints>
-
+		
 		<Victory_Relevant>yes</Victory_Relevant>
 
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
@@ -3071,7 +3085,7 @@
 		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
 		<SFXEvent_Move_Into_Nebula>Unit_Move_Sevrance_Tann</SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Move_Into_Asteroid_Field>Unit_Move_Sevrance_Tann</SFXEvent_Move_Into_Asteroid_Field>
-		<Death_SFXEvent_Start_Die> Unit_Death_Sevrance_Tann </Death_SFXEvent_Start_Die>
+		<Death_SFXEvent_Start_Die> Unit_Death_Sevrance_Tann </Death_SFXEvent_Start_Die>   
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Sevrance_Tann </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Sevrance_Tann </SFXEvent_Attack_Hardpoint>
@@ -3094,7 +3108,22 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes">
+		<Abilities SubObjectList="Yes"> <!-- Force Sensitive -->
+			<Combat_Bonus_Ability Name="Force_Sensitive_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Battlefield_Modifier_Ability Name="Force_Sensitive_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
 			<Absorb_Blaster_Ability Name="Jedi_Fighter_Absorb_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Absorb_Chance>0.25</Absorb_Chance>
@@ -3115,6 +3144,7 @@
 			</Absorb_Blaster_Ability>
 		</Abilities>
 	</UniqueUnit>
+
 	<TransportUnit Name="SevRance_Ginivex_Landing">
 		<Variant_Of_Existing_Type>SevRance_Ginivex</Variant_Of_Existing_Type>
 		<Land_Model_Name>ginivex_land.alo</Land_Model_Name>
@@ -3137,6 +3167,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_TRAIT_UTILITY_SPY
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_VENTRESS 
@@ -3159,7 +3190,6 @@
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
-		<Lua_Script>GroundHero</Lua_Script>
 		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 
@@ -3309,16 +3339,14 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.24</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Command_Tier_06_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.18</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.27</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -3462,6 +3490,7 @@
 			</Berserker_Ability>
 		</Abilities>
 	</HeroUnit>
+
 	<HeroCompany Name="Ventress_Team">
 		<Text_ID>TEXT_HERO_VENTRESS</Text_ID>
 		<Encyclopedia_Text> 
@@ -3492,7 +3521,7 @@
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Ventress_Ginivex</Company_Transport_Unit>
 		<Company_Units>Ventress</Company_Units>
-
+		
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>
 		<Damage>100</Damage>
@@ -3504,9 +3533,6 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Ventress_Ginivex</Company_Transport_Unit>
-		<Company_Units>Ventress</Company_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Available_In_Skirmish>yes</Available_In_Skirmish>
@@ -3568,7 +3594,7 @@
 		<Idle_Chase_Range>1200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
-
+		
 		<Victory_Relevant>yes</Victory_Relevant>
 
 		<Landing_Transport_Variant>Ventress_Ginivex_Landing</Landing_Transport_Variant>
@@ -3606,7 +3632,22 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes">
+		<Abilities SubObjectList="Yes"> <!-- Force Sensitive -->
+			<Combat_Bonus_Ability Name="Force_Sensitive_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Battlefield_Modifier_Ability Name="Force_Sensitive_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
 			<Absorb_Blaster_Ability Name="Jedi_Pilot_Absorb_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Absorb_Chance>0.35</Absorb_Chance>
@@ -3649,6 +3690,7 @@
 		<Text_ID>TEXT_HERO_SHAALA_DONEETA</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SHAALA_DONEETA
@@ -3781,7 +3823,6 @@
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
@@ -3797,6 +3838,21 @@
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Force_Sensitive_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Battlefield_Modifier_Ability Name="Force_Sensitive_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
 			<Earthquake_Attack_Ability Name="Shaala_Doneeta_Attack_Structures">
 				<Activation_Style>Special_Attack</Activation_Style>
 				<Terminate_Effect_On_Move_Command>Yes</Terminate_Effect_On_Move_Command>
@@ -3917,11 +3973,13 @@
 			</Galactic_Stealth_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Shaala_Doneeta_Team">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_HERO_SHAALA_DONEETA</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SHAALA_DONEETA
@@ -3982,6 +4040,7 @@
 		<Text_ID>TEXT_HERO_SHAALA_DONEETA</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SHAALA_DONEETA 
@@ -4015,7 +4074,7 @@
 		<Idle_Chase_Range>1200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
-
+		
 		<Victory_Relevant>yes</Victory_Relevant>
 
 		<Landing_Transport_Variant>Shaala_Doneeta_Ginivex_Landing</Landing_Transport_Variant>
@@ -4046,7 +4105,22 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes">
+		<Abilities SubObjectList="Yes"> <!-- Force Sensitive -->
+			<Combat_Bonus_Ability Name="Force_Sensitive_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Battlefield_Modifier_Ability Name="Force_Sensitive_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
 			<Absorb_Blaster_Ability Name="Jedi_Fighter_Absorb_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Absorb_Chance>0.25</Absorb_Chance>
@@ -4067,6 +4141,7 @@
 			</Absorb_Blaster_Ability>
 		</Abilities>
 	</UniqueUnit>
+	
 	<TransportUnit Name="Shaala_Doneeta_Ginivex_Landing">
 		<Variant_Of_Existing_Type>Shaala_Doneeta_Ginivex</Variant_Of_Existing_Type>
 		<Land_Model_Name>ginivex_land.alo</Land_Model_Name>
