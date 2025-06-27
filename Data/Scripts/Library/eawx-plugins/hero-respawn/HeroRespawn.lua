@@ -24,6 +24,7 @@ require("deepcore/std/class")
 require("eawx-util/StoryUtil")
 require("PGDebug")
 require("SetFighterResearch")
+require("eawx-util/UnitUtil")
 
 HeroRespawn = class()
 
@@ -64,8 +65,10 @@ function HeroRespawn:on_galactic_hero_killed(hero_name, owner)
         self:start_cyber_trench_countdown()
     elseif hero_name == "ZOZRIDOR_SLAYKE_CARRACK" then
         self:slaykes_second_chance()
-	elseif hero_name == "ANAKIN_DARKSIDE_TEAM" then
-        self:anakins_dark_suit()
+	elseif hero_name == "ANAKIN_DARKSIDE" or hero_name == "VADER" or hero_name == "ANAKIN_DARKSIDE_TEAM" or hero_name == "VADER_TEAM" then
+        self:check_anakin_vader(hero_name)
+    elseif hero_name == "EXACTOR_ANAKIN_DARKSIDE" or hero_name == "EXACTOR_VADER" then
+        self:anakin_vader_escaped(hero_name)        
     end
 end
 
@@ -153,13 +156,36 @@ function HeroRespawn:start_cyber_trench_countdown()
 	Story_Event("TRENCH_COUNTDOWN_BEGINS")
 end
 
-function HeroRespawn:anakins_dark_suit()
-	--Logger:trace("entering HeroRespawn:anakins_dark_suit")
-	local p_republic = Find_Player("Empire")
+function HeroRespawn:anakins_dark_suit(hero_type)
+    local respawn
+    if TestValid(Find_First_Object("Exactor_Anakin_Darkside")) then
+        Find_First_Object("Exactor_Anakin_Darkside").Despawn()
+        respawn = StoryUtil.SpawnAtSafePlanet("CORUSCANT", p_republic, StoryUtil.GetSafePlanetTable(), {"Exactor_Vader"})
+        Find_Player("Empire").Lock_Tech(Find_Object_Type("Vader_Upgrade_Exactor"))
+    elseif TestValid(Find_First_Object("Exactor_Vader")) then
+        Find_First_Object("Exactor_Vader").Despawn()
+        return
+    elseif hero_type == "Vader_Team" then
+        return
+    else
+        StoryUtil.SpawnAtSafePlanet("CORUSCANT", p_republic, StoryUtil.GetSafePlanetTable(), {"Vader_Team"})
+    end
+    if respawn then 
+        StoryUtil.Multimedia("TEXT_SPEECH_DARTH_VADER_SPAWN", 15, nil, "Emperor_Loop", 0)    
+    end
+end
+
+function HeroRespawn:anakin_vader_escaped(hero_type)
+    local p_republic = Find_Player("Empire")
 	local planet = StoryUtil.FindFriendlyPlanet(p_republic)
-	local respawn_anakin = StoryUtil.SpawnAtSafePlanet("CORUSCANT", p_republic, StoryUtil.GetSafePlanetTable(), {"Vader_Team"})
-	
-	if respawn_anakin then
-		StoryUtil.Multimedia("TEXT_SPEECH_DARTH_VADER_SPAWN", 15, nil, "Emperor_Loop", 0)
-	end
+    local respawn_type = "Anakin_Darkside_Team"
+    local loop_type = "Anakin_Loop"
+    if hero_type == "EXACTOR_VADER" then
+        respawn_type = "Vader_Team"
+        loop_type = "Vader_Loop"
+    end
+    local respawn = StoryUtil.SpawnAtSafePlanet("CORUSCANT", p_republic, StoryUtil.GetSafePlanetTable(), {respawn_type})
+    if respawn then
+        StoryUtil.Multimedia("TEXT_SPEECH_VADER_ESCAPED", 15, nil, loop_type, 0)
+    end
 end
