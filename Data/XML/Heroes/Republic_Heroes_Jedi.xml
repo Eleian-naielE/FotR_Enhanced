@@ -12341,8 +12341,8 @@
 		<SFXEvent_Group_Attack>Unit_Group_Attack_Anakin_Vader</SFXEvent_Group_Attack>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Anakin_Vader </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Anakin_Vader</SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die> Unit_Death_Anakin_Vader </Death_SFXEvent_Start_Die>   
-		
+		<Death_SFXEvent_Start_Die> Unit_Death_Anakin_Vader </Death_SFXEvent_Start_Die>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FORCE_TELEKINESIS</Type>
@@ -13738,9 +13738,34 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_ANAKIN_DARKSIDE.TGA</Icon_Name>
 		
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>99</Tech_Level>
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
-		
+		<CategoryMask> SpaceHero | AntiCapital | AntiFrigate  </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+		<SpaceBehavior>
+			ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA
+		</SpaceBehavior>
+		
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Command_Tier_11_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.39</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.33</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.39</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_11_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.33</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
 
 	</UniqueUnit>
 
@@ -13751,10 +13776,11 @@
 	<UniqueUnit Name="Exactor_Vader">
 		<Variant_Of_Existing_Type>Exactor_Anakin_Darkside</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
-		TEXT_TOOLTIP_TRAIT_COMMAND4_LANDSPACE
-		TEXT_TOOLTIP_TRAIT_ACEPILOT
-		TEXT_TOOLTIP_TRAIT_FORCESENSITIVE 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_VADER
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -13771,20 +13797,11 @@
 		TEXT_TOOLTIP_STAR_DESTROYER_WEAP4
 		TEXT_TOOLTIP_STAR_DESTROYER_WEAP5
 		TEXT_TOOLTIP_STAR_DESTROYER_WEAP6
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
-		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK 
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_VADER.TGA</Icon_Name>
-		<Behavior> DUMMY_STARSHIP, SELECTABLE, TRANSPORT </Behavior>
-		<Property_Flags>GTSImmune</Property_Flags>
-		<Landing_Transport_Variant>Vader_Eta_Landing</Landing_Transport_Variant>
-
-		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
-		<Tech_Level>99</Tech_Level>
-		<Affiliation>Empire</Affiliation>
-
-		<CategoryMask> SpaceHero | AntiCapital | AntiFrigate  </CategoryMask>
 
 		<SFXEvent_Select> Unit_Select_Vader </SFXEvent_Select>
 		<SFXEvent_Move> Unit_Move_Vader </SFXEvent_Move>
@@ -13823,7 +13840,7 @@
 	</UniqueUnit>
 	
 	<DummyStructure Name="Anakin_Darkside_Upgrade_Exactor">
-	  <Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
+	  	<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<Build_Cost_Credits>3000</Build_Cost_Credits>
 		<Build_Time_Seconds>3</Build_Time_Seconds>
 
@@ -13834,12 +13851,31 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Icon_Name>I_BUTTON_ANAKIN_DARKSIDE.tga</Icon_Name>
 
-		<Encyclopedia_Text>TEXT_TOOLTIP_UPGRADE_FLAG
-		</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_UPGRADE_FLAG</Encyclopedia_Text>
 
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Planets>Kuat</Required_Planets>
 		<Required_Orbiting_Units>Anakin_Darkside_Eta</Required_Orbiting_Units>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Four</Required_Special_Structures>
+	</DummyStructure>
+
+	<DummyStructure Name="Vader_Upgrade_Exactor">
+	  	<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
+
+		<GUI_Row> 1 </GUI_Row>
+
+		<Text_ID>TEXT_TOOLTIP_COMMAND_EXACTOR</Text_ID>
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Icon_Name>I_BUTTON_VADER.tga</Icon_Name>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_UPGRADE_FLAG</Encyclopedia_Text>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets>Kuat</Required_Planets>
+		<Required_Orbiting_Units>Vader_Eta</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Four</Required_Special_Structures>
 	</DummyStructure>
 
