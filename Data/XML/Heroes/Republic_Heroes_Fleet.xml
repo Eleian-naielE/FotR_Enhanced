@@ -4106,7 +4106,7 @@
 	<UniqueUnit Name="Yularen_Resolute_SPHAT">
 		<Variant_Of_Existing_Type>Yularen_Integrity</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
-		  TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_SPACE
 		TEXT_TOOLTIP_TRAIT_COMMAND_INTEL_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
@@ -4133,6 +4133,8 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
+		<Space_Model_Name>Venator_Hero.alo</Space_Model_Name>
+		<Death_Clone>Damage_Normal, Hero_Venator_Death_Clone</Death_Clone>
 
 	</UniqueUnit>
 
