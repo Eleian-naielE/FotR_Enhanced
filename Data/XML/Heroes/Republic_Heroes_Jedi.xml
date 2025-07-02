@@ -13691,15 +13691,30 @@
 
 		<Required_Orbiting_Units>Theta_Shuttle_Landing_Craft_Oppo</Required_Orbiting_Units>
 	</DummyStructure>
+	
+	<DummyStructure Name="Dummy_Anakin_Darkside">
+	  <Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+	  <Tech_Level>99</Tech_Level>
+	  <Affiliation>Empire</Affiliation>
+	</DummyStructure>
+	
+	<DummyStructure Name="Dummy_Vader">
+	  <Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+	  <Tech_Level>99</Tech_Level>
+	  <Affiliation>Empire</Affiliation>
+	</DummyStructure>
 
 	<UniqueUnit Name="Exactor_Anakin_Darkside">
-		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Imperator_Star_Destroyer</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Prevents_Story_Campaign_Autoresolve>no</Prevents_Story_Campaign_Autoresolve>
 		<Text_ID>TEXT_HERO_DARTH_VADER</Text_ID>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
-		TEXT_TOOLTIP_TRAIT_COMMAND4_LANDSPACE
-		TEXT_TOOLTIP_TRAIT_ACEPILOT
-		TEXT_TOOLTIP_TRAIT_FORCESENSITIVE 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_ANAKIN_DARKSIDE
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -13716,10 +13731,16 @@
 		TEXT_TOOLTIP_STAR_DESTROYER_WEAP4
 		TEXT_TOOLTIP_STAR_DESTROYER_WEAP5
 		TEXT_TOOLTIP_STAR_DESTROYER_WEAP6
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
-		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK 
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_ANAKIN_DARKSIDE.TGA</Icon_Name>
+		
+		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
+		
+		<Property_Flags>GTSImmune</Property_Flags>
 
 	</UniqueUnit>
 
@@ -13728,8 +13749,7 @@
 	</HeroCompany>
 
 	<UniqueUnit Name="Exactor_Vader">
-		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HERO_DARTH_VADER</Text_ID>
+		<Variant_Of_Existing_Type>Exactor_Anakin_Darkside</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
 		TEXT_TOOLTIP_TRAIT_COMMAND4_LANDSPACE
@@ -13755,10 +13775,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN 
 		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_VADER.TGA</Icon_Name>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Prevents_Story_Campaign_Autoresolve>no</Prevents_Story_Campaign_Autoresolve>
 		<Behavior> DUMMY_STARSHIP, SELECTABLE, TRANSPORT </Behavior>
 		<Property_Flags>GTSImmune</Property_Flags>
 		<Landing_Transport_Variant>Vader_Eta_Landing</Landing_Transport_Variant>
@@ -13804,6 +13821,27 @@
 		</Abilities>
 
 	</UniqueUnit>
+	
+	<DummyStructure Name="Anakin_Darkside_Upgrade_Exactor">
+	  <Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
+
+		<GUI_Row> 1 </GUI_Row>
+
+		<Text_ID>TEXT_TOOLTIP_COMMAND_EXACTOR</Text_ID>
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Icon_Name>I_BUTTON_ANAKIN_DARKSIDE.tga</Icon_Name>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_UPGRADE_FLAG
+		</Encyclopedia_Text>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets>Kuat</Required_Planets>
+		<Required_Orbiting_Units>Anakin_Darkside_Eta</Required_Orbiting_Units>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Four</Required_Special_Structures>
+	</DummyStructure>
 
 	<!-- Red Guards(Palpatine Escort, Capital Garrison)-->
 	

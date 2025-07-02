@@ -4271,7 +4271,7 @@
 	<!-- FotR_Enhanced -->
 
 	<DummyStructure Name="Yularen_Resolute_Upgrade_Resolute_SPHAT">
-		<Variant_Of_Existing_Type>Template_Flagship_Swap</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<GUI_Row> 1 </GUI_Row>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>3</Build_Time_Seconds>
