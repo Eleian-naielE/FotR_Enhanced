@@ -5397,8 +5397,9 @@
 		<Text_ID>TEXT_HERO_ROHN</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_ARROGANT
-		TEXT_TOOLTIP_TRAIT_UNYIELDING
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_ARROGANT
+		TEXT_TOOLTIP_TRAIT_COMMANDUNYIELDING
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_ROHN
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
@@ -5420,28 +5421,57 @@
 		<Affiliation>Empire</Affiliation>
 		<Land_Model_Name>all_terrain_tactical_enforcer_empire.ALO</Land_Model_Name>
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
-		<Lua_Script>GroundHero</Lua_Script>
-		<Property_Flags>GoodInfantryCrusher | CanContainGarrison | IsSupercrusher | HealsInfantry | GTSImmune </Property_Flags>
+		<Ranking_In_Category>8</Ranking_In_Category>
+		<Property_Flags>GoodInfantryCrusher | CanContainGarrison | IsSupercrusher | HealsOrganics | GTSImmune </Property_Flags>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<CategoryMask> VehicleHero | AntiInfantry | AntiVehicle </CategoryMask>
 		
 		<Abilities SubObjectList="Yes">
-			<Combat_Bonus_Ability Name="Rohn_Combat_Bonus">
+			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus"> <!-- Command_Tier_01 + Arrogant -->
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
-				<Excluded_Unit_Types/>
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>-0.10</Damage_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.10</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>-0.05</Movement_Speed_Bonus_Percentage>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			
-			<Retreat_Prevention_Ability Name="Rohn_Unyielding_Retreat_Prevention">
-				<!-- maybe it should be space only? -->
+			<Retreat_Prevention_Ability Name="Unyielding_Retreat_Prevention">
 				<Activation_Style>Combat_Automatic</Activation_Style>
 			</Retreat_Prevention_Ability>
+
+			<Battlefield_Modifier_Ability Name="Command_Tier_01_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Force_Healing_Ability Name="ATTE_Healing">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>150.0</Heal_Range>
+				<Heal_Amount> 3.0 </Heal_Amount>
+				<Heal_Percent> 0.0 </Heal_Percent>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.1, 1.2, 1.1</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
 		</Abilities>
 	</UniqueUnit>
 
