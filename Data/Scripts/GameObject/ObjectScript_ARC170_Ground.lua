@@ -13,7 +13,7 @@ function State_Init(message)
 	end
 
     if message == OnEnter then
-        Object.Play_Animation("Undeploy", false)
+        Object.Play_Animation("Undeploy", false, 0)
         ScriptExit()
     end
 
