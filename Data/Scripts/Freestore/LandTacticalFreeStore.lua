@@ -183,6 +183,8 @@ function Service_Heal(object, health_threshold)
     return true
 end
 
+-- FotR_Enhanced : Reimplement Infantry healing function
+
 ---Services units that contain a garrison
 ---@param object GameObject
 function Service_Garrison(object)
@@ -197,7 +199,7 @@ function Service_Garrison(object)
     end
 
     local garrison_needs_heals = false
-    garrison_healer = Find_Nearest(object, "HealsInfantry", PlayerObject, true)
+    garrison_healer = Find_Nearest(object, "HealsOrganics | HealsDroids", PlayerObject, true)
     garrison_capture = Find_Nearest(object, "IsRushTarget")
     local garrison_enemy = Find_Nearest(object, PlayerObject, false)
     local eject_before_destroyed = (object.Get_Hull() < 0.2)
