@@ -1,6 +1,7 @@
 require("PGStateMachine")
 require("PGSpawnUnits")
 UnitUtil = require("eawx-util/UnitUtil")
+require("eawx-util/FindNearestPlanet")
 
 
 function Definitions()
