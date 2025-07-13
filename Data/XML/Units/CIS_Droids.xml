@@ -3832,14 +3832,18 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
-	<!--
+	
 	<GroundInfantry Name="Combat_Tri">
 		<Text_ID>TEXT_UNIT_COMBAT_TRI</Text_ID>
+		<Tech_Level>6</Tech_Level>
 	</GroundInfantry>
 
 	<GroundCompany Name="Combata_Tri_Company">
-		
+		<Text_ID>TEXT_UNIT_COMBAT_TRI_COMPANY</Text_ID>
+		<Encyclopedia_Text>
+		  
+		</Encyclopedia_Text>
+		<Tech_Level>6</Tech_Level>
 	</GroundCompany>
-	-->
 
 </CIS_Droid_Units>

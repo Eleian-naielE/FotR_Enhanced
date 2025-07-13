@@ -547,9 +547,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>InfantryHero, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>VehicleHero, 30.0 </Fire_Inaccuracy_Distance>
 
 		<Fire_Category_Restrictions> Infantry </Fire_Category_Restrictions>
 	</HardPoint>
@@ -574,9 +576,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 
 	<HardPoint Name="HP_SPHAT_02">
@@ -599,9 +603,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 
 	</HardPoint>
 
@@ -625,9 +631,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 
 	</HardPoint>
 
@@ -651,9 +659,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 
 	</HardPoint>
 
@@ -677,9 +687,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 
 	</HardPoint>
 
@@ -703,9 +715,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 
 	</HardPoint>
 
@@ -729,9 +743,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 
 	</HardPoint>
 
@@ -755,9 +771,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 
 	</HardPoint>
 
@@ -781,9 +799,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 
 	</HardPoint>
 
@@ -807,9 +827,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 
 	</HardPoint>
 
@@ -838,9 +860,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 	
 	<HardPoint Name="HP_A6_Prototype_Left_Dual">
@@ -866,9 +890,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 		<!-- AA Accurate -->
     </HardPoint>
 	
@@ -932,9 +958,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> LandHero, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 30.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 	
 	<HardPoint Name="HP_A6_Prototype_Missile_2">
@@ -961,9 +989,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> LandHero, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 30.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
 	<HardPoint Name="HP_A6_Prototype_Top_Turret">
@@ -1008,9 +1038,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> LandHero, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 30.0 </Fire_Inaccuracy_Distance>
 		<!-- AA Accurate -->
 	</HardPoint>
 	
@@ -1056,9 +1088,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 		<!-- AA Accurate -->
 	</HardPoint>
 
@@ -1085,9 +1119,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> LandHero, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 25.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
 	<HardPoint Name="HP_ARC_170_Ground_01">
@@ -1110,9 +1146,10 @@
 		
 		<Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> LandHero, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 20.0 </Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 25.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 
 	<!-- <HardPoint Name="HP_ARC_170_Ground_02">
@@ -1187,9 +1224,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> LandHero, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 30.0 </Fire_Inaccuracy_Distance>
 	</HardPoint> -->
 
 	<HardPoint Name="HP_Padme_Blaster">
@@ -1214,9 +1253,11 @@
 
 		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 60.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 60.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 60.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		Fire_Inaccuracy_Distance> VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 
 	</HardPoint>
 </HardPoints>
