@@ -1,7 +1,7 @@
 <HardPoints>
 <!-- Space -->
 	<!--CIS Frigate/Umbaran Frigate-->
-    
+    <!--
     <HardPoint Name="HP_CIS_Frigate_TBL01">
      	<Type> HARD_POINT_WEAPON_LASER </Type>
      	<Is_Targetable>Yes</Is_Targetable>
@@ -96,7 +96,7 @@
         <Attachment_Bone>HP_TL03</Attachment_Bone>
         <Collision_Mesh>HP_TL03</Collision_Mesh>
         <Damage_Decal></Damage_Decal>
-        <!--<Damage_Particles>HP_TL03_EMITDAMAGE</Damage_Particles>-->
+        <Damage_Particles>HP_TL03_EMITDAMAGE</Damage_Particles>
         <Fire_Bone_A>HP_TL03</Fire_Bone_A>
     	<Fire_Bone_B>HP_TL03</Fire_Bone_B>
        	<Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -176,7 +176,7 @@
         <Attachment_Bone>HP_LC01</Attachment_Bone>
         <Collision_Mesh>HP_LC01</Collision_Mesh>
         <Damage_Decal></Damage_Decal>
-        <!--<Damage_Particles>HP_LC01_EMITDAMAGE</Damage_Particles>-->
+        <Damage_Particles>HP_LC01_EMITDAMAGE</Damage_Particles>
 
 		<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
@@ -262,7 +262,7 @@
         <Attachment_Bone>HP_LC03</Attachment_Bone>
         <Collision_Mesh>HP_LC03</Collision_Mesh>
         <Damage_Decal></Damage_Decal>
-        <!--<Damage_Particles>HP_LC01_EMITDAMAGE</Damage_Particles>-->
+        <Damage_Particles>HP_LC01_EMITDAMAGE</Damage_Particles>
 
 		<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
@@ -349,7 +349,7 @@
         <Attachment_Bone>HP_IC01</Attachment_Bone>
         <Collision_Mesh>HP_IC01</Collision_Mesh>
         <Damage_Decal></Damage_Decal>
-        <!--<Damage_Particles>HP_IC01_EMITDAMAGE</Damage_Particles>-->
+        <Damage_Particles>HP_IC01_EMITDAMAGE</Damage_Particles>
 
 		<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
@@ -434,7 +434,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
         <Model_To_Attach></Model_To_Attach>
-        <Attachment_Bone>HP_ENGINE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+        <Attachment_Bone>HP_ENGINE</Attachment_Bone> This is an attachment bone for the HUD reticle centering, even though no model is attached
         <Collision_Mesh>HP_ENGINE</Collision_Mesh>
         <Damage_Decal />
         <Damage_Particles>HP_ENGINE_EMITDAMAGE</Damage_Particles>
@@ -450,15 +450,16 @@
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
-
+	-->
     <!-- Umbaran_Fighter -->
-    <HardPoint Name="HP_Umbaran_Fighter_01">
+    <!--
+	<HardPoint Name="HP_Umbaran_Fighter_01">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
             <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+			<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Fighter_Laser_Cannon_Green_Heavy</Fire_Projectile_Type>
@@ -492,9 +493,9 @@
 
             <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
             <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
-            <Fire_Cone_Width>30.0</Fire_Cone_Width> <!-- was 20 -->
+            <Fire_Cone_Width>30.0</Fire_Cone_Width>
             <Fire_Cone_Height>30.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Concussion_Missile_Fighter</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -514,14 +515,16 @@
 
  			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 			<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+
+			<Fire_Category_Restrictions> Corvette, Frigate, Capital, SuperCapital </Fire_Category_Restrictions>
    
     </HardPoint>
-
+	-->
 <!-- Ground -->
 
     <!-- SPHA-T -->
-    
-	<HardPoint Name="HP_SPHAT_Main"> <!-- Change Projectile? -->
+    <!--
+	<HardPoint Name="HP_SPHAT_Main">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -852,9 +855,9 @@
 		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 
 	</HardPoint>
-
+	-->
 	<!-- A6 Prototype -->
-
+	<!--
 	<HardPoint Name="HP_A6_Prototype_Right_Dual">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -913,7 +916,7 @@
 		<Fire_Inaccuracy_Distance> Structure, 2.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
-		<!-- AA Accurate -->
+		AA Accurate
     </HardPoint>
 	
 	<HardPoint Name="HP_A6_Prototype_Right_Front_Dummy">
@@ -1061,7 +1064,7 @@
 		<Fire_Inaccuracy_Distance> Structure, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> InfantryHero, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> VehicleHero, 30.0 </Fire_Inaccuracy_Distance>
-		<!-- AA Accurate -->
+		AA Accurate
 	</HardPoint>
 	
 	<HardPoint Name="HP_A6_Prototype_Rear_Turret">
@@ -1111,9 +1114,9 @@
 		<Fire_Inaccuracy_Distance>Structure, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
-		<!-- AA Accurate -->
+		AA Accurate
 	</HardPoint>
-
+	-->
 	<!-- ARC-170 Ground -->
 
 	<HardPoint Name="HP_ARC_170_Ground_00">
@@ -1166,7 +1169,7 @@
 		<Fire_Inaccuracy_Distance> Vehicle, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> AirSpeeder, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> AirGunship, 20.0 </Fire_Inaccuracy_Distance> 
-		<Fire_Inaccuracy_Distance>Structure, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> InfantryHero, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> VehicleHero, 25.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
@@ -1250,7 +1253,7 @@
 		<Fire_Inaccuracy_Distance> VehicleHero, 30.0 </Fire_Inaccuracy_Distance>
 	</HardPoint> -->
 
-	<HardPoint Name="HP_Padme_Blaster">
+	<!--<HardPoint Name="HP_Padme_Blaster">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -1278,5 +1281,5 @@
 		<Fire_Inaccuracy_Distance> InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 
-	</HardPoint>
+	</HardPoint>-->
 </HardPoints>

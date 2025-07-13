@@ -4047,7 +4047,7 @@
 		<!-- End -->
 
 		<!-- Property -->
-		<CategoryMask> Air | AntiVehicle </CategoryMask>
+		<CategoryMask> AirSpeeder | AntiVehicle </CategoryMask>
 		<LandBehavior>
 			ABILITY_COUNTDOWN, IDLE, FLYING_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, HUNT, 
 			POWERED, AMBIENT_SFX, UNIT_AI, TARGETING, STUNNABLE, WIND_DISTURBANCE, SHIELDED, DAMAGE_TRACKING
@@ -4316,7 +4316,7 @@
 		<Required_Planets/>
 		<Formation_Prority>1</Formation_Prority>
 
-		<Company_Units>Generic_ARC170_Ground, Generic_ARC170_Ground</Company_Units>
+		<Company_Units>ARC170_Ground, ARC170_Ground</Company_Units>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
