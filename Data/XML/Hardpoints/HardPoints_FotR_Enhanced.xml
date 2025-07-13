@@ -1147,7 +1147,8 @@
 		<Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> AirSpeeder, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> AirGunship, 20.0 </Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 20.0 </Fire_Inaccuracy_Distance> 
+		<Fire_Inaccuracy_Distance>Structure, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> InfantryHero, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> VehicleHero, 25.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
