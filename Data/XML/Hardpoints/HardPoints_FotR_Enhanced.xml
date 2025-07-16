@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='us-ascii'?>
 <HardPoints>
 <!-- Space -->
 	<!--CIS Frigate/Umbaran Frigate-->
@@ -523,7 +524,7 @@
 <!-- Ground -->
 
     <!-- SPHA-T -->
-    <!--
+    
 	<HardPoint Name="HP_SPHAT_Main">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -855,9 +856,9 @@
 		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 
 	</HardPoint>
-	-->
+	
 	<!-- A6 Prototype -->
-	<!--
+
 	<HardPoint Name="HP_A6_Prototype_Right_Dual">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -916,7 +917,7 @@
 		<Fire_Inaccuracy_Distance> Structure, 2.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
-		AA Accurate
+		<!-- AA Accurate -->
     </HardPoint>
 	
 	<HardPoint Name="HP_A6_Prototype_Right_Front_Dummy">
@@ -1064,7 +1065,7 @@
 		<Fire_Inaccuracy_Distance> Structure, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> InfantryHero, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> VehicleHero, 30.0 </Fire_Inaccuracy_Distance>
-		AA Accurate
+		<!-- AA Accurate -->
 	</HardPoint>
 	
 	<HardPoint Name="HP_A6_Prototype_Rear_Turret">
@@ -1114,9 +1115,9 @@
 		<Fire_Inaccuracy_Distance>Structure, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
-		AA Accurate
+		<!-- AA Accurate -->
 	</HardPoint>
-	-->
+	
 	<!-- ARC-170 Ground -->
 
 	<HardPoint Name="HP_ARC_170_Ground_00">
