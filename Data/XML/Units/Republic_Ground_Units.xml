@@ -3918,7 +3918,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
 				<Applicable_Unit_Types/>
 				<Excluded_Unit_Types>Romodi_A5_Juggernaut, MPTL_Spotter, Veers_AT_AT_Walker, Carvin, Melvar_Juggernaut, </Excluded_Unit_Types>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
@@ -4283,7 +4283,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>yes</Is_Escort>
 
-		<!--<GUI_Row> 0 </GUI_Row>-->
+		<GUI_Row> 0 </GUI_Row>
 		<Build_Cost_Credits>900</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
