@@ -95,7 +95,6 @@ New Clone Commanders ;
 	Rancor Battalion, Commander Fil, Commander Trauma, Commander Doom, Captain Keely, Commander Ganch, 
 	Captain Sharp, Commander Fox(As Republic Capital Garrison Hero), Commander Thorn
 More Detailed Anakin Unit(?)
-Operation Knightfall Story Mission(Officially Planned)
 Christoposis Story Mission,
 Dedicated TCW Historical Campaign
 More Scenarios For GC ; Sideous Choosing CIS as his Empire ; through TR Dark empire function
@@ -103,12 +102,6 @@ More Scenarios For GC ; Sideous Choosing CIS as his Empire ; through TR Dark emp
 
 
 <Reconsidering Plans>
-
-# Add Paratrooper(Wait til official model release?)
-- Learn basic infantry code structure
-- Copy Files from MCA Submod - (Done)
-- XML Code
-- Movie Clones Voicevoer
 
 # Early ATAT(Reconsider)
 
