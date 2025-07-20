@@ -4222,7 +4222,7 @@
 		
 		<Stationary_Space_Layer> Land </Stationary_Space_Layer>
 		<PathFrameDelay> 4 </PathFrameDelay>
-		<Hover_Offset>100.0</Hover_Offset>
+		<Hover_Offset>150.0</Hover_Offset>
 		<Prepare_Strafe_Height>100.0</Prepare_Strafe_Height>
 		<MaxFacingLookAheadFrames>5.0</MaxFacingLookAheadFrames>
 		<Should_Cause_Limited_Turrets_To_Turn> false </Should_Cause_Limited_Turrets_To_Turn>
