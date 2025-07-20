@@ -13325,7 +13325,7 @@
 
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> InfantryHero </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 		<MovementClass>LightHover</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
@@ -13413,7 +13413,7 @@
 				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<!-- We can block/redirect shots from the following units types: -->
-				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, <!-- Pirate_Soldier - Not coded --> </Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>

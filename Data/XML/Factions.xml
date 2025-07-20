@@ -716,7 +716,9 @@
 			Block_Negotiator,
 			Block_Vigilance,
 			Yularen_Resolute_SPHAT,
-			Vader_Exactor,
+			Exactor_Vader,
+			Exactor_Anakin_Darkside,
+			Venator_SPHA_T,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Blue </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>

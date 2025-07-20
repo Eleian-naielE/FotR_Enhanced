@@ -3918,9 +3918,13 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
+<<<<<<< HEAD
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
+=======
 				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+>>>>>>> branch 'Dev_Main' of https://github.com/Eleian-naielE/FotR_Enhanced.git
 				<Applicable_Unit_Types/>
-				<Excluded_Unit_Types>Romodi_A5_Juggernaut, MPTL_Spotter, Veers_AT_AT_Walker, Carvin, Melvar_Juggernaut, </Excluded_Unit_Types>
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>

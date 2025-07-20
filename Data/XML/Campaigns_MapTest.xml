@@ -97,18 +97,19 @@
 		<Starting_Forces> Empire, Coruscant, Oppo_Rancisis_Team </Starting_Forces>
 	
 
-		<Starting_Forces> Empire, Coruscant, Generic_ARC170_Ground_Company </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, ARC170_Ground_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_LAAT_Group </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_Flashblind_Group </Starting_Forces>
 
 		<Starting_Forces> Empire, Coruscant, Republic_A6_Prototype_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_A6_Juggernaut_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_A5_Juggernaut_Company </Starting_Forces>
+		<Starting_Forces>Empire, Coruscant, SPHA_T_Company</Starting_Forces>
 		
 		<Starting_Forces> Empire, Coruscant, Wolffe_Team </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Wolffe2_Team </Starting_Forces>
 
-		<Starting_Forces> Empire, Coruscant, Generic_Venator_SPHA_T </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Venator_SPHA_T </Starting_Forces>
 
 		<!--
 		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_2 </Starting_Forces>

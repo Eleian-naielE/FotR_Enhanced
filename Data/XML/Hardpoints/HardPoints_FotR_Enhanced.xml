@@ -2,7 +2,7 @@
 <HardPoints>
 <!-- Space -->
 	<!--CIS Frigate/Umbaran Frigate-->
-    <!--
+    
     <HardPoint Name="HP_CIS_Frigate_TBL01">
      	<Type> HARD_POINT_WEAPON_LASER </Type>
      	<Is_Targetable>Yes</Is_Targetable>
@@ -451,7 +451,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
-	-->
+
     <!-- Umbaran_Fighter -->
     <!--
 	<HardPoint Name="HP_Umbaran_Fighter_01">

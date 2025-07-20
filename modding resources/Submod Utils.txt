@@ -22,12 +22,6 @@ ARC170 Ground fix (
 		4. rescaling(bit small)
 	)
 
-Yularen still respawning in integrity death(base mod behavior)
-
-Wolfpack icon not visible enough
-
-Bythen Forral Order 65 options bug : multimedia 
-
 Royal Guards fix(
 	issues
 	2. health bar length(probably due to it being a minorhero?)
