@@ -3918,7 +3918,11 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
+<<<<<<< HEAD
 				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
+=======
+				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+>>>>>>> branch 'Dev_Main' of https://github.com/Eleian-naielE/FotR_Enhanced.git
 				<Applicable_Unit_Types/>
 				<Excluded_Unit_Types> </Excluded_Unit_Types>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
@@ -4283,7 +4287,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>yes</Is_Escort>
 
-		<!--<GUI_Row> 0 </GUI_Row>-->
+		<GUI_Row> 0 </GUI_Row>
 		<Build_Cost_Credits>900</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
@@ -4305,7 +4309,7 @@
 
 		<Create_Team_Type/>
 		<Max_Squad_Size>1</Max_Squad_Size>
-		<Company_Transport_Unit>CR25_Landing_Craft_Heavy</Company_Transport_Unit>
+		<Company_Transport_Unit>CR25_Landing_Craft_Heavy_Fighter_Ground</Company_Transport_Unit>
 
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
