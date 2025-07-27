@@ -5,5 +5,5 @@ return {
 			DEFAULT = {Initial = 1, Reserve = 1}
 		}		
 	}, 
-	Scripts = {"multilayer"}
+	Scripts = {"fighter-spawn", "multilayer"}
 }
