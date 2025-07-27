@@ -1,0 +1,2762 @@
+<?xml version='1.0' encoding='ASCII'?>
+<Templates_Ground>
+
+	<GroundInfantry Name="Hutt_Guard_Rifle">
+
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_RIFLEMAN</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_GUARD.tga</Icon_Name>
+
+		<Land_Model_Name>Hutt_HuttGuard.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name> Regularinfantry.alo </Land_Model_Anim_Override_Name>
+		<No_Colorization_Color/>
+		<Land_Terrain_Model_Mapping>
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name/>
+		<Scale_Factor>1.1</Scale_Factor>
+		<Select_Box_Scale>12</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>10</Size_Value>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .40 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>0.9</Max_Speed>
+		<OverrideAcceleration> 0.9 </OverrideAcceleration>
+		<OverrideDeceleration> 0.9 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Infantry </Armor_Type>
+		<Tactical_Health>17</Tactical_Health>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+
+		<Damage>0.6</Damage>
+		<AI_Combat_Power>3</AI_Combat_Power>
+		<Affiliation/>
+		<Political_Control>0</Political_Control>
+
+		<Type>Walk</Type>
+		<CategoryMask> Organic | Infantry | AntiInfantry</CategoryMask>
+		<Weather_Category>Infantry</Weather_Category>
+		<Deploys>No</Deploys>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Create_Team>Yes</Create_Team>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior>SELECTABLE, LANDING, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DEMOLITION</LandBehavior>
+
+		<HardPoints>HP_Hutt_Weequay_Rifle_Hand</HardPoints>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Target_Bones>B_Chest</Target_Bones>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
+		<!-- Bone and adjust for army trooper rig -->
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.25f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<!-- Normal red blood for human-ish -->
+		<Death_Explosions>Organic_Infantry_Blood, Organic_Infantry_Blood_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Explosion</Death_Clone>
+
+		<Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_01</Death_Clone>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select>Unit_Select_Hutt_Guard</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Guard</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Guard</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Guard</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Hutt_Guard </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Hutt_Guard </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Guard</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Death_Hutt_Guard</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<MovementClass> Infantry </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<CanCellStack>yes</CanCellStack>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationSpacing> .3 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Sensor_Range>20</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>250</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>false</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Turret_Rotate_Extent_Degrees>30.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>30.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>MuzzleA_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>MuzzleA_00</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>9000.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		<Turret_Targets_Ground_Vehicles>2</Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry>1</Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles>3</Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else>3</Turret_Targets_Anything_Else>
+		<Influences_Capture_Point>True</Influences_Capture_Point>
+
+		<Property_Flags>Fodder</Property_Flags>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Hutt_Guard</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Hutt_Guard_Rifle_Grenadier">
+		<Variant_Of_Existing_Type>Hutt_Guard_Rifle</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_RIFLEMAN_GRENADIER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP1
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<AI_Combat_Power>4</AI_Combat_Power>
+		<Land_Model_Name>Hutt_HuttGuard_Vodran.ALO</Land_Model_Name>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>Proj_Light_Thermal_Grenade_Infantry</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Grenadier</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Hutt_Guard_Rifle_Leader">
+		<Variant_Of_Existing_Type>Hutt_Guard_Rifle</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_RIFLEMAN_LEADER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD_LEADER_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Tactical_Health> 20 </Tactical_Health>
+		<Land_Model_Name>Hutt_HuttGuard_Vodran.ALO</Land_Model_Name>
+
+		<HardPoints>HP_Hutt_Weequay_Rifle_Hand_Skilled</HardPoints>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Hutt_Guard_HAT">
+		<Variant_Of_Existing_Type>Hutt_Guard_Rifle</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_AT_HEAVY</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>Hutt_HuttGuard_Klatooinian.ALO</Land_Model_Name>
+		<!-- needs rocket trooper rig -->
+
+		<HardPoints>HP_HH15_Hand</HardPoints>
+		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+
+		<CategoryMask> Organic | Infantry | AntiVehicle</CategoryMask>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
+		
+		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Hutt_Guard_Carbine">
+		<Variant_Of_Existing_Type>Hutt_Guard_Rifle</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_CARBINER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>Hutt_HuttGuard_NoHelmet.ALO</Land_Model_Name>
+
+		<AI_Combat_Power>4</AI_Combat_Power>
+
+		<HardPoints>HP_9118_Carbine_Hand</HardPoints>
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Hutt_Guard_Carbine_Grenadier">
+		<Variant_Of_Existing_Type>Hutt_Guard_Carbine</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_CARBINER_GRENADIER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP2
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP6
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<AI_Combat_Power>4</AI_Combat_Power>
+		<Land_Model_Name>Hutt_HuttGuard_Vodran_NoHelmet.ALO</Land_Model_Name>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>Proj_Light_Sonic_Grenade_Infantry</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Grenadier</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Hutt_Guard_Carbine_Leader">
+		<Variant_Of_Existing_Type>Hutt_Guard_Carbine</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_CARBINER_LEADER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD_LEADER_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<AI_Combat_Power>4</AI_Combat_Power>
+		<Land_Model_Name>Hutt_HuttGuard_Vodran_NoHelmet.ALO</Land_Model_Name>
+
+		<HardPoints>HP_9118_Carbine_Hand_Skilled</HardPoints>
+
+		<Tactical_Health> 20 </Tactical_Health>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Hutt_Guard_Gunner_Light">
+		<Variant_Of_Existing_Type>Hutt_Guard_Carbine</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_GUNNER_LIGHT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<AI_Combat_Power>5</AI_Combat_Power>
+
+		<Land_Model_Name>Hutt_HuttGuard_Klatooinian.ALO</Land_Model_Name>
+
+		<HardPoints> HP_DLT_20A_LMG_Hand </HardPoints>
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Gunner</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Hutt_Guard_Squad_Leader">
+		<Variant_Of_Existing_Type>Hutt_Guard_Carbine_Leader</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_LEADER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_UNIT_LEADER_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Tactical_Health>23</Tactical_Health>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_LT</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Hutt_Guard_Medic">
+		<Variant_Of_Existing_Type>Hutt_Guard_Rifle</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_MEDIC</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_GUARD_SUPPORT.TGA</Icon_Name>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
+
+		<Property_Flags>HealsOrganics | HealsDroids | HealsVehicles</Property_Flags>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Medic_Healing">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>100.0</Heal_Range>
+				<Heal_Amount>5.0</Heal_Amount>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Heal_Support_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Infantry, InfantryHero, Vehicle, VehicleHero, AirGunship, AirSpeeder</Applicable_Unit_Categories>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+
+	</GroundInfantry>
+
+	<GroundInfantry Name="Hutt_Guard_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>Hutt_HuttGuard.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Regularinfantry.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_HUTT_GUARD.tga</Icon_Name>
+		<AI_Combat_Power>156.95</AI_Combat_Power>
+		<Affiliation>Hutt_Cartels, Independent_Forces, Hostile</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundCompany Name="Hutt_Guard_Company">
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_PLATOON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_COMPANY
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_COMPANY_WEAP1
+		TEXT_TOOLTIP_HUTT_GUARD_COMPANY_WEAP2
+		TEXT_TOOLTIP_HUTT_GUARD_COMPANY_WEAP3
+		TEXT_TOOLTIP_HUTT_GUARD_COMPANY_WEAP4
+		TEXT_TOOLTIP_HUTT_GUARD_COMPANY_WEAP5
+		TEXT_TOOLTIP_HUTT_GUARD_COMPANY_WEAP6
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_GUARD.tga</Icon_Name>
+
+		<Damage>18</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>210</Build_Cost_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>H_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels, Independent_Forces, Hostile</Affiliation>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> Hutt_Guard_Company_Dummy </Company_Units>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Hutt_Guard</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Guard</SFXEvent_Fleet_Move>
+		
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<Tactical_Build_Cost_Multiplayer>165</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</GroundCompany>
+
+	<GroundCompany Name="Hutt_Guard_Main_Squad">
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_ASSAULT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD2_WEAP1
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD2_WEAP2
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD2_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_GUARD_ASSAULT.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> Hutt_Guard_Assault_Container </Create_Team_Type>
+		<Max_Squad_Size> 8 </Max_Squad_Size>
+		<Company_Units> Hutt_Guard_Carbine, Hutt_Guard_Carbine, Hutt_Guard_Gunner_Light, Hutt_Guard_Carbine, Hutt_Guard_Carbine_Grenadier, Hutt_Guard_Carbine, Hutt_Guard_Carbine, Hutt_Guard_Squad_Leader </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Hutt_Guard_Assault_Squad">
+		<Variant_Of_Existing_Type>Hutt_Guard_Main_Squad</Variant_Of_Existing_Type>
+
+		<Company_Units> Hutt_Guard_Carbine, Hutt_Guard_Carbine, Hutt_Guard_Gunner_Light, Hutt_Guard_Carbine, Hutt_Guard_Carbine_Grenadier, Hutt_Guard_Carbine, Hutt_Guard_Carbine, Hutt_Guard_Carbine_Leader </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Hutt_Guard_Heavy_Squad">
+		<Variant_Of_Existing_Type>Hutt_Guard_Main_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_HEAVY_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD1_WEAP1
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD1_WEAP2
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD1_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_GUARD_HEAVY.tga</Icon_Name>
+
+		<Create_Team_Type> Hutt_Guard_Heavy_Container </Create_Team_Type>
+		<Company_Units> Hutt_Guard_Rifle, Hutt_Guard_Rifle, Hutt_Guard_HAT, Hutt_Guard_Rifle, Hutt_Guard_Rifle_Grenadier, Hutt_Guard_Rifle, Hutt_Guard_Rifle, Hutt_Guard_Rifle_Leader </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Hutt_Guard_Medic_Squad">
+		<Variant_Of_Existing_Type>Hutt_Guard_Main_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_MEDIC_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD3_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_GUARD_SUPPORT.tga</Icon_Name>
+		
+		<Create_Team_Type> Hutt_Guard_Medic_Container </Create_Team_Type>
+		<Company_Units> Hutt_Guard_Rifle, Hutt_Guard_Rifle, Hutt_Guard_Rifle, Hutt_Guard_Rifle, Hutt_Guard_Medic, Hutt_Guard_Rifle, Hutt_Guard_Rifle, Hutt_Guard_Rifle </Company_Units>
+	</GroundCompany>
+
+	<Container Name="Hutt_Guard_Heavy_Container">
+
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_HEAVY_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD1_WEAP1
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD1_WEAP2
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD1_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_GUARD_HEAVY.tga</Icon_Name>
+
+		<Select_Box_Scale>45</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed>0.9</Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 1 </FormationOrder>
+		<MovementPredictionInterval> 0.1 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Container Name="Hutt_Guard_Assault_Container">
+
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_ASSAULT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD2_WEAP1
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD2_WEAP2
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD2_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_GUARD_ASSAULT.tga</Icon_Name>
+
+		<Select_Box_Scale>45</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed>0.9</Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 1 </FormationOrder>
+		<MovementPredictionInterval> 0.1 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>275.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>275.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Container Name="Hutt_Guard_Medic_Container">
+
+		<Text_ID>TEXT_UNIT_HUTT_GUARD_MEDIC_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD
+		TEXT_TOOLTIP_HUTT_GUARD_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_SQUAD3_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_GUARD_SUPPORT.tga</Icon_Name>
+
+		<Select_Box_Scale>45</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed>0.9</Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 1 </FormationOrder>
+		<MovementPredictionInterval> 0.1 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+
+	<!-- Different stat blocks -->
+
+	<GroundInfantry Name="Gamorrean_Guard">
+
+		<Text_ID>TEXT_UNIT_GAMORREAN_GUARD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GAMORREAN_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GAMORREAN_GUARD_HEALTH
+		TEXT_TOOLTIP_GAMORREAN_GUARD_MOVE
+		TEXT_TOOLTIP_GAMORREAN_GUARD_WEAP1
+		TEXT_TOOLTIP_GAMORREAN_GUARD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MELEE_BLOCK
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GAMORREAN_GUARD.tga</Icon_Name>
+
+		<Land_Model_Name>Hutt_Gamorrean.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Land_Terrain_Model_Mapping>
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>12</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>10</Size_Value>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .40 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.0</Max_Speed>
+		<OverrideAcceleration> 1.0 </OverrideAcceleration>
+		<OverrideDeceleration> 1.0 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Infantry </Armor_Type>
+		<Tactical_Health>40</Tactical_Health>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+
+		<Damage>0.6</Damage>
+		<AI_Combat_Power>36</AI_Combat_Power>
+		<Affiliation/>
+		<Political_Control>0</Political_Control>
+
+		<Type>Walk</Type>
+		<CategoryMask> Organic | Infantry | AntiInfantry</CategoryMask>
+		<Weather_Category>Infantry</Weather_Category>
+		<Deploys>No</Deploys>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Create_Team>Yes</Create_Team>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, LANDING, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+
+		<HardPoints>HP_DL44_Pistol, HP_Gamorrean_LongAxe</HardPoints>
+
+		<!--<Locomotor_Has_Animation_Priority>yes</Locomotor_Has_Animation_Priority>
+		<Attack_Animation_Is_Overlay>yes</Attack_Animation_Is_Overlay>-->
+		<Projectile_Types> Proj_Attack_Animations </Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Category_Restrictions> Vehicle, VehicleHero, AirGunship, AirSpeeder, Structure </Fire_Category_Restrictions>
+
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Target_Bones>Pelvis, Chest</Target_Bones>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
+		<!-- Bone and adjust for army trooper rig -->
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.25f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<!-- Normal red blood for human-ish -->
+		<Death_Explosions>Organic_Infantry_Blood, Organic_Infantry_Blood_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Explosion</Death_Clone>
+
+		<Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_01</Death_Clone>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MASS_DRIVER, Null</SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Select>Unit_Select_Gamorrean</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Gamorrean</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gamorrean</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Gamorrean</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Gamorrean </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Gamorrean </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Gamorrean</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Death_Gamorrean</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<MovementClass> Infantry </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<CanCellStack>yes</CanCellStack>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationSpacing> .3 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Sensor_Range>20</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>300</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>100.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantryNoAir</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>false</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>Pelvis</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>100</Energy_Capacity>
+		<Energy_Refresh_Rate>100</Energy_Refresh_Rate>
+		<Blob_Shadow_Bone_Name>Pelvis</Blob_Shadow_Bone_Name>
+		<Turret_Rotate_Extent_Degrees>30.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>30.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>MuzzleA_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>MuzzleA_00</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>9000.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		<Turret_Targets_Ground_Vehicles>2</Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry>1</Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles>3</Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else>3</Turret_Targets_Anything_Else>
+		<Influences_Capture_Point>True</Influences_Capture_Point>
+
+		<Property_Flags>Fodder</Property_Flags>
+		<Blob_Shadow_Bone_Name>Pelvis</Blob_Shadow_Bone_Name>
+
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Gamorrean</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+
+			<Redirect_Blaster_Ability Name="Gamorrean_Redirect_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+				<Redirect_Chance>0.00</Redirect_Chance>
+				<Block_Chance>0.50</Block_Chance>
+				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories> Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+
+		</Abilities>
+
+	</GroundInfantry>
+
+	<GroundInfantry Name="Gamorrean_Guard_Leader">
+		<Variant_Of_Existing_Type>Gamorrean_Guard</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_GAMORREAN_GUARD_LEADER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GAMORREAN_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GAMORREAN_GUARD_HEALTH
+		TEXT_TOOLTIP_GAMORREAN_GUARD_MOVE
+		TEXT_TOOLTIP_GAMORREAN_GUARD_WEAP1
+		TEXT_TOOLTIP_GAMORREAN_GUARD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MELEE_BLOCK
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Tactical_Health> 40 </Tactical_Health>
+		<AI_Combat_Power>36</AI_Combat_Power>
+		 
+		 <Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
+
+	</GroundInfantry>
+
+	<GroundInfantry Name="Gamorrean_Guard_Staff">
+		<Variant_Of_Existing_Type>Gamorrean_Guard</Variant_Of_Existing_Type>
+
+		<HardPoints>HP_DL44_Pistol, HP_Gamorrean_Staff</HardPoints>
+
+	</GroundInfantry>
+
+	<GroundInfantry Name="Gamorrean_Guard_ShortAxe">
+		<Variant_Of_Existing_Type>Gamorrean_Guard</Variant_Of_Existing_Type>
+
+		<HardPoints>HP_DL44_Pistol, HP_Gamorrean_ShortAxe</HardPoints>
+
+	</GroundInfantry>
+
+	<GroundInfantry Name="Gamorrean_Guard_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>Hutt_Gamorrean.ALO</Land_Model_Name>
+		<Icon_Name>I_BUTTON_GAMORREAN_GUARD.tga</Icon_Name>
+		<AI_Combat_Power>863.07</AI_Combat_Power>
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundCompany Name="Gamorrean_Guard_Company">
+
+		<Text_ID>TEXT_UNIT_GAMORREAN_GUARD_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GAMORREAN_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GAMORREAN_GUARD_COMPANY
+		TEXT_TOOLTIP_GAMORREAN_GUARD_SQUAD
+		TEXT_TOOLTIP_GAMORREAN_GUARD_HEALTH
+		TEXT_TOOLTIP_GAMORREAN_GUARD_MOVE
+		TEXT_TOOLTIP_GAMORREAN_GUARD_COMPANY_WEAP1
+		TEXT_TOOLTIP_GAMORREAN_GUARD_COMPANY_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MELEE_BLOCK
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GAMORREAN_GUARD.tga</Icon_Name>
+
+		<Damage>18</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures/>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> Gamorrean_Guard_Company_Dummy </Company_Units>
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Troops</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Gamorrean</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gamorrean</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+		
+		<Tactical_Build_Cost_Multiplayer>1060</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</GroundCompany>
+
+	<GroundCompany Name="Gamorrean_Guard_Squad">
+		<Text_ID>TEXT_UNIT_GAMORREAN_GUARD_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_GAMORREAN_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GAMORREAN_GUARD_SQUAD
+		TEXT_TOOLTIP_GAMORREAN_GUARD_HEALTH
+		TEXT_TOOLTIP_GAMORREAN_GUARD_MOVE
+		TEXT_TOOLTIP_GAMORREAN_GUARD_SQUAD_WEAP1
+		TEXT_TOOLTIP_GAMORREAN_GUARD_SQUAD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MELEE_BLOCK
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GAMORREAN_GUARD.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> Gamorrean_Guard_Container </Create_Team_Type>
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Company_Units> Gamorrean_Guard, Gamorrean_Guard_Staff, Gamorrean_Guard_Staff, Gamorrean_Guard_ShortAxe, Gamorrean_Guard_ShortAxe, Gamorrean_Guard_Leader</Company_Units>
+	</GroundCompany>
+
+	<Container Name="Gamorrean_Guard_Container">
+
+		<Text_ID>TEXT_UNIT_GAMORREAN_GUARD_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GAMORREAN_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GAMORREAN_GUARD_SQUAD
+		TEXT_TOOLTIP_GAMORREAN_GUARD_HEALTH
+		TEXT_TOOLTIP_GAMORREAN_GUARD_MOVE
+		TEXT_TOOLTIP_GAMORREAN_GUARD_SQUAD_WEAP1
+		TEXT_TOOLTIP_GAMORREAN_GUARD_SQUAD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MELEE_BLOCK
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GAMORREAN_GUARD.tga</Icon_Name>
+
+		<Select_Box_Scale>45</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.0 </Max_Speed>
+		<OverrideAcceleration>1.0</OverrideAcceleration>
+		<OverrideDeceleration>1.0</OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR,TEAM_TARGETING,GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 0.1 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>100.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+
+	<GroundInfantry Name="GuardianCorps">
+
+		<Text_ID>TEXT_UNIT_GUARDIANCORPS</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_GUARDIANCORPS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GUARDIANCORPS_HEALTH
+		TEXT_TOOLTIP_GUARDIANCORPS_MOVE
+		TEXT_TOOLTIP_GUARDIANCORPS_WEAP1 
+		TEXT_TOOLTIP_GUARDIANCORPS_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GUARDIAN_CORPS.tga</Icon_Name>
+
+		<Land_Model_Name>Hutt_GuardianCorps.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Land_Terrain_Model_Mapping>
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>12</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>10</Size_Value>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 0.75 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> 1.0 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .50 </Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>0.9</Max_Speed>
+		<OverrideAcceleration> .9 </OverrideAcceleration>
+		<OverrideDeceleration> .9 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Droid </Armor_Type>
+		<Tactical_Health>28</Tactical_Health>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+
+		<Damage>1</Damage>
+		<AI_Combat_Power>7</AI_Combat_Power>
+		<Affiliation/>
+
+		<Type>Walk</Type>
+		<CategoryMask> Droid | Infantry | AntiInfantry </CategoryMask>
+		<Weather_Category>Infantry</Weather_Category>
+		<Deploys>no</Deploys>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Create_Team>Yes</Create_Team>
+
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+
+		<HardPoints> HP_GuardianCorps_PulseWave, HP_GuardianCorps_HeatBeam	</HardPoints>
+
+		<Garrison_Category>Infantry</Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Target_Bones> Body </Target_Bones>
+		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
+		<!-- Z Adjust for droids with current rig -->
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.25f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<SFXEvent_Tactical_Build_Started>EHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete>EHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled>EHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select>Unit_Select_Dark_Trooper_2</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Dark_Trooper_2</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Dark_Trooper_2</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Dark_Trooper_2</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Dark_Trooper_2</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Dark_Trooper_2 </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Dark_Trooper_2 </SFXEvent_Assist_Attack>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<MovementClass> Infantry </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<CanCellStack>yes</CanCellStack>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationSpacing> 0.5 </FormationSpacing>
+		<FormationOrder> 1 </FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Sensor_Range>20</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>150.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantryStructure</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>false</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>Body</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+
+		<LOD_Bias>5</LOD_Bias>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
+		<SFXEvent_Fire>Unit_Underworld_Infantry_Fire</SFXEvent_Fire>
+	</GroundInfantry>
+
+	<GroundInfantry Name="GuardianCorps_Commander">
+		<Variant_Of_Existing_Type>GuardianCorps</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_GUARDIANCORPS_COMMANDER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_GUARDIANCORPS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GUARDIANCORPS_COMMANDER_HEALTH
+		TEXT_TOOLTIP_GUARDIANCORPS_MOVE
+		TEXT_TOOLTIP_GUARDIANCORPS_WEAP1 
+		TEXT_TOOLTIP_GUARDIANCORPS_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>Hutt_GuardianCorps_Commander.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Hutt_GuardianCorps.alo</Land_Model_Anim_Override_Name>
+
+		<Tactical_Health> 30 </Tactical_Health>
+		<AI_Combat_Power>7</AI_Combat_Power>
+		 
+		 <Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
+
+	</GroundInfantry>
+
+	<GroundCompany Name="Hutt_GuardianCorps_Squad">
+		<Text_ID>TEXT_UNIT_GUARDIANCORPS_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_GUARDIANCORPS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GUARDIANCORPS_SQUAD
+		TEXT_TOOLTIP_GUARDIANCORPS_HEALTH
+		TEXT_TOOLTIP_GUARDIANCORPS_MOVE
+		TEXT_TOOLTIP_GUARDIANCORPS_SQUAD_WEAP1 
+		TEXT_TOOLTIP_GUARDIANCORPS_SQUAD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GUARDIAN_CORPS.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> GuardianCorps_Container </Create_Team_Type>
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Company_Units>GuardianCorps, GuardianCorps, GuardianCorps, GuardianCorps, GuardianCorps, GuardianCorps_Commander</Company_Units>
+	</GroundCompany>
+
+	<Container Name="GuardianCorps_Container">
+		<Text_ID>TEXT_UNIT_GUARDIANCORPS_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GUARDIANCORPS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GUARDIANCORPS_SQUAD
+		TEXT_TOOLTIP_GUARDIANCORPS_HEALTH
+		TEXT_TOOLTIP_GUARDIANCORPS_MOVE
+		TEXT_TOOLTIP_GUARDIANCORPS_SQUAD_WEAP1 
+		TEXT_TOOLTIP_GUARDIANCORPS_SQUAD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GUARDIAN_CORPS.tga</Icon_Name>
+
+		<Show_Name>No</Show_Name>
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Max_Speed> 0.9 </Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> 0.5 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementClass> Infantry </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Is_Squashable> true </Is_Squashable>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+		<ContainerArrangement> Rows </ContainerArrangement>
+		<OverrideAcceleration> .08 </OverrideAcceleration>
+		<OverrideDeceleration> .08 </OverrideDeceleration>
+
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>250.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+			<Select_Box_Scale>55</Select_Box_Scale>
+			<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<CategoryMask>Droid | Infantry | AntiInfantry</CategoryMask>
+	</Container>
+
+
+	<GroundInfantry Name="Crimson_Condottiere">
+		<Variant_Of_Existing_Type>GuardianCorps</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CRIMSON_CONDOTTIERE</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_HEALTH
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_MOVE
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_WEAP1 
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_FORCE_DYNAMO
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_CRIMSON_CONDOTTIERE.tga</Icon_Name>
+		<Land_Model_Name>Hutt_CrimsonCondottiere.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Hutt_GuardianCorps.alo</Land_Model_Anim_Override_Name>
+
+
+		<Tactical_Health> 29 </Tactical_Health>
+		<AI_Combat_Power>7</AI_Combat_Power>
+
+		<Movement_Animation_Speed> 0.75 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> 1.0 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .50 </Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.0</Max_Speed>
+		<OverrideAcceleration> 1.0 </OverrideAcceleration>
+		<OverrideDeceleration> 1.0 </OverrideDeceleration>
+
+		<Abilities SubObjectList="Yes">
+
+		   <Redirect_Blaster_Ability Name="Force_Dynamo_Redirect_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+				<Redirect_Chance>0.05</Redirect_Chance>
+				<Block_Chance>0.0</Block_Chance>
+				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories> Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+
+		</Abilities>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Crimson_Condottiere_Commander">
+		<Variant_Of_Existing_Type>Crimson_Condottiere</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CRIMSON_CONDOTTIERE_COMMANDER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_COMMANDER_HEALTH
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_MOVE
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_WEAP1 
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_FORCE_DYNAMO
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>Hutt_CrimsonCondottiere_Commander.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Hutt_GuardianCorps.alo</Land_Model_Anim_Override_Name>
+
+
+		<Tactical_Health> 31 </Tactical_Health>
+		<AI_Combat_Power>7</AI_Combat_Power>
+
+		 <Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
+
+	</GroundInfantry>
+
+	<GroundCompany Name="Hutt_Crimson_Condottiere_Squad">
+		<Text_ID>TEXT_UNIT_CRIMSON_CONDOTTIERE_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_SQUAD
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_HEALTH
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_MOVE
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_SQUAD_WEAP1 
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_SQUAD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_FORCE_DYNAMO
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_CRIMSON_CONDOTTIERE.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> Crimson_Condottiere_Container </Create_Team_Type>
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Company_Units>Crimson_Condottiere, Crimson_Condottiere, Crimson_Condottiere, Crimson_Condottiere, Crimson_Condottiere, Crimson_Condottiere_Commander</Company_Units>
+	</GroundCompany>
+
+	<Container Name="Crimson_Condottiere_Container">
+		<Text_ID>TEXT_UNIT_CRIMSON_CONDOTTIERE_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_SQUAD
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_HEALTH
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_MOVE
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_SQUAD_WEAP1 
+		TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_SQUAD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_FORCE_DYNAMO
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_CRIMSON_CONDOTTIERE.tga</Icon_Name>
+
+		<Show_Name>No</Show_Name>
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Max_Speed> 1.0</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> 0.5 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementClass> Infantry </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Is_Squashable> true </Is_Squashable>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+		<ContainerArrangement> Rows </ContainerArrangement>
+		<OverrideAcceleration> .08 </OverrideAcceleration>
+		<OverrideDeceleration> .08 </OverrideDeceleration>
+
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>250.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+			<Select_Box_Scale>55</Select_Box_Scale>
+			<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<CategoryMask>Droid | Infantry | AntiInfantry</CategoryMask>
+	</Container>
+
+
+	<GroundInfantry Name="GuardianCorps_Derelict">
+		<Variant_Of_Existing_Type>GuardianCorps</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_GUARDIANCORPS_DERELICT</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_GUARDIANCORPS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GUARDIANCORPS_DERELICT_HEALTH
+		TEXT_TOOLTIP_GUARDIANCORPS_DERELICT_MOVE
+		TEXT_TOOLTIP_GUARDIANCORPS_WEAP1 
+		TEXT_TOOLTIP_GUARDIANCORPS_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_GUARDIAN_CORPS_INDEPENDENT.tga</Icon_Name>
+		<Land_Model_Name>NI_GuardianCorps.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Hutt_GuardianCorps.alo</Land_Model_Anim_Override_Name>
+
+		<Tactical_Health> 24 </Tactical_Health>
+		<AI_Combat_Power>6</AI_Combat_Power>
+
+		<Movement_Animation_Speed> 0.75 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> 1.0 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .50 </Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>0.8</Max_Speed>
+		<OverrideAcceleration> 0.8 </OverrideAcceleration>
+		<OverrideDeceleration> 0.8 </OverrideDeceleration>
+	</GroundInfantry>
+
+	<GroundInfantry Name="GuardianCorps_Derelict_Commander">
+		<Variant_Of_Existing_Type>GuardianCorps_Derelict</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_GUARDIANCORPS_DERELICT_COMMANDER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_GUARDIANCORPS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GUARDIANCORPS_DERELICT_COMMANDER_HEALTH
+		TEXT_TOOLTIP_GUARDIANCORPS_DERELICT_MOVE
+		TEXT_TOOLTIP_GUARDIANCORPS_WEAP1 
+		TEXT_TOOLTIP_GUARDIANCORPS_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>NI_GuardianCorps_Commander.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Hutt_GuardianCorps.alo</Land_Model_Anim_Override_Name>
+
+		<Tactical_Health> 26 </Tactical_Health>
+		<AI_Combat_Power>7</AI_Combat_Power>
+
+		 <Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
+
+	</GroundInfantry>
+
+	<GroundCompany Name="GuardianCorps_Derelict_Squad">
+		<Text_ID>TEXT_UNIT_GUARDIANCORPS_DERELICT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_GUARDIANCORPS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GUARDIANCORPS_DERELICT_SQUAD
+		TEXT_TOOLTIP_GUARDIANCORPS_DERELICT_HEALTH
+		TEXT_TOOLTIP_GUARDIANCORPS_DERELICT_MOVE
+		TEXT_TOOLTIP_GUARDIANCORPS_SQUAD_WEAP1 
+		TEXT_TOOLTIP_GUARDIANCORPS_SQUAD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GUARDIAN_CORPS_INDEPENDENT.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> GuardianCorps_Derelict_Container </Create_Team_Type>
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Company_Units>GuardianCorps_Derelict, GuardianCorps_Derelict, GuardianCorps_Derelict, GuardianCorps_Derelict, GuardianCorps_Derelict, GuardianCorps_Derelict_Commander</Company_Units>
+	</GroundCompany>
+
+	<Container Name="GuardianCorps_Derelict_Container">
+		<Text_ID>TEXT_UNIT_GUARDIANCORPS_DERELICT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GUARDIANCORPS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GUARDIANCORPS_DERELICT_SQUAD
+		TEXT_TOOLTIP_GUARDIANCORPS_DERELICT_HEALTH
+		TEXT_TOOLTIP_GUARDIANCORPS_DERELICT_MOVE
+		TEXT_TOOLTIP_GUARDIANCORPS_SQUAD_WEAP1 
+		TEXT_TOOLTIP_GUARDIANCORPS_SQUAD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GUARDIAN_CORPS_INDEPENDENT.tga</Icon_Name>
+
+		<Show_Name>No</Show_Name>
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Max_Speed> 0.9 </Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> 0.5 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementClass> Infantry </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Is_Squashable> true </Is_Squashable>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+		<ContainerArrangement> Rows </ContainerArrangement>
+		<OverrideAcceleration> .08 </OverrideAcceleration>
+		<OverrideDeceleration> .08 </OverrideDeceleration>
+
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>250.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+			<Select_Box_Scale>55</Select_Box_Scale>
+			<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<CategoryMask>Droid | Infantry | AntiInfantry</CategoryMask>
+	</Container>
+
+
+	<GroundInfantry Name="Armored_Hutt">
+
+		<Text_ID>TEXT_UNIT_ARMORED_HUTT</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ARMORED_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARMORED_HUTT_HEALTH
+		TEXT_TOOLTIP_ARMORED_HUTT_MOVE
+		TEXT_TOOLTIP_ARMORED_HUTT_WEAP1
+		TEXT_TOOLTIP_ARMORED_HUTT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ARMORED_HUTT.tga</Icon_Name>
+
+		<Land_Model_Name>Hutt_Armored_Hutt.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name> Hutt_Armored_Hutt.alo </Land_Model_Anim_Override_Name>
+		<No_Colorization_Color/>
+		<Land_Terrain_Model_Mapping></Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name/>
+		<Scale_Factor>1.32</Scale_Factor>
+		<Select_Box_Scale>12</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>10</Size_Value>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 0.4 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .40 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>0.9</Max_Speed>
+		<OverrideAcceleration> 0.9 </OverrideAcceleration>
+		<OverrideDeceleration> 0.9 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Infantry </Armor_Type>
+		<Tactical_Health>40</Tactical_Health>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+		<Collision_Box_Modifier>0.85</Collision_Box_Modifier>
+		<!-- Similar to other infantry boxes, some wiggle room -->
+
+		<Damage>0.6</Damage>
+		<AI_Combat_Power>7</AI_Combat_Power>
+		<Affiliation/>
+		<Political_Control>0</Political_Control>
+
+		<Type>Walk</Type>
+		<CategoryMask> Organic | Infantry | AntiInfantry</CategoryMask>
+		<Weather_Category>Infantry</Weather_Category>
+		<Deploys>No</Deploys>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Create_Team>Yes</Create_Team>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, LANDING, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DEMOLITION</LandBehavior>
+
+		<HardPoints>HP_Armored_Hutt_Wrist, HP_Armored_Hutt_Rifle</HardPoints>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Target_Bones>Body2, Body3</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<!-- Bone and adjust for army trooper rig -->
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.25f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<!-- Normal red blood for hutts -->
+			<Death_Explosions>Organic_Infantry_Blood, Organic_Infantry_Blood_Alt, Tiny_Dud</Death_Explosions>
+
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select>Unit_Select_Armored_Hutt</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Armored_Hutt</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Armored_Hutt</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Armored_Hutt</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Armored_Hutt</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Armored_Hutt</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Armored_Hutt</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Hutt_Death</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<MovementClass> Infantry </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 4.0 </Custom_Hard_YExtent>
+		<CanCellStack>yes</CanCellStack>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationSpacing> .3 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Sensor_Range>20</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>350</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>false</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>Center</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+
+		<Influences_Capture_Point>True</Influences_Capture_Point>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+				<Expiration_Seconds> 15.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Stim_Armored_Hutt</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+
+			<Force_Healing_Ability Name="Hutt_Self_Heal">
+
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.05 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Armored_Hutt, Armored_Hutt_LAT, Armored_Hutt_Gunner_Heavy, Armored_Hutt_Leader </Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>Head</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+
+		</Abilities>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Armored_Hutt_LAT">
+		<Variant_Of_Existing_Type>Armored_Hutt</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARMORED_HUTT_AT_LIGHT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ARMORED_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARMORED_HUTT_HEALTH
+		TEXT_TOOLTIP_ARMORED_HUTT_MOVE
+		TEXT_TOOLTIP_ARMORED_HUTT_WEAP1
+		TEXT_TOOLTIP_ARMORED_HUTT_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>Hutt_Armored_Hutt_Missile.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name> Hutt_Armored_Hutt.alo </Land_Model_Anim_Override_Name>
+
+		<HardPoints>HP_Armored_Hutt_Wrist, HP_Armored_Hutt_Missile</HardPoints>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<AI_Combat_Power>8</AI_Combat_Power>
+
+		<CategoryMask> Organic | Infantry | AntiVehicle</CategoryMask>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
+		
+		<Targeting_Priority_Set> AntiVehicle </Targeting_Priority_Set>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Armored_Hutt_Gunner_Heavy">
+		<Variant_Of_Existing_Type>Armored_Hutt</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARMORED_HUTT_GUNNER_HEAVY</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ARMORED_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARMORED_HUTT_HEALTH
+		TEXT_TOOLTIP_ARMORED_HUTT_MOVE
+		TEXT_TOOLTIP_ARMORED_HUTT_WEAP1
+		TEXT_TOOLTIP_ARMORED_HUTT_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>Hutt_Armored_Hutt_Repeater.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name> Hutt_Armored_Hutt.alo </Land_Model_Anim_Override_Name>
+		<AI_Combat_Power>11</AI_Combat_Power>
+
+		<HardPoints>HP_Armored_Hutt_Wrist, HP_Armored_Hutt_HRB</HardPoints>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Gunner</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Armored_Hutt_Leader">
+		<Variant_Of_Existing_Type>Armored_Hutt</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARMORED_HUTT_LEADER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ARMORED_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARMORED_HUTT_LEADER_HEALTH
+		TEXT_TOOLTIP_ARMORED_HUTT_MOVE
+		TEXT_TOOLTIP_ARMORED_HUTT_WEAP1
+		TEXT_TOOLTIP_ARMORED_HUTT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Tactical_Health> 44 </Tactical_Health>
+		<AI_Combat_Power>8</AI_Combat_Power>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Armored_Hutt_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>Hutt_Armored_Hutt.ALO</Land_Model_Name>
+		<Icon_Name>I_BUTTON_ARMORED_HUTT.tga</Icon_Name>
+		<AI_Combat_Power>136.20</AI_Combat_Power>
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</GroundInfantry>
+
+	<GroundCompany Name="Armored_Hutt_Company">
+
+		<Text_ID>TEXT_UNIT_ARMORED_HUTT_PLATOON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ARMORED_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARMORED_HUTT_COMPANY
+		TEXT_TOOLTIP_ARMORED_HUTT_SQUAD
+		TEXT_TOOLTIP_ARMORED_HUTT_HEALTH
+		TEXT_TOOLTIP_ARMORED_HUTT_MOVE
+		TEXT_TOOLTIP_ARMORED_HUTT_COMPANY_WEAP1
+		TEXT_TOOLTIP_ARMORED_HUTT_COMPANY_WEAP2
+		TEXT_TOOLTIP_ARMORED_HUTT_COMPANY_WEAP3
+		TEXT_TOOLTIP_ARMORED_HUTT_COMPANY_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ARMORED_HUTT.tga</Icon_Name>
+
+		<Damage>18</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>320</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>H_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> Armored_Hutt_Company_Dummy </Company_Units>
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Troops</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Armored_Hutt</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Armored_Hutt</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</GroundCompany>
+
+	<GroundCompany Name="Armored_Hutt_Main_Squad">
+		<Text_ID>TEXT_UNIT_ARMORED_HUTT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_ARMORED_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARMORED_HUTT_SQUAD
+		TEXT_TOOLTIP_ARMORED_HUTT_HEALTH
+		TEXT_TOOLTIP_ARMORED_HUTT_MOVE
+		TEXT_TOOLTIP_ARMORED_HUTT_SQUAD_WEAP1
+		TEXT_TOOLTIP_ARMORED_HUTT_SQUAD_WEAP2
+		TEXT_TOOLTIP_ARMORED_HUTT_SQUAD_WEAP3
+		TEXT_TOOLTIP_ARMORED_HUTT_SQUAD_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ARMORED_HUTT.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> Armored_Hutt_Container </Create_Team_Type>
+		<Max_Squad_Size> 4 </Max_Squad_Size>
+		<Company_Units> Armored_Hutt, Armored_Hutt_Gunner_Heavy, Armored_Hutt_LAT, Armored_Hutt_Leader</Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Armored_Hutt_Squad">
+		<Variant_Of_Existing_Type>Armored_Hutt_Main_Squad</Variant_Of_Existing_Type>
+
+		<Company_Units> Armored_Hutt, Armored_Hutt_Gunner_Heavy, Armored_Hutt_LAT, Armored_Hutt</Company_Units>
+	</GroundCompany>
+
+	<Container Name="Armored_Hutt_Container">
+
+		<Text_ID>TEXT_UNIT_ARMORED_HUTT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ARMORED_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARMORED_HUTT_SQUAD
+		TEXT_TOOLTIP_ARMORED_HUTT_HEALTH
+		TEXT_TOOLTIP_ARMORED_HUTT_MOVE
+		TEXT_TOOLTIP_ARMORED_HUTT_SQUAD_WEAP1
+		TEXT_TOOLTIP_ARMORED_HUTT_SQUAD_WEAP2
+		TEXT_TOOLTIP_ARMORED_HUTT_SQUAD_WEAP3
+		TEXT_TOOLTIP_ARMORED_HUTT_SQUAD_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ARMORED_HUTT.tga</Icon_Name>
+
+		<Select_Box_Scale>45</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 0.9 </Max_Speed>
+		<OverrideAcceleration>0.9</OverrideAcceleration>
+		<OverrideDeceleration>0.9</OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 0.1 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+				<Expiration_Seconds> 15.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+
+	<GroundInfantry Name="Minor_Shell_Hutt">
+
+		<Text_ID>TEXT_UNIT_MINOR_SHELL_HUTT</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_HEALTH
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_MOVE
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_WEAP1
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REPULSOR
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_MINOR_SHELL_HUTT.tga</Icon_Name>
+
+		<Land_Model_Name>Hutt_MinorShellHutt.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Land_Terrain_Model_Mapping></Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>12</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>10</Size_Value>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 0.4 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .40 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.4</Max_Speed>
+		<OverrideAcceleration> 1.4 </OverrideAcceleration>
+		<OverrideDeceleration> 1.4 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Infantry </Armor_Type>
+		<Tactical_Health>55</Tactical_Health>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+		<Collision_Box_Modifier>0.85</Collision_Box_Modifier>
+		<!-- Similar to other infantry boxes, some wiggle room -->
+
+		<Damage>0.6</Damage>
+		<AI_Combat_Power>11</AI_Combat_Power>
+		<Affiliation/>
+		<Political_Control>0</Political_Control>
+
+		<Type>Hover</Type>
+		<CategoryMask> Organic | Infantry | AntiVehicle</CategoryMask>
+		<Weather_Category>Infantry</Weather_Category>
+		<Deploys>No</Deploys>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Create_Team>Yes</Create_Team>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, LANDING, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DEMOLITION</LandBehavior>
+
+		<HardPoints>HP_Minor_Shell_Hutt_Shoulder</HardPoints>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>Proj_Light_Concussion_Grenade_Infantry</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Target_Bones>Body1, Body2, Body3, Body3, Tail1, Tail2</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<!-- Bone and adjust for army trooper rig -->
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.25f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<!-- Normal red blood for hutts -->
+			<Death_Explosions>Organic_Infantry_Blood, Organic_Infantry_Blood_Alt, Tiny_Dud</Death_Explosions>
+
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select>Unit_Select_Armored_Hutt</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Armored_Hutt</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Armored_Hutt</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Armored_Hutt</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Armored_Hutt</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Armored_Hutt</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Armored_Hutt</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Hutt_Death</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<MovementClass> LightHover </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 4.0 </Custom_Hard_YExtent>
+		<CanCellStack>yes</CanCellStack>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationSpacing> .3 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Sensor_Range>20</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>400</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>false</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Hover, High_Ground</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius> 2.0 </Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>Center</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>3</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
+
+		<Influences_Capture_Point>True</Influences_Capture_Point>
+
+				<!-- 4 av mines per 6 ability squad company -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>90.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Armored_Hutt_Proximity_Mines_AV</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability/>
+				<Area_Effect_Decal_Distance>50.0</Area_Effect_Decal_Distance>
+				<Effective_Radius> 100.0 </Effective_Radius>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ANTITANK_MINES.tga</Alternate_Icon_Name>
+				<SFXEvent_Target_Ability> Unit_Attack_Armored_Hutt </SFXEvent_Target_Ability>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes">
+			<Proximity_Mines_Ability Name="Shell_Hutt_Proximity_Mines_AV">
+				<Activation_Style>User_Input</Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>25.0</Activation_Max_Range>
+				<Mine_Type>Mine_Land_Prox_Antivehicle</Mine_Type>
+				<Trigger_Radius>5</Trigger_Radius>
+				<Number_Of_Mines>6</Number_Of_Mines>
+				<Activation_Time_In_Seconds>0.5</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Mine_Arm</Activate_SFX>
+			</Proximity_Mines_Ability>
+
+			<Force_Healing_Ability Name="Hutt_Self_Heal">
+
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.05 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Minor_Shell_Hutt, Minor_Shell_Hutt_Leader </Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>Head</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+
+		</Abilities>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Minor_Shell_Hutt_Leader">
+		<Variant_Of_Existing_Type>Minor_Shell_Hutt</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_MINOR_SHELL_HUTT_LEADER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_LEADER_HEALTH
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_MOVE
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_WEAP1
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REPULSOR
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Tactical_Health> 60 </Tactical_Health>
+		<AI_Combat_Power>12</AI_Combat_Power>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Minor_Shell_Hutt_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>Hutt_MinorShellHutt.ALO</Land_Model_Name>
+		<Icon_Name>I_BUTTON_MINOR_SHELL_HUTT.tga</Icon_Name>
+		<AI_Combat_Power>112.02</AI_Combat_Power>
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Alternate_Icon_Name>I_SA_ANTITANK_MINES.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundCompany Name="Minor_Shell_Hutt_Company">
+
+		<Text_ID>TEXT_UNIT_MINOR_SHELL_HUTT_PLATOON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_COMPANY
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_SQUAD
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_HEALTH
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_MOVE
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_COMPANY_WEAP1
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_COMPANY_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REPULSOR
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_MINOR_SHELL_HUTT.tga</Icon_Name>
+
+		<Damage>18</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures/>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation/>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> Minor_Shell_Hutt_Company_Dummy </Company_Units>
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Troops</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Armored_Hutt</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Armored_Hutt</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+		
+		<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</GroundCompany>
+
+	<GroundCompany Name="Minor_Shell_Hutt_Main_Squad">
+		<Text_ID>TEXT_UNIT_MINOR_SHELL_HUTT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_SQUAD
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_HEALTH
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_MOVE
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_SQUAD_WEAP1
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_SQUAD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REPULSOR
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_MINOR_SHELL_HUTT.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> Minor_Shell_Hutt_Container </Create_Team_Type>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Company_Units> Minor_Shell_Hutt, Minor_Shell_Hutt, Minor_Shell_Hutt, Minor_Shell_Hutt, Minor_Shell_Hutt_Leader </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Minor_Shell_Hutt_Squad">
+		<Variant_Of_Existing_Type>Minor_Shell_Hutt_Main_Squad</Variant_Of_Existing_Type>
+
+		<Company_Units> Minor_Shell_Hutt, Minor_Shell_Hutt, Minor_Shell_Hutt, Minor_Shell_Hutt, Minor_Shell_Hutt</Company_Units>
+	</GroundCompany>
+
+	<Container Name="Minor_Shell_Hutt_Container">
+
+		<Text_ID>TEXT_UNIT_MINOR_SHELL_HUTT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_SQUAD
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_HEALTH
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_MOVE
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_SQUAD_WEAP1
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_SQUAD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REPULSOR
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_MINOR_SHELL_HUTT.tga</Icon_Name>
+
+		<Select_Box_Scale>45</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.4 </Max_Speed>
+		<OverrideAcceleration>1.4</OverrideAcceleration>
+		<OverrideDeceleration>1.4</OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Organic | Infantry | AntiVehicle</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<MovementClass>LightHover</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 0.1 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>90.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Armored_Hutt_Proximity_Mines_AV</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability/>
+				<Area_Effect_Decal_Distance>50.0</Area_Effect_Decal_Distance>
+				<Effective_Radius> 100.0 </Effective_Radius>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ANTITANK_MINES.tga</Alternate_Icon_Name>
+				<SFXEvent_Target_Ability> Unit_Attack_Armored_Hutt </SFXEvent_Target_Ability>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes">
+			<Proximity_Mines_Ability Name="Armored_Hutt_Proximity_Mines_AV">
+				<Activation_Style>User_Input</Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>25.0</Activation_Max_Range>
+				<Mine_Type>Mine_Land_Prox_Antivehicle</Mine_Type>
+				<Trigger_Radius>5</Trigger_Radius>
+				<Number_Of_Mines>6</Number_Of_Mines>
+				<Activation_Time_In_Seconds>0.5</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Mine_Arm</Activate_SFX>
+			</Proximity_Mines_Ability>
+		</Abilities>
+	</Container>
+
+
+</Templates_Ground>

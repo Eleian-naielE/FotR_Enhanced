@@ -57,7 +57,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -277,7 +277,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<CategoryMask> Infantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
 
@@ -312,7 +312,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<CategoryMask> Infantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
 
@@ -572,7 +572,7 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
-		<Property_Flags>HealsInfantry | HealsVehicles</Property_Flags>
+		<Property_Flags>HealsOrganics| HealsDroids | HealsVehicles</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Medic_Healing">
@@ -641,7 +641,7 @@
 		<Icon_Name>I_BUTTON_CLONE_P1.tga</Icon_Name>
 		<AI_Combat_Power>140.61</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Infantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -850,7 +850,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -926,7 +926,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -1002,7 +1002,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -1077,7 +1077,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -1206,7 +1206,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
 		</Encyclopedia_Text>
 
-		<CategoryMask> Infantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
 
@@ -1242,7 +1242,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<CategoryMask> Infantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
 
@@ -1473,7 +1473,7 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
-		<Property_Flags>HealsInfantry | HealsVehicles</Property_Flags>
+		<Property_Flags>HealsOrganics | HealsDroids | HealsVehicles</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Medic_Healing">
@@ -1543,7 +1543,7 @@
 		<Icon_Name>I_BUTTON_CLONE_P2.tga</Icon_Name>
 		<AI_Combat_Power>156.20</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Infantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -1756,7 +1756,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -1834,7 +1834,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -1913,7 +1913,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -1991,7 +1991,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -2102,7 +2102,7 @@
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
 
-		<CategoryMask> Infantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
 		
@@ -2233,7 +2233,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -2342,7 +2342,7 @@
 		<HardPoints>HP_RPS_Hand</HardPoints>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 
-		<CategoryMask> Infantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
 		
@@ -2474,7 +2474,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -2575,7 +2575,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry | AntiVehicle | Clone  </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | AntiVehicle | Clone  </CategoryMask>
 		<Property_Flags>DoKite</Property_Flags>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
@@ -2799,7 +2799,7 @@
 
 		<HardPoints> HP_Clone_HMG_Skilled, HP_ARC_Wrist_Rocket</HardPoints>
 
-		<CategoryMask> Infantry | AntiInfantry | Clone  </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | Clone  </CategoryMask>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Gunner</Highlight_Blob_Material_Name>
 		
@@ -2829,7 +2829,7 @@
 		<HardPoints>HP_PLX_1_hand, HP_ARC_Wrist_Blaster</HardPoints>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 
-		<CategoryMask> Infantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
 		
@@ -2858,7 +2858,7 @@
 
 		<HardPoints>HP_ARC_Carbine_Skilled, HP_ARC_Grenade, HP_ARC_Wrist_Flamer</HardPoints>
 
-		<CategoryMask> Infantry | AntiInfantry | Clone  </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | Clone  </CategoryMask>
 
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Ion_Grenade_Infantry</Projectile_Types>
@@ -2917,7 +2917,7 @@
 		<Icon_Name>I_BUTTON_CLONE_ARC_P1.tga</Icon_Name>
 		<AI_Combat_Power>156.20</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Infantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -3108,7 +3108,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -3188,7 +3188,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | AntiVehicle | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -3286,7 +3286,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | AntiVehicle | Clone  </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | AntiVehicle | Clone  </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -3371,7 +3371,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<CategoryMask> Infantry | AntiInfantry | AntiVehicle | Clone  </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | AntiVehicle | Clone  </CategoryMask>
 
 		<Max_Speed>1.2</Max_Speed>
 		<Icon_Name>I_BUTTON_CLONE_ARC_P2.tga</Icon_Name>
@@ -3400,7 +3400,7 @@
 
 		<HardPoints> HP_Clone_HMG_Skilled, HP_ARC_Wrist_Rocket</HardPoints>
 
-		<CategoryMask> Infantry | AntiInfantry | Clone  </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | Clone  </CategoryMask>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Gunner</Highlight_Blob_Material_Name>
 		
@@ -3429,7 +3429,7 @@
 		<HardPoints>HP_PLX_2_Hand, HP_ARC_Wrist_Blaster</HardPoints>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 
-		<CategoryMask> Infantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
 		
@@ -3457,7 +3457,7 @@
 
 		<HardPoints>HP_ARC_Carbine_Skilled, HP_ARC_Grenade, HP_ARC_Wrist_Flamer</HardPoints>
 
-		<CategoryMask> Infantry | AntiInfantry | Clone  </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | Clone  </CategoryMask>
 
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Ion_Grenade_Infantry</Projectile_Types>
@@ -3516,7 +3516,7 @@
 		<Icon_Name>I_BUTTON_CLONE_ARC_P2.tga</Icon_Name>
 		<AI_Combat_Power>156.20</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Infantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -3706,7 +3706,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -3786,7 +3786,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | AntiVehicle | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -3884,7 +3884,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | AntiVehicle | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -4019,7 +4019,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry | Clone  </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | Clone  </CategoryMask>
 		<Property_Flags>DoKite</Property_Flags>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
@@ -4260,7 +4260,7 @@
 		<Icon_Name>I_BUTTON_CLONE_COMMANDO.tga</Icon_Name>
 		<AI_Combat_Power>104.83</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Infantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -4403,7 +4403,7 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | AntiVehicle | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -4522,7 +4522,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Hover</Type>
-		<CategoryMask> Infantry | AntiInfantry | Clone  </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | Clone  </CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -4663,7 +4663,7 @@
 
 		<HardPoints>HP_Clone_Rifle_ARC, HP_ARC_RPS, HP_ARC_Wrist_Rocket</HardPoints>
 
-		<CategoryMask> Infantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
 		
@@ -4722,7 +4722,7 @@
 		<Icon_Name>i_button_clone_jumptrooper_p1.tga</Icon_Name>
 		<AI_Combat_Power>83.75</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Infantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 	</GroundInfantry>
 
@@ -4842,7 +4842,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -4950,7 +4950,7 @@
 
 		<HardPoints>HP_Clone_Rifle_ARC, HP_ARC_RPS, HP_ARC_Wrist_Rocket</HardPoints>
 
-		<CategoryMask> Infantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
 		
@@ -5144,7 +5144,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -5247,7 +5247,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry | Clone  </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | Clone  </CategoryMask>
 		<Property_Flags>DoKite</Property_Flags>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
@@ -5472,7 +5472,7 @@
 
 		<HardPoints>HP_Clone_Rifle_ARC, HP_ARC_RPS</HardPoints>
 
-		<CategoryMask> Infantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
 		<Land_Model_Name>Clone_HEV_Trooper_Sergeant_legions.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
@@ -5614,7 +5614,7 @@
 		<HardPoints>HP_PLX_1_hand</HardPoints>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 
-		<CategoryMask> Infantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
 		<Lua_Script>CloneLegionFinder</Lua_Script>
 
@@ -5719,7 +5719,7 @@
 		<Icon_Name>I_BUTTON_CLONE_GALACTIC_MARINE.tga</Icon_Name>
 		<AI_Combat_Power>152.17</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Infantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -5892,7 +5892,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -5971,7 +5971,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -6075,7 +6075,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry </CategoryMask>
 		<Property_Flags>Fodder</Property_Flags>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
@@ -6494,7 +6494,7 @@
 
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 
-		<CategoryMask> Infantry | AntiVehicle</CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle</CategoryMask>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
@@ -6743,7 +6743,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -6818,7 +6818,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -6922,7 +6922,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry | Clone  </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | Clone  </CategoryMask>
 		<Property_Flags>DoKite</Property_Flags>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
@@ -7182,7 +7182,7 @@
 		<HardPoints>HP_Clone_Ion_Gun</HardPoints>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 
-		<CategoryMask>Infantry | AntiVehicle | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
 		
@@ -7266,7 +7266,7 @@
 		<Icon_Name>I_BUTTON_CLONE_SPECIAL_OPS.tga</Icon_Name>
 		<AI_Combat_Power>117.82</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Infantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -7407,7 +7407,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -7514,7 +7514,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry | Clone  </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | Clone  </CategoryMask>
 		<Property_Flags>DoKite</Property_Flags>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
@@ -7762,7 +7762,7 @@
 		<Icon_Name>I_BUTTON_CLONE_FLAMETROOPER.tga</Icon_Name>
 		<AI_Combat_Power>96.46</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Infantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -7897,7 +7897,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -8002,7 +8002,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry | Clone  </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | Clone  </CategoryMask>
 		<Property_Flags>DoKite</Property_Flags>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
@@ -8448,7 +8448,7 @@
 		<Icon_Name>I_BUTTON_SCOUT_CLONE.tga</Icon_Name>
 		<AI_Combat_Power>114.15</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Infantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -8629,7 +8629,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -8704,7 +8704,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -8776,7 +8776,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -8879,7 +8879,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Property_Flags>DoKite</Property_Flags>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
@@ -9116,7 +9116,7 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
-		<Property_Flags>HealsInfantry | HealsVehicles</Property_Flags>
+		<Property_Flags>HealsOrganics| HealsDroids | HealsVehicles</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Airborne_Medic_Healing">
@@ -9265,7 +9265,7 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
-		<Property_Flags>HealsInfantry | HealsVehicles</Property_Flags>
+		<Property_Flags>HealsOrganics | HealsDroids | HealsVehicles</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Airborne_Medic_Healing">
@@ -9373,7 +9373,7 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
-		<Property_Flags>HealsInfantry | HealsVehicles</Property_Flags>
+		<Property_Flags>HealsOrganics| HealsDroids | HealsVehicles</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Airborne_Medic_Healing">
@@ -9503,7 +9503,7 @@
 		<HardPoints>HP_RPS_Hand</HardPoints>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 
-		<CategoryMask> Infantry | AntiVehicle | Clone</CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle | Clone</CategoryMask>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
 		
@@ -9833,7 +9833,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -9909,7 +9909,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -9987,7 +9987,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -10060,7 +10060,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -10163,7 +10163,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -10340,7 +10340,7 @@
 		<Icon_Name>I_BUTTON_CLONE_BLAZE_TROOPER.tga</Icon_Name>
 		<AI_Combat_Power>135.63</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Infantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -10479,7 +10479,7 @@
 		<Alternate_Max_Rate_Of_Turn> 6.0 </Alternate_Max_Rate_Of_Turn>
 		
 
-		<CategoryMask>Infantry | AntiInfantry | Clone </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry | Clone </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -10606,7 +10606,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry</CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -11024,7 +11024,7 @@
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Alternate_Max_Rate_Of_Turn> 6.0 </Alternate_Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -11392,7 +11392,7 @@
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Alternate_Max_Rate_Of_Turn> 6.0 </Alternate_Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>

@@ -35,7 +35,7 @@
 
 		<Land_Model_Name>CIS_Durge.alo</Land_Model_Name>
 
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 		
 		<Ranking_In_Category> 3 </Ranking_In_Category>
@@ -401,7 +401,7 @@
 
 		<Scale_Factor>1.0</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Droid | InfantryHero | AntiInfantry </CategoryMask>
 
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 
@@ -537,7 +537,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
@@ -975,7 +975,7 @@
 
 		<Scale_Factor>1.0</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Droid | InfantryHero | AntiInfantry </CategoryMask>
 
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 
@@ -1654,7 +1654,7 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		<CategoryMask> VehicleHero | AntiInfantry | AntiVehicle </CategoryMask>
-		<Property_Flags>GoodInfantryCrusher | CanContainGarrison | IsSupercrusher | GTSImmune</Property_Flags>
+		<Property_Flags>GoodInfantryCrusher | CanContainGarrison | IsSupercrusher | GTSImmune | HealsOrganics</Property_Flags>
 
 		<Highlight_Blob_Material_Name>Highlight_CIS_Hero</Highlight_Blob_Material_Name>
 
@@ -1688,7 +1688,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
@@ -2303,6 +2303,8 @@
 
 		<Land_Model_Name>Nute_Gunray.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>MilitiaInfantry.alo</Land_Model_Anim_Override_Name>
+
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 
@@ -2662,7 +2664,7 @@
 		
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
 		<Tactical_Health>180</Tactical_Health>
 

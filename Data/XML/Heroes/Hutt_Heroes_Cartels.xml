@@ -1,0 +1,1011 @@
+<?xml version="1.0"?>
+<Hutt_Heroes>
+
+	<!-- Infantry/Commando Heroes -->
+	<HeroUnit Name="Jabba_The_Hutt">
+		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_JABBA</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_TRAIT_AGENT_TIER_KAJIDII
+		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_JABBA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_JABBA_HEALTH
+		TEXT_TOOLTIP_JABBA_MOVE
+		TEXT_TOOLTIP_JABBA_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRIME_LORD </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_JABBA.TGA</Icon_Name>
+
+		<Land_Model_Name>Hutt_Jabba.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name> Hutt_Hutt.alo </Land_Model_Anim_Override_Name>
+		
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<OverrideAcceleration> 1.0 </OverrideAcceleration>
+		<OverrideDeceleration> 1.0 </OverrideDeceleration>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Scale_Factor>1.26</Scale_Factor>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
+
+		<AI_Combat_Power>34</AI_Combat_Power>
+
+		<Tactical_Health>150</Tactical_Health>
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints>HP_Hutt_DL44_Pistol</HardPoints>
+
+		<SFXEvent_Select>Unit_Select_Hutt_Boss</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Boss</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Boss</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Boss</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Boss</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die> Unit_Death_Hutt_Boss </Death_SFXEvent_Start_Die>
+
+		<Highlight_Blob_Material_Name>Highlight_Hutt_Hero</Highlight_Blob_Material_Name>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 and Agent_Tier_Kajidii --> <!-- Has stealth for mission purposes -->
+			<Galactic_Stealth_Ability Name="Stealth_Operative_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+			
+			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.21</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_07_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.21</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
+			<Reduce_Production_Price_Ability Name="Agent_Tier_Kajidii_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
+				<Stacking_Category>51</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<Planet_Income_Bonus_Ability Name="Agent_Tier_Kajidii_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_KAJIDII</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.15</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- plus flat Y credits -->
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
+				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
+			</Planet_Income_Bonus_Ability>
+			<Bounty_On_Faction_Ability Name="Agent_Tier_Kajidii_Destruction_Income_Bonus">
+				<Bounty_Percentage_Amount> 1 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<Target_Faction_Names> Rebel, Empire, Underworld, Hutt_Cartels, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians, Independent_Forces, Hostile </Target_Faction_Names>
+				<Apply_To_All_Allies> Yes </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+
+			<Force_Healing_Ability Name="Hutt_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.05 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Jabba_The_Hutt</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>Head</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+	</HeroUnit>
+	<HeroCompany Name="Jabba_The_Hutt_Team">
+		<Text_ID>TEXT_HERO_JABBA</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_TRAIT_AGENT_TIER_KAJIDII
+		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_JABBA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_JABBA_HEALTH
+		TEXT_TOOLTIP_JABBA_MOVE
+		TEXT_TOOLTIP_JABBA_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRIME_LORD </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_JABBA.TGA</Icon_Name>
+		
+		<Population_Value>1</Population_Value>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>50</Damage>
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<Tech_Level>99</Tech_Level>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>G9_Rigger</Company_Transport_Unit>
+		<Company_Units>Jabba_The_Hutt</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Stealth_Company>No</Is_Stealth_Company>
+		<Available_In_Skirmish>No</Available_In_Skirmish>
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
+
+		<SFXEvent_Build_Complete>Unit_Complete_Hutt_Boss</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Boss</SFXEvent_Fleet_Move>
+	</HeroCompany>
+
+	<UniqueUnit Name="Jabba_Star_Jewel">
+		<Variant_Of_Existing_Type>Heavy_Minstrel_Yacht</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_JABBA</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_SPACE
+		TEXT_TOOLTIP_TRAIT_AGENT_TIER_KAJIDII
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_JABBA
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_STAR_JEWEL
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_HULL 
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_SHIELD 
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_MOVE
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_SQUADRON
+		TEXT_TOOLTIP_JABBA_SPECIAL
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_CW_WEAP1 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRIME_LORD </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_jabba.tga</Icon_Name>
+		
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+
+		<Tech_Level>99</Tech_Level>
+		
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		
+		<SFXEvent_Select>Unit_Select_Hutt_Boss</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Boss</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Boss</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Boss</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Boss</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Hutt_Boss </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Hutt_Boss </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Health_Low_Warning>null</SFXEvent_Health_Low_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Death_Hutt_Boss </Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+			<Type>TURBO</Type>
+
+			<Expiration_Seconds>20</Expiration_Seconds>
+			<Recharge_Seconds>60</Recharge_Seconds>
+			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+			<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+			<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 and Agent_Tier_Kajidii -->
+			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.21</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_07_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.21</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
+			<Reduce_Production_Price_Ability Name="Agent_Tier_Kajidii_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
+				<Stacking_Category>51</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<Planet_Income_Bonus_Ability Name="Agent_Tier_Kajidii_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_KAJIDII</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.15</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- plus flat Y credits -->
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
+				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
+			</Planet_Income_Bonus_Ability>
+			<Bounty_On_Faction_Ability Name="Agent_Tier_Kajidii_Destruction_Income_Bonus">
+				<Bounty_Percentage_Amount> 1 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<Target_Faction_Names> Rebel, Empire, Underworld, Hutt_Cartels, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians, Independent_Forces, Hostile </Target_Faction_Names>
+				<Apply_To_All_Allies> Yes </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<HeroUnit Name="Tanda">
+		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_TANDA</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_ADMIN_01
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_TANDA
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_TANDA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_TANDA_HEALTH
+		TEXT_TOOLTIP_TANDA_MOVE
+		TEXT_TOOLTIP_TANDA_WEAP1
+		<!-- TEXT_TOOLTIP_TANDA_WEAP2 -->
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_BONUS_HUTT_EATING
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OVERSEER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_TANDA_ADMIN.tga</Icon_Name>
+
+		<Land_Model_Name>Hutt_Tanda.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name> Hutt_Hutt.alo </Land_Model_Anim_Override_Name>
+		
+		<Ranking_In_Category> 8 </Ranking_In_Category>
+
+		<Tactical_Health>180</Tactical_Health>
+
+		<Max_Speed>0.9</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<OverrideAcceleration> 0.9 </OverrideAcceleration>
+		<OverrideDeceleration> 0.9 </OverrideDeceleration>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Scale_Factor>2.0</Scale_Factor>
+		<Select_Box_Scale>12</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 0.4 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .40 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints>Commander_Dummy_Hangar, HP_Hutt_DL44_Pistol</HardPoints>
+
+		<!-- Grenade throw -->
+		<!--<Projectile_Types>HeroProj_Thrown_Thermal_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>-->
+
+
+		<Target_Bones>Body_02, Body_03, Head</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+
+		<SFXEvent_Select>Unit_Select_Armored_Hutt</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Armored_Hutt</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Armored_Hutt</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Armored_Hutt</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Armored_Hutt</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Hutt_Death</Death_SFXEvent_Start_Die>
+
+		<Death_Persistence_Duration> 5.0 </Death_Persistence_Duration>
+		<Death_Fade_Time>1.0</Death_Fade_Time>
+
+		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
+		<Starting_Spawned_Units_Tech_0>Hutt_Guard_Heavy_Squad, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Hutt_Guard_Assault_Squad, 3</Starting_Spawned_Units_Tech_0>
+
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, null</SFXEvent_Hardpoint_Destroyed>
+
+		<Highlight_Blob_Material_Name>Highlight_Hutt_Hero</Highlight_Blob_Material_Name>
+
+		<AI_Combat_Power>42</AI_Combat_Power>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+
+
+		<!-- <Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STICKY_BOMB</Type>
+				<Recharge_Seconds>15.0f </Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Tanda_Grenade_Attack</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Attack_Bossk </SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>-->
+
+		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Admin_01 -->
+			<Reduce_Production_Price_Ability Name="Admin_Tier_Admin_01_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<Reduce_Production_Time_Ability Name="Admin_Tier_Admin_01_Reduce_Production_Time">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			<Planet_Income_Bonus_Ability Name="Admin_Tier_Admin_01_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_ADMIN_01</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.05</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+			</Planet_Income_Bonus_Ability>
+			
+			<Force_Healing_Ability Name="Hutt_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.05 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Tanda</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>Head</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+
+			<!-- <Grenade_Attack_Ability Name="Tanda_Grenade_Attack"> 
+				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Min_Range>5.0</Activation_Min_Range>
+				<Activation_Max_Range>200.0</Activation_Max_Range>
+				<Requires_Direct_Player_Command> No </Requires_Direct_Player_Command>
+				<Grenade_Type>Proj_Hero_Sticky_Bomb</Grenade_Type>
+				<Grenade_Toss_Anim>BOMBTOSS</Grenade_Toss_Anim>
+				<Grenade_Spawn_Frame>15.0</Grenade_Spawn_Frame>
+				<Grenade_Spawn_Bone>MuzzleA_00</Grenade_Spawn_Bone>
+				<Grenade_Explode_Timer_In_Secs>3.0</Grenade_Explode_Timer_In_Secs>
+				<Activation_Chance>0,0.0, 1,1.0, 5,1.0, 500,1.0</Activation_Chance>
+				<Applicable_Unit_Categories>Vehicle, Structure</Applicable_Unit_Categories>
+			</Grenade_Attack_Ability>  -->
+
+			<Eat_Attack_Ability Name="Tanda_Eat_Infantry">
+				<Activation_Chance>1.0</Activation_Chance>
+				<Activation_Min_Range>40.0</Activation_Min_Range>
+				<Activation_Max_Range>45.0</Activation_Max_Range>
+				<Damage_Amount>0.0</Damage_Amount>
+				<Damage_Percentage>1.0</Damage_Percentage>
+				<Damage_Type>Damage_Eat</Damage_Type>
+				<Attack_Animation>EAT_ATTACK</Attack_Animation>
+				<Attack_Animation_Speedup>1.0</Attack_Animation_Speedup>
+				<Owner_Attachment_Bone>B_ATTACH_01</Owner_Attachment_Bone>
+				<Attachment_Frame>15</Attachment_Frame>
+				<Target_Destruction_Frame>90</Target_Destruction_Frame>
+				<Target_Grabbed_Animation>EATEN_DIE</Target_Grabbed_Animation>
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Health_Per_Victim>45</Health_Per_Victim>
+				<Excluded_Unit_Types>
+					Rancor, 
+					Terentatek,
+					Wampa,
+					SD_5_Hulk_Infantry_Droid,
+					SD_6_Hulk_Infantry_Droid,
+					Dwarf_Spider_Droid,
+					Crab_Droid,
+					LR_57_Combat_Droid
+				</Excluded_Unit_Types>
+			</Eat_Attack_Ability>
+		</Abilities>
+
+	</HeroUnit>
+	<HeroCompany Name="Tanda_Team">
+		<Text_ID>TEXT_HERO_TANDA</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_ADMIN_01
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_TANDA
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_TANDA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_TANDA_HEALTH
+		TEXT_TOOLTIP_TANDA_MOVE
+		TEXT_TOOLTIP_TANDA_WEAP1
+		<!-- TEXT_TOOLTIP_TANDA_WEAP2 -->
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_BONUS_HUTT_EATING
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OVERSEER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_TANDA_ADMIN.tga</Icon_Name>
+		
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>TZ15_Hero_Shuttle_Admin</Company_Transport_Unit>
+		<Company_Units>Tanda</Company_Units>
+		
+		<Population_Value>1</Population_Value>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>50</Damage>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
+		
+		<SFXEvent_Build_Started>UHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Armored_Hutt</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Complete_Armored_Hutt</SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Armored_Hutt</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>790</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</HeroCompany>
+
+	<!-- Vehicle Heroes -->
+
+	<UniqueUnit Name="Porla_WLO5_Tank">
+		<Variant_Of_Existing_Type>WLO5_Tank</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_PORLA</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_TRAIT_AGENT_TIER_HUTT_LORD
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PORLA
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_WLO5_TANK
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_PORLA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_WLO5_TANK_HEALTH
+		TEXT_TOOLTIP_WLO5_TANK_MOVE
+		TEXT_TOOLTIP_WLO5_TANK_WEAP1
+		TEXT_TOOLTIP_WLO5_TANK_WEAP2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRIME_LORD </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_PORLA.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<CategoryMask> VehicleHero | AntiVehicle </CategoryMask>
+		
+		<Ranking_In_Category> 7 </Ranking_In_Category>
+		
+		<LandBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD, HUNT, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE, SURFACE_FX,DAMAGE_TRACKING, GARRISON_VEHICLE</LandBehavior>
+		
+		<Starting_Spawned_Units_Tech_0>Hutt_Starhawk, 8</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
+		
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 and Agent_Tier_Hutt_Lord -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
+			<Reduce_Production_Price_Ability Name="Agent_Tier_Hutt_Lord_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.05</Price_Reduction_Percentage>
+				<Stacking_Category>51</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<Planet_Income_Bonus_Ability Name="Agent_Tier_Hutt_Lord_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_HUTT_LORD</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.10</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- plus flat Y credits -->
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
+				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
+			</Planet_Income_Bonus_Ability>
+			<Bounty_On_Faction_Ability Name="Agent_Tier_Hutt_Lord_Destruction_Income_Bonus">
+				<Bounty_Percentage_Amount> 1 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<Target_Faction_Names> Rebel, Empire, Underworld, Hutt_Cartels, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians, Independent_Forces, Hostile </Target_Faction_Names>
+				<Apply_To_All_Allies> Yes </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<HeroCompany Name="Porla_Team">
+		<Text_ID>TEXT_HERO_PORLA</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_TRAIT_AGENT_TIER_HUTT_LORD
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PORLA
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_WLO5_TANK
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_PORLA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_WLO5_TANK_HEALTH
+		TEXT_TOOLTIP_WLO5_TANK_MOVE
+		TEXT_TOOLTIP_WLO5_TANK_WEAP1
+		TEXT_TOOLTIP_WLO5_TANK_WEAP2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRIME_LORD</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_PORLA.tga</Icon_Name>
+		
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Units>Porla_WLO5_Tank</Company_Units>
+		<Company_Transport_Unit>TZ86_Vehicle_Transport</Company_Transport_Unit>
+		
+		<Population_Value>1</Population_Value>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Damage>80</Damage>
+		<Tech_Level>99</Tech_Level>
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2590</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+	</HeroCompany>
+
+	<!-- Space Heroes -->
+	<UniqueUnit Name="Jiliac_Dragon_Pearl">
+		<Variant_Of_Existing_Type>Heavy_Minstrel_Yacht</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_JILIAC</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_SPACE
+		TEXT_TOOLTIP_TRAIT_AGENT_TIER_KAJIDII
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_JILIAC
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_DRAGON_PEARL
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_HULL 
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_SHIELD 
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_MOVE
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_SQUADRON
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_CW_WEAP1 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRIME_LORD </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_JILIAC.tga</Icon_Name>
+		
+		<Ranking_In_Category> 2 </Ranking_In_Category>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Tech_Level>99</Tech_Level>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		<SFXEvent_Select>Unit_Select_Hutt_Boss</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Boss</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Boss</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Boss</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Boss</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Hutt_Boss </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Hutt_Boss </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Health_Low_Warning>null</SFXEvent_Health_Low_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Death_Hutt_Boss </Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.85f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-1f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 and Agent_Tier_Kajidii -->
+			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.21</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_07_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.21</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
+			<Reduce_Production_Price_Ability Name="Agent_Tier_Kajidii_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
+				<Stacking_Category>51</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<Planet_Income_Bonus_Ability Name="Agent_Tier_Kajidii_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_KAJIDII</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.15</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- plus flat Y credits -->
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
+				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
+			</Planet_Income_Bonus_Ability>
+			<Bounty_On_Faction_Ability Name="Agent_Tier_Kajidii_Destruction_Income_Bonus">
+				<Bounty_Percentage_Amount> 1 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<Target_Faction_Names> Rebel, Empire, Underworld, Hutt_Cartels, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians, Independent_Forces, Hostile </Target_Faction_Names>
+				<Apply_To_All_Allies> Yes </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Progga_Juvard">
+		<Variant_Of_Existing_Type>Juvard_Frigate</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_PROGGA</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_TRAIT_AGENT_TIER_HUTT_LORD
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PROGGA
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_PROGGA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_JUVARD_FRIGATE_HULL 
+		TEXT_TOOLTIP_JUVARD_FRIGATE_SHIELD 
+		TEXT_TOOLTIP_JUVARD_FRIGATE_MOVE
+		TEXT_TOOLTIP_JUVARD_FRIGATE_WEAP1 
+		TEXT_TOOLTIP_JUVARD_FRIGATE_WEAP2
+		TEXT_TOOLTIP_JUVARD_FRIGATE_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_JUVARD_FRIGATE_PD
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRIME_LORD </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_PROGGA.tga</Icon_Name>
+		
+		<Ranking_In_Category> 7 </Ranking_In_Category>
+
+		<Tech_Level>99</Tech_Level>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<CategoryMask> SpaceHero | AntiFighter | AntiBomber | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		
+		<SFXEvent_Select>Unit_Select_Hutt_Boss</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Boss</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Boss</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Boss</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Boss</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Hutt_Boss </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Hutt_Boss </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Health_Low_Warning>null</SFXEvent_Health_Low_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Death_Hutt_Boss </Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 and Agent_Tier_Hutt_Lord -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
+			<Reduce_Production_Price_Ability Name="Agent_Tier_Hutt_Lord_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.05</Price_Reduction_Percentage>
+				<Stacking_Category>51</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<Planet_Income_Bonus_Ability Name="Agent_Tier_Hutt_Lord_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_HUTT_LORD</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.10</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- plus flat Y credits -->
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
+				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
+			</Planet_Income_Bonus_Ability>
+			<Bounty_On_Faction_Ability Name="Agent_Tier_Hutt_Lord_Destruction_Income_Bonus">
+				<Bounty_Percentage_Amount> 1 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<Target_Faction_Names> Rebel, Empire, Underworld, Hutt_Cartels, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians, Independent_Forces, Hostile </Target_Faction_Names>
+				<Apply_To_All_Allies> Yes </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+
+			<Laser_Defense_Ability Name="Juvard_Frigate_Laser_Defense">
+				<Activation_Style> Space_Automatic </Activation_Style>
+				<Defense_Duration_In_Secs> 4800.0 </Defense_Duration_In_Secs>
+				<Laser_Color>255, 218, 13, 255</Laser_Color>
+				<Bone_Names>WEAP_LASER_LS_01_185_FP00, WEAP_LASER_LS_01_185_FP01, WEAP_LASER_LS_02_185_FP00, WEAP_LASER_LS_02_185_FP01</Bone_Names>
+				<Projectile_Types_Targeted>ROCKET, MISSILE</Projectile_Types_Targeted>
+				 <Protection_Radius>625.0</Protection_Radius>
+				<Laser_Beam_Frames>2</Laser_Beam_Frames>
+				<Laser_Beam_Width>4</Laser_Beam_Width>
+				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+				<Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+				<Recharge_Time_In_Secs>0.39</Recharge_Time_In_Secs>
+				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+			</Laser_Defense_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Troonol_Agrelcu_Haalta">
+		<Variant_Of_Existing_Type>Ubrikkian_Cruiser_CW</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_UNIT_TROONOL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_TROONOL
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_AGRELCU_HAALTA 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_UBRIKKIAN_CRUISER_HULL
+		TEXT_TOOLTIP_UBRIKKIAN_CRUISER_SHIELD_CW
+		TEXT_TOOLTIP_UBRIKKIAN_CRUISER_MOVE_CW
+		TEXT_TOOLTIP_UBRIKKIAN_CRUISER_WEAP1_CW
+		TEXT_TOOLTIP_UBRIKKIAN_CRUISER_WEAP2_CW
+		TEXT_TOOLTIP_UBRIKKIAN_CRUISER_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_troonol.tga</Icon_Name>
+		
+		<Ranking_In_Category> 6 </Ranking_In_Category>
+		
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, LURE</SpaceBehavior>
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Tech_Level>99</Tech_Level>
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Hutt_Boss</SFXEvent_Build_Complete>
+
+		<SFXEvent_Select>Unit_Select_Hutt_Boss</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Boss</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Boss</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Boss</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Boss</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Hutt_Boss </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Hutt_Boss </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Health_Low_Warning>null</SFXEvent_Health_Low_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Death_Hutt_Boss </Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Death_Hutt_Boss </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
+			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_04_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>1080</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</UniqueUnit>
+</Hutt_Heroes>

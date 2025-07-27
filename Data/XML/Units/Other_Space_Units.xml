@@ -2214,10 +2214,13 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Planets>Umbara</Required_Planets>
+		
 		<Required_Special_Structures>
-		Republic_Shipyard_Level_Two | CIS_Shipyard_Level_Two, AI_Category_Dummy | Non_Capital_Category_Dummy
+			Republic_Shipyard_Level_Two | CIS_Shipyard_Level_Two, AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
+		
 		<GUI_Row> 1 </GUI_Row>
+		
 		<Build_Cost_Credits>1200</Build_Cost_Credits>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>

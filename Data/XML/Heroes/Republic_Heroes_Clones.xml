@@ -107,7 +107,7 @@
 		<Land_Model_Anim_Override_Name> TrainedHero.alo </Land_Model_Anim_Override_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 		
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
@@ -293,7 +293,7 @@
 		<Land_Model_Anim_Override_Name>TrainedJetpackHero.alo</Land_Model_Anim_Override_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 		
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
@@ -649,7 +649,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
@@ -854,7 +854,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
@@ -1206,7 +1206,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -1375,7 +1375,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -1653,7 +1653,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -1907,7 +1907,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
@@ -2363,7 +2363,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
@@ -2540,7 +2540,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
@@ -2838,7 +2838,9 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<Property_Flags>HealsVehicles | HealsDroids</Property_Flags>
+
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
@@ -2962,7 +2964,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Vehicle_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Vehicle, VehicleHero, AirGunship, AirSpeeder</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Droid | Vehicle | VehicleHero | AirGunship | AirSpeeder</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Vehicle_Repair_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
@@ -3130,7 +3132,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
@@ -3370,7 +3372,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
@@ -3709,7 +3711,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
@@ -3881,7 +3883,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
@@ -4161,7 +4163,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
@@ -4354,7 +4356,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
@@ -4641,7 +4643,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
@@ -4841,7 +4843,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
@@ -5139,7 +5141,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
@@ -5566,7 +5568,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiVehicle | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiVehicle | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
@@ -5740,7 +5742,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
@@ -6040,7 +6042,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
@@ -6280,7 +6282,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
@@ -6779,7 +6781,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -6966,7 +6968,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -7251,7 +7253,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -7443,7 +7445,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -7786,7 +7788,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -7967,7 +7969,8 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<Property_Flags>HealsVehicles | HealsDroids</Property_Flags>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -8036,7 +8039,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Vehicle_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Vehicle, VehicleHero, AirGunship, AirSpeeder</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Droid | Vehicle | VehicleHero | AirGunship | AirSpeeder</Applicable_Unit_Categories>
 				<!-- Includes Fixer himself since having 2 Force_Healing_Ability at once is no bueno. -->
 				<Applicable_Unit_Types>Fixer</Applicable_Unit_Types>
 				<SFXEvent_Target_Affected>Unit_Vehicle_Repair_Pulse</SFXEvent_Target_Affected>
@@ -8112,7 +8115,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
@@ -8252,7 +8255,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
@@ -8553,7 +8556,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -8658,7 +8661,7 @@
 				<Activation_Max_Range> 30.0 </Activation_Max_Range>
 				<Applicable_Unit_Categories> </Applicable_Unit_Categories>
 
-			<!--	List needs to be updated as stuff is added -->
+				<!--	List needs to be updated as stuff is added -->
 				<Applicable_Unit_Types>  
 					Empire_Anti_Aircraft_Turret,
 					Empire_Anti_Infantry_Turret,
@@ -8741,7 +8744,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -8905,7 +8908,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -9024,7 +9027,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
@@ -9260,7 +9263,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
@@ -9528,7 +9531,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
@@ -9747,7 +9750,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
@@ -9954,7 +9957,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
@@ -10250,7 +10253,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
@@ -10459,7 +10462,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
@@ -10742,6 +10745,8 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIEUTENANT </Encyclopedia_Unit_Class>
 		<No_Colorization_Color> 69, 155, 212, 255 </No_Colorization_Color>
 
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
+
 		<Tactical_Health>160</Tactical_Health>
 
 		<Max_Speed>1.1</Max_Speed>
@@ -10866,7 +10871,6 @@
 		<Company_Units>Prudii_Skirata</Company_Units>
 		<Is_Homogeneous>No</Is_Homogeneous>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<CategoryMask>LandHero</CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
@@ -10953,7 +10957,6 @@
 		<Company_Units>Prudii_Skirata2</Company_Units>
 		<Is_Homogeneous>No</Is_Homogeneous>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<CategoryMask>LandHero</CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>

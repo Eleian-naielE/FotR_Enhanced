@@ -1,0 +1,2507 @@
+<?xml version="1.0"?>
+<Indigenous_Units>
+	<Indigenous_Unit Name="Template_Partisan_NoHardpoints">
+		<Text_ID>TEXT_UNIT_PARTISAN_GENERIC</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_IRREGULAR</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_GENERIC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_GENERIC_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_partisan_generic.tga</Icon_Name>
+
+		<No_Colorization_Color />
+		<Land_Model_Anim_Override_Name>RegularInfantry.alo</Land_Model_Anim_Override_Name>
+		<Scale_Factor>1.1</Scale_Factor>
+		<Land_Terrain_Model_Mapping></Land_Terrain_Model_Mapping>
+		<Select_Box_Scale>12</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>10</Size_Value>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .40 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.0</Max_Speed>
+		<OverrideAcceleration> 1.0 </OverrideAcceleration>
+		<OverrideDeceleration> 1.0 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Infantry </Armor_Type>
+		<Tactical_Health>12</Tactical_Health>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+
+		<Damage>4.0</Damage>
+		<AI_Combat_Power>3</AI_Combat_Power>
+		<Political_Control>0</Political_Control>
+
+		<Type>Walk</Type>
+		<CategoryMask> Organic | infantry | AntiInfantry</CategoryMask>
+		<Weather_Category>Infantry</Weather_Category>
+		<Deploys>No</Deploys>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Create_Team>Yes</Create_Team>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Affiliation/>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior>SELECTABLE, LANDING, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DEMOLITION</LandBehavior>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Target_Bones>Target_00</Target_Bones>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.25f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<CanCellStack>yes</CanCellStack>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationSpacing> .3 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Sensor_Range>20</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>250</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>false</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Turret_Rotate_Extent_Degrees>30.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>30.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>MuzzleA_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>MuzzleA_00</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>9000.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		<Turret_Targets_Ground_Vehicles>2</Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry>1</Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles>3</Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else>3</Turret_Targets_Anything_Else>
+		<Influences_Capture_Point>True</Influences_Capture_Point>
+
+		<Property_Flags>Fodder</Property_Flags>
+
+		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Civilian</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Civilian</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Civilian</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Civilian</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Civilian</SFXEvent_Guard>
+
+		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
+
+		<!-- Normal red blood -->
+		<Death_Explosions>Organic_Infantry_Blood, Organic_Infantry_Blood_Alt, Tiny_Dud</Death_Explosions>
+
+		<Death_Clone>Damage_Force_Whirlwind, Infantry_Electric_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
+	</Indigenous_Unit>
+
+	<Indigenous_Unit Name="Template_Partisan">
+		<Variant_Of_Existing_Type>Template_Partisan_NoHardpoints</Variant_Of_Existing_Type>
+
+		<HardPoints>HP_Partisan_Rifle_Hand_Unskilled</HardPoints>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, null</SFXEvent_Hardpoint_Destroyed>
+	</Indigenous_Unit>
+
+	<Container Name="Template_Partisan_Container">
+		<Text_ID>TEXT_UNIT_PARTISAN_GENERIC_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_IRREGULAR</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_GENERIC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_GENERIC_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_partisan_generic.tga</Icon_Name>
+
+		<Select_Box_Scale>45</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Max_Speed> 1.0 </Max_Speed>
+		<OverrideAcceleration>1.0</OverrideAcceleration>
+		<OverrideDeceleration>1.0</OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Organic | infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+
+		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Civilian</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Civilian</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Civilian</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Civilian</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Civilian</SFXEvent_Guard>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Civilian</SFXEvent_Assist_Attack>
+	</Container>
+
+	<GroundCompany Name="Template_Partisan_Squad">
+		<Text_ID>TEXT_UNIT_PARTISAN_GENERIC_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_IRREGULAR</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_GENERIC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_GENERIC_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_partisan_generic.tga</Icon_Name>
+
+		<Damage>18</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<Build_Tab_Land_Units>no</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>99</Tech_Level>
+
+		<Affiliation/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Troops</Company_Transport_Unit>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Ailon_Nova_Guard">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_AILON_NOVA_GUARD</Text_ID>
+		<Land_Model_Name>Ailon_Nova_Guard.alo</Land_Model_Name>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Ailon_Nova_Guard_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Ailon_Nova_Guard, Partisan_Ailon_Nova_Guard, Partisan_Ailon_Nova_Guard, Partisan_Ailon_Nova_Guard, Partisan_Ailon_Nova_Guard, Partisan_Ailon_Nova_Guard,
+		Partisan_Ailon_Nova_Guard, Partisan_Ailon_Nova_Guard, Partisan_Ailon_Nova_Guard, Partisan_Ailon_Nova_Guard, Partisan_Ailon_Nova_Guard, Partisan_Ailon_Nova_Guard,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Arkanian">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_ARKANIAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Arkanian_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Arkanian</Lua_Script>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Arkanian_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Arkanian, Partisan_Arkanian, Partisan_Arkanian, Partisan_Arkanian, Partisan_Arkanian, Partisan_Arkanian,
+		Partisan_Arkanian, Partisan_Arkanian, Partisan_Arkanian, Partisan_Arkanian, Partisan_Arkanian, Partisan_Arkanian,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Bothan">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_BOTHAN</Text_ID>
+		<Icon_Name>I_BUTTON_BOTHAN_CIVILIAN.tga</Icon_Name>
+		
+		<Land_Model_Name>NI_Soldier_Bothan_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Bothan</Lua_Script>
+		
+		<SFXEvent_Select>Unit_Select_Bothan</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Bothan</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Bothan</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Bothan</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Bothan</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Bothan</SFXEvent_Assist_Attack>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Bothan_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_BOTHAN_CIVILIAN.tga</Icon_Name>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Bothan, Partisan_Bothan, Partisan_Bothan, Partisan_Bothan, Partisan_Bothan, Partisan_Bothan,
+		Partisan_Bothan, Partisan_Bothan, Partisan_Bothan, Partisan_Bothan, Partisan_Bothan, Partisan_Bothan,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Cathar">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_CATHAR</Text_ID>
+		<Land_Model_Name>NI_Soldier_Cathar_F.alo</Land_Model_Name>
+
+		<Death_Explosions>Organic_Infantry_Blood_Cyan, Organic_Infantry_Blood_Cyan_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Cyan_Explosion</Death_Clone>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Cathar_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Cathar, Partisan_Cathar, Partisan_Cathar, Partisan_Cathar, Partisan_Cathar, Partisan_Cathar,
+		Partisan_Cathar, Partisan_Cathar, Partisan_Cathar, Partisan_Cathar, Partisan_Cathar, Partisan_Cathar,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Cerean">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_CEREAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Cerean_M.alo</Land_Model_Name>
+
+		<Death_Explosions>Organic_Infantry_Blood_Cyan, Organic_Infantry_Blood_Cyan_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Cyan_Explosion</Death_Clone>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Cerean_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Cerean, Partisan_Cerean, Partisan_Cerean, Partisan_Cerean, Partisan_Cerean, Partisan_Cerean,
+		Partisan_Cerean, Partisan_Cerean, Partisan_Cerean, Partisan_Cerean, Partisan_Cerean, Partisan_Cerean,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Chiss">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_CHISS</Text_ID>
+		<Land_Model_Name>NI_Soldier_Chiss_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Chiss</Lua_Script>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Chiss_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Chiss, Partisan_Chiss, Partisan_Chiss, Partisan_Chiss, Partisan_Chiss, Partisan_Chiss,
+		Partisan_Chiss, Partisan_Chiss, Partisan_Chiss, Partisan_Chiss, Partisan_Chiss, Partisan_Chiss,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Corellian">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_CORELLIAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Human_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Human</Lua_Script>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Corellian_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Corellian, Partisan_Corellian, Partisan_Corellian, Partisan_Corellian, Partisan_Corellian, Partisan_Corellian,
+		Partisan_Corellian, Partisan_Corellian, Partisan_Corellian, Partisan_Corellian, Partisan_Corellian, Partisan_Corellian,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Cultist">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_CULTIST</Text_ID>
+		<Land_Model_Name>ForceCultist_Minor.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>MilitiaInfantry.alo</Land_Model_Anim_Override_Name>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+		<Death_Explosions>Organic_Infantry_Blood_Black, Organic_Infantry_Blood_Black_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Black_Explosion</Death_Clone>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Cultist_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Cultist, Partisan_Cultist, Partisan_Cultist, Partisan_Cultist, Partisan_Cultist, Partisan_Cultist,
+		Partisan_Cultist, Partisan_Cultist, Partisan_Cultist, Partisan_Cultist, Partisan_Cultist, Partisan_Cultist,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Duros">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_DUROS</Text_ID>
+		<Land_Model_Name>NI_Soldier_Duros_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Duros</Lua_Script>
+
+		<SFXEvent_Select>Unit_Select_Pirate_Soldier</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Pirate_Soldier</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Pirate_Soldier</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Pirate_Soldier</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Pirate_Soldier</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Pirate_Soldier</SFXEvent_Guard>
+
+		<Death_Explosions>Organic_Infantry_Blood_Cyan, Organic_Infantry_Blood_Cyan_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Cyan_Explosion</Death_Clone>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Duros_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Duros, Partisan_Duros, Partisan_Duros, Partisan_Duros, Partisan_Duros, Partisan_Duros,
+		Partisan_Duros, Partisan_Duros, Partisan_Duros, Partisan_Duros, Partisan_Duros, Partisan_Duros,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Ewok_Warrior">
+		<Variant_Of_Existing_Type>Template_Partisan_NoHardpoints</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_EWOK_WARRIOR</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_EWOK
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_EWOK_WARRIOR_HEALTH
+		TEXT_TOOLTIP_EWOK_MOVE
+		TEXT_TOOLTIP_EWOK_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_EWOK.tga</Icon_Name>
+
+		<Land_Model_Name>NI_EWOK.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>NI_EWOK.ALO</Land_Model_Anim_Override_Name>
+		<Scale_Factor>0.9</Scale_Factor>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+
+		<Tactical_Health>12</Tactical_Health>
+
+		<Max_Speed>0.8</Max_Speed>
+		<OverrideAcceleration> 0.8 </OverrideAcceleration>
+		<OverrideDeceleration> 0.8 </OverrideDeceleration>
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+
+		<Projectile_Types>Proj_Ewok_Rock</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 6 </Projectile_Appearance_Delay_Frames>
+
+		<!-- Built-in Weapon Placeholder since individual tags do not work-->
+		<Targeting_Fire_Inaccuracy_Fixed_Radius> 10 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+
+		<Target_Bones>B_Chest</Target_Bones>
+		<Ranged_Target_Z_Adjust>1.0</Ranged_Target_Z_Adjust>
+		<!-- Bone and adjust for vanilla ewok asset rig -->
+
+		<SFXEvent_Select>Unit_Select_Ewok</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Ewok</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Ewok</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Ewok</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Ewok </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Attack_Ewok </SFXEvent_Assist_Attack>
+		<SFXEvent_Fire>Unit_Ewok_Rock_Throw</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die> Unit_Ewok_Death </Death_SFXEvent_Start_Die>
+
+		<Death_Clone>Damage_Force_Whirlwind, Partisan_Ewok_Warrior_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Partisan_Ewok_Warrior_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Fire, Partisan_Ewok_Warrior_Fire_Death_Clone</Death_Clone>
+		<Death_Clone>DamageL_Flamer, Partisan_Ewok_Warrior_Fire_Death_Clone</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Partisan_Ewok_Warrior_Fire_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Remote_Bomb, Partisan_Ewok_Warrior_Remote_Bomb_Death_Clone</Death_Clone>
+		<Death_Clone>DamageL_Disruptor, Infantry_Short_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Disruptor, Infantry_Short_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Short_Plasma_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Short_Plasma_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Short_Electric_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Short_Electric_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Disruptor, Infantry_Short_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Disruptor, Infantry_Short_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Short_Melt_Death_Clone_00</Death_Clone>
+	</Indigenous_Unit>
+
+	<Indigenous_Unit Name="Partisan_Ewok_Brave">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Warrior</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_EWOK_BRAVE</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_EWOK
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_EWOK_BRAVE_HEALTH
+		TEXT_TOOLTIP_EWOK_BRAVE_MOVE
+		TEXT_TOOLTIP_EWOK_BRAVE_GUARD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name> NI_EWOK_B.ALO </Land_Model_Name>
+
+		<Tactical_Health>8</Tactical_Health>
+
+		<Death_Clone>Damage_Force_Whirlwind, Partisan_Ewok_Brave_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Partisan_Ewok_Brave_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Fire, Partisan_Ewok_Brave_Fire_Death_Clone</Death_Clone>
+		<Death_Clone>DamageL_Flamer, Partisan_Ewok_Brave_Fire_Death_Clone</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Partisan_Ewok_Brave_Fire_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Remote_Bomb, Partisan_Ewok_Brave_Remote_Bomb_Death_Clone</Death_Clone>
+	</Indigenous_Unit>
+
+	<Indigenous_Unit Name="Partisan_Ewok_Chieftain">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Warrior</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_EWOK_CHIEFTAIN</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_EWOK
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_EWOK_CHIEFTAIN_HEALTH
+		TEXT_TOOLTIP_EWOK_MOVE
+		TEXT_TOOLTIP_EWOK_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name> NI_EWOK_C.ALO </Land_Model_Name>
+
+		<Tactical_Health>16</Tactical_Health>
+
+		<Death_Clone>Damage_Force_Whirlwind, Partisan_Ewok_Chieftain_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Partisan_Ewok_Chieftain_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Fire, Partisan_Ewok_Chieftain_Fire_Death_Clone</Death_Clone>
+		<Death_Clone>DamageL_Flamer, Partisan_Ewok_Chieftain_Fire_Death_Clone</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Partisan_Ewok_Chieftain_Fire_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Remote_Bomb, Partisan_Ewok_Chieftain_Remote_Bomb_Death_Clone</Death_Clone>
+	</Indigenous_Unit>
+
+	<Container Name="Partisan_Ewok_Container">
+		<Variant_Of_Existing_Type>Template_Partisan_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_EWOK_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_EWOK
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_EWOK_SQUAD
+		TEXT_TOOLTIP_PARTISAN_EWOK_MIXED_HEALTH
+		TEXT_TOOLTIP_PARTISAN_EWOK_MOVE
+		TEXT_TOOLTIP_PARTISAN_EWOK_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_EWOK.tga</Icon_Name>
+
+		<Max_Speed>0.8</Max_Speed>
+		<OverrideAcceleration> 0.8 </OverrideAcceleration>
+		<OverrideDeceleration> 0.8 </OverrideDeceleration>
+	</Container>
+
+	<GroundCompany Name="Partisan_Ewok_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EWOK.tga</Icon_Name>
+
+		<Max_Squad_Size>18</Max_Squad_Size>
+
+		<Create_Team_Type>Partisan_Ewok_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Ewok_Chieftain, Partisan_Ewok_Warrior, Partisan_Ewok_Warrior, Partisan_Ewok_Warrior, Partisan_Ewok_Warrior, Partisan_Ewok_Warrior,
+		Partisan_Ewok_Warrior, Partisan_Ewok_Warrior, Partisan_Ewok_Warrior, Partisan_Ewok_Warrior, Partisan_Ewok_Warrior, Partisan_Ewok_Warrior,
+		Partisan_Ewok_Brave, Partisan_Ewok_Brave, Partisan_Ewok_Brave, Partisan_Ewok_Brave, Partisan_Ewok_Brave, Partisan_Ewok_Brave,
+		</Company_Units>
+	</GroundCompany>
+
+	<Death_Clone Name="Partisan_Ewok_Brave_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Brave</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Ewok_Brave_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Brave</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Ewok_Brave_Remote_Bomb_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Brave</Variant_Of_Existing_Type>
+		<Death_SFXEvent_Start_Die>Unit_Ewok_Bomb_Death</Death_SFXEvent_Start_Die>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Ewok_Brave_Fire_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Brave</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FIRE_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Ewok_Warrior_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Warrior</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Ewok_Warrior_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Warrior</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Ewok_Warrior_Remote_Bomb_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Warrior</Variant_Of_Existing_Type>
+		<Death_SFXEvent_Start_Die>Unit_Ewok_Bomb_Death</Death_SFXEvent_Start_Die>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Ewok_Warrior_Fire_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Warrior</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FIRE_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Ewok_Chieftain_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Chieftain</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Ewok_Chieftain_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Chieftain</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Ewok_Chieftain_Remote_Bomb_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Chieftain</Variant_Of_Existing_Type>
+		<Death_SFXEvent_Start_Die>Unit_Ewok_Bomb_Death</Death_SFXEvent_Start_Die>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Ewok_Chieftain_Fire_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Chieftain</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FIRE_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+
+	<Indigenous_Unit Name="Partisan_Falleen">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_FALLEEN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Falleen_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Falleen</Lua_Script>
+
+		<Death_Explosions>Organic_Infantry_Blood_Cyan, Organic_Infantry_Blood_Cyan_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Cyan_Explosion</Death_Clone>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Falleen_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Falleen, Partisan_Falleen, Partisan_Falleen, Partisan_Falleen, Partisan_Falleen, Partisan_Falleen,
+		Partisan_Falleen, Partisan_Falleen, Partisan_Falleen, Partisan_Falleen, Partisan_Falleen, Partisan_Falleen,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Ferroan">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_FERROAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Ferroan_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Ferroan</Lua_Script>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Ferroan_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Ferroan, Partisan_Ferroan, Partisan_Ferroan, Partisan_Ferroan, Partisan_Ferroan, Partisan_Ferroan,
+		Partisan_Ferroan, Partisan_Ferroan, Partisan_Ferroan, Partisan_Ferroan, Partisan_Ferroan, Partisan_Ferroan,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Gamorrean">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_GAMORREAN</Text_ID>
+		<Land_Model_Name>Hutt_Gamorrean.alo</Land_Model_Name>
+
+		<SFXEvent_Select>Unit_Select_Gamorrean</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Gamorrean</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gamorrean</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Gamorrean</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Gamorrean </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Gamorrean </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Gamorrean</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Death_Gamorrean</Death_SFXEvent_Start_Die>
+
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Gamorrean_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Gamorrean, Partisan_Gamorrean, Partisan_Gamorrean, Partisan_Gamorrean, Partisan_Gamorrean, Partisan_Gamorrean,
+		Partisan_Gamorrean, Partisan_Gamorrean, Partisan_Gamorrean, Partisan_Gamorrean, Partisan_Gamorrean, Partisan_Gamorrean,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Geonosian">
+		<Variant_Of_Existing_Type>Template_Partisan_NoHardpoints</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_GEONOSIAN</Text_ID>
+  		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_GENERIC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GEONOSIAN_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GEONOSIAN_MOVE
+		TEXT_TOOLTIP_PARTISAN_GEONOSIAN_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GEONOSIAN.tga</Icon_Name>
+
+		<Land_Model_Name>NI_Geonosian.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>NI_Geonosian.ALO</Land_Model_Anim_Override_Name>
+
+		<Max_Speed>1.4</Max_Speed>
+		<OverrideAcceleration> 1.4 </OverrideAcceleration>
+		<OverrideDeceleration> 1.4 </OverrideDeceleration>
+
+		<Tactical_Health>9</Tactical_Health>
+		<Ranged_Target_Z_Adjust>16.0</Ranged_Target_Z_Adjust>
+
+		<!-- Sonic Blaster Placeholder -->
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_Sonic_Blaster</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<!-- Built-in Weapon Placeholder since individual tags do not work-->
+		<Targeting_Fire_Inaccuracy_Fixed_Radius> 20 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+
+		<SFXEvent_Select>Ambient_Geonosian_Random_Chatter</SFXEvent_Select>
+		<SFXEvent_Move>Ambient_Geonosian_Random_Chatter</SFXEvent_Move>
+		<SFXEvent_Attack>Ambient_Geonosian_Random_Chatter</SFXEvent_Attack>
+		<SFXEvent_Guard>Ambient_Geonosian_Random_Chatter</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Ambient_Geonosian_Random_Chatter</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Ambient_Geonosian_Random_Chatter</SFXEvent_Assist_Attack>
+		<Death_SFXEvent_Start_Die> Unit_Geonosian_Death </Death_SFXEvent_Start_Die>
+		
+		<SFXEvent_Fire>Unit_Geonosian_Fire</SFXEvent_Fire>
+		
+		<SFXEvent_Engine_Idle_Loop> Unit_Geonosian_Idle_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Geonosian_Moving_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Ambient_Moving> Ambient_Geonosian_Random_Chatter </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 3 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+
+		<!-- Ichor for geonosians -->
+		<Death_Explosions>Organic_Infantry_Ichor, Organic_Infantry_Ichor_Alt, Tiny_Dud</Death_Explosions>
+
+		<Death_Clone>Damage_Force_Whirlwind, Partisan_Geonosian_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Partisan_Geonosian_Force_Lightning_Death_Clone</Death_Clone>
+	</Indigenous_Unit>
+
+	<Container Name="Partisan_Geonosian_Container">
+		<Variant_Of_Existing_Type>Template_Partisan_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_GEONOSIAN_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_GENERIC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GEONOSIAN_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GEONOSIAN_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GEONOSIAN_MOVE
+		TEXT_TOOLTIP_PARTISAN_GEONOSIAN_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GEONOSIAN.tga</Icon_Name>
+
+		<Max_Speed> 1.4 </Max_Speed>
+		<OverrideAcceleration>1.4</OverrideAcceleration>
+		<OverrideDeceleration>1.4</OverrideDeceleration>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+		</Unit_Abilities_Data>
+	</Container>
+
+	<GroundCompany Name="Partisan_Geonosian_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_GEONOSIAN.tga</Icon_Name>
+
+		<Max_Squad_Size>16</Max_Squad_Size>
+
+		<Create_Team_Type>Partisan_Geonosian_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Geonosian, Partisan_Geonosian, Partisan_Geonosian, Partisan_Geonosian, Partisan_Geonosian, Partisan_Geonosian,
+		Partisan_Geonosian, Partisan_Geonosian, Partisan_Geonosian, Partisan_Geonosian, Partisan_Geonosian, Partisan_Geonosian,
+		Partisan_Geonosian, Partisan_Geonosian, Partisan_Geonosian, Partisan_Geonosian,
+		</Company_Units>
+	</GroundCompany>
+
+	<Death_Clone Name="Partisan_Geonosian_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Geonosian</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Geonosian_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Geonosian</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+
+	<Indigenous_Unit Name="Partisan_Gungan">
+		<Variant_Of_Existing_Type>Template_Partisan_NoHardpoints</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_GUNGAN</Text_ID>
+  		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_GUNGAN
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GUNGAN_MOVE
+		TEXT_TOOLTIP_PARTISAN_GUNGAN_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GUNGAN.tga</Icon_Name>
+
+		<Land_Model_Name>NI_Gungan.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>NI_Gungan.alo</Land_Model_Anim_Override_Name>
+
+		<Max_Speed>1.2</Max_Speed>
+		<OverrideAcceleration> 1.2 </OverrideAcceleration>
+		<OverrideDeceleration> 1.2 </OverrideDeceleration>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+
+		<Projectile_Types>Proj_Gungan_Energy_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>3.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+        <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<SFXEvent_Select>Unit_Select_Gungan</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Gungan</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Gungan</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Gungan</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Gungan </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Attack_Gungan </SFXEvent_Assist_Attack>
+		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
+
+		<Death_Clone>Damage_Force_Whirlwind, Partisan_Gungan_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Partisan_Gungan_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Partisan_Gungan_Crush_Death_Clone</Death_Clone>
+	</Indigenous_Unit>
+
+	<Container Name="Partisan_Gungan_Container">
+		<Variant_Of_Existing_Type>Template_Partisan_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_GUNGAN_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_GUNGAN
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GUNGAN_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GUNGAN_MOVE
+		TEXT_TOOLTIP_PARTISAN_GUNGAN_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GUNGAN.tga</Icon_Name>
+
+		<Max_Speed>1.2</Max_Speed>
+		<OverrideAcceleration> 1.2 </OverrideAcceleration>
+		<OverrideDeceleration> 1.2 </OverrideDeceleration>
+	</Container>
+
+	<GroundCompany Name="Partisan_Gungan_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_GUNGAN.tga</Icon_Name>
+
+		<Create_Team_Type>Partisan_Gungan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Gungan, Partisan_Gungan, Partisan_Gungan, Partisan_Gungan, Partisan_Gungan, Partisan_Gungan,
+		Partisan_Gungan, Partisan_Gungan, Partisan_Gungan, Partisan_Gungan, Partisan_Gungan, Partisan_Gungan,
+		</Company_Units>
+	</GroundCompany>
+
+	<Death_Clone Name="Partisan_Gungan_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Gungan</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Gungan_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Gungan</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Gungan_Crush_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Gungan</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+
+	<Indigenous_Unit Name="Partisan_Hapan">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_HAPAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Human_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Human</Lua_Script>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Hapan_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Hapan, Partisan_Hapan, Partisan_Hapan, Partisan_Hapan, Partisan_Hapan, Partisan_Hapan,
+		Partisan_Hapan, Partisan_Hapan, Partisan_Hapan, Partisan_Hapan, Partisan_Hapan, Partisan_Hapan,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Human">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_HUMAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Human_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Human</Lua_Script>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Human_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Human, Partisan_Human, Partisan_Human, Partisan_Human, Partisan_Human, Partisan_Human,
+		Partisan_Human, Partisan_Human, Partisan_Human, Partisan_Human, Partisan_Human, Partisan_Human,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Hutt">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_HUTT</Text_ID>
+		<Icon_Name>I_BUTTON_HUTT.tga</Icon_Name>
+		
+		<Land_Model_Name>Hutt_Hutt.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Hutt_Hutt.alo</Land_Model_Anim_Override_Name>
+		<Scale_Factor>1.35</Scale_Factor>
+		
+		<HardPoints>HP_Partisan_Rifle_Unskilled</HardPoints>
+
+		<SFXEvent_Select>Unit_Select_Armored_Hutt</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Armored_Hutt</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Armored_Hutt</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Armored_Hutt</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Armored_Hutt</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Armored_Hutt</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Armored_Hutt</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Hutt_Death</Death_SFXEvent_Start_Die>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Hutt_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_HUTT.tga</Icon_Name>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Hutt, Partisan_Hutt, Partisan_Hutt, Partisan_Hutt, Partisan_Hutt, Partisan_Hutt,
+		Partisan_Hutt, Partisan_Hutt, Partisan_Hutt, Partisan_Hutt, Partisan_Hutt, Partisan_Hutt,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Jawa">
+		<Variant_Of_Existing_Type>Template_Partisan_NoHardpoints</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_JAWA</Text_ID>
+  		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_JAWA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_JAWA_MOVE
+		TEXT_TOOLTIP_PARTISAN_JAWA_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_JAWA.tga</Icon_Name>
+
+		<Land_Model_Name>NI_JAWA.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>NI_JAWA.ALO</Land_Model_Anim_Override_Name>
+
+		<Max_Speed>0.8</Max_Speed>
+		<OverrideAcceleration> 0.8 </OverrideAcceleration>
+		<OverrideDeceleration> 0.8 </OverrideDeceleration>
+
+		<!-- Ion Gun Placeholder -->
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_Droideka_Ion</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
+
+		<!-- Built-in Weapon Placeholder since individual tags do not work-->
+		<Targeting_Fire_Inaccuracy_Fixed_Radius> 5 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+
+		<SFXEvent_Select>Unit_Select_Jawa</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Jawa</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Jawa</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Jawa</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Jawa </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Attack_Jawa </SFXEvent_Assist_Attack>
+
+		<SFXEvent_Fire>Unit_Jawa_Blaster_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die> Unit_Jawa_Death </Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Ambient_Moving> Ambient_Jawa_Random_Chatter </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 3 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+
+		<!-- Normal red blood for jawa -->
+		<Death_Explosions>Organic_Infantry_Blood, Organic_Infantry_Blood_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Cyan_Explosion</Death_Clone>
+
+		<Death_Clone>Damage_Force_Whirlwind, Partisan_Jawa_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Partisan_Jawa_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Fire, Partisan_Jawa_Fire_Death_Clone</Death_Clone>
+		<Death_Clone>DamageL_Flamer,Partisan_Jawa Partisan_Jawa_Fire_Death_Clone</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Partisan_Jawa_Fire_Death_Clone</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Short_Plasma_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Short_Plasma_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Short_Electric_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Short_Electric_Death_Clone_01</Death_Clone>
+
+		<Death_Clone>DamageL_Disruptor, Infantry_Short_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Disruptor, Infantry_Short_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Short_Melt_Death_Clone_00</Death_Clone>
+	</Indigenous_Unit>
+
+	<Container Name="Partisan_Jawa_Container">
+		<Variant_Of_Existing_Type>Template_Partisan_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_JAWA_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_JAWA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_JAWA_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_JAWA_MOVE
+		TEXT_TOOLTIP_PARTISAN_JAWA_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_JAWA.tga</Icon_Name>
+
+		<Max_Speed>0.8</Max_Speed>
+		<OverrideAcceleration> 0.8 </OverrideAcceleration>
+		<OverrideDeceleration> 0.8 </OverrideDeceleration>
+	</Container>
+
+	<GroundCompany Name="Partisan_Jawa_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_JAWA_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_JAWA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_JAWA_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_JAWA_MOVE
+		TEXT_TOOLTIP_PARTISAN_JAWA_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_JAWA.tga</Icon_Name>
+
+		<Create_Team_Type>Partisan_Jawa_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Jawa, Partisan_Jawa, Partisan_Jawa, Partisan_Jawa, Partisan_Jawa, Partisan_Jawa,
+		Partisan_Jawa, Partisan_Jawa, Partisan_Jawa, Partisan_Jawa, Partisan_Jawa, Partisan_Jawa,
+		</Company_Units>
+	</GroundCompany>
+
+	<Death_Clone Name="Partisan_Jawa_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Jawa</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Jawa_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Jawa</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Jawa_Fire_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Jawa</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FIRE_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+
+	<Indigenous_Unit Name="Partisan_KelDor">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_KELDOR</Text_ID>
+		<Land_Model_Name>NI_Soldier_KelDor_M.alo</Land_Model_Name>
+
+		<Death_Explosions>Organic_Infantry_Blood_Cyan, Organic_Infantry_Blood_Cyan_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Cyan_Explosion</Death_Clone>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_KelDor_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_KelDor, Partisan_KelDor, Partisan_KelDor, Partisan_KelDor, Partisan_KelDor, Partisan_KelDor,
+		Partisan_KelDor, Partisan_KelDor, Partisan_KelDor, Partisan_KelDor, Partisan_KelDor, Partisan_KelDor,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Klatooinian">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_KLATOOINIAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Klatooinian_M.alo</Land_Model_Name>
+		<Scale_Factor>1.2</Scale_Factor>
+
+		<SFXEvent_Select>Unit_Select_Hutt_Guard</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Guard</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Guard</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Guard</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Hutt_Guard </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Hutt_Guard </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Guard</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Death_Hutt_Guard</Death_SFXEvent_Start_Die>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Klatooinian_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Klatooinian, Partisan_Klatooinian, Partisan_Klatooinian, Partisan_Klatooinian, Partisan_Klatooinian, Partisan_Klatooinian,
+		Partisan_Klatooinian, Partisan_Klatooinian, Partisan_Klatooinian, Partisan_Klatooinian, Partisan_Klatooinian, Partisan_Klatooinian,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Krath">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_KRATH</Text_ID>
+		<Land_Model_Name>NI_Soldier_Human_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Human</Lua_Script>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Krath_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Krath, Partisan_Krath, Partisan_Krath, Partisan_Krath, Partisan_Krath, Partisan_Krath,
+		Partisan_Krath, Partisan_Krath, Partisan_Krath, Partisan_Krath, Partisan_Krath, Partisan_Krath,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Mandalorian"> <!-- CoreSaga only. In Rev, Mando spawners produce Partisan_Humans -->
+		<Variant_Of_Existing_Type>Mandalorian_Soldier</Variant_Of_Existing_Type>
+
+		<Victory_Relevant>no</Victory_Relevant>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Mandalorian_Squad">
+		<Variant_Of_Existing_Type>Mandalorian_Soldier_Squad</Variant_Of_Existing_Type>
+
+		<Company_Units>
+		Partisan_Mandalorian, Partisan_Mandalorian, Partisan_Mandalorian, Partisan_Mandalorian,
+		Partisan_Mandalorian, Partisan_Mandalorian, Partisan_Mandalorian, Partisan_Mandalorian,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Massassi">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_MASSASSI</Text_ID>
+		<Icon_Name>I_BUTTON_MASSASSI_SOLDIER.tga</Icon_Name>
+		
+		<Land_Model_Name>Sith_Massassi.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>RegularInfantry.alo</Land_Model_Anim_Override_Name>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Massassi_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_MASSASSI_SOLDIER.tga</Icon_Name>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Massassi, Partisan_Massassi, Partisan_Massassi, Partisan_Massassi, Partisan_Massassi, Partisan_Massassi,
+		Partisan_Massassi, Partisan_Massassi, Partisan_Massassi, Partisan_Massassi, Partisan_Massassi, Partisan_Massassi,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Mirialan">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_MIRIALAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Mirialan_F.alo</Land_Model_Name>
+
+		<SFXEvent_Select>Unit_Select_Twilek</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Twilek</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Twilek</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Twilek</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Twilek</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Twilek</SFXEvent_Guard>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Twilek</SFXEvent_Assist_Attack>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Mirialan_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Mirialan, Partisan_Mirialan, Partisan_Mirialan, Partisan_Mirialan, Partisan_Mirialan, Partisan_Mirialan,
+		Partisan_Mirialan, Partisan_Mirialan, Partisan_Mirialan, Partisan_Mirialan, Partisan_Mirialan, Partisan_Mirialan,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Mon_Calamari">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_MON_CALAMARI</Text_ID>
+		<Icon_Name>I_BUTTON_MONCALCIV.tga</Icon_Name>
+		
+		<Land_Model_Name>NI_Soldier_Mon_Calamari_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Mon_Calamari</Lua_Script>
+
+		<SFXEvent_Select>Unit_Select_Calamarian</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Calamarian</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Calamarian</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Calamarian</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Calamarian</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Calamarian</SFXEvent_Guard>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Mon_Calamari_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_MONCALCIV.tga</Icon_Name>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Mon_Calamari, Partisan_Mon_Calamari, Partisan_Mon_Calamari, Partisan_Mon_Calamari, Partisan_Mon_Calamari, Partisan_Mon_Calamari,
+		Partisan_Mon_Calamari, Partisan_Mon_Calamari, Partisan_Mon_Calamari, Partisan_Mon_Calamari, Partisan_Mon_Calamari, Partisan_Mon_Calamari,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Mustafarian">
+		<Variant_Of_Existing_Type>Template_Partisan_NoHardpoints</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_MUSTAFARIAN</Text_ID>
+  		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_GENERIC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_MUSTAFARIAN_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>NI_Mustafarian.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>NI_Mustafarian.ALO</Land_Model_Anim_Override_Name>
+
+		<!-- Concussion Gun Placeholder -->
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_Concussion_Rifle</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire>Unit_Concussion_Rifle_Fire</SFXEvent_Fire>
+
+		<!-- Built-in Weapon Placeholder since individual tags do not work-->
+		<Targeting_Fire_Inaccuracy_Fixed_Radius> 20 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+
+		<!-- Yellow blood ichor for the insectoid mustafarians -->
+		<Death_Explosions>Organic_Infantry_Ichor, Organic_Infantry_Ichor_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Ichor_Explosion</Death_Clone>
+
+		<Death_Clone>Damage_Force_Whirlwind, Partisan_Mustafarian_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Partisan_Mustafarian_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Partisan_Mustafarian_Crush_Death_Clone</Death_Clone>
+	</Indigenous_Unit>
+
+	<Container Name="Partisan_Mustafarian_Container">
+		<Variant_Of_Existing_Type>Template_Partisan_Container</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_GENERIC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_MUSTAFARIAN_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+	</Container>
+
+	<GroundCompany Name="Partisan_Mustafarian_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_GENERIC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_MUSTAFARIAN_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Create_Team_Type>Partisan_Mustafarian_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Mustafarian, Partisan_Mustafarian, Partisan_Mustafarian, Partisan_Mustafarian, Partisan_Mustafarian, Partisan_Mustafarian,
+		Partisan_Mustafarian, Partisan_Mustafarian, Partisan_Mustafarian, Partisan_Mustafarian, Partisan_Mustafarian, Partisan_Mustafarian,
+		</Company_Units>
+	</GroundCompany>
+
+	<Death_Clone Name="Partisan_Mustafarian_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Mustafarian</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Mustafarian_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Mustafarian</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Mustafarian_Crush_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Mustafarian</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+
+	<Indigenous_Unit Name="Partisan_Nautolan">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_NAUTOLAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Nautolan_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Nautolan</Lua_Script>
+
+		<Death_Explosions>Organic_Infantry_Blood_Cyan, Organic_Infantry_Blood_Cyan_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Cyan_Explosion</Death_Clone>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Nautolan_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Nautolan, Partisan_Nautolan, Partisan_Nautolan, Partisan_Nautolan, Partisan_Nautolan, Partisan_Nautolan,
+		Partisan_Nautolan, Partisan_Nautolan, Partisan_Nautolan, Partisan_Nautolan, Partisan_Nautolan, Partisan_Nautolan,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Neimoidian">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_NEIMOIDIAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Neimoidian_M.alo</Land_Model_Name>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Neimoidian_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Neimoidian, Partisan_Neimoidian, Partisan_Neimoidian, Partisan_Neimoidian, Partisan_Neimoidian, Partisan_Neimoidian,
+		Partisan_Neimoidian, Partisan_Neimoidian, Partisan_Neimoidian, Partisan_Neimoidian, Partisan_Neimoidian, Partisan_Neimoidian,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Nightsister">
+		<Variant_Of_Existing_Type>Template_Partisan_NoHardpoints</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_NIGHTSISTER</Text_ID>
+  		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_NIGHTSISTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_NIGHTSISTER_HEALTH
+		TEXT_TOOLTIP_PARTISAN_NIGHTSISTER_MOVE
+		TEXT_TOOLTIP_PARTISAN_NIGHTSISTER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NI_NIGHTSISTER_RANGER.tga</Icon_Name>
+		
+		<Land_Model_Name>NI_nightsister_ranger.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>NI_nightsister_ranger.ALO</Land_Model_Anim_Override_Name>
+
+		<Targeting_Max_Attack_Distance>175.0</Targeting_Max_Attack_Distance>
+		<AI_Combat_Power>5</AI_Combat_Power>
+
+		<Projectile_Types>Proj_Indig_Nightsister_Lightning</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>4.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 8.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> AirGunship, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> AirSpeeder, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 8.0 </Targeting_Fire_Inaccuracy>
+
+		<Target_Bones>B_Chest</Target_Bones>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
+		<!-- Bone and adjust for vanilla asset rig -->
+
+		<SFXEvent_Select>Unit_Select_Night_Sister</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Night_Sister</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gallofree_HTT</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Night_Sister</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Night_Sister</SFXEvent_Guard>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DRAIN_LIFE</Type>
+				<Recharge_Seconds>40.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Nightsister_Drain_Life </GUI_Activated_Ability_Name>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_DESCRIPTION</Alternate_Description_Text>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Drain_Night_Sister </SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Drain_Life_Ability Name="Nightsister_Drain_Life">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Categories>InfantryHero</Excluded_Unit_Categories>
+
+				<Excluded_Unit_Types>
+					Demolition_Bomb,
+					Proximity_Mine
+				</Excluded_Unit_Types>
+
+				<Duration_In_Seconds>5</Duration_In_Seconds>
+				<Damage_Per_Second>15</Damage_Per_Second>
+				<Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>
+				<Drain_Source_Bone_Name>B_HAND_L</Drain_Source_Bone_Name>
+				<Drain_Target_Bone_Name>B_PELVIS</Drain_Target_Bone_Name>
+				<Drain_Radius> 100.0 </Drain_Radius>
+				<SFXEvent_Activate>Unit_Drain_Life</SFXEvent_Activate>
+				<Max_Drain_Victims>4</Max_Drain_Victims>
+				<Should_Heal>No</Should_Heal>
+			</Drain_Life_Ability>
+		</Abilities>
+	</Indigenous_Unit>
+
+	<Container Name="Partisan_Nightsister_Container">
+		<Variant_Of_Existing_Type>Template_Partisan_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_NIGHTSISTER_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_NIGHTSISTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_NIGHTSISTER_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_NIGHTSISTER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NI_NIGHTSISTER_RANGER.tga</Icon_Name>
+	</Container>
+
+	<GroundCompany Name="Partisan_Nightsister_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_NI_NIGHTSISTER_RANGER.tga</Icon_Name>
+
+		<Max_Squad_Size>5</Max_Squad_Size>
+
+		<Create_Team_Type>Partisan_Nightsister_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Nightsister, Partisan_Nightsister, Partisan_Nightsister, Partisan_Nightsister, Partisan_Nightsister
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Nikto">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_NIKTO</Text_ID>
+		<Land_Model_Name>NI_Soldier_Nikto_M.alo</Land_Model_Name>
+		<Scale_Factor>1.2</Scale_Factor>
+
+		<SFXEvent_Select>Unit_Select_Hutt_Guard</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Guard</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Guard</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Guard</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Hutt_Guard </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Hutt_Guard </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Guard</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Death_Hutt_Guard</Death_SFXEvent_Start_Die>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Nikto_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Nikto, Partisan_Nikto, Partisan_Nikto, Partisan_Nikto, Partisan_Nikto, Partisan_Nikto,
+		Partisan_Nikto, Partisan_Nikto, Partisan_Nikto, Partisan_Nikto, Partisan_Nikto, Partisan_Nikto,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Noghri">
+		<Variant_Of_Existing_Type>Template_Partisan_NoHardpoints</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_NOGHRI</Text_ID>
+  		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_NOGHRI
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_NOGHRI_MOVE
+		TEXT_TOOLTIP_PARTISAN_NOGHRI_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NOGHRI.tga</Icon_Name>
+
+		<Land_Model_Name>NI_Noghri.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>NI_Noghri.ALO</Land_Model_Anim_Override_Name>
+
+		<Max_Speed>1.1</Max_Speed>
+		<OverrideAcceleration> 1.1 </OverrideAcceleration>
+		<OverrideDeceleration> 1.1 </OverrideDeceleration>
+
+		<!-- Heavy Slug Pistol Placeholder -->
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_Slug_Rifle</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+
+		<!-- Built-in Weapon Placeholder since individual tags do not work-->
+		<Targeting_Fire_Inaccuracy_Fixed_Radius> 15 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+
+		<SFXEvent_Select>Unit_Select_Noghri</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Noghri</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Noghri</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Noghri</SFXEvent_Guard>
+
+		<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
+
+		<Death_Clone>Damage_Force_Whirlwind, Partisan_Noghri_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Partisan_Noghri_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Partisan_Noghri_Crush_Death_Clone</Death_Clone>
+	</Indigenous_Unit>
+
+	<Container Name="Partisan_Noghri_Container">
+		<Variant_Of_Existing_Type>Template_Partisan_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_NOGHRI_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_NOGHRI
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_NOGHRI_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_NOGHRI_MOVE
+		TEXT_TOOLTIP_PARTISAN_NOGHRI_WEAP1_SQUAD
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NOGHRI.tga</Icon_Name>
+
+		<Max_Speed>1.1</Max_Speed>
+		<OverrideAcceleration> 1.1 </OverrideAcceleration>
+		<OverrideDeceleration> 1.1 </OverrideDeceleration>
+	</Container>
+
+	<GroundCompany Name="Partisan_Noghri_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_NOGHRI_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_NOGHRI
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_NOGHRI_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_NOGHRI_MOVE
+		TEXT_TOOLTIP_PARTISAN_NOGHRI_WEAP1_SQUAD
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NOGHRI.tga</Icon_Name>
+
+		<Create_Team_Type>Partisan_Noghri_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Noghri, Partisan_Noghri, Partisan_Noghri, Partisan_Noghri, Partisan_Noghri, Partisan_Noghri,
+		Partisan_Noghri, Partisan_Noghri, Partisan_Noghri,
+		</Company_Units>
+	</GroundCompany>
+
+	<Death_Clone Name="Partisan_Noghri_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>PARTISAN_NOGHRI</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Noghri_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>PARTISAN_NOGHRI</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Noghri_Crush_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Noghri</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+
+	<Indigenous_Unit Name="Partisan_Pantoran">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_PANTORAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Pantoran_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Pantoran</Lua_Script>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Pantoran_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Pantoran, Partisan_Pantoran, Partisan_Pantoran, Partisan_Pantoran, Partisan_Pantoran, Partisan_Pantoran,
+		Partisan_Pantoran, Partisan_Pantoran, Partisan_Pantoran, Partisan_Pantoran, Partisan_Pantoran, Partisan_Pantoran,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Pyngani">
+		<Variant_Of_Existing_Type>Template_Partisan_NoHardpoints</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_PYNGANI</Text_ID>
+  		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_GENERIC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_PYNGANI_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>NI_PENGAUANI.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>NI_PENGAUANI.ALO</Land_Model_Anim_Override_Name>
+
+		<Scale_Factor>1.2</Scale_Factor>
+
+		<!-- Concussion Gun Placeholder -->
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_Concussion_Rifle</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire>Unit_Pyngani_Fire</SFXEvent_Fire>
+
+		<!-- Built-in Weapon Placeholder since individual tags do not work-->
+		<Targeting_Fire_Inaccuracy_Fixed_Radius> 20 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+
+		<Death_Clone>Damage_Force_Whirlwind, Partisan_Pyngani_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Partisan_Pyngani_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Partisan_Pyngani_Crush_Death_Clone</Death_Clone>
+	</Indigenous_Unit>
+
+	<Container Name="Partisan_Pyngani_Container">
+		<Variant_Of_Existing_Type>Template_Partisan_Container</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_GENERIC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_PYNGANI_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+	</Container>
+
+	<GroundCompany Name="Partisan_Pyngani_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_GENERIC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_PYNGANI_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Create_Team_Type>Partisan_Pyngani_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Pyngani, Partisan_Pyngani, Partisan_Pyngani, Partisan_Pyngani, Partisan_Pyngani, Partisan_Pyngani,
+		Partisan_Pyngani, Partisan_Pyngani, Partisan_Pyngani, Partisan_Pyngani, Partisan_Pyngani, Partisan_Pyngani,
+		</Company_Units>
+	</GroundCompany>
+
+	<Death_Clone Name="Partisan_Pyngani_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Pyngani</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Pyngani_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Pyngani</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Pyngani_Crush_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Pyngani</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+
+	<Indigenous_Unit Name="Partisan_Quarren">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_QUARREN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Quarren_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Quarren</Lua_Script>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Quarren_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Quarren, Partisan_Quarren, Partisan_Quarren, Partisan_Quarren, Partisan_Quarren, Partisan_Quarren,
+		Partisan_Quarren, Partisan_Quarren, Partisan_Quarren, Partisan_Quarren, Partisan_Quarren, Partisan_Quarren,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Rattataki">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_RATTATAKI</Text_ID>
+		<Land_Model_Name>NI_Soldier_Rattataki_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Rattataki</Lua_Script>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Rattataki_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Rattataki, Partisan_Rattataki, Partisan_Rattataki, Partisan_Rattataki, Partisan_Rattataki, Partisan_Rattataki,
+		Partisan_Rattataki, Partisan_Rattataki, Partisan_Rattataki, Partisan_Rattataki, Partisan_Rattataki, Partisan_Rattataki,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Rodian">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_RODIAN</Text_ID>
+		<Icon_Name>I_BUTTON_RODIAN.tga</Icon_Name>
+		
+		<Land_Model_Name>NI_Soldier_Rodian_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Rodian</Lua_Script>
+		
+		<SFXEvent_Select>Unit_Select_Rodian</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Rodian</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Rodian</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Rodian</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Rodian</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Rodian</SFXEvent_Guard>
+
+		<Death_SFXEvent_Start_Die>Unit_Death_Rodian</Death_SFXEvent_Start_Die>
+
+		<Death_Explosions>Organic_Infantry_Blood_Cyan, Organic_Infantry_Blood_Cyan_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Cyan_Explosion</Death_Clone>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Rodian_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_RODIAN.tga</Icon_Name>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Rodian, Partisan_Rodian, Partisan_Rodian, Partisan_Rodian, Partisan_Rodian, Partisan_Rodian,
+		Partisan_Rodian, Partisan_Rodian, Partisan_Rodian, Partisan_Rodian, Partisan_Rodian, Partisan_Rodian,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Skakoan">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_SKAKOAN</Text_ID>
+		<Land_Model_Name>Skakoan_Combat_Engineer.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Skakoan_Combat_Engineer.alo</Land_Model_Anim_Override_Name>
+
+		<!-- Suit Explosion for Skakoans -->
+		<Death_Explosions>Small_Explosion_Land, Organic_Infantry_Blood_Cyan_Explosion</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Skakoan_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Skakoan, Partisan_Skakoan, Partisan_Skakoan, Partisan_Skakoan, Partisan_Skakoan, Partisan_Skakoan,
+		Partisan_Skakoan, Partisan_Skakoan, Partisan_Skakoan, Partisan_Skakoan, Partisan_Skakoan, Partisan_Skakoan,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Ssi_Ruuvi">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_SSI_RUUVI</Text_ID>
+		<Land_Model_Name>ssi-ruu.alo</Land_Model_Name>
+
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Ssi_Ruuvi_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Ssi_Ruuvi, Partisan_Ssi_Ruuvi, Partisan_Ssi_Ruuvi, Partisan_Ssi_Ruuvi, Partisan_Ssi_Ruuvi, Partisan_Ssi_Ruuvi,
+		Partisan_Ssi_Ruuvi, Partisan_Ssi_Ruuvi, Partisan_Ssi_Ruuvi, Partisan_Ssi_Ruuvi, Partisan_Ssi_Ruuvi, Partisan_Ssi_Ruuvi,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Sullustan">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_SULLUSTAN</Text_ID>
+		<Icon_Name>I_BUTTON_SULLUSTAN.tga</Icon_Name>
+		
+		<Land_Model_Name>NI_Soldier_Sullustan_M.alo</Land_Model_Name>
+		<Scale_Factor>0.90</Scale_Factor>
+
+		<SFXEvent_Select>Unit_Select_Sullustan</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Sullustan</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Sullustan</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Sullustan</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Sullustan</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Sullustan</SFXEvent_Assist_Attack>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Sullustan_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_SULLUSTAN.tga</Icon_Name>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Sullustan, Partisan_Sullustan, Partisan_Sullustan, Partisan_Sullustan, Partisan_Sullustan, Partisan_Sullustan,
+		Partisan_Sullustan, Partisan_Sullustan, Partisan_Sullustan, Partisan_Sullustan, Partisan_Sullustan, Partisan_Sullustan,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Talortai">
+		<Variant_Of_Existing_Type>Template_Partisan_NoHardpoints</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_TALORTAI</Text_ID>
+		<Land_Model_Name>urai_fen.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>urai_fen.ALO</Land_Model_Anim_Override_Name>
+
+		<Damage>15</Damage>
+		<Tactical_Health>20</Tactical_Health>
+		<AI_Combat_Power>7</AI_Combat_Power>
+		<Is_Squashable> No </Is_Squashable>
+
+		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
+
+		<Projectile_Types>Proj_Force_Pike</Projectile_Types>
+		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
+		<Projectile_Appearance_Delay_Frames> 6 </Projectile_Appearance_Delay_Frames>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+
+		<Turret_Rotate_Extent_Degrees>100.0</Turret_Rotate_Extent_Degrees>
+
+		<Harass_Enemy_Exclusion_Range>100.0</Harass_Enemy_Exclusion_Range>
+
+		<Target_Bones>B_Chest</Target_Bones>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
+		<!-- Bone and adjust for vanilla asset rig -->
+
+		<Idle_Chase_Range>500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Talortai_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Talortai, Partisan_Talortai, Partisan_Talortai, Partisan_Talortai, Partisan_Talortai, Partisan_Talortai,
+		Partisan_Talortai, Partisan_Talortai, Partisan_Talortai, Partisan_Talortai, Partisan_Talortai, Partisan_Talortai,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Togruta">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_TOGRUTA</Text_ID>
+		<Land_Model_Name>NI_Soldier_Togruta_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Togruta</Lua_Script>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Togruta_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Togruta, Partisan_Togruta, Partisan_Togruta, Partisan_Togruta, Partisan_Togruta, Partisan_Togruta,
+		Partisan_Togruta, Partisan_Togruta, Partisan_Togruta, Partisan_Togruta, Partisan_Togruta, Partisan_Togruta,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Trandoshan">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_TRANDOSHAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Trandoshan_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Trandoshan</Lua_Script>
+
+		<Death_Explosions>Organic_Infantry_Blood_Cyan, Organic_Infantry_Blood_Cyan_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Cyan_Explosion</Death_Clone>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Trandoshan_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Trandoshan, Partisan_Trandoshan, Partisan_Trandoshan, Partisan_Trandoshan, Partisan_Trandoshan, Partisan_Trandoshan,
+		Partisan_Trandoshan, Partisan_Trandoshan, Partisan_Trandoshan, Partisan_Trandoshan, Partisan_Trandoshan, Partisan_Trandoshan,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Tusken_Raider">
+		<Variant_Of_Existing_Type>Template_Partisan_NoHardpoints</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_TUSKEN_RAIDER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_TUSKEN
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_TUSKEN_RAIDER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SANDPEOPLE.tga</Icon_Name>
+
+		<Land_Model_Name>NI_SandPeople_B.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>NI_SandPeople_B.ALO</Land_Model_Anim_Override_Name>
+
+		<!-- Slug DMR Placeholder -->
+		<Projectile_Types>Proj_Slug_Rifle</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 6 </Projectile_Appearance_Delay_Frames>
+		<SFXEvent_Fire>Unit_Tusken_Sniper_Fire</SFXEvent_Fire>
+
+		<!-- Built-in Weapon Placeholder since individual tags do not work-->
+		<Targeting_Fire_Inaccuracy_Fixed_Radius> 5 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+
+		<SFXEvent_Select>Ambient_Tusken_Random_Chatter</SFXEvent_Select>
+		<SFXEvent_Move>Ambient_Tusken_Random_Chatter</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Tusken</SFXEvent_Attack>
+		<SFXEvent_Guard>Ambient_Tusken_Random_Chatter</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Ambient_Tusken_Random_Chatter</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Attack_Tusken</SFXEvent_Assist_Attack>
+
+		<Death_SFXEvent_Start_Die>Unit_Tusken_Death</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Ambient_Moving> Ambient_Tusken_Random_Chatter </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+
+		<Death_Clone>Damage_Force_Whirlwind, Partisan_Tusken_Raider_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Partisan_Tusken_Raider_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Partisan_Tusken_Raider_Crush_Death_Clone</Death_Clone>
+	</Indigenous_Unit>
+
+	<Container Name="Partisan_Tusken_Raider_Container">
+		<Variant_Of_Existing_Type>Template_Partisan_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_TUSKEN_RAIDER_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_TUSKEN
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_TUSKEN_RAIDER_SQUAD
+		TEXT_TOOLTIP_PARTISAN_GENERIC_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_TUSKEN_RAIDER_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SANDPEOPLE.tga</Icon_Name>
+	</Container>
+
+	<GroundCompany Name="Partisan_Tusken_Raider_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_SANDPEOPLE.tga</Icon_Name>
+
+		<Create_Team_Type>Partisan_Tusken_Raider_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Tusken_Raider, Partisan_Tusken_Raider, Partisan_Tusken_Raider, Partisan_Tusken_Raider, Partisan_Tusken_Raider, Partisan_Tusken_Raider,
+		Partisan_Tusken_Raider, Partisan_Tusken_Raider, Partisan_Tusken_Raider, Partisan_Tusken_Raider, Partisan_Tusken_Raider, Partisan_Tusken_Raider,
+		</Company_Units>
+	</GroundCompany>
+
+	<Death_Clone Name="Partisan_Tusken_Raider_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Tusken_Raider</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Tusken_Raider_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Tusken_Raider</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Tusken_Raider_Crush_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Tusken_Raider</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+
+	<Indigenous_Unit Name="Partisan_Tusken_Hunter">
+		<Variant_Of_Existing_Type>Partisan_Tusken_Raider</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_TUSKEN_HUNTER</Text_ID>
+  		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_TUSKEN
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_TUSKEN_HUNTER_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_TUSKEN_HUNTER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>NI_SandPeople_C.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>NI_SandPeople_B.ALO</Land_Model_Anim_Override_Name>
+
+		<Tactical_Health>15</Tactical_Health>
+
+		<!-- Slug DMR Placeholder -->
+		<Projectile_Types>Proj_Slug_Sniper</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 6 </Projectile_Appearance_Delay_Frames>
+
+		<!-- Built-in Weapon Placeholder since individual tags do not work-->
+		<Targeting_Fire_Inaccuracy_Fixed_Radius> 5 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+
+		<Death_Clone>Damage_Force_Whirlwind, Partisan_Tusken_Hunter_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Partisan_Tusken_Hunter_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Partisan_Tusken_Hunter_Crush_Death_Clone</Death_Clone>
+	</Indigenous_Unit>
+
+	<Container Name="Partisan_Tusken_Hunter_Container">
+		<Variant_Of_Existing_Type>Template_Partisan_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_TUSKEN_HUNTER_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_TUSKEN
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_TUSKEN_HUNTER_SQUAD
+		TEXT_TOOLTIP_PARTISAN_TUSKEN_HUNTER_HEALTH
+		TEXT_TOOLTIP_PARTISAN_GENERIC_MOVE
+		TEXT_TOOLTIP_PARTISAN_TUSKEN_HUNTER_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SANDPEOPLE.tga</Icon_Name>
+	</Container>
+
+	<GroundCompany Name="Partisan_Tusken_Hunter_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_SANDPEOPLE.tga</Icon_Name>
+
+		<Max_Squad_Size>5</Max_Squad_Size>
+
+		<Create_Team_Type>Partisan_Tusken_Hunter_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Tusken_Hunter, Partisan_Tusken_Hunter, Partisan_Tusken_Hunter, Partisan_Tusken_Hunter, Partisan_Tusken_Hunter,
+		</Company_Units>
+	</GroundCompany>
+
+	<Death_Clone Name="Partisan_Tusken_Hunter_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Tusken_Hunter</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Tusken_Hunter_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Tusken_Hunter</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Tusken_Hunter_Crush_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Tusken_Hunter</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+
+	<Indigenous_Unit Name="Partisan_Twilek">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_TWILEK</Text_ID>
+		<Land_Model_Name>NI_Soldier_Twilek_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Twilek</Lua_Script>
+
+		<Death_Explosions>Organic_Infantry_Blood_Cyan, Organic_Infantry_Blood_Cyan_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Cyan_Explosion</Death_Clone>
+
+		<SFXEvent_Select>Unit_Select_Twilek</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Twilek</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Twilek</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Twilek</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Twilek</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Twilek</SFXEvent_Guard>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Twilek</SFXEvent_Assist_Attack>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Twilek_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Twilek, Partisan_Twilek, Partisan_Twilek, Partisan_Twilek, Partisan_Twilek, Partisan_Twilek,
+		Partisan_Twilek, Partisan_Twilek, Partisan_Twilek, Partisan_Twilek, Partisan_Twilek, Partisan_Twilek,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Vodran">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_VODRAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Vodran_M.alo</Land_Model_Name>
+		<Scale_Factor>1.2</Scale_Factor>
+
+		<SFXEvent_Select>Unit_Select_Hutt_Guard</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Guard</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Guard</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Guard</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Hutt_Guard </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Hutt_Guard </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Guard</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Death_Hutt_Guard</Death_SFXEvent_Start_Die>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Vodran_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Vodran, Partisan_Vodran, Partisan_Vodran, Partisan_Vodran, Partisan_Vodran, Partisan_Vodran,
+		Partisan_Vodran, Partisan_Vodran, Partisan_Vodran, Partisan_Vodran, Partisan_Vodran, Partisan_Vodran,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Weequay">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_WEEQUAY</Text_ID>
+		<Land_Model_Name>NI_Soldier_Weequay_M.alo</Land_Model_Name>
+
+		<SFXEvent_Select>Unit_Select_Pirate_Soldier</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Pirate_Soldier</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Pirate_Soldier</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Pirate_Soldier</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Pirate_Soldier</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Pirate_Soldier</SFXEvent_Guard>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Weequay_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Weequay, Partisan_Weequay, Partisan_Weequay, Partisan_Weequay, Partisan_Weequay, Partisan_Weequay,
+		Partisan_Weequay, Partisan_Weequay, Partisan_Weequay, Partisan_Weequay, Partisan_Weequay, Partisan_Weequay,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Wookiee">
+		<Variant_Of_Existing_Type>Template_Partisan_NoHardpoints</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_WOOKIEE</Text_ID>
+  		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_WOOKIEE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_WOOKIEE_HEALTH
+		TEXT_TOOLTIP_PARTISAN_WOOKIEE_MOVE
+		TEXT_TOOLTIP_PARTISAN_WOOKIEE_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GENERIC_WOOKIE.tga</Icon_Name>
+
+		<Land_Model_Name>RI_WOOKIEE01.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>RI_WOOKIEE01.ALO</Land_Model_Anim_Override_Name>
+
+		<Max_Speed>1.2</Max_Speed>
+		<OverrideAcceleration> 1.2 </OverrideAcceleration>
+		<OverrideDeceleration> 1.2 </OverrideDeceleration>
+
+		<Tactical_Health>25</Tactical_Health>
+		<AI_Combat_Power>5</AI_Combat_Power>
+
+		<SFXEvent_Select>Unit_Select_Wookiee</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Wookiee</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Wookiee</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Wookiee</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Wookiee</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Wookiee</SFXEvent_Guard>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Wookiee</SFXEvent_Assist_Attack>
+
+		<!-- Bowcaster Placeholder -->
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_Light_AI_Blaster_Green</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+
+		<!-- Built-in Weapon Placeholder since individual tags do not work-->
+		<Targeting_Fire_Inaccuracy_Fixed_Radius> 15 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+	</Indigenous_Unit>
+
+	<Container Name="Partisan_Wookiee_Container">
+		<Variant_Of_Existing_Type>Template_Partisan_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PARTISAN_WOOKIEE_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_WOOKIEE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_WOOKIEE_SQUAD
+		TEXT_TOOLTIP_PARTISAN_WOOKIEE_HEALTH
+		TEXT_TOOLTIP_PARTISAN_WOOKIEE_MOVE
+		TEXT_TOOLTIP_PARTISAN_WOOKIEE_WEAP1_SQUAD
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GENERIC_WOOKIE.tga</Icon_Name>
+
+		<Max_Speed> 1.2 </Max_Speed>
+		<OverrideAcceleration>1.2</OverrideAcceleration>
+		<OverrideDeceleration>1.2</OverrideDeceleration>
+	</Container>
+
+	<GroundCompany Name="Partisan_Wookiee_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_GENERIC_WOOKIE.tga</Icon_Name>
+
+		<Max_Squad_Size>10</Max_Squad_Size>
+
+		<Create_Team_Type>Partisan_Wookiee_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Wookiee, Partisan_Wookiee, Partisan_Wookiee, Partisan_Wookiee, Partisan_Wookiee, Partisan_Wookiee,
+		Partisan_Wookiee, Partisan_Wookiee, Partisan_Wookiee, Partisan_Wookiee,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Wroonian">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_WROONIAN</Text_ID>
+		<Land_Model_Name>NI_Soldier_Pantoran_Mixed.alo</Land_Model_Name> <!--???-->
+
+		<Lua_Script>InfantryMeshRandomizer_Pantoran</Lua_Script> <!--???-->
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Wroonian_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Wroonian, Partisan_Wroonian, Partisan_Wroonian, Partisan_Wroonian, Partisan_Wroonian, Partisan_Wroonian,
+		Partisan_Wroonian, Partisan_Wroonian, Partisan_Wroonian, Partisan_Wroonian, Partisan_Wroonian, Partisan_Wroonian,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Zabrak">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_ZABRAK</Text_ID>
+		<Land_Model_Name>NI_Soldier_Zabrak_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Zabrak</Lua_Script>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Zabrak_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Zabrak, Partisan_Zabrak, Partisan_Zabrak, Partisan_Zabrak, Partisan_Zabrak, Partisan_Zabrak,
+		Partisan_Zabrak, Partisan_Zabrak, Partisan_Zabrak, Partisan_Zabrak, Partisan_Zabrak, Partisan_Zabrak,
+		</Company_Units>
+	</GroundCompany>
+
+
+	<Indigenous_Unit Name="Partisan_Zeltron">
+		<Variant_Of_Existing_Type>Template_Partisan</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_ZELTRON</Text_ID>
+		<Land_Model_Name>NI_Soldier_Zeltron_Mixed.alo</Land_Model_Name>
+
+		<Lua_Script>InfantryMeshRandomizer_Zeltron</Lua_Script>
+	</Indigenous_Unit>
+
+	<GroundCompany Name="Partisan_Zeltron_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Zeltron, Partisan_Zeltron, Partisan_Zeltron, Partisan_Zeltron, Partisan_Zeltron, Partisan_Zeltron,
+		Partisan_Zeltron, Partisan_Zeltron, Partisan_Zeltron, Partisan_Zeltron, Partisan_Zeltron, Partisan_Zeltron,
+		</Company_Units>
+	</GroundCompany>
+
+<!--mixed squads-->
+<!--todo: code up a few variants of this with different units included for a Lua spawn randomizer-->
+	<GroundCompany Name="Partisan_Mixed_Urban_Squad">
+		<Variant_Of_Existing_Type>Template_Partisan_Squad</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Template_Partisan_Container</Create_Team_Type>
+		<Company_Units>
+		Partisan_Cathar, Partisan_Duros, Partisan_Klatooinian, Partisan_Quarren, Partisan_Rodian, Partisan_Sullustan,
+		Partisan_Trandoshan, Partisan_Twilek, Partisan_Weequay, Partisan_Human, Partisan_Human, Partisan_Human,
+		</Company_Units>
+	</GroundCompany>
+
+<!--unused-->
+	<Indigenous_Unit Name="Sith_Cultist_Enforcer">
+		<Variant_Of_Existing_Type>Dark_Jedi</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_INDIG_SITH_CULTIST_ENFORCER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_INDIG_SITH_CULTIST_ENFORCER_DESC
+		</Encyclopedia_Text>
+		
+		<Victory_Relevant>No</Victory_Relevant>
+
+		<Death_Explosions>Organic_Infantry_Blood_Black, Organic_Infantry_Blood_Black_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Black_Explosion</Death_Clone>
+	</Indigenous_Unit>
+
+	<Indigenous_Unit Name="Partisan_Tusken_Warrior">
+		<Variant_Of_Existing_Type>Template_Partisan_NoHardpoints</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_PARTISAN_TUSKEN_WARRIOR</Text_ID>
+  		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PARTISAN_TUSKEN
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PARTISAN_TUSKEN_WARRIOR_HEALTH
+		TEXT_TOOLTIP_PARTISAN_TUSKEN_WARRIOR_MOVE
+		TEXT_TOOLTIP_PARTISAN_TUSKEN_WARRIOR_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>NI_SandPeople_A.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>NI_SandPeople_A.ALO</Land_Model_Anim_Override_Name>
+
+		<Scale_Factor>1.1</Scale_Factor>
+
+		<Tactical_Health>15</Tactical_Health>
+
+		<Movement_Animation_Speed> 1.2 </Movement_Animation_Speed>
+		<Max_Speed>1.2</Max_Speed>
+
+		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
+		<Target_Bones>B_Chest</Target_Bones>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
+		<Turret_Rotate_Extent_Degrees>100.0</Turret_Rotate_Extent_Degrees>
+
+		<Projectile_Types>Proj_Force_Pike</Projectile_Types>
+		<Targeting_Max_Attack_Distance>20.0</Targeting_Max_Attack_Distance>
+		<Projectile_Appearance_Delay_Frames> 6 </Projectile_Appearance_Delay_Frames>
+		<Projectile_Fire_Recharge_Seconds>0.75</Projectile_Fire_Recharge_Seconds>
+
+		<Idle_Chase_Range>500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Harass_Enemy_Exclusion_Range>100.0</Harass_Enemy_Exclusion_Range>
+
+		<SFXEvent_Select>Ambient_Tusken_Random_Chatter</SFXEvent_Select>
+		<SFXEvent_Move>Ambient_Tusken_Random_Chatter</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Tusken</SFXEvent_Attack>
+		<SFXEvent_Guard>Ambient_Tusken_Random_Chatter</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Ambient_Tusken_Random_Chatter</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Attack_Tusken</SFXEvent_Assist_Attack>
+
+		<Death_SFXEvent_Start_Die>Unit_Tusken_Death</Death_SFXEvent_Start_Die>
+		<SFXEvent_Fire>Unit_Tusken_Sniper_Fire</SFXEvent_Fire>
+
+		<SFXEvent_Ambient_Moving> Ambient_Tusken_Random_Chatter </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+
+		<Death_Clone>Damage_Force_Whirlwind, Partisan_Tusken_Warrior_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Partisan_Tusken_Warrior_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Partisan_Tusken_Warrior_Crush_Death_Clone</Death_Clone>
+	</Indigenous_Unit>
+
+	<Death_Clone Name="Partisan_Tusken_Warrior_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Tusken_Warrior</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Tusken_Warrior_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Tusken_Warrior</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+	</Death_Clone>
+
+	<Death_Clone Name="Partisan_Tusken_Warrior_Crush_Death_Clone">
+		<Variant_Of_Existing_Type>Partisan_Tusken_Warrior</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+	</Death_Clone>
+</Indigenous_Units>

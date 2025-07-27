@@ -58,7 +58,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry </CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -283,7 +283,7 @@
 		<AI_Combat_Power>6</AI_Combat_Power>
 
 		<HardPoints>HP_MiniMag_Hand</HardPoints>
-		<CategoryMask> Infantry | AntiVehicle</CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiVehicle</CategoryMask>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
@@ -575,7 +575,7 @@
 
 		<SFXEvent_Select>Null</SFXEvent_Select>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
 		<Garrison_Value>2</Garrison_Value>
 
 		<Is_Squashable> true </Is_Squashable>
@@ -654,7 +654,7 @@
 
 		<SFXEvent_Select>Null</SFXEvent_Select>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
 		<Garrison_Value>2</Garrison_Value>
 
 		<Is_Squashable> true </Is_Squashable>
@@ -750,7 +750,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry </CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -1195,7 +1195,7 @@
 
 		<SFXEvent_Select>Null</SFXEvent_Select>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
 		<Garrison_Value>2</Garrison_Value>
 
 		<Is_Squashable> true </Is_Squashable>
@@ -1299,7 +1299,7 @@
 
 		<SFXEvent_Select>Null</SFXEvent_Select>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
 		<Garrison_Value>2</Garrison_Value>
 
 		<Is_Squashable> true </Is_Squashable>
@@ -1375,7 +1375,7 @@
 
 		<SFXEvent_Select>Null</SFXEvent_Select>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
 		<Garrison_Value>2</Garrison_Value>
 
 		<Is_Squashable> true </Is_Squashable>
@@ -1574,7 +1574,7 @@
 
 		<SFXEvent_Select>Null</SFXEvent_Select>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
 		<Garrison_Value>1</Garrison_Value>
 
 		<Is_Squashable> true </Is_Squashable>

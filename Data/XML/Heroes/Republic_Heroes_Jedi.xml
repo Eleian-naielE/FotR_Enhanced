@@ -33,7 +33,7 @@
 		<Land_Model_Anim_Override_Name>Jedi.alo</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_obiwan.tga</Icon_Name>
 
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, STUNNABLE, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
@@ -942,7 +942,7 @@
 		<Land_Model_Anim_Override_Name>Jedi.alo</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_anakin.tga</Icon_Name>
 
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
@@ -2285,7 +2285,7 @@
 		<Land_Model_Name>ahsoka.ALO</Land_Model_Name>
 		<Icon_Name>i_button_ahsoka.tga</Icon_Name>
 
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE,  IMPOSING_PRESENCE </LandBehavior>
@@ -3593,7 +3593,7 @@
 		<Land_Model_Name>RI_YODA.ALO</Land_Model_Name>
 		<Scale_Factor>0.8</Scale_Factor>
 		
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>LURE, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE</LandBehavior>
@@ -4424,7 +4424,7 @@
 		
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 
 		<!-- Lightsaber holstering data -->
@@ -5259,7 +5259,7 @@
 		<Land_Model_Name>Rep_PloKoon.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>RobedJedi.alo</Land_Model_Anim_Override_Name>
 
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
@@ -5880,7 +5880,7 @@
 		<Land_Model_Anim_Override_Name>RobedJedi.alo</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_kitfisto.tga</Icon_Name>
 		
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
@@ -6685,7 +6685,7 @@
 		<Land_Model_Anim_Override_Name>Jedi.alo</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_aaylasecura.tga</Icon_Name>
 		
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
@@ -7485,7 +7485,7 @@
 		<Land_Model_Name>ki-adi-mundi.alo</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>Jedi.alo</Land_Model_Anim_Override_Name>
 		
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
@@ -8288,7 +8288,7 @@
 		
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
 		<!-- Lightsaber holstering data -->
@@ -9040,7 +9040,7 @@
 		<Land_Model_Name>Barris_offee.alo</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>Jedi.alo</Land_Model_Anim_Override_Name>
 
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
@@ -9194,7 +9194,7 @@
 				<Heal_Amount>2.0</Heal_Amount>
 				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
@@ -9224,7 +9224,7 @@
 				<Target_Particle_Bone_Name />
 			</Earthquake_Attack_Ability>
 
-		   <Redirect_Blaster_Ability Name="Barriss_Redirect_Blaster">
+			<Redirect_Blaster_Ability Name="Barriss_Redirect_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.4</Redirect_Chance>
@@ -9810,7 +9810,7 @@
 		<Land_Model_Name>REP_ShaakTi.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name> RobedJedi.alo </Land_Model_Anim_Override_Name>
 		
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
@@ -9979,7 +9979,7 @@
 				<Target_Particle_Bone_Name />
 			</Earthquake_Attack_Ability>
 
-		   <Redirect_Blaster_Ability Name="Shaak_Ti_Redirect_Blaster">
+			<Redirect_Blaster_Ability Name="Shaak_Ti_Redirect_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.4</Redirect_Chance>
@@ -10582,7 +10582,7 @@
 		<Land_Model_Name>Rahm_Kota_CW.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>Jedi.alo</Land_Model_Anim_Override_Name>
 
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, STUNNABLE, GARRISON_UNIT </LandBehavior>
@@ -11025,7 +11025,7 @@
 		<Land_Model_Name>Rep_Nejaa_Halcyon.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>Jedi.alo</Land_Model_Anim_Override_Name>
 
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT STUNNABLE</LandBehavior>
@@ -11429,7 +11429,7 @@
 		<Land_Model_Name>Rep_KnolVennari.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name> RI_Skywalker.alo </Land_Model_Anim_Override_Name>
 		
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 6 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
@@ -11938,7 +11938,7 @@
 		<Land_Model_Name>EI_Palpatine.ALO</Land_Model_Name>
 		<Icon_Name>i_button_emperor_palpatine.TGA</Icon_Name>
 
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, IMPOSING_PRESENCE, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE</LandBehavior>
@@ -12679,7 +12679,7 @@
 		
 		<Land_Model_Name>EI_VADER.ALO</Land_Model_Name>
 		
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
@@ -13325,7 +13325,7 @@
 
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
-		<CategoryMask> InfantryHero </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry</CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 		<MovementClass>LightHover</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>

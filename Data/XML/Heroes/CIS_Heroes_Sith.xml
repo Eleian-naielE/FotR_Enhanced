@@ -32,7 +32,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
 		<Target_Bones> MuzzleA_00 </Target_Bones>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Droid | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 
 		<Starting_Spawned_Units_Tech_0>Magnaguard, 2</Starting_Spawned_Units_Tech_0>
@@ -1403,7 +1403,7 @@
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 
 		<!-- Lightsaber holstering data -->
@@ -2062,7 +2062,7 @@
 
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
@@ -2336,7 +2336,7 @@
 		<Land_Model_Name> PI_Gethzerion.alo </Land_Model_Name>
 		<Land_Model_Anim_Override_Name>RobedSith.ALO</Land_Model_Anim_Override_Name>
 		
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 6 </Ranking_In_Category>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
@@ -2591,7 +2591,8 @@
 
 			 <Drain_Life_Ability Name="Yansu_Grjak_Drain_Life">
 				<Activation_Style> User_Input </Activation_Style>
-				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>InfantryHero</Excluded_Unit_Categories>
 				<Applicable_Unit_Types />
 
 				<Excluded_Unit_Types>
@@ -2705,7 +2706,7 @@
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 
 		<!-- Lightsaber holstering data
@@ -3190,7 +3191,7 @@
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 
 		<!-- Lightsaber holstering data
@@ -3792,7 +3793,7 @@
 
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		<Ranking_In_Category> 8 </Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>

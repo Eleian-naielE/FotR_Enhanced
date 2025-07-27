@@ -117,7 +117,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
@@ -346,7 +346,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -578,7 +578,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -885,7 +885,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -1074,7 +1074,7 @@
 		<Max_Lift> .6 </Max_Lift>
 
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -1351,7 +1351,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
@@ -1570,7 +1570,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
@@ -1975,7 +1975,7 @@
 		
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask> VehicleHero | AntiInfantry | AntiVehicle </CategoryMask>
-		<Property_Flags>GoodInfantryCrusher | CanContainGarrison | HealsInfantry | GTSImmune </Property_Flags>
+		<Property_Flags>GoodInfantryCrusher | CanContainGarrison | HealsOrganics | GTSImmune </Property_Flags>
 
 		<SFXEvent_Select>Unit_Select_Ozzel</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Ozzel</SFXEvent_Move>
@@ -2035,7 +2035,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
@@ -2692,7 +2692,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
@@ -2876,7 +2876,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiVehicle </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiVehicle </CategoryMask>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
@@ -3081,7 +3081,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
 		<AI_Combat_Power>25</AI_Combat_Power>
 
@@ -3229,7 +3229,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
@@ -3365,7 +3365,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
 
@@ -4521,7 +4521,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
 		<AI_Combat_Power>34</AI_Combat_Power>
 
@@ -4668,7 +4668,7 @@
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> InfantryHero | AntiVehicle </CategoryMask>
+		<CategoryMask> Organic | InfantryHero | AntiVehicle </CategoryMask>
 
 		<AI_Combat_Power>17</AI_Combat_Power>
 
@@ -5457,7 +5457,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>

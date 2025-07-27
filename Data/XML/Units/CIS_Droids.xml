@@ -206,7 +206,7 @@
 
 		<Land_Model_Name>b1_battledroid_launcher.ALO</Land_Model_Name>
 
-		<CategoryMask> Infantry | AntiVehicle</CategoryMask>
+		<CategoryMask> Droid | Infantry | AntiVehicle</CategoryMask>
 
 		<HardPoints> HP_E60R_BattleDroid </HardPoints>
 
@@ -347,7 +347,7 @@
 
 		<Land_Model_Name>b1_battledroid_launcher.ALO</Land_Model_Name>
 
-		<CategoryMask> Infantry | AntiVehicle</CategoryMask>
+		<CategoryMask> Droid | Infantry | AntiVehicle</CategoryMask>
 
 		<HardPoints> HP_RPS_BattleDroid	</HardPoints>
 
@@ -503,7 +503,7 @@
 		<OverrideDeceleration> .08 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
@@ -571,7 +571,7 @@
 		<OverrideDeceleration> 1.0 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
@@ -637,7 +637,7 @@
 		<OverrideDeceleration> .08 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
@@ -703,7 +703,7 @@
 		<OverrideDeceleration> .08 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
@@ -772,7 +772,7 @@
 		<OverrideDeceleration> .08 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
@@ -944,7 +944,7 @@
 		<Political_Control/>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask> Droid | Infantry | AntiInfantry </CategoryMask>
 		<Property_Flags>DoKite</Property_Flags>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>no</Deploys>
@@ -1147,7 +1147,7 @@
 		<Variant_Of_Existing_Type>BX_Commando</Variant_Of_Existing_Type>
 
 		<HardPoints> HP_RPS_CommandoDroid</HardPoints>
-		<CategoryMask> Infantry | AntiVehicle</CategoryMask>
+		<CategoryMask> Droid | Infantry | AntiVehicle</CategoryMask>
 
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Thermal_Grenade_Infantry</Projectile_Types>
@@ -1377,7 +1377,7 @@
 		<OverrideDeceleration> .08 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
@@ -1453,7 +1453,7 @@
 		<OverrideDeceleration> .08 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
@@ -1532,7 +1532,7 @@
 		<OverrideDeceleration> .08 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
@@ -1727,7 +1727,7 @@
 		<OverrideDeceleration> .08 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
@@ -2128,7 +2128,7 @@
 		<Political_Control/>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask> Droid | Infantry | AntiInfantry </CategoryMask>
 		<Property_Flags>Fodder</Property_Flags>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>no</Deploys>
@@ -2394,7 +2394,7 @@
 		<OverrideDeceleration> 1.3 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
@@ -2578,7 +2578,7 @@
 		<OverrideDeceleration> 1.1 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiVehicle </CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiVehicle </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
@@ -2649,7 +2649,7 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
-		<Property_Flags>HealsInfantry | HealsVehicles</Property_Flags>
+		<Property_Flags>HealsOrganics | HealsDroids | HealsVehicles</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Medic_Healing">
@@ -2660,7 +2660,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Support_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry, InfantryHero, Vehicle, VehicleHero, AirGunship, AirSpeeder</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Infantry | InfantryHero | Vehicle | VehicleHero | AirGunship | AirSpeeder</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
@@ -2734,7 +2734,7 @@
 		<OverrideDeceleration> .08 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
@@ -3087,7 +3087,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry</CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -3296,7 +3296,7 @@
 		<OverrideDeceleration>0.9</OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry </CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
@@ -3388,7 +3388,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Hover</Type>
-		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask> Droid | Infantry | AntiInfantry </CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -3627,7 +3627,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Droid | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
