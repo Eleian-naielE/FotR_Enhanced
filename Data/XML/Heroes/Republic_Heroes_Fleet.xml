@@ -645,12 +645,11 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SECTOR_COMMANDER </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_tarkin.tga</Icon_Name>
-		
-		<Ranking_In_Category> 2 </Ranking_In_Category>
 
-		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiCapital | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+		
+		<Ranking_In_Category> 2 </Ranking_In_Category>
 
 		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 		<Lua_Script>GenericGameObject</Lua_Script>
@@ -4544,6 +4543,9 @@
 		<Icon_Name>i_button_dao.tga</Icon_Name>
 
 		<Space_Model_Name>EV_Venator.alo</Space_Model_Name>
+
+		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
 		
 		<Ranking_In_Category> 6 </Ranking_In_Category>
 
@@ -5743,6 +5745,9 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_dodonna_rep.tga</Icon_Name>
 
+		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
 		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
@@ -6272,6 +6277,9 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_KUAT_OF_KUAT</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_KUAT_OF_KUAT.TGA</Icon_Name>
+
+		<CategoryMask> SpaceHero | AntiCorvette | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
 		
 		<Ranking_In_Category> 6 </Ranking_In_Category>
 
@@ -6346,6 +6354,9 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_COY_CW.TGA</Icon_Name>
+
+		<CategoryMask> SpaceHero | AntiCapital | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
 		
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
@@ -6443,6 +6454,9 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_KREUGE.TGA</Icon_Name>
+
+		<CategoryMask> SpaceHero | AntiCapital | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
 		
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
@@ -6526,6 +6540,9 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_MULLEEN.TGA</Icon_Name>
+
+		<CategoryMask> SpaceHero | AntiCapital | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
 		
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
@@ -6948,6 +6965,9 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_screed_rep.tga</Icon_Name>
+
+		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
 		
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
