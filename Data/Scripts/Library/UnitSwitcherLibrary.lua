@@ -22,4 +22,12 @@ return {
 	["YULAREN_RESOLUTE_UPGRADE_RESOLUTE_SPHAT"] = {"Yularen_Resolute", "Yularen_Resolute_SPHAT"},
 	["YULAREN_RESOLUTE_SPHAT_UPGRADE_INVINCIBLE"] = {"Yularen_Resolute_SPHAT", "Yularen_Invincible"},
 	["VENATOR_SPHA_T_UPGRADE"] = {"Venator_Star_Destroyer","Venator_SPHA_T",["location_check"] = true},
+	["CT_P2_MANUAL_UPGRADE"] = {"Clonetrooper_Phase_One_Company","Clonetrooper_Phase_Two_Company",["location_check"] = true},
+	["ARC_P2_MANUAL_UPGRADE"] = {"ARC_Phase_One_Company","ARC_Phase_Two_Company",["location_check"] = true},
+	["BARC_MANUAL_UPGRADE"] = {"Republic_74Z_Bike_Company","Republic_BARC_Company",["location_check"] = true},
+	["JT_P2_MANUAL_UPGRADE"] = {"Clone_Jumptrooper_Phase_One_Company","Clone_Jumptrooper_Phase_Two_Company",["location_check"] = true},
+	["CT_COMMANDER_MANUAL_UPGRADE"] = {"Commander_Tier_I_Clone_Phase_One_Company","Commander_Tier_I_Clone_Phase_Two_Company",["location_check"] = true},
+	["ARC_COMMANDER_MANUAL_UPGRADE"] = {"Commander_Tier_I_ARC_Phase_One_Company","Commander_Tier_I_ARC_Phase_Two_Company",["location_check"] = true},
+	["BARC_COMMANDER_MANUAL_UPGRADE"] = {"Commander_Tier_IV_Republic_74Z_Speeder_Bike_Company","Commander_Tier_IV_Republic_BARC_Speeder_Company",["location_check"] = true},
+	--[""] = {"",["location_check"] = true},
 }

@@ -74,7 +74,11 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 			"PHASE_TWO_RESEARCH",
 			"Dummy_Research_Clone_Trooper_II",
 			{"Empire"},
-			{"Clonetrooper_Phase_Two_Company","Republic_BARC_Company","ARC_Phase_Two_Company"},
+			{
+				"Clonetrooper_Phase_Two_Company","Republic_BARC_Company","ARC_Phase_Two_Company", 
+				"CT_P2_Manual_Upgrade", "ARC_P2_Manual_Upgrade", "Barc_Manual_Upgrade", "JT_P2_Manual_Upgrade", 
+				"CT_Commander_Manual_Upgrade", "ARC_Commander_Manual_Upgrade", "BARC_Commander_Manual_Upgrade" 
+			},
 			{"Clonetrooper_Phase_One_Company","Republic_74Z_Bike_Company","ARC_Phase_One_Company"},
 			nil,nil,
 			{"CLONE_UPGRADES"}
