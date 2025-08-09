@@ -36,3 +36,6 @@ spawning certain heores in cinematic tactical battle requires a story_trigger_zo
 
 
 <Apply_Special_Ability_To_Self_On_Creation>Yes/No</Apply_Special_Ability_To_Self_On_Creation> : Used to apply combat bonus to the host unit. Default is No.
+
+Fire_Cone_Width : total horizontal arc degree of a hardpoint ex) 140.0 ; 70 degres left/right
+Fire_Cone_ : total  arc degree of a hardpoint ex) 140.0 ; 70 degres 
