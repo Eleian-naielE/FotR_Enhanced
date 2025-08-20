@@ -25,6 +25,8 @@
 	<!--Testing-->
 	<File>Campaigns_MapTest.xml</File>
 	<!-- <File>Campaigns_FullMap.xml</File> -->
+	<!-- FotR_Enhanced -->
+	<File>Campaigns_LayoutTest.xml</File>
 
 	<File>Conquests\Progressive\CampaignLoaders\Campaigns_CloneWars_Small.xml</File>
 	<File>Conquests\Progressive\CampaignLoaders\Campaigns_CloneWars_Medium.xml</File>
