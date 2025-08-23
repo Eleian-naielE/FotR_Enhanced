@@ -188,8 +188,8 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	}
 
 	clone_data = {
-		total_slots = 2,			--Max slot number. Set at the start of the GC and never change
-		free_hero_slots = 2,		--Slots open to buy
+		total_slots = 3,			--Max slot number. Set at the start of the GC and never change
+		free_hero_slots = 3,		--Slots open to buy
 		vacant_hero_slots = 0,	    --Slots that need another action to move to free
 		vacant_limit = 4,           --Number of times a lost slot can be reopened
 		initialized = false,
@@ -923,6 +923,12 @@ function RepublicHeroes:Venator_Heroes()
 
 		local upgrade_unit = Find_Object_Type("Maarisa_Retaliation_Upgrade")
 		admiral_data.active_player.Unlock_Tech(upgrade_unit)
+		
+		admiral_data.total_slots = admiral_data.total_slots + 1
+		admiral_data.free_hero_slots = admiral_data.free_hero_slots + 1
+		
+		moff_data.total_slots = moff_data.total_slots + 1
+		moff_data.free_hero_slots = moff_data.free_hero_slots + 1
 
 		Autem_Check()
 		Trachta_Check()

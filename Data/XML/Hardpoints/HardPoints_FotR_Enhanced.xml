@@ -152,7 +152,7 @@
 			
     </HardPoint>
 
-    <HardPoint Name="HP_CIS_Frigate_Engines">
+    <HardPoint Name="HP_Umbaran_Frigate_Engines">
 		<Type> HARD_POINT_ENGINE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -170,7 +170,7 @@
         <Engine_Particles>HP_ENGINE_MAINENGINES</Engine_Particles>
     </HardPoint>
 
-	<HardPoint Name="HP_CIS_Frigate_Hangar">
+	<HardPoint Name="HP_Umbaran_Frigate_Hangar">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
