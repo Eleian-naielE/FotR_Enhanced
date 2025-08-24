@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Campaigns>
 
-	<Campaign Name="Sandbox_Full_Map">
-		<Campaign_Set> Sandbox_Full_Map </Campaign_Set>
+	<Campaign Name="Sandbox_Unnamed_Republic">
+		<Campaign_Set> Sandbox_Unnamed </Campaign_Set>
 		<Sort_Order>30</Sort_Order>
 
-        <Text_ID> TEXT_CAMPAIGN_FULL_MAP </Text_ID>
-        <Description_Text> TEXT_CAMPAIGN_DESCRIPTION_FULL_MAP </Description_Text>
+        <Text_ID> TEXT_CAMPAIGN_HEADER_22BBY_UNNAMED </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DESCRIPTION_22BBY_UNNAMED </Description_Text>
 
         <Camera_Shift_X> 40.0 </Camera_Shift_X>
         <Camera_Shift_Y> 0.0 </Camera_Shift_Y>

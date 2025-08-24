@@ -12,6 +12,8 @@
 	<File>Conquests\Historical\20_BBY_CloneWarsFoerost\Campaigns_Foerost.xml</File>
 	<File>Conquests\Historical\19_BBY_CloneWarsOuterRimSieges\Campaigns_OuterRimSieges.xml</File>
 
+	<File>Conquests\Historical\22_BBY_Unnamed\Campaigns_Unnamed.xml</File> <!-- FotR_Enhanced -->
+
 	<File>Conquests\CloneWarsFTGU\Campaigns_FTGU.xml</File>
 
 	<File>Conquests\Custom\Campaigns_Custom.xml</File>
@@ -25,8 +27,6 @@
 	<!--Testing-->
 	<File>Campaigns_MapTest.xml</File>
 	<!-- <File>Campaigns_FullMap.xml</File> -->
-	<!-- FotR_Enhanced -->
-	<File>Campaigns_LayoutTest.xml</File>
 
 	<File>Conquests\Progressive\CampaignLoaders\Campaigns_CloneWars_Small.xml</File>
 	<File>Conquests\Progressive\CampaignLoaders\Campaigns_CloneWars_Medium.xml</File>

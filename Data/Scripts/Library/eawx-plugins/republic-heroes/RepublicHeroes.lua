@@ -61,7 +61,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	crossplot:subscribe("GEEN_UNLOCK", self.Geen_Unlock, self)
 	--FotR_Enhanced 
 	--Changes : 
-	--	Admiral : Yularen Resolute SPHAT variant added, Forral venator will be unlocked post Order 6X,
+	--	Admiral : Yularen Resolute SPHAT variant added, Forral venator will be unlocked post Order 6X, Screed initial flagship reverted to Victory Fleet,, Gladiator as respawn option
 	--	Commando : Prudii Skirata added
 	--	General : Geen locked until ut-at research
 	--	Jedi : Oppo Rancisis added
@@ -70,7 +70,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 		total_slots = 3,       --Max number of concurrent slots. Set at the start of the GC and never change.
 		free_hero_slots = 3,   --Slots open to fill with a hero.
 		vacant_hero_slots = 0, --Slots that need another action to move to free.
-		vacant_limit = 3,      --Number of times a lost slot becomes a vacant slot (rather than remaining lost forever).
+		vacant_limit = 21,      --Number of times a lost slot becomes a vacant slot (rather than remaining lost forever).
 		initialized = false,
 		full_list = { --All options for reference operations
 			["Yularen"] = {"YULAREN_ASSIGN",{"YULAREN_RETIRE","YULAREN_RETIRE1","YULAREN_RETIRE2","YULAREN_RETIRE3"},{"YULAREN_RESOLUTE","YULAREN_RESOLUTE_SPHAT","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"},"Wullf Yularen"},
@@ -81,7 +81,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			["Dao"] = {"DAO_ASSIGN",{"DAO_RETIRE"},{"DAO_VENATOR"},"Dao"},
 			["Denimoor"] = {"DENIMOOR_ASSIGN",{"DENIMOOR_RETIRE"},{"DENIMOOR_TENACIOUS"},"Denimoor"},
 			["Dron"] = {"DRON_ASSIGN",{"DRON_RETIRE"},{"DRON_VENATOR"},"Dron"},
-			["Screed"] = {"SCREED_ASSIGN",{"SCREED_RETIRE"},{"SCREED_DEMOLISHER"},"Terrinald Screed"},
+			["Screed"] = {"SCREED_ASSIGN",{"SCREED_RETIRE","SCREED_RETIRE2"},{"SCREED_ARLIONNE","SCREED_DEMOLISHER"},"Terrinald Screed"},
 			["Dodonna"] = {"DODONNA_ASSIGN",{"DODONNA_RETIRE"},{"DODONNA_ARDENT"},"Jan Dodonna"},
 			["Parck"] = {"PARCK_ASSIGN",{"PARCK_RETIRE"},{"PARCK_STRIKEFAST"},"Voss Parck"},
 			["Pellaeon"] = {"PELLAEON_ASSIGN",{"PELLAEON_RETIRE"},{"PELLAEON_LEVELER"},"Gilad Pellaeon"},
@@ -115,7 +115,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 		total_slots = 1,			--Max slot number. Set at the start of the GC and never change
 		free_hero_slots = 1,		--Slots open to buy
 		vacant_hero_slots = 0,	    --Slots that need another action to move to free
-		vacant_limit = 1,           --Number of times a lost slot can be reopened
+		vacant_limit = 12,           --Number of times a lost slot can be reopened
 		initialized = false,
 		full_list = { --All options for reference operations
 			["Tarkin"] = {"TARKIN_ASSIGN",{"TARKIN_RETIRE","TARKIN_RETIRE2"},{"TARKIN_VENATOR","TARKIN_EXECUTRIX"},"Wilhuff Tarkin"},
@@ -145,10 +145,10 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	}
 
 	council_data = {
-		total_slots = 3,			--Max slot number. Set at the start of the GC and never change
-		free_hero_slots = 3,		--Slots open to buy
+		total_slots = 4,			--Max slot number. Set at the start of the GC and never change
+		free_hero_slots = 4,		--Slots open to buy
 		vacant_hero_slots = 0,	    --Slots that need another action to move to free
-		vacant_limit = 3,           --Number of times a lost slot can be reopened
+		vacant_limit = 13,           --Number of times a lost slot can be reopened
 		initialized = false,
 		full_list = { --All options for reference operations
 			["Yoda"] = {"YODA_ASSIGN",{"YODA_RETIRE","YODA_RETIRE2"},{"YODA","YODA2"},"Yoda", ["Companies"] = {"YODA_DELTA_TEAM","YODA_ETA_TEAM"}},
@@ -162,8 +162,8 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			["Aayla"] = {"AAYLA_ASSIGN",{"AAYLA_RETIRE","AAYLA_RETIRE2"},{"AAYLA_SECURA","AAYLA_SECURA2"},"Aayla Secura", ["Companies"] = {"AAYLA_SECURA_DELTA_TEAM","AAYLA_SECURA_ETA_TEAM"}},
 			["Shaak"] = {"SHAAK_ASSIGN",{"SHAAK_RETIRE","SHAAK_RETIRE2"},{"SHAAK_TI","SHAAK_TI2"},"Shaak Ti", ["Companies"] = {"SHAAK_TI_DELTA_TEAM","SHAAK_TI_ETA_TEAM"}},
 			["Kota"] = {"KOTA_ASSIGN",{"KOTA_RETIRE"},{"RAHM_KOTA"},"Rahm Kota", ["Companies"] = {"RAHM_KOTA_TEAM"}, ["first_spawn_list"] = {"Kotas_Militia_Trooper_Company","Kotas_Militia_Trooper_Company"}},
-			["Knol"] = {"KNOL_VENNARI_ASSIGN",{"KNOL_VENNARI_RETIRE"},{"KNOL_VENNARI"},"Knol Ven'nari", ["Companies"] = {"KNOL_VENNARI_TEAM"}},
-			["Halcyon"] = {"NEJAA_HALCYON_ASSIGN",{"NEJAA_HALCYON_RETIRE"},{"NEJAA_HALCYON"},"Nejaa Halcyon", ["Companies"] = {"NEJAA_HALCYON_TEAM"}}
+			["Halcyon"] = {"NEJAA_HALCYON_ASSIGN",{"NEJAA_HALCYON_RETIRE"},{"NEJAA_HALCYON"},"Nejaa Halcyon", ["Companies"] = {"NEJAA_HALCYON_TEAM"}},
+			["Oppo"] = {"OPPO_RANCISIS_ASSIGN",{"OPPO_RANCISIS_RETIRE"},{"OPPO_RANCISIS"},"Oppo Rancisis", ["Companies"] = {"OPPO_RANCISIS_TEAM"}}
 		},
 		available_list = {--Heroes currently available for purchase. Seeded with those who have no special prereqs
 			"Yoda",
@@ -191,7 +191,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 		total_slots = 3,			--Max slot number. Set at the start of the GC and never change
 		free_hero_slots = 3,		--Slots open to buy
 		vacant_hero_slots = 0,	    --Slots that need another action to move to free
-		vacant_limit = 4,           --Number of times a lost slot can be reopened
+		vacant_limit = 16,           --Number of times a lost slot can be reopened
 		initialized = false,
 		full_list = { --All options for reference operations
 			["Cody"] = {"CODY_ASSIGN",{"CODY_RETIRE","CODY_RETIRE2"},{"CODY","CODY2"},"Cody", ["Companies"] = {"CODY_TEAM","CODY2_TEAM"}},
@@ -1066,10 +1066,11 @@ function RepublicHeroes:Senate_Choice_Handler(senate_option)
 		Unlock_Hero_Options(moff_data)
 		Get_Active_Heroes(false, moff_data)
 
-		Handle_Hero_Exit("Aden", commando_data)
-		Handle_Hero_Exit("Dallin", admiral_data)
-		Handle_Hero_Exit("Ordo", commando_data)
 		Handle_Hero_Exit("Autem", admiral_data)
+		Handle_Hero_Exit("Dallin", admiral_data)
+		Handle_Hero_Exit("Aden", commando_data)
+		Handle_Hero_Exit("Ordo", commando_data)
+		Handle_Hero_Exit("Prudii", admiral_data)
 		Autem_Checks = -1
 
 		council_data.vacant_limit = -1
