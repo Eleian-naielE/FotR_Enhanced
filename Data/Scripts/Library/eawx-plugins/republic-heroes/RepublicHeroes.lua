@@ -829,6 +829,9 @@ function RepublicHeroes:Phase_II()
 	clone_data.total_slots = clone_data.total_slots + 1
 	clone_data.free_hero_slots = clone_data.free_hero_slots + 1
 
+	commando_data.total_slots = commando_data.total_slots + 1
+	commando_data.free_hero_slots = commando_data.free_hero_slots + 1
+
 	set_unit_index("Cody",2,clone_data)
 	set_unit_index("Rex",2,clone_data)
 	set_unit_index("Appo",2,clone_data)

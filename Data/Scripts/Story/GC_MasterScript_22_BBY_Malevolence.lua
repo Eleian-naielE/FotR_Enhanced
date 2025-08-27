@@ -195,7 +195,7 @@ function Historical_GC_Choice_Made(choice)
 				["SLOT_ADJUST"] = -2,
 			},
 			["CLONE"] = {
-				["SLOT_ADJUST"] = 2,
+				["SLOT_ADJUST"] = 1,
 				["LOCKIN"] = {"Rex"},
 				["RETURN"] = {"Jet"},
 				["EXIT"] = {"Gree_Clone","Bacara","Cody"},
@@ -204,7 +204,7 @@ function Historical_GC_Choice_Made(choice)
 				["SLOT_ADJUST"] = -2,
 			},
 			["JEDI"] = {
-				["SLOT_ADJUST"] = -1,
+				["SLOT_ADJUST"] = -2,
 				["LOCKIN"] = {"Plo"},
 				["EXIT"] = {"Ahsoka","Luminara","Barriss","Kit","Shaak","Kota","Knol","Yoda","Halcyon"},
 			},

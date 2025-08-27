@@ -226,7 +226,6 @@ function Historical_GC_Choice_Made(choice)
 				["LOCKIN"] = {"Tarkin"},
 			},
 			["NAVY"] = {
-				["SLOT_ADJUST"] = 0,
 				["LOCKIN"] = {"Dodonna"},
 				["EXIT"] = {"Kilian","Dron","Dao","Grumby"},
 			},
