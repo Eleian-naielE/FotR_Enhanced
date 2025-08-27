@@ -39,3 +39,5 @@ spawning certain heores in cinematic tactical battle requires a story_trigger_zo
 
 Fire_Cone_Width : total horizontal arc degree of a hardpoint ex) 140.0 ; 70 degres left/right
 Fire_Cone_ : total  arc degree of a hardpoint ex) 140.0 ; 70 degres 
+
+<Should_Reinforcement_Move>false(default) : 
