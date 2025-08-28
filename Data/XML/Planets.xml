@@ -57154,10 +57154,16 @@
 
     <!-- FotR_Enhanced -->
 
-    <Planet Name="Anzat"> <!-- Rocky, mountain, dirt looking -->
+    <Planet Name="Anzat"> Rocky, mountain, dirt looking
         <Text_ID></Text_ID>
         <Encyclopedia_Text></Encyclopedia_Text>
         <Galactic_Position></Galactic_Position>
+    </Planet>
+
+    <Planet Name="Atraken">
+    </Planet>
+
+    <Planet Name="Axion">
     </Planet>
 
 
@@ -57166,9 +57172,12 @@
         <Galactic_Position></Galactic_Position>
     </Planet>
 
-    <Planet Name="Maramere"> <!-- luxurious, temperate, green, urban -->
+    <Planet Name="Maramere"> luxurious, temperate, green, urban
         <Text_ID></Text_ID>
         <Galactic_Position>881, -1020, 10</Galactic_Position>
 
+    </Planet>
+
+    <Planet Name="Merson">
     </Planet>
 </Planets>
