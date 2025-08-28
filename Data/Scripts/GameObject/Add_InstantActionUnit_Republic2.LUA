@@ -33,7 +33,7 @@ function Definitions()
 	"ACCLAMATOR_DESTROYER",
 	"ACCLAMATOR_BATTLESHIP",
 	"IMPERATOR_STAR_DESTROYER_ASSAULT",
-	-- FotR_Enhanced
+	--FotR_Enhanced
 	"VENATOR_SPHA_T"
 }
 

@@ -340,7 +340,7 @@ return {
 	,VENATOR_TRANQUILITY = {"Is_Production_Planet", true} --This is intentional
 
 
--- FotR_Enhanced
+--FotR_Enhanced
     ,BLOCK_NEGOTIATOR = {nil, true}
     ,BLOCK_VIGILANCE = {nil, true}
     ,TJ912_RECUSANT = {nil, true}

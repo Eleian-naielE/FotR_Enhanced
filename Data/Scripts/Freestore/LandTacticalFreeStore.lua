@@ -183,7 +183,7 @@ function Service_Heal(object, health_threshold)
     return true
 end
 
--- FotR_Enhanced : Reimplement Organic/Droid Infantry healing function
+--FotR_Enhanced : Reimplement Organic/Droid Infantry healing function
 
 ---Services units that contain a garrison
 ---@param object GameObject

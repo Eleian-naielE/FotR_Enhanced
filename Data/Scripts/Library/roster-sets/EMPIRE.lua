@@ -46,6 +46,6 @@ return {
 	["IMPERATOR_STAR_DESTROYER_ASSAULT"] = 0,
 	["TECTOR_STAR_DESTROYER"] = 0,
 	["SECUTOR_STAR_DESTROYER"] = 0,
-	-- FotR_Enhanced
+	--FotR_Enhanced
 	["VENATOR_SPHA_T"] = 0,
 }

@@ -511,7 +511,7 @@ end
 
 -- Fix the unit or hide if appropriate.
 -- Return true if the unit was fixed.
--- FotR_Enhanced ; Option for droid added
+--FotR_Enhanced ; Option for droid added
 function ConsiderHeal(unit)
 	unit_hull = unit.Get_Hull()
 	if (unit_hull < 0.8) then
@@ -556,7 +556,7 @@ function ConsiderRepair(unit)
 end
 
 -- Note, this is safe for event response (because it doesn't block)
--- FotR_Enhanced ; Option for droid added
+--FotR_Enhanced ; Option for droid added
 function Release_To_Hide(tf, unit)
 
 	flee_loc = Find_Nearest(unit, "HealsOrganics", PlayerObject, true)

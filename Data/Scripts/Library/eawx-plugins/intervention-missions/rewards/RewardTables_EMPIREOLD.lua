@@ -39,12 +39,12 @@ return {
 			{"Dreadnaught_Carrier", 2},
 			{"Republic_A5RX_Company", 2},
 			{"Republic_VAAT_Group", 2},
-			{"SPHA_T_Company", 1}, -- FotR_Enhanced
+			{"SPHA_T_Company", 1}, --FotR_Enhanced
 		},
 		{
 			{"Republic_RX200_Falchion_Company", 1},
 			--{"Republic_A6_Juggernaut_Company", 1}, Temporary
-			{"Republic_A6_Prototype_Company", 1}, -- FotR_Enhanced
+			{"Republic_A6_Prototype_Company", 1}, --FotR_Enhanced
 			{"Starbolt", 3},
 			{"Generic_Acclamator_Assualt_Ship_I_OFC", 1}
 		}
@@ -67,8 +67,8 @@ return {
 			{"Dreadnaught_Carrier", 2},
 			{"Republic_A5RX_Company", 2},
 			{"Republic_VAAT_Group", 2},
-			{"SPHA_T_Company", 1}, -- FotR_Enhanced
-			{"Republic_A6_Prototype_Company", 1}, -- FotR_Enhanced
+			{"SPHA_T_Company", 1}, --FotR_Enhanced
+			{"Republic_A6_Prototype_Company", 1}, --FotR_Enhanced
 		},
 		{
 			{"Republic_RX200_Falchion_Company", 1},
@@ -94,7 +94,7 @@ return {
 			{"Clone_Jumptrooper_Phase_Two_Company", 3},
 			{"Republic_A5RX_Company", 2},
 			{"Republic_VAAT_Group", 2},
-			{"Republic_A5_Juggernaut_Company", 1}, -- FotR_Enhanced
+			{"Republic_A5_Juggernaut_Company", 1}, --FotR_Enhanced
 		},
 		{
 			{"Republic_RX200_Falchion_Company", 1},
@@ -120,7 +120,7 @@ return {
 			{"Clone_Jumptrooper_Phase_Two_Company", 3},
 			{"Republic_A5RX_Company", 2},
 			{"Republic_VAAT_Group", 2},
-			{"Republic_A5_Juggernaut_Company", 1}, -- FotR_Enhanced
+			{"Republic_A5_Juggernaut_Company", 1}, --FotR_Enhanced
 		},
 		{
 			{"Republic_RX200_Falchion_Company", 1},

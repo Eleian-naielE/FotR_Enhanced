@@ -93,7 +93,7 @@ end
 -- If an ally enters the prox, the unit may want to chase them down to use the ability
 function Divert_Prox(self_obj, trigger_obj)
 
-	-- FotR_Enhanced ; Can only corrupt Organic Infantries
+	--FotR_Enhanced ; Can only corrupt Organic Infantries
 	if not trigger_obj.Is_Category("Organic") then
 		return
 	end

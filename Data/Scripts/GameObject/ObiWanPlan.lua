@@ -169,7 +169,7 @@ end
 function Unit_Prox(self_obj, trigger_obj)
 	
 	--Can only confuse non-hero infantry
-	-- FotR_Enhanced ; Can only confuse Organic infantries
+	--FotR_Enhanced ; Can only confuse Organic infantries
 	if not trigger_obj.Is_Category("Organic") then
 		return
 	end

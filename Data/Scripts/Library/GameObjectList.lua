@@ -361,7 +361,7 @@ return {
 ["YULAREN_RESOLUTE"] = true,
 ["ZOZRIDOR_SLAYKE_CARRACK"] = true,
 ["ZOZRIDOR_SLAYKE_CR90"] = true,
--- FotR_Enhanced
+--FotR_Enhanced
 ["BLOCK_NEGOTIATOR"] = true,
 ["BLOCK_VIGILANCE"] = true,
 ["VADER_EXACTOR"] = true,

@@ -198,7 +198,7 @@ function Get_Hero_Entries(upgrade_object)
 				{"TARKIN", Locations = {"TARKIN_VENATOR","TARKIN_EXECUTRIX"}},
 			}
 		},
-		-- FotR_Enhanced
+		--FotR_Enhanced
 		["JAG_ARC170_LOCATION_SET"] = {
 			Hero_Squadron = "JAG_ARC170_127TH_SQUADRON",
 			PopupHeader = "JAG_P2_SELECTOR_HEADER",
