@@ -37,6 +37,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	self.CommandStaff_Initialized = false
 	yularen_second_chance_used = false
 	block_second_chance_used = false
+	screed_second_chance_used = false
 
 	crossplot:subscribe("COMMAND_STAFF_INITIALIZE", self.CommandStaff_Initialize, self)
 	crossplot:subscribe("COMMAND_STAFF_DECREMENT", self.CommandStaff_Decrement, self)
@@ -760,6 +761,18 @@ function RepublicHeroes:on_galactic_hero_killed(hero_name, owner)
 				StoryUtil.Multimedia("TEXT_SPEECH_BLOCK_RETURNS_VIGILANCE", 15, nil, "Piett_Loop", 0)
 			end
 		end
+	elseif tag_admiral == "Screed" then
+		if screed_second_chance_used == false then
+			screed_second_chance_used = true
+			if hero_name == "SCREED_ARLIONNE" then
+				return
+			end
+			admiral_data.full_list["Block"].unit_id = 2  --SCREED_DEMOLISHER
+			Handle_Hero_Add("Screed", admiral_data)
+			if Find_Player("Empire").Is_Human() then
+				StoryUtil.Multimedia("TEXT_SPEECH_SCREED_RETURNS_DEMOLISHER", 15, nil, "Piett_Loop", 0)
+			end
+		end
 	end
 		
 
@@ -914,7 +927,7 @@ function RepublicHeroes:Venator_Heroes()
 		Handle_Hero_Add("Grant", moff_data)
 		Handle_Hero_Add("Vorru", moff_data)
 		Handle_Hero_Add("Byluir", moff_data)
-		-- FotR_Enhanced
+		--FotR_Enhanced
 		Handle_Hero_Add("Block", admiral_data)
 
 		if admiral_data.active_player.Get_Tech_Level() <= 3 then
