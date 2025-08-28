@@ -167,10 +167,10 @@ function Historical_GC_Choice_Made(choice)
 
 	crossplot:publish("COMMAND_STAFF_INITIALIZE", {
 			["MOFF"] = {
-				["SLOT_ADJUST"] = -1,
+				["SLOT_ADJUST"] = -2,
 			},
 			["NAVY"] = {
-				["SLOT_ADJUST"] = -1,
+				["SLOT_ADJUST"] = -2,
 				["LOCKIN"] = {"Pellaeon"},
 				["EXIT"] = {"Kilian","Yularen","Maarisa","Baraka","Grumby","Autem","Martz","Dallin","Dao"},
 			},
@@ -188,7 +188,7 @@ function Historical_GC_Choice_Made(choice)
 				["EXIT"] = {"Alpha","Gregor"},
 			},
 			["JEDI"] = {
-				["SLOT_ADJUST"] = -2,
+				["SLOT_ADJUST"] = -3,
 				["EXIT"] = {"Aayla","Ahsoka","Kit","Mace","Shaak","Yoda","Halcyon","Knol"},
 			},
 		})

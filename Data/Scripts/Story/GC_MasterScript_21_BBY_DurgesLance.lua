@@ -215,18 +215,17 @@ function Historical_GC_Choice_Made(choice)
 
 	crossplot:publish("COMMAND_STAFF_INITIALIZE", {
 			["MOFF"] = {
-				["SLOT_ADJUST"] = 1,
 				["LOCKIN"] = {"Grant"},
 			},
 			["NAVY"] = {
-				["SLOT_ADJUST"] = -1,
+				["SLOT_ADJUST"] = -2,
 				["EXIT"] = {"Yularen","Coburn","Kilian","Screed","Dodonna","Dron","Dallin","Wieler","Dao"},
 			},
 			["ARMY"] = {
 				--this space intentionally left blank
 			},
 			["CLONE"] = {
-				["SLOT_ADJUST"] = -1,
+				["SLOT_ADJUST"] = -2,
 				["EXIT"] = {"Rex","Bly","Cody","Wolffe","Gree_Clone","Neyo"},
 			},
 			["COMMANDO"] = {
@@ -234,7 +233,6 @@ function Historical_GC_Choice_Made(choice)
 				["EXIT"] = {"Alpha","Gregor"},
 			},
 			["JEDI"] = {
-				["SLOT_ADJUST"] = 1,
 				["LOCKIN"] = {"Mace","Plo"},
 				["EXIT"] = {"Aayla","Kit","Shaak","Ahsoka","Knol"},
 			},
