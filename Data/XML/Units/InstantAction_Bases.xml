@@ -39,7 +39,7 @@
 		<Space_Model_Name>INSTANTACTION_Republic.alo</Space_Model_Name>
 	</DummyStructure>
 
-	<DummyStructure Name="InstantAction_Marker_Empire_2">
+	<DummyStructure Name="InstantAction_Marker_Empire_2"> <!-- FotR_Enhanced ; Venator_SPHA_T -->
 		<Variant_Of_Existing_Type>InstantAction_Marker_Generic</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Space_FOW_Reveal_Range>50000.0</Space_FOW_Reveal_Range>
@@ -69,7 +69,8 @@
 				IA_Victory_I_Fleet_Star_Destroyer,
 				IA_Acclamator_Destroyer,
 				IA_Acclamator_Battleship,
-				IA_Imperator_Star_Destroyer_Assault
+				IA_Imperator_Star_Destroyer_Assault,
+				IA_Venator_SPHA_T
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Space_Model_Name>INSTANTACTION_Republic.alo</Space_Model_Name>
@@ -146,7 +147,7 @@
 		<Space_Model_Name>INSTANTACTION_CIS.alo</Space_Model_Name>
 	</DummyStructure>
 
-	<DummyStructure Name="InstantAction_Marker_CSA">
+	<DummyStructure Name="InstantAction_Marker_CSA"> <!-- FotR_Enhanced ; Umbaran_Frigate -->
 		<Variant_Of_Existing_Type>InstantAction_Marker_Generic</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Space_FOW_Reveal_Range>50000.0</Space_FOW_Reveal_Range>
@@ -169,6 +170,7 @@
 				IA_Tagge_Battlecruiser,
 				IA_Geonosian_Cruiser,
 				IA_Komrk_Gunship_Group,
+				IA_Umbaran_Frigate
 		</Tactical_Buildable_Objects_Campaign>
 		<Space_Model_Name>INSTANTACTION_Independent.alo</Space_Model_Name>
 	</DummyStructure>
