@@ -2196,7 +2196,7 @@
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
 		<Ship_Class>frigate</Ship_Class>
-		<CategoryMask> Corvette | AntiCorvette</CategoryMask>
+		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Property_Flags> DoKite | HealsVehicles </Property_Flags>
 		<Formation_Priority>3</Formation_Priority>
@@ -2207,7 +2207,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 
 		<Starting_Spawned_Units_Tech_0>Umbaran_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Umbaran_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Umbaran_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -2237,10 +2237,10 @@
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
 		<HardPoints>
-			HP_CIS_Frigate_TBL01, HP_CIS_Frigate_TBL02, HP_CIS_Frigate_TBL03, HP_CIS_Frigate_TBL04, 
-			HP_CIS_Frigate_LC01, HP_CIS_Frigate_LC02, HP_CIS_Frigate_LC03, HP_CIS_Frigate_LC04, 
-			HP_CIS_Frigate_IC01, HP_CIS_Frigate_IC02, 
-			HP_CIS_Frigate_Engines, HP_CIS_Frigate_Hangar
+			HP_Umbaran_Frigate_Missile_01, HP_Umbaran_Frigate_Missile_02, HP_Umbaran_Frigate_Missile_03, HP_Umbaran_Frigate_Missile_04, 
+			HP_Umbaran_Frigate_Missile_05, HP_Umbaran_Frigate_Missile_06, HP_Umbaran_Frigate_Medium_Turbo_01, HP_Umbaran_Frigate_Medium_Turbo_02, 
+			HP_Umbaran_Frigate_Heavy_Laser_01, HP_Umbaran_Frigate_Heavy_Laser_02, 
+			HP_Umbaran_Frigate_Engines, HP_Umbaran_Frigate_Hangar
 		</HardPoints>
 			
 		<Lua_Script>GenericGameObject</Lua_Script>
@@ -2259,34 +2259,42 @@
 		<SFXEvent_Bombard_Select_Target/>
 		<SFXEvent_Bombard_Incoming/>
 
-		<SFXEvent_Select>Unit_Select_Carrack</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Carrack</SFXEvent_Move>
-		<SFXEvent_Stop>Unit_Move_Carrack</SFXEvent_Stop>
-		<SFXEvent_Fleet_Move>Unit_Move_Carrack</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Carrack</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Move_Carrack</SFXEvent_Guard>
-		<SFXEvent_Barrage>Unit_Attack_Carrack</SFXEvent_Barrage>
-		<SFXEvent_Move_Into_Nebula> null </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Move_Into_Asteroid_Field> null </SFXEvent_Move_Into_Asteroid_Field>
-		<SFXEvent_Health_Low_Warning/>
+		<SFXEvent_Select>Unit_Select_Sullustan</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Sullustan</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sullustan</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Sullustan</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Sullustan</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Assist_Move_Sullustan </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Assist_Move_Sullustan </SFXEvent_Move_Into_Nebula>
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Carrack </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Carrack</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Carrack </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Carrack </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Carrack </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Carrack </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Carrack </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Assist_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Assist_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Assist_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Assist_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Sullustan </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Guard_Sullustan </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Guard_Sullustan </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Guard_Sullustan </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+		
 		<SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
 		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
@@ -2319,13 +2327,13 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Death_Clone>Damage_Normal, Cis_Frigate_Death_Clone </Death_Clone>
+		<Death_Clone>Damage_Normal, Umbaran_Frigate_Death_Clone </Death_Clone>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		
 		<Unit_Abilities_Data SubObjectList="Yes">
-			  <!-- Primary ability -->
-			  <Unit_Ability>
+			<Unit_Ability>
 				<Type>HARMONIC_BOMB</Type>
 				<Recharge_Seconds>60</Recharge_Seconds>
 				<Spawned_Object_Type>Proj_Fleet_Tender_Fighter_Heal</Spawned_Object_Type>
@@ -2335,20 +2343,19 @@
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FLEET_TENDER_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>i_sa_repair_vehicle.tga</Alternate_Icon_Name>
 				<Supports_Autofire>True</Supports_Autofire>
-			  </Unit_Ability>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
-		<Abilities SubObjectList="Yes">
-			<Force_Healing_Ability Name="Fleet_Tender_Facility_Healing">
+
+	   <Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Umbaran_Frigate_Fleet_Tender">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Heal_Range>900.0</Heal_Range>
-				<Heal_Percent> 0.05 </Heal_Percent>
-               	<Blob_Color>0, 255, 0, 255</Blob_Color>
+				<Heal_Range>950.0</Heal_Range>
+				<Heal_Amount> 50.0 </Heal_Amount>
 				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<Heal_Range_Blob_Material>Space_Repair_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Corvette, Frigate, Capital, Hero, SuperCapital, SpaceHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Gunship, Corvette, Frigate, Capital, SuperCapital, SpaceHero, Transport</Applicable_Unit_Categories>
 				<Applicable_Unit_Types/>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>

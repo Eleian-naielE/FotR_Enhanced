@@ -24,7 +24,8 @@ function Definitions()
 		"LIBERTY_LINER",
 		"SPACE_ARC_CRUISER",
 		"HOME_ONE_TYPE_LINER",
-		"TAGGE_BATTLECRUISER"
+		"TAGGE_BATTLECRUISER",
+		"UMBARAN_FRIGATE"
 	}
 
 	Define_State("State_Init", State_Init);

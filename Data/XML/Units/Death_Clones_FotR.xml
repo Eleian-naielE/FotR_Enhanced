@@ -205,7 +205,7 @@
 		<Specific_Death_Anim_Index />
 	</Death_Clone>
 
-	<Death_Clone Name="Cis_Frigate_Death_Clone">
+	<Death_Clone Name="Umbaran_Frigate_Death_Clone">
 		<Space_Model_Name>CIS_Frigate_D.alo</Space_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
