@@ -1,6 +1,7 @@
 ﻿TEXT_NOTE,Put text changes for submods here
 
 TEXT_CONQUEST_GOVERNMENT_REP_HERO_SWITCH_SPEECH_FORRAL,The war seems to near its end. I shall share my skill of piloting for the new generations of ace pilots. [Bythen Forral has retired and established Vensenor Flight Academy]
+TEXT_DOCUMENTATION_BODY_INFLUENCE_FIGHTERS_UMBARA,Umbara: Umbaran Fighter at 8+ Influence
 TEXT_DOCUMENTATION_BODY_INFLUENCE_PLANET_UMBARA_FOTR,Umbara: Can build Umbaran Support Frigate at 8+ influence.
 TEXT_DOCUMENTATION_BODY_TRAITARCHDUKE,Archduke of Geonosis: 25% discounts on production time and cost on products produced on Geonosis
 TEXT_DOCUMENTATION_BODY_TRAITPLOBRO,Plo's Bros: +20% Health (Plo Koon Only)
@@ -19,7 +20,6 @@ TEXT_HERO_PRUDII,Prudii Skirata
 TEXT_HERO_ROHN,Rohn
 TEXT_HERO_TJ912,TJ-912
 TEXT_HERO_TM171,TM-171
-TEXT_PLANET_INFO_UMBARA_INFLUENCE_REWARD,•Unlocks Umbaran Support Frigate at 8+ influence
 TEXT_SPEECH_BLOCK_RETURNS_VIGILANCE,Admiral Block: Impressive... though it did cost my ship, General Kenobi's idea to self-destruct my ship did manage to deal a huge blow against the enemy at the last moment. - [Admiral Block has returned in control of the Venator-class, Vigilance].
 TEXT_SPEECH_CONQUER_RENDILI_REP_FINISHED,
 TEXT_STATBLOCK_BYTHEN_FORRAL_BASE,Health: 260 | Unshielded
@@ -30,10 +30,10 @@ TEXT_TOOLTIP_A6_PROTOTYPE_WEAP1,1x Heavy AV Blaster Cannon: 3 / 2.0s / 480m
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP2,1x Heavy AI Blaster Cannon: 8 / 2.0s / 480m
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP3,2x AI Blaster Cannons (AOE): 2 / 1.0s / 320m
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP4,2x Proton Missiles: 3 / 20.0s / 480m
-TEXT_TOOLTIP_AUTEM_OVERRIDE_2,Fighter Override: NTB-630 Naval Bomber on OCF Venator
 TEXT_TOOLTIP_BLOCK,Admiral Block was the commanding officer of the Negotiator, and later Vigilance, both serving the role as the flagship of Jedi general Obi Wan Kenobi.
 TEXT_TOOLTIP_BLOCK_VILGILANCE_RESPAWN,Block respawns in a Venator(Vigilance) after his first death
 TEXT_TOOLTIP_BUILDLIMIT_VENATOR_SPHA_T,Build Limit: 3 | Lifetime: 1
+TEXT_TOOLTIP_CAPITAL_CIS_13,Magnaguard: 2 / 0
 TEXT_TOOLTIP_CAPITAL_GAR_16,Red Guard: 2 / 0
 TEXT_TOOLTIP_COMMAND_127TH_ARC170,ARC-170 Starfighter Squadron, 127th Gunship Wing
 TEXT_TOOLTIP_COMMAND_EXACTOR,Imperator Star Destroyer, Exactor
@@ -45,7 +45,6 @@ TEXT_TOOLTIP_ESCORT_P2_WOLFFE_SPECIAL,2x - Wolfpack Squad (P2)
 TEXT_TOOLTIP_ESCORT_PALPATINE_RED_GUARD,2x - Red Guards
 TEXT_TOOLTIP_JAG, CT-55/11-9009, known as Jai'galaar or Jag, was a clone pilot captin in the Clone Army. Originally a Clone Commander, he was demoted to captain after the Retreat at Katraasii. Later, Jedi General Plo Koon drafted the captin as the test pilot for the new ARC-170 starfighters and flew with him on many battles including the battle over Cato Neimoidia.
 TEXT_TOOLTIP_MAGNATRI_WEAP2,1x Heavy Proton Missiles: 2 / 8.33s / 480m
-TEXT_TOOLTIP_UNITS_SPHA_T_REFIT,SPHA-T on Venators : Attaches SPHA-T on the hanger bay of the Venator Star Destroyer.
 TEXT_TOOLTIP_OPPO_HEALTH,Health: 230 [4%/5s] (Hero)
 TEXT_TOOLTIP_OPPO_MOVE,Speed: 1.1
 TEXT_TOOLTIP_OPPO_RANCISIS,A Thisspiasian Jedi Master trained by Master Yaddle, he became a key member of the Jedi High Council and a leader in military strategy during the Clone Wars. Rancisis played a critical role in coordinating Republic forces from Coruscant, advising on campaigns like the defense of Kamino and the Battle of Zaadja. Late in the war, he led the five-month siege of Saleucami to stop Sora Bulq’s Shadow Army but was ultimately killed by Bulq during a surprise attack.
@@ -72,14 +71,17 @@ TEXT_TOOLTIP_UMBARAN_FRIGATE,A fleet tender designed by the government of Umbara
 TEXT_TOOLTIP_UMBARAN_FRIGATE_HULL,Hull: 2040 (Frigate)
 TEXT_TOOLTIP_UMBARAN_FRIGATE_MOVE,Speed: 3.25 | Accel: 1.5 | Turn: 0.3
 TEXT_TOOLTIP_UMBARAN_FRIGATE_SHIELD,Shields: 1300 [19.25/R] (Frigate)
-TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP1,4x Light Turbolasers 2 / 1.0s / 5.1 km
-TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP2,4x Dual Light Lasercannons 2 / 0.4s / 3.7km
-TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP3,2x Light Anti-Fighter Ion Cannons 2 / 1.7s / 3.2km
+TEXT_TOOLTIP_UMBARAN_FRIGATE_SQUADRON,Fighters: 1 / 2
+TEXT_TOOLTIP_UMBARAN_FRIGATE_SUPPORT_TENDER,Fleet Tender: 50 / 2.0s / 1.9km
+TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP1,2x Medium Turbolasers 2 / 1.5s / 5.6km
+TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP2,2x Heavy Laser Cannons 2 / 1.0s / 4.8km
+TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP3,6x Rhazer Missiles 4 / 5.0s / 4.1km
+TEXT_TOOLTIP_UNITS_SPHA_T_REFIT,SPHA-T on Venators : Attaches SPHA-T on the hanger bay of the Venator Star Destroyer.
 TEXT_TOOLTIP_VADER_SPECIAL,Special: Vader's Eta-2 Actis Interceptor
 TEXT_TOOLTIP_VENATOR_DECOLORIZE,Decolorize Venators to wipe out traces of Republic.
 TEXT_TOOLTIP_VENATOR_SPHA_T,A Venator Star Destroyer equiped with SPHA-T on the hangar bay. An idea brought up by Anakin Skywalker, this upgrade made the Venators a more formidable against separatist warships.
+TEXT_TOOLTIP_VENATOR_SPHA_T_UPGRADABLE,Attaches SPHA-T on the hangar of the Venator Star Destroyer
 TEXT_TOOLTIP_VENATOR_UPGRADEABLE,Upgrade: Can be equiped with SPHA-T by Anakin Skywalker. [Requires Anakin Skywalker in orbit]
-TEXT_TOOLTIP_WESSEX_OVERRIDE,Fighter Override: NTB-630 Naval Bomber on OCF Venator
 TEXT_TOOLTIP_WOLFPACK,These Elite Soldiers from the 104th serve under Jedi General Plo Koon and Commander Wolffe. They accompanied them in various battles, Relief Efforts and Rescue missions.
 TEXT_TOOLTIP_WOLFPACK_P1_HEALTH,Health: 30 (Infantry)
 TEXT_TOOLTIP_WOLFPACK_P1_SQUAD,Squad: 9x - Wolfpack Troopers(P1)
@@ -100,6 +102,7 @@ TEXT_UNIT_DARK_ACOLYTE_COMPANY,Dark Acolyte Squad
 TEXT_UNIT_RED_GUARD,Red Guard
 TEXT_UNIT_UMBARAN_FRIGATE,Umbaran Support Frigate
 TEXT_UNIT_VENATOR_SPHA_T,Venator Star Destroyer (SPHA-T)
+TEXT_UNIT_VENATOR_SPHA_T_UPGRADE,Venator Star Destroyer SPHA-T Upgrade
 TEXT_UNIT_WOLFPACK_P1_CARBINER,Wolfpack Carbineer (Phase I)
 TEXT_UNIT_WOLFPACK_P1_CARBINER_GRENADIER,Wolfpack Carbineer Grenadier(Phase I)
 TEXT_UNIT_WOLFPACK_P1_EMP,Wolfpack EMP Gunner (Phase I)
@@ -117,6 +120,3 @@ TEXT_UNIT_WOLFPACK_P2_SQUAD,Wolfpack Squad (Phase II)
 
 TEXT_TOOLTIP_ARC170_GROUND_WEAP1,
 TEXT_TOOLTIP_ARC170_GROUND_WEAP2,
-TEXT_TOOLTIP_UMBARAN_FRIGATE_SQUADRON,
-TEXT_UNIT_VENATOR_SPHA_T_UPGRADE,Venator Star Destroyer SPHA-T Upgrade
-TEXT_TOOLTIP_VENATOR_SPHA_T_UPGRADABLE,Attaches SPHA-T on the hangar of the Venator Star Destroyer
