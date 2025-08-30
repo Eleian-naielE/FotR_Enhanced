@@ -120,3 +120,12 @@ TEXT_UNIT_WOLFPACK_P2_SQUAD,Wolfpack Squad (Phase II)
 
 TEXT_TOOLTIP_ARC170_GROUND_WEAP1,
 TEXT_TOOLTIP_ARC170_GROUND_WEAP2,
+
+TEXT_TOOLTIP_UMBARAN_FIGHTER,An advanced Umbaran assault craft that blurs the line between fighter and patrol craft. Staggeringly maneuverable for its size and optimized for droid or highly-adaptable pilots, it served as a mainstay of Umbaran forces during the Battle of Umbara. Armed with a chin-mounted plasma cannon and dual wing-mounted missile pods, it excels at tearing through enemy fighters and bombers.
+TEXT_STATBLOCK_UMBARAN_FIGHTER_BASE,Health: 22 | Shields: 18
+TEXT_STATBLOCK_UMBARAN_FIGHTER_MOVE,
+TEXT_STATBLOCK_UMBARAN_FIGHTER_WEAP1,
+TEXT_STATBLOCK_UMBARAN_FIGHTER_WEAP2,
+TEXT_UNIT_UMBARAN_FIGHTER,Zenuas 33 Umbaran Starfighter
+TEXT_STATBLOCK_UMBARAN_FIGHTER_SQUADRON,Squadron: 12x Zenuas 33 Umbaran Starfighter
+TEXT_UNIT_UMBARAN_FIGHTER_SQUADRON,Zenuas 33 Umbaran Starfighter Squadron
