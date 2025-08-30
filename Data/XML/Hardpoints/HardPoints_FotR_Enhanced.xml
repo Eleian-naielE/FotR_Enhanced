@@ -374,7 +374,7 @@
 	</HardPoint>
 
     <!-- Umbaran_Fighter -->
-    <!--
+  
 	<HardPoint Name="HP_Umbaran_Fighter_01">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -438,7 +438,7 @@
  			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 			<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
-	-->
+
 <!-- Ground -->
 
     <!-- SPHA-T -->
