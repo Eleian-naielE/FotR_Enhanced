@@ -118,8 +118,10 @@ TEXT_UNIT_WOLFPACK_P2_RIFLEMAN,Wolfpack Rifleman (Phase II)
 TEXT_UNIT_WOLFPACK_P2_RIFLEMAN_GRENADIER,Wolfpack Rifleman Grenadier(Phase II)
 TEXT_UNIT_WOLFPACK_P2_SQUAD,Wolfpack Squad (Phase II)
 
-TEXT_TOOLTIP_ARC170_GROUND_WEAP1,
-TEXT_TOOLTIP_ARC170_GROUND_WEAP2,
+TEXT_TOOLTIP_ARC170_GROUND_WEAP1,1x Heavy Fighter Laser Cannon: 4 / 2.0s / 1.1km
+TEXT_TOOLTIP_ARC170_GROUND_WEAP2,1x Aft Fighter Laser Cannon: 2 / 2.0s / 1.0km
+TEXT_TOOLTIP_ARC170_GROUND_WEAP3,1x Fighter Concussion Missile (AF): 1 / 37.5s / 1.8km
+TEXT_TOOLTIP_ARC170_GROUND_WEAP4,1x Proton Torpedo (AC): 1 / 37.5s / 1.8km
 
 TEXT_TOOLTIP_UMBARAN_FIGHTER,An advanced Umbaran assault craft that blurs the line between fighter and patrol craft. Staggeringly maneuverable for its size and optimized for droid or highly-adaptable pilots, it served as a mainstay of Umbaran forces during the Battle of Umbara. Armed with a chin-mounted plasma cannon and dual wing-mounted missile pods, it excels at tearing through enemy fighters and bombers.
 TEXT_STATBLOCK_UMBARAN_FIGHTER_BASE,Health: 22 | Shields: 18

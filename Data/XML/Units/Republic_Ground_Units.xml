@@ -4042,6 +4042,7 @@
 		TEXT_TOOLTIP_ARC170_GROUND_WEAP1
 		TEXT_TOOLTIP_ARC170_GROUND_WEAP2
 		TEXT_TOOLTIP_ARC170_GROUND_WEAP3
+		TEXT_TOOLTIP_ARC170_GROUND_WEAP4
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_arc170.tga</Icon_Name>
@@ -4056,7 +4057,7 @@
 		<Behavior>SELECTABLE, POWERED</Behavior>
 		<MovementClass> Flying </MovementClass>
 		<Type>Hover</Type>
-		<HardPoints> HP_ARC_170_Ground_00, HP_ARC_170_Ground_01, <!--HP_ARC_170_Ground_02, HP_ARC_170_Ground_03--> </HardPoints>
+		<HardPoints> HP_ARC_170_Ground_00, HP_ARC_170_Ground_01, HP_ARC_170_Ground_02, HP_ARC_170_Ground_03--> </HardPoints>
 
 		<Victory_Relevant>yes</Victory_Relevant>
 
