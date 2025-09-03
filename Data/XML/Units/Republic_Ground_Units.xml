@@ -4041,6 +4041,7 @@
 		TEXT_TOOLTIP_ARC170_GROUND_MOVE
 		TEXT_TOOLTIP_ARC170_GROUND_WEAP1
 		TEXT_TOOLTIP_ARC170_GROUND_WEAP2
+		TEXT_TOOLTIP_ARC170_GROUND_WEAP3
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_arc170.tga</Icon_Name>
