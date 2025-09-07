@@ -1078,7 +1078,7 @@
 		<Fire_Inaccuracy_Distance> VehicleHero, 25.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 
-	<!-- <HardPoint Name="HP_ARC_170_Ground_02">
+	<HardPoint Name="HP_ARC_170_Ground_02">
 		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -1087,7 +1087,7 @@
         <Fire_Bone_B>MUZZLEC_00</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Ship_Fighter_Proton_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type></Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>37.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -1095,7 +1095,6 @@
         <Fire_Range_Distance>900.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
 
@@ -1120,7 +1119,7 @@
 	    <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	    <Fire_Category_Restrictions> Corvette, Frigate, Capital, Supercapital </Fire_Category_Restrictions>
 	
-	</HardPoint> -->
+	</HardPoint>
 
 	<!-- Missiles Magna Tri -->
 

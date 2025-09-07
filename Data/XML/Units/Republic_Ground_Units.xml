@@ -4057,7 +4057,7 @@
 		<Behavior>SELECTABLE, POWERED</Behavior>
 		<MovementClass> Flying </MovementClass>
 		<Type>Hover</Type>
-		<HardPoints> HP_ARC_170_Ground_00, HP_ARC_170_Ground_01, HP_ARC_170_Ground_02, HP_ARC_170_Ground_03--> </HardPoints>
+		<HardPoints> HP_ARC_170_Ground_00, HP_ARC_170_Ground_01, HP_ARC_170_Ground_02, HP_ARC_170_Ground_03 </HardPoints>
 
 		<Victory_Relevant>yes</Victory_Relevant>
 
@@ -4103,6 +4103,8 @@
 		<Shield_Armor_Type>ShieldG_SpeederHeavy</Shield_Armor_Type>
 		<Shield_Points>165</Shield_Points>
 		<Shield_Refresh_Rate>0.6</Shield_Refresh_Rate>
+
+		<Should_Reinforcements_Move> true </Should_Reinforcements_Move>
 		<!-- End -->
 
 		<!-- Targeting -->
