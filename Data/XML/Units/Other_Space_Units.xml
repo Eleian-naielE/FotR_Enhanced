@@ -2132,7 +2132,7 @@
 
 <!-- FotR_Enhanced Unit-->
 
-	<!--Umbaran Frigate--> <!-- Needs text reworks, Change Weapon loadout, Custom Tender text block   -->
+	<!--Umbaran Frigate-->
 
 	<SpaceUnit Name="Umbaran_Frigate">
 		<Text_ID>TEXT_UNIT_UMBARAN_FRIGATE</Text_ID>
@@ -2180,14 +2180,14 @@
 
 		<Shield_Armor_Type>ShieldS_Frigate</Shield_Armor_Type>
 		<Shield_Points>1300</Shield_Points>
-		<Shield_Refresh_Rate>19.25</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>9.75</Shield_Refresh_Rate>
 		<Armor_Type> ArmourS_Frigate </Armor_Type>
 		<Tactical_Health>2040</Tactical_Health>
 
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>	
 		
-		<AI_Combat_Power>216</AI_Combat_Power>
+		<AI_Combat_Power>747</AI_Combat_Power>
 		<Autoresolve_Health>2400</Autoresolve_Health>
 		<Damage>40</Damage>
 		
@@ -2230,7 +2230,7 @@
 		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
-		<Population_Value>5</Population_Value>
+		<Population_Value>7</Population_Value>
 		<Space_Override_Population_Value/>
 
 		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
@@ -2376,7 +2376,7 @@
 		</Abilities>
 	</SpaceUnit>
 
-	<!-- Umbaran Fighter --> <!-- Finish This!!!! -->
+	<!-- Umbaran Fighter -->
 
 	<SpaceUnit Name="Umbaran_Fighter">
 		<!-- GUI Info -->
@@ -2421,7 +2421,7 @@
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 
-		<AI_Combat_Power></AI_Combat_Power>
+		<AI_Combat_Power>98</AI_Combat_Power>
 		<Maintenance_Cost/>
 
 		<Damage>1</Damage>
