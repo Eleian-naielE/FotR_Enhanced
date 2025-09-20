@@ -4044,7 +4044,7 @@
 		TEXT_TOOLTIP_ARC170_GROUND_WEAP3
 		TEXT_TOOLTIP_ARC170_GROUND_WEAP4
 		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_AIRSPEEDER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_arc170.tga</Icon_Name>
 		<!-- End -->
 
@@ -4066,7 +4066,7 @@
 		<Lua_Script>ObjectScript_ARC170_Ground</Lua_Script>
 		<!-- End -->
 
-		<!-- Model Wise -->
+		<!-- Model -->
 		<Land_Model_Name>ARC-170_starfighter_Ground.alo</Land_Model_Name>
 		<No_Colorization_Color/>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -4267,7 +4267,7 @@
 
 	<GroundCompany Name="ARC170_Ground_Company">
 		<Text_ID>TEXT_UNIT_ARC170_COMPANY</Text_ID>
-		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_AIRSPEEDER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 			TEXT_TOOLTIP_ARC170
 			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -4276,6 +4276,8 @@
 			TEXT_TOOLTIP_ARC170_GROUND_MOVE
 			TEXT_TOOLTIP_ARC170_GROUND_WEAP1
 			TEXT_TOOLTIP_ARC170_GROUND_WEAP2
+			TEXT_TOOLTIP_ARC170_GROUND_WEAP3
+			TEXT_TOOLTIP_ARC170_GROUND_WEAP4
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_arc170.tga</Icon_Name>
 
@@ -4297,7 +4299,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>225</Score_Cost_Credits>
-		<Population_Value>1</Population_Value>
+		<Population_Value>2</Population_Value>
 
 		<Tech_Level>6</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
