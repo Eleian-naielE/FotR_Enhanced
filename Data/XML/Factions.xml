@@ -377,7 +377,7 @@
 		<SFXEvent_Tactical_Lose_Friendly_Control> Skirmish_Ground_Mining_Facility, RHD_Build_Pad_Lost </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control> Skirmish_Ground_Mining_Facility, RHD_Build_Pad_Captured </SFXEvent_Tactical_Gain_Friendly_Control>
 
- <!--
+	<!--
 		<SFXEvent_Tactical_Lose_Friendly_Control>Garrison_Bunker_Capturable, RHD_Lost_Bunker </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Garrison_Bunker_Capturable, RHD_Capture_Bunker </SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Skirmish_Hutt_Asteroid_Base, RHD_Lost_Hutt_Asteroid </SFXEvent_Tactical_Lose_Friendly_Control>
@@ -390,7 +390,7 @@
 		<SFXEvent_Tactical_Gain_Friendly_Control>Skirmish_Outpost_Pad, RHD_Capture_Outpost_Pad </SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Skirrmish_Mineral_Processor_Pad, RHD_Lost_MinProc </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Skirrmish_Mineral_Processor_Pad, RHD_Capture_MinProc </SFXEvent_Tactical_Gain_Friendly_Control>
- -->
+	-->
 
 		<SFXEvent_HUD_Reinforcement_Point_Contested> RHD_Reinforcement_Contested </SFXEvent_HUD_Reinforcement_Point_Contested>
 
@@ -454,7 +454,7 @@
 		<SFXEvent_Player_Taunt> Unit_Taunt_Luke </SFXEvent_Player_Taunt>
 		<SFXEvent_Player_Taunt> Unit_Laugh_Chewie </SFXEvent_Player_Taunt>
 
-    <!--Music-->
+   	<!--Music-->
 		<Strategic_Map_Music_Event> Galactic_Map_Rebel_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> CIS_Tactical_Battle </Music_Event_Battle_Load_Screen>
 
@@ -731,7 +731,6 @@
 		<Bombardment_Lighting_Color_List>0.33,0.57,0.9</Bombardment_Lighting_Color_List>
 		<Bombardment_Lighting_Intensity_List>0.5</Bombardment_Lighting_Intensity_List>
 		<Bombardment_Lighting_Seconds_List>3</Bombardment_Lighting_Seconds_List>
-
     <!--SFX-->
 		<Space_Retreat_Begin_SFXEvent> Republic_Retreat_Started </Space_Retreat_Begin_SFXEvent>
 		<Space_Retreat_Enemy_Begin_SFXEvent> Republic_Enemy_Retreat_Started </Space_Retreat_Enemy_Begin_SFXEvent>
@@ -944,7 +943,7 @@
 		<SFXEvent_Tactical_Lose_Friendly_Control> Skirmish_Ground_Mining_Facility, EHD_Build_Pad_Lost </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control> Skirmish_Ground_Mining_Facility, EHD_Build_Pad_Captured </SFXEvent_Tactical_Gain_Friendly_Control>
 
- <!--
+	<!--
 		<SFXEvent_Tactical_Lose_Friendly_Control>Garrison_Bunker_Capturable, EHD_Lost_Bunker </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Garrison_Bunker_Capturable, EHD_Capture_Bunker </SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Skirmish_Hutt_Asteroid_Base, EHD_Lost_Hutt_Asteroid </SFXEvent_Tactical_Lose_Friendly_Control>
@@ -957,7 +956,7 @@
 		<SFXEvent_Tactical_Gain_Friendly_Control>Skirmish_Outpost_Pad, EHD_Capture_Outpost_Pad </SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Skirrmish_Mineral_Processor_Pad, EHD_Lost_MinProc </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Skirrmish_Mineral_Processor_Pad, EHD_Capture_MinProc </SFXEvent_Tactical_Gain_Friendly_Control>
- -->
+	-->
 
 		<SFXEvent_HUD_Reinforcement_Point_Contested> EHD_Reinforcement_Contested </SFXEvent_HUD_Reinforcement_Point_Contested>
 
@@ -1613,7 +1612,7 @@
 		<SFXEvent_Tactical_Lose_Friendly_Control> Skirmish_Ground_Mining_Facility, UHD_Build_Pad_Lost </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control> Skirmish_Ground_Mining_Facility, UHD_Build_Pad_Captured </SFXEvent_Tactical_Gain_Friendly_Control>
 
-<!--
+	<!--
 		<SFXEvent_Tactical_Lose_Friendly_Control>Garrison_Bunker_Capturable, UHD_Lost_Bunker </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Garrison_Bunker_Capturable, UHD_Capture_Bunker </SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Skirmish_Hutt_Asteroid_Base, UHD_Lost_Hutt_Asteroid </SFXEvent_Tactical_Lose_Friendly_Control>
@@ -1626,7 +1625,7 @@
 		<SFXEvent_Tactical_Gain_Friendly_Control>Skirmish_Outpost_Pad, UHD_Capture_Outpost_Pad </SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Skirrmish_Mineral_Processor_Pad, UHD_Lost_MinProc </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Skirrmish_Mineral_Processor_Pad, UHD_Capture_MinProc </SFXEvent_Tactical_Gain_Friendly_Control>
--->
+	-->
 
 		<SFXEvent_HUD_Reinforcement_Point_Contested> UHD_Reinforcement_Contested </SFXEvent_HUD_Reinforcement_Point_Contested>
 
@@ -1653,9 +1652,9 @@
 
 		<!-- Faction-based tactical constuction world 3D SFX - these are not HUD responses, but physical sound effects -->
 		<SFXEvent_Tactical_Object_Building_Started> Structure_Buildable_Start </SFXEvent_Tactical_Object_Building_Started> <!-- An object is just starting construction in the world -->
-		 <SFXEvent_Tactical_Object_Building_Loop> Structure_Buildable_Loop </SFXEvent_Tactical_Object_Building_Loop> <!-- An object is currently under construction (loop) in the world -->
+		<SFXEvent_Tactical_Object_Building_Loop> Structure_Buildable_Loop </SFXEvent_Tactical_Object_Building_Loop> <!-- An object is currently under construction (loop) in the world -->
 		<SFXEvent_Tactical_Object_Building_Complete> Structure_Buildable_Stop </SFXEvent_Tactical_Object_Building_Complete> <!-- An object has just completed construction in the world -->
-		 <SFXEvent_Tactical_Object_Sold> Structure_Buildable_Sold </SFXEvent_Tactical_Object_Sold> <!-- An object is sold in the world -->
+		<SFXEvent_Tactical_Object_Sold> Structure_Buildable_Sold </SFXEvent_Tactical_Object_Sold> <!-- An object is sold in the world -->
 
 		<!-- Weather begin/end audio cues: Rain, Snow, Sandstorm, Ash -->
 		<SFXEvent_Weather_Begin> RAIN,      </SFXEvent_Weather_Begin>
