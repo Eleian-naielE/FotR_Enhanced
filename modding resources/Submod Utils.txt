@@ -1,6 +1,9 @@
 <!-- FotR_Enhanced -->
+
 <!-- End -->
+
 -- FotR_Enhanced
+
 --[[FotR_Enhanced]]
 
 
@@ -27,11 +30,7 @@ Royal Guards fix(
 	2. health bar length(probably due to it being a minorhero?)
 	)
 
-ofc venator starting unit (cf : above obi wan venator) (Almost done?)
-
 swap out therbon with someone else
-
-rework ofc officer bonus mechanic(use bloodlust ability)
 
 null class arcs
 
@@ -54,59 +53,7 @@ Moff Replace suspicion List
 
 
 a6 prototype
-
-replace missiles with grenades(same as the one from at-xt), no tower, rear gun replaced with heavy aa blaster
-
-
-
-************************** ORS Submodding Rules *****************************
-
-ORS Reworked Timeline for FOTR
-
-time line 
-20bby 11 16:2 31 Battle of Bomis Koori iv(Starting Battle) -> Battle of Rendili mission to maramere(durge's death)- > boz pity 
-20bby 12 16:3 32 
------------------ submod gc area ends here ------------------
-19bby 1 16:4 33 siege of cato nemoidia 
-19bby 2 16:5 battle of coruscant,  battle of felucia, siskeen, kashyyyk, utapau, mustafar
-19bby 3 16:6
-
-ORS Base Mod Extension Goals 
-	set in 19bby (Era 5)
-	starts with cato castle clash
-	triad of evil message pop up(Probably Done?)
-	deployment of aayla secura and ki adi mundi story event pop up(deploy each to saleucami, mygeeto respectly)
-	reworked corsucant chaos (narrative tactical battle like anaxes_annexation)
-	kashyyyk owner change post coruscant chaos event
-	utapau(deploy obi wan), felucia(deploy secura) narrative mission
-
-
-ORS Submod Plans
-	set in 20bby month 10 (Late Era 4)
-	starts with battle of bomis koori iv
-	outer rim sieges message pop up
-	phase 1 target pop up
-	bumped up starting units for separatist strongholds(mygeeto, saleucami, boz pity, sarrish,)
-	battle of rendili(jace dallin unlocked, rendili DHC defense fleet reward)
-	mission to maramere(kill durge)
-	battle of boz pity
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	replace missiles with grenades(same as the one from at-xt), no tower, rear gun replaced with heavy aa blaster
 
 
 		<!-- Tythe --> <Galactic_Position>1002, -929, 10</Galactic_Position>
@@ -114,85 +61,5 @@ ORS Submod Plans
         <!-- Lok --> <Galactic_Position>916, -948, 10</Galactic_Position>
 
 
-
-
- 
- 
- 
-
-
-      <!-- FotR_Enhanced -->
-			<Combat_Bonus_Ability Name="_OFC_Officer_Bonus">
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<Applicable_Unit_Types>Generic_Venator_OFC, Generic_Venator_SPHA_T</Applicable_Unit_Types>
-				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Health_Bonus_Percentage>0.10</Health_Bonus_Percentage>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,    0.9f</Mod_Multiplier>
-				<Shield_Bonus_Percentage>0.05</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
-				<Stacking_Category>1</Stacking_Category>
-			</Combat_Bonus_Ability>
-
-
-
-
-
-
-
 Resoureces {
-
-
-		["Rom"] = {"ROM_MOHC_ASSIGN",{"ROM_MOHC_RETIRE","ROM_MOHC_RETIRE_IMP"},{"ROM_MOHC","ROM_MOHC_IMP"},"Rom Mohc", ["Companies"] = {"ROM_MOHC_TEAM","ROM_MOHC_TEAM_IMP"}},
-		["Gentis"] = {"GENTIS_ASSIGN",{"GENTIS_RETIRE","GENTIS_RETIRE_IMP"},{"GENTIS_AT_TE","GENTIS_AT_TE_IMP"},"Gentis", ["Companies"] = {"GENTIS_TEAM","GENTIS_TEAM_IMP"}},
-		["Geen"] = {"GEEN_ASSIGN",{"GEEN_RETIRE","GEEN_RETIRE_IMP"},{"GEEN_UT_AT","GEEN_UT_AT_IMP"},"Locus Geen", ["Companies"] = {"GEEN_TEAM","GEEN_TEAM_IMP"}},
-		["Ozzel"] = {"OZZEL_ASSIGN",{"OZZEL_RETIRE","OZZEL_RETIRE_IMP"},{"OZZEL_LAAT","OZZEL_LAAT_IMP"},"Kendal Ozzel", ["Companies"] = {"OZZEL_TEAM","OZZEL_TEAM_IMP"}},
-		["Romodi"] = {"ROMODI_ASSIGN",{"ROMODI_RETIRE","ROMODI_RETIRE_IMP"},{"ROMODI_A5_JUGGERNAUT","ROMODI_A5_JUGGERNAUT_IMP"},"Hurst Romodi", ["Companies"] = {"ROMODI_TEAM","ROMODI_TEAM_IMP"}},
-		["Solomahal"] = {"SOLOMAHAL_ASSIGN",{"SOLOMAHAL_RETIRE","SOLOMAHAL_RETIRE_IMP"},{"SOLOMAHAL_RX200","SOLOMAHAL_RX200_IMP"},"Solomahal", ["Companies"] = {"SOLOMAHAL_TEAM","SOLOMAHAL_TEAM_IMP"}},
-		["Jesra"] = {"JESRA_LOTURE_ASSIGN",{"JESRA_LOTURE_RETIRE","JESRA_LOTURE_RETIRE_IMP"},{"JESRA_LOTURE","JESRA_LOTURE_IMP"},"Jesra Loture", ["Companies"] = {"JESRA_LOTURE_TEAM","JESRA_LOTURE_TEAM_IMP"}},
-		["Jayfon"] = {"JAYFON_ASSIGN",{"JAYFON_RETIRE","JAYFON_RETIRE_IMP"},{"JAYFON","JAYFON_IMP"},"Jayfon", ["Companies"] = {"JAYFON_TEAM","JAYFON_TEAM_IMP"}},
-				
-		Generic ARC170 : HUNT, ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA 
-		Squad Seven ARC170 : REVEAL, ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR,  SELECTABLE, TARGETING, WEAPON, POWERED,  SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA 
-		Oddball ARC170 : TELEKINESIS_TARGET, REVEAL, ABILITY_COUNTDOWN, HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA
-
-		Broadside : ABILITY_COUNTDOWN, HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, GARRISON_UNIT, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA 
-		Generic Ywing : HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, GARRISON_UNIT, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA 
-
-		oddball torrent : ABILITY_COUNTDOWN, TELEKINESIS_TARGET, HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA
-		Generic Torrent : HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA 
-
-		Generic Rep Z95 : HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA
-		Warthog Z95 : TELEKINESIS_TARGET, ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA
-
-		Generic Venator : BARRAGE, TELEKINESIS_TARGET, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI,  DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA 
-		Wieler :  SELECTABLE, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA
-		Tarkin : SELECTABLE, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA
-
-		LANDING, SELECTABLE, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING
-
-		TARGETING, SELECTABLE, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE,  WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING
-
-		TARGETING, SELECTABLE, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING
-
-		TARGETING, SELECTABLE, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING
-
-		TARGETING, LANDING, SELECTABLE, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING
-
-
-		Garven Dreis z95
-		ABILITY_COUNTDOWN, TELEKINESIS_TARGET, HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA
-
-		generic z95 
-		HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA 
-
-		Generic cloakshape
-		HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA
-
-
-		T19 : 1.9
-		ATL Interceptor : 1.23
-		r22 spearhed 1.3
-		cloakshape fotr : 2.35
-		I_beam : 1.87
-
 }
