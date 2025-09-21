@@ -1124,13 +1124,39 @@
 
 	<!-- downgrade super heavy av laser, add strongest missile/massdriver projectile -->
 
-	<HardPoint Name="HP_MagnaTriMissiles_">
+	<HardPoint Name="HP_MagnaTri_Missile_Laser">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-		<Health>150.0</Health>
 
+		<Fire_Bone_A>MUZZLEC_00</Fire_Bone_A>
+		<Fire_Bone_B>MUZZLEC_00</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+		<Fire_Projectile_Type>Proj_Light_AI_Blaster_Red</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>400.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+	<HardPoint Name="HP_MagnaTri_Missile_Missile">
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 
 		<Fire_Bone_A>Head</Fire_Bone_A>
 		<Fire_Bone_B>Head</Fire_Bone_B>
@@ -1140,16 +1166,16 @@
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
-		<Fire_Projectile_Type>Proj_SuperHeavy_AV_Blaster_Red</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Octuptarra_Laser_Fire</Fire_SFXEvent>
+		<Fire_Projectile_Type>Proj_SuperHeavy_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>10</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>600.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Concussion_Launcher_Fire</Fire_SFXEvent>
 
-		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>

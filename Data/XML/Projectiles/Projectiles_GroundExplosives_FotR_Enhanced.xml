@@ -5,6 +5,10 @@
 	<!-- ********************                    Missiles                        ************** -->
 	<!-- ************************************************************************************** -->
 
-	
+	<Projectile Name="Proj_SuperHeavy_Concussion_Missile">
+		<Variant_Of_Existing_Type>Proj_Heavy_Concussion_Missile</Variant_Of_Existing_Type>
+		<Projectile_Blast_Area_Damage>40.0</Projectile_Blast_Area_Damage>
+		<Scale_Factor>0.125</Scale_Factor>
+	</Projectile>
 
 </Projectiles>
