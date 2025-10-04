@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TradeRoutes>
+
+	<TradeRoute Name="Foerost_Test_Space">
+		<Point_A>Foerost</Point_A>
+		<Point_B>Test_Space</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+
+    <TradeRoute Name="Foerost_Test_Land">
+		<Point_A>Foerost</Point_A>
+		<Point_B>Test_Land</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+
+	<TradeRoute Name="Foerost_Test_SFX">
+		<Point_A>Foerost</Point_A>
+		<Point_B>Test_SFX</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+
+</TradeRoutes>
