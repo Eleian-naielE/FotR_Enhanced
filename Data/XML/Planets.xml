@@ -57153,7 +57153,7 @@
     </Planet>
 
     <!-- FotR_Enhanced -->
-
+    <!--
     <Planet Name="Anzat"> Rocky, mountain, dirt looking
         <Text_ID></Text_ID>
         <Encyclopedia_Text></Encyclopedia_Text>
@@ -57180,4 +57180,5 @@
 
     <Planet Name="Merson">
     </Planet>
+    -->
 </Planets>

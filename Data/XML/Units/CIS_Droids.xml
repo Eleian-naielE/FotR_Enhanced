@@ -2849,11 +2849,11 @@
 		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>245</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+			<Tactical_Build_Cost_Multiplayer>245</Tactical_Build_Cost_Multiplayer>
+			<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+			<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+			<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
@@ -3833,6 +3833,7 @@
 	</GroundCompany>
 
 	
+	<!--
 	<GroundInfantry Name="Combat_Tri">
 		<Text_ID>TEXT_UNIT_COMBAT_TRI</Text_ID>
 		<Tech_Level>6</Tech_Level>
@@ -3845,5 +3846,5 @@
 		</Encyclopedia_Text>
 		<Tech_Level>6</Tech_Level>
 	</GroundCompany>
-
+	-->
 </CIS_Droid_Units>
