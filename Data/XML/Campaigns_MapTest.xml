@@ -4,7 +4,7 @@
 <!-- Empire Ctrl -->
 
 	<Campaign Name="Sandbox_Test_Map_Empire">
-		<Campaign_Set> Sandbox_BattleTest_Map </Campaign_Set>
+		<Campaign_Set> Sandbox_BattleTest_Map_Empire </Campaign_Set>
 		<Sort_Order>30</Sort_Order>
 
         <Text_ID> TEXT_CAMPAIGN_HEADER_MAP_TESTING_EMPIRE </Text_ID>
@@ -395,7 +395,7 @@
 	</Campaign>
 
 	<Campaign Name="Sandbox_Test_Map_Defend_Empire">
-		<Campaign_Set> Sandbox_BattleTest_Map_Defend </Campaign_Set>
+		<Campaign_Set> Sandbox_BattleTest_Map_Defend_Empire </Campaign_Set>
 		<Sort_Order>30</Sort_Order>
 
         <Text_ID> TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_EMPIRE </Text_ID>
@@ -575,7 +575,7 @@
 	</Campaign>
 
 	<Campaign Name="Sandbox_Test_Map_Missions_Empire">
-		<Campaign_Set> Sandbox_BattleTest_Map_Missions </Campaign_Set>
+		<Campaign_Set> Sandbox_BattleTest_Map_Missions_Empire </Campaign_Set>
 		<Sort_Order>30</Sort_Order>
 
         <Text_ID> TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS_EMPIRE </Text_ID>
@@ -766,7 +766,7 @@
 <!-- Rebel Ctrl -->
 
 	<Campaign Name="Sandbox_Test_Map_Rebel">
-		<Campaign_Set> Sandbox_BattleTest_Map </Campaign_Set>
+		<Campaign_Set> Sandbox_BattleTest_Map_Rebel </Campaign_Set>
 		<Sort_Order>30</Sort_Order>
 
         <Text_ID> TEXT_CAMPAIGN_HEADER_MAP_TESTING_REBEL </Text_ID>
@@ -860,8 +860,10 @@
 		<Starting_Forces> Rebel, Foerost, Darth_Maul_Team </Starting_Forces>
 		<Starting_Forces> Rebel, Foerost, TJ912_Recusant </Starting_Forces>
 		<Starting_Forces> Rebel, Foerost, TM171_DH_Omni </Starting_Forces>
+
 		
 		<Starting_Forces> Rebel, Foerost, Lucrehulk_Carrier_Control </Starting_Forces>
+		<Starting_Forces> Rebel, Foerost, Umbaran_Frigate </Starting_Forces>
 
 		<Starting_Forces> Rebel, Foerost, CIS_MAF_Group </Starting_Forces>
 		<Starting_Forces> Rebel, Foerost, HMP_Group </Starting_Forces>
@@ -1153,10 +1155,10 @@
 
 	<!-- Configuration incomplete DO NOT ENABLE!! -->
 	<Campaign Name="Sandbox_Test_Map_Defend_Rebel">
-		<Campaign_Set> Sandbox_BattleTest_Map_Defend </Campaign_Set>
+		<Campaign_Set> Sandbox_BattleTest_Map_Defend_Rebel</Campaign_Set>
 		<Sort_Order>30</Sort_Order>
 
-        <Text_ID> TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_EMPIRE </Text_ID>
+        <Text_ID> TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_REBEL </Text_ID>
         <Description_Text> TEXT_CAMPAIGN_DESCRIPTION_MAP_TESTING </Description_Text>
 
         <Camera_Shift_X> 40.0 </Camera_Shift_X>
@@ -1184,7 +1186,7 @@
         <Starting_Active_Player> Rebel </Starting_Active_Player>
 
 		<Rebel_Story_Name></Rebel_Story_Name>
-       	<Empire_Story_Name>Story_Plots_Sandbox_Test_Maps.xml</Empire_Story_Name>
+       	<Empire_Story_Name></Empire_Story_Name>
 
 		<AI_Player_Control> Empire, TestMapAI </AI_Player_Control>
 
@@ -1333,10 +1335,10 @@
 	</Campaign>
 
 	<Campaign Name="Sandbox_Test_Map_Missions_Rebel">
-		<Campaign_Set> Sandbox_BattleTest_Map_Missions </Campaign_Set>
+		<Campaign_Set> Sandbox_BattleTest_Map_Missions_Rebel </Campaign_Set>
 		<Sort_Order>30</Sort_Order>
 
-        <Text_ID> TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS_EMPIRE </Text_ID>
+        <Text_ID> TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS_REBEL </Text_ID>
         <Description_Text> TEXT_CAMPAIGN_DESCRIPTION_MAP_TESTING </Description_Text>
 
         <Camera_Shift_X> 40.0 </Camera_Shift_X>
@@ -1363,10 +1365,10 @@
         <Home_Location> Rebel, Test_Land </Home_Location>
         <Home_Location> Empire, Coruscant </Home_Location>
         
-        <Starting_Active_Player> Empire </Starting_Active_Player>
+        <Starting_Active_Player> Rebel </Starting_Active_Player>
 
-		<Rebel_Story_Name></Rebel_Story_Name>
-        <Empire_Story_Name>StoryEvents\Story_Plots_Sandbox_Mission_Testing.xml</Empire_Story_Name>
+		<Rebel_Story_Name>Story_Plots_Sandbox_Test_Maps.xml</Rebel_Story_Name>
+        <Empire_Story_Name></Empire_Story_Name>
 
 		<AI_Player_Control> Rebel, None </AI_Player_Control>
 		<AI_Player_Control> Empire, SandboxHuman </AI_Player_Control>
