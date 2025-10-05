@@ -3754,7 +3754,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Electrostaff_Moving_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Electrostaff_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask> InfantryHero </CategoryMask>
+		<CategoryMask> Droid | InfantryHero </CategoryMask>
 		<Ranking_In_Category> 8 </Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
