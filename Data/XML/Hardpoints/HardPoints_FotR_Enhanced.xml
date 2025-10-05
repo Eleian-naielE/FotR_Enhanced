@@ -1141,7 +1141,7 @@
 		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>400.0</Fire_Range_Distance>
+		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
@@ -1167,8 +1167,8 @@
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
 		<Fire_Projectile_Type>Proj_SuperHeavy_Concussion_Missile</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>10</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>6</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>6</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>600.0</Fire_Range_Distance>
