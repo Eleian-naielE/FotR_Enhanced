@@ -3794,8 +3794,6 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
 		</Encyclopedia_Text>
-		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
 		<Icon_Name>I_BUTTON_SPHAT.tga</Icon_Name>
 
 		<Autoresolve_Health>100</Autoresolve_Health>
@@ -4049,6 +4047,7 @@
 		<!-- End -->
 
 		<!-- Property -->
+		<Affiliation>Empire</Affiliation>
 		<CategoryMask> AirSpeeder | AntiVehicle </CategoryMask>
 		<LandBehavior>
 			ABILITY_COUNTDOWN, IDLE, FLYING_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, HUNT, 
@@ -4056,14 +4055,14 @@
 		</LandBehavior>
 		<Behavior>SELECTABLE, POWERED</Behavior>
 		<MovementClass> Flying </MovementClass>
-		<Type>Hover</Type>
 		<HardPoints> HP_ARC_170_Ground_00, HP_ARC_170_Ground_01, HP_ARC_170_Ground_02, HP_ARC_170_Ground_03 </HardPoints>
 
 		<Victory_Relevant>yes</Victory_Relevant>
-
+		
+		<Destroy_When_Stunned_Over_Water>Yes</Destroy_When_Stunned_Over_Water>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Deploys>Yes</Deploys>
-		<Lua_Script>ObjectScript_ARC170_Ground</Lua_Script>
+		<Lua_Script/>
 		<!-- End -->
 
 		<!-- Model -->
@@ -4075,8 +4074,8 @@
 		<Size_Value>15</Size_Value>
 		<!-- End -->
 
-		<!-- Physics : movement, speed, health, acceleration -->
-		<Layer_Z_Adjust>-12</Layer_Z_Adjust>
+		<!-- Physics : movement, speed, acceleration -->
+		<Layer_Z_Adjust>12</Layer_Z_Adjust>
 		
 		<Mass>0.985</Mass>
 		<Max_Speed>7.0</Max_Speed>
@@ -4097,31 +4096,31 @@
 		<UnitCollisionClass>Giant Vehicle</UnitCollisionClass>
 		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
 
+		<Should_Reinforcements_Move> true </Should_Reinforcements_Move>
+		<Type>Fly</Type>
+		<!-- End -->
+		
+		
+		<!-- Stats -->
 		<Armor_Type> ArmourG_SpeederHeavy </Armor_Type>
 		<Tactical_Health>250</Tactical_Health>
 		<Autoresolve_Health>40.0</Autoresolve_Health>
 		<Shield_Armor_Type>ShieldG_SpeederHeavy</Shield_Armor_Type>
 		<Shield_Points>165</Shield_Points>
 		<Shield_Refresh_Rate>0.6</Shield_Refresh_Rate>
-
-		<Should_Reinforcements_Move> true </Should_Reinforcements_Move>
+		<AI_Combat_Power>51</AI_Combat_Power>
 		<!-- End -->
 
 		<!-- Targeting -->
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Targeting_Priority_Set>AntiVehicleAir</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Target_Bones>ROOT, BONE_BODY, BONE_11, BONE_15 </Target_Bones>
 
 		<!-- End -->
-		
-		<AI_Combat_Power>51</AI_Combat_Power>
-		
-		<Affiliation>Empire</Affiliation>
 
 		<Political_Control>0</Political_Control>
 
-		
-		
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Property_Flags/>
 		<Weather_Category>Flying</Weather_Category>
@@ -4132,13 +4131,11 @@
 		<Score_Cost_Credits>50</Score_Cost_Credits>
 		
 		
-
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		<Garrison_Bone_Names/>
 		<Num_Garrison_Guns>0</Num_Garrison_Guns>
 
-		<Target_Bones>ROOT, BONE_BODY, BONE_11, BONE_15 </Target_Bones>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
@@ -4226,7 +4223,7 @@
 		
 		<Stationary_Space_Layer> Land </Stationary_Space_Layer>
 		<PathFrameDelay> 4 </PathFrameDelay>
-		<Hover_Offset>150.0</Hover_Offset>
+		<Hover_Offset>170.0</Hover_Offset>
 		<Prepare_Strafe_Height>100.0</Prepare_Strafe_Height>
 		<MaxFacingLookAheadFrames>5.0</MaxFacingLookAheadFrames>
 		<Should_Cause_Limited_Turrets_To_Turn> false </Should_Cause_Limited_Turrets_To_Turn>
@@ -4250,12 +4247,14 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			
+			<!--
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	0.3f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		            0.9</Mod_Multiplier>
 			</Unit_Ability>
+			-->
 
 			<Unit_Ability>
 				<Type>HUNT</Type>
