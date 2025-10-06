@@ -4051,7 +4051,7 @@
 		<CategoryMask> AirSpeeder | AntiVehicle </CategoryMask>
 		<LandBehavior>
 			ABILITY_COUNTDOWN, IDLE, FLYING_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, HUNT, 
-			POWERED, AMBIENT_SFX, UNIT_AI, TARGETING, STUNNABLE, WIND_DISTURBANCE, SHIELDED, DAMAGE_TRACKING
+			POWERED, AMBIENT_SFX, UNIT_AI, TARGETING, STUNNABLE, WIND_DISTURBANCE, SHIELDED, DAMAGE_TRACKING, GARRISON_HOVER
 		</LandBehavior>
 		<Behavior>SELECTABLE, POWERED</Behavior>
 		<MovementClass> Flying </MovementClass>
@@ -4061,8 +4061,8 @@
 		
 		<Destroy_When_Stunned_Over_Water>Yes</Destroy_When_Stunned_Over_Water>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Deploys>Yes</Deploys>
-		<Lua_Script/>
+		<Deploys>yes</Deploys>
+		<Lua_Script>ObjectScript_ARC170_Ground</Lua_Script>
 		<!-- End -->
 
 		<!-- Model -->
@@ -4075,7 +4075,6 @@
 		<!-- End -->
 
 		<!-- Physics : movement, speed, acceleration -->
-		<Layer_Z_Adjust>12</Layer_Z_Adjust>
 		
 		<Mass>0.985</Mass>
 		<Max_Speed>7.0</Max_Speed>
@@ -4096,7 +4095,6 @@
 		<UnitCollisionClass>Giant Vehicle</UnitCollisionClass>
 		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
 
-		<Should_Reinforcements_Move> true </Should_Reinforcements_Move>
 		<Type>Fly</Type>
 		<!-- End -->
 		
@@ -4109,6 +4107,14 @@
 		<Shield_Points>165</Shield_Points>
 		<Shield_Refresh_Rate>0.6</Shield_Refresh_Rate>
 		<AI_Combat_Power>51</AI_Combat_Power>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Garrison_Bone_Names>ROOT</Garrison_Bone_Names>
+		<Garrison_Exit_Dist>50</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>50</Garrison_Enter_Dist>
+		<Garrison_Radius>60</Garrison_Radius>
+		<Num_Garrison_Guns>8</Num_Garrison_Guns>
 		<!-- End -->
 
 		<!-- Targeting -->
@@ -4118,6 +4124,9 @@
 		<Target_Bones>ROOT, BONE_BODY, BONE_11, BONE_15 </Target_Bones>
 
 		<!-- End -->
+
+		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
+		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
 
 		<Political_Control>0</Political_Control>
 
@@ -4247,15 +4256,13 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			
-			<!--
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	0.3f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		            0.9</Mod_Multiplier>
 			</Unit_Ability>
-			-->
-
+			
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>

@@ -1895,7 +1895,5 @@
 
 	<TransportUnit Name="CR25_Landing_Craft_Heavy_Fighter_Ground_Landing">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy_Landing</Variant_Of_Existing_Type>
-
-		<Layer_Z_Adjust>-12</Layer_Z_Adjust>
 	</TransportUnit>
 </TransportUnits>
