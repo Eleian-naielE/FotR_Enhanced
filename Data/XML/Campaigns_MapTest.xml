@@ -100,8 +100,8 @@
 	
 
 		<Starting_Forces> Empire, Coruscant, ARC170_Ground_Company </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Republic_LAAT_Group </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Republic_Flashblind_Group </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Republic_LAAT_Company </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Republic_Flashblind_Company </Starting_Forces>
 
 		<Starting_Forces> Empire, Coruscant, Republic_A6_Prototype_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_A6_Juggernaut_Company </Starting_Forces>

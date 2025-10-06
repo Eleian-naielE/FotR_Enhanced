@@ -118,8 +118,8 @@ TEXT_UNIT_WOLFPACK_P2_RIFLEMAN,Wolfpack Rifleman (Phase II)
 TEXT_UNIT_WOLFPACK_P2_RIFLEMAN_GRENADIER,Wolfpack Rifleman Grenadier(Phase II)
 TEXT_UNIT_WOLFPACK_P2_SQUAD,Wolfpack Squad (Phase II)
 
-TEXT_TOOLTIP_ARC170_GROUND_WEAP1,1x Heavy Fighter Laser Cannon: 4 / 2.0s / 1.1km
-TEXT_TOOLTIP_ARC170_GROUND_WEAP2,1x Aft Fighter Laser Cannon: 2 / 2.0s / 1.0km
+TEXT_TOOLTIP_ARC170_GROUND_WEAP1,2x Heavy AV Blaster Cannon: 4 / 2.0s / 1.1km
+TEXT_TOOLTIP_ARC170_GROUND_WEAP2,2x Aft AV Blaster Cannon: 2 / 2.0s / 1.0km
 TEXT_TOOLTIP_ARC170_GROUND_WEAP3,1x Fighter Concussion Missile (AF): 1 / 37.5s / 1.8km
 TEXT_TOOLTIP_ARC170_GROUND_WEAP4,1x Proton Torpedo (AC): 1 / 37.5s / 1.8km
 
@@ -133,12 +133,17 @@ TEXT_STATBLOCK_UMBARAN_FIGHTER_SQUADRON,Squadron: 12x Zenuas 33 Umbaran Starfigh
 TEXT_UNIT_UMBARAN_FIGHTER_SQUADRON,Zenuas 33 Umbaran Starfighter Squadron
 
 
-TEXT_UNIT_MAGNATRI_MISSILE,
-TEXT_UNIT_MAGNATRI_MISSILE_COMPANY,
-TEXT_TOOLTIP_MAGNATRI_MISSILE,
-TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP1,
-TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP2,
-TEXT_TOOLTIP_MAGNATRI_MISSILE_COMPANY,
+TEXT_UNIT_MAGNATRI_MISSILE,Magna Octuptarra Droid (Ordnance)
+TEXT_UNIT_MAGNATRI_MISSILE_COMPANY,Magna Octuptarra Droid Company (Ordnance)
+TEXT_TOOLTIP_MAGNATRI_MISSILE,A late war variant of the infamous Magna Tri Droid, this variant replaces its heavy lasers for chain fed ordnance. It was powerful enough to blow the enemy vehicle with a single shot of its missile such as UT-AT.
+TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP1,1x Super Heavy Concussion Missile: 1 / 6.0s / 560m
+TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP2,1x Light AI Blaster Cannon: 2 / 1.0s / 380m
+TEXT_TOOLTIP_MAGNATRI_MISSILE_COMPANY,Company: 2x Magna Octuptarra Droid (Ordance)
+
+TEXT_TOOLTIP_MAGNATRI,Another Techno Union contribution, the Magna is a large variant of the Octuptarra walker, or Tri-Droid. This colossal walker is heavily armed and armored, although not the most nimble due to its leg configuration.
+TEXT_TOOLTIP_MAGNATRI_COMPANY,Company: 2x Magna Octuptarra Droid
+TEXT_TOOLTIP_MAGNATRI_WEAP1,1x Super Heavy AV Blaster Cannon: 3 / 2.0s / 400m
+
 
 TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_EMPIRE,
 TEXT_CAMPAIGN_HEADER_MAP_TESTING_EMPIRE,
