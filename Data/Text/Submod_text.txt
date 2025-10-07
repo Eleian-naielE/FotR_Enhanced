@@ -1,5 +1,11 @@
 ﻿TEXT_NOTE,Put text changes for submods here
 
+TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_EMPIRE,Map Testing Campaign Defence (Republic Control)
+TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_REBEL,Map Testing Campaign Defence (CIS Control)
+TEXT_CAMPAIGN_HEADER_MAP_TESTING_EMPIRE,Map Testing Campaign (Republic Control)
+TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS_EMPIRE,Mission Testing (Republic Control)
+TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS_REBEL,Mission Testing (CIS Control)
+TEXT_CAMPAIGN_HEADER_MAP_TESTING_REBEL,Map Testing Campaign (CIS Control)
 TEXT_CONQUEST_GOVERNMENT_REP_HERO_SWITCH_SPEECH_FORRAL,The war seems to near its end. I shall share my skill of piloting for the new generations of ace pilots. [Bythen Forral has retired and established Vensenor Flight Academy]
 TEXT_DOCUMENTATION_BODY_INFLUENCE_FIGHTERS_UMBARA,Umbara: Umbaran Fighter at 8+ Influence
 TEXT_DOCUMENTATION_BODY_INFLUENCE_PLANET_UMBARA_FOTR,Umbara: Can build Umbaran Support Frigate at 8+ influence.
@@ -24,12 +30,21 @@ TEXT_SPEECH_BLOCK_RETURNS_VIGILANCE,Admiral Block: Impressive... though it did c
 TEXT_SPEECH_CONQUER_RENDILI_REP_FINISHED,
 TEXT_STATBLOCK_BYTHEN_FORRAL_BASE,Health: 260 | Unshielded
 TEXT_STATBLOCK_CLOAKSHAPE_CW_BYTHEN_FORRAL_BASE,Health: 90 | Unshielded
+TEXT_STATBLOCK_UMBARAN_FIGHTER_BASE,Health: 22 | Shields: 18
+TEXT_STATBLOCK_UMBARAN_FIGHTER_MOVE,Speed: 4.5 | Maneuverability: 4.0
+TEXT_STATBLOCK_UMBARAN_FIGHTER_SQUADRON,Squadron: 12x Zenuas 33 Umbaran Starfighter
+TEXT_STATBLOCK_UMBARAN_FIGHTER_WEAP1,1x Heavy Fighter Laser Cannon: 3 / 1.0s / 1.6km
+TEXT_STATBLOCK_UMBARAN_FIGHTER_WEAP2,2x Rhazer Missiles: 4 / 8.0s / 1.2km
 TEXT_TOOLTIP_A6_PROTOTYPE,A prototype of the A6 Juggernaut, it is rather well armed and armored than its predecessor, the A5 Juggernaut. Though stripped down version of the final product, it is still capable of handling large enemies on it own.
 TEXT_TOOLTIP_A6_PROTOTYPE_HEALTH,Health: 1300 (Heavy Vehicle)
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP1,1x Heavy AV Blaster Cannon: 3 / 2.0s / 480m
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP2,1x Heavy AI Blaster Cannon: 8 / 2.0s / 480m
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP3,2x AI Blaster Cannons (AOE): 2 / 1.0s / 320m
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP4,2x Proton Missiles: 3 / 20.0s / 480m
+TEXT_TOOLTIP_ARC170_GROUND_WEAP1,2x Heavy AV Blaster Cannon: 4 / 2.0s / 1.1km
+TEXT_TOOLTIP_ARC170_GROUND_WEAP2,2x Aft AV Blaster Cannon: 2 / 2.0s / 1.0km
+TEXT_TOOLTIP_ARC170_GROUND_WEAP3,1x Fighter Concussion Missile (AF): 1 / 37.5s / 1.8km
+TEXT_TOOLTIP_ARC170_GROUND_WEAP4,1x Proton Torpedo (AC): 1 / 37.5s / 1.8km
 TEXT_TOOLTIP_BLOCK,Admiral Block was the commanding officer of the Negotiator, and later Vigilance, both serving the role as the flagship of Jedi general Obi Wan Kenobi.
 TEXT_TOOLTIP_BLOCK_VILGILANCE_RESPAWN,Block respawns in a Venator(Vigilance) after his first death
 TEXT_TOOLTIP_BUILDLIMIT_VENATOR_SPHA_T,Build Limit: 3 | Lifetime: 1
@@ -42,8 +57,16 @@ TEXT_TOOLTIP_COMMAND_VILGILANCE,Venator Star Destroyer, Vigilance
 TEXT_TOOLTIP_DARK_ACOLYTE,Dark Acolytes are Dark Jedis who joined the Confederacy of Independent Systems and directly serve its Head of State, Count Dooku. They served various roles from assassins to spies to civilian commanders. Although trained by Dooku, they are not considered to be Sith due to the Rule of Two.
 TEXT_TOOLTIP_ESCORT_P1_WOLFFE_SPECIAL,2x - Wolfpack Squad (P1)
 TEXT_TOOLTIP_ESCORT_P2_WOLFFE_SPECIAL,2x - Wolfpack Squad (P2)
-TEXT_TOOLTIP_ESCORT_PALPATINE_RED_GUARD,2x - Red Guards
+TEXT_TOOLTIP_ESCORT_PALPATINE_1,2x - Red Guards
+TEXT_TOOLTIP_ESCORT_PALPATINE_2,1x - Shock Trooper Squad
 TEXT_TOOLTIP_JAG, CT-55/11-9009, known as Jai'galaar or Jag, was a clone pilot captin in the Clone Army. Originally a Clone Commander, he was demoted to captain after the Retreat at Katraasii. Later, Jedi General Plo Koon drafted the captin as the test pilot for the new ARC-170 starfighters and flew with him on many battles including the battle over Cato Neimoidia.
+TEXT_TOOLTIP_MAGNATRI,Another Techno Union contribution, the Magna is a large variant of the Octuptarra walker, or Tri-Droid. This colossal walker is heavily armed and armored, although not the most nimble due to its leg configuration.
+TEXT_TOOLTIP_MAGNATRI_COMPANY,Company: 2x Magna Octuptarra Droid
+TEXT_TOOLTIP_MAGNATRI_MISSILE,A late war variant of the infamous Magna Tri Droid, this variant replaces its heavy lasers for chain fed ordnance. It was powerful enough to blow the enemy vehicle with a single shot of its missile such as UT-AT.
+TEXT_TOOLTIP_MAGNATRI_MISSILE_COMPANY,Company: 2x Magna Octuptarra Droid (Ordance)
+TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP1,1x Super Heavy Concussion Missile: 1 / 6.0s / 560m
+TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP2,1x Light AI Blaster Cannon: 2 / 1.0s / 380m
+TEXT_TOOLTIP_MAGNATRI_WEAP1,1x Super Heavy AV Blaster Cannon: 3 / 2.0s / 400m
 TEXT_TOOLTIP_MAGNATRI_WEAP2,1x Heavy Proton Missiles: 2 / 8.33s / 480m
 TEXT_TOOLTIP_OPPO_HEALTH,Health: 230 [4%/5s] (Hero)
 TEXT_TOOLTIP_OPPO_MOVE,Speed: 1.1
@@ -67,6 +90,7 @@ TEXT_TOOLTIP_TM171,TM-171 was a CIS T-series tactical droid who was in charge of
 TEXT_TOOLTIP_TRAIT_ARCHDUKE,Archduke of Geonosis
 TEXT_TOOLTIP_TRAIT_BLOCKADE_ENFORCER,Blockade Enforcer
 TEXT_TOOLTIP_TRAIT_PLO_BRO,Plo's Bros
+TEXT_TOOLTIP_UMBARAN_FIGHTER,An advanced Umbaran assault craft that blurs the line between fighter and patrol craft. Staggeringly maneuverable for its size and optimized for droid or highly-adaptable pilots, it served as a mainstay of Umbaran forces during the Battle of Umbara. Armed with a chin-mounted plasma cannon and dual wing-mounted missile pods, it excels at tearing through enemy fighters and bombers.
 TEXT_TOOLTIP_UMBARAN_FRIGATE,A fleet tender designed by the government of Umbara, this frigate is able to supply and reinforce CIS cruisers in battle and provide reapirs to fighter groups.
 TEXT_TOOLTIP_UMBARAN_FRIGATE_HULL,Hull: 2040 (Frigate)
 TEXT_TOOLTIP_UMBARAN_FRIGATE_MOVE,Speed: 3.25 | Accel: 1.5 | Turn: 0.3
@@ -99,7 +123,11 @@ TEXT_UNIT_COMBATTRI,Combat Octuptarra Droid
 TEXT_UNIT_COMBATTRI_COMPANY,Combat Octuptarra Droid Company
 TEXT_UNIT_DARK_ACOLYTE,Dark Acolyte 
 TEXT_UNIT_DARK_ACOLYTE_COMPANY,Dark Acolyte Squad
+TEXT_UNIT_MAGNATRI_MISSILE,Magna Octuptarra Droid (Ordnance)
+TEXT_UNIT_MAGNATRI_MISSILE_COMPANY,Magna Octuptarra Droid Company (Ordnance)
 TEXT_UNIT_RED_GUARD,Red Guard
+TEXT_UNIT_UMBARAN_FIGHTER,Zenuas 33 Umbaran Starfighter
+TEXT_UNIT_UMBARAN_FIGHTER_SQUADRON,Zenuas 33 Umbaran Starfighter Squadron
 TEXT_UNIT_UMBARAN_FRIGATE,Umbaran Support Frigate
 TEXT_UNIT_VENATOR_SPHA_T,Venator Star Destroyer (SPHA-T)
 TEXT_UNIT_VENATOR_SPHA_T_UPGRADE,Venator Star Destroyer SPHA-T Upgrade
@@ -117,38 +145,3 @@ TEXT_UNIT_WOLFPACK_P2_GUNNER_LIGHT,Wolfpack Light Gunner (Phase II)
 TEXT_UNIT_WOLFPACK_P2_RIFLEMAN,Wolfpack Rifleman (Phase II)
 TEXT_UNIT_WOLFPACK_P2_RIFLEMAN_GRENADIER,Wolfpack Rifleman Grenadier(Phase II)
 TEXT_UNIT_WOLFPACK_P2_SQUAD,Wolfpack Squad (Phase II)
-
-TEXT_TOOLTIP_ARC170_GROUND_WEAP1,2x Heavy AV Blaster Cannon: 4 / 2.0s / 1.1km
-TEXT_TOOLTIP_ARC170_GROUND_WEAP2,2x Aft AV Blaster Cannon: 2 / 2.0s / 1.0km
-TEXT_TOOLTIP_ARC170_GROUND_WEAP3,1x Fighter Concussion Missile (AF): 1 / 37.5s / 1.8km
-TEXT_TOOLTIP_ARC170_GROUND_WEAP4,1x Proton Torpedo (AC): 1 / 37.5s / 1.8km
-
-TEXT_TOOLTIP_UMBARAN_FIGHTER,An advanced Umbaran assault craft that blurs the line between fighter and patrol craft. Staggeringly maneuverable for its size and optimized for droid or highly-adaptable pilots, it served as a mainstay of Umbaran forces during the Battle of Umbara. Armed with a chin-mounted plasma cannon and dual wing-mounted missile pods, it excels at tearing through enemy fighters and bombers.
-TEXT_STATBLOCK_UMBARAN_FIGHTER_BASE,Health: 22 | Shields: 18
-TEXT_STATBLOCK_UMBARAN_FIGHTER_MOVE,
-TEXT_STATBLOCK_UMBARAN_FIGHTER_WEAP1,
-TEXT_STATBLOCK_UMBARAN_FIGHTER_WEAP2,
-TEXT_UNIT_UMBARAN_FIGHTER,Zenuas 33 Umbaran Starfighter
-TEXT_STATBLOCK_UMBARAN_FIGHTER_SQUADRON,Squadron: 12x Zenuas 33 Umbaran Starfighter
-TEXT_UNIT_UMBARAN_FIGHTER_SQUADRON,Zenuas 33 Umbaran Starfighter Squadron
-
-
-TEXT_UNIT_MAGNATRI_MISSILE,Magna Octuptarra Droid (Ordnance)
-TEXT_UNIT_MAGNATRI_MISSILE_COMPANY,Magna Octuptarra Droid Company (Ordnance)
-TEXT_TOOLTIP_MAGNATRI_MISSILE,A late war variant of the infamous Magna Tri Droid, this variant replaces its heavy lasers for chain fed ordnance. It was powerful enough to blow the enemy vehicle with a single shot of its missile such as UT-AT.
-TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP1,1x Super Heavy Concussion Missile: 1 / 6.0s / 560m
-TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP2,1x Light AI Blaster Cannon: 2 / 1.0s / 380m
-TEXT_TOOLTIP_MAGNATRI_MISSILE_COMPANY,Company: 2x Magna Octuptarra Droid (Ordance)
-
-TEXT_TOOLTIP_MAGNATRI,Another Techno Union contribution, the Magna is a large variant of the Octuptarra walker, or Tri-Droid. This colossal walker is heavily armed and armored, although not the most nimble due to its leg configuration.
-TEXT_TOOLTIP_MAGNATRI_COMPANY,Company: 2x Magna Octuptarra Droid
-TEXT_TOOLTIP_MAGNATRI_WEAP1,1x Super Heavy AV Blaster Cannon: 3 / 2.0s / 400m
-
-
-TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_EMPIRE,
-TEXT_CAMPAIGN_HEADER_MAP_TESTING_EMPIRE,
-TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS_EMPIRE,
-
-TEXT_CAMPAIGN_HEADER_MAP_TESTING_REBEL,
-TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_REBEL
-TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS_REBEL

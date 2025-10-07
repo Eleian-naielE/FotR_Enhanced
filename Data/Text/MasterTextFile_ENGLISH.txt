@@ -657,7 +657,13 @@ TEXT_CAMPAIGN_HEADER_EGSMALL,22 - 19 BBY:       Known Galaxy - Small
 TEXT_CAMPAIGN_HEADER_FTGU,Infinities:     From the Ground Up (Single-Planet Start)
 TEXT_CAMPAIGN_HEADER_MAP_TESTING,Map Testing Campaign
 TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND,Map Testing Campaign (defence)
+TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_EMPIRE,Map Testing Campaign Defence (Republic Control)
+TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_REBEL,Map Testing Campaign Defence (CIS Control)
+TEXT_CAMPAIGN_HEADER_MAP_TESTING_EMPIRE,Map Testing Campaign (Republic Control)
 TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS,Mission Testing
+TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS_EMPIRE,Mission Testing (Republic Control)
+TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS_REBEL,Mission Testing (CIS Control)
+TEXT_CAMPAIGN_HEADER_MAP_TESTING_REBEL,Map Testing Campaign (CIS Control)
 TEXT_CAMPAIGN_HEADER_SURVIVAL,GAME MODE    Survival Mode
 TEXT_CAMPAIGN_LOADING_WARNING,When loading any galactic conquest, controls will be locked for a few seconds while the framework initialises.
 TEXT_CAMPAIGN_OVERVIEW,Story - Campaign Overview
@@ -9641,6 +9647,11 @@ TEXT_STATBLOCK_TRIFIGHTER_SQUADRON_DOUBLE,Squadron: 24x Droid Tri-Fighter
 TEXT_STATBLOCK_TRIFIGHTER_SQUADRON_HALF,Squadron: 6x Droid Tri-Fighter
 TEXT_STATBLOCK_TRIFIGHTER_WEAP1,1x Fighter Laser Cannon: 8 / 3.0s / 1.0km
 TEXT_STATBLOCK_TRIFIGHTER_WEAP2,1x Fighter Concussion Missile: 1 / 50.0s / 1.8km
+TEXT_STATBLOCK_UMBARAN_FIGHTER_BASE,Health: 22 | Shields: 18
+TEXT_STATBLOCK_UMBARAN_FIGHTER_MOVE,Speed: 4.5 | Maneuverability: 4.0
+TEXT_STATBLOCK_UMBARAN_FIGHTER_SQUADRON,Squadron: 12x Zenuas 33 Umbaran Starfighter
+TEXT_STATBLOCK_UMBARAN_FIGHTER_WEAP1,1x Heavy Fighter Laser Cannon: 3 / 1.0s / 1.6km
+TEXT_STATBLOCK_UMBARAN_FIGHTER_WEAP2,2x Rhazer Missiles: 4 / 8.0s / 1.2km
 TEXT_STATBLOCK_V_WING_BASE,Health: 9 | Shields: 4
 TEXT_STATBLOCK_V_WING_BOMBER_MOVE,Speed: 5.4 | Maneuverability: 3.3
 TEXT_STATBLOCK_V_WING_BOMBER_SQUADRON,Squadron: 12x V-wing Bomber
@@ -11656,6 +11667,10 @@ TEXT_TOOLTIP_ARC_TROOPER_WEAP7A,1x PLX-2 Rocket Launcher: 1 / 9.0s / 280m
 TEXT_TOOLTIP_ARC_TROOPER_WEAP8,1x Wrist Blaster: 1 / 1.5s / 240m
 TEXT_TOOLTIP_ARC_TROOPER_WEAP9,1x Wrist Flamer: 10 / 10.5s / 220m
 TEXT_TOOLTIP_ARC170,Ancestral to the later X-wing series, a multirole attack snub meant to survive interceptor swarms. The design dates to just before the Clone Wars and has seen service with various groups since. They are used to support dedicated bombers while still being able to assist other fighters or bulking up the firepower of fleet groups.
+TEXT_TOOLTIP_ARC170_GROUND_WEAP1,2x Heavy AV Blaster Cannon: 4 / 2.0s / 1.1km
+TEXT_TOOLTIP_ARC170_GROUND_WEAP2,2x Aft AV Blaster Cannon: 2 / 2.0s / 1.0km
+TEXT_TOOLTIP_ARC170_GROUND_WEAP3,1x Fighter Concussion Missile (AF): 1 / 37.5s / 1.8km
+TEXT_TOOLTIP_ARC170_GROUND_WEAP4,1x Proton Torpedo (AC): 1 / 37.5s / 1.8km
 TEXT_TOOLTIP_ARC170_GUARDIAN,Talented pilots serving under Commander Narra, whose personality would bring the squadron together. The men habitually referred to their commander with nicknames like "Narr," which became a tradition that lasted well beyond his command of Guardian Squadron.
 TEXT_TOOLTIP_ARC170_PDF,Lighter configuration of ARC-170 fighter that lacks the underside tail gun and external munitions hardpoints present on the Republic Navy model. Sold to a variety of interests on the open market. Still an effective multirole snub, if less capable against other fighters in dogfights or attack runs when compared to its counterpart.
 TEXT_TOOLTIP_ARDELLA,The Trandoshan leader of the Black Hammer Pirates who terrorized Galantos with her ships and swoop bikes. Ardella ended up in possession of the Freebird, an Imperial lander with a gruesome part in the Blackwing Virus incident.
@@ -11785,7 +11800,6 @@ TEXT_TOOLTIP_ATXT_WEAP2,2x Proton Grenades: 1 / 6.0s / 400m
 TEXT_TOOLTIP_AUREK_STARFIGHTER,The last, latest models of the venerable Aurek-series of strike fighters, a product of Outer Rim engineers rather than now-defunct megacorps. Speedy and armed with modern weapons, but the light construction and poor handling show the age of the base design even with new components and constant tuning. 
 TEXT_TOOLTIP_AUTEM,Sagoro was once a Senate Guard, but left the guard after he was forced to resort to fratricide to stop an assassination attempt by his brother. He found himself in prison on Brentaal IV for mercenary work at the outbreak of the Clone Wars, where he was in a position to help liberate the planet and earn his freedom. Autem joined the fleet to further assist the war effort.
 TEXT_TOOLTIP_AUTEM_OVERRIDE,Fighter Override: Mercenary snubfighters on Assault Acclamators
-TEXT_TOOLTIP_AUTEM_OVERRIDE_2,Fighter Override: NTB-630 Naval Bomber on OCF Venator
 TEXT_TOOLTIP_AUTO, A Super Tactical Droid with a penchant for using a combination of large battleships and gunboat escorts. It was programmed specifically to defend important assets such as codebreakers, supercomputers and fleet bases.
 TEXT_TOOLTIP_AUXILIA,An antiquated but well-rounded cruiser. It was designed to run down pirate vessels by the Trade Defense Force several centuries before the Clone Wars, and commonly sees service alongside the Captor-class that shares its base design. Well suited to engaging medium capital ships and escort vessels.
 TEXT_TOOLTIP_AUXILIA_HULL,Hull: 2310 (Frigate)
@@ -13299,7 +13313,8 @@ TEXT_TOOLTIP_ESCORT_P1,4x Clone Trooper Squad (P1)
 TEXT_TOOLTIP_ESCORT_P1_WOLFFE_SPECIAL,2x - Wolfpack Squad (P1)
 TEXT_TOOLTIP_ESCORT_P2,4x Clone Trooper Squad (P2)
 TEXT_TOOLTIP_ESCORT_P2_WOLFFE_SPECIAL,2x - Wolfpack Squad (P2)
-TEXT_TOOLTIP_ESCORT_PALPATINE_RED_GUARD,2x - Red Guards
+TEXT_TOOLTIP_ESCORT_PALPATINE_1,2x - Red Guards
+TEXT_TOOLTIP_ESCORT_PALPATINE_2,1x - Shock Trooper Squad
 TEXT_TOOLTIP_ESCORT_POGGLE,4x B2 Super Battle Droid Squad
 TEXT_TOOLTIP_ESCORT_PORLA,8x Starhawk Speeder
 TEXT_TOOLTIP_ESCORT_RENTHAL2,1x Customs Light Corvette
@@ -14466,6 +14481,10 @@ TEXT_TOOLTIP_MAGNAGUARD_WEAP1,1x Electrostaff: 1 / 1.0s / 1m
 TEXT_TOOLTIP_MAGNATRI,Another Techno Union contribution, the Magna is a large variant of the Octuptarra walker, or Tri-Droid. This colossal walker is heavily armed and armored, although not the most nimble due to its leg configuration.
 TEXT_TOOLTIP_MAGNATRI_COMPANY,Company: 2x Magna Octuptarra Droid
 TEXT_TOOLTIP_MAGNATRI_HEALTH,Health: 300 (Heavy Vehicle)
+TEXT_TOOLTIP_MAGNATRI_MISSILE,A late war variant of the infamous Magna Tri Droid, this variant replaces its heavy lasers for chain fed ordnance. It was powerful enough to blow the enemy vehicle with a single shot of its missile such as UT-AT.
+TEXT_TOOLTIP_MAGNATRI_MISSILE_COMPANY,Company: 2x Magna Octuptarra Droid (Ordance)
+TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP1,1x Super Heavy Concussion Missile: 1 / 6.0s / 560m
+TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP2,1x Light AI Blaster Cannon: 2 / 1.0s / 380m
 TEXT_TOOLTIP_MAGNATRI_MOVE,Speed: 0.5 | Turn: 2.0 
 TEXT_TOOLTIP_MAGNATRI_WEAP1,1x Super Heavy AV Blaster Cannon: 3 / 2.0s / 400m
 TEXT_TOOLTIP_MAGNATRI_WEAP2,1x Heavy Proton Missiles: 2 / 8.33s / 480m
@@ -16728,6 +16747,7 @@ TEXT_TOOLTIP_ULAV_SHIELD,Shields: 40 / [4/R] (Light Vehicle)
 TEXT_TOOLTIP_ULAV_WEAP1,1x AV Blaster Cannon: 2 / 2.0s / 320m
 TEXT_TOOLTIP_ULAV_WEAP2,1x AI Blaster Cannon (AOE): 3 / 1.0s / 320m
 TEXT_TOOLTIP_ULAV_WEAP3,1x Concussion Missile: 1 / 15.0s / 320m
+TEXT_TOOLTIP_UMBARAN_FIGHTER,An advanced Umbaran assault craft that blurs the line between fighter and patrol craft. Staggeringly maneuverable for its size and optimized for droid or highly-adaptable pilots, it served as a mainstay of Umbaran forces during the Battle of Umbara. Armed with a chin-mounted plasma cannon and dual wing-mounted missile pods, it excels at tearing through enemy fighters and bombers.
 TEXT_TOOLTIP_UMBARAN_FRIGATE,A fleet tender designed by the government of Umbara, this frigate is able to supply and reinforce CIS cruisers in battle and provide reapirs to fighter groups.
 TEXT_TOOLTIP_UMBARAN_FRIGATE_HULL,Hull: 2040 (Frigate)
 TEXT_TOOLTIP_UMBARAN_FRIGATE_MOVE,Speed: 3.25 | Accel: 1.5 | Turn: 0.3
@@ -16931,7 +16951,6 @@ TEXT_TOOLTIP_WAXER_WEAP1,1x DC-15S Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_WAXER_WEAP2,1x Ion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_WAYPOINT,Set waypoint
 TEXT_TOOLTIP_WAYPOINT_01,The selected units will move to the targeted point on the map.  You can continue clicking the map to create a path for the units to follow until waypoint mode is turned off.
-TEXT_TOOLTIP_WESSEX_OVERRIDE,Fighter Override: NTB-630 Naval Bomber on OCF Venator
 TEXT_TOOLTIP_WHORM,Whorm Loathsom was a Kerkoiden male who hailed from the species homeworld and served both in his homeworld's planetary forces and as the general of the Retail Caucus's military forces in the Confederacy of Independent Systems. He never resigned his Planetary Forces commission, making him technically a treasonous Republic officer. An accomplished commander, his numerous victories led him to infamy throughout the Inner Core and implanted a streak of overconfidence.
 TEXT_TOOLTIP_WIELER,A new member of the Republic Officer Corps, Wieler is a male Human with a short history of working with Jedi Generals Kit Fisto, Plo Koon, and Tauht. His expertise and experience have leaned towards attacking Confederate resource worlds with adaptable blockade tactics being preferred.
 TEXT_TOOLTIP_WINDU,Korun Human Jedi Master who sat on the Jedi Council and was prior holder of the "Master of the Order" title. One of the best swordsmen of the Jedi Order, Mace Windu created the dangerously powerful Vaapad saber form with the aid of Sora Bulq. Mace would be one of the most ardent defenders of the Republic, and believed only the civilisation it provided could forge peace in the galaxy.
@@ -17941,6 +17960,8 @@ TEXT_UNIT_MAF,MAF Gunship
 TEXT_UNIT_MAGNAGUARD,Magnaguard
 TEXT_UNIT_MAGNATRI,Magna Octuptarra Droid
 TEXT_UNIT_MAGNATRI_COMPANY,Magna Octuptarra Droid Company
+TEXT_UNIT_MAGNATRI_MISSILE,Magna Octuptarra Droid (Ordnance)
+TEXT_UNIT_MAGNATRI_MISSILE_COMPANY,Magna Octuptarra Droid Company (Ordnance)
 TEXT_UNIT_MAL,M.A.L.
 TEXT_UNIT_MAL_COMPANY,M.A.L. Company
 TEXT_UNIT_MANDALORIAN_COMMANDO,Mandalorian Commando
@@ -18438,6 +18459,8 @@ TEXT_UNIT_ULAV,Ultra-Light Assault Vehicle
 TEXT_UNIT_ULAV_COMPANY,ULAV Company
 TEXT_UNIT_ULAV_EARLY,PDF Ultra-Light Assault Vehicle
 TEXT_UNIT_ULAV_EARLY_COMPANY,PDF ULAV Company
+TEXT_UNIT_UMBARAN_FIGHTER,Zenuas 33 Umbaran Starfighter
+TEXT_UNIT_UMBARAN_FIGHTER_SQUADRON,Zenuas 33 Umbaran Starfighter Squadron
 TEXT_UNIT_UMBARAN_FRIGATE,Umbaran Support Frigate
 TEXT_UNIT_UT_AA,UT-AA
 TEXT_UNIT_UT_AT,UT-AT
