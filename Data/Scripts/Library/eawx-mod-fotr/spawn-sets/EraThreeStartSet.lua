@@ -12,7 +12,7 @@ return {
 	},
 	["REBEL"] = {
 	["RAXUS_SECOND"] = {"Nute_Gunray_Team", "Lucid_Voice", "Trench_Invulnerable"},
-	["YAGDHUL"] = {"Durge_Team", "Ventress_Team", "Colicoid_Swarm"},
+	["YAGDHUL"] = {"Durge_Team", "Ventress_Team", "Colicoid_Swarm", --[[FotR_Enhanced]] "TJ912_Recusant"},
 	["SERENNO"] = {"Grievous_Recusant", "Dooku_Team", "Sora_Bulq_Team"},
 	["ONDERON"] = {"Kalani_Team"},
 	["QUELL"] = {"TF1726_Munificent"},

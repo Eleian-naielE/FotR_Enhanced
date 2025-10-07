@@ -16,7 +16,7 @@ return {
 	["HYPORI"] = {"Durge_Team", "TF1726_Munificent", "Colicoid_Swarm"},
 	["SALEUCAMI"] = {"Sora_Bulq_Team", "Lucid_Voice"},
 	["SULLUST"] = {"AutO_Providence"},
-	["YAVIN"] = {"Spar_Team", "Fenn_Shysa_Team", "Tobbi_Dala_Team", --[[FotR_Enhanced]]"TJ912_Recusant"}
+	["YAVIN"] = {"Spar_Team", "Fenn_Shysa_Team", "Tobbi_Dala_Team", --[[FotR_Enhanced]] "TJ912_Recusant"}
 	},
 	["HUTT_CARTELS"] = {
 		["CIRCUMTORE"]  = {

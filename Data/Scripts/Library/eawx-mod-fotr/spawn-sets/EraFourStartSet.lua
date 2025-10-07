@@ -14,7 +14,7 @@ return {
 	["DURO"] = {"Grievous_Invisible_Hand", "Harsol_Munificent", "Durge_Team"},
 	["ONDERON"] = {"Kalani_Team"},
 	["SALEUCAMI"] = {"Sora_Bulq_Team"},
-	["SULLUST"] = {"Ventress_Team", "AutO_Providence"},
+	["SULLUST"] = {"Ventress_Team", "AutO_Providence",--[[FotR_Enhanced]] "TJ912_Recusant"},
 	["VJUN"] = {"Dooku_Team", "Lucid_Voice"},
 	["RENDILI"] = {"Mellor_Yago_Rendili_Reign"},
 	["HYPORI"] = {"TF1726_Munificent", "Colicoid_Swarm"},
