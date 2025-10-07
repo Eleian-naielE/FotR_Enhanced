@@ -10643,7 +10643,7 @@
 		<CanCellStack>yes</CanCellStack>
 		<FormationGrouping>Standard</FormationGrouping>
 		<FormationSpacing> .40 </FormationSpacing>
-		<FormationOrder> 2 </FormationOrder>
+		<FormationOrder> 1 </FormationOrder>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
 		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
 		
@@ -11037,7 +11037,7 @@
 		<Alternate_Max_Speed> 2.0 </Alternate_Max_Speed>
 
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, WALK_LOCOMOTOR,TEAM_TARGETING,GARRISON_UNIT</LandBehavior>
+		<LandBehavior>LAND_TEAM_CONTAINER_LOCOMOTOR, REVEAL, WALK_LOCOMOTOR,TEAM_TARGETING,GARRISON_UNIT</LandBehavior>
 		
 		<Lua_Script/>
 		
@@ -11054,7 +11054,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<ContainerArrangement> Dartborad </ContainerArrangement>
 		<FormationSpacing> 1 </FormationSpacing>
-		<FormationOrder> 1 </FormationOrder>
+		<FormationOrder> 2 </FormationOrder>
 		<MovementPredictionInterval> 0.1 </MovementPredictionInterval>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -11405,7 +11405,7 @@
 		<Alternate_Max_Speed> 2.0 </Alternate_Max_Speed>
 
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, WALK_LOCOMOTOR,TEAM_TARGETING,GARRISON_UNIT</LandBehavior>
+		<LandBehavior>LAND_TEAM_CONTAINER_LOCOMOTOR, REVEAL, WALK_LOCOMOTOR,TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
 		
 		<Lua_Script/>
 		

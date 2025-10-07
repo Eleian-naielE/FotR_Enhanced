@@ -4337,7 +4337,7 @@
 				<Type>SPOILER_LOCK</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	0.3f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		            0.6</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            0.9</Mod_Multiplier>
 			</Unit_Ability>
 
 			<Unit_Ability>
@@ -4347,7 +4347,7 @@
 		</Unit_Abilities_Data>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 		
-						<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>590</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
