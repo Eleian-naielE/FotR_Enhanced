@@ -205,11 +205,14 @@ function Get_Hero_Entries(upgrade_object)
 			NoInit = true,
 			Options = {
 				{"DODONNA", Locations = {"DODONNA_ARDENT"}, GroundPerception = "Jan_Dodonna_In_Orbit"},
-				{"DALLIN", Locations =  {"DALLIN_KEBIR"}},
-				{"AUTEM", Locations = {"AUTEM_VENATOR"}},
+				{"DALLIN", Locations =  {"DALLIN_KEBIR"}, GroundPerception = "Dallin_In_Orbit"},
+				{"AUTEM", Locations = {"AUTEM_VENATOR"}, GroundPerception = "Autem_In_Orbit"},
 				{"COBURN", Locations = {"COBURN_VENATOR"}, GroundPerception = "Coburn_In_Orbit"},
 			},
+			GroundCompany = "JAG_ARC170_GROUND_TEAM",
 			Factions = {"Empire"},
+			Enabler = "REFORM_127TH",
+			DeathMessage = "127th Gunship Wing has taken crippling casualties and must be reformed.",
 
 		},
 		["BYTHEN_FORRAL_LOCATION_SET"] = {

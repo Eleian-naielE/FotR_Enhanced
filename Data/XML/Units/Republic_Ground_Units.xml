@@ -4051,7 +4051,7 @@
 		<CategoryMask> AirSpeeder | AntiVehicle </CategoryMask>
 		<LandBehavior>
 			ABILITY_COUNTDOWN, IDLE, FLYING_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, HUNT, 
-			POWERED, AMBIENT_SFX, UNIT_AI, TARGETING, STUNNABLE, WIND_DISTURBANCE, SHIELDED, DAMAGE_TRACKING, GARRISON_HOVER
+			POWERED, AMBIENT_SFX, UNIT_AI, TARGETING, STUNNABLE, WIND_DISTURBANCE, SHIELDED, DAMAGE_TRACKING
 		</LandBehavior>
 		<Behavior>SELECTABLE, POWERED</Behavior>
 		<MovementClass> Flying </MovementClass>
@@ -4107,7 +4107,7 @@
 		<Shield_Points>165</Shield_Points>
 		<Shield_Refresh_Rate>0.6</Shield_Refresh_Rate>
 		<AI_Combat_Power>51</AI_Combat_Power>
-
+		<!--		
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		<Garrison_Bone_Names>ROOT</Garrison_Bone_Names>
@@ -4115,6 +4115,7 @@
 		<Garrison_Enter_Dist>50</Garrison_Enter_Dist>
 		<Garrison_Radius>60</Garrison_Radius>
 		<Num_Garrison_Guns>8</Num_Garrison_Guns>
+		-->
 		<!-- End -->
 
 		<!-- Targeting -->
@@ -4138,12 +4139,7 @@
 
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 		<Score_Cost_Credits>50</Score_Cost_Credits>
-		
-		
-		<Garrison_Category/>
-		<Num_Garrison_Slots>0</Num_Garrison_Slots>
-		<Garrison_Bone_Names/>
-		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+
 
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>
