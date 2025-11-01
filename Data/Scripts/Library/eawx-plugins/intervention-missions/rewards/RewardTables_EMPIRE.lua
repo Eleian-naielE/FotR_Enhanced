@@ -41,10 +41,12 @@ return {
 			{"Clone_Jumptrooper_Phase_One_Company", 3},
 			{"Republic_A5RX_Company", 2},
 			{"Republic_VAAT_Company", 2},
+			{"SPHA_T_Company", 2}, --FotR_Enhanced
 		},
 		{
 			{"RX200_Falchion_Company", 2},
-			{"Republic_A6_Juggernaut_Company", 1},
+			--{"Republic_A6_Juggernaut_Company", 1},
+			{"Republic_A6_Prototype_Company", 1}, --FotR_Enhanced
 			{"Starbolt", 4},
 		}
 	},
@@ -70,7 +72,8 @@ return {
 		},
 		{
 			{"RX200_Falchion_Company", 2},
-			{"Republic_A6_Juggernaut_Company", 1},
+			--{"Republic_A6_Juggernaut_Company", 1},
+			{"Republic_A6_Prototype_Company", 1}, --FotR_Enhanced
 			{"Starbolt", 4},
 		}
 	},

@@ -177,7 +177,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			"Aayla",
 			"Shaak",
 			"Kota",
-			"Knol",
+			--"Knol",
 			"Halcyon"
 		},
 		story_locked_list = {},--Heroes not accessible, but able to return with the right conditions

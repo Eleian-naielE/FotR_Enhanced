@@ -104,7 +104,7 @@ return {
 					locked = true,
 					gc_locked = false,
 					amount = 0,
-					chance = 300,
+					chance = 200,
 					perception_modifier = nil,
 					association = nil,
 					readable_name = "Imperator Star Destroyer Assault Refit",

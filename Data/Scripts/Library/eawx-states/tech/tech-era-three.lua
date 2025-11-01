@@ -23,7 +23,6 @@ return {
                 "Republic_AT_AP_Walker_Company",
                 "AT_OT_Walker_Company",
                 "Republic_Gian_Company",
-                "UT_AT_Speeder_Company",
             }, false)
 
             UnitUtil.SetLockList("REBEL", {
