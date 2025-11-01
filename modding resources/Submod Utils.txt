@@ -12,48 +12,8 @@ Red nikto guard model(for bok & morgukai shadow army)
 Hutt_HuttGuard_NoHelmet.ALO
 Hutt_HuttGuard.ALO
 
-------Todo Lists------
-finish imperialized republic heroes scripts
-
-ORS Planet trade routes, campaign editing etc 
-
-ARC170 Ground fix (
-		fix 3 fix
-		1. deploy animation doesn't work with undeploy objectscript (solved with manual spoiler_lock ability)
-		2. object still spawns too deep beneath ground(Maybe unfixable? ; AOTR doesn't have this problem)
-		3. Movement Adjustment
-		4. rescaling(bit small)
-	)
-
-Royal Guards fix(
-	issues
-	2. health bar length(probably due to it being a minorhero?)
-	)
-
-swap out therbon with someone else
-
-null class arcs
 
 
-update submod changes.txt
-
-combat octuptarra droid (size similar to crab droid, yellow lasers, faster movement)
-magna tri droid missile variant(late war feature)
-
-------- end --------
-
-
-
-Moff Replace suspicion List
-		
-	vorru
-
-	kinatro (must)
-
-
-
-a6 prototype
-	replace missiles with grenades(same as the one from at-xt), no tower, rear gun replaced with heavy aa blaster
 
 
 		<!-- Tythe --> <Galactic_Position>1002, -929, 10</Galactic_Position>

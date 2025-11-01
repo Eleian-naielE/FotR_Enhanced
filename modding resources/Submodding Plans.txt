@@ -1,22 +1,10 @@
 ========== FotR Enhanced ==========
 <Working On>
 
-# OFC Venator
-- Spawn a buff dummy if a ofc officer is present(see bloodlust mechanic?)
-	see ; Proj_Cronal_Local_Debuff_Mod_1, Cronal_DeBuff_Particle, 
-
-
-- Build Limit via controlling Lua or New ship market mechanic(Ongoing)
-
-*** OCF Intergration system ***
-when certain level of point is reached by using certain venator heroes will increase points 
-if achieved certain point is reached it will unlock a upgrade dummy where there is a venator in orbit
-
 
 # Add New CIS Heroes
 
-TX-20
-TX-21
+
 TZ-33
 TN-123(Name Canon Source)
 
@@ -26,7 +14,6 @@ TN-123(Name Canon Source)
 # convert bythen forral to fighter hero. (Done)
 
 # Expanded Clone Pilot Heroes
-Hunter Squadron BTLB Ywing config (Warthog) (?)
 hawk (yularen) 
 Alpha 17 (phase 2?)
 
