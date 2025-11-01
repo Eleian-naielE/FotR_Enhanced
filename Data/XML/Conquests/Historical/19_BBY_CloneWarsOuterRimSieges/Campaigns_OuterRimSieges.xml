@@ -1283,6 +1283,7 @@
 		
 		<Starting_Forces> Empire, Carida, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Republic_Shipyard_Level_Two </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Carida, REP_DHC </Starting_Forces>
 		<Starting_Forces> Empire, Carida, LAC </Starting_Forces>
 		<Starting_Forces> Empire, Carida, LAC </Starting_Forces>
@@ -1297,6 +1298,7 @@
 
 		<Starting_Forces> Empire, Centares, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Centares, Republic_Shipyard_Level_Two </Starting_Forces>
+		<Starting_Forces> Empire, Centares, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Centares, Acclamator_I_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Centares, PDF_DHC </Starting_Forces>
 		<Starting_Forces> Empire, Centares, Carrack_Cruiser_Lasers </Starting_Forces>
@@ -1451,6 +1453,7 @@
 
 		<Starting_Forces> Empire, Fondor, Empire_Star_Base_2 </Starting_Forces> <!-- No shipyard right away due to recent flattening -->
 		<Starting_Forces> Empire, Fondor, Venator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Fondor, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Fondor, Acclamator_II </Starting_Forces>
 		<Starting_Forces> Empire, Fondor, REP_DHC </Starting_Forces>
 		<Starting_Forces> Empire, Fondor, REP_DHC </Starting_Forces>
@@ -1467,6 +1470,7 @@
 		<Starting_Forces> Empire, Fondor, Republic_A6_Juggernaut_Company </Starting_Forces>
 		
 		<Starting_Forces> Empire, Gyndine, Empire_Star_Base_1 </Starting_Forces> <!-- No shipyard right away due to recent conquest -->
+		<Starting_Forces> Empire, Gyndine, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Gyndine, Acclamator_II </Starting_Forces>
 		<Starting_Forces> Empire, Gyndine, REP_DHC </Starting_Forces>
 		<Starting_Forces> Empire, Gyndine, REP_DHC </Starting_Forces>
@@ -1525,6 +1529,7 @@
 		<Starting_Forces> Empire, Kuat, Empire_Star_Base_5 </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Republic_Shipyard_Level_Four </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Venator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Kuat, Acclamator_I_Assault </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Acclamator_I_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Arquitens </Starting_Forces>
@@ -1639,6 +1644,7 @@
 
 		<Starting_Forces> Empire, Roche, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Roche, Republic_Shipyard_Level_Three </Starting_Forces>
+		<Starting_Forces> Empire, Roche, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Roche, PDF_DHC </Starting_Forces>
 		<Starting_Forces> Empire, Roche, Carrack_Cruiser_Lasers </Starting_Forces>
 		<Starting_Forces> Empire, Roche, CR90 </Starting_Forces>
@@ -3218,6 +3224,7 @@
 
 		<Starting_Forces> Empire, Brentaal, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Republic_Shipyard_Level_Two </Starting_Forces>
+		<Starting_Forces> Empire, Brentaal, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Brentaal, Acclamator_II </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Acclamator_I_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Acclamator_I_Carrier </Starting_Forces>
@@ -3260,6 +3267,7 @@
 		
 		<Starting_Forces> Empire, Carida, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Republic_Shipyard_Level_Two </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Carida, REP_DHC </Starting_Forces>
 		<Starting_Forces> Empire, Carida, LAC </Starting_Forces>
 		<Starting_Forces> Empire, Carida, LAC </Starting_Forces>
@@ -3274,6 +3282,7 @@
 
 		<Starting_Forces> Empire, Centares, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Centares, Republic_Shipyard_Level_Two </Starting_Forces>
+		<Starting_Forces> Empire, Centares, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Centares, Acclamator_I_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Centares, PDF_DHC </Starting_Forces>
 		<Starting_Forces> Empire, Centares, Carrack_Cruiser_Lasers </Starting_Forces>
@@ -3428,6 +3437,7 @@
 
 		<Starting_Forces> Empire, Fondor, Empire_Star_Base_2 </Starting_Forces> <!-- No shipyard right away due to recent flattening -->
 		<Starting_Forces> Empire, Fondor, Venator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Fondor, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Fondor, Acclamator_II </Starting_Forces>
 		<Starting_Forces> Empire, Fondor, REP_DHC </Starting_Forces>
 		<Starting_Forces> Empire, Fondor, REP_DHC </Starting_Forces>
@@ -3444,6 +3454,7 @@
 		<Starting_Forces> Empire, Fondor, Republic_A6_Juggernaut_Company </Starting_Forces>
 		
 		<Starting_Forces> Empire, Gyndine, Empire_Star_Base_1 </Starting_Forces> <!-- No shipyard right away due to recent conquest -->
+		<Starting_Forces> Empire, Gyndine, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Gyndine, Acclamator_II </Starting_Forces>
 		<Starting_Forces> Empire, Gyndine, REP_DHC </Starting_Forces>
 		<Starting_Forces> Empire, Gyndine, REP_DHC </Starting_Forces>
@@ -3596,6 +3607,7 @@
 
 		<Starting_Forces> Empire, Roche, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Roche, Republic_Shipyard_Level_Three </Starting_Forces>
+		<Starting_Forces> Empire, Roche, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Roche, PDF_DHC </Starting_Forces>
 		<Starting_Forces> Empire, Roche, Carrack_Cruiser_Lasers </Starting_Forces>
 		<Starting_Forces> Empire, Roche, CR90 </Starting_Forces>
@@ -9302,10 +9314,10 @@
 		<Starting_Forces> Empire, Fondor, Republic_A6_Juggernaut_Company </Starting_Forces>
 		
 		<Starting_Forces> Empire, Gyndine, Empire_Star_Base_1 </Starting_Forces> <!-- No shipyard right away due to recent conquest -->
+		<Starting_Forces> Empire, Gyndine, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Gyndine, Acclamator_II </Starting_Forces>
 		<Starting_Forces> Empire, Gyndine, REP_DHC </Starting_Forces>
 		<Starting_Forces> Empire, Gyndine, REP_DHC </Starting_Forces>
-		<Starting_Forces> Empire, Gyndine, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Gyndine, CR90 </Starting_Forces>
 		<Starting_Forces> Empire, Gyndine, CR90 </Starting_Forces>
 		<Starting_Forces> Empire, Gyndine, Empire_Office </Starting_Forces>
@@ -9476,6 +9488,7 @@
 
 		<Starting_Forces> Empire, Roche, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Roche, Republic_Shipyard_Level_Three </Starting_Forces>
+		<Starting_Forces> Empire, Roche, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Roche, PDF_DHC </Starting_Forces>
 		<Starting_Forces> Empire, Roche, Carrack_Cruiser_Lasers </Starting_Forces>
 		<Starting_Forces> Empire, Roche, CR90 </Starting_Forces>
@@ -9486,7 +9499,6 @@
 		<Starting_Forces> Empire, Roche, Charger_C70 </Starting_Forces>
 		<Starting_Forces> Empire, Roche, Consular_Refit </Starting_Forces>
 		<Starting_Forces> Empire, Roche, Consular_Refit </Starting_Forces>
-		<Starting_Forces> Empire, Roche, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Roche, Empire_Office </Starting_Forces>
 		<Starting_Forces> Empire, Roche, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Roche, Republic_Navy_Trooper_Company </Starting_Forces>
