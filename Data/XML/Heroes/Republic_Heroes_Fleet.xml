@@ -5342,7 +5342,6 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_SPACE
-		TEXT_TOOLTIP_TRAIT_AMBUSHER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BLOCK
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
@@ -5374,6 +5373,10 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+		
+		<Destruction_Survivors> 
+			Destruction_Survivor_Block_Nu_Shuttle, 1
+		</Destruction_Survivors>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -5432,7 +5435,6 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_SPACE
-		TEXT_TOOLTIP_TRAIT_AMBUSHER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BLOCK
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
