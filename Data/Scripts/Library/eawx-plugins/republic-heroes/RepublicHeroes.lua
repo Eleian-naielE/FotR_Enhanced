@@ -1086,7 +1086,7 @@ function RepublicHeroes:Senate_Choice_Handler(senate_option)
 		Handle_Hero_Exit("Dallin", admiral_data)
 		Handle_Hero_Exit("Aden", commando_data)
 		Handle_Hero_Exit("Ordo", commando_data)
-		Handle_Hero_Exit("Prudii", admiral_data)
+		Handle_Hero_Exit("Prudii", commando_data)
 		Autem_Checks = -1
 
 		council_data.vacant_limit = -1
