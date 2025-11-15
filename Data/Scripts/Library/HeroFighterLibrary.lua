@@ -218,10 +218,10 @@ function Get_Hero_Entries(upgrade_object)
 			Hero_Squadron = "BYTHEN_FORRAL_SQUADRON",
 			PopupHeader = "BYTHEN_FORRAL_SELECTOR_HEADER",
 			Options = {
+				{"DRON", Locations = {"DRON_VENATOR"}},
 				{"BARAKA", Locations = {"BARAKA_NEXU"}},
 				{"SEERDON", Locations = {"SEERDON_INVINCIBLE"}},
 				{"DENIMOOR", Locations = {"DENIMOOR_TENACIOUS"}},
-				{"DRON", Locations = {"DRON_VENATOR"}},
 				{"KREUGE", Locations = {"KREUGE_GIBBON"}},
 			},
 			Factions = {"Empire"},
