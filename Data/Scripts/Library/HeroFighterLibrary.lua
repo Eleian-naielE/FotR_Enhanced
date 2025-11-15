@@ -202,7 +202,6 @@ function Get_Hero_Entries(upgrade_object)
 		["JAG_ARC170_LOCATION_SET"] = {
 			Hero_Squadron = "JAG_ARC170_127TH_SQUADRON",
 			PopupHeader = "JAG_P2_SELECTOR_HEADER",
-			NoInit = true,
 			Options = {
 				{"DODONNA", Locations = {"DODONNA_ARDENT"}, GroundPerception = "Jan_Dodonna_In_Orbit"},
 				{"DALLIN", Locations =  {"DALLIN_KEBIR"}, GroundPerception = "Dallin_In_Orbit"},
