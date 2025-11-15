@@ -4407,6 +4407,7 @@
 		<Icon_Name>i_button_jag_p2.tga</Icon_Name>
 
 		<Company_Units>Jag_ARC170_Ground, ARC170_Ground_127th</Company_Units>
+		<Company_Transport_Unit>CR25_Landing_Craft_Jag</Company_Transport_Unit>
 		
 		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>

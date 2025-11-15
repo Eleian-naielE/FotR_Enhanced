@@ -1896,4 +1896,13 @@
 	<TransportUnit Name="CR25_Landing_Craft_Heavy_Fighter_Ground_Landing">
 		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
+
+	<TransportUnit Name="CR25_Landing_Craft_Jag">
+		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>CR25_Landing_Craft_Jag_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<TransportUnit Name="CR25_Landing_Craft_Jag_Landing">
+		<Variant_Of_Existing_Type>CR25_Landing_Craft_Heavy_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
 </TransportUnits>
