@@ -4335,8 +4335,16 @@
 		<Land_Model_Name>ARC-170_starfighter_OFC_Ground.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>ARC-170_starfighter_Ground.ALO</Land_Model_Anim_Override_Name>
 
+		<LandBehavior>
+			SPAWN_SQUADRON, ABILITY_COUNTDOWN, IDLE, FLYING_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, HUNT, 
+			POWERED, AMBIENT_SFX, UNIT_AI, TARGETING, STUNNABLE, WIND_DISTURBANCE, SHIELDED, DAMAGE_TRACKING
+		</LandBehavior>
 		<CategoryMask> AirGunship | AntiVehicle | AntiInfantry | Clone </CategoryMask>	<!-- VehicleHero is intentionally omitted - Rhino -->
 		<Ranking_In_Category> 7 </Ranking_In_Category>
+
+		<Starting_Spawned_Units_Tech_0>ARC170_Ground_127th, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
 
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
@@ -4408,8 +4416,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_jag_p2.tga</Icon_Name>
 
-		<Company_Units>Jag_ARC170_Ground, ARC170_Ground_127th</Company_Units>
-		<Company_Transport_Unit>CR25_Landing_Craft_Jag</Company_Transport_Unit>
+		<Company_Units>Jag_ARC170_Ground</Company_Units>
 		
 		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
