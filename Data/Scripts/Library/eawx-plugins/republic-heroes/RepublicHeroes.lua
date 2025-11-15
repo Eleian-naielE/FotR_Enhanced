@@ -178,7 +178,8 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			"Shaak",
 			"Kota",
 			--"Knol",
-			"Halcyon"
+			"Halcyon",
+			"Oppo"
 		},
 		story_locked_list = {},--Heroes not accessible, but able to return with the right conditions
 		active_player = Find_Player("Empire"),

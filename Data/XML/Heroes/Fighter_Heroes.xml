@@ -4375,6 +4375,7 @@
 
 	<UniqueUnit Name="ARC170_Ground_127th">
 		<Variant_Of_Existing_Type>ARC170_Ground</Variant_Of_Existing_Type>
+		<Land_Model_Name>ARC-170_starfighter_OFC_Ground.ALO</Land_Model_Name>
 
 	</UniqueUnit>
 	
