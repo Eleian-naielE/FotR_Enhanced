@@ -209,7 +209,7 @@ function Get_Hero_Entries(upgrade_object)
 				{"AUTEM", Locations = {"AUTEM_VENATOR"}, GroundPerception = "Autem_In_Orbit"},
 				{"COBURN", Locations = {"COBURN_VENATOR"}, GroundPerception = "Coburn_In_Orbit"},
 			},
-			GroundCompany = "JAG_ARC170_GROUND_TEAM",
+			GroundCompany = "JAG_GROUND_TEAM",
 			Factions = {"Empire"},
 			Enabler = "REFORM_127TH",
 			DeathMessage = "127th Gunship Wing has taken crippling casualties and must be reformed.",

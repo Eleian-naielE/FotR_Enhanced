@@ -4333,6 +4333,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
 		<Land_Model_Name>ARC-170_starfighter_OFC_Ground.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>ARC-170_starfighter_Ground.ALO</Land_Model_Anim_Override_Name>
 
 		<CategoryMask> AirGunship | AntiVehicle | AntiInfantry | Clone </CategoryMask>	<!-- VehicleHero is intentionally omitted - Rhino -->
 		<Ranking_In_Category> 7 </Ranking_In_Category>
@@ -4376,6 +4377,7 @@
 	<UniqueUnit Name="ARC170_Ground_127th">
 		<Variant_Of_Existing_Type>ARC170_Ground</Variant_Of_Existing_Type>
 		<Land_Model_Name>ARC-170_starfighter_OFC_Ground.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>ARC-170_starfighter_Ground.ALO</Land_Model_Anim_Override_Name>
 
 	</UniqueUnit>
 	
@@ -4384,7 +4386,7 @@
 	</UniqueUnit>
 	-->
 
-	<HeroCompany Name="Jag_ARC170_Ground_Team">
+	<HeroCompany Name="Jag_Ground_Team">
 		<Variant_Of_Existing_Type>ARC170_Ground_Company</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_JAG</Text_ID>
 		<Encyclopedia_Text>

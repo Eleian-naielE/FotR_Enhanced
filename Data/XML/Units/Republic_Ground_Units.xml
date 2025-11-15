@@ -4301,7 +4301,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>225</Score_Cost_Credits>
-		<Population_Value>2</Population_Value>
+		<Population_Value>1</Population_Value>
 
 		<Tech_Level>6</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
