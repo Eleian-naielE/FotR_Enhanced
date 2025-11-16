@@ -3340,6 +3340,7 @@ TEXT_HERO_INGLEMENN_BAREZZ,Inglemenn Barezz
 TEXT_HERO_IROTAH,Irotah
 TEXT_HERO_JABBA,Jabba Desilijic Tiure
 TEXT_HERO_JAG,Jai'galaar "Jag" 
+TEXT_HERO_JAG_WINGMAN,CT-57/11-9048
 TEXT_HERO_JAING,Jaing Skirata
 TEXT_HERO_JAN_DODONNA,Jan Dodonna
 TEXT_HERO_JAN_DODONNA_TEAM,Jan Dodonna
@@ -11668,6 +11669,10 @@ TEXT_TOOLTIP_ARC_TROOPER_WEAP7A,1x PLX-2 Rocket Launcher: 1 / 9.0s / 280m
 TEXT_TOOLTIP_ARC_TROOPER_WEAP8,1x Wrist Blaster: 1 / 1.5s / 240m
 TEXT_TOOLTIP_ARC_TROOPER_WEAP9,1x Wrist Flamer: 10 / 10.5s / 220m
 TEXT_TOOLTIP_ARC170,Ancestral to the later X-wing series, a multirole attack snub meant to survive interceptor swarms. The design dates to just before the Clone Wars and has seen service with various groups since. They are used to support dedicated bombers while still being able to assist other fighters or bulking up the firepower of fleet groups.
+TEXT_TOOLTIP_ARC170_GROUND_COMPANY,Company: 2x ARC-170
+TEXT_TOOLTIP_ARC170_GROUND_HEALTH,Health: 250 (Heavy Speeder)
+TEXT_TOOLTIP_ARC170_GROUND_MOVE,Speed: 7.0 | Turn: 4.0
+TEXT_TOOLTIP_ARC170_GROUND_SHIELD,Shields: 165 / [0.6/R] (Heavy Speeder)
 TEXT_TOOLTIP_ARC170_GROUND_WEAP1,2x Heavy AV Blaster Cannon: 4 / 2.0s / 1.1km
 TEXT_TOOLTIP_ARC170_GROUND_WEAP2,2x Aft AV Blaster Cannon: 2 / 2.0s / 1.0km
 TEXT_TOOLTIP_ARC170_GROUND_WEAP3,1x Fighter Concussion Missile (AF): 1 / 37.5s / 1.8km
@@ -12748,7 +12753,7 @@ TEXT_TOOLTIP_COLONY_TWO_HULL,Hull: 4800 (Heavy Frigate)
 TEXT_TOOLTIP_COLONY_TWO_SHIELD,Shields: 5200 / [13/R] (Capital)
 TEXT_TOOLTIP_COLONY_TWO_SQUADRON,Fighters: 2 / 7 | Bombers: 2 / 7
 TEXT_TOOLTIP_COLONY_TWO_WEAP1,6x Medium Dual Laser Cannons: 2 / 5.0s / 3.8km
-TEXT_TOOLTIP_COMMAND_127TH_ARC170,ARC-170 Starfighter Squadron, 127th Gunship Wing
+TEXT_TOOLTIP_COMMAND_127TH_ARC170,127th Gunship Wing (ARC-170s in space and ground)
 TEXT_TOOLTIP_COMMAND_31ST_FLIGHT,Vulture Droid-I Squadron, 31st Flight
 TEXT_TOOLTIP_COMMAND_88TH_FLIGHT,Vulture Droid-I Squadron, 88th Flight
 TEXT_TOOLTIP_COMMAND_91ST_RECON_CORPS,91st Mobile Reconnaissance Corps
@@ -14042,6 +14047,7 @@ TEXT_TOOLTIP_JABBA_MOVE,Speed: 1.0
 TEXT_TOOLTIP_JABBA_SPECIAL,Special: Star Jewel Guard
 TEXT_TOOLTIP_JABBA_WEAP1,1x DL-44 Heavy Pistol: 1 / 1.0s / 260m
 TEXT_TOOLTIP_JAG, CT-55/11-9009, known as Jai'galaar or Jag, was a clone pilot captin in the Clone Army. Originally a Clone Commander, he was demoted to captain after the Retreat at Katraasii. Later, Jedi General Plo Koon drafted the captin as the test pilot for the new ARC-170 starfighters and flew with him on many battles including the battle over Cato Neimoidia.
+TEXT_TOOLTIP_JAG_WINGMAN,CT-57/11-9048 was a clone pilot of the 127th Gunship Wing and wingman to Captain Jai’galaar. Flying an ARC-170 over Cato Neimoidia, he executed Order 66 without hesitation, shooting down Jedi General Plo Koon during a routine patrol.
 TEXT_TOOLTIP_JAING,Null-10 was a null class Advanced Recon Commando who named himself Jaing after his Mandalorian trainer. After Order 66 Jaing deserted the Grand Army of the Republic and joined the Mandalorian Clan Skirata via a formal adoption by one of its members.
 TEXT_TOOLTIP_JAING_P1_HEALTH,Health: 175 (Hero)
 TEXT_TOOLTIP_JAING_P1_MOVE,Speed: 1.2
