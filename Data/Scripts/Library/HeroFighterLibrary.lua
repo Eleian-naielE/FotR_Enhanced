@@ -226,7 +226,7 @@ function Get_Hero_Entries(upgrade_object)
 			},
 			Factions = {"Empire"},
 		},
-		--[[
+		
 		["DUMMY_ANAKIN_DARKSIDE"] = {
 			NoInit = true, 
 			GroundReinforcementPerception = "Exactor_Anakin_Darkside_In_Orbit",
@@ -240,7 +240,7 @@ function Get_Hero_Entries(upgrade_object)
 			GroundCompany = "VADER_DEPLOYED_TEAM",
 			Factions = {"Empire"},
 		},
-		]]
+
 		--CIS
 		["DFS1VR_LOCATION_SET"] = {
 			Hero_Squadron = "DFS1VR_31ST_SQUADRON",

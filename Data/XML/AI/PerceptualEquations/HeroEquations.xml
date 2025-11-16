@@ -385,6 +385,14 @@
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Autem_Venator"}
 	</Autem_In_Orbit>
 
+	<Exactor_Anakin_Darkside_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Exactor_Anakin_Darkside"}
+	</Exactor_Anakin_Darkside_In_Orbit>
+
+	<Exactor_Vader_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Exactor_Vader"}
+	</Exactor_Vader_In_Orbit>
+
 	<!-- CoreSaga -->
 	
 	<Bossk_In_Orbit>
