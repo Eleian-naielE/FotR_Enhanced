@@ -13711,7 +13711,7 @@
 	  <Affiliation>Empire</Affiliation>
 	</DummyStructure>
 	
-	<DummyStructure Name="Rebuild_Vader_Suit">
+	<DummyStructure Name="Repair_Vader_Suit">
 	  <Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 	  <Affiliation>Empire</Affiliation>
 	  

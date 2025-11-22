@@ -278,7 +278,8 @@ function GovernmentRepublic:ExecuteOrder66(stage)
 
 		if GlobalValue.Get("TACTICAL_KNIGHTFALL_DEFEAT") == true then
 			self:jedi_rebellion()
-			StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Vader_Team"})
+			--StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Vader_Team"})
+			StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Anakin_Darkside_Team"}) --test
 		else
 			StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Anakin_Darkside_Team"})
 			StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Laddinare_Torbin_Empire_Team"})

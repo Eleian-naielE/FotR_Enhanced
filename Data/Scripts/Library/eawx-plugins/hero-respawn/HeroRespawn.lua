@@ -67,7 +67,8 @@ function HeroRespawn:on_galactic_hero_killed(hero_name, owner)
     elseif hero_name == "ZOZRIDOR_SLAYKE_CARRACK" then
         self:slaykes_second_chance()
 	elseif hero_name == "ANAKIN_DARKSIDE" or hero_name == "VADER" or hero_name == "ANAKIN_DARKSIDE_TEAM" or hero_name == "VADER_TEAM" then
-        self:check_anakin_vader(hero_name)
+        --self:check_anakin_vader(hero_name)
+        self:anakins_dark_suit(hero_name)
     elseif hero_name == "EXACTOR_ANAKIN_DARKSIDE" or hero_name == "EXACTOR_VADER" then
         self:anakin_vader_escaped(hero_name)        
     end
@@ -181,13 +182,15 @@ function HeroRespawn:anakin_vader_escaped(hero_type)
 	local planet = StoryUtil.FindFriendlyPlanet(p_republic)
     local respawn_type = "Anakin_Darkside_Team"
     local loop_type = "Anakin_Loop"
+    local text = "TEXT_SPEECH_ANAKIN_DARKSIDE_ESCAPED"
     self.p_republic.Lock_Tech(Find_Object_Type("Vader_Upgrade_Exactor"))
     if hero_type == "EXACTOR_VADER" then
         respawn_type = "Vader_Team"
         loop_type = "Vader_Loop"
+        text = "TEXT_SPEECH_VADER_ESCAPED"
     end
     local respawn = StoryUtil.SpawnAtSafePlanet("CORUSCANT", p_republic, StoryUtil.GetSafePlanetTable(), {respawn_type})
     if respawn then
-        StoryUtil.Multimedia("TEXT_SPEECH_VADER_ESCAPED", 15, nil, loop_type, 0)
+        StoryUtil.Multimedia(text, 15, nil, loop_type, 0)
     end
 end
