@@ -278,8 +278,7 @@ function GovernmentRepublic:ExecuteOrder66(stage)
 
 		if GlobalValue.Get("TACTICAL_KNIGHTFALL_DEFEAT") == true then
 			self:jedi_rebellion()
-			--StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Vader_Team"})
-			StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Anakin_Darkside_Team"}) --test
+			StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Vader_Team"})
 		else
 			StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Anakin_Darkside_Team"})
 			StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Laddinare_Torbin_Empire_Team"})
@@ -289,7 +288,8 @@ function GovernmentRepublic:ExecuteOrder66(stage)
 
 	elseif stage == "MISSION_KNIGHTFALL_SKIP" then
 		self:jedi_rebellion()
-		StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Vader_Team"})
+		--StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Vader_Team"})
+		StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Anakin_Darkside_Team"}) --test
 
 		self:ExecuteOrder66("SpawnEmpire")
 
@@ -355,6 +355,7 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 		end
 
 		crossplot:publish("UPDATE_MOBILIZATION","KDY_CONTRACT")
+		UnitUtil.SetLockList("EMPIRE", {"TARKIN_EXECUTRIX_UPGRADE", "ANAKIN_DARKSIDE_UPGRADE_EXACTOR", "VADER_UPGRADE_EXACTOR"})
 		Find_Player("Empire").Unlock_Tech(Find_Object_Type("Tarkin_Executrix_Upgrade"))
 		StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Mulleen_Imperator"})
 
