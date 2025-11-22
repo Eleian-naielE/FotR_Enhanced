@@ -13220,9 +13220,8 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_LAND
-		TEXT_TOOLTIP_TRAIT_FORCESENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_OPPOS_RANCISIS
+		TEXT_TOOLTIP_OPPO_RANCISIS
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_OPPO_HEALTH
 		TEXT_TOOLTIP_OPPO_MOVE
@@ -13558,9 +13557,8 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_LAND
-		TEXT_TOOLTIP_TRAIT_FORCESENSITIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_OPPOS_RANCISIS
+		TEXT_TOOLTIP_OPPO_RANCISIS
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_OPPO_HEALTH
 		TEXT_TOOLTIP_OPPO_MOVE
@@ -13678,9 +13676,11 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_ASSIGN_REPUBLIC_COUNCIL
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_FORCESENSITIVE 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_LAND
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK 
 		TEXT_TOOLTIP_OPPO_RANCISIS
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_LEGIONS_AAYLA
 		</Encyclopedia_Text>
 	</DummyStructure>
 
@@ -13783,6 +13783,17 @@
 		<SpaceBehavior>
 			ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA
 		</SpaceBehavior>
+
+		<SFXEvent_Select>Unit_Select_Anakin_Vader</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Anakin_Vader</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Anakin_Vader</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Anakin_Vader</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Anakin_Vader</SFXEvent_Guard>
+		<SFXEvent_Group_Move>Unit_Group_Move_Anakin_Vader</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Group_Attack_Anakin_Vader</SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Anakin_Vader </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Anakin_Vader</SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Death_Anakin_Vader </Death_SFXEvent_Start_Die>
 		
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_11_Combat_Bonus">

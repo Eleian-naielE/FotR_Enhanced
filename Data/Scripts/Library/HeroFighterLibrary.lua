@@ -232,6 +232,7 @@ function Get_Hero_Entries(upgrade_object)
 			GroundReinforcementPerception = "Exactor_Anakin_Darkside_In_Orbit",
 			GroundCompany = "ANAKIN_DARKSIDE_DEPLOYED_TEAM",
 			Factions = {"Empire"},
+			NoSpawnFlag = "GROUND_ANAKIN_DARKSIDE_DEAD",
 		},
 		["REPAIR_VADER_SUIT"] = {
 			NoInit = true,
