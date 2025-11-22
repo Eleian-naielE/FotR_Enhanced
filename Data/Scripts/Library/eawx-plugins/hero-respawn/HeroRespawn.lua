@@ -162,11 +162,10 @@ function HeroRespawn:anakins_dark_suit(hero_type)
     local respawn
     local flagship = Find_First_Object("Exactor_Anakin_Darkside")
     if TestValid(flagship) then
-        local position = flagship.Get_Planet_Location()
+        local position = flagship.Get_Planet_Location().Get_Type().Get_Name()
         flagship.Despawn()
         respawn = StoryUtil.SpawnAtSafePlanet(position, self.p_republic, StoryUtil.GetSafePlanetTable(), {"Exactor_Vader"})
         self.p_republic.Lock_Tech(Find_Object_Type("Vader_Upgrade_Exactor"))
-        self.p_republic.Lock_Tech(Find_Object_Type("Dummy_Anakin_Darkside"))
     elseif TestValid(Find_First_Object("Exactor_Vader")) then
         return
     elseif hero_type == "VADER_TEAM" then
