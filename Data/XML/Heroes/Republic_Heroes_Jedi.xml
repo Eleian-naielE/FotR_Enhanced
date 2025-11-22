@@ -13231,6 +13231,7 @@
 		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
 		TEXT_TOOLTIP_BONUS_FORCE_TRAINING
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_LEGIONS_AAYLA
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER</Encyclopedia_Unit_Class>
@@ -13568,6 +13569,7 @@
 		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
 		TEXT_TOOLTIP_BONUS_FORCE_TRAINING
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_LEGIONS_AAYLA
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
@@ -13709,10 +13711,34 @@
 	  <Affiliation>Empire</Affiliation>
 	</DummyStructure>
 	
-	<DummyStructure Name="Dummy_Vader">
+	<DummyStructure Name="Rebuild_Vader_Suit">
 	  <Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
-	  <Tech_Level>99</Tech_Level>
 	  <Affiliation>Empire</Affiliation>
+	  
+	  <Text_ID>TEXT_HERO_REBUILD_VADER_SUIT</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_REBUILD_VADER_SUIT
+		</Encyclopedia_Text>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Population_Value>0</Population_Value>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<AI_Combat_Power>10000</AI_Combat_Power>
+
+		<CategoryMask>Wall</CategoryMask>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Icon_Name>I_BUTTON_VADER.tga</Icon_Name>
+
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Tech_Level>0</Tech_Level>
+
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
 	</DummyStructure>
 
 	<UniqueUnit Name="Exactor_Anakin_Darkside">
@@ -13722,7 +13748,7 @@
 		<Text_ID>TEXT_HERO_DARTH_VADER</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE
 		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
@@ -13788,7 +13814,7 @@
 		<Variant_Of_Existing_Type>Exactor_Anakin_Darkside</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE
 		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
 		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
 		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
@@ -13850,6 +13876,10 @@
 
 	</UniqueUnit>
 	
+	<HeroCompany Name="Vader_Deployed_Team">
+	  <Variant_Of_Existing_Type>Vader_Team</Variant_Of_Existing_Type>
+	</HeroCompany>
+	
 	<DummyStructure Name="Anakin_Darkside_Upgrade_Exactor">
 	  	<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<Build_Cost_Credits>3000</Build_Cost_Credits>
@@ -13868,6 +13898,7 @@
 		<Required_Planets>Kuat</Required_Planets>
 		<Required_Orbiting_Units>Anakin_Darkside_Eta</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Four</Required_Special_Structures>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 	</DummyStructure>
 
 	<DummyStructure Name="Vader_Upgrade_Exactor">
@@ -13888,6 +13919,7 @@
 		<Required_Planets>Kuat</Required_Planets>
 		<Required_Orbiting_Units>Vader_Eta</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Four</Required_Special_Structures>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 	</DummyStructure>
 
 	<!-- Red Guards(Palpatine Escort, Capital Garrison)-->
