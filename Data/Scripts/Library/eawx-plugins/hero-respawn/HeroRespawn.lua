@@ -161,17 +161,14 @@ end
 function HeroRespawn:anakins_dark_suit(hero_type)
     local respawn
     if TestValid(Find_First_Object("Exactor_Anakin_Darkside")) then
-        local flagship = Find_First_Object("Exactor_Anakin_Darkside")
-        local position = flagship.Get_Planet_Location()
-        flagship.Despawn()
-        respawn = StoryUtil.SpawnAtSafePlanet(position, p_republic, StoryUtil.GetSafePlanetTable(), {"Exactor_Vader"})
+        respawn = StoryUtil.SpawnAtSafePlanet("CORUSCANT", self.p_republic, StoryUtil.GetSafePlanetTable(), {"Exactor_Vader"})
         self.p_republic.Lock_Tech(Find_Object_Type("Vader_Upgrade_Exactor"))
     elseif TestValid(Find_First_Object("Exactor_Vader")) then
         return
-    elseif hero_type == "Vader_Team" then
+    elseif hero_type == "VADER_TEAM" then
         return
     else
-        StoryUtil.SpawnAtSafePlanet("CORUSCANT", p_republic, StoryUtil.GetSafePlanetTable(), {"Vader_Team"})
+        respawn = StoryUtil.SpawnAtSafePlanet("CORUSCANT", self.p_republic, StoryUtil.GetSafePlanetTable(), {"Vader_Team"})
     end
     if respawn then 
         StoryUtil.Multimedia("TEXT_SPEECH_DARTH_VADER_SPAWN", 15, nil, "Emperor_Loop", 0)    
@@ -179,7 +176,7 @@ function HeroRespawn:anakins_dark_suit(hero_type)
 end
 
 function HeroRespawn:anakin_vader_escaped(hero_type)
-	local planet = StoryUtil.FindFriendlyPlanet(p_republic)
+	local planet = StoryUtil.FindFriendlyPlanet(self.p_republic)
     local respawn_type = "Anakin_Darkside_Team"
     local loop_type = "Anakin_Loop"
     local text = "TEXT_SPEECH_ANAKIN_DARKSIDE_ESCAPED"
@@ -189,7 +186,7 @@ function HeroRespawn:anakin_vader_escaped(hero_type)
         loop_type = "Vader_Loop"
         text = "TEXT_SPEECH_VADER_ESCAPED"
     end
-    local respawn = StoryUtil.SpawnAtSafePlanet("CORUSCANT", p_republic, StoryUtil.GetSafePlanetTable(), {respawn_type})
+    local respawn = StoryUtil.SpawnAtSafePlanet("CORUSCANT", self.p_republic, StoryUtil.GetSafePlanetTable(), {respawn_type})
     if respawn then
         StoryUtil.Multimedia(text, 15, nil, loop_type, 0)
     end

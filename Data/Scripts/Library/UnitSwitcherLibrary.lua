@@ -21,6 +21,8 @@ return {
 	--FotR_Enhanced
 	["YULAREN_RESOLUTE_UPGRADE_RESOLUTE_SPHAT"] = {"Yularen_Resolute", "Yularen_Resolute_SPHAT"},
 	["YULAREN_RESOLUTE_SPHAT_UPGRADE_INVINCIBLE"] = {"Yularen_Resolute_SPHAT", "Yularen_Invincible"},
+	["ANAKIN_DARKSIDE_UPGRADE_EXACTOR"] = {"Anakin_Darkside_Team", "Exactor_Anakin_Darkside"},
+	["VADER_UPGRADE_EXACTOR"] = {"Vader_Team", "Exactor_Vader"},
 	["VENATOR_SPHA_T_UPGRADE"] = {"Venator_Star_Destroyer","Venator_SPHA_T",["location_check"] = true},
 	["CT_P2_MANUAL_UPGRADE"] = {"Clonetrooper_Phase_One_Company","Clonetrooper_Phase_Two_Company",["location_check"] = true},
 	["ARC_P2_MANUAL_UPGRADE"] = {"ARC_Phase_One_Company","ARC_Phase_Two_Company",["location_check"] = true},
