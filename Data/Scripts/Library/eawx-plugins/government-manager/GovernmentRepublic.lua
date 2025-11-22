@@ -288,8 +288,7 @@ function GovernmentRepublic:ExecuteOrder66(stage)
 
 	elseif stage == "MISSION_KNIGHTFALL_SKIP" then
 		self:jedi_rebellion()
-		--StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Vader_Team"})
-		StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Anakin_Darkside_Team"}) --test
+		StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Vader_Team"})
 
 		self:ExecuteOrder66("SpawnEmpire")
 

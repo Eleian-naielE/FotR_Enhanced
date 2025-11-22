@@ -40,7 +40,7 @@ function OptionsHandler:new(galactic_conquest, gc_id, gc_name)
     self.cheat_crews_on = false
 
     --comment out to disable cheats for release builds
-    self:enable_cheats()
+    --self:enable_cheats()
 end
 
 function OptionsHandler:on_construction_finished(planet, game_object_type_name)
