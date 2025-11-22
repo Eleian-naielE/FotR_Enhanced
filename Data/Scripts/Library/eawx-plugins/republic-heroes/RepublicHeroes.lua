@@ -506,6 +506,7 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 
 		set_unit_index("Maarisa", 2, admiral_data)
 		set_unit_index("Yularen", 2, admiral_data)
+		set_unit_index("Block", 2, admiral_data)
 
 		Eta_Unlock()
 		Trachta_Checks = 1
@@ -767,10 +768,10 @@ function RepublicHeroes:on_galactic_hero_killed(hero_name, owner)
 	elseif tag_admiral == "Screed" then
 		if screed_second_chance_used == false then
 			screed_second_chance_used = true
-			if hero_name == "SCREED_ARLIONNE" then
+			if hero_name == "SCREED_DEMOLISHER" then
 				return
 			end
-			admiral_data.full_list["Block"].unit_id = 2  --SCREED_DEMOLISHER
+			admiral_data.full_list["Screed"].unit_id = 2  --SCREED_DEMOLISHER
 			Handle_Hero_Add("Screed", admiral_data)
 			if Find_Player("Empire").Is_Human() then
 				StoryUtil.Multimedia("TEXT_SPEECH_SCREED_RETURNS_DEMOLISHER", 15, nil, "Piett_Loop", 0)

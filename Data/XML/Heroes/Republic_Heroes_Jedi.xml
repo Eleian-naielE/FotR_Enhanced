@@ -13842,7 +13842,7 @@
 	</UniqueUnit>
 
 	<HeroCompany Name="Anakin_Darkside_Deployed_Team">
-		<Variant_Of_Existing_Type>Anakin_Darksdie_Team</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Anakin_Darkside_Team</Variant_Of_Existing_Type>
 	</HeroCompany>
 
 	<UniqueUnit Name="Exactor_Vader">

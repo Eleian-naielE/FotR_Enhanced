@@ -9165,6 +9165,7 @@ TEXT_SPEECH_RESEARCH_VICTORY2_PREREQS,To begin the research, construct the new r
 TEXT_SPEECH_RESEARCH_VICTORY2_UNLOCK,Unlocks: Victory-II Star Destroyer
 TEXT_SPEECH_RESEARCH_VICTORY2_UNLOCK2,Sector Army Commander: Therbon
 TEXT_SPEECH_RESEARCH_VICTORY2_UNLOCK3,Fleet Officers: Voss Parck
+TEXT_SPEECH_SCREED_RETURNS_DEMOLISHER,Admiral Screed: I may have lost my ship and an eye, but it's a one step back for a two steps forward.
 TEXT_SPEECH_TRENCH_RETURNS,Trench: The Republic thinks they have beaten me, but I have returned with a new flagship.\n[Trench has returned in control of a Providence Dreadnought].
 TEXT_SPEECH_VADER_ESCAPED,Darth Vader: They will pay for what they have done to my ship. Prepare the troops, Commander. I want no survivors.
 TEXT_SPEECH_VENATOR_RESEARCH,KDY Representative: The Navy is in dire need of a standardized command ship to combat the threats to our civilization. To show our commitment to the Chancellor, we at Kuat Drive Yards offer just such a ship, which will be substantially armed and able to host a vast number of fighters. This Venator-class will allow Republic officers to take the fight to the Separatists across all fronts, and KDY would be honored if you would sponsor it.
