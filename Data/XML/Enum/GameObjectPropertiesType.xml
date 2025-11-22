@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<EnumDefinition>
+
+	<HealsOrganics>			0x00000001	</HealsOrganics>
+	<HealsDroids>			0x01000000	</HealsDroids>
+	<HealsVehicles>			0x00000002	</HealsVehicles>
+	<Turret>				0x00000004	</Turret>
+	<TacticalStructure>		0x00000008	</TacticalStructure>
+	<InBase>				0x00000010	</InBase>
+	<OutBase>				0x00000020	</OutBase>
+	<Fodder>				0x00000040	</Fodder>
+	<SmallShip>				0x00000080	</SmallShip>
+	<NotOpportunityTarget>	0x00000100	</NotOpportunityTarget>
+	<GoodInfantryCrusher>	0x00000200	</GoodInfantryCrusher>
+	<IsSupercrusher>		0x00000400	</IsSupercrusher>
+	<IsRushTarget>			0x00000800	</IsRushTarget>
+	<CanContainGarrison>	0x00001000	</CanContainGarrison>
+	<GarrisonCanFire>		0x00002000	</GarrisonCanFire>
+	<IsStarbase>			0x00004000	</IsStarbase>
+	<Carrier>				0x00008000	</Carrier>
+	<DoKite>				0x00010000	</DoKite>
+	<GTSImmune>				0x00020000	</GTSImmune>
+	<Boardable>				0x00040000	</Boardable>
+	<Interdictor>      		0x00800000	</Interdictor>
+
+</EnumDefinition>

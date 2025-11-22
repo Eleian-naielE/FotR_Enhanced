@@ -8,20 +8,19 @@ return {
 	["RISHI"] = {"Fordo_Team"},
 	["QIILURA"] = {"Romodi_Team"},
 	["ROTHANA"] = {"Tarkin_Venator"},
-	["KUAT"] = {"Coburn_Triumphant"},
+	["KUAT"] = {"Coburn_Venator"},
 	},
 	["REBEL"] = {
-	["RAXUS_SECOND"] = {"Lucid_Voice", "Dooku_Team", "Trench_Invulnerable"},
-	["YAGDHUL"] = {"Durge_Team", "Ventress_Team", --[[FotR_Enhanced]] "TJ912_Recusant"},
-	["SERENNO"] = {"Grievous_Team_Recusant", "Colicoid_Swarm", "Sora_Bulq_Team"},
-	["UMBARA"] = {"Kalani_Team", --[[FotR_Enhanced]] "TM171_DH_Omni"},
+	["RAXUS_SECOND"] = {"Nute_Gunray_Team", "Lucid_Voice", "Trench_Invulnerable"},
+	["YAGDHUL"] = {"Durge_Team", "Ventress_Team", "Colicoid_Swarm", --[[FotR_Enhanced]] "TJ912_Recusant"},
+	["SERENNO"] = {"Grievous_Recusant", "Dooku_Team", "Sora_Bulq_Team"},
+	["ONDERON"] = {"Kalani_Team"},
 	["QUELL"] = {"TF1726_Munificent"},
-	["SULLUST"] = {"Gunray_Team", "AutO_Providence"}
+	["SULLUST"] = {"AutO_Providence"},
+	["MANDALORE"] = {"Spar_Team", "Fenn_Shysa_Team", "Tobbi_Dala_Team"}
 	},
 	["HUTT_CARTELS"] = {
-		["GAMORR"]  = {
-			"Zorba_The_Hutt_Team",
-			"Jiliac_Dragon_Pearl",
+		["TATOOINE"]  = {
 			"Jabba_Star_Jewel"
 		},
 		["CIRCUMTORE"]  = {
@@ -32,16 +31,30 @@ return {
 			"Borvo_Prosperous_Secret"
 		},
         ["NAL_HUTTA"]  = {
-			"Bossato_Team",
-			"Plakot_Team",
-        },
+			"Jiliac_Dragon_Pearl",
+			"Smebba_Dunk_Team",
+		},
 		["NAR_SHADDAA"]  = {
             "Popara_Imru_Ootmian",
 			"Parella_Team",
-			"Smebba_Dunk_Team",
-        }
+        },
+		["BOONTA"]  = {
+			"Porla_Team",
+		},
+        ["SLEHEYRON"]  = {
+			"Bossato_Team",
+			"Plakot_Team",
+        },
 	},
 	["INDEPENDENT_FORCES"] = {
-	["FLORRUM"] = {"Hondo_Ohnaka_Team"}
+		["FLORRUM"] = {
+			"Hondo_Ohnaka_Team"
+		},
+		["EXOCRON"] = {
+            "Gevtes_Team"
+        },
+        ["BRIGIA"] = {
+            "Keek_Team"
+        }
 	}
 }

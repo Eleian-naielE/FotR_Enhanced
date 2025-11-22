@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+	<Campaign Name="Sandbox_Unnamed_Republic">
+		<Campaign_Set> Sandbox_Unnamed22 </Campaign_Set>
+		<Sort_Order>30</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_HEADER_22BBY_UNNAMED </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DESCRIPTION_22BBY_UNNAMED </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Is_Listed>true</Is_Listed>
+		<Tutorial>true</Tutorial>
+
+		<Locations> 
+				Galaxy_Core_Art_Model,
+				Aargonar,
+				Agamar,
+				<!-- Atraken, -->
+				<!-- Axion, -->
+				Ando,
+				Brentaal,
+				Cartao,
+				Christophsis,
+				Coruscant,
+				Dantooine,
+				Geonosis,
+				Hypori,
+				Jabiim,
+				Kamino,
+				Krant,
+				Kuat,
+				Metalorn,
+				<!-- Merson, -->
+				Mon_Calamari,
+				Muunilinst,
+				Naboo,
+				<!-- Ohma_Dun -->
+				Rattatak,
+				Rhen_Var,
+				Tatooine,
+				Teth,
+				The_Wheel,
+				Thule,
+				Yavin,
+		</Locations>
+
+		
+		
+
+		<Trade_Routes>
+		</Trade_Routes> 
+
+        <Home_Location> Rebel, Mon_Calamari </Home_Location>
+        <Home_Location> Empire, Coruscant </Home_Location>
+        
+        <Starting_Active_Player> Empire </Starting_Active_Player>
+
+		<Rebel_Story_Name></Rebel_Story_Name>
+        <Empire_Story_Name></Empire_Story_Name>
+        
+		<AI_Player_Control> Rebel, None </AI_Player_Control>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel, 900 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire, 900 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Empire, Coruscant, Yoda_Delta_Team </Starting_Forces>
+		<Starting_Forces> Rebel, Muunilinst, Tonith_Corpulentus</Starting_Forces>
+		
+
+	</Campaign>
+
+ </Campaigns>

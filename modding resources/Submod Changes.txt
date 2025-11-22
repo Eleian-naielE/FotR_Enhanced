@@ -27,24 +27,31 @@ ADDED STUFFS
 
 # New Units
 
--Venator Open Circle Fleet variant 
---- Has bonuses(Health & Firing rate, shield), fighter complements based on TCW visual depiction
---- Build limit of total 12
---- Upgradable to SPHA-T equipped version with Anakin on orbit [in era 5] with build lifetime of 3
+-Venator SPHA-T Refit
+-- Upgradeble from normal Venator with Anakin in orbit on tier 3+ shipyards
+--- Build limit lifetime of total 3
+
+-A6 Prototype
+
 
 -Umbaran Support Frigate(Influence) 
---- Fleet Tender Available at Umbara at influence
+--- Fleet Tender Available at Umbara at influence 8+
+
+-Umbaran fighter
+-- Spawns as Militia, Support Frigate loadout, influence militia
+
+
 
 [[-Republic's Decolorized military
 --- All colorizable Ships/Ground units now have Grey "Decolorized" Version for order 66 swaps
 --- Will also replace standard roster after order 66]]
 
+
+
 # New Heroes
 
-[REP]
--Lorth Needa
---- Carrick Cruiser Integrity, Command Tier 4, Always Available
---- Icon & Unique Voice Over for Assign/Retire Dummy ported from AOTR
+[[-Lorth Needa
+--- Carrick Cruiser Integrity, Command Tier 4, Always Available]]
 
 -Block
 --- Venator Negoiator, Vigilance(Respawn), Command Tier 4
@@ -86,8 +93,4 @@ CHANGES & ADJUSTMENTS
 -- Clone Commando : 2 -> 3
 -- Army Officers : 2 -> 3
 
-# Count Dooku Able to build dark Acolyte(Dark Jedi from TR, Requires Dooku in orbit)
-
-# changed Tarkin's Venator model to OCF Variant
-
-# OCF Venator replaces Generic Venator in Hunt For Malevolence(Without buildlimit)
+# [[Count Dooku Able to build dark Acolyte(Dark Jedi from TR, Requires Dooku in orbit)]]

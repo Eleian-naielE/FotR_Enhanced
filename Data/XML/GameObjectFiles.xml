@@ -5,18 +5,24 @@
 	<!-- These two need to be at the top -->
 	<File>Mod_Id.xml</File>
 	<File>Debug_Dummies.xml</File>
+
 	<File>Props\Master_Prop_File.xml</File>
-	
+	<File>Props\W_Defunct_Prop_File.xml</File>
+	<File>Props\Skydomes_Land_Primary.xml</File>
+	<File>Props\Skydomes_Land_Secondary.xml</File>
+	<File>Props\Skydomes_Space_Primary.xml</File>
+	<File>Props\Skydomes_Space_Secondary.xml</File>
+	<File>Props\Master_Passives_File.xml</File>
+
 	<!-- Easier to load Death Clones before Templates -->
 	<File>Units\Death_Clones_Master.xml</File>
 	<File>Units\Death_Clones_Coresaga.xml</File>
 	<File>Units\Death_Clones_FotR.xml</File>
-	
+
 	<!-- Load all templates to reduce looping -->
 	<File>Units\Templates_Dummy.xml</File>
-	<File>Units\Templates_Instant_Action.xml</File>
-	<File>Units\Templates_Jedi.xml</File>
-	<File>Units\Templates_Master.xml</File>
+	<File>Units\Templates_Force_Units.xml</File>
+	<File>Units\Force_Units_CoreSaga.xml</File>		<!-- Load after template for no load looping -->
 	<File>Units\Templates_Fighters.xml</File>
 	<File>Units\Templates_Corvettes.xml</File>
 	<File>Units\Templates_Frigates.xml</File>
@@ -24,31 +30,32 @@
 	<File>Units\Templates_Master_Ground.xml</File>
 	<File>Units\Templates_Ground.xml</File>
 	<File>Units\Templates_Ground_Militia.xml</File>
-	<File>Units\Templates_BombingRunUnits.xml</File>
+	<File>Units\TemplateLandBombingRun.xml</File>
+	<File>Units\Partisan_Ground_Master.xml</File>
+	<File>Units\Templates_Instant_Action.xml</File>
+	<File>Units\Wild_Animal_Ground_Master.xml</File>
+	<File>Units\Skirmish\Template_GroundWar_Spawner.xml</File>
+	
 	<File>Structures\Templates_Ground_Structures.xml</File>
 	<File>Structures\Templates_Space_Structures.xml</File>
 	<File>Structures\Templates_Basic_Resource_Structures.xml</File>
 	<File>Structures\Template_Skirmish_Space_Structures.xml</File>
 	<File>Structures\Template_SurvivalBases.xml</File>
+	<File>Structures\Templates_Build_Pads.xml</File>
+	<File>Structures\Template_GroundBases.xml</File>
 
 	<!--Main Files -->
 	<File>BlackMarketItems.xml</File> <!-- Game looks for it -->
 	<File>Containers.xml</File>
 	<File>Display_Structures_Dummies.xml</File>
 	<File>Era_Dummies.xml</File>
-	<File>GroundIndigenous.xml</File>
-	<File>GroundCompaniesIndigenous.xml</File>
 	<File>Influence_Structures_Dummies.xml</File>
-	<File>LandPrimarySkydomes.xml</File>
-	<File>LandSecondarySkydomes.xml</File>
 	<File>LayerDummies.xml</File>
 	<File>MiscObjects.xml</File>
 	<File>Options.xml</File>
 	<File>Planets.xml</File>
 	<File>Planets_Dummy.xml</File>
 	<File>SpaceBuildablesSkirmish.xml</File>
-	<File>SpacePrimarySkydomes.xml</File>
-	<File>SpaceSecondarySkydomes.xml</File>
 	<File>SpecialEffects.xml</File>
 	<File>SurvivalUpgradeObjects.xml</File>
 	<File>TECHBUILDING_Dummies.xml</File>
@@ -56,9 +63,14 @@
 	<File>UpgradeObjects_Flagship_Mode.xml</File>
 	<File>UpgradeObjectsGroundSkirmish.xml</File>
 	<File>Structures\GroundStructures.xml</File>
+	<File>Structures\Partisan_Ground_Structures.xml</File>
+	<File>Structures\Wild_Animal_Ground_Structures.xml</File>
 	<File>Structures\Shipyards.xml</File>
 	<File>Projectiles\Projectiles_Ground_Lasers.xml</File>
 	<File>Projectiles\Projectiles_GroundExplosives.xml</File>
+	<!-- FotR_Enhanced -->
+	<File>Projectiles\Projectiles_GroundExplosives_FotR_Enhanced.xml</File>
+	<!-- FotR_Enhanced -->
 	<File>Projectiles\Projectiles_Infantry.xml</File>
 	<File>Projectiles\Projectiles.xml</File>
 	<File>Projectiles\Projectiles_Melee.xml</File>
@@ -73,33 +85,32 @@
 	<File>Particles\Particles_Space.xml</File>
 	<File>Particles\Particles_Abilities.xml</File>
 	<File>Units\TransportUnits_Master.xml</File>
-	
+
 	<!-- Coresaga Files -->
+	<File>Units\Hutt_Infantry_Coresaga.xml</File>
 	<File>Units\TransportUnits_Coresaga.xml</File>
+	<File>Units\LandBombingRunUnits_Coresaga.xml</File>
+	<File>Structures\Coresaga_Turrets.xml</File>
 	
+
 	<!-- FotR Files -->
 	<File>Deconstruct_Dummies.xml</File>
-	<File>GroundTurrets.xml</File>	 <!-- Load before buildables -->
-	<File>GroundBuildablesRebel.xml</File>
-	<File>GroundBuildablesEmpire.xml</File>
+	<File>GroundBuildPadObjects.xml</File>
 	<File>Markers.xml</File>
 	<File>Multiplayer_Structure_Markers.XML</File>
 	<File>Options_FotR.xml</File>
 	<File>Research_Dummies_CIS.xml</File>
 	<File>Research_Dummies_Republic.xml</File>
+	<File>Research_Dummies_Hutts.xml</File>
+
+	<File>Units\Probe_Droids.xml</File>
 	<File>Units\Hutt_Space_Units.xml</File>
 	<File>Units\Republic_Space_Units.xml</File>
-	<!-- FotR_Enhanced -->
-	
-	<!--
-	<File>Units\Republic_Space_Units_Imperial.xml</File>
-	<File>Units\Republic_Ground_Units_Imperial.xml</File>
-	-->
-	
-	<!-- End -->
 	<File>Units\CIS_Space_Units.xml</File>
 	<File>Units\Other_Space_Units.xml</File>
-	<File>Units\Hutt_Government_Dummies.xml</File>
+	<File>Units\Hutt_Government_Dummies_Coresaga.xml</File>
+	<File>Units\Hutt_Government_Dummies_FotR.xml</File>
+	<File>Units\Republic_Infantry.xml</File>
 	<File>Units\Republic_Clones.xml</File>
 	<File>Units\CIS_Droids.xml</File>
 	<File>Units\CIS_Organic_Infantry.xml</File>
@@ -111,15 +122,17 @@
 	<File>Units\InfluenceRewards.xml</File>
 	<File>Units\InstantAction_Bases.xml</File>
 	<File>Units\InstantAction_Units.xml</File>
-	<File>Units\LandBombingRunUnits.xml</File>
+	<File>Units\LandBombingRunUnits_FotR.xml</File>
 	<File>Units\TransportUnits_FotR.xml</File>
 	<File>Units\UpgradeDummies.xml</File>
+
 	<File>Structures\Basic_Resource_Structures.xml</File>
 	<File>Structures\Generic_Structures.xml</File>
 	<File>Structures\Capturable_Barracks.xml</File>
 	<File>Structures\Capturable_Factories.xml</File>
 	<File>Structures\Conquest_Bases.xml</File>
 	<File>Structures\GroundBases.xml</File>
+	<File>Structures\Space_Secondary_Defense_Stations.xml</File>
 	<File>Structures\GalacticCorporations.xml</File>
 	<File>Structures\MainStarbases.xml</File>
 	<File>Structures\CIS_Structures.xml</File>
@@ -131,17 +144,30 @@
 	<File>Structures\SpecialStructures.xml</File>
 	<File>Structures\SpecialStructures_Underworld.xml</File>
 	<File>Structures\SurvivalBases.xml</File>
-	<File>Heroes\CIS_Heroes.xml</File>
-	<File>Heroes\CIS_Heroes_Mercenaries.xml</File>
+
+	<File>Heroes\CIS_Heroes_Army.xml</File>
+	<File>Heroes\CIS_Heroes_Fleet.xml</File>
 	<File>Heroes\CIS_Heroes_Sith.xml</File>
-	<File>Heroes\Commanders.xml</File>
-    <File>Heroes\Hutt_Heroes.xml</File>
-	<File>Heroes\Hutt_Core_Heroes.xml</File>
-	<File>Heroes\Republic_Heroes.xml</File>
+	
+	<File>Heroes\Republic_Heroes_Fleet.xml</File>
+	<File>Heroes\Republic_Heroes_Army.xml</File>
 	<File>Heroes\Republic_Heroes_Clones.xml</File>
 	<File>Heroes\Republic_Heroes_Jedi.xml</File>
-	<File>Heroes\Other_Heroes.xml</File>
 	
+    <File>Heroes\Hutt_Heroes_Cartels.xml</File>
+    <File>Heroes\Hutt_Heroes_Underworld.xml</File>
+	<File>Heroes\Hutt_Heroes_CoreSaga.xml</File>
+
+	<File>Heroes\Generic_Commanders.xml</File>
+	<File>Heroes\Mercenary_Heroes.xml</File>
+	<File>Heroes\Pirate_Heroes.xml</File>
+	<File>Heroes\Fighter_Heroes.xml</File>
+
+	<File>Heroes\Independent_Heroes.xml</File>
+	<File>Heroes\Independent_Heroes_CoreSaga.xml</File>
+
+	<File>Particles\FotR_Particles_Abilities.xml</File>
+
 	<!-- Skirmish Files -->
 	<File>Units\Skirmish\SkirmishUnits_Republic.xml</File>
 	<File>Units\Skirmish\SkirmishUnits_CIS.xml</File>
@@ -152,21 +178,22 @@
 	<File>Structures\Skirmish\Skirmish_StarBases.xml</File>
 	<File>Structures\Skirmish\Skirmish_Research_starbases.xml</File>
 	<File>Structures\Skirmish\Skirmish_Defence_Stations.xml</File>
-	
+
 	<!-- Flagship Files -->
 	<File>Units\Skirmish\Flagship\Skirmish_Flagship_Templates.xml</File>
 	<File>Units\Skirmish\Flagship\Skirmish_Flagship_Templates_Squadrons.xml</File>
 	<File>Units\Skirmish\Flagship\Completed_Unit\Skirmish_Flagship_Units_CIS.xml</File>
 	<File>Units\Skirmish\Flagship\Completed_Unit\Skirmish_Flagship_Units_Republic.xml</File>
+	<File>Units\Skirmish\Flagship\Completed_Unit\Skirmish_Flagship_Units_Hutts.xml</File>
 	<File>Structures\Skirmish\Skirmish_starbases_Flagshipmode_Republic.xml</File>
 	<File>Structures\Skirmish\Skirmish_starbases_Flagshipmode_CIS.xml</File>
+	<File>Structures\Skirmish\Skirmish_starbases_Flagshipmode_Hutts.xml</File>
 
 	<!-- Ground War Files -->
 	<File>Structures\GroundWars_Structures.xml</File>
-	<File>Units\Skirmish\Ground_War\Skirmish_GroundWar_Templates.xml</File>
 	<File>Units\Skirmish\Ground_War\Skirmish_GroundWar_Formations.xml</File>
 	<File>Units\Skirmish\Ground_War\Skirmish_GroundWar_Companies.xml</File>
-	
+
 	<!-- Prop Files -->
 	<File>Props\Props_Coresaga.xml</File>
 	<File>Props\Props_FotR.xml</File>
@@ -177,7 +204,7 @@
 
 	<!-- Loop if higher, so load last -->
 	<File>Ability_Dummies.xml</File>
+	<File>FotR_Misc_Objects.xml</File> <!-- Leave here, references in file above -->
 	<File>Event_Dummies.xml</File>
 	<File>UpgradeObjectsSpaceSkirmish_FotR.xml</File>
-
 </Game_Object_Files>

@@ -1,26 +1,18 @@
 return {
 	Fighters = {
-		["TORRENT_SQUADRON"] = {
-			DEFAULT = {Initial = 1, Reserve = 4, TechLevel = LessOrEqualTo(3)}
+		["INTERCEPTOR"] = {
+			DEFAULT = {Initial = 1, Reserve = 4}
 		},
-		["REPUBLIC_Z95_HEADHUNTER_SQUADRON_HALF"] = {
-			EMPIRE = {Initial = 2, Reserve = 0, TechLevel = EqualTo(3)}
+		["ARC_170_OFC_SQUADRON"] = {
+			DEFAULT = {Initial = 1, Reserve = 3}
 		},
-		["REPUBLIC_Z95_HEADHUNTER_SQUADRON"] = {
-			DEFAULT = {Initial = 1,  Reserve = 2, TechLevel = GreaterThan(3)}
+		["BOMBER"] = {
+			DEFAULT = {Initial = 1, Reserve = 4}
 		},
-		["MISSILE_NIMBUS_SQUADRON"] = {
-			DEFAULT = {Initial = 1,  Reserve = 2, TechLevel = GreaterThan(3)}
-		},
-        ["GENERIC_ARC_170_SQUADRON"] = {
-            DEFAULT = {Initial = 1, Reserve = 4}
-        },
-		["2_WARPOD_SQUADRON"] = {
-			DEFAULT = {Initial = 2, Reserve = 6, ResearchType = "RepublicWarpods"}
-		},
-		["GENERIC_BTLB_Y-WING_SQUADRON"] = {
-			DEFAULT = {Initial = 2, Reserve = 6, ResearchType = "~RepublicWarpods"}
+		["HEAVY_BOMBER"] = {
+			DEFAULT = {Initial = 1, Reserve = 3}
 		}
 	},
+	FighterFlags = {"V_WING_MISSILE"},
 	Scripts = {"multilayer", "fighter-spawn"}
 }

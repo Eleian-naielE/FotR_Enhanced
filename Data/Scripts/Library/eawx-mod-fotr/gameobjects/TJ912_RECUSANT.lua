@@ -1,10 +1,10 @@
 return {
 	Ship_Crew_Requirement = 10,
 	Fighters = {
-		["HYENA_SQUADRON"] = {
+		["LIGHT_BOMBER_HALF"] = {
 			DEFAULT = {Initial = 1, Reserve = 4, ResearchType = "VultureLatch"}
 		}
 	},
-	Scripts = {"multilayer", "single-unit-retreat", "fighter-spawn"},
+	Scripts = {"multilayer","fighter-spawn"},
 	Flags = {HANGAR = true}
 }

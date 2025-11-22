@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!-- Dynamic enum definition for GameObjectCategoryType  -->
+<EnumDefinition>
+
+	<Fighter>			0x0000000000000001		</Fighter>
+	<Bomber>			0x0000000000000002		</Bomber>
+	<Transport>			0x0000000000000004		</Transport>
+	<Gunship>			0x0000000000000008		</Gunship>
+	<Corvette>			0x0000000000000010		</Corvette>
+	<Frigate>			0x0000000000000020		</Frigate>
+	<Capital>			0x0000000000000040		</Capital>
+	<SuperCapital>      0x0000000000000080		</SuperCapital>
+
+	<Infantry>			0x0000000000000100		</Infantry>
+	<Vehicle>			0x0000000000000200		</Vehicle>
+	<AirSpeeder>		0x0000000000000400		</AirSpeeder>
+	<AirGunship>		0x0000000000000800		</AirGunship>
+	<Structure>			0x0000000000001000		</Structure>
+
+	<AntiFighter>		0x0000000000002000		</AntiFighter>
+	<AntiBomber>		0x0000000000004000		</AntiBomber>
+	<AntiCorvette>		0x0000000000008000		</AntiCorvette>
+	<AntiFrigate>		0x0000000000010000		</AntiFrigate>
+	<AntiCapital>		0x0000000000020000		</AntiCapital>
+
+	<AntiInfantry>		0x0000000000040000		</AntiInfantry>
+	<AntiVehicle>		0x0000000000080000		</AntiVehicle>
+	<AntiAirSpeeder>	0x0000000000100000		</AntiAirSpeeder>
+	<AntiAirGunship>	0x0000000000200000		</AntiAirGunship>
+	<AntiStructure>		0x0000000000400000		</AntiStructure>
+	<SpaceStructure>	0x0000000000800000		</SpaceStructure>
+    
+	<Wall>				0x0000000001000000		</Wall>
+	<Upgrade>			0x0000000002000000		</Upgrade>
+	<Clone>				0x0000000004000000		</Clone>
+
+	<InfantryHero>		0x0000000008000000		</InfantryHero>
+	<VehicleHero>		0x0000000010000000		</VehicleHero>
+	<SpaceHero>			0x0000000020000000		</SpaceHero>
+	<NonCombatHero>		0x0000000040000000		</NonCombatHero>
+
+	<Organic>			0x0000000080000000		</Organic>
+	<Droid>				0x0000000100000000		</Droid>
+
+	<!-- Place new masks above -->
+	<Hero>               0x0000000078000000  </Hero>
+    <All>                0xFFFFFFFFFFFFFFFF  </All>
+    <None>               0x0000000000000000  </None>
+
+</EnumDefinition>
+

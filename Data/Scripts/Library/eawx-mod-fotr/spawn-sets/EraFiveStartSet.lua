@@ -6,41 +6,52 @@ return {
 	["ONDERON"] = {"Romodi_Team", "Dodonna_Ardent"},
 	["ERIADU"] = {"Tarkin_Venator"},
 	["KASHYYYK"] = {"Delta_Squad"},
-	["KUAT"] = {"Rahm_Kota_Team", "Gentis_Team"},
+	["KUAT"] = {"Rahm_Kota_Team", "Kotas_Militia_Trooper_Company", "Kotas_Militia_Trooper_Company", "Gentis_Team"},
 	["RENDILI"] = {"Plo_Koon_Delta_Team", "Dallin_Kebir"}
 	},
 	["REBEL"] = {
-	["RAXUS_SECOND"] = {"Lucid_Voice", "Dooku_Team", "Trench_Invulnerable"},
-	["BOZ_PITY"] = {"Durge_Team", "Ventress_Team", --[[FotR_Enhanced]]"TJ912_Recusant"},
-	["SERENNO"] = {"Grievous_Team_Recusant", "Colicoid_Swarm", "Sora_Bulq_Team"},
-	["FELUCIA"] = {"Kalani_Team"},
-	["HYPORI"] = {"TF1726_Munificent"},
-	["PAMMANT"] = {"Gunray_Team", "Harsol_Munificent", "AutO_Providence"}
+	["RAXUS_SECOND"] = {"Trench_Invulnerable", "Nute_Gunray_Team"},
+	["SERENNO"] = {"Grievous_Invisible_Hand", "Dooku_Team", "Ventress_Team"},
+	["FELUCIA"] = {"Kalani_Team", "Harsol_Munificent"},
+	["HYPORI"] = {"Durge_Team", "TF1726_Munificent", "Colicoid_Swarm"},
+	["SALEUCAMI"] = {"Sora_Bulq_Team", "Lucid_Voice"},
+	["SULLUST"] = {"AutO_Providence"},
+	["YAVIN"] = {"Spar_Team", "Fenn_Shysa_Team", "Tobbi_Dala_Team", --[[FotR_Enhanced]] "TJ912_Recusant"}
 	},
 	["HUTT_CARTELS"] = {
-		["GAMORR"]  = {
-			"Zorba_The_Hutt_Team",
-			"Jiliac_Dragon_Pearl",
-			"Jabba_Star_Jewel"
-		},
 		["CIRCUMTORE"]  = {
 			"Tronox_Team",
 			"Reshul_Team",
         },
-        ["LATHARRA"]  = {
+        ["HOLLASTIN"]  = {
 			"Borvo_Prosperous_Secret"
 		},
-        ["NAL_HUTTA"]  = {
-			"Bossato_Team",
-			"Plakot_Team",
-        },
+		["NAL_HUTTA"]  = {
+			"Jabba_Star_Jewel",
+			"Jiliac_Dragon_Pearl",
+			"Smebba_Dunk_Team",
+		},
 		["NAR_SHADDAA"]  = {
             "Popara_Imru_Ootmian",
 			"Parella_Team",
-			"Smebba_Dunk_Team",
-        }
+        },
+		["BOONTA"]  = {
+			"Porla_Team",
+		},
+		["SLEHEYRON"]  = {
+			"Bossato_Team",
+			"Plakot_Team",
+        },
 	},
 	["INDEPENDENT_FORCES"] = {
-	["FLORRUM"] = {"Hondo_Ohnaka_Team"}
+		["FLORRUM"] = {
+			"Hondo_Ohnaka_Team"
+		},
+		["EXOCRON"] = {
+            "Gevtes_Team"
+        },
+        ["BRIGIA"] = {
+            "Keek_Team"
+        }
 	}
 }

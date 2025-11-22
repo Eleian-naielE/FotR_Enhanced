@@ -1,0 +1,479 @@
+<?xml version="1.0"?>
+<MiscObjects>
+	<MiscObject Name="Demolition_Bomb">
+		<Text_ID>TEXT_OBJECT_BOMB</Text_ID>
+		<Land_Model_Name>w_smallbomb.alo</Land_Model_Name>
+		<LandBehavior>BOMB</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>SFX_Bomb_Detonation</Death_SFXEvent_Start_Die>
+	</MiscObject>
+
+	<!--
+	Oksana [5/30/2005]:
+	Currect system can't target a position, only an object, so we
+	setup this dummy invisible object so that barrage mode can target it without having to rewrite entire hardpoint,
+	team and weapon targeting systems. -->
+	<MiscObject Name="Dummy_Barrage_Target">
+		<Model_Name>W_LASER_INVISIBLE.ALO</Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<!-- <Scale_Factor>100.0</Scale_Factor> -->
+
+		<No_Colorization_Color/>
+		<Scale_Factor>1</Scale_Factor>
+
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+		<Shield_Points>5000</Shield_Points>
+		<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+		<Tactical_Health>100000</Tactical_Health>
+
+		<Ship_Class>Corvette</Ship_Class>
+		<Ranking_In_Category>5</Ranking_In_Category>
+		<Formation_Priority>5</Formation_Priority>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<HardPoints>
+			W_Laser_Invisible_Hardpoint
+		</HardPoints>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Target_Bones>Root</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>no</Ground_Vehicle_Turret_Target>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<!-- <Space_Layer> Corvette </Space_Layer> -->
+		<Visible_On_Radar_When_Fogged>false</Visible_On_Radar_When_Fogged>
+
+		<Behavior> IDLE </Behavior>
+		<SpaceBehavior> DUMMY_STARSHIP </SpaceBehavior>
+		<LandBehavior> MARKER </LandBehavior>
+
+		<Property_Flags> NotOpportunityTarget </Property_Flags>
+
+		<CategoryMask> Corvette  </CategoryMask>
+	</MiscObject>
+
+	<MiscObject Name="Credit_Power_Up">
+		<Text_ID></Text_ID>
+		<Land_Model_Name>W_PICK_UP_COINS.ALO</Land_Model_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Is_Decoration>No</Is_Decoration>
+		<Scale_Factor>1.0</Scale_Factor>
+ 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+ 		<Lua_Script>CreditPowerUp</Lua_Script>
+	</MiscObject>
+  
+	<MiscObject Name="Tech_Power_Up">
+		<Text_ID></Text_ID>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Scale_Factor>1.0</Scale_Factor>
+ 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+ 		<Lua_Script>TechPowerUp</Lua_Script>
+	</MiscObject>
+  
+	<MiscObject Name="Multiplayer_Beacon">
+		<Affiliation>Rebel, Empire</Affiliation>
+		<Text_ID>TEXT_MULTIPLAYER_BEACON</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_MULTIPLAYER_BEACON  </Encyclopedia_Text>
+		<Behavior>MULTIPLAYER_BEACON, IDLE</Behavior>
+		<Land_Model_Name>i_multiplayer_beacon.alo</Land_Model_Name>
+		<Space_Model_Name>i_multiplayer_beacon.alo</Space_Model_Name>
+		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_icon_minimap_ping.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Tactical_Health> 100 </Tactical_Health>
+		<Beacon_Radar_Map_Event_Name> Default_Beacon_Placement </Beacon_Radar_Map_Event_Name>
+		<Beacon_Lifetime_In_Secs> 10.0 </Beacon_Lifetime_In_Secs>
+		<SFXEvent_Beacon_Placed>GUI_Toggle_Lure_On</SFXEvent_Beacon_Placed>
+	</MiscObject>
+
+	<MiscObject Name="Radioactive_Contamination">
+		<Land_Model_Name>p_contamination_cloud.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<LandBehavior>ABILITY_COUNTDOWN, SELF_DESTRUCT</LandBehavior>
+		<Is_Decoration>No</Is_Decoration>
+		<Remove_Upon_Death>Yes</Remove_Upon_Death>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>18</Expiration_Seconds>
+				<Spawned_Object_Type> Small_Steam_Ground </Spawned_Object_Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Radioactive_Contamination_Infantry">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>125.0</Heal_Range>
+				<Heal_Amount>-1.8</Heal_Amount> <!-- Negative damage means inflict pain on others -->
+				<Heal_Interval_In_Secs>.10</Heal_Interval_In_Secs>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
+			</Force_Healing_Ability>
+		</Abilities>
+	</MiscObject>
+
+	<MiscObject Name="Radioactive_Contamination_Speeder_Bomb">
+		<Land_Model_Name>p_contamination_cloud_speeder.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<LandBehavior>ABILITY_COUNTDOWN, SELF_DESTRUCT</LandBehavior>
+		<Is_Decoration>No</Is_Decoration>
+		<Remove_Upon_Death>Yes</Remove_Upon_Death>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+			 	<Active_By_Default>Yes</Active_By_Default>
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<Recharge_Seconds>5</Recharge_Seconds>
+				<Spawned_Object_Type> Small_Steam_Ground </Spawned_Object_Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Radioactive_Contamination_Speeder">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>45.0</Heal_Range>
+				<Heal_Amount>-0.25</Heal_Amount> <!-- Negative damage means inflict pain on others -->
+				<Heal_Interval_In_Secs>.10</Heal_Interval_In_Secs>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
+			</Force_Healing_Ability>
+		</Abilities>
+	</MiscObject>
+
+
+	<MiscObject Name="Proximity_Mine">
+		<Text_ID>TEXT_PROXIMITY_MINE</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_BOMB_CLASS</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_PROXIMITY_MINE_DESC</Encyclopedia_Text>
+		<Land_Model_Name>W_landmine.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Loop_Idle_Anim_00>no</Loop_Idle_Anim_00>
+		<Mass>1.0</Mass>
+		<Tactical_Health>1</Tactical_Health>
+		<Collision_Box_Modifier>1.5</Collision_Box_Modifier>
+		<CategoryMask> Structure </CategoryMask>
+		<Influences_Capture_Point>false</Influences_Capture_Point>
+		<Is_Decoration>no</Is_Decoration>
+		<Not_Really_Selectable>true</Not_Really_Selectable>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Behavior>SELECTABLE, PROXIMITY_MINE</Behavior>
+		<LandBehavior>DAMAGE_TRACKING, EARTHQUAKE_TARGET, HIDE_WHEN_FOGGED</LandBehavior>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+		<Collidable_By_Projectile_Living>yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proximity_Mine_Blast_Effect</Death_Explosions>
+		<IsDeathCloneObstacle>yes</IsDeathCloneObstacle>
+		<Remove_Upon_Death>yes</Remove_Upon_Death>
+		<Space_Layer>Land</Space_Layer>
+		<UnitCollisionClass>Infantry</UnitCollisionClass>
+		<CanCellStack>yes</CanCellStack>
+		<Avoidance_Disabled>yes</Avoidance_Disabled>
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Override_Bounty_SP>0</Override_Bounty_SP>
+		<Override_Bounty_MP>0</Override_Bounty_MP>
+	</MiscObject>
+
+	<MiscObject Name="Mine_Land_Prox_Antivehicle">
+		<Variant_Of_Existing_Type>Proximity_Mine</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_PROXIMITY_MINE_AV</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_BOMB_CLASS</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_PROXIMITY_MINE_AV_DESC</Encyclopedia_Text>
+		<Land_Model_Name>W_landmine_av.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Death_Explosions>Proximity_Mine_Blast_Effect_Proton</Death_Explosions>
+	</MiscObject>
+
+	<MiscObject Name="Mine_Land_Prox_Antipersonnel">
+		<Variant_Of_Existing_Type>Proximity_Mine</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_PROXIMITY_MINE_AP</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_BOMB_CLASS</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_PROXIMITY_MINE_AP_DESC</Encyclopedia_Text>
+		<Land_Model_Name>W_landmine_ai.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Death_Explosions>Proximity_Mine_Blast_Effect_Concussion</Death_Explosions>
+	</MiscObject>
+
+	<MiscObject Name="Mine_Land_Prox_Fragmentation">
+		<Variant_Of_Existing_Type>Proximity_Mine</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_PROXIMITY_MINE_FRAG</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_BOMB_CLASS</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_PROXIMITY_MINE_FRAG_DESC</Encyclopedia_Text>
+		<Land_Model_Name>ap_mine.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Death_Explosions>Proximity_Mine_Blast_Effect_Fragmentation</Death_Explosions>
+	</MiscObject>
+
+
+	<MiscObject Name="Plasma_Grenade_Contamination">
+		<Land_Model_Name>p_contamination_cloud.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<LandBehavior>ABILITY_COUNTDOWN, SELF_DESTRUCT</LandBehavior>
+		<Is_Decoration>No</Is_Decoration>
+		<Remove_Upon_Death>Yes</Remove_Upon_Death>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>8</Expiration_Seconds>
+				<Spawned_Object_Type> Small_Steam_Ground </Spawned_Object_Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Plasma_Grenade_Contamination_Infantry">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>75.0</Heal_Range>
+				<Heal_Amount>-10.0</Heal_Amount> <!-- Negative damage means inflict pain on others -->
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Applicable_Unit_Categories> Infantry | InfantryHero </Applicable_Unit_Categories>
+			</Force_Healing_Ability>
+
+			<Force_Healing_Ability Name="Plasma_Grenade_Contamination_Vehicles">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>75.0</Heal_Range>
+				<Heal_Amount>-5.0</Heal_Amount> <!-- Negative damage means inflict pain on others -->
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Applicable_Unit_Categories> Vehicle | VehicleHero </Applicable_Unit_Categories>
+			</Force_Healing_Ability>
+
+			<Force_Healing_Ability Name="Plasma_Grenade_Contamination_Structures">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>75.0</Heal_Range>
+				<Heal_Amount>-20.0</Heal_Amount> <!-- Negative damage means inflict pain on others -->
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Applicable_Unit_Categories> Structure </Applicable_Unit_Categories>
+			</Force_Healing_Ability>
+		</Abilities>
+	</MiscObject>
+
+	<MiscObject Name="Space_Special_Weapon_Source_Marker">
+		<Text_ID />
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior> DUMMY_SPECIAL_WEAPON_SOURCE </Behavior>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</MiscObject>
+
+	<MiscObject Name="Trigit_Fighter_Decoy">
+		<Space_Model_Name>w_landmine.alo</Space_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Behavior>SELECTABLE </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, LURE, SELF_DESTRUCT, DAMAGE_TRACKING, HIDE_WHEN_FOGGED</SpaceBehavior>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Is_Decoration>No</Is_Decoration>
+		<Remove_Upon_Death>Yes</Remove_Upon_Death>
+		<Death_Explosions> Tiny_Explosion_Space </Death_Explosions>
+		<Tactical_Health>2000</Tactical_Health>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		<Mouse_Collide_Override_Sphere_Radius>5</Mouse_Collide_Override_Sphere_Radius>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CategoryMask> Corvette </CategoryMask>
+		<Text_ID></Text_ID>
+		<Encyclopedia_Text></Encyclopedia_Text>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+		<Avoidance_Disabled>Yes</Avoidance_Disabled>
+		<Not_Really_Selectable>True</Not_Really_Selectable>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>LURE</Type>
+				<Effective_Radius>1000</Effective_Radius>
+				<Target_Types>
+					<!-- Too many entires: Expr: db_value_text.size() >= sizeof( strtok_string_buffer )	-->
+				</Target_Types>
+
+				<Active_By_Default>Yes</Active_By_Default>
+				<Expiration_Seconds>16</Expiration_Seconds>
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>40</Max_Number_Of_Pulses>
+				<Particle_Effect>Lure_Ability_Particle</Particle_Effect>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,0.0f</Mod_Multiplier>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>16</Expiration_Seconds>
+				<Active_By_Default>Yes</Active_By_Default>
+				<Spawned_Object_Type> Tiny_Explosion_Space </Spawned_Object_Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</MiscObject>
+
+	<MiscObject Name="Sithspawn_Dummy">
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Scale_Factor>0.01</Scale_Factor>
+		<Behavior> </Behavior>
+		<LandBehavior>ABILITY_COUNTDOWN, SELF_DESTRUCT </LandBehavior>
+
+		<Affiliation>Hostile</Affiliation>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Is_Decoration>No</Is_Decoration>
+		<Remove_Upon_Death>Yes</Remove_Upon_Death>
+		<Death_Explosions />
+		<Tactical_Health>1</Tactical_Health>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>0.0</Mass>
+		<Mouse_Collide_Override_Sphere_Radius>0</Mouse_Collide_Override_Sphere_Radius>
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		<CategoryMask> Infantry </CategoryMask>
+		<Avoidance_Disabled>Yes</Avoidance_Disabled>
+		<Not_Really_Selectable>True</Not_Really_Selectable>
+
+		<!--<Death_Projectiles>Proj_Buff_Dummy_1</Death_Projectiles> -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HARMONIC_BOMB</Type>
+				<!--<Spawned_Object_Type>Proj_Buff_Dummy_2</Spawned_Object_Type> -->
+				<Bomb_Countdown_Seconds></Bomb_Countdown_Seconds>  <!-- AI 8.12 -->
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_Boba_Fett</SFXEvent_GUI_Unit_Ability_Activated>
+				<Active_By_Default>Yes</Active_By_Default>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>0.02</Expiration_Seconds>
+				<Active_By_Default>Yes</Active_By_Default>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Destruction_Survivors>
+			Chrysalide_Hostile, 1
+		</Destruction_Survivors>
+
+		<Minimum_Destruction_Survivor_Count>1</Minimum_Destruction_Survivor_Count>
+		<Maximum_Destruction_Survivor_Count>1</Maximum_Destruction_Survivor_Count>
+	</MiscObject>
+
+	<MiscObject Name="Buff_Dummy_Misc_Object">
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Scale_Factor>0.01</Scale_Factor>
+		<Behavior> </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SELF_DESTRUCT, SPAWN_SQUADRON</SpaceBehavior>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+
+		<HardPoints>
+			HP_CR90_Hangar
+		</HardPoints>
+
+		<Affiliation>Hostile</Affiliation>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Is_Decoration>No</Is_Decoration>
+		<Remove_Upon_Death>Yes</Remove_Upon_Death>
+		<Death_Explosions />
+		<Tactical_Health>1</Tactical_Health>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>0.0</Mass>
+		<Mouse_Collide_Override_Sphere_Radius>0</Mouse_Collide_Override_Sphere_Radius>
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		<CategoryMask> Fighter </CategoryMask>
+		<Avoidance_Disabled>Yes</Avoidance_Disabled>
+		<Not_Really_Selectable>True</Not_Really_Selectable>
+		<Victory_Relevant>No</Victory_Relevant>
+
+		<!--<Death_Projectiles>Proj_Buff_Dummy_1</Death_Projectiles> -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HARMONIC_BOMB</Type>
+				<!--<Spawned_Object_Type>Proj_Buff_Dummy_2</Spawned_Object_Type> -->
+				<Bomb_Countdown_Seconds></Bomb_Countdown_Seconds>  <!-- AI 8.12 -->
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_Boba_Fett</SFXEvent_GUI_Unit_Ability_Activated>
+				<Active_By_Default>Yes</Active_By_Default>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>0.01</Expiration_Seconds>
+				<Active_By_Default>Yes</Active_By_Default>
+				<!-- <Spawned_Object_Type>Proj_Buff_Dummy_3</Spawned_Object_Type> -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</MiscObject>
+
+	<MiscObject Name="Fighter_Shield_Local_Buff_Misc_Object_1">
+		<Variant_Of_Existing_Type>Buff_Dummy_Misc_Object</Variant_Of_Existing_Type>
+
+		<!--<Death_Projectiles>Proj_Fighter_Shield_Local_Buff_Mod_1</Death_Projectiles> -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HARMONIC_BOMB</Type>
+				<!--<Spawned_Object_Type>Proj_Fighter_Shield_Local_Buff_Mod_2</Spawned_Object_Type> -->
+				<Bomb_Countdown_Seconds></Bomb_Countdown_Seconds>  <!-- AI 8.12 -->
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_Boba_Fett</SFXEvent_GUI_Unit_Ability_Activated>
+				<Active_By_Default>Yes</Active_By_Default>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>0.02</Expiration_Seconds>
+				<Active_By_Default>Yes</Active_By_Default>
+				<!--<Spawned_Object_Type>Proj_Fighter_Shield_Local_Buff_Mod_3</Spawned_Object_Type>-->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	 </MiscObject>
+
+<!--cheat dummies-->
+	<MiscObject Name="Cheat_Dummy_Vision">
+		<Variant_Of_Existing_Type>Template_Influence_Dummy</Variant_Of_Existing_Type>
+
+		<Galactic_Influence_Range>250000000.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>250000000.0</Hyperspace_Fleet_Reveal_Range>
+
+		<Abilities SubObjectList="Yes">
+			<System_Spy_Ability Name="Cheat_Vision">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>Yes</See_Credit_Income>
+				<See_Credit_Income_Breakdown>Yes</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Most_Powerful_Ship>No</See_Most_Powerful_Ship>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>Yes</See_Political_Control_Breakdown>
+				<See_Current_Production>Yes</See_Current_Production>
+				<See_Minor_Stealth_Heroes>Yes</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
+				<See_Force_Sensitive_Heroes>Yes</See_Force_Sensitive_Heroes>
+				<See_Super_Weapons>Yes</See_Super_Weapons>
+			</System_Spy_Ability>
+		</Abilities>
+	</MiscObject>
+</MiscObjects>

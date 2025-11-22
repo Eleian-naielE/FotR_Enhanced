@@ -1,9 +1,10 @@
 return {
-	Ship_Crew_Requirement = 5, 
+	Ship_Crew_Requirement = 45, 
 	Fighters = {
-		["UMBARAN_FIGTHER_SQUADRON"] = {
-			DEFAULT = {Initial = 1, Reserve = 1}
+		["UMBARAN_FIGHTER_SQUADRON"] = {
+			DEFAULT = {Initial = 1, Reserve = 2}
 		}		
 	}, 
-	Scripts = {"multilayer"}
+	Scripts = {"fighter-spawn", "multilayer"},
+	Flags = {HANGAR = true}
 }

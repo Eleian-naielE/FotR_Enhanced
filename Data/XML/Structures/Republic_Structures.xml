@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ASCII'?>
 <Republic_Structures>
 
-	<SpecialStructure Name="Remnant_Capital">
+	<SpecialStructure Name="Republic_Capital">
 
 		<Variant_Of_Existing_Type>Template_Faction_Capital</Variant_Of_Existing_Type>
 
@@ -10,7 +10,7 @@
 		<Encyclopedia_Text>
 		TEXT_COMPANY_CAPITAL_DESCRIPTION
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_CAPITAL_GAR_HEALTH
+		TEXT_TOOLTIP_CAPITAL_HEALTH
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
 		TEXT_TOOLTIP_CAPITAL_GAR_1
 		TEXT_TOOLTIP_CAPITAL_GAR_2 
@@ -33,8 +33,8 @@
 		TEXT_TOOLTIP_BONUS_BLOCK_BR
 		TEXT_TOOLTIP_BONUS_BLOCK_VP
 		TEXT_TOOLTIP_INCOME_CAPITAL
-		TEXT_TOOLTIP_INCOME_CAPITAL_SHIPCREWS
-		TEXT_TOOLTIP_INFLUENCE_CAPITAL
+		TEXT_TOOLTIP_INCOME_CREWS_CAPITAL
+		TEXT_TOOLTIP_BONUS_INFLUENCE_PLUS_3
 		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
 		TEXT_TOOLTIP_BUILDLIMIT_CAPITAL
 		</Encyclopedia_Text>
@@ -45,15 +45,18 @@
 
 		<Affiliation>Empire</Affiliation>
 
+		<!-- FotR_Enhanced -->
+		<Starting_Spawned_Units_Tech_0>Red_Guard, 2</Starting_Spawned_Units_Tech_0>
+
 		<!-- Era 1 -->
-		<Starting_Spawned_Units_Tech_0>Republic_Trooper_Team_Deployed, 5</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Republic_Trooper_Team_Deployed, 15</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Republic_Trooper_Squad, 5</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Republic_Trooper_Squad, 15</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Special_Tactics_Trooper_Heavy_Team_Deployed, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Special_Tactics_Trooper_Heavy_Team_Deployed, 6</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Special_Tactics_Trooper_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Special_Tactics_Trooper_Heavy_Squad, 6</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Special_Tactics_Trooper_Weapons_Team_Deployed, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Special_Tactics_Trooper_Weapons_Team_Deployed, 3</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Special_Tactics_Trooper_Weapons_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Special_Tactics_Trooper_Weapons_Squad, 3</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>SD_6_Hulk_Infantry_Droid, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>SD_6_Hulk_Infantry_Droid, 12</Reserve_Spawned_Units_Tech_0>
@@ -63,7 +66,7 @@
 
 		<Starting_Spawned_Units_Tech_0>Republic_VAAT, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_VAAT, 2</Reserve_Spawned_Units_Tech_0>
-		
+
 		<Starting_Spawned_Units_Tech_0>A4_Juggernaut, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>A4_Juggernaut, 2</Reserve_Spawned_Units_Tech_0>
 
@@ -74,21 +77,20 @@
 		<Reserve_Spawned_Units_Tech_0>Republic_ULAV, 2</Reserve_Spawned_Units_Tech_0>
 
 		<!-- FotR_Enhanced -->
-		<Starting_Spawned_Units_Tech_0>Red_Guard, 2</Starting_Spawned_Units_Tech_0>
-
+		<Starting_Spawned_Units_Tech_2>Red_Guard, 2</Starting_Spawned_Units_Tech_2>
 
 		<!-- Era 2-3 -->
-		<Starting_Spawned_Units_Tech_2>Shock_Clonetrooper_Phase_One_Team, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Shock_Clonetrooper_Phase_One_Team, 6</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Shock_Clonetrooper_Phase_One_Squad, 2</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Shock_Clonetrooper_Phase_One_Squad, 6</Reserve_Spawned_Units_Tech_2>
 
-		<Starting_Spawned_Units_Tech_2>Clone_Commando_Team_Deployed, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Clone_Commando_Team_Deployed, 6</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Clone_Commando_Squad, 2</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Clone_Commando_Squad, 6</Reserve_Spawned_Units_Tech_2>
 
-		<Starting_Spawned_Units_Tech_2>Assault_Senate_Commando_Team_Deployed, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Assault_Senate_Commando_Team_Deployed, 4</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Senate_Commando_Assault_Squad, 2</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Senate_Commando_Assault_Squad, 4</Reserve_Spawned_Units_Tech_2>
 
-		<Starting_Spawned_Units_Tech_2>Heavy_Senate_Commando_Team_Deployed, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Heavy_Senate_Commando_Team_Deployed, 4</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Senate_Commando_Heavy_Squad, 2</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Senate_Commando_Heavy_Squad, 4</Reserve_Spawned_Units_Tech_2>
 
 		<Starting_Spawned_Units_Tech_2>Republic_AT_PT_Walker, 6</Starting_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_2>Republic_AT_PT_Walker, 12</Reserve_Spawned_Units_Tech_2>
@@ -96,27 +98,28 @@
 		<Starting_Spawned_Units_Tech_2>Republic_AT_TE_Walker, 1</Starting_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_2>Republic_AT_TE_Walker, 2</Reserve_Spawned_Units_Tech_2>
 
-		<Starting_Spawned_Units_Tech_2>Republic_UT_AT_Speeder, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Republic_UT_AT_Speeder, 2</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>UT_AT_Speeder, 1</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>UT_AT_Speeder, 2</Reserve_Spawned_Units_Tech_2>
 		<!-- Placeholder for red LAAT -->
 		<Starting_Spawned_Units_Tech_2>Republic_LAAT, 1</Starting_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_2>Republic_LAAT, 2</Reserve_Spawned_Units_Tech_2>
 
 		<!-- FotR_Enhanced -->
-		<Starting_Spawned_Units_Tech_2>Red_Guard, 2</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_4>Red_Guard, 2</Starting_Spawned_Units_Tech_4>
+
 
 		<!-- Era 4-5 -->
-		<Starting_Spawned_Units_Tech_4>Shock_Clonetrooper_Phase_Two_Team, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Shock_Clonetrooper_Phase_Two_Team, 6</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Shock_Clonetrooper_Phase_Two_Squad, 2</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Shock_Clonetrooper_Phase_Two_Squad, 6</Reserve_Spawned_Units_Tech_4>
 
-		<Starting_Spawned_Units_Tech_4>Clone_Commando_Team_Deployed, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Clone_Commando_Team_Deployed, 6</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Clone_Commando_Squad, 2</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Clone_Commando_Squad, 6</Reserve_Spawned_Units_Tech_4>
 
-		<Starting_Spawned_Units_Tech_4>Assault_Senate_Commando_Team_Deployed, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Assault_Senate_Commando_Team_Deployed, 4</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Senate_Commando_Assault_Squad, 2</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Senate_Commando_Assault_Squad, 4</Reserve_Spawned_Units_Tech_4>
 
-		<Starting_Spawned_Units_Tech_4>Heavy_Senate_Commando_Team_Deployed, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Heavy_Senate_Commando_Team_Deployed, 4</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Senate_Commando_Heavy_Squad, 2</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Senate_Commando_Heavy_Squad, 4</Reserve_Spawned_Units_Tech_4>
 
 		<Starting_Spawned_Units_Tech_4>Republic_AT_PT_Walker, 6</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Republic_AT_PT_Walker, 12</Reserve_Spawned_Units_Tech_4>
@@ -124,16 +127,13 @@
 		<Starting_Spawned_Units_Tech_4>Republic_AT_TE_Walker, 1</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Republic_AT_TE_Walker, 2</Reserve_Spawned_Units_Tech_4>
 
-		<Starting_Spawned_Units_Tech_4>Republic_UT_AT_Speeder, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Republic_UT_AT_Speeder, 2</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>UT_AT_Speeder, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>UT_AT_Speeder, 2</Reserve_Spawned_Units_Tech_4>
 		<!-- Placeholder for red LAAT -->
 		<Starting_Spawned_Units_Tech_4>Republic_LAAT, 1</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Republic_LAAT, 2</Reserve_Spawned_Units_Tech_4>
 
-		<!-- FotR_Enhanced -->
-		<Starting_Spawned_Units_Tech_4>Red_Guard, 2</Starting_Spawned_Units_Tech_4>
-
-		<Death_CLone>Damage_Normal, W_CORSENATE_Death_Clone</Death_CLone>
+		<Death_Clone>Damage_Normal, W_CORSENATE_Death_Clone</Death_Clone>
 
 	</SpecialStructure>
 
@@ -146,7 +146,7 @@
 		<Encyclopedia_Text>
 		TEXT_COMPANY_CAPITAL_DESCRIPTION
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_CAPITAL_GAR_HEALTH
+		TEXT_TOOLTIP_CAPITAL_HEALTH
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
 		TEXT_TOOLTIP_CAPITAL_GAR_1
 		TEXT_TOOLTIP_CAPITAL_GAR_2 
@@ -166,28 +166,29 @@
 		TEXT_TOOLTIP_BONUS_BLOCK_BR
 		TEXT_TOOLTIP_BONUS_BLOCK_VP
 		TEXT_TOOLTIP_INCOME_CAPITAL
-		TEXT_TOOLTIP_INCOME_CAPITAL_SHIPCREWS
-		TEXT_TOOLTIP_INFLUENCE_CAPITAL
+		TEXT_TOOLTIP_INCOME_CREWS_CAPITAL
+		TEXT_TOOLTIP_BONUS_INFLUENCE_PLUS_3
 		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
 		TEXT_TOOLTIP_BUILDLIMIT_CAPITAL
 		</Encyclopedia_Text>
 
 		<Icon_Name>I_BUTTON_GAR_CAPITAL.TGA</Icon_Name>
 
-		<Land_Model_Name>W_Corsenate.alo</Land_Model_Name>
+		<Land_Model_Name>Republic_Government_Office.alo</Land_Model_Name>
+		<Scale_Factor> 1.0 </Scale_Factor>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Sector_Forces</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<!-- Era 1 -->
-		<Starting_Spawned_Units_Tech_0>Republic_Trooper_Team_Deployed, 5</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Republic_Trooper_Team_Deployed, 15</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Republic_Trooper_Squad, 5</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Republic_Trooper_Squad, 15</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Special_Tactics_Trooper_Heavy_Team_Deployed, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Special_Tactics_Trooper_Heavy_Team_Deployed, 6</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Special_Tactics_Trooper_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Special_Tactics_Trooper_Heavy_Squad, 6</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Special_Tactics_Trooper_Weapons_Team_Deployed, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Special_Tactics_Trooper_Weapons_Team_Deployed, 3</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Special_Tactics_Trooper_Weapons_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Special_Tactics_Trooper_Weapons_Squad, 3</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>SD_6_Hulk_Infantry_Droid, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>SD_6_Hulk_Infantry_Droid, 12</Reserve_Spawned_Units_Tech_0>
@@ -197,7 +198,7 @@
 
 		<Starting_Spawned_Units_Tech_0>Republic_VAAT, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_VAAT, 2</Reserve_Spawned_Units_Tech_0>
-		
+
 		<Starting_Spawned_Units_Tech_0>A4_Juggernaut, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>A4_Juggernaut, 2</Reserve_Spawned_Units_Tech_0>
 
@@ -208,11 +209,11 @@
 		<Reserve_Spawned_Units_Tech_0>Republic_ULAV, 2</Reserve_Spawned_Units_Tech_0>
 
 		<!-- Era 2-3 -->
-		<Starting_Spawned_Units_Tech_2>Shock_Clonetrooper_Phase_One_Team, 5</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Shock_Clonetrooper_Phase_One_Team, 15</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Shock_Clonetrooper_Phase_One_Squad, 5</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Shock_Clonetrooper_Phase_One_Squad, 15</Reserve_Spawned_Units_Tech_2>
 
-		<Starting_Spawned_Units_Tech_2>Clone_Commando_Team_Deployed, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Clone_Commando_Team_Deployed, 6</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Clone_Commando_Squad, 2</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Clone_Commando_Squad, 6</Reserve_Spawned_Units_Tech_2>
 
 		<Starting_Spawned_Units_Tech_2>Republic_AT_PT_Walker, 6</Starting_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_2>Republic_AT_PT_Walker, 12</Reserve_Spawned_Units_Tech_2>
@@ -220,18 +221,18 @@
 		<Starting_Spawned_Units_Tech_2>Republic_AT_TE_Walker, 1</Starting_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_2>Republic_AT_TE_Walker, 2</Reserve_Spawned_Units_Tech_2>
 
-		<Starting_Spawned_Units_Tech_2>Republic_UT_AT_Speeder, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Republic_UT_AT_Speeder, 2</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>UT_AT_Speeder, 1</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>UT_AT_Speeder, 2</Reserve_Spawned_Units_Tech_2>
 		<!-- Placeholder for red LAAT -->
 		<Starting_Spawned_Units_Tech_2>Republic_LAAT, 1</Starting_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_2>Republic_LAAT, 2</Reserve_Spawned_Units_Tech_2>
 
 		<!-- Era 4-5 -->
-		<Starting_Spawned_Units_Tech_4>Shock_Clonetrooper_Phase_Two_Team, 5</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Shock_Clonetrooper_Phase_Two_Team, 15</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Shock_Clonetrooper_Phase_Two_Squad, 5</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Shock_Clonetrooper_Phase_Two_Squad, 15</Reserve_Spawned_Units_Tech_4>
 
-		<Starting_Spawned_Units_Tech_4>Clone_Commando_Team_Deployed, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Clone_Commando_Team_Deployed, 6</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Clone_Commando_Squad, 2</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Clone_Commando_Squad, 6</Reserve_Spawned_Units_Tech_4>
 
 		<Starting_Spawned_Units_Tech_4>Republic_AT_PT_Walker, 6</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Republic_AT_PT_Walker, 12</Reserve_Spawned_Units_Tech_4>
@@ -239,17 +240,17 @@
 		<Starting_Spawned_Units_Tech_4>Republic_AT_TE_Walker, 1</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Republic_AT_TE_Walker, 2</Reserve_Spawned_Units_Tech_4>
 
-		<Starting_Spawned_Units_Tech_4>Republic_UT_AT_Speeder, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Republic_UT_AT_Speeder, 2</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>UT_AT_Speeder, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>UT_AT_Speeder, 2</Reserve_Spawned_Units_Tech_4>
 		<!-- Placeholder for red LAAT -->
 		<Starting_Spawned_Units_Tech_4>Republic_LAAT, 1</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Republic_LAAT, 2</Reserve_Spawned_Units_Tech_4>
 
-		<Death_CLone>Damage_Normal, W_CORSENATE_Death_Clone</Death_CLone>
+		<Death_Clone>Damage_Normal, Republic_Sector_Capital_Death_Clone</Death_Clone>
 
 	</SpecialStructure>
 
-	<SpecialStructure Name="Empire_MoffPalace">
+	<SpecialStructure Name="Empire_Office">
 
 		<Variant_Of_Existing_Type>Template_Planetary_Government</Variant_Of_Existing_Type>
 
@@ -258,7 +259,7 @@
 		<Encyclopedia_Text> 
 		TEXT_COMPANY_MOFFPALACE_DESCRIPTION 
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_OFFICE_GAR_HEALTH 
+		TEXT_TOOLTIP_OFFICE_HEALTH 
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
 		TEXT_TOOLTIP_OFFICE_GAR_1
 		TEXT_TOOLTIP_OFFICE_GAR_2
@@ -272,7 +273,7 @@
 		TEXT_TOOLTIP_OFFICE_GAR_10
 		TEXT_TOOLTIP_OFFICE_GAR_11
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_INFLUENCE_OFFICE
+		TEXT_TOOLTIP_BONUS_INFLUENCE_PLUS_1
 		</Encyclopedia_Text>
 
 		<Icon_Name>I_BUTTON_GAR.TGA</Icon_Name>
@@ -280,57 +281,57 @@
 		<Land_Model_Name>Republic_Government_Office.alo</Land_Model_Name>
 		<Scale_Factor> 1.0 </Scale_Factor>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Sector_Forces</Affiliation>
 
-		<Tactical_Additional_Structure_Type>Generic_Power_Generator</Tactical_Additional_Structure_Type>
+		<Tactical_Additional_Structure_Type>Power_Generator</Tactical_Additional_Structure_Type>
 
 		<!-- Era 1 -->
-		<Starting_Spawned_Units_Tech_0>Republic_Trooper_Team_Deployed, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Republic_Trooper_Team_Deployed, 9</Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_0>Republic_Navy_Trooper_Team_Deployed, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Republic_Navy_Trooper_Team_Deployed, 3</Reserve_Spawned_Units_Tech_0>
-		
+		<Starting_Spawned_Units_Tech_0>Republic_Trooper_Squad, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Republic_Trooper_Squad, 9</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Republic_Navy_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Republic_Navy_Trooper_Squad, 3</Reserve_Spawned_Units_Tech_0>
+
 		<Starting_Spawned_Units_Tech_0>Republic_Overracer_Speeder_Bike, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_Overracer_Speeder_Bike, 4</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>Republic_AT_PT_Walker, 3</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_AT_PT_Walker, 6</Reserve_Spawned_Units_Tech_0>
-		
+
 		<Starting_Spawned_Units_Tech_0>Republic_Gian_Speeder, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_Gian_Speeder, 4</Reserve_Spawned_Units_Tech_0>
 
 		<!-- Era 2-3 -->
-		<Starting_Spawned_Units_Tech_2>Shock_Clonetrooper_Phase_One_Team, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Shock_Clonetrooper_Phase_One_Team, 3</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Shock_Clonetrooper_Phase_One_Squad, 1</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Shock_Clonetrooper_Phase_One_Squad, 3</Reserve_Spawned_Units_Tech_2>
 
-		<Starting_Spawned_Units_Tech_2>Republic_Trooper_Team_Deployed, 3</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Republic_Trooper_Team_Deployed, 9</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Republic_Trooper_Squad, 3</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Republic_Trooper_Squad, 9</Reserve_Spawned_Units_Tech_2>
 
-		<Starting_Spawned_Units_Tech_2>Republic_74Z_Bike, 3</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Republic_74Z_Bike, 6</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Republic_74Z_Speeder_Bike, 3</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Republic_74Z_Speeder_Bike, 6</Reserve_Spawned_Units_Tech_2>
 
-		<Starting_Spawned_Units_Tech_2>Republic_AT_RT_Walker_Skirmish, 3</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Republic_AT_RT_Walker_Skirmish, 6</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Republic_AT_RT_Walker, 3</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Republic_AT_RT_Walker, 6</Reserve_Spawned_Units_Tech_2>
 
-		<Starting_Spawned_Units_Tech_2>Republic_TX130, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Republic_TX130, 2</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Republic_TX130S, 1</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Republic_TX130S, 2</Reserve_Spawned_Units_Tech_2>
 
 		<!-- Era 4-5 -->
-		<Starting_Spawned_Units_Tech_4>Shock_Clonetrooper_Phase_Two_Team, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Shock_Clonetrooper_Phase_Two_Team, 3</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Shock_Clonetrooper_Phase_Two_Squad, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Shock_Clonetrooper_Phase_Two_Squad, 3</Reserve_Spawned_Units_Tech_4>
 
-		<Starting_Spawned_Units_Tech_4>Republic_Trooper_Team_Deployed, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Republic_Trooper_Team_Deployed, 6</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Republic_Trooper_Squad, 2</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Republic_Trooper_Squad, 6</Reserve_Spawned_Units_Tech_4>
 
 		<Starting_Spawned_Units_Tech_4>Republic_BARC_Speeder, 3</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Republic_BARC_Speeder, 6</Reserve_Spawned_Units_Tech_4>
 
-		<Starting_Spawned_Units_Tech_4>Republic_AT_RT_Walker_Skirmish, 3</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Republic_AT_RT_Walker_Skirmish, 6</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Republic_AT_RT_Walker, 3</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Republic_AT_RT_Walker, 6</Reserve_Spawned_Units_Tech_4>
 
-		<Starting_Spawned_Units_Tech_4>Republic_TX130, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Republic_TX130, 2</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Republic_TX130S, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Republic_TX130S, 2</Reserve_Spawned_Units_Tech_4>
 
 	</SpecialStructure>
 
@@ -341,7 +342,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_BARRACKS
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-		TEXT_TOOLTIP_BARRACKS_GAR_HEALTH 
+		TEXT_TOOLTIP_BARRACKS_HEALTH 
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
 		TEXT_TOOLTIP_BARRACKS_GAR_1
 		TEXT_TOOLTIP_BARRACKS_GAR_2 
@@ -360,7 +361,7 @@
 
 		<Affiliation>Empire, Sector_Forces</Affiliation>
 
-		<Required_Special_Structures>Empire_MoffPalace</Required_Special_Structures>
+		<Required_Special_Structures>Empire_Office</Required_Special_Structures>
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
@@ -368,46 +369,46 @@
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Republic_Trooper_Team,
-				Republic_Navy_Trooper_Squad,
+				Republic_Trooper_Company,
+				Republic_Navy_Trooper_Company,
 				Republic_SD_6_Droid_Company,
-				Republic_74Z_Bike_Company_Skirmish,
-				<!--Republic_Jedi_Squad,-->
-				Clonetrooper_Phase_One_Team_Skirmish,
-				ARC_Phase_One_Team,
-				Clone_Commando_Team,
-				ARC_Phase_Two_Team,
-				Senate_Commando_Platoon,
-				Republic_BARC_Company_Skirmish,
-				Clonetrooper_Phase_Two_Team_Skirmish,
-				Clone_Galactic_Marine_Platoon_Skirmish,	
-				Antarian_Ranger_Squad,
+				Republic_74Z_Bike_Company,
+				<!--Republic_Jedi_Knight_Company,-->
+				Clonetrooper_Phase_One_Company,
+				ARC_Phase_One_Company,
+				Clone_Commando_Company,
+				ARC_Phase_Two_Company,
+				Senate_Commando_Company,
+				Republic_BARC_Company,
+				Clonetrooper_Phase_Two_Company,
+				Clone_Galactic_Marine_Company,
+				Antarian_Ranger_Company,
 
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<!-- Era 1 -->
-		<Starting_Spawned_Units_Tech_0>Republic_Trooper_Team_Deployed, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Republic_Trooper_Team_Deployed, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Republic_Trooper_Squad, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Republic_Trooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>SD_6_Hulk_Infantry_Droid, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>SD_6_Hulk_Infantry_Droid, 4</Reserve_Spawned_Units_Tech_0>
 
 		<!-- Era 2-3 -->
-		<Starting_Spawned_Units_Tech_2>Clonetrooper_Phase_One_Heavy_Team_Deployed, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Clonetrooper_Phase_One_Heavy_Team_Deployed, -1</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Clonetrooper_Phase_One_Heavy_Squad, 2</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Clonetrooper_Phase_One_Heavy_Squad, -1</Reserve_Spawned_Units_Tech_2>
 
-		<Starting_Spawned_Units_Tech_2>Clonetrooper_Phase_One_Assault_Team_Deployed, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Clonetrooper_Phase_One_Assault_Team_Deployed, -1</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Clonetrooper_Phase_One_Assault_Squad, 1</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Clonetrooper_Phase_One_Assault_Squad, -1</Reserve_Spawned_Units_Tech_2>
 
 		<Starting_Spawned_Units_Tech_2>SD_6_Hulk_Infantry_Droid, 2</Starting_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_2>SD_6_Hulk_Infantry_Droid, 4</Reserve_Spawned_Units_Tech_2>
 
 		<!-- Era 4-5 -->
-		<Starting_Spawned_Units_Tech_4>Clonetrooper_Phase_Two_Heavy_Team_Deployed, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Clonetrooper_Phase_Two_Heavy_Team_Deployed, -1</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Clonetrooper_Phase_Two_Heavy_Squad, 2</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Clonetrooper_Phase_Two_Heavy_Squad, -1</Reserve_Spawned_Units_Tech_4>
 
-		<Starting_Spawned_Units_Tech_4>Clonetrooper_Phase_Two_Assault_Team_Deployed, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Clonetrooper_Phase_Two_Assault_Team_Deployed, -1</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Clonetrooper_Phase_Two_Assault_Squad, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Clonetrooper_Phase_Two_Assault_Squad, -1</Reserve_Spawned_Units_Tech_4>
 
 		<Starting_Spawned_Units_Tech_4>SD_6_Hulk_Infantry_Droid, 2</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>SD_6_Hulk_Infantry_Droid, 4</Reserve_Spawned_Units_Tech_4>
@@ -421,7 +422,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_BARRACKS
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-		TEXT_TOOLTIP_BARRACKS_REP_JEDI_HEALTH 
+		TEXT_TOOLTIP_BARRACKS_HEALTH 
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
 		TEXT_TOOLTIP_BARRACKS_REP_JEDI_1
 		TEXT_TOOLTIP_BARRACKS_REP_JEDI_2 
@@ -437,7 +438,7 @@
 
 		<Affiliation>Empire, Sector_Forces</Affiliation>
 
-		<Required_Special_Structures>Empire_MoffPalace</Required_Special_Structures>
+		<Required_Special_Structures>Empire_Office</Required_Special_Structures>
 		<Build_Initially_Locked>yes</Build_Initially_Locked>
 
 		<Tactical_Buildable_Objects_Campaign>
@@ -446,29 +447,29 @@
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Republic_Trooper_Team,
-				Republic_Navy_Trooper_Squad,
+				Republic_Trooper_Company,
+				Republic_Navy_Trooper_Company,
 				Republic_SD_6_Droid_Company,
-				Republic_74Z_Bike_Company_Skirmish,
-				<!--Republic_Jedi_Squad,-->
-				Clonetrooper_Phase_One_Team_Skirmish,
-				ARC_Phase_One_Team,
-				Clone_Commando_Team,
-				ARC_Phase_Two_Team,
-				Senate_Commando_Platoon,
-				Republic_BARC_Company_Skirmish,
-				Clonetrooper_Phase_Two_Team_Skirmish,
-				Clone_Galactic_Marine_Platoon_Skirmish,
+				Republic_74Z_Bike_Company,
+				<!--Republic_Jedi_Knight_Company,-->
+				Clonetrooper_Phase_One_Company,
+				ARC_Phase_One_Company,
+				Clone_Commando_Company,
+				ARC_Phase_Two_Company,
+				Senate_Commando_Company,
+				Republic_BARC_Company,
+				Clonetrooper_Phase_Two_Company,
+				Clone_Galactic_Marine_Company,
 		</Tactical_Buildable_Objects_Multiplayer>
 
-		<Starting_Spawned_Units_Tech_0>Republic_Trooper_Team_Deployed, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Republic_Trooper_Team_Deployed, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Republic_Trooper_Squad, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Republic_Trooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>SD_6_Hulk_Infantry_Droid, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>SD_6_Hulk_Infantry_Droid, 2</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Republic_Jedi_Knight, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Republic_Jedi_Knight, 2</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Jedi_Guardian, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Jedi_Guardian, 2</Reserve_Spawned_Units_Tech_0>
 
 	</SpecialStructure>
 
@@ -479,19 +480,24 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_BARRACKS
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-		TEXT_TOOLTIP_BARRACKS_PDF_HEALTH 
+		TEXT_TOOLTIP_BARRACKS_HEALTH 
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
 		TEXT_TOOLTIP_BARRACKS_PDF_1
 		TEXT_TOOLTIP_BARRACKS_PDF_2
 		</Encyclopedia_Text>
+		
+		<Icon_Name>i_button_rep_barracks.tga</Icon_Name>
+
+		<Land_Model_Name>Republic_Barracks.alo</Land_Model_Name>
+		<Scale_Factor> 1.0 </Scale_Factor>
 
 		<Affiliation>Sector_Forces</Affiliation>
 
 		<Land_Model_Name>Republic_Barracks.alo</Land_Model_Name>
 		<Scale_Factor> 1.0 </Scale_Factor>
 
-		<Starting_Spawned_Units_Tech_0>Republic_Trooper_Team_Deployed, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Republic_Trooper_Team_Deployed, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Republic_Trooper_Squad, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Republic_Trooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>SD_6_Hulk_Infantry_Droid, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>SD_6_Hulk_Infantry_Droid, 4</Reserve_Spawned_Units_Tech_0>
@@ -504,14 +510,14 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_L_FACTORY 
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-		TEXT_TOOLTIP_L_FACTORY_GAR_HEALTH 
+		TEXT_TOOLTIP_FACTORY_HEALTH 
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
 		TEXT_TOOLTIP_L_FACTORY_GAR_1
 		TEXT_TOOLTIP_L_FACTORY_GAR_2
 		TEXT_TOOLTIP_L_FACTORY_GAR_3
 		TEXT_TOOLTIP_L_FACTORY_GAR_4
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_UPKEEP_FACTORY_L
+		TEXT_TOOLTIP_UPKEEP_BONUS_10
 		</Encyclopedia_Text>
 		<MP_Encyclopedia_Text> TEXT_TOOLTIP_L_FACTORY </MP_Encyclopedia_Text>
 
@@ -524,7 +530,7 @@
 
 		<Affiliation>Empire</Affiliation>
 
-		<Required_Special_Structures>Empire_MoffPalace</Required_Special_Structures>
+		<Required_Special_Structures>Empire_Office</Required_Special_Structures>
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
@@ -532,14 +538,14 @@
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Republic_AT_RT_Company_Skirmish,
+				Republic_AT_RT_Company,
 				Republic_AT_PT_Company,
-				Republic_AT_XT_Company,
+				AT_XT_Company,
 				Republic_ULAV_Company,
-				Republic_TX130_Company,
-				Republic_ISP_Company_Skirmish,
-				Republic_Gaba18_Group,
-				Republic_Flashblind_Group,
+				Republic_TX130S_Company,
+				Republic_ISP_Company,
+				Republic_Gaba18_Company,
+				Republic_Flashblind_Company,
 
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -567,12 +573,12 @@
 		<Starting_Spawned_Units_Tech_2>Republic_AT_PT_Walker, 4</Starting_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_2>Republic_AT_PT_Walker, 8</Reserve_Spawned_Units_Tech_2>
 
-		<Starting_Spawned_Units_Tech_2>Republic_AT_XT_Walker, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Republic_AT_XT_Walker, 4</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>AT_XT_Walker, 2</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>AT_XT_Walker, 4</Reserve_Spawned_Units_Tech_2>
 
 		<!-- Era 3-4 -->
-		<Starting_Spawned_Units_Tech_3>Republic_AT_RT_Walker_Skirmish, 4</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>Republic_AT_RT_Walker_Skirmish, 8</Reserve_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Republic_AT_RT_Walker, 4</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>Republic_AT_RT_Walker, 8</Reserve_Spawned_Units_Tech_3>
 
 		<Starting_Spawned_Units_Tech_3>Republic_ULAV, 2</Starting_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>Republic_ULAV, 4</Reserve_Spawned_Units_Tech_3>
@@ -586,13 +592,18 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_L_FACTORY 
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-		TEXT_TOOLTIP_L_FACTORY_GAR_HEALTH 
+		TEXT_TOOLTIP_FACTORY_HEALTH 
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
 		TEXT_TOOLTIP_L_FACTORY_PDF_1
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_UPKEEP_FACTORY_L
+		TEXT_TOOLTIP_UPKEEP_BONUS_10
 		</Encyclopedia_Text>
 		<MP_Encyclopedia_Text> TEXT_TOOLTIP_L_FACTORY </MP_Encyclopedia_Text>
+		
+		<Icon_Name>i_button_rep_light_factory.tga</Icon_Name>
+
+		<Land_Model_Name>Republic_Light_Factory.alo</Land_Model_Name>
+		<Scale_Factor> 1.0 </Scale_Factor>
 
 		<Obstacle_Proxy_Type> E_Ground_Light_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
 
@@ -610,13 +621,12 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_H_FACTORY
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-		TEXT_TOOLTIP_H_FACTORY_GAR_HEALTH
+		TEXT_TOOLTIP_FACTORY_HEALTH
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
 		TEXT_TOOLTIP_H_FACTORY_GAR_1
 		TEXT_TOOLTIP_H_FACTORY_GAR_2
-		TEXT_TOOLTIP_H_FACTORY_GAR_3
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_UPKEEP_FACTORY_H
+		TEXT_TOOLTIP_UPKEEP_BONUS_20
 		</Encyclopedia_Text>
 		<MP_Encyclopedia_Text> TEXT_TOOLTIP_H_FACTORY </MP_Encyclopedia_Text>
 
@@ -629,7 +639,7 @@
 
 		<Affiliation>Empire</Affiliation>
 
-		<Required_Special_Structures>Empire_MoffPalace</Required_Special_Structures>
+		<Required_Special_Structures>Empire_Office</Required_Special_Structures>
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
@@ -639,18 +649,18 @@
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
 				Republic_UT_AA_Company,
-				Republic_LAAT_Group,
-				Republic_UT_AT_Speeder_Company,
+				Republic_LAAT_Company,
+				UT_AT_Speeder_Company,
 				Republic_AT_TE_Walker_Company,
-				Republic_AV7_Company,
+				AV7_Company,
 				Republic_A5_Juggernaut_Company,
 				Republic_AT_AP_Walker_Company,
-				Republic_AT_OT_Walker_Company,
-				Republic_HAET_Group,
+				AT_OT_Walker_Company,
+				HAET_Company,
 				Republic_A6_Juggernaut_Company,
-				Republic_RX200_Falchion_Company,
+				RX200_Falchion_Company,
 				<!--      
-				
+
 				-->
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -669,15 +679,12 @@
 		</Tactical_Buildable_Objects_Multiplayer>-->
 
 		<!-- Era 1 -->
-		<Starting_Spawned_Units_Tech_0>A4_Juggernaut, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>A4_Juggernaut, 2</Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_0>Republic_Gian_Speeder, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Republic_Gian_Speeder, 4</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Republic_Gian_Speeder, 6</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Republic_Gian_Speeder, 12</Reserve_Spawned_Units_Tech_0>
 
 		<!-- Era 2-4 -->
-		<Starting_Spawned_Units_Tech_2>Republic_TX130, 4</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Republic_TX130, 8</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Republic_TX130S, 4</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Republic_TX130S, 8</Reserve_Spawned_Units_Tech_2>
 
 	</SpecialStructure>
 
@@ -688,13 +695,13 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_A_FACTORY
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_A_FACTORY_GAR_HEALTH 
+		TEXT_TOOLTIP_FACTORY_HEALTH 
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
 		TEXT_TOOLTIP_A_FACTORY_GAR_1
 		TEXT_TOOLTIP_A_FACTORY_GAR_2
 		TEXT_TOOLTIP_A_FACTORY_GAR_3
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_UPKEEP_FACTORY_ADV
+		TEXT_TOOLTIP_UPKEEP_BONUS_30
 		</Encyclopedia_Text>
 		<MP_Encyclopedia_Text> TEXT_TOOLTIP_A_FACTORY </MP_Encyclopedia_Text>
 
@@ -707,7 +714,7 @@
 
 		<Affiliation>Empire</Affiliation>
 
-		<Required_Special_Structures>Empire_MoffPalace</Required_Special_Structures>
+		<Required_Special_Structures>Empire_Office</Required_Special_Structures>
 
 		<!-- Era 1 -->
 		<Starting_Spawned_Units_Tech_0>A4_Juggernaut, 2</Starting_Spawned_Units_Tech_0>
@@ -730,12 +737,17 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_A_FACTORY
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_A_FACTORY_PDF_HEALTH 
+		TEXT_TOOLTIP_FACTORY_HEALTH 
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
 		TEXT_TOOLTIP_A_FACTORY_PDF_1
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_UPKEEP_FACTORY_ADV
+		TEXT_TOOLTIP_UPKEEP_BONUS_30
 		</Encyclopedia_Text>
+		
+		<Icon_Name>i_button_rep_advanced_factory.tga</Icon_Name>
+
+		<Land_Model_Name>Republic_Advanced_Factory.alo</Land_Model_Name>
+		<Scale_Factor> 1.0 </Scale_Factor>
 
 		<Obstacle_Proxy_Type> E_Ground_Advanced_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
 

@@ -1,3 +1,3 @@
 return {
-    Flags = {FULLINHERIT = "SUPPLY_SHIP"}
+    Flags = {FULLINHERIT = "DH_OMNI"}
 }

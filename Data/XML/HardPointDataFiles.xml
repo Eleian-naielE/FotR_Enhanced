@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+
+<Hard_Point_Files>
+	<File>HardPoints\Hardpoints_Master.xml</File>
+	<File>HardPoints\Hardpoints_Master_Ground.xml</File>
+	<File>HardPoints\HardPoints_Master_Weapons.xml</File>
+
+	<File>HardPoints\HardPoints_Coresaga_Corvettes.xml</File>
+	<File>HardPoints\HardPoints_Coresaga_Frigates.xml</File>
+	<File>HardPoints\HardPoints_Coresaga_Fighters.xml</File>
+	<File>HardPoints\HardPoints_Coresaga_Capitals.xml</File>
+	<File>HardPoints\HardPoints_Coresaga_Transports.xml</File>
+	<File>HardPoints\HardPoints_Coresaga_Stations.xml</File>
+	<File>HardPoints\Hardpoints_Coresaga_Ground.xml</File>
+	<File>HardPoints\HardPoints_Coresaga_Weapons.xml</File>
+
+	<File>HardPoints\HardPoints_FotR_Corvettes.xml</File>
+	<File>HardPoints\HardPoints_FotR_Frigates.xml</File>
+	<File>HardPoints\HardPoints_FotR_Fighters.xml</File>
+	<File>HardPoints\HardPoints_FotR_Capitals.xml</File>
+	<File>HardPoints\HardPoints_FotR_Transports.xml</File>
+	<File>HardPoints\HardPoints_FotR_Stations.xml</File>
+	<File>HardPoints\Hardpoints_FotR_Ground.xml</File>
+	<File>HardPoints\HardPoints_FotR_Weapons.xml</File>
+
+	<File>HardPoints\SSDs\Hardpoints_Mandator.xml</File>
+	<File>HardPoints\SSDs\Hardpoints_Mandator_II.xml</File>
+
+	<File>HardPoints\HardPoints_FotR_Enhanced.xml</File>
+
+</Hard_Point_Files>

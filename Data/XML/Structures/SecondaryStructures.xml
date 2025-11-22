@@ -1,0 +1,734 @@
+<?xml version="1.0" ?>
+<SecondaryStructures>
+
+	<SecondaryStructure Name="Secondary_Mining_Facility">
+		<Text_ID>TEXT_GROUND_SECONDARY_ABANDONED_MINING</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_ENCYCLOPEDIA_SECONDARY_MINING
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_SECONDARY_ABANDONED_MINING
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Secondary_Objective> TEXT_TACTICAL_SECONDARY_MINING_CAPTURE </Secondary_Objective>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<GUI_Row> 0 </GUI_Row>
+		<Land_Model_Name> NB_Abandon_Mining.ALO </Land_Model_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+
+		<Scale_Factor>0.55</Scale_Factor>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Affiliation> Neutral, Rebel, Empire, Underworld, Hutt_Cartels, Independent_Forces, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians </Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Size_Value>50</Size_Value>
+		<Base_Position>Out_Base</Base_Position>
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Tactical_Health>200</Tactical_Health>
+		<Behavior>CAPTURE_POINT, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>CAPTURE_POINT, SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI</LandBehavior>
+		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Icon_Name>i_button_n_mine_abandon.tga</Icon_Name>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>MINI_MAP_CREDIT.TGA</Radar_Icon_Name>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Last_State_Visible_Under_FOW> False </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Land_Damage_Thresholds>1, 0.5, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<Armor_Type> ArmourG_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> True </Reveal_During_Setup_Phase>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
+		<Destruction_Survivors>  </Destruction_Survivors>
+
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+
+		<CategoryMask> Structure </CategoryMask>
+
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Lua_Script>SecondaryMiningFacility</Lua_Script>
+	</SecondaryStructure>
+
+	<SecondaryStructure Name="Secondary_Abandoned_Fuel_Pump">
+		<Icon_Name>i_button_n_cmc22mining_sml.tga</Icon_Name>
+		<Select_Box_Scale>100</Select_Box_Scale>
+		<Text_ID>TEXT_GROUND_SECONDARY_ABANDONED_FUEL_PUMP</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_ENCYCLOPEDIA_SECONDARY_FUEL_PUMP
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_SECONDARY_FUEL_PUMP
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE 
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Secondary_Objective> TEXT_TACTICAL_SECONDARY_FUEL_CAPTURE </Secondary_Objective>
+		<Land_Model_Name>NB_CMC22Mining_Sml.alo</Land_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+
+        <Ownership_Sticks>Yes</Ownership_Sticks>
+		<Affiliation> Neutral, Rebel, Empire, Underworld, Hutt_Cartels, Independent_Forces, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians </Affiliation>
+		<Tactical_Health>700</Tactical_Health>
+		<Behavior> CAPTURE_POINT, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE,ABILITY_COUNTDOWN,LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,</LandBehavior>
+		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+
+		<Armor_Type> ArmourG_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+
+		<!--<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>-->
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>MINI_MAP_FUEL.TGA</Radar_Icon_Name>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Last_State_Visible_Under_FOW> False </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Score_Cost_Credits> 3500 </Score_Cost_Credits>
+		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
+
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Secondary_Fuel_Movement_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Vehicle | VehicleHero | AirGunship | AirSpeeder</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</SecondaryStructure>
+
+	<SecondaryStructure Name="Secondary_Abandoned_Research_Facility">
+		<Icon_Name>i_button_n_EB_ResearchFacility_abandon.tga</Icon_Name>
+		<Select_Box_Scale>150</Select_Box_Scale>
+		<Text_ID>TEXT_GROUND_SECONDARY_ABANDONED_RESEARCH_FACILITY</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_ENCYCLOPEDIA_SECONDARY_RESEARCH_FACILITY
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_SECONDARY_RESEARCH_FACILITY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Secondary_Objective> TEXT_TACTICAL_SECONDARY_RESEARCH_CAPTURE </Secondary_Objective>
+		<Land_Model_Name>EB_ResearchFacility.alo</Land_Model_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Scale_Factor>1.5</Scale_Factor>
+
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+
+        <Ownership_Sticks>Yes</Ownership_Sticks>
+		<Affiliation> Neutral, Rebel, Empire, Underworld, Hutt_Cartels, Independent_Forces, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians </Affiliation>
+		<Tactical_Health>700</Tactical_Health>
+		<Behavior> CAPTURE_POINT, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE,ABILITY_COUNTDOWN,LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,</LandBehavior>
+		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		<Land_FOW_Reveal_Range>1100.0</Land_FOW_Reveal_Range>
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<Armor_Type> ArmourG_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+
+		<Land_Damage_Thresholds>1, 0.5, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+
+		<Target_Bones> 
+			Point01, Point02, Point03, Point04, Point05, Point06,
+			Point07, Point08, Point09, Point10, Point11, Point11, Point12,
+			Point13, Point14, Point15, Point16 
+		</Target_Bones>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>MINI_MAP_RESEARCH.TGA</Radar_Icon_Name>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Last_State_Visible_Under_FOW> False </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Score_Cost_Credits> 3500 </Score_Cost_Credits>
+		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
+
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Secondary_Research_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Vehicle | Infantry | AirGunship | AirSpeeder</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.05</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>8</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</SecondaryStructure>
+
+	<SecondaryStructure Name="Secondary_Abandoned_Repair_Depot">
+		<Icon_Name>i_button_r_advanced_weapons_abandon.tga</Icon_Name>
+		<Select_Box_Scale>100</Select_Box_Scale>
+		<Text_ID>TEXT_GROUND_SECONDARY_ABANDONED_REPAIR_DEPOT</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_ENCYCLOPEDIA_SECONDARY_REPAIR_DEPOT
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_ENCYCLOPEDIA_SECONDARY_REPAIR_DEPOT_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Secondary_Objective> TEXT_TACTICAL_SECONDARY_REPAIR_DEPOT </Secondary_Objective>
+		<Land_Model_Name>Rb_advancedweapons.alo</Land_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Property_Flags>NotOpportunityTarget | HealsVehicles | HealsDroids</Property_Flags>
+
+        <Ownership_Sticks>Yes</Ownership_Sticks>
+		<Affiliation> Neutral, Rebel, Empire, Underworld, Hutt_Cartels, Independent_Forces, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians </Affiliation>
+		<Tactical_Health>700</Tactical_Health>
+		<Behavior> CAPTURE_POINT, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE,ABILITY_COUNTDOWN,LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,</LandBehavior>
+		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Armor_Type> ArmourG_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+
+		<!--<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>-->
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>MINI_MAP_REPAIR.TGA</Radar_Icon_Name>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Last_State_Visible_Under_FOW> False </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Score_Cost_Credits> 3500 </Score_Cost_Credits>
+		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
+
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Repair_Depot_Healing">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>300.0</Heal_Range>
+				<Heal_Amount>15.0</Heal_Amount>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Heal_Vehicle_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Vehicle, VehicleHero, AirGunship, AirSpeeder</Applicable_Unit_Categories>
+				<SFXEvent_Target_Affected>Unit_Vehicle_Repair_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+	</SecondaryStructure>
+
+	<SecondaryStructure Name="Secondary_Abandoned_Sensor">
+		<Icon_Name>i_button_n_shutter_shieldgen_abandon.tga</Icon_Name>
+		<Select_Box_Scale>150</Select_Box_Scale>
+		<Text_ID>TEXT_GROUND_SECONDARY_ABANDONED_SENSOR_ARRAY</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_ENCYCLOPEDIA_SECONDARY_SENSOR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE 
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Secondary_Objective> TEXT_TACTICAL_SECONDARY_SENSOR_CAPTURE </Secondary_Objective>
+		<Land_Model_Name>SLD-26_Planetary_Shield_Generator.alo</Land_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+        <Ownership_Sticks>Yes</Ownership_Sticks>
+		<Affiliation> Neutral, Rebel, Empire, Underworld, Hutt_Cartels, Independent_Forces, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians </Affiliation>
+		<Tactical_Health>700</Tactical_Health>
+		<Behavior> CAPTURE_POINT, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE,ABILITY_COUNTDOWN,LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,</LandBehavior>
+		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		<Land_FOW_Reveal_Range>1100.0</Land_FOW_Reveal_Range>
+
+		<Armor_Type> ArmourG_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> True </Reveal_During_Setup_Phase>
+
+		<Land_Damage_Thresholds>1, 0.5, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>MINI_MAP_SENSOR.TGA</Radar_Icon_Name>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Last_State_Visible_Under_FOW> False </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Score_Cost_Credits> 3500 </Score_Cost_Credits>
+		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
+
+		<Terrain_Texture_Modifier_Square>False</Terrain_Texture_Modifier_Square>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name>
+				</GUI_Activated_Ability_Name>
+
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</SecondaryStructure>
+
+	<SecondaryStructure Name="Secondary_Abandoned_Comms">
+		<Icon_Name>i_button_r_comcenter_abandon.tga</Icon_Name>
+		<Select_Box_Scale>100</Select_Box_Scale>
+		<Text_ID>TEXT_GROUND_SECONDARY_ABANDONED_COMMS_ARRAY</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_ENCYCLOPEDIA_SECONDARY_COMMS_ARRAY
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_SECONDARY_COMMS_ARRAY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Secondary_Objective> TEXT_TACTICAL_SECONDARY_COMMS_CAPTURE </Secondary_Objective>
+		<Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+        <Ownership_Sticks>Yes</Ownership_Sticks>
+		<Affiliation> Neutral, Rebel, Empire, Underworld, Hutt_Cartels, Independent_Forces, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians </Affiliation>
+		<Tactical_Health>700</Tactical_Health>
+		<Behavior> CAPTURE_POINT, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE,ABILITY_COUNTDOWN,LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,</LandBehavior>
+		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<SFXEvent_Select>null</SFXEvent_Select>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		<Land_FOW_Reveal_Range>1100.0</Land_FOW_Reveal_Range>
+
+		<Armor_Type> ArmourG_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+
+		<Land_Damage_Thresholds>1, 0.5, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>MINI_MAP_COMMS.TGA</Radar_Icon_Name>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Last_State_Visible_Under_FOW> False </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Score_Cost_Credits> 3500 </Score_Cost_Credits>
+		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
+
+		<Terrain_Texture_Modifier_Square>False</Terrain_Texture_Modifier_Square>
+
+
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="Comms_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.5</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</SecondaryStructure>
+
+	<SecondaryStructure Name="Secondary_Abandoned_MSU">
+		<Icon_Name>i_button_r_barrack_2_abandon.tga</Icon_Name>
+		<Select_Box_Scale>100</Select_Box_Scale>
+		<Text_ID>TEXT_GROUND_SECONDARY_ABANDONED_MSU</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_ENCYCLOPEDIA_SECONDARY_MSU
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_ENCYCLOPEDIA_SECONDARY_MSU_DEPOT_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Secondary_Objective> TEXT_TACTICAL_SECONDARY_MSU </Secondary_Objective>
+		<Land_Model_Name>Rb_barracks.alo</Land_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Scale_Factor>0.75</Scale_Factor>
+
+		<Property_Flags>NotOpportunityTarget | HealsOrganics</Property_Flags>
+
+        <Ownership_Sticks>Yes</Ownership_Sticks>
+		<Affiliation> Neutral, Rebel, Empire, Underworld, Hutt_Cartels, Independent_Forces, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians </Affiliation>
+		<Behavior> CAPTURE_POINT, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE,ABILITY_COUNTDOWN,LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,</LandBehavior>
+		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Armor_Type> ArmourG_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>MINI_MAP_INFANTRYHEALING.TGA</Radar_Icon_Name>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Last_State_Visible_Under_FOW> False </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Score_Cost_Credits> 3500 </Score_Cost_Credits>
+		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
+
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="MSU_Healing">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>300.0</Heal_Range>
+				<Heal_Amount> 5.0 </Heal_Amount>
+				<Heal_Percent> 0.0 </Heal_Percent>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+	</SecondaryStructure>
+
+	<SecondaryStructure Name="Secondary_Abandoned_Turbolaser_Tower">
+		<Variant_Of_Existing_Type>Template_Turbolaser_Tower</Variant_Of_Existing_Type>
+		<Text_ID> TEXT_GROUND_TURBOLASER_TOWER_ABANDONED </Text_ID>
+		<Encyclopedia_Text>
+		TEXT_ENCYCLOPEDIA_SECONDARY_TURBOLASER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_TURBOLASER_HEALTH_ABANDONED
+		TEXT_TOOLTIP_TURBOLASER_2X_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE 
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Secondary_Objective> TEXT_TACTICAL_SECONDARY_TURBOLASER_CAPTURE </Secondary_Objective>
+
+		<Behavior> CAPTURE_POINT, REVEAL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,TURRET,TARGETING,WEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,STUNNABLE </LandBehavior>
+		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
+		<Is_Decoration>No</Is_Decoration>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+		<Capture_Point_Radius>200.0</Capture_Point_Radius>
+		<Tactical_Health>600</Tactical_Health>
+
+		<Radar_Icon_Name>MINI_MAP_TURRET_L.TGA</Radar_Icon_Name>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Last_State_Visible_Under_FOW> False </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Begin_Control_Transition_Radar_Event>DEFAULT_CONTROL_POINT_TRANSITION</Begin_Control_Transition_Radar_Event>
+		<End_Control_Transition_Radar_Event>DEFAULT_CONTROL_POINT_TRANSITION</End_Control_Transition_Radar_Event>
+
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
+		<Select_Box_Scale>35</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Requires_Base_Power>False</Requires_Base_Power>
+
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>  
+
+		<Icon_Name>i_button_n_tl_tower_2x_abandon.tga</Icon_Name> 
+
+		<Affiliation>Neutral, Rebel, Empire, Trade_Federation, Banking_Clan, Commerce_Guild, Techno_Union, Hutt_Cartels, Sector_Forces, Independent_Forces, Hostile</Affiliation>
+	</SecondaryStructure>
+
+	<SpecialStructure Name="N_Remote_Sensor_Pod">
+		<Text_ID>TEXT_REMOTE_SENSOR_POD</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_ENCYCLOPEDIA_REMOTE_SENSOR_POD
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE_SPACE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
+		<Behavior>CAPTURE_POINT, SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>SPACE_OBSTACLE, ABILITY_COUNTDOWN, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI</SpaceBehavior>
+
+		<Space_Model_Name>NB_SpaceSensorNode.ALO</Space_Model_Name>
+		<Icon_Name>i_button_n_space_sensornode.tga</Icon_Name>
+		<Affiliation> Neutral, Rebel, Empire, Underworld, Hutt_Cartels, Independent_Forces, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians </Affiliation>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Tactical_Health>500</Tactical_Health>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<SFXEvent_Select>null</SFXEvent_Select>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>MINI_MAP_SENSOR2.TGA</Radar_Icon_Name>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Last_State_Visible_Under_FOW> False </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+
+		<Victory_Relevant>no</Victory_Relevant>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> ArmourS_Frigate </Armor_Type>
+
+		<CategoryMask> Structure </CategoryMask>
+
+		<Score_Cost_Credits> 1000 </Score_Cost_Credits>
+		<Custom_Soft_Footprint_Radius> 180 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+
+		<Tactical_Health>600</Tactical_Health>
+		<Space_FOW_Reveal_Range>1000</Space_FOW_Reveal_Range>
+		<Capture_Point_Radius>350</Capture_Point_Radius>
+		<Capture_Point_Transition_Time_Seconds>10</Capture_Point_Transition_Time_Seconds>
+		<Tactical_Respawn_Time_In_Secs>30</Tactical_Respawn_Time_In_Secs>
+		<Ownership_Sticks>Yes</Ownership_Sticks>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 60.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Space_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius> <!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 500.0 </Area_Effect_Decal_Distance> 
+				<GUI_Activated_Ability_Name>  </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+	</SpecialStructure>
+
+	<SpecialStructure Name="Sensor_Pod_Small">
+		<Variant_Of_Existing_Type>N_Remote_Sensor_Pod</Variant_Of_Existing_Type>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Affiliation>Empire</Affiliation>
+	</SpecialStructure>
+
+</SecondaryStructures>

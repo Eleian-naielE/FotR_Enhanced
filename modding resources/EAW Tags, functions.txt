@@ -8,3 +8,36 @@ applicable unit types ; units that are affected by the abilities
 <-> excluded unit types
 
 Hide_Sub_Object(X,Y,Z), X = game object, Y = 0,1, Z = string : hides model's meshes. not possible if permenantly attached.
+
+**Note : <Population_Value>1</Population_Value> is needed on container if replenish_wingmen ability is added
+
+IMPOSING_PRESENCE : used by storm troopers in base game when palpatine/vader is in battle ; induces  Presence_Induced_Animations tag
+
+<Select_Box_Scale> : also controls highlight_blob sizes
+
+Mod_Multiplier in Combat_Bonus_Ability doesn't work
+
+<Story_Name> { (Faction name), (story file) } ... </Story_Name>
+
+<Era_Start></Era_Start> : eawx custom made - works only for their python tool
+
+<Is_Listed> (Boolean) </Is_Listed> : lists the galactic conquest in the menu
+
+weapon range display = fire_range_distance * 0.8
+
+<UseSecondaryFacing> : seems to be used for juggernaut's backward movement
+
+
+
+locking planets in historical(Maybe progressive too?) is set by SetPlanetRestricted() function in masterscript.
+unlocking is handled through xml event story_trigger;reward_type:SET_PLANET_RESTRICTED
+
+spawning certain heores in cinematic tactical battle requires a story_trigger_zone_00 marker with named hint. (ex ; grievous_marker = Find_Hint("STORY_TRIGGER_ZONE_00", "grievous"))
+
+
+<Apply_Special_Ability_To_Self_On_Creation>Yes/No</Apply_Special_Ability_To_Self_On_Creation> : Used to apply combat bonus to the host unit. Default is No.
+
+Fire_Cone_Width : total horizontal arc degree of a hardpoint ex) 140.0 ; 70 degres left/right
+Fire_Cone_ : total  arc degree of a hardpoint ex) 140.0 ; 70 degres 
+
+<Should_Reinforcement_Move>false(default) : 

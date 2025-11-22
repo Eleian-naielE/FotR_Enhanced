@@ -1,16 +1,16 @@
 return {
 	Missions = {
-		["ACCUMULATE"] = {active = false, chance = 4},
-		["CARGO_CONVOY"] = {active = false, chance = 12},
-		["CONQUER"] = {active = false, chance = 12},
-		["CONSTRUCT"] = {active = false, chance = 12},
-		["CREW_RECRUITMENT"] = {active = false, chance = 4},
-		["HERO_CONVOY"] = {active = false, chance = 12},
-		["INFRASTRUCTURE_EXPANSION"] = {active = false, chance = 8},
-		["LIBERATE"] = {active = false, chance = 12},
---		["RAISE_INFLUENCE"] = {active = false, chance = 8},
+		["BUILDSTRUCTURESGROUND"] = {active = false, chance = 12},
+		["BUILDSTRUCTURESSPACE"] = {active = false, chance = 12},
+		["CREDITINCOME"] = {active = false, chance = 4},
+		["CREWINCOME"] = {active = false, chance = 4},
+		["HUNTTARGETA"] = {active = false, chance = 12},
+		["HUNTTARGETB"] = {active = false, chance = 12},
+		--["RAISE_INFLUENCE"] = {active = false, chance = 8},
+		["RAISEINFRASTRUCTURE"] = {active = false, chance = 8},
 		["RECON"] = {active = false, chance = 12},
-		["UPGRADE"] = {active = false, chance = 12},
+		["TAKEPLANETANY"] = {active = false, chance = 12},
+		["TAKEPLANETENEMY"] = {active = false, chance = 12},
 	},
 	RewardGroups = {
 		"REP",
@@ -24,12 +24,12 @@ return {
 			DialogName = "REP",
 			RewardName = "ERA",
 			GroupSupport = "SECTOR_FORCES",
-			SupportArg = 1
+			SupportArg = 100 --test
+			--SupportArg = 1
 		},
 		["PDF"] = {
 			DialogName = "PDF",
-			RewardName = "PDF",
-			GroupSupport = nil,
+			RewardName = "PDF"
 		}
 	}
 }

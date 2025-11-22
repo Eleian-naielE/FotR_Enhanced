@@ -1,127 +1,538 @@
 <?xml version="1.0" ?>
-
 <Equations>
-
-	<Needs_Legitimacy_Group>
-		0.0
-	</Needs_Legitimacy_Group>
-
-
-	<Needs_Commander>
-		0.0
-	</Needs_Commander>
 
 	<Has_Upgradeable_Hero>
 		Variable_Self.HasUnit{
 					Parameter_Type = "Ysanne_Isard",
 					Parameter_Type = "Ardus_Kaine",
-					Parameter_Type = "Iron_Fist_VSD",
+					Parameter_Type = "Zsinj_Iron_Fist_VSD",
+					Parameter_Type = "Delvardus_Brilliant",
 					Parameter_Only_Consider_Complete = 1.0
 				}
+		*
+		Variable_Self.HasStructure {
+			Parameter_Type = "Empire_Shipyard_Level_Four",
+			Parameter_Type = "Pentastar_Shipyard_Level_Four",
+			Parameter_Type = "Eriadu_Shipyard_Level_Four",
+			Parameter_Type = "Zsinj_Shipyard_Level_Four",
+			Parameter_Type = "Rancor_Base", Parameter_Only_Consider_Complete = 1.0}
 		+
-		Variable_Self.IsFaction{Parameter_Faction = "Pentastar"} * (400 > Game.Age)
+		Variable_Self.HasUnit {
+					Parameter_Type = "Grievous_Recusant",
+					Parameter_Type = "Grievous_Munificent",
+					Parameter_Type = "Grievous_Invisible_Hand",
+					Parameter_Only_Consider_Complete = 1.0
+				}
+		*
+		(Script_GetCurrentEra.Evaluate == 2)
+		*
+		Variable_Self.HasStructure {Parameter_Type = "CIS_Shipyard_Level_Four", Parameter_Only_Consider_Complete = 1.0}
 	</Has_Upgradeable_Hero>
 
-	<HFM_Malevolence_In_Orbit>
+	<!-- Revan's Revenge -->
+	<Dehno_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Dehno_Support_Skiff"}
+	</Dehno_In_Orbit>
+	<Dern_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Dern"}
+	</Dern_In_Orbit>
+	<Lorgal_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Lorgal"}
+	</Lorgal_In_Orbit>
+	<Nihilus_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Nihilus_Master_Ravager"}
+	</Nihilus_In_Orbit>
+	<Revan_Sith_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Revan_Sith_Master"}
+	</Revan_Sith_In_Orbit>
+
+	<Alek_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Alek"}
+	</Alek_In_Orbit>
+	<Haydel_Goravvus_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Haydel_Goravvus"}
+	</Haydel_Goravvus_In_Orbit>
+	<Jolee_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Jolee"}
+	</Jolee_In_Orbit>
+	<Juhani_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Juhani"}
+	</Juhani_In_Orbit>
+	<Revan_Jedi_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Revan_Jedi_MW"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Revan_Interdictor_Republic"}
+	</Revan_Jedi_In_Orbit>
+	<Noana_Sowrs_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Noana_Sowrs_Civil_Gunship"}
+	</Noana_Sowrs_In_Orbit>
+	
+	<Haydel_Goravvus_At_Planet_Galactic>
+		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "Haydel_Goravvus"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Haydel_Goravvus"}
+	</Haydel_Goravvus_At_Planet_Galactic>
+	<Koa_Delko_At_Planet_Galactic>
+		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "Koa_Delko"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Koa_Delko"}
+	</Koa_Delko_At_Planet_Galactic>
+
+	<Akero_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Akero_Command_Skiff"}
+	</Akero_In_Orbit>
+	<Sherruk_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Sherruk"}
+	</Sherruk_In_Orbit>
+
+	<Carth_Hammerhead_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Carth_Hammerhead"}
+	</Carth_Hammerhead_In_Orbit>
+	<Forn_Dodonna_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Dodonna_Hammerhead"}
+	</Forn_Dodonna_In_Orbit>
+	<Karath_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Karath_Reciprocity"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Karath_Swiftsure"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Karath_Courageous"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Karath_Leviathan_Republic"}
+	</Karath_In_Orbit>
+	<Morvis_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Morvis_Reciprocity"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Morvis_Veltraa"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Morvis_Diligence"}
+	</Morvis_In_Orbit>
+	<Opelle_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Opelle_Centurion"}
+	</Opelle_In_Orbit>
+	<Revan_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Revan_Interdictor_Republic"}
+	</Revan_In_Orbit>
+	<Rokon_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Rokon_Hammerhead"}
+	</Rokon_In_Orbit>
+	<Sommos_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Sommos_Swiftsure"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Sommos_Tremendous"}
+	</Sommos_In_Orbit>
+	<Telettoh_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Telettoh_Testament"}
+	</Telettoh_In_Orbit>
+	<Veela_Ordo_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Veela_Ordo_Clanship"}
+	</Veela_Ordo_In_Orbit>
+	<Cede_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Cede_Interdictor"}
+	</Cede_In_Orbit>
+	<Bakvalen_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Trede_Bakvalen_Centurion"}
+	</Bakvalen_In_Orbit>
+	<Modl_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Bask_Modl_Swiftsure"}
+	</Modl_In_Orbit>
+	<Delstar_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Owen_Delstar_Foray"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Owen_Delstar_Swiftsure"}
+	</Delstar_In_Orbit>
+	<Vang_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Teelo_Vang_Stalwart"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Teelo_Vang_Interdictor"}
+	</Vang_In_Orbit>
+	<Athacorr_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Athacorr_Axehead"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Athacorr_Stalwart"}
+	</Athacorr_In_Orbit>
+
+	<Cassus_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Fett_Jaigalaar"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Fett_Gratua"}
+	</Cassus_In_Orbit>
+	<Mandalore_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Mandalore_Ultimate_Kandosii"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Mandalore_Ultimate_Centurion"}
+	</Mandalore_In_Orbit>
+	<Bendak_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Gorse_Bendak_Explorer"}
+	</Bendak_In_Orbit>
+	<Borm_Parjai_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Borm_Parjai"}
+	</Borm_Parjai_In_Orbit>
+	<Tegris_Ordo_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Tegris_Ordo_Clanship"}
+	</Tegris_Ordo_In_Orbit>
+	<Vipsanis_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Vipsanis_Victus"}
+	</Vipsanis_In_Orbit>
+	<Xarga_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Xarga_Shaadlar_Mandalorian"}
+	</Xarga_In_Orbit>
+
+	<!-- Fall of the Republic -->
+	<Grievous_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Grievous_Munificent"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Grievous_Invisible_Hand"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Grievous_Recusant"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Grievous_Malevolence"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Grievous_Malevolence_2"}
+		+
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Grievous_Malevolence_Hunt_Campaign"}
-	</HFM_Malevolence_In_Orbit>
-
-	<Brashin_Inquisitor_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Brashin_Inquisitor"}
-	</Brashin_Inquisitor_In_Orbit>
-
-	<Tallon_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Tallon_Silent_Water"}
-	</Tallon_In_Orbit>
-
-	<Ragab_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Ragab_Emancipator"}
-	</Ragab_In_Orbit>
-
-	<Bell_Endurance_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Bell_Endurance"}
-	</Bell_Endurance_In_Orbit>
-
-	<Bell_Swift_Liberty_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Bell_Swift_Liberty"}
-	</Bell_Swift_Liberty_In_Orbit>
-
-	<Home_One_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Home_One"}
-	</Home_One_In_Orbit>
-
-	<Galactic_Voyager_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Galactic_Voyager"}
-	</Galactic_Voyager_In_Orbit>
-
-	<Ackbar_Guardian_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Ackbar_Guardian"}
-	</Ackbar_Guardian_In_Orbit>
-
-	<Drayson_New_Hope_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Drayson_New_Hope"}
-	</Drayson_New_Hope_In_Orbit>
-
-	<Solo_Remonda_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Solo_Remonda"}
-	</Solo_Remonda_In_Orbit>
-
-	<Brand_Indomitable_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Brand_Indomitable"}
-	</Brand_Indomitable_In_Orbit>
-
-	<Brand_Yald_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Brand_Yald"}
-	</Brand_Yald_In_Orbit>
-
-	<Wedge_Lusankya_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Wedge_Lusankya"}
-	</Wedge_Lusankya_In_Orbit>
-
-
-	<Yularen_Resolute_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yularen_Resolute"}
-	</Yularen_Resolute_In_Orbit>
-
-	<Yularen_Integrity_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yularen_Integrity"}
-	</Yularen_Integrity_In_Orbit>
-
-	<Yularen_Invincible_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yularen_Invincible"}
-	</Yularen_Invincible_In_Orbit>
-
+	</Grievous_In_Orbit>
+	<TF1726_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "TF1726_Munificent"}
+	</TF1726_In_Orbit>
+	<K2B4_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "K2B4_Providence"}
+	</K2B4_In_Orbit>
+	<AutO_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "AutO_Providence"}
+	</AutO_In_Orbit>
+	<Doctor_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Doctor_Instinction"}
+	</Doctor_In_Orbit>
+	<Merai_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Merai_Free_Dac"}
+	</Merai_In_Orbit>
+	<Devastation_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Devastation"}
+	</Devastation_In_Orbit>
+	<Sai_Sircu_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Sai_Sircu_Devastation"}
+	</Sai_Sircu_In_Orbit>
+	<Colicoid_Swarm_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Colicoid_Swarm"}
+	</Colicoid_Swarm_In_Orbit>
+	<Dooku_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Dooku"}
+	</Dooku_In_Orbit>
+	<Durd_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Lok_Durd"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Lok_Durd_Defoliator"}
+	</Durd_In_Orbit>
+	<Tambor_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Wat_Tambor"}
+	</Tambor_In_Orbit>
+	<Dala_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Tobbi_Dala"}
+	</Dala_In_Orbit>
+	
+	<Padme_Amidala_At_Planet_Galactic>
+		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "Padme_Amidala"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Padme_Amidala"}
+	</Padme_Amidala_At_Planet_Galactic>
+	<Paige_Tarkin_At_Planet_Galactic>
+		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "Paige_Tarkin"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Paige_Tarkin"}
+	</Paige_Tarkin_At_Planet_Galactic>
+	<Ask_Aak_At_Planet_Galactic>
+		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "Ask_Aak"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Ask_Aak"}
+	</Ask_Aak_At_Planet_Galactic>
+	<Bail_Organa_At_Planet_Galactic>
+		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "Bail_Organa"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Bail_Organa"}
+	</Bail_Organa_At_Planet_Galactic>
+	<Garm_Bel_Iblis_At_Planet_Galactic>
+		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "Garm_Bel_Iblis"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Garm_Bel_Iblis"}
+	</Garm_Bel_Iblis_At_Planet_Galactic>
+	<Giddean_Danu_At_Planet_Galactic>
+		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "Giddean_Danu"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Giddean_Danu"}
+	</Giddean_Danu_At_Planet_Galactic>
+	<Orn_Free_Taa_At_Planet_Galactic>
+		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "Orn_Free_Taa"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Orn_Free_Taa"}
+	</Orn_Free_Taa_At_Planet_Galactic>
+	<Onaconda_Farr_At_Planet_Galactic>
+		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "Onaconda_Farr"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Onaconda_Farr"}
+	</Onaconda_Farr_At_Planet_Galactic>
+	
+	<Appo_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Appo"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Appo2"}
+	</Appo_In_Orbit>
+	<Bail_Organa_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Bail_Organa_Venator"}
+	</Bail_Organa_In_Orbit>
+	<Coburn_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Coburn_Venator"}
+	</Coburn_In_Orbit>
+	<Dallin_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Dallin_Kebir"}
+	</Dallin_In_Orbit>
+	<Jan_Dodonna_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Dodonna_Ardent"}
+	</Jan_Dodonna_In_Orbit>
+	<Denn_Wessex_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Wessex_Redoubt"}
+	</Denn_Wessex_In_Orbit>
+	<Faie_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Faie"}
+	</Faie_In_Orbit>
+	<Garm_Bel_Iblis_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Garm_Bel_Iblis"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Garm_Bel_Iblis_Starbolt"}
+	</Garm_Bel_Iblis_In_Orbit>
+	<Gree_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Gree_Clone"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Gree2"}
+	</Gree_In_Orbit>
+	<Gentis_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Gentis_LAAT"}
+	</Gentis_In_Orbit>
+	<Keller_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Keller"}
+	</Keller_In_Orbit>
 	<Kilian_In_Orbit>
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Kilian_Endurance"}
 	</Kilian_In_Orbit>
-
+	<Kota_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Rahm_Kota"}
+	</Kota_In_Orbit>
+	<Obiwan_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Obi_Wan"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Obi_Wan2"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Obi_Wan3"}
+	</Obiwan_In_Orbit>
+	<Anakin_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Anakin"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Anakin2"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Anakin3"}
+	</Anakin_In_Orbit>
+	<Tarkin_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Tarkin_Venator"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Tarkin_Executrix"}
+	</Tarkin_In_Orbit>
+	<Wessel_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Wessel_Acclamator"}
+	</Wessel_In_Orbit>
 	<Wieler_In_Orbit>
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Wieler_Resilient"}
 	</Wieler_In_Orbit>
-
-	<Coburn_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Coburn_Triumphant"}
-	</Coburn_In_Orbit>
-
-<!-- FotR_Enhanced -->
-
-	<Dodonna_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Dodonna_Ardent"}
-	</Dodonna_In_Orbit>
-
-	<Wessex_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Block_Negotiator"}
-	</Wessex_In_Orbit>
-	
-	<Block_Negotiator_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Block_Negotiator"}
-	</Block_Negotiator_In_Orbit>
-
-	<Block_Vigilance_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Block_Vigilance"}
-	</Block_Vigilance_In_Orbit>	
-
-	<Yularen_Resolute_SPHAT_In_Orbit>
+	<Yoda_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yoda"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yoda2"}
+	</Yoda_In_Orbit>
+	<Yularen_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yularen_Resolute"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yularen_Integrity"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yularen_Invincible"}
+		+
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yularen_Resolute_SPHAT"}
-	</Yularen_Resolute_SPHAT_In_Orbit>
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yularen_Resolute_66"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Yularen_Integrity_66"}
+	</Yularen_In_Orbit>
+	<Slayke_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Zozridor_Slayke_CR90"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Zozridor_Slayke_Carrack"}
+	</Slayke_In_Orbit>
+	<Svindren_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Ahalas_Svindren_VAAT"}
+	</Svindren_In_Orbit>
+
+	<!-- FotR_Enhanced -->
+
+	<Block_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Block_Negotiator"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Block_Vigilance"}
+	</Block_In_Orbit>
+
+	<Dron_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Dron_Venator"}
+	</Dron_In_Orbit>
+
+	<Autem_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Autem_Venator"}
+	</Autem_In_Orbit>
+
+	<Exactor_Anakin_Darkside_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Exactor_Anakin_Darkside"}
+	</Exactor_Anakin_Darkside_In_Orbit>
+
+	<Exactor_Vader_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Exactor_Vader"}
+	</Exactor_Vader_In_Orbit>
+
+	<!-- CoreSaga -->
+	
+	<Bossk_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Bossk"}
+	</Bossk_In_Orbit>
+	
+	<Shysa_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Fenn_Shysa"}
+	</Shysa_In_Orbit>
+
+	<!-- Thrawn's Revenge -->
+	
+	<Leia_At_Planet_Galactic>
+		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "Princess_Leia"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Princess_Leia"}
+	</Leia_At_Planet_Galactic>
+	
+	<Ackbar_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Ackbar_Home_One"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Ackbar_Galactic_Voyager"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Ackbar_Guardian"}
+	</Ackbar_In_Orbit>
+	<Banjeer_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Banjeer"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Banjeer_Neutron"}
+	</Banjeer_In_Orbit>
+	<Bell_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Bell_Endurance"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Bell_Swift_Liberty"}
+	</Bell_In_Orbit>
+	<Bly_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Bly"}
+	</Bly_In_Orbit>
+	<Brand_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Brand_Indomitable"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Brand_Yald"}
+	</Brand_In_Orbit>
+	<Brashin_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Brashin_Inquisitor"}
+		+
+		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "Brashin_TRMB"}
+	</Brashin_In_Orbit>
+	<Cronal_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Cronal_Singularity"}
+	</Cronal_In_Orbit>
+	<Drayson_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Drayson_New_Hope"}
+	</Drayson_In_Orbit>
+	<Flim_Tierce_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Flim_Tierce_Ironhand"}
+	</Flim_Tierce_In_Orbit>
+	<Foga_Brill_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Foga_Brill"}
+	</Foga_Brill_In_Orbit>
+	<Grot_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Grot_Resolution"}
+	</Grot_In_Orbit>
+	<Han_Solo_Mon_Remonda_In_Orbit> <!--ship name left in tag to avoid confusion with Intrepid form-->
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Han_Solo_Mon_Remonda"}
+	</Han_Solo_Mon_Remonda_In_Orbit>
+	<Isard_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Ysanne_Isard"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Isard_Lusankya"}
+	</Isard_In_Orbit>
+	<Lando_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Lando_Calrissian"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Lando_Liberator"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Lando_Allegiance"}
+	</Lando_In_Orbit>
+	<Leia_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Princess_Leia"}
+	</Leia_In_Orbit>
+	<Iblis_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Iblis_Peregrine"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Iblis_Selonian_Fire"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Iblis_Bail_Organa"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Iblis_Harbinger"}
+	</Iblis_In_Orbit>
+	<Luke_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Luke_Skywalker_Jedi"}
+	</Luke_In_Orbit>
+	<Joshi_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Joshi_Provocateur"}
+	</Joshi_In_Orbit>
+	<Malcom_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Malcom"}
+	</Malcom_In_Orbit>
+	<Melvar_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Melvar_Juggernaut"}
+	</Melvar_In_Orbit>
+	<Parnell_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Parnell_Super_Transport_XI"}
+	</Parnell_In_Orbit>
+	<Pitta_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Pitta_Torpedo_Sphere"}
+	</Pitta_In_Orbit>
+	<Ragab_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Ragab_Emancipator"}
+	</Ragab_In_Orbit>
+	<Screed_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Screed_Demolisher"}
+	</Screed_In_Orbit>
+	<Tallon_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Tallon_Silent_Water"}
+	</Tallon_In_Orbit>
+	<Tanniel_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Tanniel"}
+	</Tanniel_In_Orbit>
+	<Tount_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Serdif_Tount_Juggernaut"}
+	</Tount_In_Orbit>
+	<Touler_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Touler_Korasa_Maze"}
+	</Touler_In_Orbit>
+	<Trioculus_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Trioculus"}
+		+
+		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "Trioculus"}
+	</Trioculus_In_Orbit>
+	<Wedge_Lusankya_In_Orbit> <!--ship name left in tag to avoid confusion with Rogue Squadron form-->
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Wedge_Lusankya"}
+	</Wedge_Lusankya_In_Orbit>
+	<Weir_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Weir"}
+	</Weir_In_Orbit>
+	<Zann_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Tyber_Zann_Merciless"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Tyber_Zann_Twilek_Dancer"}
+	</Zann_In_Orbit>
 </Equations>

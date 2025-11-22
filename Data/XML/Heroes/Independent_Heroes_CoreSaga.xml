@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<Other_Heroes>
+<!-- More:
+Zeta Magnus - Rennek
+Magnus - O'reen (Magnus is a title, and technically there could be two different Magni for FotR and TR, but I figure it's simpler to keep them the same titled ruler)
+The Warlord - Kariek
+Nuso Esva - Quethold (it's unclear if he should be in FotR or not to me, but I guess it doesn't hurt?)
+-->
+
+	<UniqueUnit Name="Gevtes">
+		<Variant_Of_Existing_Type>Espo_Walker_91</Variant_Of_Existing_Type>
+		<LOD_Bias>0.5</LOD_Bias>
+		<Text_ID>TEXT_HERO_GEVTES</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_GEVTES
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_ESPO_WALKER_EARLY
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_GEVTES
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_ESPO_WALKER_EARLY_HEALTH
+		TEXT_TOOLTIP_ESPO_WALKER_EARLY_MOVE
+		TEXT_TOOLTIP_ESPO_WALKER_EARLY_WEAP1
+		TEXT_TOOLTIP_ESPO_WALKER_EARLY_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_ESPO_WALKER_EARLY_WEAP3
+		TEXT_TOOLTIP_ESPO_WALKER_EARLY_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SMALL_WALKER
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEVISOR_MASTER </Encyclopedia_Unit_Class>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Affiliation>Independent_Forces</Affiliation>
+		<CategoryMask> VehicleHero | AntiInfantry </CategoryMask>
+
+		<Icon_Name>i_button_gevtes.tga</Icon_Name>
+		<LandBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
+
+		<Starting_Spawned_Units_Tech_0>PDF_Soldier_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>PDF_Soldier_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
+
+        <Highlight_Blob_Material_Name>Highlight_CSA_Hero</Highlight_Blob_Material_Name> <!-- is there an IF icon? CSA seems closest if not -->
+		<Property_Flags> GTSImmune </Property_Flags>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
+			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_06_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.18</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<HeroCompany Name="Gevtes_Team">
+		<Text_ID>TEXT_HERO_GEVTES</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_GEVTES
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_ESPO_WALKER_EARLY
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_GEVTES
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_ESPO_WALKER_EARLY_HEALTH
+		TEXT_TOOLTIP_ESPO_WALKER_EARLY_MOVE
+		TEXT_TOOLTIP_ESPO_WALKER_EARLY_WEAP1
+		TEXT_TOOLTIP_ESPO_WALKER_EARLY_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_ESPO_WALKER_EARLY_WEAP3
+		TEXT_TOOLTIP_ESPO_WALKER_EARLY_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SMALL_WALKER
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEVISOR_MASTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gevtes.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Independent_Forces</Affiliation>
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Kappa_Shuttle_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Gevtes</Company_Units>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
+
+		<Population_Value>1</Population_Value>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Hero_Respawned/>
+		<SFXEvent_Fleet_Move/>
+	</HeroCompany>
+
+	<UniqueUnit Name="Keek">
+		<Variant_Of_Existing_Type> A4_Juggernaut </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_KEEK</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_KEEK
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_JUGGERNAUT_A4
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_JUGGERNAUT_A4_HEALTH
+		TEXT_TOOLTIP_JUGGERNAUT_A4_MOVE 
+		TEXT_TOOLTIP_JUGGERNAUT_A4_WEAP1
+		TEXT_TOOLTIP_JUGGERNAUT_A4_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		TEXT_TOOLTIP_CAPABILITY_CRUSH
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INSPECTOR </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_keek.tga</Icon_Name>
+		
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Property_Flags>GoodInfantryCrusher | CanContainGarrison | GTSImmune </Property_Flags>
+		<CategoryMask> VehicleHero | AntiVehicle </CategoryMask>
+
+        <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
+			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_04_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<HeroCompany Name="Keek_Team">
+		<Text_ID>TEXT_HERO_KEEK</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_KEEK
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_JUGGERNAUT_A4
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_JUGGERNAUT_A4_HEALTH
+		TEXT_TOOLTIP_JUGGERNAUT_A4_MOVE 
+		TEXT_TOOLTIP_JUGGERNAUT_A4_WEAP1
+		TEXT_TOOLTIP_JUGGERNAUT_A4_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		TEXT_TOOLTIP_CAPABILITY_CRUSH
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INSPECTOR </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_keek.tga</Icon_Name>
+		
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Damage>20</Damage>
+		<Affiliation>Independent_Forces</Affiliation>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level></Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>tank</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units> Keek </Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Score_Cost_Credits>180</Score_Cost_Credits>
+
+		<Population_Value>1</Population_Value>
+	</HeroCompany>
+		
+	<!-- WIP -->	
+	<HeroUnit Name="Holchas">
+		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_HOLCHAS</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_HOLCHAS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HOLCHAS_HEALTH
+		TEXT_TOOLTIP_HOLCHAS_MOVE
+		TEXT_TOOLTIP_HOLCHAS_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_NOBLE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_holchas.tga</Icon_Name>
+		
+		<Land_Model_Name>ForceCultist_Minor.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name> MilitiaInfantry.alo </Land_Model_Anim_Override_Name>
+
+		<Tactical_Health>120</Tactical_Health>
+
+		<Max_Speed>1.3</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<OverrideAcceleration> 1.3 </OverrideAcceleration>
+		<OverrideDeceleration> 1.3 </OverrideDeceleration>
+		
+		<Affiliation>Independent_Forces</Affiliation>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
+		
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints>HP_Hero_DL44_Pistol</HardPoints>
+		
+		<AI_Combat_Power>24</AI_Combat_Power>
+
+		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Civilian</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Civilian</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Civilian</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Civilian</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Civilian</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Defeat_Land_Han_Solo</Death_SFXEvent_Start_Die>
+
+		<Death_Persistence_Duration> 5.0 </Death_Persistence_Duration>
+		<Death_Fade_Time>1.0</Death_Fade_Time>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>LUCKY_SHOT</Type>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<Projectile_Types_Override>Proj_Special_Hero_Incapacitate</Projectile_Types_Override>
+				<GUI_Activated_Ability_Name> Holchas_Incapacitate </GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability/>
+				<Supports_Autofire>True</Supports_Autofire>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_INCAPACITATE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_INCAPACITATE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_INCAPACITATE.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Speeder_Bomb_Radiation</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>4</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<Supports_Autofire>True</Supports_Autofire>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_UNTARGETED_STICKY_BOMB_RAD_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_UNTARGETED_STICKY_BOMB_RAD_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_DROP_BOMBRAD.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+			<Lucky_Shot_Attack_Ability Name="Holchas_Incapacitate">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We only consider the following unit types "valid targets" : -->
+				<Applicable_Unit_Categories>InfantryHero</Applicable_Unit_Categories>
+			</Lucky_Shot_Attack_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Holchas_Team">
+		<Text_ID>TEXT_HERO_HOLCHAS</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_HOLCHAS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HOLCHAS_HEALTH
+		TEXT_TOOLTIP_HOLCHAS_MOVE
+		TEXT_TOOLTIP_HOLCHAS_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_NOBLE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_holchas.tga</Icon_Name>
+		
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Damage>20</Damage>
+		<Affiliation>Independent_Forces</Affiliation>
+		
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Tech_Level>99</Tech_Level>
+		
+		<Required_Ground_Base_Level/>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures/>
+		
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>tank</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units> Holchas </Company_Units>
+		
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Score_Cost_Credits>180</Score_Cost_Credits>
+
+		<Population_Value>1</Population_Value>
+	</HeroCompany>
+</Other_Heroes>
