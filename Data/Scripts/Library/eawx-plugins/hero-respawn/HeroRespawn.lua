@@ -66,7 +66,7 @@ function HeroRespawn:on_galactic_hero_killed(hero_name, owner)
         self:start_cyber_trench_countdown()
     elseif hero_name == "ZOZRIDOR_SLAYKE_CARRACK" then
         self:slaykes_second_chance()
-	elseif hero_name == "ANAKIN_DARKSIDE" or hero_name == "VADER" or hero_name == "ANAKIN_DARKSIDE_TEAM" or hero_name == "VADER_TEAM" then
+	elseif hero_name == "ANAKIN_DARKSIDE_DEPLOYED_TEAM" or hero_name == "ANAKIN_DARKSIDE_TEAM" then
         --self:check_anakin_vader(hero_name)
         self:anakins_dark_suit(hero_name)
     elseif hero_name == "EXACTOR_ANAKIN_DARKSIDE" or hero_name == "EXACTOR_VADER" then
