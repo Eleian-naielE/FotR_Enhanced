@@ -3460,6 +3460,7 @@ TEXT_HERO_REFORM_HUNTER_SQUAEDRON,Reform Hunter Squadron
 TEXT_HERO_REFORM_SQUAD_SEVEN,Reform Squad Seven
 TEXT_HERO_RENAU,Renau
 TEXT_HERO_RENTHAL,Drea Renthal
+TEXT_HERO_REPAIR_VADER_SUIT,Repair Vader's Suit
 TEXT_HERO_RESHUL,Reshul
 TEXT_HERO_REX,Rex
 TEXT_HERO_RHYS_DALLOWS,Rhys Dallows
@@ -9115,7 +9116,8 @@ TEXT_SOUND_EFFECTS_VOLUME,Sound Effects Volume
 TEXT_SPACE_FLEETS,Space Fleets
 TEXT_SPACE_STATION,Station:
 TEXT_SPAIN,Spain
-TEXT_SPEECH_BLOCK_RETURNS_VIGILANCE,Admiral Block: Impressive... though it did cost my ship, General Kenobi's idea to self-destruct my ship did manage to deal a huge blow against the enemy at the last moment. - [Admiral Block has returned in control of the Venator-class, Vigilance].
+TEXT_SPEECH_ANAKIN_DARKSIDE_ESCAPED,Darth Vader: They thought destroying my ship would stop me? Prepare the troops, Commander. I want them crushed—every last one of them
+TEXT_SPEECH_BLOCK_RETURNS_VIGILANCE,Admiral Block: Close call... The Negotiator may be gone, but every life lost will be repaid!\n[Admiral Block has returned in control of the Venator-class, Vigilance].
 TEXT_SPEECH_BULWARK_UNLOCK,Unlocks: Bulwark-I Battlecruiser
 TEXT_SPEECH_BULWARK_UNLOCK2,New Hero: Dua Ningo (Bulwark-I)
 TEXT_SPEECH_BULWARK1_RESEARCH,Wat Tambor: The Techno Union has been developing a new set of battlecruisers from our shipyards at Foerost. Its firepower will mark a new chapter in this war and allow us to compete directly with the newer Republic capital ships. Our associates at Sullust have expressed interest as well, and one of their Home Guard officers has already volunteered to lead the initial fleet. If the Confederacy would be wise enough to invest in this project, I assure you the war will quickly turn in our favour.
@@ -9164,6 +9166,7 @@ TEXT_SPEECH_RESEARCH_VICTORY2_UNLOCK,Unlocks: Victory-II Star Destroyer
 TEXT_SPEECH_RESEARCH_VICTORY2_UNLOCK2,Sector Army Commander: Therbon
 TEXT_SPEECH_RESEARCH_VICTORY2_UNLOCK3,Fleet Officers: Voss Parck
 TEXT_SPEECH_TRENCH_RETURNS,Trench: The Republic thinks they have beaten me, but I have returned with a new flagship.\n[Trench has returned in control of a Providence Dreadnought].
+TEXT_SPEECH_VADER_ESCAPED,Darth Vader: They will pay for what they have done to my ship. Prepare the troops, Commander. I want no survivors.
 TEXT_SPEECH_VENATOR_RESEARCH,KDY Representative: The Navy is in dire need of a standardized command ship to combat the threats to our civilization. To show our commitment to the Chancellor, we at Kuat Drive Yards offer just such a ship, which will be substantially armed and able to host a vast number of fighters. This Venator-class will allow Republic officers to take the fight to the Separatists across all fronts, and KDY would be honored if you would sponsor it.
 TEXT_SPEECH_VENATOR_RESEARCH_FINISHED,KDY Representative: Development on the new capital ship has completed.\n[Venator Star Destroyer Unlocked]
 TEXT_SPEECH_VICTORY1_RESEARCH,Walex Blissex: With your approval, Rendili and Kuat have approached me about creating a new type of destroyer for Republic use, the Victory-class. Compared to the Venator's design as a carrier-destroyer, the Victory will serve as a dedicated planetary assault ship featuring numerous turbolasers and missile tubes. My talks with High Command assured me this 'Victor Initiative' will round out the Republic Navy's offensive power significantly, and Kuat Drive Yards and Rendili StarDrive have both expressed interest in developing the initial production line.
@@ -15473,6 +15476,7 @@ TEXT_TOOLTIP_REPAIR_HEALTH,Health: 100 (Structure)
 TEXT_TOOLTIP_REPAIR_SATELLITE_HEALING,Repair Station: 100 / 2.0s / 3.0km
 TEXT_TOOLTIP_REPAIR_SATELLITE_HULL,1500 (Heavy Frigate)
 TEXT_TOOLTIP_REPAIR_SATELLITE_SHIELD,Shields: 750 / [15/R] (Heavy Frigate)
+TEXT_TOOLTIP_REPAIR_VADER_SUIT,Repair Vader's damgaed suit.
 TEXT_TOOLTIP_REPAIR_VEHICLE_REPAIR,1x Vehicle Repair: 10 / 1.0s / 120m
 TEXT_TOOLTIP_REPUBLIC_HEAVY_TROOPER,Veteran Republic infantry formations given heavier weapons and field armor for more dangerous operations. Used for actions like heavy urban fighting, putting down rogue governments and warlords, and backing up Jedi for peacekeeping missions turned actual battle. Become less common as Special Tactics Troopers and later clone infantry are introduced. Effective against all but the heaviest unit types.
 TEXT_TOOLTIP_REPUBLIC_HEAVY_TROOPER_COMPANY,Company: 20x Republic Heavy Trooper
