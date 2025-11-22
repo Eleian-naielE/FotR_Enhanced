@@ -1331,7 +1331,7 @@
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_HERO_VORRU</Text_ID>
-		<Icon_Name>I_BUTTON_VORRU_CW_command_OLD.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_VORRU_CW_COMMNAD_OLD.tga</Icon_Name>
 
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_ASSIGN_REPUBLIC_MOFF
@@ -1355,7 +1355,7 @@
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_HERO_VORRU</Text_ID>
-		<Icon_Name>I_BUTTON_VORRU_CW_retire_OLD.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_VORRU_CW_RETIRE_OLD.tga</Icon_Name>
 
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_RETIRE_REPUBLIC_MOFF
