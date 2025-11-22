@@ -33,6 +33,7 @@ function HeroRespawn:new(herokilled_finished_event, human_player)
     herokilled_finished_event:attach_listener(self.on_galactic_hero_killed, self)
 	self.durge_chance = 105
 	self.dooku_second_chance_used = false
+	self.p_republic = Find_Player("Empire") 
 end
 
 function HeroRespawn:on_galactic_hero_killed(hero_name, owner)
@@ -159,11 +160,12 @@ end
 function HeroRespawn:anakins_dark_suit(hero_type)
     local respawn
     if TestValid(Find_First_Object("Exactor_Anakin_Darkside")) then
-        Find_First_Object("Exactor_Anakin_Darkside").Despawn()
-        respawn = StoryUtil.SpawnAtSafePlanet("CORUSCANT", p_republic, StoryUtil.GetSafePlanetTable(), {"Exactor_Vader"})
-        Find_Player("Empire").Lock_Tech(Find_Object_Type("Vader_Upgrade_Exactor"))
+        local flagship = Find_First_Object("Exactor_Anakin_Darkside")
+        local position = flagship.Get_Planet_Location()
+        flagship.Despawn()
+        respawn = StoryUtil.SpawnAtSafePlanet(position, p_republic, StoryUtil.GetSafePlanetTable(), {"Exactor_Vader"})
+        self.p_republic.Lock_Tech(Find_Object_Type("Vader_Upgrade_Exactor"))
     elseif TestValid(Find_First_Object("Exactor_Vader")) then
-        Find_First_Object("Exactor_Vader").Despawn()
         return
     elseif hero_type == "Vader_Team" then
         return
@@ -176,10 +178,10 @@ function HeroRespawn:anakins_dark_suit(hero_type)
 end
 
 function HeroRespawn:anakin_vader_escaped(hero_type)
-    local p_republic = Find_Player("Empire")
 	local planet = StoryUtil.FindFriendlyPlanet(p_republic)
     local respawn_type = "Anakin_Darkside_Team"
     local loop_type = "Anakin_Loop"
+    self.p_republic.Lock_Tech(Find_Object_Type("Vader_Upgrade_Exactor"))
     if hero_type == "EXACTOR_VADER" then
         respawn_type = "Vader_Team"
         loop_type = "Vader_Loop"

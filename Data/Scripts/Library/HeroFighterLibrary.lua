@@ -232,13 +232,14 @@ function Get_Hero_Entries(upgrade_object)
 			GroundReinforcementPerception = "Exactor_Anakin_Darkside_In_Orbit",
 			GroundCompany = "ANAKIN_DARKSIDE_DEPLOYED_TEAM",
 			Factions = {"Empire"},
-			DeathMessage = "TODO"
 		},
-		["DUMMY_VADER"] = {
+		["REBUILD_VADER_SUIT"] = {
 			NoInit = true,
 			GroundReinforcementPerception = "Exactor_Vader_In_Orbit",
 			GroundCompany = "VADER_DEPLOYED_TEAM",
 			Factions = {"Empire"},
+			NoSpawnFlag = "GROUND_VADER_DEAD",
+			DeathMessage = "TODO"
 		},
 
 		--CIS
