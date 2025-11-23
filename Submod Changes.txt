@@ -23,16 +23,26 @@ ________________________________________________________________________________
 *([[ ]]) means changes that are currently disabled
 
 
+
 ADDED STUFFS
 
 # New Units
 
 -Venator SPHA-T Refit
--- Upgradeble from normal Venator with Anakin in orbit on tier 3+ shipyards
+-- Upgradeble from normal Venator with Anakin in orbit on tier 3+ shipyards Era 4+
 --- Build limit lifetime of total 3
+--- Respawns as regular venators post Order 66
 
 -A6 Prototype
 
+
+-SPHAT
+
+
+-Wolfpack squads
+-- commander wolffe Phase 2 escort only
+--- Consists of 
+    
 
 -Umbaran Support Frigate(Influence) 
 --- Fleet Tender Available at Umbara at influence 8+
@@ -40,22 +50,41 @@ ADDED STUFFS
 -Umbaran fighter
 -- Spawns as Militia, Support Frigate loadout, influence militia
 
-
-
-[[-Republic's Decolorized military
---- All colorizable Ships/Ground units now have Grey "Decolorized" Version for order 66 swaps
---- Will also replace standard roster after order 66]]
-
+-Magna Tri Droid Missile Refit
+-- Replaces laser magna tri Era 4+
+-- Uses Custom made projectile type for missile
 
 
 # New Heroes
 
+[Rep]
+-Block
+-- Venator Negoiator, Vigilance(Respawn), Command Tier 6
+--- Ability : Ambush, Self destruct Ability(Negotiator)
+-- Destruction Survivor mechanic applied
+
+-Captain Jag
+-- ARC 170 squadron(space and ground), 127th gunship wing, Command tier 2
+--- Ground version escorted by his wingman, CT-57/11-9048(non-bonus hero)
+--- Available post Era 4 with venator research
+
+-Bythen Forral Fighter Hero
+-- Cloakshape squadron, Starfighter Specialist, 
+--- Available until Order 6X
+
+-Prudii Skirata
+-- ARC lieutenant, 
+-- 
+
+-Oppo Rancisis
+--- Always available, legion skin 327th star corp 
+
+-Flagship Upgrade for Darkside Anakin & Darth Vader
+-- Imperator Exactor, available on Kuat post Kuat Contract
+--- Ground version available as reinforcement when flagship is in orbit
+
 [[-Lorth Needa
 --- Carrick Cruiser Integrity, Command Tier 4, Always Available]]
-
--Block
---- Venator Negoiator, Vigilance(Respawn), Command Tier 4
---- Icon from Google
 
 [CIS]
 -TJ912
@@ -65,32 +94,82 @@ ADDED STUFFS
 --- spawns in Era 2 :  Yavin / Era 3 : Yagdhul / Era 5 : Raxus
 
 -TM-171
---- Dh Omni supply vessel, command tier 5
---- siege specialist trait
+--- Dh Omni supply vessel, command tier 3
 --- spawns in era 3 start and era 3 reward only
 
-# New Mechanic
-- Open Circle Fleet Officer
---- Has bonuses for OCF Venators(self appliable)
---- bonuses for 10% Health, 5% shield, -10% recharge time, 
+
+# New Mechanics
+
+
+
+[[-Republic's Decolorized military
+--- All colorizable Ships/Ground units now have Grey "Decolorized" Version for order 66 swaps
+--- Will also replace standard roster after order 66]
+
+
+
+
 
 CHANGES & ADJUSTMENTS
 
-# Units made available
--RX-200 falchion - build limit 4
--A6 juggernaut - build limit 4
--Senate Commando - available at galactic senate
--Clone marine - fully unlocked
--Protodeka - build limit 4
--SPHA-Ts unlocked
+# Category Mask
+-New infantry Category Mask : Droid, Organic(also applies to heroes)
+-- Droid infantry/heroes can now be affected by Emp blast, healed from vehicle repair center and immune to drain life ability
+-Related changes applied accordingly
 
-# Republic Hero limits increased
+# Darkside Anakin's Respawn mechanic
+-
+
+
+# Units made available/unavailable
+- UT-AT locked until 21bby Month 6
+
+
+# Republic Heroes
+-Limits
 -NOTE : All vacant limits(limits of affordable losses) increased to match the number of all available Heroes
--- Moff : 1 -> 2
--- Admiral 3 -> 5
 -- Jedi : 3 -> 4
 -- Clone Officer : 2 -> 5
 -- Clone Commando : 2 -> 3
--- Army Officers : 2 -> 3
+
+-Historical GC hero lists & limits
+-- ORS
+
+-- Screed starts as VSDI (victor fleet), can be respawned as gladiator
+
+-Cut Heroes
+-- Knol Vennari
+
+-Initially Locked Heroes
+-- Bythen Forral(Venator) : Available as fighter hero until Order 6X (automatically converts to venator)
+-- Locus Geen : locked until 21bby Month 6
+
+-New model for Padme 
+
+
+# Fighter Hero
+-Assignable Ships changed
+-- Arhul Narra : 
+-- Aron Onstall :
+-- Garven Dreis : 
+-- Nial Declann : 
+-- Odd Ball : 
+-- Rhys Dallows : 
+-- Shea Hublin : 
+-- Warthog :
+
+
+# Republic Shipmarket chance
+-- Imperator : 
+-- Tector : 
+
+
+# Icon Changes
+-Republic
+-- Autem(From the comic Republic)
+-- Vorru(changed to 1.4 version)
 
 # [[Count Dooku Able to build dark Acolyte(Dark Jedi from TR, Requires Dooku in orbit)]]
+
+[[-Senate Commando - available at galactic senate
+]]
