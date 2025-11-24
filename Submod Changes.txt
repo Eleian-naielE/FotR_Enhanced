@@ -170,7 +170,12 @@ CHANGES & ADJUSTMENTS
 -- Autem(From the comic Republic)
 -- Vorru(changed to 1.4 version)
 
+
+# Instant action
+- All new units added
+
 # [[Count Dooku Able to build dark Acolyte(Dark Jedi from TR, Requires Dooku in orbit)]]
+
 
 [[-Senate Commando - available at galactic senate
 ]]
