@@ -100,7 +100,8 @@ ADDED STUFFS
 
 # New Mechanics
 
-
+-Clone Phase2 Manual swap
+-- Upon Phase 2 upgrade, an upgrade dummy will be unlocked for each clone phase 1 units
 
 [[-Republic's Decolorized military
 --- All colorizable Ships/Ground units now have Grey "Decolorized" Version for order 66 swaps
