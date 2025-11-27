@@ -34,16 +34,20 @@ ADDED STUFFS
 --- Respawns as regular venators post Order 66
 
 -A6 Prototype
--- Stripped down weapons
---- 
+-- Stripped down, downgraded weapons, Undestroyble Hardpoints, 1 Pop cap
+--- Available through mission rewards in Era 2, 3
 
--SPHAT
-
+-SPHA-T
+-- Available in Era 2 as starting forces, mission rewards 
+--- Hardcoded starting forces on Geonosis
 
 -Wolfpack squads
 -- commander wolffe Phase 2 escort only
 --- Consists of 
-    
+    2x rifle, 2x carbine, Ion grenadier & rifle, 2x Ion grenadier & carbine, EMP & wrist rocket, LMG & wrist rocket
+
+-Red Guard
+-- Emperor Palpatine escort, Captial garrison only
 
 -Umbaran Support Frigate(Influence) 
 --- Fleet Tender Available at Umbara at influence 8+
@@ -74,15 +78,20 @@ ADDED STUFFS
 --- Available until Order 6X
 
 -Prudii Skirata
--- ARC lieutenant, 
--- 
+-- ARC lieutenant, Galactic Stealth, Tactical Stealth, Sticky Bomb
+--- Removed in Order 66
 
 -Oppo Rancisis
---- Always available, legion skin 327th star corp 
+-- Command Tier 9, 327th Star Corp Legion skin, Battle Meditation, Mind Trick
+--- Always available
 
 -Flagship Upgrade for Darkside Anakin & Darth Vader
 -- Imperator Exactor, available on Kuat post Kuat Contract
 --- Ground version available as reinforcement when flagship is in orbit
+
+-SPHA-T upgrade for Yularen Resolute(Not Integrity upgrade)
+-- Seperate upgrade for Yularen Resolute
+-- Respawns as Integrity if killed
 
 [[-Lorth Needa
 --- Carrick Cruiser Integrity, Command Tier 4, Always Available]]
@@ -94,16 +103,20 @@ ADDED STUFFS
 
 -TM-171
 --- Dh Omni supply vessel, command tier 3
---- spawns when progressed to Era 3
+--- Era 3 progression spawn
+
 
 # New Mechanics
 
 -Clone Phase2 Manual swap
 -- Upon Phase 2 upgrade, an upgrade dummy will be unlocked for each clone phase 1 units
 
-[[-Republic's Decolorized military
+[[
+-Republic's Decolorized military
 --- All colorizable Ships/Ground units now have Grey "Decolorized" Version for order 66 swaps
---- Will also replace standard roster after order 66]
+--- Will also replace standard roster after order 66
+]]
+
 
 
 
@@ -116,25 +129,38 @@ CHANGES & ADJUSTMENTS
 -- Droid infantry/heroes can now be affected by Emp blast, healed from vehicle repair center and immune to drain life ability
 -Related changes applied accordingly
 
-# Darkside Anakin's Respawn mechanic
--
-
+# Darkside Anakin's Respawn mechanics
+- If killed in flagship version in space, will respawn as ground only hero
+- If killed on ground as reinforcement, will respawn as Vader with Exactor intact
+- If killed as ground only hero, will respawn as Vader with Exactor upgrade available
+- If killed in flagship version in space as Vader, will respawn as ground only hero 
+- If killed on ground as Vader with Exactor, will be able to renabled like Grievous
 
 # Units made available/unavailable
 - UT-AT locked until 21bby Month 6
+- A5 Juggernaut locked (will come back with new mechanics for limited ground units)
 
 
 # Republic Heroes
 -Limits
 -NOTE : All vacant limits(limits of affordable losses) increased to match the number of all available Heroes
 -- Jedi : 3 -> 4
--- Clone Officer : 2 -> 5
+-- Clone Officer : 2 -> 3
 -- Clone Commando : 2 -> 3
 
--Historical GC hero lists & limits
--- ORS
+-Gradual increase of staff limits with tech research
+-- Venator research : +1 Admiral, +1 Moff
+-- Phase 2 research : +1 Commando
 
--- Screed starts as VSDI (victor fleet), can be respawned as gladiator
+-Historical GC hero lists & limits (in comparison to the original)
+-- ORS :
+    +1 Admiral, +1 Jedi
+    Wieler included as available
+
+-Venator research Era 4+ will lock Kilian
+
+-Screed starts as VSDI (victor fleet), can be respawned as gladiator
+
 
 -Cut Heroes
 -- Knol Vennari
@@ -148,19 +174,20 @@ CHANGES & ADJUSTMENTS
 
 # Fighter Hero
 -Assignable Ships changed
--- Arhul Narra : 
--- Aron Onstall :
--- Garven Dreis : 
--- Nial Declann : 
--- Odd Ball : 
--- Rhys Dallows : 
--- Shea Hublin : 
--- Warthog :
+-- Arhul Narra : Seerdon, Parck, Tarkin, Therbon
+-- Aron Onstall : Tallon, Grant, Autem, Tenant, Maarisa
+-- Garven Dreis : Grant, Ravik, Praji, Grumby, Screed
+-- Nial Declann : Baraka, Wessel, Pellaeon, Martz, Tallon
+-- Odd Ball : Yularen, Kilian, Block, Wessex
+-- Rhys Dallows : Hauser, Tenant, Dallin, Maarisa
+-- Shea Hublin : Trachta, Therbon, Ravik, Mulleen, Screed, Parck
+-- Warthog : Coburn, Dallin, Dodonna, Wieler, Kilian
 
 
 # Republic Shipmarket chance
--- Imperator : 
--- Tector : 
+-- Imperator : 5% -> 40%
+-- Imperator Assault : 1% -> 20%
+-- Tector : 5% -> 30%
 
 
 # Icon Changes
@@ -172,8 +199,15 @@ CHANGES & ADJUSTMENTS
 # Instant action
 - All new units added
 
+# Historical GC
+-ORS
+-- More Venator starting Forces for the Republic
+
 # [[Count Dooku Able to build dark Acolyte(Dark Jedi from TR, Requires Dooku in orbit)]]
 
 
 [[-Senate Commando - available at galactic senate
 ]]
+
+
+
