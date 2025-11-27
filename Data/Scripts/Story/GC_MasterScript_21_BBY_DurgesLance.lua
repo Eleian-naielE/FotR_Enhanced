@@ -234,7 +234,7 @@ function Historical_GC_Choice_Made(choice)
 			},
 			["JEDI"] = {
 				["LOCKIN"] = {"Mace","Plo"},
-				["EXIT"] = {"Aayla","Kit","Shaak","Ahsoka","Knol"},
+				["EXIT"] = {"Aayla","Kit","Shaak","Ahsoka",},
 			},
 		})
 

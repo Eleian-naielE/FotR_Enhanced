@@ -327,7 +327,7 @@ function Historical_GC_Choice_Made(choice)
 			},
 			["JEDI"] = {
 				["SLOT_ADJUST"] = -3,
-				["EXIT"] = {"Halcyon","Ahsoka","Barriss","Knol"},
+				["EXIT"] = {"Halcyon","Ahsoka","Barriss"},
 			},
 		})
 
