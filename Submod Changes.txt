@@ -34,7 +34,8 @@ ADDED STUFFS
 --- Respawns as regular venators post Order 66
 
 -A6 Prototype
-
+-- Stripped down weapons
+--- 
 
 -SPHAT
 
@@ -89,14 +90,11 @@ ADDED STUFFS
 [CIS]
 -TJ912
 --- Recusant light destroyer, Command Tier 4
---- slightly adjusted firing rate for light laser cannons
---- self made icon 
---- spawns in Era 2 :  Yavin / Era 3 : Yagdhul / Era 5 : Raxus
+--- Era 3 : Yagdhul / Era 4 : Sullust / Era 5 : Raxus
 
 -TM-171
 --- Dh Omni supply vessel, command tier 3
---- spawns in era 3 start and era 3 reward only
-
+--- spawns when progressed to Era 3
 
 # New Mechanics
 
