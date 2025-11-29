@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Campaigns>
+<Campaigns> <!-- FotR_Enhanced ; SPHA_T Starting Forces on Geonosis -->
   <Campaign Name="Known_Galaxy_Medium_Era_2_Empire">
     <Campaign_Set>Known_Galaxy_Medium_Era_2</Campaign_Set>
     <Sort_Order>3</Sort_Order>

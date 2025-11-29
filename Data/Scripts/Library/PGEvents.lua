@@ -42,7 +42,7 @@
 --
 -- Default Event Handlers.
 --
-
+-- FotR_Enhanced ; implemented organic categorymask
 require("PGTaskForce")
 
 function TaskForce_Attack_Move(tf, player, target)

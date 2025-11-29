@@ -347,4 +347,7 @@ return {
     ,TM171_DH_OMNI={nil, true}
     ,ROHN_TEAM = {nil, false}
     ,YULAREN_RESOLUTE_SPHAT = {nil, true}
+	,OPPO_RANCISIS_TEAM = {nil, false}
+	,EXACTOR_ANAKIN_DARKSIDE = {nil, true}
+	,EXACTOR_VADER = {nil, true}
 }
