@@ -410,6 +410,8 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <Starting_Forces>Sector_Forces, Garos, Generate_Force</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Empire_Office</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, E_Ground_Barracks</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_A5RX_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_Gaba18_Company</Starting_Forces>
@@ -891,6 +893,8 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <Starting_Forces>Sector_Forces, Garos, Generate_Force</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Empire_Office</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, E_Ground_Barracks</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_A5RX_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_Gaba18_Company</Starting_Forces>
@@ -1372,6 +1376,8 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <Starting_Forces>Sector_Forces, Garos, Generate_Force</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Empire_Office</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, E_Ground_Barracks</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_A5RX_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_Gaba18_Company</Starting_Forces>
