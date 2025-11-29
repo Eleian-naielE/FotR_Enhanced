@@ -7,6 +7,7 @@ return {
 		survivor_speech = "Wullf Yularen: The ship is lost! I repeat, the ship is lost! Calling in immediate evac at the current location!\n[Admiral Yularen has escaped the battle].",
 		survivor_holo = "Piett_Loop",
 	},
+	-- FotR_Enhanced
 	["DESTRUCTION_SURVIVOR_BLOCK_NU_SHUTTLE"] = {
 		survivor_speech = "Block: The ship is lost! I repeat, the ship is lost! Calling in immediate evac at the current location!\n[Admiral Block has escaped the battle].",
 		survivor_holo = "Piett_Loop",

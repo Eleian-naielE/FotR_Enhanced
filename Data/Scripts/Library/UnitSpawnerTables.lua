@@ -165,10 +165,12 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"Republic_AT_AP_Walker_Company", 1, StartYear = -19}
 				,{"Republic_A5RX_Company", 0.2, StartYear = -22}
 				,{"Republic_A5_Juggernaut_Company", 1, StartYear = -22}
-				,{"UT_AT_Speeder_Company", 1, StartYear = -21}
+				,{"UT_AT_Speeder_Company", 1, StartYear = -21} -- FotR_Enhanced ; mathced with roster update 21BBY M6
 				,{"Republic_AT_TE_Walker_Company", 1, StartYear = -22}
 				,{"Republic_Gian_Company", 1, LastYear = -21}
+				-- FotR_Enhanced
 				,{"SPHA_T_Company", 1, LastYear = -22}
+				,{"Republic_A6_Prototype_Company", 0.5, StartYear = -21, LastYear = -20}
 			},
 			Groundbase_Table = {
 				"E_Ground_Barracks",
@@ -830,10 +832,10 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"Republic_VAAT_Company", 0.25}
 				,{"Republic_A4_Juggernaut_Company", 2, LastYear = -23}
 				,{"Republic_A5_Juggernaut_Company", 2, StartYear = -22}
-				,{"Republic_A6_Juggernaut_Company", 1, StartYear = -22}
+				,{"Republic_A6_Juggernaut_Company", 1, StartYear = -20} -- FotR_Enhanced ; moved to 20bby
 				,{"RX200_Falchion_Company", 0.5, StartYear = -22}
 				,{"Republic_A5RX_Company", 2, StartYear = -22}
-				,{"UT_AT_Speeder_Company", 1, StartYear = -22}
+				,{"UT_AT_Speeder_Company", 1, StartYear = -20} -- FotR_Enhanced ; mathced with roster update 21BBY M6
 				,{"Republic_AT_TE_Walker_Company", 0.5, StartYear = -22}
 				,{"AT_OT_Walker_Company", 2, StartYear = -19}
 				,{"Republic_AT_AP_Walker_Company", 2, StartYear = -19}

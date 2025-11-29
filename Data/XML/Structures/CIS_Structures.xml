@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ASCII'?>
 <CIS_Structures>
 
-	<SpecialStructure Name="CIS_Capital"> <!-- TEXT_TOOLTIP_CAPITAL_CIS_13 Needs Text Work -->
+	<SpecialStructure Name="CIS_Capital"> <!-- FotR_Enhanced ; magna guard garrison-->
 
 		<Variant_Of_Existing_Type>Template_Faction_Capital</Variant_Of_Existing_Type>
 

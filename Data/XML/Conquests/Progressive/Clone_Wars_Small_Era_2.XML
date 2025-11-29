@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Campaigns>
+<Campaigns> <!-- FotR_Enhanced ; SPHA_T Starting Forces on Geonosis -->
   <Campaign Name="Clone_Wars_Small_Era_2_Empire">
     <Campaign_Set>Clone_Wars_Small_Era_2</Campaign_Set>
     <Sort_Order>3</Sort_Order>
@@ -13,7 +13,8 @@
     <Camera_Shift_X>0.0</Camera_Shift_X>
     <Camera_Shift_Y>0.0</Camera_Shift_Y>
     <Camera_Distance>1000.0</Camera_Distance>
-    <Locations>
+    
+	<Locations>
 			Aargonar,
 			Abregado_Rae,
 			Agamar,
@@ -95,8 +96,9 @@
 			Vaklin,
 			YagDhul,
 			Yavin,
-</Locations>
-    <Trade_Routes>
+	</Locations>
+    
+	<Trade_Routes>
 			Aargonar_Azure,
 			Aargonar_Charros,
 			Aargonar_Maridun,
@@ -246,8 +248,9 @@
 			Sullust_Tibrin,
 			Thule_Yavin,
 			Vaklin_YagDhul,
-</Trade_Routes>
-    <Starting_Active_Player>Empire</Starting_Active_Player>
+	</Trade_Routes>
+    
+	<Starting_Active_Player>Empire</Starting_Active_Player>
     <AI_Player_Control>Banking_Clan, None</AI_Player_Control>
     <AI_Player_Control>Commerce_Guild, None</AI_Player_Control>
     <AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
@@ -260,7 +263,8 @@
     <AI_Player_Control>Techno_Union, None</AI_Player_Control>
     <AI_Player_Control>Trade_Federation, None</AI_Player_Control>
     <AI_Player_Control>Underworld, None</AI_Player_Control>
-    <Markup_Filename>Banking_Clan, DefaultGalacticHints</Markup_Filename>
+    
+	<Markup_Filename>Banking_Clan, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Commerce_Guild, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
@@ -272,13 +276,18 @@
     <Markup_Filename>Techno_Union, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Trade_Federation, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
-    <Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
+    
+	<Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
     <AI_Victory_Conditions>Galactic_All_Planets_Controlled</AI_Victory_Conditions>
-    <Story_Name>Rebel, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_CIS.xml,
-Empire, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Republic.xml,
-Hutt_Cartels, Conquests\Story_Plots_Generic_Hutt_Cartels.xml,
-Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</Story_Name>
-    <Starting_Credits>Banking_Clan, 10000</Starting_Credits>
+    
+	<Story_Name>
+		Rebel, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_CIS.xml,
+		Empire, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Republic.xml,
+		Hutt_Cartels, Conquests\Story_Plots_Generic_Hutt_Cartels.xml,
+		Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml
+	</Story_Name>
+    
+	<Starting_Credits>Banking_Clan, 10000</Starting_Credits>
     <Starting_Tech_Level>Banking_Clan, 1</Starting_Tech_Level>
     <Max_Tech_Level>Banking_Clan, 5</Max_Tech_Level>
     <Starting_Credits>Commerce_Guild, 10000</Starting_Credits>
@@ -362,6 +371,8 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <Starting_Forces>Techno_Union, Fondor, Generate_Force</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Empire_Office</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, E_Ground_Barracks</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_A5RX_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_Gaba18_Company</Starting_Forces>
@@ -422,6 +433,7 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <Starting_Forces>Rebel, YagDhul, Generate_Force</Starting_Forces>
     <Starting_Forces>Rebel, Yavin, Generate_Force</Starting_Forces>
   </Campaign>
+  
   <Campaign Name="Clone_Wars_Small_Era_2_Hutt_Cartels">
     <Campaign_Set>Clone_Wars_Small_Era_2</Campaign_Set>
     <Sort_Order>3</Sort_Order>
@@ -435,7 +447,8 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <Camera_Shift_X>0.0</Camera_Shift_X>
     <Camera_Shift_Y>0.0</Camera_Shift_Y>
     <Camera_Distance>1000.0</Camera_Distance>
-    <Locations>
+    
+	<Locations>
 			Aargonar,
 			Abregado_Rae,
 			Agamar,
@@ -517,8 +530,9 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
 			Vaklin,
 			YagDhul,
 			Yavin,
-</Locations>
-    <Trade_Routes>
+	</Locations>
+    
+	<Trade_Routes>
 			Aargonar_Azure,
 			Aargonar_Charros,
 			Aargonar_Maridun,
@@ -668,8 +682,9 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
 			Sullust_Tibrin,
 			Thule_Yavin,
 			Vaklin_YagDhul,
-</Trade_Routes>
-    <Starting_Active_Player>Hutt_Cartels</Starting_Active_Player>
+	</Trade_Routes>
+    
+	<Starting_Active_Player>Hutt_Cartels</Starting_Active_Player>
     <AI_Player_Control>Banking_Clan, None</AI_Player_Control>
     <AI_Player_Control>Commerce_Guild, None</AI_Player_Control>
     <AI_Player_Control>Empire, None</AI_Player_Control>
@@ -682,7 +697,8 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <AI_Player_Control>Techno_Union, None</AI_Player_Control>
     <AI_Player_Control>Trade_Federation, None</AI_Player_Control>
     <AI_Player_Control>Underworld, None</AI_Player_Control>
-    <Markup_Filename>Banking_Clan, DefaultGalacticHints</Markup_Filename>
+    
+	<Markup_Filename>Banking_Clan, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Commerce_Guild, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
@@ -694,13 +710,18 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <Markup_Filename>Techno_Union, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Trade_Federation, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
-    <Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
+    
+	<Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
     <AI_Victory_Conditions>Galactic_All_Planets_Controlled</AI_Victory_Conditions>
-    <Story_Name>Rebel, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_CIS.xml,
-Empire, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Republic.xml,
-Hutt_Cartels, Conquests\Story_Plots_Generic_Hutt_Cartels.xml,
-Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</Story_Name>
-    <Starting_Credits>Banking_Clan, 10000</Starting_Credits>
+    
+	<Story_Name>
+		Rebel, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_CIS.xml,
+		Empire, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Republic.xml,
+		Hutt_Cartels, Conquests\Story_Plots_Generic_Hutt_Cartels.xml,
+		Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml
+	</Story_Name>
+    
+	<Starting_Credits>Banking_Clan, 10000</Starting_Credits>
     <Starting_Tech_Level>Banking_Clan, 1</Starting_Tech_Level>
     <Max_Tech_Level>Banking_Clan, 5</Max_Tech_Level>
     <Starting_Credits>Commerce_Guild, 10000</Starting_Credits>
@@ -736,7 +757,8 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <Starting_Credits>Underworld, 10000</Starting_Credits>
     <Starting_Tech_Level>Underworld, 1</Starting_Tech_Level>
     <Max_Tech_Level>Underworld, 5</Max_Tech_Level>
-    <Starting_Forces>Rebel, Aargonar, Generate_Force</Starting_Forces>
+    
+	<Starting_Forces>Rebel, Aargonar, Generate_Force</Starting_Forces>
     <Starting_Forces>Rebel, Aargonar, Era_Two_Dummy</Starting_Forces>
     <Starting_Forces>Empire, Abregado_Rae, Generate_Force</Starting_Forces>
     <Starting_Forces>Rebel, Agamar, Generate_Force</Starting_Forces>
@@ -784,6 +806,8 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <Starting_Forces>Techno_Union, Fondor, Generate_Force</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Empire_Office</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, E_Ground_Barracks</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_A5RX_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_Gaba18_Company</Starting_Forces>
@@ -844,6 +868,7 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <Starting_Forces>Rebel, YagDhul, Generate_Force</Starting_Forces>
     <Starting_Forces>Rebel, Yavin, Generate_Force</Starting_Forces>
   </Campaign>
+  
   <Campaign Name="Clone_Wars_Small_Era_2_Rebel">
     <Campaign_Set>Clone_Wars_Small_Era_2</Campaign_Set>
     <Sort_Order>3</Sort_Order>
@@ -939,8 +964,9 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
 			Vaklin,
 			YagDhul,
 			Yavin,
-</Locations>
-    <Trade_Routes>
+	</Locations>
+    
+	<Trade_Routes>
 			Aargonar_Azure,
 			Aargonar_Charros,
 			Aargonar_Maridun,
@@ -1090,8 +1116,9 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
 			Sullust_Tibrin,
 			Thule_Yavin,
 			Vaklin_YagDhul,
-</Trade_Routes>
-    <Starting_Active_Player>Rebel</Starting_Active_Player>
+	</Trade_Routes>
+    
+	<Starting_Active_Player>Rebel</Starting_Active_Player>
     <AI_Player_Control>Banking_Clan, None</AI_Player_Control>
     <AI_Player_Control>Commerce_Guild, None</AI_Player_Control>
     <AI_Player_Control>Empire, None</AI_Player_Control>
@@ -1104,7 +1131,8 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <AI_Player_Control>Techno_Union, None</AI_Player_Control>
     <AI_Player_Control>Trade_Federation, None</AI_Player_Control>
     <AI_Player_Control>Underworld, None</AI_Player_Control>
-    <Markup_Filename>Banking_Clan, DefaultGalacticHints</Markup_Filename>
+    
+	<Markup_Filename>Banking_Clan, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Commerce_Guild, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
@@ -1116,13 +1144,18 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <Markup_Filename>Techno_Union, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Trade_Federation, DefaultGalacticHints</Markup_Filename>
     <Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
-    <Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
+    
+	<Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
     <AI_Victory_Conditions>Galactic_All_Planets_Controlled</AI_Victory_Conditions>
-    <Story_Name>Rebel, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_CIS.xml,
-Empire, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Republic.xml,
-Hutt_Cartels, Conquests\Story_Plots_Generic_Hutt_Cartels.xml,
-Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</Story_Name>
-    <Starting_Credits>Banking_Clan, 10000</Starting_Credits>
+    
+	<Story_Name>
+		Rebel, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_CIS.xml,
+		Empire, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Republic.xml,
+		Hutt_Cartels, Conquests\Story_Plots_Generic_Hutt_Cartels.xml,
+		Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml
+	</Story_Name>
+    
+	<Starting_Credits>Banking_Clan, 10000</Starting_Credits>
     <Starting_Tech_Level>Banking_Clan, 1</Starting_Tech_Level>
     <Max_Tech_Level>Banking_Clan, 5</Max_Tech_Level>
     <Starting_Credits>Commerce_Guild, 10000</Starting_Credits>
@@ -1158,7 +1191,8 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <Starting_Credits>Underworld, 10000</Starting_Credits>
     <Starting_Tech_Level>Underworld, 1</Starting_Tech_Level>
     <Max_Tech_Level>Underworld, 5</Max_Tech_Level>
-    <Starting_Forces>Rebel, Aargonar, Generate_Force</Starting_Forces>
+    
+	<Starting_Forces>Rebel, Aargonar, Generate_Force</Starting_Forces>
     <Starting_Forces>Rebel, Aargonar, Era_Two_Dummy</Starting_Forces>
     <Starting_Forces>Empire, Abregado_Rae, Generate_Force</Starting_Forces>
     <Starting_Forces>Rebel, Agamar, Generate_Force</Starting_Forces>
@@ -1206,6 +1240,8 @@ Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml</S
     <Starting_Forces>Techno_Union, Fondor, Generate_Force</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Empire_Office</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, E_Ground_Barracks</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_A5RX_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_Gaba18_Company</Starting_Forces>

@@ -38,7 +38,7 @@
 --          $Revision: #6 $
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
-
+-- FotR_Enhanced ; implemented organic categorymask
 require("PGAICommands")
 
 function FindStageArea(_target, taskforce)

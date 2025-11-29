@@ -222,7 +222,7 @@ function Historical_GC_Choice_Made(choice)
 			["JEDI"] = {
 				["SLOT_ADJUST"] = -1,
 				["LOCKIN"] = {"Halcyon","Yoda"},
-				["EXIT"] = {"Aayla","Kit","Shaak","Ahsoka","Knol"},
+				["EXIT"] = {"Aayla","Kit","Shaak","Ahsoka",},
 			},
 		})
 

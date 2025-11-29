@@ -25,7 +25,7 @@
 
 	<File>HardPoints\SSDs\Hardpoints_Mandator.xml</File>
 	<File>HardPoints\SSDs\Hardpoints_Mandator_II.xml</File>
-
+	<!-- FotR_Enhanced -->
 	<File>HardPoints\HardPoints_FotR_Enhanced.xml</File>
 
 </Hard_Point_Files>

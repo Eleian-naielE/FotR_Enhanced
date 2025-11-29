@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
 <!-- Dynamic enum definition for GameObjectCategoryType  -->
+<!-- FotR_Enhanced ; Droid, Organic Category Added -->
 <EnumDefinition>
 
 	<Fighter>			0x0000000000000001		</Fighter>

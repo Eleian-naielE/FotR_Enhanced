@@ -204,6 +204,8 @@
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Death_Clone>
+	
+<!-- FotR_Enhanced -->
 
 	<Death_Clone Name="Umbaran_Frigate_Death_Clone">
 		<Space_Model_Name>CIS_Frigate_D.alo</Space_Model_Name>

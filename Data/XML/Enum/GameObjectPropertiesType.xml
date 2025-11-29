@@ -1,4 +1,5 @@
 <?xml version="1.0" ?>
+<!-- FotR_Enhanced ; HealsDroids, HelasOrganic Property Added -->
 <EnumDefinition>
 
 	<HealsOrganics>			0x00000001	</HealsOrganics>

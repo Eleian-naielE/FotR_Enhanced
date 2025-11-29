@@ -57,15 +57,17 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	crossplot:subscribe("VICTORY2_HEROES", self.Victory2_Heroes, self)
 
 	crossplot:subscribe("SENATE_CHOICE_MADE", self.Senate_Choice_Handler, self)
-	--FotR_Enhanced
+	-- FotR_Enhanced
 	--crossplot:subscribe("DALLIN_UNLLOCK", self.Dallin_Unlock, self)
 	crossplot:subscribe("GEEN_UNLOCK", self.Geen_Unlock, self)
-	--FotR_Enhanced 
+	-- FotR_Enhanced 
 	--Changes : 
-	--	Admiral : Yularen Resolute SPHAT variant added, Forral venator will be unlocked post Order 6X, Screed initial flagship reverted to Victory Fleet,, Gladiator as respawn option
+	--	Admiral : New Hero : Block(Venator), Yularen Resolute SPHAT, 
+	-- 			Forral venator will be unlocked post Order 6X, Screed initial flagship reverted to Victory Fleet, Gladiator as respawn option
 	--	Commando : Prudii Skirata added
 	--	General : Geen locked until ut-at research
-	--	Jedi : Oppo Rancisis added
+	--	Jedi : Oppo Rancisis added, Knol removed
+	--	Fighter : Jag(ARC170), Forral(Cloakshpe) added
 
 	admiral_data = {
 		total_slots = 3,       --Max number of concurrent slots. Set at the start of the GC and never change.
@@ -910,14 +912,14 @@ function RepublicHeroes:Phase_II()
 	Phase_II_Checked = true
 end
 
-function RepublicHeroes:Venator_Heroes()
+function RepublicHeroes:Venator_Heroes() -- FotR_Enhanced ; admiral, moff slot increment, block/forral/kilian
 	--Logger:trace("entering RepublicHeroes:Venator_Heroes")
 	if not Venator_init then
 		local tech_level = GlobalValue.Get("CURRENT_ERA")
 		Handle_Hero_Add("Yularen", admiral_data)
 		Handle_Hero_Add("Wieler", admiral_data)
 		Handle_Hero_Add("Coburn", admiral_data)
-		if tech_level <=3 then
+		if tech_level <=3 then -- FotR_Enhanced
 			Handle_Hero_Add("Kilian", admiral_data)
 		end
 		if tech_level <= 2 then

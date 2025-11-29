@@ -189,7 +189,7 @@ function Historical_GC_Choice_Made(choice)
 			},
 			["JEDI"] = {
 				["SLOT_ADJUST"] = -3,
-				["EXIT"] = {"Aayla","Ahsoka","Kit","Mace","Shaak","Yoda","Halcyon","Knol"},
+				["EXIT"] = {"Aayla","Ahsoka","Kit","Mace","Shaak","Yoda","Halcyon", },
 			},
 		})
 

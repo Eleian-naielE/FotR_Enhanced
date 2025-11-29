@@ -66,7 +66,7 @@ return {
 					order = 5,
 				},
 
-				--KDY_CONTRACT
+				--KDY_CONTRACT -- FotR_Enhanced ; tector and imperator variants chance adjusted
 				["SECUTOR_STAR_DESTROYER"] = {
 					locked = true,
 					gc_locked = false,
