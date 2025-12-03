@@ -29,6 +29,8 @@ TEXT_HERO_REPAIR_VADER_SUIT,Repair Vader's Suit
 TEXT_HERO_ROHN,Rohn
 TEXT_HERO_TJ912,TJ-912
 TEXT_HERO_TM171,TM-171
+TEXT_PHASE_II_MANUAL_UPGRADE_DESCRIPTION,Upgrades clones who were in hyperspace during the initial upgrade to phase 2. 
+TEXT_PHASE_II_MANUAL_UPGRADE_WARNING, NOTE : This effect is galaxy wide and it will lock once there's no Phase 1 Clones left.
 TEXT_SPEECH_ANAKIN_DARKSIDE_ESCAPED,Darth Vader: They thought destroying my ship would stop me? Prepare the troops, Commander. I want them crushed—every last one of them
 TEXT_SPEECH_BLOCK_RETURNS_VIGILANCE,Admiral Block: Close call... The Negotiator may be gone, but every life lost will be repaid!\n[Admiral Block has returned in control of the Venator-class, Vigilance].
 TEXT_SPEECH_CONQUER_RENDILI_REP_FINISHED,
@@ -137,6 +139,7 @@ TEXT_UNIT_DARK_ACOLYTE,Dark Acolyte
 TEXT_UNIT_DARK_ACOLYTE_COMPANY,Dark Acolyte Squad
 TEXT_UNIT_MAGNATRI_MISSILE,Magna Octuptarra Droid (Ordnance)
 TEXT_UNIT_MAGNATRI_MISSILE_COMPANY,Magna Octuptarra Droid Company (Ordnance)
+TEXT_UNIT_PHASE2_MANUAL_UPGRADE,Phase 2 Armour Upgrade
 TEXT_UNIT_RED_GUARD,Red Guard
 TEXT_UNIT_UMBARAN_FIGHTER,Zenuas 33 Umbaran Starfighter
 TEXT_UNIT_UMBARAN_FIGHTER_SQUADRON,Zenuas 33 Umbaran Starfighter Squadron

@@ -6257,6 +6257,8 @@ TEXT_PA_STAMINA_BOOST,Officer Academy
 TEXT_PARTICLE_DETAIL,Particles Detail
 TEXT_PASSWORDED_GAME,Password Required
 TEXT_PATCH_REQUEST_TEXT,A new update is available and required for Internet play, would you like to download the update?
+TEXT_PHASE_II_MANUAL_UPGRADE_DESCRIPTION,Upgrades clones who were in hyperspace during the initial upgrade to phase 2. 
+TEXT_PHASE_II_MANUAL_UPGRADE_WARNING, NOTE : This effect is galaxy wide and it will lock once there's no Phase 1 Clones left.
 TEXT_PIRATE_BASE,Pirate Refuge Base
 TEXT_PIRATE_LAND_GARRISON,Garrison
 TEXT_PIRATE_PLEX_SQUAD,Missile Soldier Team
@@ -18216,6 +18218,7 @@ TEXT_UNIT_PHASE_TWO_PLATOON,Clone Trooper Platoon (Phase II)
 TEXT_UNIT_PHASE_TWO_RIFLEMAN,Clone Trooper Rifleman (Phase II)
 TEXT_UNIT_PHASE_TWO_RIFLEMAN_GRENADIER,Clone Trooper Rifleman Grenadier (Phase II)
 TEXT_UNIT_PHASE_TWO_SQUAD,Clone Trooper Squad (Phase II)
+TEXT_UNIT_PHASE2_MANUAL_UPGRADE,Phase 2 Armour Upgrade
 TEXT_UNIT_PIRATE_PLEX,Pirate Missile Soldier
 TEXT_UNIT_PIRATE_SOLDIER,Pirate Soldier
 TEXT_UNIT_POLICE_RESPONDER,Police Enforcer Carbineer
