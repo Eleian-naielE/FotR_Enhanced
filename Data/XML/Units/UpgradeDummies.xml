@@ -140,200 +140,33 @@
 
 	</DummyStructure>
 
-	<DummyStructure Name="CT_P2_Manual_Upgrade">
+	<DummyStructure Name="Phase2_Manual_Upgrade">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 		<GUI_Row>0</GUI_Row>
 
 		<Population_Value>0</Population_Value>
-		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
 		<Build_Time_Seconds>2</Build_Time_Seconds>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		
-		<Text_ID>TEXT_UNIT_CLONE_P2_MANUAL_UPGRADE</Text_ID>
-		<Lua_Script>DelayedSelfDelete</Lua_Script>
+		<Text_ID>TEXT_RESEARCH_PHASE2_MANUAL_UPGRADE</Text_ID>
+		<Lua_Script>Clone_Trooper_II_Swap_Manual</Lua_Script>
 		<Affiliation>Empire</Affiliation>
-		<Icon_Name>I_BUTTON_CLONE_P2_MANUAL_UPGRADE.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RESEARCH_CLONE_P2.tga</Icon_Name>
 
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
-		<Encyclopedia_Text> 
-			
+		<Encyclopedia_Text>
+			TEXT_PHASE_II_MANUAL_UPGRADE_DESCRIPTION
+			TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+			TEXT_PHASE_II_MANUAL_UPGRADE_WARNING
 		</Encyclopedia_Text>
 
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
 		
-		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy </Required_Special_Structures>
-		<Required_Orbiting_Units>Clonetrooper_Phase_One_Company</Required_Orbiting_Units>
-	</DummyStructure>
-
-	<DummyStructure Name="ARC_P2_Manual_Upgrade">
-		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
-		<GUI_Row>0</GUI_Row>
-
-		<Population_Value>0</Population_Value>
-		<Build_Cost_Credits>1000</Build_Cost_Credits>
-		<Build_Time_Seconds>2</Build_Time_Seconds>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<AI_Combat_Power>1000</AI_Combat_Power>
-		
-		<Text_ID>TEXT_UNIT_ARC_P2_MANUAL_UPGRADE</Text_ID>
-		<Lua_Script>DelayedSelfDelete</Lua_Script>
-		<Affiliation>Empire</Affiliation>
-		<Icon_Name>I_BUTTON_ARC_P2_MANUAL_UPGRADE.tga</Icon_Name>
-
-		<Tech_Level>3</Tech_Level>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-		<Encyclopedia_Text> 
-			
-		</Encyclopedia_Text>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
-		
-		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy </Required_Special_Structures>
-		<Required_Orbiting_Units>ARC_Phase_One_Company</Required_Orbiting_Units>
-	</DummyStructure>
-
-	<DummyStructure Name="Barc_Manual_Upgrade">
-		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
-		<GUI_Row>0</GUI_Row>
-
-		<Population_Value>0</Population_Value>
-		<Build_Cost_Credits>1000</Build_Cost_Credits>
-		<Build_Time_Seconds>2</Build_Time_Seconds>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<AI_Combat_Power>1000</AI_Combat_Power>
-		
-		<Text_ID>TEXT_UNIT_BARC_MANUAL_UPGRADE</Text_ID>
-		<Lua_Script>DelayedSelfDelete</Lua_Script>
-		<Affiliation>Empire</Affiliation>
-		<Icon_Name>I_BUTTON_BARC_MANUAL_UPGRADE.tga</Icon_Name>
-
-		<Tech_Level>3</Tech_Level>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-		<Encyclopedia_Text> 
-			
-		</Encyclopedia_Text>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
-		
-		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy </Required_Special_Structures>
-		<Required_Orbiting_Units>Republic_74Z_Bike_Company</Required_Orbiting_Units>
-	</DummyStructure>
-
-	<DummyStructure Name="JT_P2_Manual_Upgrade">
-		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
-		<GUI_Row>0</GUI_Row>
-
-		<Population_Value>0</Population_Value>
-		<Build_Cost_Credits>1000</Build_Cost_Credits>
-		<Build_Time_Seconds>2</Build_Time_Seconds>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<AI_Combat_Power>1000</AI_Combat_Power>
-		
-		<Text_ID>TEXT_UNIT_JUMPTROOPER_P2_MANUAL_UPGRADE</Text_ID>
-		<Lua_Script>DelayedSelfDelete</Lua_Script>
-		<Affiliation>Empire</Affiliation>
-		<Icon_Name>I_BUTTON_JUMPTROOPER_P2_MANUAL_UPGRADE.tga</Icon_Name>
-
-		<Tech_Level>3</Tech_Level>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-		<Encyclopedia_Text> 
-			
-		</Encyclopedia_Text>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
-		
-		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy </Required_Special_Structures>
-		<Required_Orbiting_Units>Clone_Jumptrooper_Phase_One_Company</Required_Orbiting_Units>
-	</DummyStructure>
-
-	<DummyStructure Name="CT_Commander_Manual_Upgrade">
-		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
-		<GUI_Row>0</GUI_Row>
-
-		<Population_Value>0</Population_Value>
-		<Build_Cost_Credits>1000</Build_Cost_Credits>
-		<Build_Time_Seconds>2</Build_Time_Seconds>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<AI_Combat_Power>1000</AI_Combat_Power>
-		
-		<Text_ID>TEXT_UNIT_CLONE_COMMANDER_MANUAL_UPGRADE</Text_ID>
-		<Lua_Script>DelayedSelfDelete</Lua_Script>
-		<Affiliation>Empire</Affiliation>
-		<Icon_Name>I_BUTTON_CLONE_COMMANDER_MANUAL_UPGRADE.tga</Icon_Name>
-
-		<Tech_Level>3</Tech_Level>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-		<Encyclopedia_Text> 
-			
-		</Encyclopedia_Text>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
-		
-		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy </Required_Special_Structures>
-		<Required_Orbiting_Units>Commander_Tier_I_Clone_Phase_One_Company</Required_Orbiting_Units>
-	</DummyStructure>
-
-	<DummyStructure Name="ARC_Commander_Manual_Upgrade">
-		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
-		<GUI_Row>0</GUI_Row>
-
-		<Population_Value>0</Population_Value>
-		<Build_Cost_Credits>1000</Build_Cost_Credits>
-		<Build_Time_Seconds>2</Build_Time_Seconds>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<AI_Combat_Power>1000</AI_Combat_Power>
-		
-		<Text_ID>TEXT_UNIT_ARC_COMMANDER_MANUAL_UPGRADE</Text_ID>
-		<Lua_Script>DelayedSelfDelete</Lua_Script>
-		<Affiliation>Empire</Affiliation>
-		<Icon_Name>I_BUTTON_ARC_COMMANDER_MANUAL_UPGRADE.tga</Icon_Name>
-
-		<Tech_Level>3</Tech_Level>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-		<Encyclopedia_Text> 
-			
-		</Encyclopedia_Text>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
-		
-		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy </Required_Special_Structures>
-		<Required_Orbiting_Units>Commander_Tier_I_ARC_Phase_One_Company</Required_Orbiting_Units>
-	</DummyStructure>
-
-	<DummyStructure Name="BARC_Commander_Manual_Upgrade">
-		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
-		<GUI_Row>0</GUI_Row>
-
-		<Population_Value>0</Population_Value>
-		<Build_Cost_Credits>1000</Build_Cost_Credits>
-		<Build_Time_Seconds>2</Build_Time_Seconds>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<AI_Combat_Power>1000</AI_Combat_Power>
-		
-		<Text_ID>TEXT_UNIT_BARC_COMMANDER_MANUAL_UPGRADE</Text_ID>
-		<Lua_Script>DelayedSelfDelete</Lua_Script>
-		<Affiliation>Empire</Affiliation>
-		<Icon_Name>I_BUTTON_BARC_COMMANDER_MANUAL_UPGRADE.tga</Icon_Name>
-
-		<Tech_Level>3</Tech_Level>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-		<Encyclopedia_Text> 
-			
-		</Encyclopedia_Text>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
-		
-		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy </Required_Special_Structures>
-		<Required_Orbiting_Units>Commander_Tier_IV_Republic_74Z_Speeder_Bike_Company</Required_Orbiting_Units>
+		<Required_Special_Structures>AI_Category_Dummy | Options_Category_Dummy </Required_Special_Structures>
 	</DummyStructure>
 
 	<!-- CIS -->

@@ -213,7 +213,7 @@
 		<Build_Cost_Credits>13500</Build_Cost_Credits>
 		<Build_Time_Seconds>100</Build_Time_Seconds>
 
-		<!--<Lua_Script>Clone_Trooper_II_Swap</Lua_Script>-->
+		<Lua_Script>Clone_Trooper_II_Swap</Lua_Script>
 
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 
