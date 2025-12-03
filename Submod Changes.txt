@@ -109,7 +109,8 @@ ADDED STUFFS
 # New Mechanics
 
 -Clone Phase2 Manual swap
--- Upon Phase 2 upgrade, an upgrade dummy will be unlocked for each clone phase 1 units
+-- Upon Phase 2 upgrade, a a galactic upgrade dummy for clones in hyperspace during phase 2 research will be unlocked.
+--- Locks if no Phase 1 clones are left
 
 [[
 -Republic's Decolorized military
