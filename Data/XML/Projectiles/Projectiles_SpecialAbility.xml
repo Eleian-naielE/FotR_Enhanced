@@ -166,7 +166,7 @@
 		<Projectile_Stun_Duration_Frames>600</Projectile_Stun_Duration_Frames>
 		<Projectile_Stun_Radius>150</Projectile_Stun_Radius>
 		<Projectile_Stun_Spawn_Effect> Han_Solo_Target_Stun_Effect </Projectile_Stun_Spawn_Effect>
-		<Projectile_Stun_Victims_Category_Mask> Droids | Vehicle | VehicleHero | Structure </Projectile_Stun_Victims_Category_Mask>
+		<Projectile_Stun_Victims_Category_Mask> Droid | Vehicle | VehicleHero | Structure </Projectile_Stun_Victims_Category_Mask>
 		<Projectile_Stun_Victims_Unit_Types/>
 	</Projectile>
 
