@@ -7,10 +7,7 @@ return {
 			DEFAULT = {Initial = 1, Reserve = 3}
 		},
 		["BOMBER"] = {
-			DEFAULT = {Initial = 1, Reserve = 4}
-		},
-		["HEAVY_BOMBER"] = {
-			DEFAULT = {Initial = 1, Reserve = 3}
+			DEFAULT = {Initial = 2, Reserve = 7}
 		}
 	},
 	FighterFlags = {"V_WING_MISSILE"},
