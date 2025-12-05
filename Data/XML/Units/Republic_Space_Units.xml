@@ -611,6 +611,20 @@
 
 	<SpaceUnit Name="Charger_C70">
 		<Variant_Of_Existing_Type>Template_Charger_C70</Variant_Of_Existing_Type>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_C70
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_C70_HULL 
+			TEXT_TOOLTIP_C70_SHIELD
+			TEXT_TOOLTIP_C70_MOVE 
+			TEXT_TOOLTIP_C70_WEAP1
+			TEXT_TOOLTIP_C70_WEAP2
+			TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+			TEXT_TOOLTIP_C70_PD
+			TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+			TEXT_TOOLTIP_FLEET_LEGIONS
+			TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
 		<Affiliation> Empire</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
