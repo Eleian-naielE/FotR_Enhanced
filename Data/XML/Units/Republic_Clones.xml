@@ -2982,6 +2982,8 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
+		<Lua_Script>ObjectScript_ARC_LimitHandler</Lua_Script>
+
 		<Affiliation>Empire</Affiliation>
 		<Political_Control/>
 
@@ -3580,6 +3582,8 @@
 
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Lua_Script>ObjectScript_ARC_LimitHandler</Lua_Script>
 
 		<Affiliation>Empire</Affiliation>
 		<Political_Control/>
