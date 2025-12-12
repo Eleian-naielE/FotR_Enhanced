@@ -2524,7 +2524,7 @@
 
 
 	<!-- ARC Troopers -->
-
+	<!-- FotR_Enhanced ; ARC Rework -->
 	<GroundInfantry Name="ARC_Phase_One">
 		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>

@@ -368,6 +368,9 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 			crossplot:publish("CLONE_UPGRADES", "empty")
 			GlobalValue.Set("CURRENT_CLONE_PHASE", 2)
 		end
+		if GlobalValue.Get("ARC_LIFETIME_LIMIT") == 0 then
+			UnitUtil.SetLockList("EMPIRE", {"ARC_PHASE_TWO_COMPANY"}, false)
+		end
 	end
 end
 
