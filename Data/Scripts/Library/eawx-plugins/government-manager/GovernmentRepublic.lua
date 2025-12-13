@@ -376,7 +376,7 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 		liftime = liftime -1
 		if liftime <= 0 then
 			if not game_object_type_name.Get_Type().Is_Build_Locked(self.RepublicPlayer) then
-				UnitUtil.SetLockList(game_object_type_name)
+				UnitUtil.SetLockList('EMPIRE', {game_object_type_name}, false)
 				return
 			end
 			local dummy_name = game_object_type_name.."_DUMMY"
