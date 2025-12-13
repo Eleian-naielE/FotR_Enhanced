@@ -9,7 +9,7 @@ return {
         --Logger:trace("entering fotr-progressive-era-five:on_enter")
 
         GlobalValue.Set("CURRENT_ERA", 5)
-        GlobalValue.Set("ARC_LIFTTIME_LIMIT", 15)
+        GlobalValue.Set("ARC_LIFETIME_LIMIT", 15)
 
         self.HoldoutEvent = false
 
