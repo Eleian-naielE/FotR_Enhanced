@@ -11,7 +11,7 @@
 			<Parameter Name="Land_Terrain_Model_Mapping" Type="52"/>
 			<Parameter Name="Space_Model_Name" Type="23"/>
 			<Parameter Name="Land_Model_Anim_Override_Name" Type="23"/>
-	<Parameter Name="Space_Model_Anim_Override_Name" Type="23"/>
+			<Parameter Name="Space_Model_Anim_Override_Name" Type="23"/>
 			<Parameter Name="LOD_Bias" Type="8"/>
 			<Parameter Name="Text_ID" Type="23"/>
 			<Parameter Name="Mass" Type="8"/>
@@ -39,7 +39,7 @@
 			<Parameter Name="PathFrameDelay" Type="5"/>
 			<Parameter Name="Is_Dummy" Type="0"/>
 			<Parameter Name="Is_Marker" Type="0"/>
-<Parameter Name="Is_Editor_Placed" Type="0"/>
+			<Parameter Name="Is_Editor_Placed" Type="0"/>
 			<Parameter Name="Is_Named_Hero" Type="0"/>
 			<Parameter Name="Is_Generic_Hero" Type="0"/>
 			<Parameter Name="Is_Force_Sensitive" Type="0"/>
@@ -55,7 +55,7 @@
 			<Parameter Name="Respawn_Whole_Team_When_Killed" Type="0"/>
 			<Parameter Name="Is_Skirmish_Tactical_Super_Weapon" Type="0"/>
 			<Parameter Name="Show_Hero_Head" Type="0"/>
-<Parameter Name="Is_Affected_By_Gravity_Control_Field" Type="0"/>
+			<Parameter Name="Is_Affected_By_Gravity_Control_Field" Type="0"/>
 			<Parameter Name="Is_Super_Weapon_Killer" Type="0"/>
 			<Parameter Name="Always_Spawn_In_Orbit" Type="0"/>
 			<Parameter Name="Cinematic_Object_Only" Type="0"/>
@@ -198,7 +198,7 @@
 			<Parameter Name="Tactical_Build_Cost_Multiplayer" Type="6"/>
 			<Parameter Name="Tactical_Build_Time_Seconds" Type="5"/>
 			<Parameter Name="Tactical_Build_Start_Lower_Z" Type="8"/>
-<Parameter Name="Tactical_Sell_Percentage" Type="8"/>
+			<Parameter Name="Tactical_Sell_Percentage" Type="8"/>
 			<Parameter Name="Minimum_Time_Before_Pad_Can_Build_Again" Type="8"/>
 			<Parameter Name="Tactically_Built_Child_Object_Persists" Type="0"/>
 			<Parameter Name="Tactical_Build_Attachment_Bone_Name" Type="23"/>
@@ -709,8 +709,8 @@
 			<Parameter Name="Hides_When_Built_On" Type="0"/>
 			<Parameter Name="Destroy_When_Child_Dies" Type="0"/>
 			<Parameter Name="Tactical_Respawn_Time_In_Secs" Type="8"/>
-<Parameter Name="Shield_Normal_Color" Type="17"/>
-<Parameter Name="Shield_Upgraded_Color" Type="17"/>
+			<Parameter Name="Shield_Normal_Color" Type="17"/>
+			<Parameter Name="Shield_Upgraded_Color" Type="17"/>
 			<Parameter Name="Base_Shield_Radius" Type="8"/>
 			<Parameter Name="Base_Shield_Penetration_Particle" Type="29"/>
 			<Parameter Name="Base_Shield_Always_Off" Type="0"/>
