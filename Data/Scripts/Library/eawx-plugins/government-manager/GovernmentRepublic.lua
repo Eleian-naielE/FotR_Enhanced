@@ -372,9 +372,9 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 			UnitUtil.SetLockList("EMPIRE", {"ARC_PHASE_TWO_COMPANY"}, false)
 		end
 	elseif game_object_type_name == "ARC_PHASE_ONE_COMPANY" or game_object_type_name == "ARC_PHASE_TWO_COMPANY" then -- FotR_Enhanced
-		local liftime = GlobalValue.Get("ARC_LIFETIME_LIMIT")
-		liftime = liftime -1
-		if liftime <= 0 then
+		local lifetime = GlobalValue.Get("ARC_LIFETIME_LIMIT")
+		lifetime = lifetime -1
+		if lifetime <= 0 then
 			if not game_object_type_name.Get_Type().Is_Build_Locked(self.RepublicPlayer) then
 				UnitUtil.SetLockList('EMPIRE', {game_object_type_name}, false)
 				return
@@ -383,8 +383,10 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 			self.RepublicPlayer.Give_Money(game_object_type_name.Get_Type().Get_Build_Cost())
 			local last_spawned = Find_First_Object(dummy_name)
 			last_spawned.Despawn()
+			return
 		end
-		GlobalValue.Set("ARC_LIFETIME_LIMIT", liftime)
+		GlobalValue.Set("ARC_LIFETIME_LIMIT", lifetime)
+		StoryUtil.ShowScreenText("ARC Spawned"..tostring(lifetime) , 10)
 	end
 end
 
