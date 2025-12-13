@@ -12,10 +12,10 @@ return {
 	["NIGHTSISTER_SITH_WITCH_COMPANY"] = {
 		current_limit = 3,
 	},
-	
+	--[[
 	["ARC_PHASE_TWO_COMPANY"] = {
 		current_limit = GlobalValue.Get("ARC_LIFETIME_LIMIT"), 
 		lifetime_limit = GlobalValue.Get("ARC_LIFETIME_LIMIT"),
 	}
-	
+	]]
 }

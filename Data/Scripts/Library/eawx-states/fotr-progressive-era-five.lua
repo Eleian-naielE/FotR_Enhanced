@@ -9,7 +9,6 @@ return {
         --Logger:trace("entering fotr-progressive-era-five:on_enter")
 
         GlobalValue.Set("CURRENT_ERA", 5)
-        GlobalValue.Set("ARC_LIFETIME_LIMIT", 15)
 
         self.HoldoutEvent = false
 
@@ -20,6 +19,7 @@ return {
         self.plot = Get_Story_Plot("Conquests\\Events\\EventLogRepository.xml")
 
         if self.entry_time <= 5 then
+            GlobalValue.Set("ARC_LIFETIME_LIMIT", 15) -- FotR_Enhanced
             if Find_Player("local") == Find_Player("Empire") then
                 StoryUtil.Multimedia("TEXT_STORY_INTRO_PROGRESSIVE_REPUBLIC_PALPATINE_ERA_5", 15, nil, "PalpatineFotR_Loop", 0)
                 Story_Event("CLONE_WARS_19BBY_REPUBLIC_START")
