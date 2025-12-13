@@ -375,7 +375,7 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 		local liftime = GlobalValue.Get("ARC_LIFETIME_LIMIT")
 		liftime = liftime -1
 		if liftime <= 0 then
-			if not game_object_type_name.Is_Build_Locked(self.RepublicPlayer) then
+			if not game_object_type_name.Get_Type().Is_Build_Locked(self.RepublicPlayer) then
 				UnitUtil.SetLockList(game_object_type_name)
 				return
 			end
