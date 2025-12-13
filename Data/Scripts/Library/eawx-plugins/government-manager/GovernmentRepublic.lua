@@ -373,14 +373,15 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 		end
 	elseif game_object_type_name == "ARC_PHASE_ONE_COMPANY" or game_object_type_name == "ARC_PHASE_TWO_COMPANY" then -- FotR_Enhanced
 		local lifetime = GlobalValue.Get("ARC_LIFETIME_LIMIT")
+		local object_type = Find_Object_Type(game_object_type_name)
 		lifetime = lifetime -1
 		if lifetime <= 0 then
-			if not game_object_type_name.Get_Type().Is_Build_Locked(self.RepublicPlayer) then
+			if not object_type.Is_Build_Locked(self.RepublicPlayer) then
 				UnitUtil.SetLockList('EMPIRE', {game_object_type_name}, false)
 				return
 			end
 			local dummy_name = game_object_type_name.."_DUMMY"
-			self.RepublicPlayer.Give_Money(game_object_type_name.Get_Type().Get_Build_Cost())
+			self.RepublicPlayer.Give_Money(object_type.Get_Build_Cost())
 			local last_spawned = Find_First_Object(dummy_name)
 			last_spawned.Despawn()
 			return
