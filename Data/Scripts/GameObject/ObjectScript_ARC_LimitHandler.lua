@@ -10,6 +10,7 @@ function State_Init(message)
 	end
 
 	if message == OnEnter then
+		--[[ 
 		Owner = Object.Get_Owner()
 		local check = TestValid(GlobalValue.Get("ARC_LIFETIME_LIMIT"))
 		if not check then
@@ -29,6 +30,8 @@ function State_Init(message)
 			Owner.Lock_Tech(Object.Get_Type())	
 		end
         GlobalValue.Set("ARC_LIFETIME_LIMIT", total_left)
+		]]
+		StoryUtil.ShowScreenText("ARC Company Spawned", 20)
+		ScriptExit()
 	end
-	ScriptExit()
 end
