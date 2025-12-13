@@ -36,8 +36,9 @@ function State_Init(message)
         end
         
         if lock_tech then
-            Object.Lock_Tech()
+            Find_Player("Empire").Lock_Tech(Object.Get_Type())
         end
+        Object.Despawn()
 		ScriptExit()
 	end
 end

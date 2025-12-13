@@ -8914,6 +8914,7 @@ TEXT_RESEARCH_MALEVOLENCE_2_DESCRIPTION,Upgrades General Grievous to his newest 
 TEXT_RESEARCH_MALEVOLENCE_2_NAME,Research: Malevolence II
 TEXT_RESEARCH_MINING_OPERATION_DESCRIPTION,Establish a mining operation on Christophsis in order to harvest crystals that will power the Devastation.
 TEXT_RESEARCH_MINING_OPERATION_NAME,Research: Crystal Mining Operation
+TEXT_RESEARCH_PHASE2_MANUAL_UPGRADE,Phase 2 Manual Upgrade
 TEXT_RESEARCH_PROVIDENCE_DESCRIPTION,Completing this research option unleashes the Providence Carrier/Destroyer.
 TEXT_RESEARCH_PROVIDENCE_NAME,Research: Providence Carrier/Destroyer
 TEXT_RESEARCH_REPUBLIC_FIGHTER_DESCRIPTION,Completing this research option equips Carracks, CEC Light Cruisers and Dreadnaught Heavy Cruisers with external racks for additional fighters.

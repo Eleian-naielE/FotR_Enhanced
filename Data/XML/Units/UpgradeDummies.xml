@@ -142,7 +142,7 @@
 
 	<DummyStructure Name="Phase2_Manual_Upgrade">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
-		<GUI_Row>0</GUI_Row>
+		<GUI_Row>1</GUI_Row>
 
 		<Population_Value>0</Population_Value>
 		<Build_Cost_Credits>1</Build_Cost_Credits>
