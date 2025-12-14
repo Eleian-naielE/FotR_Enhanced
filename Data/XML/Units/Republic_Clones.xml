@@ -3,6 +3,8 @@
 
 	<!-- Clone Troopers -->
 
+	<!-- Phase 1 -->
+
 	<GroundInfantry Name="Clone_Phase_One">
 		<Text_ID>TEXT_UNIT_PHASE_ONE_RIFLEMAN</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
@@ -1123,6 +1125,7 @@
 		</Unit_Abilities_Data>
 	</Container>
 
+	<!-- Phase 2 -->
 
 	<GroundInfantry Name="Clone_Phase_Two">
 		<Variant_Of_Existing_Type>Clone_Phase_One</Variant_Of_Existing_Type>
@@ -2523,10 +2526,12 @@
 	</Container>
 
 
-	<!-- ARC Troopers -->
-	<!-- FotR_Enhanced ; ARC Rework -->
+	<!-- ARC Troopers --> <!-- FotR_Enhanced ; ARC Rework -->
+	
+	<!-- Phase 1 -->
+
 	<GroundInfantry Name="ARC_Phase_One">
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_ALPHA</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
@@ -2781,7 +2786,7 @@
 
 	<GroundInfantry Name="ARC_Phase_One_Gunner_Heavy">
 		<Variant_Of_Existing_Type>ARC_Phase_One</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARC_PHASE_ONE_GUNNER_HEAVY</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_PHASE_ONE_GUNNER_HEAVY_ALPHA</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -2809,7 +2814,7 @@
 
 	<GroundInfantry Name="ARC_Phase_One_Plex">
 		<Variant_Of_Existing_Type>ARC_Phase_One</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARC_PHASE_ONE_AT_HEAVY</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_PHASE_ONE_AT_HEAVY_ALPHA</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -2838,7 +2843,7 @@
 	</GroundInfantry>
 
 	<GroundInfantry Name="ARC_Phase_One_Observer">
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_OFFICER</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_OFFICER_ALPHA</Text_ID>
 		<Variant_Of_Existing_Type>ARC_Phase_One</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
@@ -2887,7 +2892,7 @@
 	</GroundInfantry>
 
 	<GroundInfantry Name="ARC_Phase_One_Officer">
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_OFFICER</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_OFFICER_ALPHA</Text_ID>
 		<Variant_Of_Existing_Type>ARC_Phase_One_Observer</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
@@ -2935,7 +2940,7 @@
 
 	<GroundCompany Name="ARC_Phase_One_Company">
 
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_COMPANY</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_ALPHA_COMPANY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
@@ -2957,6 +2962,9 @@
 		TEXT_TOOLTIP_ARC_TROOPER_COMPANY_WEAP11
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_LINK_P1
+		TEXT_TOOLTIP_BUILDLIMIT_ARC_TROOPER
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_CLONE_ARC_P1.tga</Icon_Name>
 
@@ -3011,7 +3019,7 @@
 	</GroundCompany>
 
 	<GroundCompany Name="ARC_Phase_One_Main_Squad">
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_OFFICER_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_OFFICER_ALPHA_SQUAD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_ARC_TROOPER
@@ -3038,7 +3046,7 @@
 
 	<GroundCompany Name="ARC_Phase_One_Squad">
 		<Variant_Of_Existing_Type>ARC_Phase_One_Main_Squad</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_ALPHA_SQUAD</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -3060,7 +3068,7 @@
 
 	<GroundCompany Name="ARC_Phase_One_Heavy_Squad">
 		<Variant_Of_Existing_Type>ARC_Phase_One_Main_Squad</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_HEAVY_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_HEAVY_ALPHA_SQUAD</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -3083,7 +3091,7 @@
 
 	<Container Name="ARC_Phase_One_Main_Container">
 
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_OFFICER_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_OFFICER_ALPHA_SQUAD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
@@ -3163,7 +3171,7 @@
 
 	<Container Name="ARC_Phase_One_Container">
 
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_ALPHA_SQUAD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
@@ -3260,7 +3268,7 @@
 
 	<Container Name="ARC_Phase_One_Heavy_Container">
 
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_HEAVY_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_HEAVY_ALPHA_SQUAD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
@@ -3354,10 +3362,11 @@
 		</Abilities>
 	</Container>
 
+	<!-- Phase 2 -->
 
 	<GroundInfantry Name="ARC_Phase_Two">
 		<Variant_Of_Existing_Type>ARC_Phase_One</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_ALPHA</Text_ID>
 		<Land_Model_Name>arc_clone_phase2.ALO</Land_Model_Name>
 		<Tactical_Health>50</Tactical_Health>
 		<Encyclopedia_Text>
@@ -3384,7 +3393,7 @@
 
 	<GroundInfantry Name="ARC_Phase_Two_Gunner_Heavy">
 		<Variant_Of_Existing_Type>ARC_Phase_Two</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARC_PHASE_TWO_GUNNER_HEAVY</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_PHASE_TWO_GUNNER_HEAVY_ALPHA</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -3411,7 +3420,7 @@
 
 	<GroundInfantry Name="ARC_Phase_Two_Plex">
 		<Variant_Of_Existing_Type>ARC_Phase_Two</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARC_PHASE_TWO_AT_HEAVY</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_PHASE_TWO_AT_HEAVY_ALPHA</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -3439,7 +3448,7 @@
 	</GroundInfantry>
 
 	<GroundInfantry Name="ARC_Phase_Two_Observer">
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_OFFICER</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA</Text_ID>
 		<Variant_Of_Existing_Type>ARC_Phase_Two</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER 
@@ -3488,7 +3497,7 @@
 	</GroundInfantry>
 
 	<GroundInfantry Name="ARC_Phase_Two_Officer">
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_OFFICER</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA</Text_ID>
 		<Variant_Of_Existing_Type>ARC_Phase_Two_Observer</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER 
@@ -3536,7 +3545,7 @@
 
 	<GroundCompany Name="ARC_Phase_Two_Company">
 
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_COMPANY</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_ALPHA_COMPANY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
@@ -3558,6 +3567,9 @@
 		TEXT_TOOLTIP_ARC_TROOPER_COMPANY_WEAP11
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_LINK_P2
+		TEXT_TOOLTIP_BUILDLIMIT_ARC_TROOPER
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_CLONE_ARC_P2.tga</Icon_Name>
 
@@ -3611,7 +3623,7 @@
 	</GroundCompany>
 
 	<GroundCompany Name="ARC_Phase_Two_Main_Squad">
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_OFFICER_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA_SQUAD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_ARC_TROOPER
@@ -3638,7 +3650,7 @@
 
 	<GroundCompany Name="ARC_Phase_Two_Squad">
 		<Variant_Of_Existing_Type>ARC_Phase_Two_Main_Squad</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_ALPHA_SQUAD</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -3660,7 +3672,7 @@
 
 	<GroundCompany Name="ARC_Phase_Two_Heavy_Squad">
 		<Variant_Of_Existing_Type>ARC_Phase_Two_Main_Squad</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_HEAVY_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_HEAVY_ALPHA_SQUAD</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -3683,7 +3695,7 @@
 
 	<Container Name="ARC_Phase_Two_Main_Container">
 
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_OFFICER_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA_SQUAD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
@@ -3763,7 +3775,7 @@
 
 	<Container Name="ARC_Phase_Two_Container">
 
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_ALPHA_SQUAD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
@@ -3860,7 +3872,7 @@
 
 	<Container Name="ARC_Phase_Two_Heavy_Container">
 
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_HEAVY_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_HEAVY_ALPHA_SQUAD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ARC_TROOPER
@@ -4467,6 +4479,8 @@
 
 	<!-- Clone Jumptroopers -->
 
+	<!-- Phase 1 -->
+
 	<GroundInfantry Name="Clone_Jumptrooper_Phase_One">
 
 		<Text_ID>TEXT_UNIT_CLONE_JUMPTROOPER_P1</Text_ID>
@@ -4887,6 +4901,8 @@
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 	</Container>
 
+
+	<!-- Phase 2 -->
 
 	<GroundInfantry Name="Clone_Jumptrooper_Phase_Two_EMP">
 		<Variant_Of_Existing_Type>Clone_Jumptrooper_Phase_One</Variant_Of_Existing_Type>
@@ -6022,6 +6038,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
+
 
 	<!-- Clone Vehicular Assault Troopers -->
 
@@ -11460,5 +11477,19 @@
 
 		</Unit_Abilities_Data>
 	</Container>
+
+	<!-- ARC Inductees -->
+
+	<!-- Phase 1 -->
+	<GroundInfantry Name="ARC_Phase_One_Inductee">
+		<Variant_Of_Existing_Type>ARC_Phase_One</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARC_PHASE_ONE_INDUCTEE</Text_ID>
+		<Encyclopedia_Text>
+		
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Icon_Name></Icon_Name>
+		<Land_Model_Name></Land_Model_Name>
+	</GroundInfantry>
 
 </Republic_Clones>
