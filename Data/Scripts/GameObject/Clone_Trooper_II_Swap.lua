@@ -16,8 +16,8 @@ function State_Init(message)
 			ScriptExit()
 		end
 		local phase_one = {
-            "Clonetrooper_Phase_One_Company", "ARC_Phase_One_Company", "Republic_74Z_Bike_Company", "Clone_Jumptrooper_Phase_One_Company", 
-            "Commander_Tier_I_Clone_Phase_One_Company", "Commander_Tier_I_ARC_Phase_One_Company", "Commander_Tier_IV_Republic_74Z_Speeder_Bike_Company"
+            "Clonetrooper_Phase_One_Company_Dummy", "ARC_Phase_One_Company_Dummy", "Republic_74Z_Bike_Company_Dummy", "Clone_Jumptrooper_Phase_One_Company_Dummy", 
+            "Commander_Tier_I_Clone_Phase_One", "Commander_Tier_I_ARC_Phase_One", "Commander_Tier_IV_Republic_74Z_Speeder_Bike"
         }
         local phase_two = {
             "Clonetrooper_Phase_Two_Company", "ARC_Phase_Two_Company", "Republic_BARC_Company", "Clone_Jumptrooper_Phase_Two_Company", 
