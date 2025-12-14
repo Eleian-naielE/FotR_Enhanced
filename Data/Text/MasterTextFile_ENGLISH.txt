@@ -1223,7 +1223,7 @@ TEXT_DOCUMENTATION_BODY_INFLUENCE_FIGHTERS_GEONOSIS,Geonosis: Nantex, Kolivex at
 TEXT_DOCUMENTATION_BODY_INFLUENCE_FIGHTERS_MANDALORIAN,Mandalorian worlds: Firespray, Firespray Gunship at 9+ Influence
 TEXT_DOCUMENTATION_BODY_INFLUENCE_FIGHTERS_MANDALORIAN_WORLDS,Mandalorian worlds: Concord Dawn, Mandalore, Ordo, Vorpaya, Zanbar
 TEXT_DOCUMENTATION_BODY_INFLUENCE_FIGHTERS_NABOO,Naboo: N-1, G-1 at 9+ Influence
-TEXT_DOCUMENTATION_BODY_INFLUENCE_FIGHTERS_UMBARA,Umbara: Umbaran Fighter at 8+ Influence
+TEXT_DOCUMENTATION_BODY_INFLUENCE_FIGHTERS_UMBARA,Umbara: Zenuas 33
 TEXT_DOCUMENTATION_BODY_INFLUENCE_GROUND_STRUCTURE,All Ground Structure Slots Full: +1
 TEXT_DOCUMENTATION_BODY_INFLUENCE_LOCAL,Local Government: +1
 TEXT_DOCUMENTATION_BODY_INFLUENCE_LOCAL_INFRASTRUCTURE,Local Development Structure: +2
@@ -1231,7 +1231,7 @@ TEXT_DOCUMENTATION_BODY_INFLUENCE_LOYALTY_PLANET_GEONOSIS,Geonosis: Base Influen
 TEXT_DOCUMENTATION_BODY_INFLUENCE_LOYALTY_PLANET_KASHYYYK,Kashyyyk: Base Influence 3 if not Galactic Republic
 TEXT_DOCUMENTATION_BODY_INFLUENCE_LOYALTY_PLANET_NAL_HUTTA,Nal Hutta: Base Influence 3 if not Hutt Cartels
 TEXT_DOCUMENTATION_BODY_INFLUENCE_PLANET_TD_FACTORY,CIS Factory worlds: Can gain Tactical Droid minor heroes (ground and space) from Factory at 4 influence and higher (CIS)
-TEXT_DOCUMENTATION_BODY_INFLUENCE_PLANET_UMBARA_FOTR,Umbara: Can build Umbaran Support Frigate at 8+ influence.
+TEXT_DOCUMENTATION_BODY_INFLUENCE_PLANET_UMBARA_FOTR,Umbara: Can build Umbaran Support Frigate at 7+ influence.
 TEXT_DOCUMENTATION_BODY_INFLUENCE_SPACE_STRUCTURE,All Space Structure Slots Full: +1 (Max out main starbase level and also have Economic, Construction & Secondary Defense stations)
 TEXT_DOCUMENTATION_BODY_INTERVENTION_MISSION_BUILDSTRUCTURESGROUND,Increased Production: Build specified ground structures
 TEXT_DOCUMENTATION_BODY_INTERVENTION_MISSION_BUILDSTRUCTURESSPACE,Strengthen Defences: Build specified space structures
@@ -8592,6 +8592,7 @@ TEXT_PLANET_INFO_UMARENK_HISTORY,Umaren'k was a planet located in the Umaren'k s
 TEXT_PLANET_INFO_UMARENK_POPULATION,Native: Umaren'k'sa\nImmigrated: Hemes Arbora
 TEXT_PLANET_INFO_UMBARA_FAUNA,Banshee | Gladiopod | Mantorr | Skeeris | Slybex | Vixian Mauler | Vixus
 TEXT_PLANET_INFO_UMBARA_HISTORY,Informally known as the "Shadow World", Umbara is a perpetually darkened planet in the realm of the Ghost Nebula. Umbara has a mixed history of galactic allegiance; a member of the Republic since its earliest days but also spending considerable periods under Sith influence, such as under the New Sith Empire and later the Brotherhood of Darkness when the planet hosted a Sith assassin training academy.
+TEXT_PLANET_INFO_UMBARA_INFLUENCE_REWARD,• Unlocks Umbaran Hover Tanks and Umbaran Support Frigate at 7+ influence
 TEXT_PLANET_INFO_UMBARA_POPULATION,Native: Umbaran\n55 Million
 TEXT_PLANET_INFO_URCH_FAUNA,Various
 TEXT_PLANET_INFO_URCH_HISTORY,Urch was a terrestrial planet located in the Unknown Regions Urch system, to the north east of the Chiss Ascendancy.  Urch was the capital planet of the Tower Dimension, the nation of the sentient Urchiv-ki species. Urch Planetary and Space Control controlled space traffic in the system. Around 19 BBY the Nikardun Destiny, the hegemony of the Nikardun species, subjugated Urch and the Tower Dimension.
@@ -16772,6 +16773,20 @@ TEXT_TOOLTIP_UMBARAN_FRIGATE_SUPPORT_TENDER,Fleet Tender: 50 / 2.0s / 1.9km
 TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP1,2x Medium Turbolasers 2 / 1.5s / 5.6km
 TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP2,2x Heavy Laser Cannons 2 / 1.0s / 4.8km
 TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP3,6x Rhazer Missiles 4 / 5.0s / 4.1km
+TEXT_TOOLTIP_UMBARAN_HOVER_TANK,This unusual tank provides devastating plasma fire at long ranges. It is rarely seen outside the shadowy world of Umbara, but forms the first line of defense for any assaults that do make landfall.
+TEXT_TOOLTIP_UMBARAN_HOVER_TANK_COMPANY,Company: 3x Umbaran Hover Tank
+TEXT_TOOLTIP_UMBARAN_HOVER_TANK_HEALTH,Health: 250 (Heavy Vehicle)
+TEXT_TOOLTIP_UMBARAN_HOVER_TANK_MOVE,Speed: 2.5 | Turn: 3.0 
+TEXT_TOOLTIP_UMBARAN_HOVER_TANK_SHIELD,Shields: 50 / [3/R] (Light Vehicle)
+TEXT_TOOLTIP_UMBARAN_HOVER_TANK_WEAP1,2x Heavy Plasma Cannon: 1 / 2.0s / 400m
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER,The relative isolation of Umbara has produced a distinct starfighter tradition. The top of the line Zenuas 33 uses flexible wing vanes and an unconventional control to produce an extremely agile craft that can quickly deliver firepower at any angle, making for a dangerous territorial defense night fighter.
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_BASE,Health: 10 | Shields: 5
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_MOVE,Speed: 5.01 | Maneuverability: 6
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_SQUADRON,Squadron: 12x Zenuas 33 Squadron
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_SQUADRON_DOUBLE,Squadron: 24x Zenuas 33 Squadron
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_SQUADRON_HALF,Squadron: 6x Zenuas 33 Squadron
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_WEAP2,1x Fighter Proton Torpedo: 1 / 50.0s / 1.8km
 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE,Capturable: This structure can be captured by infantry
 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE_SPACE,Capturable: This structure can be captured by space units
 TEXT_TOOLTIP_UNITS_JEDI_TEMPLE,Jedi Units: Allows unique unit construction
@@ -18478,6 +18493,12 @@ TEXT_UNIT_ULAV_EARLY_COMPANY,PDF ULAV Company
 TEXT_UNIT_UMBARAN_FIGHTER,Zenuas 33 Umbaran Starfighter
 TEXT_UNIT_UMBARAN_FIGHTER_SQUADRON,Zenuas 33 Umbaran Starfighter Squadron
 TEXT_UNIT_UMBARAN_FRIGATE,Umbaran Support Frigate
+TEXT_UNIT_UMBARAN_HOVER_TANK,Umbaran Hover Tank
+TEXT_UNIT_UMBARAN_HOVER_TANK_COMPANY,Umbaran Hover Tank Company
+TEXT_UNIT_UMBARAN_STARFIGHTER,Zenuas 33
+TEXT_UNIT_UMBARAN_STARFIGHTER_SQUADRON,Zenuas 33 Squadron
+TEXT_UNIT_UMBARAN_STARFIGHTER_SQUADRON_HALF,Zenuas 33 Squadron 1/2
+TEXT_UNIT_UMBARAN_STARFIGHTER_SQUADRON2,Zenuas 33 Squadron x2
 TEXT_UNIT_UT_AA,UT-AA
 TEXT_UNIT_UT_AT,UT-AT
 TEXT_UNIT_UTAA_COMPANY,UT-AA Company
