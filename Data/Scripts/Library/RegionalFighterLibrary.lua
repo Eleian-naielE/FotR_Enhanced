@@ -9,7 +9,7 @@ return {
 		DEFAULT = {Initial = 1, Reserve = 0, Region = "GEONOSIS", Influence = GreaterOrEqualTo(9)}
 	},
 	-- FotR_Enhanced 
-	["UMBARAN_FIGHTER_SQUADRON"] = {
+	["UMBARAN_STARFIGHTER_SQUADRON_DOUBLE"] = {
 		DEFAULT = {Initial = 1, Reserve = 2, Region = "UMBARA", Influence = GreaterOrEqualTo(8)}
 	},
 }

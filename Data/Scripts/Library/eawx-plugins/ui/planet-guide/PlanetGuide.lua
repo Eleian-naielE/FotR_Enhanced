@@ -42,7 +42,7 @@ function PlanetGuide:update()
 	self.stat_display_event.Add_Dialog_Text("CIS Factory Worlds: " .. Create_Planet_List({"BALMORRA", "CATO_NEIMOIDIA", "DEKO_NEIMOIDIA", "GEONOSIS", "HYPORI", "ORD_CESTUS", "SKAKO", "TELTI"}))
 	self.stat_display_event.Add_Dialog_Text(Create_Influence_Entry("MANDALORE",{"Mandalorian Soldiers and Kom'rk Fighters","Mandalorian Commandos"},{"7+","8+"}))
 	self.stat_display_event.Add_Dialog_Text(Create_Influence_Entry("THYRSUS",{"Sun Guard"},{"7+"}))
-	self.stat_display_event.Add_Dialog_Text(Create_Influence_Entry("UMBARA", {"Umbaran Support Frigate"}, {"8+"})) --FotR_Enhanced
+	self.stat_display_event.Add_Dialog_Text(Create_Influence_Entry("UMBARA", {"Umbaran Hover Tanks","Umbaran Support Frigates"}, {"7+","8+"})) --FotR_Enhanced
 	
 	self.stat_display_event.Add_Dialog_Text("TEXT_NONE")
 	self.stat_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_HEADER_INFLUENCE_FIGHTERS")

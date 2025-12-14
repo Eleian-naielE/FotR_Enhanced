@@ -12,7 +12,7 @@ return {
 		["FIRESPRAY_SQUADRON_DOUBLE"] = {
 			DEFAULT = {Initial = 1, Reserve = 99, Region = "MANDALORE"}
 		},
-		["UMBARAN_FIGHTER"] = {
+		["UMBARAN_STARFIGHTER_SQUADRON_DOUBLE"] = {
 			DEFAULT = {Initial = 1, Reserve = 99, Region = "UMBARA"}
 		},
 	},
