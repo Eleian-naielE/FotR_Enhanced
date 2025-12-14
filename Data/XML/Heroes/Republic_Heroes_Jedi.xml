@@ -13688,8 +13688,7 @@
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_HERO_OPPO_RANCISIS</Text_ID>
-		<!--<Icon_Name>i_button_oppo_rancisis_retire.tga</Icon_Name>-->
-		<Icon_Name>i_button_oppo_rancisis.tga</Icon_Name>
+		<Icon_Name>i_button_oppo_rancisis_retire.tga</Icon_Name>
 
 		<SFXEvent_Build_Started> </SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled> </SFXEvent_Build_Cancelled>
