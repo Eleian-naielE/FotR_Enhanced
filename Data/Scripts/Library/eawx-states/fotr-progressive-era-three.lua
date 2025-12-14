@@ -16,6 +16,7 @@ return {
         self.plot = Get_Story_Plot("Conquests\\Events\\EventLogRepository.xml")
 
         if self.entry_time <= 5 then
+            GlobalValue.Set("ARC_LIFETIME_LIMIT", 45) -- FotR_Enhanced
             if Find_Player("local") == Find_Player("Empire") then
                 StoryUtil.Multimedia("TEXT_STORY_INTRO_PROGRESSIVE_REPUBLIC_PALPATINE_ERA_3", 15, nil, "PalpatineFotR_Loop", 0)
                 Story_Event("CLONE_WARS_21BBY_REPUBLIC_START")
