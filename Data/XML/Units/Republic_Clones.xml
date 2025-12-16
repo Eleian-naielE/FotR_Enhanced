@@ -11485,11 +11485,27 @@
 		<Variant_Of_Existing_Type>ARC_Phase_One</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARC_PHASE_ONE_INDUCTEE</Text_ID>
 		<Encyclopedia_Text>
-		
+		TEXT_TOOLTIP_ARC_TROOPER_INDUCTEE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARC_TROOPER_INDUCTEE_HEALTH
+		TEXT_TOOLTIP_ARC_TROOPER_INDUCTEE_MOVE
+		TEXT_TOOLTIP_CLONE_WEAP2
+		TEXT_TOOLTIP_ARC_TROOPER_WEAP2
+		TEXT_TOOLTIP_ARC_TROOPER_WEAP3
+		TEXT_TOOLTIP_ARC_TROOPER_WEAP10
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
-		<Icon_Name></Icon_Name>
-		<Land_Model_Name></Land_Model_Name>
+		<Icon_Name>I_BUTTON_CLONE_ARC_P1_INDUCTEE.tga</Icon_Name>
+		<Land_Model_Name>arc_clone_phase1_legions.alo</Land_Model_Name>
+		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
+
+		<Tactical_Health>30</Tactical_Health>
+		<AI_Combat_Power>8</AI_Combat_Power>
+
+
+		
 	</GroundInfantry>
 
 </Republic_Clones>
