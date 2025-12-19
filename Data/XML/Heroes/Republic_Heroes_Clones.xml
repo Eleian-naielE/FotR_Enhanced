@@ -10738,6 +10738,8 @@
 		TEXT_TOOLTIP_PRUDII_P1_HEALTH
 		TEXT_TOOLTIP_PRUDII_P1_MOVE
 		TEXT_TOOLTIP_PRDUII_WEAP1
+		TEXT_TOOLTIP_ARC_TROOPER_WEAP2
+		TEXT_TOOLTIP_ADEN_WEAP3
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
@@ -10760,7 +10762,15 @@
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 
-		<HardPoints>HP_Hero_Clone_Rifle_ARC</HardPoints>
+		<HardPoints>HP_Clone_Rifle_Skilled_ARC, HP_ARC_RPS</HardPoints>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>HeroProj_Thrown_Ion_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+        <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
 		
 		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Alpha_17 </SFXEvent_Tactical_Build_Complete>

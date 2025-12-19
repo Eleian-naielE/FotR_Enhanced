@@ -11485,16 +11485,14 @@
 		<Variant_Of_Existing_Type>ARC_Phase_One</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARC_PHASE_ONE_INDUCTEE</Text_ID>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_ARC_TROOPER_INDUCTEE
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_ARC_TROOPER_INDUCTEE_HEALTH
-		TEXT_TOOLTIP_ARC_TROOPER_INDUCTEE_MOVE
-		TEXT_TOOLTIP_CLONE_WEAP2
-		TEXT_TOOLTIP_ARC_TROOPER_WEAP2
-		TEXT_TOOLTIP_ARC_TROOPER_WEAP3
-		TEXT_TOOLTIP_ARC_TROOPER_WEAP10
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+			TEXT_TOOLTIP_ARC_INDUCTEE
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_ARC_INDUCTEE_HEALTH
+			TEXT_TOOLTIP_ARC_INDUCTEE_MOVE
+			TEXT_TOOLTIP_ARC_INDUCTEE_WEAP1
+			TEXT_TOOLTIP_ARC_INDCUTEE_WEAP11
+			TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+			TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_CLONE_ARC_P1_INDUCTEE.tga</Icon_Name>
@@ -11504,8 +11502,53 @@
 		<Tactical_Health>30</Tactical_Health>
 		<AI_Combat_Power>8</AI_Combat_Power>
 
+		<Max_Speed>1.2</Max_Speed>
+		<OverrideAcceleration> 1.2 </OverrideAcceleration>
+		<OverrideDeceleration> 1.2 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>30.0</Max_Rate_Of_Turn>
 
+		<HardPoints> HP_Clone_Carbine_Skilled</HardPoints>
+		<!-- Grenade throw -->
+		<Projectile_Types>Proj_Light_Ion_Grenade_Infantry</Projectile_Types>
+
+		<Lua_Script>CloneLegionFinder</Lua_Script>
+
+		<!-- 3 ai mines per 4 ability squad company on arc inductees -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Arc_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>ARC_Proximity_Mines_AI</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability>Unit_Mine_Arc_Trooper</SFXEvent_Target_Ability>
+				<Area_Effect_Decal_Distance>50.0</Area_Effect_Decal_Distance>
+				<Effective_Radius> 100.0 </Effective_Radius>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AP_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AP_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 		
+		<Abilities SubObjectList="Yes">
+			<Proximity_Mines_Ability Name="ARC_Proximity_Mines_AI">
+				<Activation_Style>User_Input</Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>25.0</Activation_Max_Range>
+				<Mine_Type>Mine_Land_Prox_Antipersonnel</Mine_Type>
+				<Trigger_Radius>5</Trigger_Radius>
+				<Number_Of_Mines>6</Number_Of_Mines>
+				<Activation_Time_In_Seconds>0.5</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Mine_Arm</Activate_SFX>
+			</Proximity_Mines_Ability>
+		</Abilities>
+
 	</GroundInfantry>
 
 </Republic_Clones>

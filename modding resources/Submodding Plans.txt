@@ -5,8 +5,10 @@
 Company : 
 Unit stat : Faster moving speed, health average of reg clone and alpha arc, Weapons geared toward anti infantry, ion damage
 Weapon Stat : DC-15 carbine, DC-15 rifle, dc-17 pistol, ion grenade, grenade, rocket launcher, infantry mine
-Remove ; wrist rocket, 
+Remove ; wrist rocket, Flame Thrower,
 
+
+# Ion Weapon Damage 
 
 # Add New CIS Heroes
 
@@ -16,8 +18,6 @@ TN-123(Name Canon Source)
 
 # morgukai shadow army on salucemi
 - bok and his clones with cloning facility
-
-# convert bythen forral to fighter hero. (Done)
 
 # Expanded Clone Pilot Heroes
 hawk (yularen) 
@@ -31,10 +31,6 @@ these heroes will be members of 'delegation of 2000' and each will have unique b
 - Peace Treaty
 if the separatist senate exists and all the core leaderships (count dooku, grievous, all corporate leaders) killed, 
 a peace treaty dummy will appear which results in automatic victory
-
-
-
-
 
 
 # Additional Ground Category filter UI
@@ -56,7 +52,6 @@ Filter Ground Units, Structures by different classes.
 - Umbaran Heavy Movile Canon (?)
 
 
-
 <Planned Projects>
 
 Add Units ; ARF Trooper, Clone Assasins, Covert OP Clones, Clone Shadow troopers
@@ -64,65 +59,3 @@ Change Rex Weapons & Animations, Add in Jesse, Kix, Fives etc as torrent company
 More Detailed Anakin Unit(?)
 More Scenarios For GC ; Sideous Choosing CIS as his Empire ; through TR Dark empire function
 **Not sure if possible, but make better ai that fights more like a human ;; by implementing 3rd party ai plugins 
-
-
-
-
-========== FotR : New Face Of War (Currently Ideas Only) ==========
-
-#Lore Accuracy
-Remove TCW only units & Heroes
-List : [
-	UNITS{
-		Rep : 
-			Arquitens
-			pelta varaints
-			republic z95
-			Y wing
-			Charger C 70
-			AV 7
-			rx-200 falchion
-			A5-RX
-		CIS : 
-			Malevalance
-			DH omni support vessel
-			Hyena Bomber
-			supertank
-			Commando Droid
-			J1 proto canon
-	}
-	HEORES{
-		Rep : 
-			Yularen
-			Wieler
-			Dron
-			Coburn
-			Tenant
-			Dao
-			Kilian
-			Mcquarrie
-			Ozzel
-			Jayfon
-			Jesra
-			Rex
-			Jet
-			Wolffe
-			Gaffa
-			Gregor
-			Ahsoka
-			Phase 1 oddball
-		CIS : 
-			whorm loathsome
-			trench
-			lok durd
-			mar tuuk
-			AutO
-			kalani
-			tf-
-			k2-b4
-			osi sobek 
-			all tactical droid unlisted
-	}
-	
-
-]
