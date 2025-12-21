@@ -74,7 +74,7 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 			"PHASE_TWO_RESEARCH",
 			"Dummy_Research_Clone_Trooper_II",
 			{"Empire"},
-			{"Clonetrooper_Phase_Two_Company","Republic_BARC_Company","ARC_Phase_Two_Company", "Phase2_Manual_Upgrade"},
+			{"Clonetrooper_Phase_Two_Company","Republic_BARC_Company","ARC_Phase_Two_Company","Phase2_Manual_Upgrade"},
 			{"Clonetrooper_Phase_One_Company","Republic_74Z_Bike_Company","ARC_Phase_One_Company"},
 			nil,nil,
 			{"CLONE_UPGRADES"}
@@ -157,12 +157,13 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 	--This should probably be handled with the rest of PHASE_TWO_RESEARCH effects. (P2 as implemented in historicals would also need work to make that happen.) 
 	self.CloneSwap = GenericSwap("CLONE_UPGRADES", "EMPIRE", -- FotR_Enhanced 
 		{
-		"Cody", "Rex", "Appo", "Commander_71", "Bacara", "Jet", "Gree_Clone", "Deviss", "Bly", "Wolffe", "Neyo", "Alpha_17", 
-		"Fordo", "Ordo_Skirata", "Aden_Skirata", "Kligson", "Rom_Mohc", "Prudii_Skirata",
+		"Cody", "Rex", "Appo", "Commander_71", "Bacara", "Jet", "Gree_Clone", "Deviss", "Bly", "Wolffe", "Neyo", 
+		"Alpha_17", 
+		"Fordo", "Ordo_Skirata", "Aden_Skirata", "Kligson", "Rom_Mohc", "Prudii_Skirata"
 		},
 		{
-		"Cody2_Team", "Rex2_Team", "Appo2_Team", "Commander_71_2_Team", "Bacara2_Team", "Jet2_Team", "Gree2_Team", "Deviss2_Team", "Bly2_Team", 
-		"Wolffe2_Team", "Neyo2_Team", "Alpha_17_2_Team", "Fordo2_Team", "Ordo_Skirata2_Team", "Aden_Skirata2_Team", "Kligson2_Team", "Rom_Mohc2_Team", "Prudii_Skirata2_Team",
+		"Cody2_Team", "Rex2_Team", "Appo2_Team", "Commander_71_2_Team", "Bacara2_Team", "Jet2_Team", "Gree2_Team", "Deviss2_Team", "Bly2_Team", "Wolffe2_Team", "Neyo2_Team", 
+		"Alpha_17_2_Team", "Fordo2_Team", "Ordo_Skirata2_Team", "Aden_Skirata2_Team", "Kligson2_Team", "Rom_Mohc2_Team", "Prudii_Skirata2_Team"
 		})
 
 	self.TempestResearch = GenericResearch(self.galactic_conquest,
