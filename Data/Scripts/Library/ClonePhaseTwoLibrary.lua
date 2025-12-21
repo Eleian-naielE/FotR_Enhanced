@@ -4,7 +4,7 @@ return {
     -- Units
     {"Clonetrooper_Phase_One_Company_Dummy", "Clonetrooper_Phase_Two_Company"},
 	{"ARC_Phase_One_Company_Dummy", "ARC_Phase_Two_Company"},
-	{"Republic_74Z_Bike_Company_Dummy", "Republic_BARC_Company"}, 
+	{"Republic_74Z_Speeder_Bike_Company_Dummy", "Republic_BARC_Company"}, 
 	{"Clone_Jumptrooper_Phase_One_Company_Dummy", "Clone_Jumptrooper_Phase_Two_Company"},
 	{"Clone_Special_Ops_Company_Dummy", "Clone_Galactic_Marine_Company"},
 	-- Generic Commanders
