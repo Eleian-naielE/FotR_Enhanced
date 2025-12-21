@@ -372,11 +372,13 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 		end
 		for i, unit_type in pairs(self.p2_table) do
             local despawn_list = Find_All_Objects_Of_Type(unit_type[1])
-            for  _, target in pairs(despawn_list) do
-                if target.Get_Planet_Location() ~= nil then
-                    UnitUtil.ReplaceAtLocation(target, unit_type[2])
-                end
-            end
+			if despawn_list ~= nil then
+				for  _, target in pairs(despawn_list) do
+					if target.Get_Planet_Location() ~= nil then
+						UnitUtil.ReplaceAtLocation(target, unit_type[2])
+					end
+				end
+			end
         end
 		if GlobalValue.Get("ARC_LIFETIME_LIMIT") == 0 then
 			UnitUtil.SetLockList("EMPIRE", {"ARC_PHASE_TWO_COMPANY"}, false)
