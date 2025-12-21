@@ -399,7 +399,6 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 			return
 		end
 		GlobalValue.Set("ARC_LIFETIME_LIMIT", lifetime)
-		UnitUtil.SetLockList('EMPIRE', {"ARC_PHASE_TWO_COMPANY"}, false)
 		StoryUtil.ShowScreenText("ARC Spawned"..tostring(lifetime) , 10)
 	end
 end
