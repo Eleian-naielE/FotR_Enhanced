@@ -10731,6 +10731,7 @@
 		<Text_ID>TEXT_HERO_PRUDII</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
 		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PRUDII
@@ -10789,7 +10790,7 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
-		<AI_Combat_Power>37</AI_Combat_Power>
+		<AI_Combat_Power>40</AI_Combat_Power>
 
 		<Targeting_Priority_Set>AntiStructure</Targeting_Priority_Set>
 
@@ -10815,20 +10816,25 @@
 			
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes">
-			
-			<Combat_Bonus_Ability Name="Prudii_Combat_Bonus">
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->			
+			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Applicable_Unit_Categories>Vehicle | Infantry | Air</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Health_Bonus_Percentage>0.05</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>    
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
-				<Ability_Recharge_Bonus_Percentage>-0.05</Ability_Recharge_Bonus_Percentage>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
+			
+			<Battlefield_Modifier_Ability Name="Command_Tier_02_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.06</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
 
 			<Galactic_Stealth_Ability Name="Prudii_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
@@ -10860,7 +10866,6 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate></SFXEvent_Activate>
 			</Grenade_Attack_Ability>
-			
 		</Abilities>
 	</HeroUnit>
 
@@ -10901,6 +10906,7 @@
 
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
 		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PRUDII
@@ -10926,6 +10932,7 @@
 		<Icon_Name>I_BUTTON_PRUDII_P2.tga</Icon_Name>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
 		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PRUDII
@@ -10949,7 +10956,7 @@
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 
-		<AI_Combat_Power>38</AI_Combat_Power>
+		<AI_Combat_Power>42</AI_Combat_Power>
 	</HeroUnit>
 
 	<HeroCompany Name="Prudii_Skirata2_Team">
@@ -10989,6 +10996,7 @@
 
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
 		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PRUDII
@@ -11021,6 +11029,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_ASSIGN_REPUBLIC_COMMANDO
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
 		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PRUDII
@@ -11042,6 +11051,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_ASSIGN_REPUBLIC_COMMANDO
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
 		TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PRUDII
@@ -11074,7 +11084,6 @@
 		
 		<Text_ID>TEXT_HERO_PRUDII</Text_ID>
 		<Icon_Name>i_button_prudi_p2_retire.tga</Icon_Name>
-		<Icon_Name>I_BUTTON_PRUDII_P2.tga</Icon_Name>
 		
 		<SFXEvent_Build_Started> </SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled> </SFXEvent_Build_Cancelled>
