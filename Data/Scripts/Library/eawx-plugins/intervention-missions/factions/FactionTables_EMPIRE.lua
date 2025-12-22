@@ -24,11 +24,7 @@ return {
 			DialogName = "REP",
 			RewardName = "ERA",
 			GroupSupport = "SECTOR_FORCES",
-<<<<<<< HEAD
-=======
-			--SupportArg = 100 test
->>>>>>> bf90692ea65da7695579cf8fe30aa35126160e1c
-			SupportArg = 1
+			SupportArg = 1,
 		},
 		["PDF"] = {
 			DialogName = "PDF",
