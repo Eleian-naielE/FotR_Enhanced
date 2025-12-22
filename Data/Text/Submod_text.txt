@@ -61,6 +61,9 @@ TEXT_TOOLTIP_ARC170_GROUND_WEAP3,1x Fighter Concussion Missile (AF): 1 / 37.5s /
 TEXT_TOOLTIP_ARC170_GROUND_WEAP4,1x Proton Torpedo (AC): 1 / 37.5s / 1.8km
 TEXT_TOOLTIP_BLOCK,Admiral Block was the commanding officer of the Negotiator, and later Vigilance, both serving the role as the flagship of Jedi general Obi Wan Kenobi.
 TEXT_TOOLTIP_BLOCK_VILGILANCE_RESPAWN,Block respawns in a Venator(Vigilance) after his first death
+TEXT_TOOLTIP_BUILDLIMIT_ARC_TROOPER,Build Limit & Lifetime: 60-15 (Era dependent)
+TEXT_TOOLTIP_BUILDLIMIT_LINK_P1,Linked Limit: Shared lifetime amount with Phase II
+TEXT_TOOLTIP_BUILDLIMIT_LINK_P2,Linked Limit: Shared lifetime amount with Phase I
 TEXT_TOOLTIP_BUILDLIMIT_VENATOR_SPHA_T,Build Limit: 3 | Lifetime: 1
 TEXT_TOOLTIP_CAPITAL_CIS_13,Magnaguard: 2 / 0
 TEXT_TOOLTIP_CAPITAL_GAR_16,Red Guard: 2 / 0
@@ -149,6 +152,22 @@ TEXT_TOOLTIP_WOLFPACK_SQUAD_WEAP5,1x EMP Launcher: 1 / 5.0s / 240m
 TEXT_TOOLTIP_WOLFPACK_SQUAD_WEAP6,1x Wrist Rocket: 1 / 10.0s / 220m
 TEXT_TOOLTIP_WOLFPACK_SQUAD_WEAP7,1x Light Repeating Blaster: 5 / 1.0s / 240m
 TEXT_UNIT_A6_PROTOTYPE,A6 Juggernaut Prototype
+TEXT_UNIT_ARC_PHASE_ONE_AT_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy AT (Phase I)
+TEXT_UNIT_ARC_PHASE_ONE_GUNNER_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy Gunner (Phase I)
+TEXT_UNIT_ARC_PHASE_TWO_AT_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy AT (Phase II)
+TEXT_UNIT_ARC_PHASE_TWO_GUNNER_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy Gunner (Phase II)
+TEXT_UNIT_ARC_TROOPER_P1_ALPHA,Alpha-Class ARC Trooper (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_ALPHA_COMPANY,Alpha-Class ARC Trooper Platoon (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_ALPHA_SQUAD,Alpha-Class ARC Trooper Squad (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_HEAVY_ALPHA_SQUAD,Alpha-Class ARC Trooper Heavy Squad (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_OFFICER_ALPHA,ARC Commander (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_OFFICER_ALPHA_SQUAD,Alpha-Class ARC Trooper Officer Squad (Phase I)
+TEXT_UNIT_ARC_TROOPER_P2_ALPHA,Alpha-Class ARC Trooper (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_ALPHA_COMPANY,Alpha-Class ARC Trooper Platoon (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_ALPHA_SQUAD,Alpha-Class ARC Trooper Squad (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_HEAVY_ALPHA_SQUAD,Alpha-Class ARC Trooper Heavy Squad (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA,ARC Commander (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA_SQUAD,Alpha-Class ARC Trooper Officer Squad (Phase II)
 TEXT_UNIT_COMBATTRI,Combat Octuptarra Droid
 TEXT_UNIT_COMBATTRI_COMPANY,Combat Octuptarra Droid Company
 TEXT_UNIT_DARK_ACOLYTE,Dark Acolyte 
@@ -182,32 +201,3 @@ TEXT_UNIT_WOLFPACK_P2_GUNNER_LIGHT,Wolfpack Light Gunner (Phase II)
 TEXT_UNIT_WOLFPACK_P2_RIFLEMAN,Wolfpack Rifleman (Phase II)
 TEXT_UNIT_WOLFPACK_P2_RIFLEMAN_GRENADIER,Wolfpack Rifleman Grenadier(Phase II)
 TEXT_UNIT_WOLFPACK_P2_SQUAD,Wolfpack Squad (Phase II)
-
-TEXT_TOOLTIP_BUILDLIMIT_LINK_P1,Linked Limit: Shared lifetime amount with Phase II
-TEXT_TOOLTIP_BUILDLIMIT_LINK_P2,Linked Limit: Shared lifetime amount with Phase I
-TEXT_TOOLTIP_BUILDLIMIT_ARC_TROOPER,Build Limit & Lifetime: 60-15 (Era dependent)
-
-TEXT_UNIT_ARC_TROOPER_P1_ALPHA,Alpha-Class ARC Trooper (Phase I)
-TEXT_UNIT_ARC_PHASE_ONE_GUNNER_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy Gunner (Phase I)
-TEXT_UNIT_ARC_PHASE_ONE_AT_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy AT (Phase I)
-TEXT_UNIT_ARC_TROOPER_P1_OFFICER_ALPHA,ARC Commander (Phase I)
-TEXT_UNIT_ARC_TROOPER_P1_ALPHA_COMPANY,Alpha-Class ARC Trooper Platoon (Phase I)
-TEXT_UNIT_ARC_TROOPER_P1_OFFICER_ALPHA_SQUAD,Alpha-Class ARC Trooper Officer Squad (Phase I)
-TEXT_UNIT_ARC_TROOPER_P1_ALPHA_SQUAD,Alpha-Class ARC Trooper Squad (Phase I)
-TEXT_UNIT_ARC_TROOPER_P1_HEAVY_ALPHA_SQUAD,Alpha-Class ARC Trooper Heavy Squad (Phase I)
-
-TEXT_UNIT_ARC_TROOPER_P2_ALPHA,Alpha-Class ARC Trooper (Phase II)
-TEXT_UNIT_ARC_PHASE_TWO_GUNNER_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy Gunner (Phase II)
-TEXT_UNIT_ARC_PHASE_TWO_AT_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy AT (Phase II)
-TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA,ARC Commander (Phase II)
-TEXT_UNIT_ARC_TROOPER_P2_ALPHA_COMPANY,Alpha-Class ARC Trooper Platoon (Phase II)
-TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA_SQUAD,Alpha-Class ARC Trooper Officer Squad (Phase II)
-TEXT_UNIT_ARC_TROOPER_P2_ALPHA_SQUAD,Alpha-Class ARC Trooper Squad (Phase II)
-TEXT_UNIT_ARC_TROOPER_P2_HEAVY_ALPHA_SQUAD,Alpha-Class ARC Trooper Heavy Squad (Phase II)
-
-TEXT_TOOLTIP_ARC_INDUCTEE_HEALTH,Health: 30 (Infantry)
-TEXT_TOOLTIP_ARC_INDUCTEE_MOVE,Speed: 1.1 
-TEXT_TOOLTIP_ARC_INDUCTEE,
-TEXT_TOOLTIP_ARC_INDUCTEE_WEAP2,1x DC-15S Blaster Carbine: 3 / 1.25s / 220m
-TEXT_TOOLTIP_ARC_INDUCTEE_WEAP1,1x DC-15A Blaster Rifle: 1 / 1.0s / 240m
-TEXT_TOOLTIP_ARC_INDCUTEE_WEAP11,1x Ion Grenade: 1 / 15.0s / 200m

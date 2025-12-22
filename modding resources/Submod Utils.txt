@@ -15,11 +15,11 @@ Hutt_HuttGuard.ALO
 
 
 
-
-		<!-- Tythe --> <Galactic_Position>1002, -929, 10</Galactic_Position>
-        <!-- Llanic --> <Galactic_Position>857, -915, 10</Galactic_Position>
-        <!-- Lok --> <Galactic_Position>916, -948, 10</Galactic_Position>
-
-
 Resoureces {
+TEXT_TOOLTIP_ARC_INDUCTEE_HEALTH,Health: 30 (Infantry)
+TEXT_TOOLTIP_ARC_INDUCTEE_MOVE,Speed: 1.1 
+TEXT_TOOLTIP_ARC_INDUCTEE,
+TEXT_TOOLTIP_ARC_INDUCTEE_WEAP2,1x DC-15S Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_ARC_INDUCTEE_WEAP1,1x DC-15A Blaster Rifle: 1 / 1.0s / 240m
+TEXT_TOOLTIP_ARC_INDCUTEE_WEAP11,1x Ion Grenade: 1 / 15.0s / 200m
 }
