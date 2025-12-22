@@ -142,7 +142,7 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"Special_Tactics_Trooper_Company", 3}
 				,{"Clonetrooper_Phase_One_Company", 5, StartYear = -21, LastYear = -21}
 				,{"Clonetrooper_Phase_Two_Company", 5, StartYear = -20}
-				,{"Clone_Galactic_Marine_Company", 1, StartYear = -21}
+				,{"Clone_Galactic_Marine_Company", 1, StartYear = -20} -- FotR_Enhanced ; mathced with Phase 2 research
 				,{"Republic_SD_6_Droid_Company", 1}
 				,{"Ailon_Nova_Guard_Company", 0.5}
 				,{"Republic_AT_PT_Company", 2}
@@ -165,7 +165,7 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"Republic_AT_AP_Walker_Company", 1, StartYear = -19}
 				,{"Republic_A5RX_Company", 0.2, StartYear = -22}
 				,{"Republic_A5_Juggernaut_Company", 1, StartYear = -22}
-				,{"UT_AT_Speeder_Company", 1, StartYear = -21} -- FotR_Enhanced ; mathced with roster update 21BBY M6
+				,{"UT_AT_Speeder_Company", 1, StartYear = -20} -- FotR_Enhanced ; mathced with roster update 21BBY M6
 				,{"Republic_AT_TE_Walker_Company", 1, StartYear = -22}
 				,{"Republic_Gian_Company", 1, LastYear = -21}
 				-- FotR_Enhanced
@@ -839,6 +839,8 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"Republic_AT_TE_Walker_Company", 0.5, StartYear = -22}
 				,{"AT_OT_Walker_Company", 2, StartYear = -19}
 				,{"Republic_AT_AP_Walker_Company", 2, StartYear = -19}
+				-- FotR_Enhanced
+				,{"Republic_A6_Prototype_Company", 0.5, StartYear = -21, LastYear = -20}
 			},
 			Government_Building = "KDY_HQ",
 		},
@@ -930,6 +932,8 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"RX200_Falchion_Company", 1, StartYear = -22}
 				,{"Republic_LAAT_Company", 1, StartYear = -22}
 				,{"Republic_VAAT_Company", 0.5}
+				-- FotR_Enhanced
+				,{"SPHA_T_Company", 1, LastYear = -22}
 			},
 			Government_Building = "Rothana_HQ",
 		},
@@ -995,11 +999,12 @@ function DefineUnitTable(faction, rosterOverride)
 			Land_Unit_Table = {
 				{"Republic_Heavy_Trooper_Company", 2}
 				,{"Senate_Commando_Company", 2, StartYear = -22}
-				,{"Clone_Galactic_Marine_Company", 1, StartYear = -21}
+				,{"Clone_Special_Ops_Company", 1, LastYear = -21} -- FotR_Enhanced ; replacement for galactic marine
+				,{"Clone_Galactic_Marine_Company", 1, StartYear = -20} -- FotR_Enhanced ; mathced with Phase 2 research
 				,{"Republic_VAAT_Company", 0.5, LastYear = -21}
 				,{"Republic_A5RX_Company", 0.5, StartYear = -22}
 				,{"RX200_Falchion_Company", 0.5, StartYear = -22}
-				,{"Republic_A6_Juggernaut_Company", 0.2, StartYear = -22}
+				,{"Republic_A6_Juggernaut_Company", 0.2, StartYear = -20} -- FotR_Enhanced
 			}
 		},
 	}
