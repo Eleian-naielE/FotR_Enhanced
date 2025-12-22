@@ -896,7 +896,7 @@ function DefineUnitTable(faction, rosterOverride)
 			Land_Unit_Table = {	--Note: Start year is handled by an era check for the whole roster. Left off units here because it should be unnecessary and is bad if nothing is applicable if that fails somehow
 				{"Clonetrooper_Phase_One_Company", 2, LastYear = -21}
 				,{"Clonetrooper_Phase_Two_Company", 2, StartYear = -20}
-				,{"Clone_Galactic_Marine_Company", 1}
+				,{"Clone_Galactic_Marine_Company", 1, StartYear = -20} -- FotR_Enhanced ; mathced with Phase 2 research
 				,{"ARC_Phase_One_Company", 1, LastYear = -21}
 				,{"ARC_Phase_Two_Company", 1, StartYear = -20}
 				,{"Clone_Commando_Company", 1}
