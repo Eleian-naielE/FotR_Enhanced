@@ -20,8 +20,8 @@ function EventManager:new(galactic_conquest, human_player, planets)
         "CONQUER_RENDILI",
         "RENDILI", {"Rebel"},
         {"Mellor_Yago_Rendili_Reign", 
-		"CIS_Dreadnaught", "CIS_Dreadnaught", "CIS_Dreadnaught", "CIS_Dreadnaught", "CIS_Dreadnaught", 
-		"CIS_Dreadnaught", "CIS_Dreadnaught", "CIS_Dreadnaught", "CIS_Dreadnaught", "CIS_Dreadnaught"}, 
+		"CIS_DHC", "CIS_DHC", "CIS_DHC", "CIS_DHC", "CIS_DHC", 
+		"CIS_DHC", "CIS_DHC", "CIS_DHC", "CIS_DHC", "CIS_DHC"}, 
 		false)
 	
 	--[[

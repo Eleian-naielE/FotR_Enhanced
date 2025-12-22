@@ -16,6 +16,7 @@ return {
         self.plot = Get_Story_Plot("Conquests\\Events\\EventLogRepository.xml")
 
         if self.entry_time <= 5 then
+            GlobalValue.Set("ARC_LIFETIME_LIMIT", 45) -- FotR_Enhanced
             if Find_Player("local") == Find_Player("Empire") then
                 StoryUtil.Multimedia("TEXT_STORY_INTRO_PROGRESSIVE_REPUBLIC_PALPATINE_ERA_3", 15, nil, "PalpatineFotR_Loop", 0)
                 Story_Event("CLONE_WARS_21BBY_REPUBLIC_START")
@@ -46,18 +47,6 @@ return {
                     StoryUtil.SpawnAtSafePlanet(planet, Find_Player(faction), self.Active_Planets, spawnlist)  
                 end
             end
-            
-            UnitUtil.ReplaceAtLocation("Yoda", "Yoda_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Mace_Windu", "Mace_Windu_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Obi_Wan", "Obi_Wan_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Anakin", "Anakin_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Kit_Fisto", "Kit_Fisto_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Aayla_Secura", "Aayla_Secura_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Ki_Adi_Mundi", "Ki_Adi_Mundi_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Luminara_Unduli", "Luminara_Unduli_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Barriss_Offee", "Barriss_Offee_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Shaak_Ti", "Shaak_Ti_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Ahsoka", "Ahsoka_Eta_Team")
             
             crossplot:publish("ERA_TRANSITION", 3)
         end

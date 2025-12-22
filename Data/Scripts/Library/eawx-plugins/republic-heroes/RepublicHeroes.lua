@@ -278,7 +278,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 		total_slots = 2,			--Max slot number. Set at the start of the GC and never change
 		free_hero_slots = 2,		--Slots open to buy
 		vacant_hero_slots = 0,	    --Slots that need another action to move to free
-		vacant_limit = 2,           --Number of times a lost slot can be reopened
+		vacant_limit = 10,           --Number of times a lost slot can be reopened
 		initialized = false,
 		full_list = { --All options for reference operations
 			["Grunger"] = {"GRUNGER_ASSIGN",{"GRUNGER_RETIRE"},{"JOSEF_GRUNGER"},"Josef Grunger", ["Companies"] = {"JOSEF_GRUNGER_TEAM"}},
@@ -533,6 +533,8 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 		Handle_Hero_Exit("Ahsoka", council_data)
 		Handle_Hero_Exit("Halcyon", council_data)
 		Handle_Hero_Exit("Gregor", commando_data)
+
+		set_unit_index("Screed", 2, admiral_data)
 	end
 
 	if not moff_data.active_player.Is_Human() then --All options for AI
@@ -810,7 +812,6 @@ function RepublicHeroes:Era_Transitions(new_era_number)
 				StoryUtil.Multimedia("TEXT_CONQUEST_GOVERNMENT_REP_HERO_REPLACEMENT_SPEECH_MARTZ", 20, nil, "Piett_Loop", 0)
 			end
 		end
-		Eta_Unlock()
 		Clear_Fighter_Hero("BROADSIDE_SHADOW_SQUADRON")
 
 	elseif new_era_number == 4 then
@@ -819,6 +820,7 @@ function RepublicHeroes:Era_Transitions(new_era_number)
 				StoryUtil.Multimedia("TEXT_CONQUEST_GOVERNMENT_REP_HERO_REPLACEMENT_SPEECH_KILIAN", 20, nil, "Piett_Loop", 0)
 			end
 		end
+		Eta_Unlock()
 		Autem_Check()
 
 	elseif new_era_number == 5 then

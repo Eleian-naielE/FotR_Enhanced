@@ -46,10 +46,10 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<GUI_Row> 0 </GUI_Row>
 		<Required_Special_Structures>
-		Republic_Shipyard_Level_Two | CIS_Shipyard_Level_Two, INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT, AI_Category_Dummy | Non_Capital_Category_Dummy	
+		Republic_Shipyard_Level_Two | CIS_Shipyard_Level_Two | Hutt_Shipyard_Level_Two, INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT, AI_Category_Dummy | Non_Capital_Category_Dummy	
 		</Required_Special_Structures>
 		<Required_Planets>Umbara</Required_Planets>
-		<Affiliation>Rebel, Empire, Commerce_Guild, Trade_Federation, Techno_Union, Banking_Clan</Affiliation>
+		<Affiliation>Rebel, Empire, Hutt_Cartels, Commerce_Guild, Trade_Federation, Techno_Union, Banking_Clan</Affiliation>
 		<Tech_Level>0</Tech_Level>
 	</SpaceUnit>
 
@@ -255,6 +255,61 @@
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<!-- FotR_Enhanced ; Umbaran Hover Tank ported from TR 3.5 -->
+
+	<GroundCompany Name="Umbaran_Hover_Tank_Company">
+		<Text_ID>TEXT_UNIT_UMBARAN_HOVER_TANK_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_UMBARAN_HOVER_TANK
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_UMBARAN_HOVER_TANK_COMPANY
+		TEXT_TOOLTIP_UMBARAN_HOVER_TANK_HEALTH
+		TEXT_TOOLTIP_UMBARAN_HOVER_TANK_SHIELD
+		TEXT_TOOLTIP_UMBARAN_HOVER_TANK_MOVE 
+		TEXT_TOOLTIP_UMBARAN_HOVER_TANK_WEAP1
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_umbaran_hover_tank.tga</Icon_Name>
+
+		<Damage>24</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		
+		<Score_Cost_Credits>225</Score_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Population_Value>1</Population_Value>
+		
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Affiliation>Rebel, Empire, Underworld, Hutt_Cartels, EmpireoftheHand, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Pentastar, Corporate_Sector, Hapes_Consortium, Imperial_Proteus</Affiliation>
+		<Required_Special_Structures> DUMMY_CHIEFOFSTATE_GAVRISOM | INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT | INFLUENCE_SEVEN </Required_Special_Structures>
+		<Required_Planets>Umbara</Required_Planets>
+		
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+
+		<Formation_Prority>1</Formation_Prority>
+		<Company_Units>Umbaran_Hover_Tank, Umbaran_Hover_Tank, Umbaran_Hover_Tank</Company_Units>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Pulse_Cannon</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pulse_Cannon</SFXEvent_Fleet_Move>
 	</GroundCompany>
 
 </InfluenceRewards>

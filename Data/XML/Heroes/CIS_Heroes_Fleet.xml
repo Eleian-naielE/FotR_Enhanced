@@ -3214,17 +3214,17 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_TM171
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
-		TEXT_UNIT_SUPPLYSHIP
+		TEXT_UNIT_DH_OMNI
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_SUPPLYSHIP_HULL
-		TEXT_TOOLTIP_SUPPLYSHIP_SHIELD
-		TEXT_TOOLTIP_SUPPLYSHIP_MOVE
-		TEXT_TOOLTIP_SUPPLYSHIP_SQUADRON
-		TEXT_TOOLTIP_SUPPLYSHIP_WEAP1
+		TEXT_TOOLTIP_DH_OMNI_HULL
+		TEXT_TOOLTIP_DH_OMNI_SHIELD
+		TEXT_TOOLTIP_DH_OMNI_MOVE
+		TEXT_TOOLTIP_DH_OMNI_SQUADRON
+		TEXT_TOOLTIP_DH_OMNI_WEAP1
 		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
-		TEXT_TOOLTIP_SUPPLYSHIP_MINE
+		TEXT_TOOLTIP_DH_OMNI_MINE
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_BONUS_FLEET_TENDER
+		TEXT_TOOLTIP_DH_OMNI_TENDER
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
@@ -3252,6 +3252,7 @@
 				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
+			
 			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -3259,6 +3260,33 @@
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
+			
+			<Force_Healing_Ability Name="DH_Omni_Fleet_Tender">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>1600.0</Heal_Range>
+				<Heal_Amount> 100.0 </Heal_Amount>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Space_Repair_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Gunship, Corvette, Frigate, Capital, SuperCapital, SpaceHero, Transport</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
 		</Abilities>
 	</UnigueUnit>
 

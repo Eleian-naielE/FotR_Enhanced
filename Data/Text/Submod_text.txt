@@ -7,8 +7,8 @@ TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS_EMPIRE,Mission Testing (Republic Contr
 TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS_REBEL,Mission Testing (CIS Control)
 TEXT_CAMPAIGN_HEADER_MAP_TESTING_REBEL,Map Testing Campaign (CIS Control)
 TEXT_CONQUEST_GOVERNMENT_REP_HERO_SWITCH_SPEECH_FORRAL,The war seems to near its end. I shall share my skill of piloting for the new generations of ace pilots. [Bythen Forral has retired and established Vensenor Flight Academy]
-TEXT_DOCUMENTATION_BODY_INFLUENCE_FIGHTERS_UMBARA,Umbara: Umbaran Fighter at 8+ Influence
-TEXT_DOCUMENTATION_BODY_INFLUENCE_PLANET_UMBARA_FOTR,Umbara: Can build Umbaran Support Frigate at 8+ influence.
+TEXT_DOCUMENTATION_BODY_INFLUENCE_FIGHTERS_UMBARA,Umbara: Zenuas 33
+TEXT_DOCUMENTATION_BODY_INFLUENCE_PLANET_UMBARA_FOTR,Umbara: Can build Umbaran Support Frigate at 7+ influence.
 TEXT_DOCUMENTATION_BODY_TRAITARCHDUKE,Archduke of Geonosis: 25% discounts on production time and cost on products produced on Geonosis
 TEXT_DOCUMENTATION_BODY_TRAITPLOBRO,Plo's Bros: +20% Health (Plo Koon Only)
 TEXT_DOCUMENTATION_HEADER_FOTR_ENHANCED_FEATS,==== FotR_Enhanced features ==================
@@ -31,6 +31,10 @@ TEXT_HERO_TJ912,TJ-912
 TEXT_HERO_TM171,TM-171
 TEXT_PHASE_II_MANUAL_UPGRADE_DESCRIPTION,Upgrades clones who were in hyperspace during the initial upgrade to phase 2. 
 TEXT_PHASE_II_MANUAL_UPGRADE_WARNING, NOTE : This effect is galaxy wide and it will lock once there's no Phase 1 Clones left.
+<<<<<<< HEAD
+=======
+TEXT_PLANET_INFO_UMBARA_INFLUENCE_REWARD,• Unlocks Umbaran Hover Tanks and Umbaran Support Frigate at 7+ influence
+>>>>>>> bf90692ea65da7695579cf8fe30aa35126160e1c
 TEXT_RESEARCH_PHASE2_MANUAL_UPGRADE,Phase 2 Manual Upgrade
 TEXT_SPEECH_ANAKIN_DARKSIDE_ESCAPED,Darth Vader: They thought destroying my ship would stop me? Prepare the troops, Commander. I want them crushed—every last one of them
 TEXT_SPEECH_BLOCK_RETURNS_VIGILANCE,Admiral Block: Close call... The Negotiator may be gone, but every life lost will be repaid!\n[Admiral Block has returned in control of the Venator-class, Vigilance].
@@ -60,6 +64,9 @@ TEXT_TOOLTIP_ARC170_GROUND_WEAP3,1x Fighter Concussion Missile (AF): 1 / 37.5s /
 TEXT_TOOLTIP_ARC170_GROUND_WEAP4,1x Proton Torpedo (AC): 1 / 37.5s / 1.8km
 TEXT_TOOLTIP_BLOCK,Admiral Block was the commanding officer of the Negotiator, and later Vigilance, both serving the role as the flagship of Jedi general Obi Wan Kenobi.
 TEXT_TOOLTIP_BLOCK_VILGILANCE_RESPAWN,Block respawns in a Venator(Vigilance) after his first death
+TEXT_TOOLTIP_BUILDLIMIT_ARC_TROOPER,Build Limit & Lifetime: 60-15 (Era dependent)
+TEXT_TOOLTIP_BUILDLIMIT_LINK_P1,Linked Limit: Shared lifetime amount with Phase II
+TEXT_TOOLTIP_BUILDLIMIT_LINK_P2,Linked Limit: Shared lifetime amount with Phase I
 TEXT_TOOLTIP_BUILDLIMIT_VENATOR_SPHA_T,Build Limit: 3 | Lifetime: 1
 TEXT_TOOLTIP_CAPITAL_CIS_13,Magnaguard: 2 / 0
 TEXT_TOOLTIP_CAPITAL_GAR_16,Red Guard: 2 / 0
@@ -115,6 +122,20 @@ TEXT_TOOLTIP_UMBARAN_FRIGATE_SUPPORT_TENDER,Fleet Tender: 50 / 2.0s / 1.9km
 TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP1,2x Medium Turbolasers 2 / 1.5s / 5.6km
 TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP2,2x Heavy Laser Cannons 2 / 1.0s / 4.8km
 TEXT_TOOLTIP_UMBARAN_FRIGATE_WEAP3,6x Rhazer Missiles 4 / 5.0s / 4.1km
+TEXT_TOOLTIP_UMBARAN_HOVER_TANK,This unusual tank provides devastating plasma fire at long ranges. It is rarely seen outside the shadowy world of Umbara, but forms the first line of defense for any assaults that do make landfall.
+TEXT_TOOLTIP_UMBARAN_HOVER_TANK_COMPANY,Company: 3x Umbaran Hover Tank
+TEXT_TOOLTIP_UMBARAN_HOVER_TANK_HEALTH,Health: 250 (Heavy Vehicle)
+TEXT_TOOLTIP_UMBARAN_HOVER_TANK_MOVE,Speed: 2.5 | Turn: 3.0 
+TEXT_TOOLTIP_UMBARAN_HOVER_TANK_SHIELD,Shields: 50 / [3/R] (Light Vehicle)
+TEXT_TOOLTIP_UMBARAN_HOVER_TANK_WEAP1,2x Heavy Plasma Cannon: 1 / 2.0s / 400m
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER,The relative isolation of Umbara has produced a distinct starfighter tradition. The top of the line Zenuas 33 uses flexible wing vanes and an unconventional control to produce an extremely agile craft that can quickly deliver firepower at any angle, making for a dangerous territorial defense night fighter.
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_BASE,Health: 10 | Shields: 5
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_MOVE,Speed: 5.01 | Maneuverability: 6
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_SQUADRON,Squadron: 12x Zenuas 33 Squadron
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_SQUADRON_DOUBLE,Squadron: 24x Zenuas 33 Squadron
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_SQUADRON_HALF,Squadron: 6x Zenuas 33 Squadron
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
+TEXT_TOOLTIP_UMBARAN_STARFIGHTER_WEAP2,1x Fighter Proton Torpedo: 1 / 50.0s / 1.8km
 TEXT_TOOLTIP_UNITS_SPHA_T_REFIT,SPHA-T on Venators : Attaches SPHA-T on the hanger bay of the Venator Star Destroyer.
 TEXT_TOOLTIP_VADER_SPECIAL,Special: Vader's Eta-2 Actis Interceptor
 TEXT_TOOLTIP_VENATOR_DECOLORIZE,Decolorize Venators to wipe out traces of Republic.
@@ -134,6 +155,22 @@ TEXT_TOOLTIP_WOLFPACK_SQUAD_WEAP5,1x EMP Launcher: 1 / 5.0s / 240m
 TEXT_TOOLTIP_WOLFPACK_SQUAD_WEAP6,1x Wrist Rocket: 1 / 10.0s / 220m
 TEXT_TOOLTIP_WOLFPACK_SQUAD_WEAP7,1x Light Repeating Blaster: 5 / 1.0s / 240m
 TEXT_UNIT_A6_PROTOTYPE,A6 Juggernaut Prototype
+TEXT_UNIT_ARC_PHASE_ONE_AT_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy AT (Phase I)
+TEXT_UNIT_ARC_PHASE_ONE_GUNNER_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy Gunner (Phase I)
+TEXT_UNIT_ARC_PHASE_TWO_AT_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy AT (Phase II)
+TEXT_UNIT_ARC_PHASE_TWO_GUNNER_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy Gunner (Phase II)
+TEXT_UNIT_ARC_TROOPER_P1_ALPHA,Alpha-Class ARC Trooper (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_ALPHA_COMPANY,Alpha-Class ARC Trooper Platoon (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_ALPHA_SQUAD,Alpha-Class ARC Trooper Squad (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_HEAVY_ALPHA_SQUAD,Alpha-Class ARC Trooper Heavy Squad (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_OFFICER_ALPHA,ARC Commander (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_OFFICER_ALPHA_SQUAD,Alpha-Class ARC Trooper Officer Squad (Phase I)
+TEXT_UNIT_ARC_TROOPER_P2_ALPHA,Alpha-Class ARC Trooper (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_ALPHA_COMPANY,Alpha-Class ARC Trooper Platoon (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_ALPHA_SQUAD,Alpha-Class ARC Trooper Squad (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_HEAVY_ALPHA_SQUAD,Alpha-Class ARC Trooper Heavy Squad (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA,ARC Commander (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA_SQUAD,Alpha-Class ARC Trooper Officer Squad (Phase II)
 TEXT_UNIT_COMBATTRI,Combat Octuptarra Droid
 TEXT_UNIT_COMBATTRI_COMPANY,Combat Octuptarra Droid Company
 TEXT_UNIT_DARK_ACOLYTE,Dark Acolyte 
@@ -145,6 +182,12 @@ TEXT_UNIT_RED_GUARD,Red Guard
 TEXT_UNIT_UMBARAN_FIGHTER,Zenuas 33 Umbaran Starfighter
 TEXT_UNIT_UMBARAN_FIGHTER_SQUADRON,Zenuas 33 Umbaran Starfighter Squadron
 TEXT_UNIT_UMBARAN_FRIGATE,Umbaran Support Frigate
+TEXT_UNIT_UMBARAN_HOVER_TANK,Umbaran Hover Tank
+TEXT_UNIT_UMBARAN_HOVER_TANK_COMPANY,Umbaran Hover Tank Company
+TEXT_UNIT_UMBARAN_STARFIGHTER,Zenuas 33
+TEXT_UNIT_UMBARAN_STARFIGHTER_SQUADRON,Zenuas 33 Squadron
+TEXT_UNIT_UMBARAN_STARFIGHTER_SQUADRON_HALF,Zenuas 33 Squadron 1/2
+TEXT_UNIT_UMBARAN_STARFIGHTER_SQUADRON2,Zenuas 33 Squadron x2
 TEXT_UNIT_VENATOR_SPHA_T,Venator Star Destroyer (SPHA-T)
 TEXT_UNIT_VENATOR_SPHA_T_UPGRADE,Venator Star Destroyer SPHA-T Upgrade
 TEXT_UNIT_WOLFPACK_P1_CARBINER,Wolfpack Carbineer (Phase I)

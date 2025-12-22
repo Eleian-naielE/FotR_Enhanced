@@ -12,4 +12,9 @@
 		<Scale_Factor>0.125</Scale_Factor>
 	</Projectile>
 
+	<Projectile Name="Proj_Heavy_Plasma_Cannon_Blue">
+		<Variant_Of_Existing_Type>Proj_Heavy_Plasma_Cannon</Variant_Of_Existing_Type>
+		<Land_Model_Name>P_Blue_Plasma_Gun_Ground_Huge.alo</Land_Model_Name>
+	</Projectile>
+
 </Projectiles>

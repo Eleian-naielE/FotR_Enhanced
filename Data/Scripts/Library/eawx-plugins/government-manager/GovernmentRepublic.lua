@@ -45,7 +45,7 @@ function GovernmentRepublic:new(gc,id,gc_name)
 
 	self.FleetValues = {
 		nil,
-		"OPEN_CIRCLE",
+		"OCF",
 		"KDY",
 		"ORSF",
 		"TAPANI",
@@ -69,6 +69,8 @@ function GovernmentRepublic:new(gc,id,gc_name)
 
 	self.GroundStructureSnapshot = {}
 	self.SpaceStructureSnapshot = {}
+
+	self.p2_table = require("ClonePhaseTwoLibrary") -- FotR_Enhanced
 
 	GCEventTable = {
 		["PROGRESSIVE"] = {EventName = "START_ORDER_6X", AutoOption = "SENATE_CHOICE_ORDER_6X_AI"},
@@ -358,7 +360,7 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 		Find_Player("Empire").Unlock_Tech(Find_Object_Type("Tarkin_Executrix_Upgrade"))
 		StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Mulleen_Imperator"})
 
-	elseif game_object_type_name == "DUMMY_RESEARCH_CLONE_TROOPER_II" then
+	elseif game_object_type_name == "DUMMY_RESEARCH_CLONE_TROOPER_II" then -- FotR_Enhanced
 		if self.gc_name == "RIMWARD" then
 			UnitUtil.DespawnList({"DUMMY_RESEARCH_CLONE_TROOPER_II"})
 
@@ -367,6 +369,36 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 			crossplot:publish("CLONE_UPGRADES", "empty")
 			GlobalValue.Set("CURRENT_CLONE_PHASE", 2)
 		end
+		for i, unit_type in pairs(self.p2_table) do
+            local despawn_list = Find_All_Objects_Of_Type(unit_type[1])
+			if despawn_list ~= nil then
+				for  _, target in pairs(despawn_list) do
+					if target.Get_Planet_Location() ~= nil then
+						UnitUtil.ReplaceAtLocation(target, unit_type[2])
+					end
+				end
+			end
+        end
+		if GlobalValue.Get("ARC_LIFETIME_LIMIT") == 0 then
+			UnitUtil.SetLockList("EMPIRE", {"ARC_PHASE_TWO_COMPANY"}, false)
+		end
+	elseif game_object_type_name == "ARC_PHASE_ONE_COMPANY" or game_object_type_name == "ARC_PHASE_TWO_COMPANY" then -- FotR_Enhanced
+		local lifetime = GlobalValue.Get("ARC_LIFETIME_LIMIT")
+		local object_type = Find_Object_Type(game_object_type_name)
+		lifetime = lifetime -1
+		if lifetime <= 0 then
+			if not object_type.Is_Build_Locked(self.RepublicPlayer) then
+				UnitUtil.SetLockList('EMPIRE', {game_object_type_name}, false)
+				return
+			end
+			local dummy_name = game_object_type_name.."_DUMMY"
+			self.RepublicPlayer.Give_Money(object_type.Get_Build_Cost())
+			local last_spawned = Find_First_Object(dummy_name)
+			last_spawned.Despawn()
+			return
+		end
+		GlobalValue.Set("ARC_LIFETIME_LIMIT", lifetime)
+		StoryUtil.ShowScreenText("Available ARC Trooper left: "..tostring(lifetime) , 10, nil, {r = 244, g=244, b =0})
 	end
 end
 
