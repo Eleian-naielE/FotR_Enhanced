@@ -1101,6 +1101,8 @@
 
 		<Targeting_Priority_Set>AntiInfantryStructure</Targeting_Priority_Set>
 
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>JET_PACK</Type>

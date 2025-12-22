@@ -12155,10 +12155,13 @@ TEXT_TOOLTIP_BTLA2_Y_WING,Early model of Y-wing tuned more towards a multirole f
 TEXT_TOOLTIP_BTLB_YWING_SHADOW,Comprised of clone pilots that received personal training from Anakin Skywalker himself, Shadow Squadron is a highly elite squadron that is attached to Admiral Yularen's complement. Although skilled with a variety of craft, Shadow Squadron predominantly flew V-19 Torrents and BTL-B Y-wings.
 TEXT_TOOLTIP_BTLS1_Y_WING,The second of the debut Y-wing models from the Clone Wars, more common in defense forces and garrisons than well-equipped fleets. The S1 Bomber is less armored than the -B series but has better flight performance, leading to it being preferred for further development. It is best used to attack larger enemy vessels with its ion cannons and munitions.
 TEXT_TOOLTIP_BUILD_PAD_ABILITY,Mobile Base: Creates build pad when deployed
+TEXT_TOOLTIP_BUILDLIMIT_ARC_TROOPER,Build Limit & Lifetime: 60-15 (Era dependent)
 TEXT_TOOLTIP_BUILDLIMIT_BANKS,Build Limit: 1 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_CAPITAL,Build Limit: 1
 TEXT_TOOLTIP_BUILDLIMIT_DEVASTATION,Build Limit: 1 | Lifetime: 1
 TEXT_TOOLTIP_BUILDLIMIT_KOTAS_MILITIA_TROOPER,Build Limit: 5 | Total: ∞ (Requires Rahm Kota)
+TEXT_TOOLTIP_BUILDLIMIT_LINK_P1,Linked Limit: Shared lifetime amount with Phase II
+TEXT_TOOLTIP_BUILDLIMIT_LINK_P2,Linked Limit: Shared lifetime amount with Phase I
 TEXT_TOOLTIP_BUILDLIMIT_MANDATOR,Build Limit: 1 | Lifetime: 1
 TEXT_TOOLTIP_BUILDLIMIT_MINES,Build Limit: 1 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_NIGHTSISTER_SITH_WITCH,Build Limit: 3 | Total: ∞ (Requires Yansu Grjak)
@@ -17154,19 +17157,35 @@ TEXT_UNIT_ANTARIAN_RANGER_RIFLEMAN_CAPTAIN,Antarian Ranger Rifleman Captain
 TEXT_UNIT_ANTARIAN_RANGER_RIFLEMAN_GRENADIER,Antarian Ranger Rifleman Grenadier
 TEXT_UNIT_ANTARIAN_RANGER_RIFLEMAN_LIEUTENANT,Antarian Ranger Rifleman Lieutenant
 TEXT_UNIT_ARC_PHASE_ONE_AT_HEAVY,ARC Trooper Heavy AT (Phase I)
+TEXT_UNIT_ARC_PHASE_ONE_AT_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy AT (Phase I)
 TEXT_UNIT_ARC_PHASE_ONE_GUNNER_HEAVY,ARC Trooper Heavy Gunner (Phase I)
+TEXT_UNIT_ARC_PHASE_ONE_GUNNER_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy Gunner (Phase I)
 TEXT_UNIT_ARC_PHASE_TWO_AT_HEAVY,ARC Trooper Heavy AT (Phase II)
+TEXT_UNIT_ARC_PHASE_TWO_AT_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy AT (Phase II)
 TEXT_UNIT_ARC_PHASE_TWO_GUNNER_HEAVY,ARC Trooper Heavy Gunner (Phase II)
+TEXT_UNIT_ARC_PHASE_TWO_GUNNER_HEAVY_ALPHA,Alpha-Class ARC Trooper Heavy Gunner (Phase II)
 TEXT_UNIT_ARC_TROOPER_P1,ARC Trooper (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_ALPHA,Alpha-Class ARC Trooper (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_ALPHA_COMPANY,Alpha-Class ARC Trooper Platoon (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_ALPHA_SQUAD,Alpha-Class ARC Trooper Squad (Phase I)
 TEXT_UNIT_ARC_TROOPER_P1_COMPANY,ARC Trooper Platoon (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_HEAVY_ALPHA_SQUAD,Alpha-Class ARC Trooper Heavy Squad (Phase I)
 TEXT_UNIT_ARC_TROOPER_P1_HEAVY_SQUAD,ARC Trooper Heavy Squad (Phase I)
 TEXT_UNIT_ARC_TROOPER_P1_OFFICER,ARC Commander (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_OFFICER_ALPHA,ARC Commander (Phase I)
+TEXT_UNIT_ARC_TROOPER_P1_OFFICER_ALPHA_SQUAD,Alpha-Class ARC Trooper Officer Squad (Phase I)
 TEXT_UNIT_ARC_TROOPER_P1_OFFICER_SQUAD,ARC Trooper Officer Squad (Phase I)
 TEXT_UNIT_ARC_TROOPER_P1_SQUAD,ARC Trooper Squad (Phase I)
 TEXT_UNIT_ARC_TROOPER_P2,ARC Trooper (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_ALPHA,Alpha-Class ARC Trooper (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_ALPHA_COMPANY,Alpha-Class ARC Trooper Platoon (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_ALPHA_SQUAD,Alpha-Class ARC Trooper Squad (Phase II)
 TEXT_UNIT_ARC_TROOPER_P2_COMPANY,ARC Trooper Platoon (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_HEAVY_ALPHA_SQUAD,Alpha-Class ARC Trooper Heavy Squad (Phase II)
 TEXT_UNIT_ARC_TROOPER_P2_HEAVY_SQUAD,ARC Trooper Heavy Squad (Phase II)
 TEXT_UNIT_ARC_TROOPER_P2_OFFICER,ARC Commander (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA,ARC Commander (Phase II)
+TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA_SQUAD,Alpha-Class ARC Trooper Officer Squad (Phase II)
 TEXT_UNIT_ARC_TROOPER_P2_OFFICER_SQUAD,ARC Trooper Officer Squad (Phase II)
 TEXT_UNIT_ARC_TROOPER_P2_SQUAD,ARC Trooper Squad (Phase II)
 TEXT_UNIT_ARC170,ARC-170

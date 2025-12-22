@@ -24,8 +24,8 @@ return {
 			DialogName = "REP",
 			RewardName = "ERA",
 			GroupSupport = "SECTOR_FORCES",
-			SupportArg = 100 --test
-			--SupportArg = 1
+			--SupportArg = 100 test
+			SupportArg = 1
 		},
 		["PDF"] = {
 			DialogName = "PDF",

@@ -23,6 +23,7 @@ return {
         })
 
         if self.entry_time <= 5 then
+            GlobalValue.Set("ARC_LIFETIME_LIMIT", 60) -- FotR_Enhanced
             if Find_Player("local") == Find_Player("Empire") then
                 StoryUtil.Multimedia("TEXT_STORY_INTRO_PROGRESSIVE_REPUBLIC_PALPATINE_ERA_2", 15, nil, "PalpatineFotR_Loop", 0)
                 Story_Event("CLONE_WARS_22BBY_REPUBLIC_START")

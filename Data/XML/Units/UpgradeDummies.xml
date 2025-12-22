@@ -151,7 +151,7 @@
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		
 		<Text_ID>TEXT_RESEARCH_PHASE2_MANUAL_UPGRADE</Text_ID>
-		<Lua_Script>Clone_Trooper_II_Swap_Manual</Lua_Script>
+		<Lua_Script>ClonePhaseTwoSwapManual</Lua_Script>
 		<Affiliation>Empire</Affiliation>
 		<Icon_Name>I_BUTTON_RESEARCH_CLONE_P2.tga</Icon_Name>
 
