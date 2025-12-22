@@ -399,7 +399,7 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 			return
 		end
 		GlobalValue.Set("ARC_LIFETIME_LIMIT", lifetime)
-		StoryUtil.ShowScreenText("ARC Spawned"..tostring(lifetime) , 10)
+		StoryUtil.ShowScreenText("Available ARC Trooper left: "..tostring(lifetime) , 10, nil, {r = 244, g=244, b =0})
 	end
 end
 
