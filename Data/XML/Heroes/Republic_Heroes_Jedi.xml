@@ -13705,7 +13705,7 @@
 	</DummyStructure>
 	
 	<DummyStructure Name="Dummy_Anakin_Darkside">
-	  <Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+	  	<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 	  	<Affiliation>Empire</Affiliation>
 	  
 	  	<Text_ID>TEXT_HERO_REPAIR_VADER_SUIT</Text_ID>
