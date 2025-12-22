@@ -812,7 +812,6 @@ function RepublicHeroes:Era_Transitions(new_era_number)
 				StoryUtil.Multimedia("TEXT_CONQUEST_GOVERNMENT_REP_HERO_REPLACEMENT_SPEECH_MARTZ", 20, nil, "Piett_Loop", 0)
 			end
 		end
-		Eta_Unlock()
 		Clear_Fighter_Hero("BROADSIDE_SHADOW_SQUADRON")
 
 	elseif new_era_number == 4 then
@@ -821,6 +820,7 @@ function RepublicHeroes:Era_Transitions(new_era_number)
 				StoryUtil.Multimedia("TEXT_CONQUEST_GOVERNMENT_REP_HERO_REPLACEMENT_SPEECH_KILIAN", 20, nil, "Piett_Loop", 0)
 			end
 		end
+		Eta_Unlock()
 		Autem_Check()
 
 	elseif new_era_number == 5 then
