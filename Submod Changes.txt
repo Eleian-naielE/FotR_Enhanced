@@ -50,10 +50,13 @@ ADDED STUFFS
 -- Emperor Palpatine escort, Captial garrison only
 
 -Umbaran Support Frigate(Influence) 
---- Fleet Tender Available at Umbara at influence 8+
+--- Fleet Tender, Available at Umbara at influence 8+
 
 -Umbaran fighter
 -- Spawns as Militia, Support Frigate loadout, influence militia
+
+-Umbaran Hover Tank
+-- Influence Unit, Available at Umbara at influence 7+
 
 -Magna Tri Droid Missile Refit
 -- Replaces laser magna tri Era 4+
@@ -78,7 +81,7 @@ ADDED STUFFS
 --- Available until Order 6X
 
 -Prudii Skirata
--- ARC lieutenant, Galactic Stealth, Tactical Stealth, Sticky Bomb
+-- ARC lieutenant, Command Tier 2, Galactic Stealth, Tactical Stealth, Sticky Bomb
 --- Removed in Order 66
 
 -Oppo Rancisis
@@ -107,10 +110,18 @@ ADDED STUFFS
 
 
 # New Mechanics
+-Clone Phase2 Automatic swap
+-- Upon Phase 2 upgrade, Phase 1 Clones will be upgraded to Phase 2 Clones (Includes Generic Commanders)
+--- * Special Ops are swapped for Galactic Marines
 
 -Clone Phase2 Manual swap
--- Upon Phase 2 upgrade, a a galactic upgrade dummy for clones in hyperspace during phase 2 research will be unlocked.
+-- Upon Phase 2 upgrade, a galactic upgrade dummy for clones in hyperspace during phase 2 research will be unlocked (Includes Generic Commanders)
 --- Locks if no Phase 1 clones are left
+
+-ARC Trooper Lifetime Limits
+-- Build Lifetime limits depending on starting Era
+-- Era 2: 60, Era 3: 45, Era 4: 30, Era 5: 15
+-- IMPORTANT : Synced with Phase 2 ARC Trooper
 
 [[
 -Republic's Decolorized military
@@ -130,12 +141,23 @@ CHANGES & ADJUSTMENTS
 -- Droid infantry/heroes can now be affected by Emp blast, healed from vehicle repair center and immune to drain life ability
 -Related changes applied accordingly
 
+
+# Starting Forces
+- Galactic Marines moved to Era 4+ only
+- A6 Prototype for Republic and Kuati Era 2-3
+- UT-AT moved to Era 4+
+- SPHA-T addded for Rothanan
+- All A6 Spawns regardless of planet type are moved to Era 4+
+- Special Ops added as replacement of Galactic marines for Coruscant Guards
+
+
 # Darkside Anakin's Respawn mechanics
 - If killed in flagship version in space, will respawn as ground only hero
 - If killed on ground as reinforcement, will respawn as Vader with Exactor intact
 - If killed as ground only hero, will respawn as Vader with Exactor upgrade available
 - If killed in flagship version in space as Vader, will respawn as ground only hero 
 - If killed on ground as Vader with Exactor, will be able to renabled like Grievous
+
 
 # Units made available/unavailable
 - UT-AT locked until 21bby Month 6
@@ -147,11 +169,12 @@ CHANGES & ADJUSTMENTS
 -NOTE : All vacant limits(limits of affordable losses) increased to match the number of all available Heroes
 -- Jedi : 3 -> 4
 -- Clone Officer : 2 -> 3
--- Clone Commando : 2 -> 3
 
 -Gradual increase of staff limits with tech research
 -- Venator research : +1 Admiral, +1 Moff
 -- Phase 2 research : +1 Commando
+
+-Eta 2 Upgrades for Jedi moved to Era 4 (was Era 3)
 
 -Historical GC hero lists & limits (in comparison to the original)
 -- ORS :
