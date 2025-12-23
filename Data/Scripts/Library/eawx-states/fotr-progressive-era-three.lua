@@ -48,18 +48,6 @@ return {
                 end
             end
             
-            UnitUtil.ReplaceAtLocation("Yoda", "Yoda_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Mace_Windu", "Mace_Windu_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Obi_Wan", "Obi_Wan_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Anakin", "Anakin_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Kit_Fisto", "Kit_Fisto_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Aayla_Secura", "Aayla_Secura_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Ki_Adi_Mundi", "Ki_Adi_Mundi_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Luminara_Unduli", "Luminara_Unduli_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Barriss_Offee", "Barriss_Offee_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Shaak_Ti", "Shaak_Ti_Eta_Team")
-            UnitUtil.ReplaceAtLocation("Ahsoka", "Ahsoka_Eta_Team")
-            
             crossplot:publish("ERA_TRANSITION", 3)
         end
     end,

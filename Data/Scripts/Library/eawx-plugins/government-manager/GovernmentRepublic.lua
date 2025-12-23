@@ -45,7 +45,7 @@ function GovernmentRepublic:new(gc,id,gc_name)
 
 	self.FleetValues = {
 		nil,
-		"OPEN_CIRCLE",
+		"OCF",
 		"KDY",
 		"ORSF",
 		"TAPANI",

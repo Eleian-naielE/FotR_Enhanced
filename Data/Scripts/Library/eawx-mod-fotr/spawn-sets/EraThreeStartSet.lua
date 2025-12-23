@@ -1,10 +1,10 @@
 return {
 	["EMPIRE"] = {
-	["CORUSCANT"] = {"Yoda_Eta_Team", "Pestage_Team"},
-	["KAMINO"] = {"Delta_Squad", "Cody_Team", "Obi_Wan_Eta_Team"},
+	["CORUSCANT"] = {"Yoda_Delta_Team", "Pestage_Team"},
+	["KAMINO"] = {"Delta_Squad", "Cody_Team", "Obi_Wan_Delta_Team"},
 	["CARIDA"] = {"Rom_Mohc_Team"},
-	["NABOO"] = {"Rex_Team", "Anakin_Eta_Team", "Ahsoka_Eta_Team", "Yularen_Resolute"},
-	["KASHYYYK"] = {"Aayla_Secura_Eta_Team", "Tallon_Sundiver"},
+	["NABOO"] = {"Rex_Team", "Anakin_Delta_Team", "Ahsoka_Delta_Team", "Yularen_Resolute"},
+	["KASHYYYK"] = {"Aayla_Secura_Delta_Team", "Tallon_Sundiver"},
 	["RISHI"] = {"Fordo_Team"},
 	["QIILURA"] = {"Romodi_Team"},
 	["ROTHANA"] = {"Tarkin_Venator"},
