@@ -343,11 +343,14 @@ return {
 --FotR_Enhanced
     ,BLOCK_NEGOTIATOR = {nil, true}
     ,BLOCK_VIGILANCE = {nil, true}
-    ,TJ912_RECUSANT = {nil, true}
-    ,TM171_DH_OMNI={nil, true}
-    ,ROHN_TEAM = {nil, false}
-    ,YULAREN_RESOLUTE_SPHAT = {nil, true}
+	,GILLEHSPY_HOUND = {nil, true}
 	,OPPO_RANCISIS_TEAM = {nil, false}
+	,PRUDII_SKIRATA_TEAM = {nil, false}
+	,PRUDII_SKIRATA2_TEAM = {nil, false}
+	,ROHN_TEAM = {nil, false}
+    ,YULAREN_RESOLUTE_SPHAT = {nil, true}
 	,EXACTOR_ANAKIN_DARKSIDE = {nil, true}
 	,EXACTOR_VADER = {nil, true}
+	,TJ912_RECUSANT = {nil, true}
+    ,TM171_DH_OMNI={nil, true}
 }
