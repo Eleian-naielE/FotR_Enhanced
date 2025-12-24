@@ -25,6 +25,7 @@ require("deepcore/std/class")
 require("eawx-util/StoryUtil")
 require("HeroSystem")
 require("SetFighterResearch")
+local GILLEHSPY_HOUND = require("Data.Scripts.Library.eawx-mod-fotr.gameobjects.GILLEHSPY_HOUND")
 
 RepublicHeroes = class()
 
@@ -73,7 +74,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 		total_slots = 3,       --Max number of concurrent slots. Set at the start of the GC and never change.
 		free_hero_slots = 3,   --Slots open to fill with a hero.
 		vacant_hero_slots = 0, --Slots that need another action to move to free.
-		vacant_limit = 21,      --Number of times a lost slot becomes a vacant slot (rather than remaining lost forever).
+		vacant_limit = 22,      --Number of times a lost slot becomes a vacant slot (rather than remaining lost forever).
 		initialized = false,
 		full_list = { --All options for reference operations
 			["Yularen"] = {"YULAREN_ASSIGN",{"YULAREN_RETIRE","YULAREN_RETIRE1","YULAREN_RETIRE2","YULAREN_RETIRE3"},{"YULAREN_RESOLUTE","YULAREN_RESOLUTE_SPHAT","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"},"Wullf Yularen"},
@@ -98,6 +99,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			["Martz"] = {"MARTZ_ASSIGN",{"MARTZ_RETIRE"},{"MARTZ_PROSECUTOR"},"Stinnet Martz"},
 			--FotR_Enhanced
 			["Block"] = {"BLOCK_ASSIGN",{"BLOCK_RETIRE","BLOCK_RETIRE2"},{"BLOCK_NEGOTIATOR","BLOCK_VIGILANCE"}, "Block"},
+			["Gillehspy"] = {"GILLEHSPY_ASSIGN",{"GILLEHSPY_RETIRE"},{"GILLEHSPY_HOUND"}, "Gillehspy"},
 		},
 		available_list = {--Heroes currently available for purchase. Seeded with those who have no special prereqs
 			"Dallin",
@@ -241,7 +243,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 		total_slots = 2,			--Max slot number. Set at the start of the GC and never change
 		free_hero_slots = 2,		--Slots open to buy
 		vacant_hero_slots = 0,	    --Slots that need another action to move to free
-		vacant_limit = 2,           --Number of times a lost slot can be reopened
+		vacant_limit = 9,           --Number of times a lost slot can be reopened
 		initialized = false,
 		full_list = { --All options for reference operations
 			["Alpha"] = {"ALPHA_ASSIGN",{"ALPHA_RETIRE","ALPHA_RETIRE2"},{"ALPHA_17","ALPHA_17_2"},"Alpha-17", ["Companies"] = {"ALPHA_17_TEAM","ALPHA_17_2_TEAM"}},
@@ -339,6 +341,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	Tenant_Checks = 0
 	--FotR_Enhanced
 	Forral_Checks = 0
+	Gillehspy_Checks = 0
 
 	Venator_init = false
 end
@@ -957,6 +960,7 @@ function RepublicHeroes:Venator_Heroes() -- FotR_Enhanced ; admiral, moff slot i
 		Autem_Check()
 		Trachta_Check()
 		Forral_Check()
+		Gillehspy_Check()
 	end
 	Venator_init = true
 end
@@ -1101,6 +1105,7 @@ function RepublicHeroes:Senate_Choice_Handler(senate_option)
 		Decrement_Hero_Amount(10, council_data)
 		Clear_Fighter_Hero("IMA_GUN_DI_DELTA")
 		Forral_Check()
+		Gillehspy_Check()
 	end
 end
 
@@ -1181,6 +1186,13 @@ function Forral_Check()
 		Handle_Hero_Add("Forral", admiral_data)
 		Clear_Fighter_Hero("BYTHEN_FORRAL_SQUADRON")
 		RepublicHeroes:Remove_Fighter_Set("Bythen_Forral_Location_Set")
+	end
+end
+
+function Gillehspy_Check()
+	Gillehspy_Checks = Gillehspy_Checks + 1
+	if Gillehspy_Checks == 2 then
+		Handle_Hero_Add("Gillehspy", admiral_data)
 	end
 end
 

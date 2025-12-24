@@ -366,6 +366,7 @@ return {
 ["BLOCK_VIGILANCE"] = true,
 ["VADER_EXACTOR"] = true,
 ["YULAREN_RESOLUTE_SPHAT"] = true,
+["GILLEHSPY_HOUND"] = true,
 ["TJ912_RECUSANT"] = true,
 ["TM171_DH_OMNI"] = true,
 ["UMBARAN_FRIGATE"] = true,
