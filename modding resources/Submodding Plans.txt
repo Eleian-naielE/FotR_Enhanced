@@ -7,6 +7,12 @@ Unit stat : Faster moving speed, health average of reg clone and alpha arc, Weap
 Weapon Stat : DC-15 carbine, DC-15 rifle, dc-17 pistol, ion grenade, grenade, rocket launcher, infantry mine
 Remove ; wrist rocket, Flame Thrower,
 
+Captain, a rifleman, carbine, maybe a at spec, and a ai spec
+lieutenant, carbine ion grenade, rifle grenade, ai spec
+
+
+# Clone Commando Rework
+Company : 4 Commandos ; Sargent, Slicer, Marksman, Bomb Expertise
 
 # Ion Weapon Damage 
 

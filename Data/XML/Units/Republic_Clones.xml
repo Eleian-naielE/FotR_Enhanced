@@ -3969,7 +3969,7 @@
 	</Container>
 
 
-	<!-- Republic Commando -->
+	<!-- Republic Commando --> <!-- Reworked -->
 
 	<GroundInfantry Name="Clone_Commando">
 
@@ -11551,4 +11551,47 @@
 
 	</GroundInfantry>
 
+
+	<!-- Clone Commando Reworked -->
+	
+	<HeroUnit Name="Clone_Commando">
+		<Variant_Of_Existing_Type>Hero_Commando_Shielded_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_SARGENT</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_COMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MOVE
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP1
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_CLONE_COMMANDO_SARGENT.tga</Icon_Name>
+
+		<Land_Model_Name>clone_commando.alo</Land_Model_Name>
+		<No_Colorization_Color> 69, 155, 212, 255 </No_Colorization_Color>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			clone_commando.alo,
+			Urban, 				omega_commando.alo,
+			Arctic, 			clone_commando.alo,
+			Volcanic, 			omega_commando.alo,
+			Desert, 			clone_commando.alo,
+			Forest, 			clone_commando.alo,
+			Swamp, 				clone_commando.alo
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>TrainedHero.alo</Land_Model_Anim_Override_Name>
+
+		<Tactical_Health>80</Tactical_Health>
+		<Shield_Points>30</Shield_Points>
+		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
+
+		<HardPoints>HP_Hero_Republic_Commando_Blaster, </HardPoints>
+	</HeroUnit>
 </Republic_Clones>
