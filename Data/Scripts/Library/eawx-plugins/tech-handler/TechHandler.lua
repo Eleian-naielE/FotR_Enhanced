@@ -132,7 +132,7 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 			"Template_Research_Dummy",
 			{"Rebel","Banking_Clan","Commerce_Guild","Techno_Union","Trade_Federation"},
 			{"HMP_Company","Destroyer_Droid_I_Q_Company","Destroyer_Droid_II_Company","Magna_Missile_Company"},
-			{"Destroyer_Droid_I_W_Company","Magna_Company"}
+			{"Destroyer_Droid_I_W_Company","Magna_Octuptarra_Company"}
 			) -- FotR_Enhanced
 
 		self.Roster_Update_20BBY_M6_Rep = GenericResearch(self.galactic_conquest,
