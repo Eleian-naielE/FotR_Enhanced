@@ -96,7 +96,7 @@ function Get_Hero_Entries(upgrade_object)
 			Hero_Squadron = "ODD_BALL_TORRENT_SQUAD_SEVEN_SQUADRON",
 			PopupHeader = "ODD_BALL_P1_SELECTOR_HEADER",
 			Options = {
-				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}, GroundPerception = "Yularen_In_Orbit"},
+				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_RESOLUTE_SPHAT","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}, GroundPerception = "Yularen_In_Orbit"},
 				{"KILIAN", Locations = {"KILIAN_ENDURANCE"}, GroundPerception = "Kilian_In_Orbit"},
 				{"BLOCK", Locations = {"BLOCK_NEGOTIATOR","BLOCK_VIGILANCE"}, GroundPerception = "Block_In_Orbit"},
 				{"WESSEX", Locations = {"WESSEX_REDOUBT"}, GroundPerception = "Denn_Wessex_In_Orbit"},
@@ -111,7 +111,7 @@ function Get_Hero_Entries(upgrade_object)
 			PopupHeader = "ODD_BALL_P2_SELECTOR_HEADER",
 			NoInit = true,
 			Options = {
-				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}, GroundPerception = "Yularen_In_Orbit"},
+				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_RESOLUTE_SPHAT","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}, GroundPerception = "Yularen_In_Orbit"},
 				{"KILIAN", Locations = {"KILIAN_ENDURANCE"}, GroundPerception = "Kilian_In_Orbit"},
 				{"BLOCK", Locations = {"BLOCK_NEGOTIATOR","BLOCK_VIGILANCE"}, GroundPerception = "Block_In_Orbit"},
 				{"WESSEX", Locations = {"WESSEX_REDOUBT"}, GroundPerception = "Denn_Wessex_In_Orbit"},
