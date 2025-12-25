@@ -4821,7 +4821,7 @@
 	</GroundVehicle>
 
 	<GroundCompany Name="Magna_Missile_Company">
-		<Variant_Of_Existing_Type>Magna_Company</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Magna_Octuptarra_Company</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_MAGNATRI_MISSILE_COMPANY</Text_ID>
 		<Encyclopedia_Text>
 			TEXT_TOOLTIP_MAGNATRI_MISSILE
