@@ -72,6 +72,7 @@ function State_Init(message)
 		or Find_First_Object("Bow")
 		or Find_First_Object("Vill")
 		or Find_First_Object("Voca")
+		or Find_First_Object("Hawk_P1_LAAT") or Find_First_Object("Hawk_P2_LAAT")
 		then
 			clone_skin = 2
 		elseif Find_First_Object("Plo_Koon")

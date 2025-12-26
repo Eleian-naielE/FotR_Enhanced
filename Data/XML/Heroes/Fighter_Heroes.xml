@@ -4400,6 +4400,356 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</HeroCompany>
 
+	<!-- Lieutenant Hawk / LAAT & Clone Z-95 -->
+
+	<DummyStructure Name="Reform_Hawk">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Population_Value>0</Population_Value>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<AI_Combat_Power>10000</AI_Combat_Power>
+
+		<CategoryMask>Wall</CategoryMask>
+
+		<Text_ID>TEXT_HERO_REFORM_HAWK</Text_ID>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Affiliation>Empire</Affiliation>
+		<Icon_Name>I_BUTTON_HAWK_P1.tga</Icon_Name>
+
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Tech_Level>0</Tech_Level>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_REFORM_SQUADRON
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
+
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+	</DummyStructure>
+
+	<UniqueUnit Name="Hawk_P1_LAAT">
+		<Variant_Of_Existing_Type>Republic_LAAT</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_HAWK</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_HAWK
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_LAAT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_LAAT_HEALTH 
+		TEXT_TOOLTIP_LAAT_SHIELD 
+		TEXT_TOOLTIP_LAAT_MOVE 
+		TEXT_TOOLTIP_LAAT_WEAP1 
+		TEXT_TOOLTIP_LAAT_WEAP2 
+		TEXT_TOOLTIP_LAAT_WEAP3
+		TEXT_TOOLTIP_LAAT_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_LEGIONS_ANAKIN
+		TEXT_TOOLTIP_CAPABILITY_TRANSPORT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIEUTENANT</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_HAWK_P1.tga</Icon_Name>
+
+		<CategoryMask> AirGunship | AntiVehicle | AntiInfantry | Clone </CategoryMask>	<!-- VehicleHero is intentionally omitted - Rhino -->
+		<Property_Flags>CanContainGarrison | GarrisonCanFire </Property_Flags>
+		<Ranking_In_Category> 7 </Ranking_In_Category>
+
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
+		
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
+			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_02_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.06</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<HeroCompany Name="Hawk_P1_Team">
+		<Variant_Of_Existing_Type>Republic_LAAT_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_HAWK</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_HAWK
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_LAAT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_LAAT_HEALTH 
+		TEXT_TOOLTIP_LAAT_SHIELD 
+		TEXT_TOOLTIP_LAAT_MOVE 
+		TEXT_TOOLTIP_LAAT_WEAP1 
+		TEXT_TOOLTIP_LAAT_WEAP2 
+		TEXT_TOOLTIP_LAAT_WEAP3
+		TEXT_TOOLTIP_LAAT_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_LEGIONS_ANAKIN
+		TEXT_TOOLTIP_CAPABILITY_TRANSPORT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIEUTENANT</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_HAWK_P1.tga</Icon_Name>
+
+		<Company_Units>Hawk_P1_LAAT</Company_Units>
+		
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</HeroCompany>
+
+	<DummyStructure Name="Reform_Hawk2">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Population_Value>0</Population_Value>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<AI_Combat_Power>10000</AI_Combat_Power>
+
+		<CategoryMask>Wall</CategoryMask>
+
+		<Text_ID>TEXT_HERO_REFORM_HAWK</Text_ID>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Affiliation>Empire</Affiliation>
+		<Icon_Name>I_BUTTON_HAWK_P2.tga</Icon_Name>
+
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Tech_Level>0</Tech_Level>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_REFORM_SQUADRON
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
+
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+	</DummyStructure>
+
+	<DummyStructure Name="Hawk_Dummy_Set">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Population_Value>0</Population_Value>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<AI_Combat_Power>10000</AI_Combat_Power>
+
+		<CategoryMask>Wall</CategoryMask>
+
+		<Text_ID>TEXT_HERO_HAWK</Text_ID>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Affiliation>Empire</Affiliation>
+		<Icon_Name>I_BUTTON_HAWK_P2_SET.tga</Icon_Name>
+
+		<Tech_Level>6</Tech_Level>
+		<Encyclopedia_Text> 
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
+
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+	</DummyStructure>
+
+	<UniqueUnit Name="Hawk_Clone_Z95_Headhunter">
+		<Variant_Of_Existing_Type>Clone_Z95_Headhunter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_HAWK</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_HAWK
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_REPUBLIC_HEADHUNTER_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_REPUBLIC_Z95_HAWK_BASE
+		TEXT_STATBLOCK_REPUBLIC_Z95_MOVE
+		TEXT_STATBLOCK_REPUBLIC_Z95_WEAP1
+		TEXT_STATBLOCK_REPUBLIC_Z95_WEAP2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIEUTENANT</Encyclopedia_Unit_Class>																						 
+		<Icon_Name>I_BUTTON_HAWK_P2.tga</Icon_Name>
+
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Points>80</Shield_Points>
+		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
+
+		<SpaceBehavior>ABILITY_COUNTDOWN, HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.2f</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_RAPID_FIRE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_RAPID_FIRE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
+			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_02_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.06</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Clone_Z95_Headhunter_Hawk">
+		<Variant_Of_Existing_Type>Clone_Z95_Headhunter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HAWK_Z95</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_HAWK_Z95
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_REPUBLIC_Z95_ESCORT_BASE
+		TEXT_STATBLOCK_REPUBLIC_Z95_MOVE
+		TEXT_STATBLOCK_REPUBLIC_Z95_WEAP1
+		TEXT_STATBLOCK_REPUBLIC_Z95_WEAP2
+		</Encyclopedia_Text>
+
+		<Tactical_Health>130</Tactical_Health>
+		<Shield_Points>50</Shield_Points>
+		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
+		<AI_Combat_Power>9.82</AI_Combat_Power>
+
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, REVEAL, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.2f</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_RAPID_FIRE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_RAPID_FIRE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</UniqueUnit>
+
+	<Container Name="Hawk_Clone_Z95_Hunter_Container">
+		<Variant_Of_Existing_Type>Clone_Z95_Headhunter_Squadron_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_HAWK</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_HAWK
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_REPUBLIC_HEADHUNTER_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_FIGHTER_LEADER_STAT_BLOCK
+		TEXT_STATBLOCK_REPUBLIC_Z95_HAWK_BASE
+		TEXT_TOOLTIP_SEPARATOR_FIGHTER_ESCORT_STAT_BLOCK
+		TEXT_STATBLOCK_REPUBLIC_Z95_ESCORT_BASE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_REPUBLIC_Z95_SQUADRON
+		TEXT_STATBLOCK_REPUBLIC_Z95_MOVE
+		TEXT_STATBLOCK_REPUBLIC_Z95_WEAP1
+		TEXT_STATBLOCK_REPUBLIC_Z95_WEAP2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIEUTENANT</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_HAWK_P2.tga</Icon_Name>
+
+		<Radar_Icon_Size>0.03  0.03</Radar_Icon_Size>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Squadron Name="Hawk_Clone_Z95_Hunter_Squadron">
+		<Variant_Of_Existing_Type>Clone_Z95_Headhunter_Squadron</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_HAWK</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_HAWK
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_REPUBLIC_HEADHUNTER_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_FIGHTER_LEADER_STAT_BLOCK
+		TEXT_STATBLOCK_REPUBLIC_Z95_HAWK_BASE
+		TEXT_TOOLTIP_SEPARATOR_FIGHTER_ESCORT_STAT_BLOCK
+		TEXT_STATBLOCK_REPUBLIC_Z95_ESCORT_BASE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_REPUBLIC_Z95_SQUADRON
+		TEXT_STATBLOCK_REPUBLIC_Z95_MOVE
+		TEXT_STATBLOCK_REPUBLIC_Z95_WEAP1
+		TEXT_STATBLOCK_REPUBLIC_Z95_WEAP2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIEUTENANT</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_HAWK_P2.tga</Icon_Name>
+
+		<Create_Team_Type>Hawk_Clone_Z95_Hunter_Container</Create_Team_Type>
+		<Squadron_Units>Hawk_Clone_Z95_Headhunter, Clone_Z95_Headhunter_Hawk, Clone_Z95_Headhunter_Hawk, Clone_Z95_Headhunter_Hawk</Squadron_Units>
+		<Squadron_Units>Clone_Z95_Headhunter_Hawk, Clone_Z95_Headhunter_Hawk, Clone_Z95_Headhunter_Hawk, Clone_Z95_Headhunter_Hawk</Squadron_Units>
+		<Squadron_Units>Clone_Z95_Headhunter_Hawk, Clone_Z95_Headhunter_Hawk, Clone_Z95_Headhunter_Hawk, Clone_Z95_Headhunter_Hawk</Squadron_Units>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<UniqueUnit Name="Hawk_P2_LAAT">
+		<Variant_Of_Existing_Type>Hawk_P1_LAAT</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_HAWK_P2.tga</Icon_Name>
+	</UniqueUnit>
+
+	<HeroCompany Name="Hawk_P2_Team">
+		<Variant_Of_Existing_Type>Hawk_P1_Team</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_HAWK_P2.tga</Icon_Name>
+		<Company_Units>Hawk_P2_LAAT</Company_Units>
+	</HeroCompany>
+
 	
 	<!-- Bythen Forral ; Fighter Hero / Cloakshape-->
 

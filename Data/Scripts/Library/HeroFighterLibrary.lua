@@ -226,7 +226,21 @@ function Get_Hero_Entries(upgrade_object)
 			},
 			Factions = {"Empire"},
 		},
-		
+		["REFORM_HAWK"] = {
+			NoInit = true,
+			GroundReinforcementPerception = "Yularen_In_Orbit",
+			GroundCompany = "HAWK_P1_TEAM",
+			Factions = {"Empire"},
+			NoSpawnFlag = "GROUND_HAWK_DEAD",
+			DeathMessage = "Lieutenant Hawk has taken crippling damage and must be healed"
+		},
+		["HAWK_DUMMY_SET"] = {
+			GroundReinforcementPerception = "Yularen_In_Orbit",
+			GroundCompany = "HAWK_P2_TEAM",
+			Factions = {"Empire"},
+			NoSpawnFlag = "GROUND_HAWK_DEAD",
+			DeathMessage = "Lieutenant Hawk's squadron has taken crippling damage and must be reformed"
+		},
 		["DUMMY_ANAKIN_DARKSIDE"] = {
 			NoInit = true, 
 			GroundReinforcementPerception = "Exactor_Anakin_Darkside_In_Orbit",
