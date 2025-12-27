@@ -4441,7 +4441,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_HAWK
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
-		TEXT_UNIT_LAAT
+		TEXT_TOOLTIP_COMMAND_VALKYRIE2929
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
 		TEXT_TOOLTIP_LAAT_HEALTH 
 		TEXT_TOOLTIP_LAAT_SHIELD 
@@ -4533,7 +4533,7 @@
 
 		<CategoryMask>Wall</CategoryMask>
 
-		<Text_ID>TEXT_HERO_REFORM_HAWK</Text_ID>
+		<Text_ID>TEXT_HERO_REFORM_HAWK_SQUADRON</Text_ID>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Affiliation>Empire</Affiliation>
 		<Icon_Name>I_BUTTON_HAWK_P2.tga</Icon_Name>
@@ -4549,7 +4549,7 @@
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
 	</DummyStructure>
 
-	<DummyStructure Name="Hawk_Dummy_Set">
+	<DummyStructure Name="Hawk_Dummy_Set"> <!-- Not buildable, required for HeroFighterLibrary -->
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 		<GUI_Row> 0 </GUI_Row>
 
@@ -4670,7 +4670,7 @@
 		</Unit_Abilities_Data>
 	</UniqueUnit>
 
-	<Container Name="Hawk_Clone_Z95_Hunter_Container">
+	<Container Name="Hawk_Clone_Z95_Container">
 		<Variant_Of_Existing_Type>Clone_Z95_Headhunter_Squadron_Container</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_HAWK</Text_ID>
 		<Encyclopedia_Text>
@@ -4703,7 +4703,7 @@
 		</Unit_Abilities_Data>
 	</Container>
 
-	<Squadron Name="Hawk_Clone_Z95_Hunter_Squadron">
+	<Squadron Name="Hawk_Clone_Z95_Squadron">
 		<Variant_Of_Existing_Type>Clone_Z95_Headhunter_Squadron</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_HAWK</Text_ID>
 		<Encyclopedia_Text>

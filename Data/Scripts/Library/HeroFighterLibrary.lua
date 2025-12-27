@@ -235,11 +235,16 @@ function Get_Hero_Entries(upgrade_object)
 			DeathMessage = "Lieutenant Hawk has taken crippling damage and must be healed"
 		},
 		["HAWK_DUMMY_SET"] = {
-			GroundReinforcementPerception = "Yularen_In_Orbit",
+			NoInit = true,
+			Hero_Squadron = "HAWK_CLONE_Z95_SQUADRON",
+			PopupHeader = "HAWK_DUMMY_SELECTOR_HEADER",
+			Options = {
+				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_RESOLUTE_SPHAT","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}, GroundPerception = "Yularen_In_Orbit"},
+			},
 			GroundCompany = "HAWK_P2_TEAM",
 			Factions = {"Empire"},
-			NoSpawnFlag = "GROUND_HAWK_DEAD",
-			DeathMessage = "Lieutenant Hawk's squadron has taken crippling damage and must be reformed"
+			Enabler = "REFORM_HAWK2",
+			DeathMessage = "Lieutenant Hawk's squadron has taken crippling casualties and must be reformed.",
 		},
 		["DUMMY_ANAKIN_DARKSIDE"] = {
 			NoInit = true, 

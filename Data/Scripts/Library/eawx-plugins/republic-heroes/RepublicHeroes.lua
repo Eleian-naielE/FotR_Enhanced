@@ -25,7 +25,6 @@ require("deepcore/std/class")
 require("eawx-util/StoryUtil")
 require("HeroSystem")
 require("SetFighterResearch")
-local GILLEHSPY_HOUND = require("Data.Scripts.Library.eawx-mod-fotr.gameobjects.GILLEHSPY_HOUND")
 
 RepublicHeroes = class()
 
@@ -510,7 +509,7 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 		Handle_Hero_Add("Autem", admiral_data)
 
 		set_unit_index("Maarisa", 2, admiral_data)
-		set_unit_index("Yularen", 2, admiral_data)
+		set_unit_index("Yularen", 3, admiral_data)
 		set_unit_index("Block", 2, admiral_data)
 
 		Eta_Unlock()
@@ -528,6 +527,9 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 		Set_Fighter_Hero("ODD_BALL_ARC170_SQUAD_SEVEN_SQUADRON", "YULAREN_INTEGRITY")
 		Set_Fighter_Hero("WARTHOG_CLONE_Z95_HUNTER_SQUADRON", "COBURN_VENATOR")
 		Set_Fighter_Hero("JAG_ARC170_127TH_SQUADRON", "DODONNA_ARDENT")
+
+		GlobalValue.Set("GROUND_HAWK_DEAD", false) -- FotR_Enhanced actions for hawk phase 2
+		Set_Fighter_Hero("HAWK_CLONE_Z95_SQUADRON", "YULAREN_INTEGRITY")
 	end
 
 	if tech_level >= 5 then
@@ -754,7 +756,7 @@ function RepublicHeroes:on_galactic_hero_killed(hero_name, owner)
 			if hero_name == "YULAREN_INVINCIBLE" then
 				UnitUtil.SetLockList("EMPIRE", {"Yularen_Integrity_Upgrade_Invincible"}, false)
 			end
-			admiral_data.full_list["Yularen"].unit_id = 3 --YULAREN_INTEGRITY
+			admiral_data.full_list["Yularen"].unit_id = 3 --YULAREN_INTEGRITY -- FotR_Enhanced
 			Handle_Hero_Add("Yularen", admiral_data)
 			if Find_Player("Empire").Is_Human() then
 				StoryUtil.Multimedia("TEXT_SPEECH_YULAREN_RETURNS_INTEGRITY", 15, nil, "Piett_Loop", 0)
@@ -982,6 +984,12 @@ function Autem_Check()
 		Clear_Fighter_Hero("WARTHOG_TORRENT_HUNTER_SQUADRON")
 		RepublicHeroes:Remove_Fighter_Set("Odd_Ball_Torrent_Location_Set")
 		RepublicHeroes:Remove_Fighter_Set("Warthog_Torrent_Location_Set")
+
+		GlobalValue.Set("GROUND_HAWK_DEAD", false) -- FotR_Enhanced ; actions for replacing hawk to phase 2
+		moff_data.active_player.Lock_Tech(Find_Object_Type("REFORM_HAWK"))
+		local current_index = admiral_data.full_list["Yularen"].unit_id
+		local yularen_ship = admiral_data.full_list["Yularen"][3][current_index]
+		Set_Fighter_Hero("HAWK_CLONE_Z95_SQUADRON", yularen_ship)
 	end
 end
 
