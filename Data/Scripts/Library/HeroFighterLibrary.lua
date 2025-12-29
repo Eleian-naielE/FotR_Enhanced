@@ -43,10 +43,10 @@ function Get_Hero_Entries(upgrade_object)
 			Hero_Squadron = "ARHUL_NARRA_GUARDIAN_SQUADRON",
 			PopupHeader = "ARHUL_NARRA_SELECTOR_HEADER",
 			Options = {
-				{"SEERDON", Locations = {"SEERDON_INVINCIBLE"}},
-				{"PARCK", Locations = {"PARCK_STRIKEFAST"}},
 				{"TARKIN", Locations = {"TARKIN_VENATOR","TARKIN_EXECUTRIX"}},
-				{"THERBON", Locations = {"THERBON_CERULEAN_SUNRISE"}},
+				{"DENIMOOR", Locations = {"DENIMOOR_TENACIOUS"}},
+				{"PARCK", Locations = {"PARCK_STRIKEFAST"}},
+				{"THERBON", Locations = {"THERBON_CERULEAN_SUNRISE"}},				
 			}
 		},
 		["GARVEN_DREIS_LOCATION_SET"] = {
@@ -200,6 +200,7 @@ function Get_Hero_Entries(upgrade_object)
 		},
 		--FotR_Enhanced
 		["JAG_ARC170_LOCATION_SET"] = {
+			NoInit = true,
 			Hero_Squadron = "JAG_ARC170_127TH_SQUADRON",
 			PopupHeader = "JAG_P2_SELECTOR_HEADER",
 			Options = {
@@ -218,10 +219,11 @@ function Get_Hero_Entries(upgrade_object)
 			Hero_Squadron = "BYTHEN_FORRAL_SQUADRON",
 			PopupHeader = "BYTHEN_FORRAL_SELECTOR_HEADER",
 			Options = {
-				{"DRON", Locations = {"DRON_VENATOR"}},
+				{"SEERDON", Locations = {"SEERDON_INVINCIBLE"}},				
 				{"BARAKA", Locations = {"BARAKA_NEXU"}},
-				{"SEERDON", Locations = {"SEERDON_INVINCIBLE"}},
-				{"DENIMOOR", Locations = {"DENIMOOR_TENACIOUS"}},
+				{"DAO", Locations = {"DAO_VENATOR"}},
+				{"DRON", Locations = {"DRON_VENATOR"}},
+				{"BYLUIR", Locations = {"BYLUIR_VENATOR"}},
 				{"KREUGE", Locations = {"KREUGE_GIBBON"}},
 			},
 			Factions = {"Empire"},
