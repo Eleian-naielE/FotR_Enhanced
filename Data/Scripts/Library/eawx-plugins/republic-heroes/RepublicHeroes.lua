@@ -524,7 +524,7 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 
 		Clear_Fighter_Hero("ODD_BALL_TORRENT_SQUAD_SEVEN_SQUADRON")
 		Clear_Fighter_Hero("WARTHOG_TORRENT_HUNTER_SQUADRON")
-		Set_Fighter_Hero("ODD_BALL_ARC170_SQUAD_SEVEN_SQUADRON", "YULAREN_INTEGRITY")
+		Set_Fighter_Hero("ODD_BALL_ARC170_SQUAD_SEVEN_SQUADRON", "BLOCK_VIGILANCE") -- FotR_Enhanced
 		Set_Fighter_Hero("WARTHOG_CLONE_Z95_HUNTER_SQUADRON", "COBURN_VENATOR")
 		Set_Fighter_Hero("JAG_ARC170_127TH_SQUADRON", "DODONNA_ARDENT")
 
