@@ -1,13 +1,26 @@
 return {
+	--[[
+	adjusted total hero amounts ;
+	moff = 2
+	admiral = 4
+	clones officer = 4
+	commando = 3
+	jedi = 4
+	]]
 	["EMPIRE"] = {
 	["CORUSCANT"] = {"Yoda_Eta_Team", "Pestage_Team", "Fordo2_Team"},
-	["CARIDA"] = { "Obi_Wan_Eta_Team", "Cody2_Team"},
+	["CARIDA"] = {"Block_Vigilance", "Obi_Wan_Eta_Team", "Cody2_Team"},
 	["BOTHAWUI"] = {"Yularen_Integrity", "Rex2_Team", "Anakin_Eta_Team"},
-	["ONDERON"] = {"Romodi_Team", "Dodonna_Ardent"},
+	["ROCHE"] = {"Oppo_Rancisis_Team", "Faie_Team"},-- FotR_Enhanced
+	["BOZ_PITY"] = {"Wessex_Redoubt"},
 	["ERIADU"] = {"Tarkin_Venator"},
 	["KASHYYYK"] = {"Delta_Squad"},
-	["KUAT"] = {"Rahm_Kota_Team", "Kotas_Militia_Trooper_Company", "Kotas_Militia_Trooper_Company", "Gentis_Team"},
-	["RENDILI"] = {"Plo_Koon_Delta_Team", "Dallin_Kebir"}
+	["KUAT"] = {"Gentis_Team"}, -- FotR_Enhanced
+	["RENDILI"] = {"Plo_Koon_Delta_Team", "Dallin_Kebir"},
+	["ANAXES"] = {"Ki_Adi_Mundi_Eta_Team", "Bacara2_Team", "Dodonna_Ardent"},
+	["BELDERONE"] = {"Aayla_Secura_Eta_Team"},
+	["BESTINE"] = {"Gregor_Team"},
+	["ONDERON"] = {"Romodi_Team"},
 	},
 	["REBEL"] = {
 	["RAXUS_SECOND"] = {"Trench_Invulnerable", "Nute_Gunray_Team"},

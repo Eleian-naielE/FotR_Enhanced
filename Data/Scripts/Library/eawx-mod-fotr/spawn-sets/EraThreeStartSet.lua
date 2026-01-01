@@ -1,14 +1,25 @@
 return {
+	--[[
+	adjusted total hero amounts ;
+	moff = 2
+	admiral = 4
+	adjusted total hero amounts ;
+	clones officer = 3
+	jedi = 4
+	]]
 	["EMPIRE"] = {
 	["CORUSCANT"] = {"Yoda_Delta_Team", "Pestage_Team"},
-	["KAMINO"] = {"Delta_Squad", "Cody_Team", "Obi_Wan_Delta_Team"},
+	["KAMINO"] = {"Cody_Team", "Obi_Wan_Delta_Team"},
 	["CARIDA"] = {"Rom_Mohc_Team"},
 	["NABOO"] = {"Rex_Team", "Anakin_Delta_Team", "Ahsoka_Delta_Team", "Yularen_Resolute"},
 	["KASHYYYK"] = {"Aayla_Secura_Delta_Team", "Tallon_Sundiver"},
-	["RISHI"] = {"Fordo_Team"},
-	["QIILURA"] = {"Romodi_Team"},
+	--["RISHI"] = {"Fordo_Team"},
+	--["QIILURA"] = {"Romodi_Team"},
+	["BESTINE"] = {"Gentis_Team"},
+	["QIILURA"] = {"Omega_Squad"}, -- FotR_Enhanced
 	["ROTHANA"] = {"Tarkin_Venator"},
 	["KUAT"] = {"Coburn_Venator"},
+	["MUUNILINST"] = {"Delta_Squad","Wessel_Acclamator"},
 	},
 	["REBEL"] = {
 	["RAXUS_SECOND"] = {"Nute_Gunray_Team", "Lucid_Voice", "Trench_Invulnerable"},
