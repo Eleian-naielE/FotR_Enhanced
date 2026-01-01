@@ -3587,6 +3587,7 @@
 		<Required_Orbiting_Units>Coburn_Venator</Required_Orbiting_Units>
 	</DummyStructure>
 	
+	
 	<UniqueUnit Name="Yularen_Resolute">
 		<Variant_Of_Existing_Type>Template_Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -4104,9 +4105,7 @@
 		</Abilities>
 	</UniqueUnit>
 	
-	<!-- FotR_Enhanced -->
-	
-	<UniqueUnit Name="Yularen_Resolute_SPHAT">
+	<UniqueUnit Name="Yularen_Resolute_SPHAT"> <!-- FotR_Enhanced -->
 		<Variant_Of_Existing_Type>Yularen_Integrity</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -4183,7 +4182,7 @@
 
 		<Required_Orbiting_Units>Yularen_Resolute</Required_Orbiting_Units>
 	</DummyStructure>
-	<DummyStructure Name="Yularen_Retire1">
+	<DummyStructure Name="Yularen_Retire1"> <!-- For Yularen_Resolute_SPHAT -->
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
 		<SFXEvent_Build_Started> </SFXEvent_Build_Started>
@@ -4252,6 +4251,7 @@
 		<Required_Orbiting_Units>Yularen_Resolute</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Three | Republic_Shipyard_Level_Four</Required_Special_Structures>
 	</DummyStructure>
+
 	<DummyStructure Name="Yularen_Integrity_Upgrade_Invincible">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<GUI_Row> 1 </GUI_Row>
@@ -4272,10 +4272,8 @@
 		<Required_Orbiting_Units>Yularen_Integrity</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Three | Republic_Shipyard_Level_Four</Required_Special_Structures>
 	</DummyStructure>
-	
-	<!-- FotR_Enhanced -->
 
-	<DummyStructure Name="Yularen_Resolute_Upgrade_Resolute_SPHAT">
+	<DummyStructure Name="Yularen_Resolute_Upgrade_Resolute_SPHAT"> <!-- For Yularen_Resolute_SPHAT -->
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<GUI_Row> 1 </GUI_Row>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
@@ -4294,7 +4292,8 @@
 		<Required_Orbiting_Units>Yularen_Resolute</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Three | Republic_Shipyard_Level_Four</Required_Special_Structures>
 	</DummyStructure>
-	<DummyStructure Name="Yularen_Resolute_SPHAT_Upgrade_Invincible">
+
+	<DummyStructure Name="Yularen_Resolute_SPHAT_Upgrade_Invincible"> <!-- For Yularen_Resolute_SPHAT -->
 	  <Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<GUI_Row> 1 </GUI_Row>
 		<Build_Cost_Credits>1700</Build_Cost_Credits>
@@ -4814,7 +4813,7 @@
 	</DummyStructure>
 
 
-	<UniqueUnit Name="Denimoor_Tenacious">
+	<UniqueUnit Name="Denimoor_Tenacious"> <!-- FotR_Enhanced ; Respect for the jedi ability added-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Variant_Of_Existing_Type>Template_Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_DENIMOOR</Text_ID>
@@ -4890,6 +4889,43 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>LURE</Type>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_RESPECT_FOR_JEDI_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_RESPECT_FOR_JEDI_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_RESPECT_FOR_JEDI.tga</Alternate_Icon_Name>
+				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
+					 Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
+				<Effective_Radius>1</Effective_Radius>
+
+				<Target_Types />
+
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<Expiration_Seconds>60</Expiration_Seconds>
+
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>120</Max_Number_Of_Pulses>
+				<Particle_Effect>Respect_for_Jedi_Ability_Particle</Particle_Effect>
+
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,    0.85f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,    -1f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,    1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,        0.5f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Jedi_Cruiser</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -5666,6 +5702,8 @@
 		<Required_Orbiting_Units>Gillehspy_Hound</Required_Orbiting_Units>
 
 	</DummyStructure>
+	
+	<!-- end -->
 
 
 	<!-- Admiral Staff: Gladiator-I Heroes -->
@@ -5796,7 +5834,7 @@
 		</Abilities>
 	</UniqueUnit>
 	
-	<DummyStructure Name="Screed_Assign">
+	<DummyStructure Name="Screed_Assign"> <!-- FotR_Enhanced ; tooltip edited -->
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_HERO_TERRINALD_SCREED</Text_ID>
@@ -6143,7 +6181,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</UniqueUnit>
 
-	<DummyStructure Name="Screed_Retire">
+	<DummyStructure Name="Screed_Retire"> <!-- FotR_Enhanced ; VSD Screed added as command staff option -->
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_HERO_TERRINALD_SCREED</Text_ID>
