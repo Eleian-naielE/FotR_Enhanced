@@ -44,6 +44,7 @@ function Get_Hero_Entries(upgrade_object)
 			PopupHeader = "ARHUL_NARRA_SELECTOR_HEADER",
 			Options = {
 				{"TARKIN", Locations = {"TARKIN_VENATOR","TARKIN_EXECUTRIX"}},
+				{"VORRU", Locations = {"VORRU_VENATOR"}},
 				{"DENIMOOR", Locations = {"DENIMOOR_TENACIOUS"}},
 				{"PARCK", Locations = {"PARCK_STRIKEFAST"}},
 				{"THERBON", Locations = {"THERBON_CERULEAN_SUNRISE"}},				
