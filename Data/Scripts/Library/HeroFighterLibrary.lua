@@ -237,10 +237,10 @@ function Get_Hero_Entries(upgrade_object)
 			NoSpawnFlag = "GROUND_HAWK_DEAD",
 			DeathMessage = "Lieutenant Hawk has taken crippling damage and must be healed"
 		},
-		["HAWK_DUMMY_SET"] = {
+		["HAWK_LOCATION_SET"] = {
 			NoInit = true,
 			Hero_Squadron = "HAWK_CLONE_Z95_SQUADRON",
-			PopupHeader = "HAWK_DUMMY_SELECTOR_HEADER",
+			PopupHeader = "HAWK_SELECTOR_HEADER",
 			Options = {
 				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_RESOLUTE_SPHAT","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}, GroundPerception = "Yularen_In_Orbit"},
 			},
