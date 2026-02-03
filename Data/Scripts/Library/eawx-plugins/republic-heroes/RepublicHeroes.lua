@@ -521,6 +521,7 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 		RepublicHeroes:Add_Fighter_Set("Odd_Ball_ARC170_Location_Set")
 		RepublicHeroes:Add_Fighter_Set("Warthog_Clone_Z95_Location_Set")
 		RepublicHeroes:Add_Fighter_Set("Jag_ARC170_Location_Set")
+		RepublicHeroes:Add_Fighter_Set("Hawk_Location_Set")
 
 		Clear_Fighter_Hero("ODD_BALL_TORRENT_SQUAD_SEVEN_SQUADRON")
 		Clear_Fighter_Hero("WARTHOG_TORRENT_HUNTER_SQUADRON")
@@ -980,7 +981,8 @@ function Autem_Check()
 		Clear_Fighter_Hero("WARTHOG_TORRENT_HUNTER_SQUADRON")
 		RepublicHeroes:Remove_Fighter_Set("Odd_Ball_Torrent_Location_Set")
 		RepublicHeroes:Remove_Fighter_Set("Warthog_Torrent_Location_Set")
-
+		
+		RepublicHeroes:Add_Fighter_Set("Hawk_Location_Set")
 		GlobalValue.Set("GROUND_HAWK_DEAD", true) -- FotR_Enhanced ; actions for replacing hawk to phase 2
 		moff_data.active_player.Lock_Tech(Find_Object_Type("REFORM_HAWK"))
 	end
