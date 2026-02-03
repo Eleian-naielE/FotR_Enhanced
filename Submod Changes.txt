@@ -193,6 +193,8 @@ CHANGES & ADJUSTMENTS
 -- Bythen Forral(Venator) : Available as fighter hero until Order 6X (automatically converts to venator)
 -- Locus Geen : locked until 21bby Month 6
 
+-- Generic ARC Commanders temporary disabled to prevent first spawn bug (will be brought back in future version)
+
 -New model for Padme 
 
 
