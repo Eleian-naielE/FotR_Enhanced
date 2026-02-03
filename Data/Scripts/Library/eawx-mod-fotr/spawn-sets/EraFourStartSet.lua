@@ -14,7 +14,6 @@ return {
 	["ORINDA"] = {"Romodi_Team", "Pellaeon_Leveler"},
 	["ERIADU"] = {"Tarkin_Venator"},
 	["KASHYYYK"] = {"Delta_Squad"},
-	["KUAT"] = {"Yularen_Integrity"},
 	["CORELLIA"] = {"Plo_Koon_Delta_Team", "Tallon_Sundiver"},
 	["HONOGHR"] = {"Aayla_Secura_Eta_Team", "Bly2_Team"},
 	["MALASTARE"] = {"Maarisa_Retaliation", "KLIGSON_TEAM"},
