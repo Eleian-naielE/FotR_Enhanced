@@ -33,7 +33,7 @@ function State_Init(message)
 			land_IV_list = {{"Commander_Tier_IV_Republic_74Z_Speeder_Bike_Company", "Republic_BARC_Company", false}, {"Commander_Tier_IV_Republic_BARC_Speeder_Company", "Republic_BARC_Company"}, "Commander_Tier_IV_Republic_AT_RT_Walker"}
 			land_III_list = {"Commander_Tier_III_Clone_Special_Ops_Company", "Commander_Tier_III_Clone_Airborne_Trooper_Company"}
 			land_II_list  = {"Commander_Tier_II_Clone_Galactic_Marine_Company", "Commander_Tier_II_Clone_Scout_Trooper_Company"}
-			land_I_list  = {{"Commander_Tier_I_Clone_Phase_One_Company", "Clonetrooper_Phase_Two_Company", false}, {"Commander_Tier_I_Clone_Phase_Two_Company", "Clonetrooper_Phase_Two_Company"}, --[[{"Commander_Tier_I_ARC_Phase_One_Company", "ARC_Phase_Two_Company", false}, {"Commander_Tier_I_ARC_Phase_Two_Company", "ARC_Phase_Two_Company"}}]]
+			land_I_list  = {{"Commander_Tier_I_Clone_Phase_One_Company", "Clonetrooper_Phase_Two_Company", false}, {"Commander_Tier_I_Clone_Phase_Two_Company", "Clonetrooper_Phase_Two_Company"}, --[[{"Commander_Tier_I_ARC_Phase_One_Company", "ARC_Phase_Two_Company", false}, {"Commander_Tier_I_ARC_Phase_Two_Company", "ARC_Phase_Two_Company"}]]}
 		else
 			land_IV_list = {"Commander_Tier_IV_AT_TE_Walker_Company", "Commander_Tier_IV_RX200_Falchion_Company"}
 			land_III_list  = {"Commander_Tier_III_Republic_ULAV_Company","Commander_Tier_III_AT_XT_Walker_Company", {"Commander_Tier_III_TX130S_Company", "Republic_TX130T_Company", false}, {"Commander_Tier_III_TX130T_Company", "Republic_TX130T_Company"}}
