@@ -952,9 +952,6 @@ function RepublicHeroes:Venator_Heroes() -- FotR_Enhanced ; admiral, moff slot i
 		local upgrade_unit = Find_Object_Type("Maarisa_Retaliation_Upgrade")
 		admiral_data.active_player.Unlock_Tech(upgrade_unit)
 		
-		admiral_data.total_slots = admiral_data.total_slots + 1
-		admiral_data.free_hero_slots = admiral_data.free_hero_slots + 1
-		
 		moff_data.total_slots = moff_data.total_slots + 1
 		moff_data.free_hero_slots = moff_data.free_hero_slots + 1
 
@@ -1021,6 +1018,9 @@ function RepublicHeroes:Victory1_Heroes()
 	Handle_Hero_Add("Ravik", moff_data)
 
 	RepublicHeroes:Add_Fighter_Set("Arhul_Narra_Location_Set")
+	
+	admiral_data.total_slots = admiral_data.total_slots + 1
+		admiral_data.free_hero_slots = admiral_data.free_hero_slots + 1
 
 	local entry_time = GetCurrentTime()
 

@@ -2,7 +2,7 @@ return {
 	--[[
 	adjusted total hero amounts ;
 	moff = 2
-	admiral = 4
+	admiral = 3
 	adjusted total hero amounts ;
 	clones officer = 3
 	jedi = 4
