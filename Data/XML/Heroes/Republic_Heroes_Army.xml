@@ -2655,6 +2655,194 @@
 		<Required_Orbiting_Units>CR25_Landing_Craft_Solomahal</Required_Orbiting_Units>
 	</DummyStructure>
 
+	<!-- Order 66 -->
+	
+	<UniqueUnit Name="Rohn_AT_TE">
+		<Variant_Of_Existing_Type>Republic_AT_TE_Walker</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Prevents_Story_Campaign_Autoresolve>no</Prevents_Story_Campaign_Autoresolve>		
+		<Text_ID>TEXT_HERO_ROHN</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_ARROGANT
+		TEXT_TOOLTIP_TRAIT_COMMAND_RECKLESS
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_ROHN
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
+		TEXT_UNIT_AT_TE_WALKER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ATTE_HEALTH
+		TEXT_TOOLTIP_ATTE_MOVE 
+		TEXT_TOOLTIP_ATTE_WEAP1 
+		TEXT_TOOLTIP_ATTE_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_HEAL
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GENERAL</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_ROHN.tga</Icon_Name>
+		<Affiliation>Empire</Affiliation>
+		<Land_Model_Name>all_terrain_tactical_enforcer_empire.ALO</Land_Model_Name>
+		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
+		<Ranking_In_Category>8</Ranking_In_Category>
+		<Property_Flags>GoodInfantryCrusher | CanContainGarrison | IsSupercrusher | HealsOrganics | GTSImmune </Property_Flags>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<CategoryMask> VehicleHero | AntiInfantry | AntiVehicle </CategoryMask>
+		
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus"> <!-- Command_Tier_04 + Arrogant + Reckless-->
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<!--
+			<Retreat_Prevention_Ability Name="Unyielding_Retreat_Prevention">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+			</Retreat_Prevention_Ability>
+			-->
+
+			<Battlefield_Modifier_Ability Name="Command_Tier_04_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Force_Healing_Ability Name="ATTE_Healing">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>150.0</Heal_Range>
+				<Heal_Amount> 3.0 </Heal_Amount>
+				<Heal_Percent> 0.0 </Heal_Percent>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.1, 1.2, 1.1</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+	</UniqueUnit>
+	<HeroCompany Name="Rohn_Team">
+		<Text_ID>TEXT_HERO_ROHN</Text_ID>
+		<Icon_Name>I_BUTTON_ROHN.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>CR25_Landing_Craft_Rohn</Company_Transport_Unit>
+		<Company_Units>Rohn_AT_TE</Company_Units>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Respawn_Veers</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Veers</SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+
+		<Population_Value>1</Population_Value>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>2905</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>   
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_ARROGANT
+		TEXT_TOOLTIP_TRAIT_COMMAND_RECKLESS
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_ROHN
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
+		TEXT_UNIT_AT_TE_WALKER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ATTE_HEALTH
+		TEXT_TOOLTIP_ATTE_MOVE 
+		TEXT_TOOLTIP_ATTE_WEAP1 
+		TEXT_TOOLTIP_ATTE_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_HEAL
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+		
+	</HeroCompany>
+
+	<DummyStructure Name="Rohn_Assign">
+		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_ROHN</Text_ID>
+		<Icon_Name>I_BUTTON_ROHN_COMMAND.tga</Icon_Name>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_ASSIGN_NR_ADMIRAL
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_ARROGANT
+		TEXT_TOOLTIP_TRAIT_COMMAND_RECKLESS
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_ROHN
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_AT_TE_WALKER
+		</Encyclopedia_Text>
+		
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
+	</DummyStructure>
+	<DummyStructure Name="Rohn_Retire">
+		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_ROHN</Text_ID>
+		<Icon_Name>I_BUTTON_ROHN_RETIRE.tga</Icon_Name>
+
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Required_Orbiting_Units>CR25_Landing_Craft_Rohn</Required_Orbiting_Units>
+	</DummyStructure>
+
 
 	<!-- Non-Staff Heroes -->
 
@@ -5388,154 +5576,5 @@
 		<CategoryMask>NonCombatHero</CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<Population_Value>1</Population_Value>
-	</HeroCompany>
-
-	<!-- Order 66 -->
-	
-	<UniqueUnit Name="Rohn_AT_TE"> <!-- Needs combat bonus, tooltip rework -->
-		<Variant_Of_Existing_Type>Republic_AT_TE_Walker</Variant_Of_Existing_Type>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Prevents_Story_Campaign_Autoresolve>no</Prevents_Story_Campaign_Autoresolve>		
-		<Text_ID>TEXT_HERO_ROHN</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND
-		TEXT_TOOLTIP_TRAIT_COMMAND_ARROGANT
-		TEXT_TOOLTIP_TRAIT_COMMANDUNYIELDING
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_ROHN
-		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
-		TEXT_UNIT_AT_TE_WALKER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_ATTE_HEALTH
-		TEXT_TOOLTIP_ATTE_MOVE 
-		TEXT_TOOLTIP_ATTE_WEAP1 
-		TEXT_TOOLTIP_ATTE_WEAP2
-		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_BONUS_INFANTRY_HEAL
-		TEXT_TOOLTIP_BONUS_AA_ACCURACY
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
-		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GENERAL</Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_ROHN.tga</Icon_Name>
-		<Affiliation>Empire</Affiliation>
-		<Land_Model_Name>all_terrain_tactical_enforcer_empire.ALO</Land_Model_Name>
-		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
-		<Ranking_In_Category>8</Ranking_In_Category>
-		<Property_Flags>GoodInfantryCrusher | CanContainGarrison | IsSupercrusher | HealsOrganics | GTSImmune </Property_Flags>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<CategoryMask> VehicleHero | AntiInfantry | AntiVehicle </CategoryMask>
-		
-		<Abilities SubObjectList="Yes">
-			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus"> <!-- Command_Tier_01 + Arrogant -->
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
-			</Combat_Bonus_Ability>
-			
-			<Retreat_Prevention_Ability Name="Unyielding_Retreat_Prevention">
-				<Activation_Style>Combat_Automatic</Activation_Style>
-			</Retreat_Prevention_Ability>
-
-			<Battlefield_Modifier_Ability Name="Command_Tier_01_FOW_Increase">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
-				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
-				<Stacking_Category>0</Stacking_Category>
-			</Battlefield_Modifier_Ability>
-
-			<Force_Healing_Ability Name="ATTE_Healing">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>150.0</Heal_Range>
-				<Heal_Amount> 3.0 </Heal_Amount>
-				<Heal_Percent> 0.0 </Heal_Percent>
-				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
-				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
-				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
-				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
-				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
-				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2/>
-				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
-				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>1.1, 1.2, 1.1</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2/>
-				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-			</Force_Healing_Ability>
-		</Abilities>
-	</UniqueUnit>
-
-	<HeroCompany Name="Rohn_Team">
-		<Text_ID>TEXT_HERO_ROHN</Text_ID>
-		<Icon_Name>I_BUTTON_ROHN.tga</Icon_Name>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>10000</Build_Cost_Credits>
-		<Build_Time_Seconds>60</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
-		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>CR25_Landing_Craft_Rohn</Company_Transport_Unit>
-		<Company_Units>Rohn_AT_TE</Company_Units>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
-		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
-		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Respawn_Veers</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Veers</SFXEvent_Hero_Respawned>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
-
-		<Population_Value>1</Population_Value>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
-		<Tactical_Build_Cost_Multiplayer>2905</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>   
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_ARROGANT
-		TEXT_TOOLTIP_TRAIT_UNYIELDING
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_ROHN
-		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
-		TEXT_UNIT_AT_TE_WALKER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_ATTE_HEALTH
-		TEXT_TOOLTIP_ATTE_MOVE 
-		TEXT_TOOLTIP_ATTE_WEAP1 
-		TEXT_TOOLTIP_ATTE_WEAP2
-		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_BONUS_INFANTRY_HEAL
-		TEXT_TOOLTIP_BONUS_AA_ACCURACY
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
-		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
-		
 	</HeroCompany>
 </Republic_Heroes>

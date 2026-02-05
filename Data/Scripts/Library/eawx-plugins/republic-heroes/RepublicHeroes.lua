@@ -292,6 +292,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			["Solomahal"] = {"SOLOMAHAL_ASSIGN",{"SOLOMAHAL_RETIRE"},{"SOLOMAHAL_RX200"},"Solomahal", ["Companies"] = {"SOLOMAHAL_TEAM"}},
 			["Jesra"] = {"JESRA_LOTURE_ASSIGN",{"JESRA_LOTURE_RETIRE"},{"JESRA_LOTURE"},"Jesra Loture", ["Companies"] = {"JESRA_LOTURE_TEAM"}},
 			["Jayfon"] = {"JAYFON_ASSIGN",{"JAYFON_RETIRE"},{"JAYFON"},"Jayfon", ["Companies"] = {"JAYFON_TEAM"}},
+			["Rohn"] = {"ROHN_ASSIGN",{"ROHN_RETIRE"},{"ROHN_AT_TE"},"Rohn", ["Companies"] = {"ROHN_TEAM"}},
 		},
 		available_list = {--Heroes currently available for purchase. Seeded with those who have no special prereqs
 			"Grunger",
@@ -521,15 +522,15 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 		RepublicHeroes:Add_Fighter_Set("Odd_Ball_ARC170_Location_Set")
 		RepublicHeroes:Add_Fighter_Set("Warthog_Clone_Z95_Location_Set")
 		RepublicHeroes:Add_Fighter_Set("Jag_ARC170_Location_Set")
+		RepublicHeroes:Add_Fighter_Set("Hawk_Location_Set")
 
 		Clear_Fighter_Hero("ODD_BALL_TORRENT_SQUAD_SEVEN_SQUADRON")
 		Clear_Fighter_Hero("WARTHOG_TORRENT_HUNTER_SQUADRON")
-		Set_Fighter_Hero("ODD_BALL_ARC170_SQUAD_SEVEN_SQUADRON", "YULAREN_INTEGRITY")
+		Set_Fighter_Hero("ODD_BALL_ARC170_SQUAD_SEVEN_SQUADRON", "BLOCK_VIGILANCE") -- FotR_Enhanced
 		Set_Fighter_Hero("WARTHOG_CLONE_Z95_HUNTER_SQUADRON", "COBURN_VENATOR")
 		Set_Fighter_Hero("JAG_ARC170_127TH_SQUADRON", "DODONNA_ARDENT")
 
-		GlobalValue.Set("GROUND_HAWK_DEAD", false) -- FotR_Enhanced actions for hawk phase 2
-		Set_Fighter_Hero("HAWK_CLONE_Z95_SQUADRON", "YULAREN_INTEGRITY")
+		GlobalValue.Set("GROUND_HAWK_DEAD", true) -- FotR_Enhanced actions for hawk phase 2
 	end
 
 	if tech_level >= 5 then
@@ -953,9 +954,6 @@ function RepublicHeroes:Venator_Heroes() -- FotR_Enhanced ; admiral, moff slot i
 		local upgrade_unit = Find_Object_Type("Maarisa_Retaliation_Upgrade")
 		admiral_data.active_player.Unlock_Tech(upgrade_unit)
 		
-		admiral_data.total_slots = admiral_data.total_slots + 1
-		admiral_data.free_hero_slots = admiral_data.free_hero_slots + 1
-		
 		moff_data.total_slots = moff_data.total_slots + 1
 		moff_data.free_hero_slots = moff_data.free_hero_slots + 1
 
@@ -984,12 +982,10 @@ function Autem_Check()
 		Clear_Fighter_Hero("WARTHOG_TORRENT_HUNTER_SQUADRON")
 		RepublicHeroes:Remove_Fighter_Set("Odd_Ball_Torrent_Location_Set")
 		RepublicHeroes:Remove_Fighter_Set("Warthog_Torrent_Location_Set")
-
-		GlobalValue.Set("GROUND_HAWK_DEAD", false) -- FotR_Enhanced ; actions for replacing hawk to phase 2
+		
+		RepublicHeroes:Add_Fighter_Set("Hawk_Location_Set")
+		GlobalValue.Set("GROUND_HAWK_DEAD", true) -- FotR_Enhanced ; actions for replacing hawk to phase 2
 		moff_data.active_player.Lock_Tech(Find_Object_Type("REFORM_HAWK"))
-		local current_index = admiral_data.full_list["Yularen"].unit_id
-		local yularen_ship = admiral_data.full_list["Yularen"][3][current_index]
-		Set_Fighter_Hero("HAWK_CLONE_Z95_SQUADRON", yularen_ship)
 	end
 end
 
@@ -1025,6 +1021,9 @@ function RepublicHeroes:Victory1_Heroes()
 	Handle_Hero_Add("Ravik", moff_data)
 
 	RepublicHeroes:Add_Fighter_Set("Arhul_Narra_Location_Set")
+	
+	admiral_data.total_slots = admiral_data.total_slots + 1
+		admiral_data.free_hero_slots = admiral_data.free_hero_slots + 1
 
 	local entry_time = GetCurrentTime()
 
@@ -1101,6 +1100,8 @@ function RepublicHeroes:Senate_Choice_Handler(senate_option)
 		moff_data.free_hero_slots = moff_data.free_hero_slots + 1
 		Unlock_Hero_Options(moff_data)
 		Get_Active_Heroes(false, moff_data)
+
+		Handle_Hero_Add("Rohn", general_data)
 
 		Handle_Hero_Exit("Autem", admiral_data)
 		Handle_Hero_Exit("Dallin", admiral_data)

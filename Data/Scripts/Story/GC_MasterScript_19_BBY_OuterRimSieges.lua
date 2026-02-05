@@ -248,6 +248,8 @@ function Historical_GC_Choice_Made(choice)
 			},
 		})
 
+	Set_Fighter_Hero("HAWK_CLONE_Z95_SQUADRON","YULAREN_INTEGRITY")
+	GlobalValue.Set("GROUND_HAWK_DEAD", false) -- FotR_Enhanced
 	crossplot:publish("INITIALIZE_AI", "empty")
 end
 
