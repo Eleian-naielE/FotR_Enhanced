@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='ASCII'?>
 <Republic_Ground_Companies>
-
+<!--
+	Clone CategoryMask added for Clone Manned Vehicles
+-->
 	<GroundVehicle Name="Republic_Overracer_Speeder_Bike">
 		<Variant_Of_Existing_Type>Overracer_Speeder_Bike</Variant_Of_Existing_Type>
 		<Land_Model_Name>Rep_OverRacer.alo</Land_Model_Name>
@@ -16,6 +18,7 @@
 		<Icon_Name>i_button_rep_overracer.tga</Icon_Name>
 		<Affiliation>Empire</Affiliation>
 	</GroundVehicle>
+
 	<GroundVehicle Name="Republic_Overracer_Speeder_Bike_Company_Dummy">
 		<Variant_Of_Existing_Type> Vehicle_Dummy_Template </Variant_Of_Existing_Type>
 
@@ -96,6 +99,7 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</GroundCompany>
 
+
 	<GroundVehicle Name="Republic_74Z_Speeder_Bike">
 		<Variant_Of_Existing_Type>Template_74Z_Speeder_Bike</Variant_Of_Existing_Type>
 
@@ -124,6 +128,8 @@
 
 		<Lua_Script>CloneLegionFinder</Lua_Script>
 
+		<CategoryMask> Vehicle | AntiInfantry | Clone </CategoryMask>
+
 		<SFXEvent_Select>Unit_Select_Speeders</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Speeders</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Speeders</SFXEvent_Fleet_Move>
@@ -134,6 +140,7 @@
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Speeders</Death_SFXEvent_Start_Die>
 	</GroundVehicle>
+
 	<GroundVehicle Name="Republic_74Z_Speeder_Bike_Company_Dummy">
 		<Variant_Of_Existing_Type> Vehicle_Dummy_Template </Variant_Of_Existing_Type>
 
@@ -175,6 +182,7 @@
 		<Company_Transport_Unit>Rho_Shuttle_Landing_Craft_Light_Vehicles</Company_Transport_Unit>
 	</GroundCompany>
 
+
 	<GroundVehicle Name="Republic_BARC_Speeder">
 		<Variant_Of_Existing_Type>Template_BARC_Speeder</Variant_Of_Existing_Type>
 
@@ -196,6 +204,8 @@
 
 		<Lua_Script>CloneLegionFinder</Lua_Script>
 
+		<CategoryMask> Vehicle | AntiInfantry | Clone </CategoryMask>
+
 		<SFXEvent_Select>Unit_Select_Speeders</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Speeders</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Speeders</SFXEvent_Fleet_Move>
@@ -206,6 +216,7 @@
 
 		<Death_SFXEvent_Start_Die>Unit_Death_Speeders</Death_SFXEvent_Start_Die>
 	</GroundVehicle>
+
 	<GroundVehicle Name="Republic_BARC_Speeder_Company_Dummy">
 		<Variant_Of_Existing_Type> Vehicle_Dummy_Template </Variant_Of_Existing_Type>
 
@@ -288,6 +299,7 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</GroundCompany>
 
+
 	<GroundCompany Name="Republic_SD_6_Droid_Company">
 		<Variant_Of_Existing_Type>SD_6_Hulk_Infantry_Droid_Company</Variant_Of_Existing_Type>
 		<Tech_Level>0</Tech_Level>
@@ -305,6 +317,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
+
 
 	<GroundVehicle Name="Republic_AT_RT_Walker">	<!-- Clone legions ARF -->
 		<Variant_Of_Existing_Type>AT_RT_Walker</Variant_Of_Existing_Type>
@@ -330,6 +343,8 @@
 
 		<Lua_Script>CloneLegionFinder</Lua_Script>
 
+		<CategoryMask> Vehicle | AntiInfantry | Clone </CategoryMask>
+
 		<SFXEvent_Select>Unit_Select_light_walkers</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_light_walkers</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_light_walkers</SFXEvent_Fleet_Move>
@@ -342,6 +357,22 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Low_light_walkers </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_light_walkers</Death_SFXEvent_Start_Die>
 	</GroundVehicle>
+
+	<GroundVehicle Name="Republic_AT_RT_Company_Dummy"> <!-- FotR_Enhanced ; Company Dummy-->
+		<Variant_Of_Existing_Type> Vehicle_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>at-rt_legions.ALO</Land_Model_Name>
+		<Icon_Name>I_BUTTON_ATRT_CLONE.tga</Icon_Name>
+		<AI_Combat_Power>128.25</AI_Combat_Power>
+		<Affiliation>Empire</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
 	<GroundCompany Name="Republic_AT_RT_Company">	<!-- Clone legions ARF -->
 		<Text_ID>TEXT_UNIT_AT_RT_WALKER_COMPANY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
@@ -393,8 +424,7 @@
 		<Company_Transport_Unit>Rho_Shuttle_Landing_Craft_Light_Vehicles</Company_Transport_Unit>
 		
 		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<Company_Units>Republic_AT_RT_Walker, Republic_AT_RT_Walker, Republic_AT_RT_Walker, Republic_AT_RT_Walker</Company_Units>
-		<Company_Units>Republic_AT_RT_Walker, Republic_AT_RT_Walker, Republic_AT_RT_Walker, Republic_AT_RT_Walker</Company_Units>
+		<Company_Units>Republic_AT_RT_Company_Dummy</Company_Units>
 
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
@@ -407,6 +437,7 @@
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</GroundCompany>
+
 
 	<GroundVehicle Name="Republic_Trooper_AT_RT_Walker">	<!-- Republic Trooper -->
 		<Variant_Of_Existing_Type>AT_RT_Walker</Variant_Of_Existing_Type>
@@ -429,6 +460,7 @@
 		<Land_Model_Anim_Override_Name>at-rt.ALO</Land_Model_Anim_Override_Name>
 		<Affiliation>Empire</Affiliation>
 	</GroundVehicle>
+
 	<GroundCompany Name="Republic_Trooper_AT_RT_Company">	<!-- Republic Trooper -->
 		<Variant_Of_Existing_Type>Republic_AT_RT_Company</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
@@ -457,6 +489,7 @@
 		<Company_Units>Republic_Trooper_AT_RT_Walker, Republic_Trooper_AT_RT_Walker, Republic_Trooper_AT_RT_Walker, Republic_Trooper_AT_RT_Walker</Company_Units>
 	</GroundCompany>
 
+
 	<GroundVehicle Name="Republic_AT_PT_Walker">
 		<Variant_Of_Existing_Type>AT_PT_Walker</Variant_Of_Existing_Type>
 		<Affiliation>Empire</Affiliation>
@@ -470,6 +503,28 @@
 			Swamp, 				ATPT.ALO
 		</Land_Terrain_Model_Mapping>
 	</GroundVehicle>
+
+	<GroundVehicle Name="Republic_AT_PT_Company_Dummy"> <!-- FotR_Enhanced ; Company Dummy-->
+		<Variant_Of_Existing_Type> Vehicle_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>ATPT.ALO</Land_Model_Name>
+		<Icon_Name>i_button_atpt.tga</Icon_Name>
+		<AI_Combat_Power>126.25</AI_Combat_Power>
+		<Affiliation>Empire</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FULL_SALVO</Type>
+						<Recharge_Seconds>60</Recharge_Seconds>
+						<Expiration_Seconds>7.0</Expiration_Seconds>
+						<GUI_Activated_Ability_Name>Unit_Attack_AT_ST</GUI_Activated_Ability_Name>
+						<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FULL_SALVO_CONCUSSION_GRENADE</Alternate_Description_Text>
+						<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_AT_PT</SFXEvent_GUI_Unit_Ability_Activated>
+				</Unit_Ability>
+
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
 	<GroundCompany Name="Republic_AT_PT_Company">
 
 		<Text_ID>TEXT_IMPERIAL_ATPT_SQUAD</Text_ID>
@@ -519,8 +574,7 @@
 
 		<Create_Team_Type/>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<Company_Units>Republic_AT_PT_Walker, Republic_AT_PT_Walker, Republic_AT_PT_Walker</Company_Units>
-		<Company_Units>Republic_AT_PT_Walker, Republic_AT_PT_Walker, Republic_AT_PT_Walker</Company_Units>
+		<Company_Units>Republic_AT_PT_Company_Dummy</Company_Units>
 		<Company_Transport_Unit>CR20_Landing_Craft_Light_Vehicles</Company_Transport_Unit>
 
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -548,6 +602,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+
 	<GroundVehicle Name="Republic_ISP">
 		<Variant_Of_Existing_Type>Infantry_Support_Platform</Variant_Of_Existing_Type>
 
@@ -565,6 +620,8 @@
 		<Affiliation>Empire</Affiliation>
 
 		<Lua_Script>CloneLegionFinder</Lua_Script>
+		
+		<CategoryMask> Vehicle | AntiInfantry | Clone </CategoryMask>
 
 		<SFXEvent_Select>Unit_Select_light_walkers</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_light_walkers</SFXEvent_Move>
@@ -581,6 +638,7 @@
 
 		<Death_SFXEvent_Start_Die>Unit_Death_light_walkers</Death_SFXEvent_Start_Die>
 	</GroundVehicle>
+
 	<GroundCompany Name="Republic_ISP_Company">
 
 		<Text_ID>TEXT_UNIT_SWAMP_SPEEDER_COMPANY</Text_ID>
@@ -656,6 +714,7 @@
 		</Unit_Abilities_Data>
 	</GroundCompany>
 
+
 	<GroundVehicle Name="Republic_Gian_Speeder">
 		<Variant_Of_Existing_Type>Gian_Speeder</Variant_Of_Existing_Type>
 		<Land_Model_Name>Republic_V-19_Gian_Speeder.alo</Land_Model_Name>
@@ -671,6 +730,7 @@
 		<Icon_Name>i_button_gian_rep.tga</Icon_Name>
 		<Affiliation>Empire</Affiliation>
 	</GroundVehicle>
+
 	<GroundCompany Name="Republic_Gian_Company">
 
 		<Text_ID>TEXT_UNIT_GIAN_COMPANY</Text_ID>
@@ -735,6 +795,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
+
 
 	<GroundVehicle Name="Republic_ULAV">
 		<Variant_Of_Existing_Type>ULAV_Early</Variant_Of_Existing_Type>
@@ -823,6 +884,7 @@
 
 	</GroundCompany>
 
+
 	<GroundVehicle Name="AT_XT_Walker">
 
 		<Text_ID>TEXT_UNIT_AT_XT_WALKER</Text_ID>
@@ -866,7 +928,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Vehicle | AntiVehicle</CategoryMask>
+		<CategoryMask> Vehicle | AntiVehicle | Clone </CategoryMask>
 		<Ranking_In_Category>7</Ranking_In_Category>
 		<Property_Flags>GoodInfantryCrusher</Property_Flags>
 		<Weather_Category>Walker</Weather_Category>
@@ -1033,6 +1095,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>
+
 	<GroundCompany Name="AT_XT_Company">
 
 		<Text_ID>TEXT_ATXT_SQUAD</Text_ID>
@@ -1161,6 +1224,7 @@
 		<Specific_Death_Anim_Index> 2 </Specific_Death_Anim_Index>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 	</Death_Clone>
+
 
 	<GroundCompany Name="Republic_Gaba18_Company">
 
@@ -1318,6 +1382,8 @@
 		<Variant_Of_Existing_Type>TX130S</Variant_Of_Existing_Type>
 		<Affiliation>Empire</Affiliation>
 
+		<CategoryMask> Vehicle | AntiVehicle | Clone </CategoryMask>
+
 		<SFXEvent_Select>Unit_Select_Clone_Operator</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Clone_Operator</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_UTAT</SFXEvent_Fleet_Move>
@@ -1329,6 +1395,7 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Clone_Operator </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Operator</Death_SFXEvent_Start_Die>
 	</GroundVehicle>
+
 	<GroundCompany Name="Republic_TX130S_Company">
 
 		<Text_ID>TEXT_UNIT_TX130S_COMPANY</Text_ID>
@@ -1397,9 +1464,12 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+
 	<GroundVehicle Name="Republic_TX130T">
 		<Variant_Of_Existing_Type>TX130T</Variant_Of_Existing_Type>
 		<Affiliation>Empire</Affiliation>
+
+		<CategoryMask> Vehicle | AntiVehicle | Clone </CategoryMask>
 
 		<SFXEvent_Select>Unit_Select_Clone_Operator</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Clone_Operator</SFXEvent_Move>
@@ -1412,6 +1482,7 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Clone_Operator </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Operator</Death_SFXEvent_Start_Die>
 	</GroundVehicle>
+
 	<GroundCompany Name="Republic_TX130T_Company">
 
 		<Text_ID>TEXT_UNIT_TX130T_COMPANY</Text_ID>
@@ -1482,6 +1553,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+
 	<GroundVehicle Name="AV7">
 
 		<Text_ID>TEXT_UNIT_AV7</Text_ID>
@@ -1521,7 +1593,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Hover</Type>
-		<CategoryMask> Vehicle | AntiStructure | AntiInfantry</CategoryMask>
+		<CategoryMask> Vehicle | AntiStructure | AntiInfantry | Clone </CategoryMask>
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Property_Flags>DoKite</Property_Flags>
 		<Weather_Category>Hover</Weather_Category>
@@ -1676,6 +1748,7 @@
 		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
 		<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
 	</GroundVehicle>
+
 	<GroundCompany Name="AV7_Company">
 
 		<Text_ID>TEXT_UNIT_AV7</Text_ID>
@@ -1773,6 +1846,7 @@
 		<Presence_Range>200.0</Presence_Range>
 	</Death_Clone>
 
+
 	<GroundVehicle Name="Republic_AT_AP_Walker">
 		<Variant_Of_Existing_Type>AT_AP_Walker</Variant_Of_Existing_Type>
 		<Affiliation>Empire</Affiliation>
@@ -1788,6 +1862,7 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Clone_Operator </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Operator</Death_SFXEvent_Start_Die>
 	</GroundVehicle>
+
 	<GroundCompany Name="Republic_AT_AP_Walker_Company">
 
 		<Text_ID>TEXT_UNIT_AT_AP_WALKER</Text_ID>
@@ -1927,9 +2002,12 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+
 	<GroundVehicle Name="Republic_LAAT">
 		<Variant_Of_Existing_Type>LAAT</Variant_Of_Existing_Type>
 		<Affiliation>Empire</Affiliation>
+
+		<CategoryMask> AirGunship | AntiVehicle | AntiInfantry | Clone </CategoryMask>
 
 		<SFXEvent_Select>Unit_Select_Clone_Gunship</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Clone_Gunship</SFXEvent_Move>
@@ -1938,6 +2016,7 @@
 		<SFXEvent_Guard>Unit_Guard_Clone_Gunship</SFXEvent_Guard>
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Clone_Gunship</SFXEvent_Health_Low_Warning>
 	</GroundVehicle>
+
 	<GroundCompany Name="Republic_LAAT_Company">
 
 		<Text_ID>TEXT_UNIT_LAAT</Text_ID>
@@ -2010,6 +2089,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
+
 
 	<GroundVehicle Name="High_Altitude_Entry_Transport">
 
@@ -2194,6 +2274,7 @@
 
 		<Should_Reinforcements_Move> false </Should_Reinforcements_Move>
 	</GroundVehicle>
+
 	<GroundCompany Name="HAET_Company">
 
 		<Text_ID>TEXT_UNIT_HAET</Text_ID>
@@ -2261,6 +2342,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+
 	<GroundVehicle Name="Republic_VAAT">
 		<Variant_Of_Existing_Type>VAAT</Variant_Of_Existing_Type>
 
@@ -2276,6 +2358,7 @@
 		<SFXEvent_Guard>Unit_Guard_Clone_Gunship</SFXEvent_Guard>
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Clone_Gunship</SFXEvent_Health_Low_Warning>
 	</GroundVehicle>
+
 	<GroundCompany Name="Republic_VAAT_Company">
 
 		<Text_ID>TEXT_UNIT_VAAT</Text_ID>
@@ -2345,6 +2428,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+
 	<GroundVehicle Name="UT_AT_Speeder">
 
 		<Text_ID>TEXT_UNIT_UT_AT</Text_ID>
@@ -2390,7 +2474,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Hover</Type>
-		<CategoryMask> Vehicle | AntiVehicle </CategoryMask>
+		<CategoryMask> Vehicle | AntiVehicle | Clone </CategoryMask>
 		<Ranking_In_Category>5</Ranking_In_Category>
 		<Property_Flags>CanContainGarrison</Property_Flags>
 		<Weather_Category>Hover</Weather_Category>
@@ -2540,6 +2624,7 @@
 		<!-- Enhanced sensors capability -->
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 	</GroundVehicle>
+
 	<GroundCompany Name="UT_AT_Speeder_Company">
 
 		<Text_ID>TEXT_UNIT_UT_AT</Text_ID>
@@ -2630,6 +2715,7 @@
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 	</Death_Clone>
 
+
 	<GroundVehicle Name="AT_OT_Walker">
 
 		<Text_ID>TEXT_UNIT_AT_OT_WALKER</Text_ID>
@@ -2674,7 +2760,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Vehicle | AntiVehicle </CategoryMask>
+		<CategoryMask> Vehicle | AntiVehicle | Clone </CategoryMask>
 		<Ranking_In_Category>5</Ranking_In_Category>
 		<Property_Flags>GoodInfantryCrusher</Property_Flags>
 		<Weather_Category>LargeWalker</Weather_Category>
@@ -2833,6 +2919,7 @@
 		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
 		<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
 	</GroundVehicle>
+
 	<GroundCompany Name="AT_OT_Walker_Company">
 
 		<Text_ID>TEXT_UNIT_AT_OT_WALKER_COMPANY</Text_ID>
@@ -2913,11 +3000,14 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+
 	<GroundVehicle Name="Republic_AT_TE_Walker">
 		<Variant_Of_Existing_Type>AT_TE_Walker</Variant_Of_Existing_Type>
 
 		<Land_Model_Name>all_terrain_tactical_enforcer.alo</Land_Model_Name>
 		<Affiliation>Empire</Affiliation>
+
+		<CategoryMask> Vehicle | AntiInfantry | AntiVehicle | Clone </CategoryMask>
 
 		<SFXEvent_Select>Unit_Select_Clone_Operator</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Clone_Operator</SFXEvent_Move>
@@ -2957,6 +3047,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</GroundVehicle>
+
 	<GroundCompany Name="Republic_AT_TE_Walker_Company">
 
 		<Text_ID>TEXT_UNIT_AT_TE_WALKER</Text_ID>
@@ -3030,6 +3121,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+
 	<GroundCompany Name="Republic_A4_Juggernaut_Company">
 
 		<Text_ID>TEXT_UNIT_JUGGERNAUT_A4</Text_ID>
@@ -3101,6 +3193,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+
 	<GroundVehicle Name="Republic_A5_Juggernaut">
 		<Variant_Of_Existing_Type>A5_Juggernaut</Variant_Of_Existing_Type>
 		<Affiliation>Empire</Affiliation>
@@ -3109,6 +3202,7 @@
 
 		<HardPoints> HP_Juggernaut_A5_Front_Turret, HP_Juggernaut_A5_00, HP_Juggernaut_A5_01, HP_Juggernaut_A5_Top_Turret, HP_Juggernaut_A5_Conc </HardPoints>
 	</GroundVehicle>
+
 	<GroundCompany Name="Republic_A5_Juggernaut_Company">
 		<Text_ID>TEXT_UNIT_JUGGERNAUT_A5</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TRANSPORT</Encyclopedia_Unit_Class>
@@ -3182,6 +3276,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+
 	<GroundCompany Name="Republic_A5RX_Company">
 
 		<Text_ID>TEXT_UNIT_A5RX_COMPANY</Text_ID>
@@ -3253,6 +3348,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
+
 
 	<GroundVehicle Name="RX200_Falchion">
 
@@ -3449,6 +3545,7 @@
 		</Unit_Abilities_Data>
 
 	</GroundVehicle>
+
 	<GroundCompany Name="RX200_Falchion_Company">
 
 		<Text_ID>TEXT_UNIT_RX200</Text_ID>
@@ -3521,10 +3618,13 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+
 	<GroundVehicle Name="Republic_A6_Juggernaut">
 		<Variant_Of_Existing_Type>A6_Juggernaut</Variant_Of_Existing_Type>
 		<Affiliation>Empire</Affiliation>
+		<CategoryMask> Vehicle | AntiInfantry | AntiVehicle | Clone </CategoryMask>
 	</GroundVehicle>
+
 	<GroundCompany Name="Republic_A6_Juggernaut_Company">
 
 		<Text_ID>TEXT_UNIT_JUGGERNAUT_A6</Text_ID>
@@ -3648,7 +3748,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Hover</Type>
-		<CategoryMask> Vehicle | AntiVehicle</CategoryMask>
+		<CategoryMask> Vehicle | AntiVehicle | Clone </CategoryMask>
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Property_Flags>GoodInfantryCrusher | IsSupercrusher</Property_Flags>
 		<Weather_Category>Walker</Weather_Category>
@@ -4049,7 +4149,7 @@
 
 		<!-- Property -->
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask> AirSpeeder | AntiVehicle </CategoryMask>
+		<CategoryMask> AirSpeeder | AntiVehicle | Clone </CategoryMask>
 		<LandBehavior>
 			ABILITY_COUNTDOWN, IDLE, FLYING_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, HUNT, 
 			POWERED, AMBIENT_SFX, UNIT_AI, TARGETING, STUNNABLE, WIND_DISTURBANCE, SHIELDED, DAMAGE_TRACKING
