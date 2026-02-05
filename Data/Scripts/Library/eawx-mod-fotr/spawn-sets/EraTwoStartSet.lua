@@ -6,7 +6,7 @@ return {
 	]]
 	["EMPIRE"] = {
 	["CORUSCANT"] = {"Mace_Windu_Delta_Team", "Pestage_Team"},
-	["KAMINO"] = {"Delta_Squad", "Shaak_Ti_Delta_Team", "Alpha_17_Team"},
+	["KAMINO"] = {"Delta_Squad", "Shaak_Ti_Delta_Team", "Ordo_Skirata_Team"},
 	["ANAXES"] = {"Tallon_Sundiver", "COMMANDER_71", --[["Geen_Team"]]}, -- FotR_Enhanced
 	["ALDERAAN"] = {"Josef_Grunger_Team"}, -- FotR_Enhanced
 	["CARIDA"] = {"Pellaeon_Leveler", "Ozzel_Team"},
