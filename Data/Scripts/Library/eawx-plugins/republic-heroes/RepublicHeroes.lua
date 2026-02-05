@@ -292,6 +292,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			["Solomahal"] = {"SOLOMAHAL_ASSIGN",{"SOLOMAHAL_RETIRE"},{"SOLOMAHAL_RX200"},"Solomahal", ["Companies"] = {"SOLOMAHAL_TEAM"}},
 			["Jesra"] = {"JESRA_LOTURE_ASSIGN",{"JESRA_LOTURE_RETIRE"},{"JESRA_LOTURE"},"Jesra Loture", ["Companies"] = {"JESRA_LOTURE_TEAM"}},
 			["Jayfon"] = {"JAYFON_ASSIGN",{"JAYFON_RETIRE"},{"JAYFON"},"Jayfon", ["Companies"] = {"JAYFON_TEAM"}},
+			["Rohn"] = {"ROHN_ASSIGN",{"ROHN_RETIRE"},{"ROHN_AT_TE"},"Rohn", ["Companies"] = {"ROHN_TEAM"}},
 		},
 		available_list = {--Heroes currently available for purchase. Seeded with those who have no special prereqs
 			"Grunger",
@@ -1099,6 +1100,8 @@ function RepublicHeroes:Senate_Choice_Handler(senate_option)
 		moff_data.free_hero_slots = moff_data.free_hero_slots + 1
 		Unlock_Hero_Options(moff_data)
 		Get_Active_Heroes(false, moff_data)
+
+		Handle_Hero_Add("Rohn", general_data)
 
 		Handle_Hero_Exit("Autem", admiral_data)
 		Handle_Hero_Exit("Dallin", admiral_data)
