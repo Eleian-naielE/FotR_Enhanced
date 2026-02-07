@@ -750,13 +750,21 @@
 
 		<Create_Team_Type> Clonetrooper_Phase_One_Heavy_Container </Create_Team_Type>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Company_Units> Clone_Phase_One_Sergeant, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One_Gunner_Heavy, Clone_Phase_One, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One, Clone_Phase_One_Plex, Clone_Phase_One_Plex,  Clone_Phase_One_Lt </Company_Units>
+		<Company_Units> 
+			Clone_Phase_One_Sergeant, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One_Gunner_Heavy, 
+			Clone_Phase_One, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One, 
+			Clone_Phase_One_Plex, Clone_Phase_One_Plex,  Clone_Phase_One_Lt 
+		</Company_Units>
 	</GroundCompany>
 	
 	<GroundCompany Name="Clonetrooper_Phase_One_Heavy_Squad">
 		<Variant_Of_Existing_Type>Clonetrooper_Phase_One_Main_Squad</Variant_Of_Existing_Type>
 
-		<Company_Units> Clone_Phase_One_Sergeant, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One, Clone_Phase_One_Gunner_Heavy, Clone_Phase_One, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One, Clone_Phase_One_Plex, Clone_Phase_One_Plex</Company_Units>
+		<Company_Units> 
+			Clone_Phase_One_Sergeant, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One, 
+			Clone_Phase_One_Gunner_Heavy, Clone_Phase_One, Clone_Phase_One_Grenadier_Rifle, 
+			Clone_Phase_One, Clone_Phase_One_Plex, Clone_Phase_One_Plex
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_One_Squad">
@@ -799,7 +807,11 @@
 		<Icon_Name>I_BUTTON_CLONE_P1_ASSAULT.TGA</Icon_Name>
 
 		<Create_Team_Type> Clonetrooper_Phase_One_Assault_Container </Create_Team_Type>
-		<Company_Units> Clone_Phase_One_Sergeant_Carbine, Clone_Phase_One_Grenadier_Carbine, Clone_Phase_One_Carbine, Clone_Phase_One_Carbine, Clone_Phase_One_Gunner_Light, Clone_Phase_One_Carbine, Clone_Phase_One_Grenadier_Carbine, Clone_Phase_One_RPS, Clone_Phase_One_RPS</Company_Units>
+		<Company_Units> 
+			Clone_Phase_One_Sergeant_Carbine, Clone_Phase_One_Grenadier_Carbine, Clone_Phase_One_Carbine, 
+			Clone_Phase_One_Carbine, Clone_Phase_One_Gunner_Light, Clone_Phase_One_Carbine, 
+			Clone_Phase_One_Grenadier_Carbine, Clone_Phase_One_RPS, Clone_Phase_One_RPS
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_One_Medic_Squad">
@@ -1654,13 +1666,21 @@
 
 		<Create_Team_Type> Clonetrooper_Phase_Two_Heavy_Container </Create_Team_Type>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Company_Units> Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two_Gunner_Heavy, Clone_Phase_Two, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two, Clone_Phase_Two_Plex, Clone_Phase_Two_Plex,  Clone_Phase_Two_Lt </Company_Units>
+		<Company_Units> 
+			Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two_Gunner_Heavy, 
+			Clone_Phase_Two, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two, 
+			Clone_Phase_Two_Plex, Clone_Phase_Two_Plex,  Clone_Phase_Two_Lt 
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_Two_Heavy_Squad">
 		<Variant_Of_Existing_Type>Clonetrooper_Phase_Two_Main_Squad</Variant_Of_Existing_Type>
 
-		<Company_Units> Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two, Clone_Phase_Two_Gunner_Heavy, Clone_Phase_Two, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two, Clone_Phase_Two_Plex, Clone_Phase_Two_Plex</Company_Units>
+		<Company_Units> 
+			Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two, 
+			Clone_Phase_Two_Gunner_Heavy, Clone_Phase_Two, Clone_Phase_Two_Grenadier_Rifle, 
+			Clone_Phase_Two, Clone_Phase_Two_Plex, Clone_Phase_Two_Plex
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_Two_Squad">
@@ -1680,7 +1700,11 @@
 		<Icon_Name>I_BUTTON_CLONE_P2.tga</Icon_Name>
 
 		<Create_Team_Type> Clonetrooper_Phase_Two_Container </Create_Team_Type>
-		<Company_Units> Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two </Company_Units>
+		<Company_Units> 
+			Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, 
+			Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, 
+			Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two 
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_Two_Assault_Squad">
@@ -1703,7 +1727,11 @@
 		<Icon_Name>I_BUTTON_CLONE_P2_ASSAULT.TGA</Icon_Name>
 
 		<Create_Team_Type> Clonetrooper_Phase_Two_Assault_Container </Create_Team_Type>
-		<Company_Units> Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Gunner_Light, Clone_Phase_Two_Carbine, Clone_Phase_Two_Grenadier_Carbine, Clone_Phase_Two_RPS, Clone_Phase_Two_RPS</Company_Units>
+		<Company_Units> 
+			Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Carbine, Clone_Phase_Two_Carbine, 
+			Clone_Phase_Two_Carbine, Clone_Phase_Two_Gunner_Light, Clone_Phase_Two_Carbine, 
+			Clone_Phase_Two_Grenadier_Carbine, Clone_Phase_Two_RPS, Clone_Phase_Two_RPS
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_Two_Medic_Squad">
@@ -1727,7 +1755,11 @@
 		<Icon_Name>I_BUTTON_CLONE_P2_SUPPORT.tga</Icon_Name>
 
 		<Create_Team_Type> Clonetrooper_Phase_Two_Medic_Container </Create_Team_Type>
-		<Company_Units> Clone_Phase_Two_Sergeant, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Medic, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine</Company_Units>
+		<Company_Units> 
+			Clone_Phase_Two_Sergeant, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, 
+			Clone_Phase_Two_Medic, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, 
+			Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine
+		</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Clonetrooper_Phase_Two_Container">
@@ -2204,7 +2236,11 @@
 
 		<Create_Team_Type> Shock_Clonetrooper_One_Container </Create_Team_Type>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Company_Units> Shock_Clone_Phase_One, Shock_Clone_Phase_One, Shock_Clone_Phase_One_Plex, Shock_Clone_Phase_One_Grenadier, Shock_Clone_Phase_One, Shock_Clone_Phase_One, Shock_Clone_Phase_One, Shock_Clone_Phase_One, Shock_Clone_Phase_One_Sergeant</Company_Units>
+		<Company_Units> 
+			Shock_Clone_Phase_One, Shock_Clone_Phase_One, Shock_Clone_Phase_One_Plex, 
+			Shock_Clone_Phase_One_Grenadier, Shock_Clone_Phase_One, Shock_Clone_Phase_One, 
+			Shock_Clone_Phase_One, Shock_Clone_Phase_One, Shock_Clone_Phase_One_Sergeant
+		</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Shock_Clonetrooper_One_Container">
@@ -2445,7 +2481,11 @@
 
 		<Create_Team_Type> Shock_Clonetrooper_Two_Container </Create_Team_Type>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Company_Units> Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two_Plex, Shock_Clone_Phase_Two_Grenadier, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two_Sergeant</Company_Units>
+		<Company_Units> 
+			Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two_Plex, 
+			Shock_Clone_Phase_Two_Grenadier, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, 
+			Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two_Sergeant
+		</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Shock_Clonetrooper_Two_Container">
@@ -5789,13 +5829,13 @@
 		<Required_Special_Structures> E_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>120</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>6</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
 		<Affiliation>Empire</Affiliation>
@@ -6645,12 +6685,12 @@
 		<Required_Special_Structures>E_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>6</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
 		<Affiliation>Empire</Affiliation>
@@ -6702,13 +6742,21 @@
 
 		<Create_Team_Type> Clone_Vehicular_Assault_Heavy_Container </Create_Team_Type>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Company_Units> Clone_Vehicular_Assault_Sergeant, Clone_Vehicular_Assault, Clone_Vehicular_Assault_Mechanic_Rifle, Clone_Vehicular_Assault_Grenadier_Rifle, Clone_Vehicular_Assault, Clone_Vehicular_Assault, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_Lt </Company_Units>
+		<Company_Units> 
+			Clone_Vehicular_Assault_Sergeant, Clone_Vehicular_Assault, Clone_Vehicular_Assault_Mechanic_Rifle, 
+			Clone_Vehicular_Assault_Grenadier_Rifle, Clone_Vehicular_Assault, Clone_Vehicular_Assault, 
+			Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_Lt 
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clone_Vehicular_Assault_Heavy_Squad">
 		<Variant_Of_Existing_Type>Clone_Vehicular_Assault_Main_Squad</Variant_Of_Existing_Type>
 
-		<Company_Units> Clone_Vehicular_Assault_Sergeant, Clone_Vehicular_Assault, Clone_Vehicular_Assault_Mechanic_Rifle, Clone_Vehicular_Assault_Grenadier_Rifle, Clone_Vehicular_Assault, Clone_Vehicular_Assault, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX </Company_Units>
+		<Company_Units> 
+			Clone_Vehicular_Assault_Sergeant, Clone_Vehicular_Assault, Clone_Vehicular_Assault_Mechanic_Rifle, 
+			Clone_Vehicular_Assault_Grenadier_Rifle, Clone_Vehicular_Assault, Clone_Vehicular_Assault, 
+			Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX 
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clone_Vehicular_Assault_Assault_Squad">
@@ -6731,7 +6779,11 @@
 		<Icon_Name>I_BUTTON_CLONE_VEHICLE_ASSAULT_ASSAULT.tga</Icon_Name>
 
 		<Create_Team_Type> Clone_Vehicular_Assault_Assault_Container </Create_Team_Type>
-		<Company_Units> Clone_Vehicular_Assault_Sergeant_Carbine, Clone_Vehicular_Assault_Carbine, Clone_Vehicular_Assault_Mechanic_Carbine, Clone_Vehicular_Assault_Grenadier_Carbine, Clone_Vehicular_Assault_Carbine, Clone_Vehicular_Assault_Carbine, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX </Company_Units>
+		<Company_Units> 
+			Clone_Vehicular_Assault_Sergeant_Carbine, Clone_Vehicular_Assault_Carbine, Clone_Vehicular_Assault_Mechanic_Carbine, 
+			Clone_Vehicular_Assault_Grenadier_Carbine, Clone_Vehicular_Assault_Carbine, Clone_Vehicular_Assault_Carbine, 
+			Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX 
+		</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Clone_Vehicular_Assault_Heavy_Container">
@@ -7390,13 +7442,19 @@
 
 		<Create_Team_Type> Clone_Special_Ops_Container </Create_Team_Type>
 		<Max_Squad_Size> 6 </Max_Squad_Size>
-		<Company_Units> Clone_Special_Ops, Clone_Special_Ops_Sergeant, Clone_Special_Ops_Grenadier, Clone_Special_Ops_Flamer, Clone_Special_Ops_Ion, Clone_Special_Ops_Lieutenant </Company_Units>
+		<Company_Units> 
+			Clone_Special_Ops, Clone_Special_Ops_Sergeant, Clone_Special_Ops_Grenadier, 
+			Clone_Special_Ops_Flamer, Clone_Special_Ops_Ion, Clone_Special_Ops_Lieutenant 
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clone_Special_Ops_Squad">
 		<Variant_Of_Existing_Type>Clone_Special_Ops_Main_Squad</Variant_Of_Existing_Type>
 
-		<Company_Units> Clone_Special_Ops, Clone_Special_Ops, Clone_Special_Ops_Sergeant, Clone_Special_Ops_Grenadier, Clone_Special_Ops_Flamer, Clone_Special_Ops_Ion </Company_Units>
+		<Company_Units> 
+			Clone_Special_Ops, Clone_Special_Ops, Clone_Special_Ops_Sergeant, 
+			Clone_Special_Ops_Grenadier, Clone_Special_Ops_Flamer, Clone_Special_Ops_Ion 
+		</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Clone_Special_Ops_Container">
@@ -8516,13 +8574,13 @@
 		<Required_Special_Structures> E_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>120</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>6</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
 		<Affiliation>Empire</Affiliation>
@@ -9695,13 +9753,13 @@
 		<Required_Special_Structures> E_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>120</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>6</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
 		<Affiliation>Empire</Affiliation>
@@ -9753,7 +9811,11 @@
 
 		<Create_Team_Type> Clone_Airborne_Trooper_Heavy_Container </Create_Team_Type>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Company_Units> Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle_Grenadier, Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle_Grenadier, Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle_Grenadier, Clone_Airborne_Trooper_Rifle_Medic, Clone_Airborne_Trooper_Rifle_Sergeant </Company_Units>
+		<Company_Units> 
+			Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle_Grenadier, 
+			Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle_Grenadier, Clone_Airborne_Trooper_Rifle, 
+			Clone_Airborne_Trooper_Rifle_Grenadier, Clone_Airborne_Trooper_Rifle_Medic, Clone_Airborne_Trooper_Rifle_Sergeant 
+		</Company_Units>
 	</GroundCompany>
 	
 	<GroundCompany Name="Clone_Airborne_Trooper_Assault_Squad">
@@ -9776,7 +9838,11 @@
 		<Icon_Name>I_BUTTON_CLONE_AIRBORNE_ASSAULT.tga</Icon_Name>
 
 		<Create_Team_Type> Clone_Airborne_Trooper_Assault_Container </Create_Team_Type>
-		<Company_Units> Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine_Grenadier, Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine_Grenadier, Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine_Grenadier, Clone_Airborne_Trooper_Carbine_Medic, Clone_Airborne_Trooper_Carbine_Sergeant </Company_Units>
+		<Company_Units> 
+			Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine_Grenadier, 
+			Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine_Grenadier, Clone_Airborne_Trooper_Carbine, 
+			Clone_Airborne_Trooper_Carbine_Grenadier, Clone_Airborne_Trooper_Carbine_Medic, Clone_Airborne_Trooper_Carbine_Sergeant 
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clone_Airborne_Trooper_Weap_Squad">
@@ -9801,7 +9867,11 @@
 		<Icon_Name>I_BUTTON_CLONE_AIRBORNE_WEAP.tga</Icon_Name>
 
 		<Create_Team_Type> Clone_Airborne_Trooper_Weap_Container </Create_Team_Type>
-		<Company_Units> Clone_Airborne_Trooper_RPS, Clone_Airborne_Trooper_Gunner_Light, Clone_Airborne_Trooper_SMG, Clone_Airborne_Trooper_RPS, Clone_Airborne_Trooper_Gunner_Light, Clone_Airborne_Trooper_SMG, Clone_Airborne_Trooper_RPS, Clone_Airborne_Trooper_SMG_Medic, Clone_Airborne_Trooper_Gunner_Light_Sergeant </Company_Units>
+		<Company_Units> 
+			Clone_Airborne_Trooper_RPS, Clone_Airborne_Trooper_Gunner_Light, Clone_Airborne_Trooper_SMG, 
+			Clone_Airborne_Trooper_RPS, Clone_Airborne_Trooper_Gunner_Light, Clone_Airborne_Trooper_SMG, 
+			Clone_Airborne_Trooper_RPS, Clone_Airborne_Trooper_SMG_Medic, Clone_Airborne_Trooper_Gunner_Light_Sergeant 
+		</Company_Units>
 	</GroundCompany>
 	
 	<GroundCompany Name="Clone_Airborne_Trooper_Sniper_Squad">
@@ -9821,7 +9891,11 @@
 		<Icon_Name>I_BUTTON_CLONE_AIRBORNE_SNIPER.tga</Icon_Name>
 
 		<Create_Team_Type> Clone_Airborne_Trooper_Sniper_Container </Create_Team_Type>
-		<Company_Units> Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper_Sergeant, Clone_Airborne_Trooper_Sniper_Lieutenant </Company_Units>
+		<Company_Units> 
+			Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, 
+			Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, 
+			Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper_Sergeant, Clone_Airborne_Trooper_Sniper_Lieutenant 
+		</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Clone_Airborne_Trooper_Heavy_Container">
@@ -11590,11 +11664,11 @@
 
 		<Affiliation>Empire</Affiliation>
 
-		<Tactical_Health>85</Tactical_Health>
+		<Tactical_Health>90</Tactical_Health>
 		<Shield_Points>30</Shield_Points>
 		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
 
-		<HardPoints>HP_Hero_Republic_Commando_Blaster, HP_Hero_Republic_Commando_Sniper_Switch, HP_Hero_Republic_Commando_Grenade</HardPoints>
+		<HardPoints>HP_Hero_Republic_Commando_Blaster, HP_Hero_Republic_Commando_Grenade</HardPoints>
 
 		<CategoryMask> Organic | Clone | InfantryHero | AntiInfantry </CategoryMask>
 
@@ -11655,21 +11729,23 @@
 			</Unit_Ability>
 
 			<Unit_Ability>
-				<Type>ROCKET_ATTACK</Type>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_WEAPON_SWAP</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_REPUBLIC_COMMANDO_SWAP_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_SWAP_WEAPONS.TGA</Alternate_Icon_Name>
-				<Targeting_Max_Attack_Distance>375</Targeting_Max_Attack_Distance>
-				<Recharge_Seconds> 9.0 </Recharge_Seconds>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name>
+				</GUI_Activated_Ability_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-			<Galactic_Stealth_Ability Name="Clone_Commando_Galactic_Stealth">
+			<Galactic_Stealth_Ability Name="CC_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
 
-			<Grenade_Attack_Ability Name="CC_Sargent_Grenade_Attack">
+			<Grenade_Attack_Ability Name="CC_Sergeant_Grenade_Attack">
 				<Activation_Style> User_Input </Activation_Style> <!-- Was Special_Attack -->
 				<!-- We need to be within this distance of the clicked target to consider throwing the grenade -->
 				<Activation_Min_Range>5.0</Activation_Min_Range>
@@ -11690,7 +11766,7 @@
 				<SFXEvent_Activate>Unit_Delta_Boss_Thermal_Detonator</SFXEvent_Activate>
 			</Grenade_Attack_Ability>
 
-			<Force_Healing_Ability Name="Boss_Self_Heal">
+			<Force_Healing_Ability Name="CC_Sergeant_Self_Heal">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>5.0</Heal_Range>
 				<Heal_Amount> 0.0 </Heal_Amount>
