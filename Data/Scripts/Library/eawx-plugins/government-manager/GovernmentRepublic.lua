@@ -350,7 +350,6 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 
 	elseif game_object_type_name == "DUMMY_RESEARCH_VENATOR" then
 		crossplot:publish("UPDATE_MOBILIZATION","VENATOR_RESEARCH")
-
 	elseif game_object_type_name == "DUMMY_KDY_CONTRACT" then
 		if self.RepublicPlayer.Is_Human() then
 			Story_Event("KDY_CONTRACT_COMPLETED")
@@ -362,6 +361,7 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 		StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Mulleen_Imperator"})
 
 	elseif game_object_type_name == "DUMMY_RESEARCH_CLONE_TROOPER_II" then -- FotR_Enhanced
+		crossplot:publish("UPDATE_MOBILIZATION", "PHASE_TWO_RESEARCH")
 		if self.gc_name == "RIMWARD" then
 			UnitUtil.DespawnList({"DUMMY_RESEARCH_CLONE_TROOPER_II"})
 
@@ -384,6 +384,9 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 			UnitUtil.SetLockList("EMPIRE", {"ARC_PHASE_TWO_COMPANY"}, false)
 		end
 	elseif game_object_type_name == "ARC_PHASE_ONE_COMPANY" or game_object_type_name == "ARC_PHASE_TWO_COMPANY" then -- FotR_Enhanced
+		if self.id == "FTGU" or self.id == "CUSTOM" then
+			return
+		end
 		local lifetime = GlobalValue.Get("ARC_LIFETIME_LIMIT")
 		local object_type = Find_Object_Type(game_object_type_name)
 		lifetime = lifetime -1
