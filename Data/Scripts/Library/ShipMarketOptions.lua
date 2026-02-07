@@ -158,7 +158,7 @@ return {
 				["CLONE_GALACTIC_MARINE_COMPANY"] = {
 					locked = true,
 					gc_locked = false,
-					amount = 3,
+					amount = 0,
 					chance = 200,
 					perception_modifier = nil,
 					associtaion = nil,
@@ -169,7 +169,7 @@ return {
 				["CLONE_SCOUT_TROOPER_COMPANY"] = {
 					locked = true,
 					gc_locked = false,
-					amount = 2,
+					amount = 0,
 					chance = 170,
 					perception_modifier = nil,
 					associtaion = nil,
@@ -180,7 +180,7 @@ return {
 				["CLONE_AIRBORNE_TROOPER_COMPANY"] = {
 					locked = true,
 					gc_locked = false,
-					amount = 1,
+					amount = 0,
 					chance = 140,
 					perception_modifier = nil,
 					associtaion = nil,

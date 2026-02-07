@@ -131,7 +131,7 @@ function ShipMarket:adjust_ship_chance(adjustment_tables)
     end
 end
 
-function ShipMarket:lock_or_unlock_options(lock_tables)
+function ShipMarket:lock_or_unlock_options(lock_tables) -- FotR_Enhanced ; 
     --Logger:trace("entering ShipMarket:adjust_ship_chance")
     DebugMessage("In ShipMarket:adjust_ship_chance")
     for _, lock_table in pairs(lock_tables) do
@@ -141,6 +141,7 @@ function ShipMarket:lock_or_unlock_options(lock_tables)
         local lock = lock_table[4] --lock status
         local remove_existing = lock_table[5] --remove existing
         local gc_lock = lock_table[6] --GC lock status
+        local initial_amount = lock_table[7] --Starting amount
 
         if self.market_types[owner][market].list[game_object_type_name] then
             if gc_lock == true then
@@ -157,6 +158,8 @@ function ShipMarket:lock_or_unlock_options(lock_tables)
 
             if remove_existing == true then
                 self:add_or_remove_amount({{owner, market, game_object_type_name, 0, true}})
+            elseif remove_existing == false and initial_amount then
+                self:add_or_remove_amount({{owner, market, game_object_type_name, initial_amount, true}})
             end
         end
     end
