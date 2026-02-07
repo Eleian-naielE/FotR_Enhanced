@@ -111,12 +111,12 @@ return {
 					text_requirement = "[ Requires Order 66 and KDY Contract ]",
 					order = 9,
 				},			
-			},
-			["CLONE_MARKET"] = {
-				market_name = "Clone Specialization Program",
-				faction_object = Find_Player("Empire"),
-				news_colour = {r = 250, g = 44, b = 44},
-				list = {
+			}},
+		["CLONE_MARKET"] = {
+			market_name = "Clone Specialization Program",
+			faction_object = Find_Player("Empire"),
+			news_colour = {r = 250, g = 44, b = 44},
+			list = {
 				--Always Available
 				--[[["CLONE_COMMANDO_COMPANY"] = {
 					locked = true,
@@ -191,5 +191,4 @@ return {
 				}
 			},
 		},
-	},
 }
