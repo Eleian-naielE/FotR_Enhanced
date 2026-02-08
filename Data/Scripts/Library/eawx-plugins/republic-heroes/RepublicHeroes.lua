@@ -215,6 +215,8 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			["Bacara"] = {"BACARA_ASSIGN",{"BACARA_RETIRE","BACARA_RETIRE2"},{"BACARA","BACARA2"},"Bacara", ["Companies"] = {"BACARA_TEAM","BACARA2_TEAM"}},
 			["Jet"] = {"JET_ASSIGN",{"JET_RETIRE","JET_RETIRE2"},{"JET","JET2"},"Jet", ["Companies"] = {"JET_TEAM","JET2_TEAM"}},
 			["Gaffa"] = {"GAFFA_ASSIGN",{"GAFFA_RETIRE"},{"GAFFA_A5RX"},"Gaffa", ["Companies"] = {"GAFFA_TEAM"}},
+			-- FotR_Enhanced
+			--["Ponds"] = {"PONDS_ASSIGN",{"PONDS_RETIRE","PONDS_RETIRE2"},{"PONDS","PONDS2"},"Ponds", ["Companies"] = {"PONDS_TEAM","PONDS2_TEAM"}},
 		},
 		available_list = {--Heroes currently available for purchase. Seeded with those who have no special prereqs
 			"Cody",
@@ -505,6 +507,7 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 
 	if tech_level >= 4 then
 		Handle_Hero_Exit("Kilian", admiral_data)
+		--Handle_Hero_Exit("Ponds", clone_data)
 		--Handle_Hero_Exit("Knol", council_data)
 
 		Handle_Hero_Add("Autem", admiral_data)
@@ -870,6 +873,7 @@ function RepublicHeroes:Phase_II()
 	set_unit_index("Neyo",2,clone_data)
 	set_unit_index("Bacara",2,clone_data)
 	set_unit_index("Jet",2,clone_data)
+	--set_unit_index("Ponds",2,clone_data)
 
 	Handle_Hero_Add("Keller", clone_data)
 	Handle_Hero_Add("Faie", clone_data)
@@ -898,6 +902,7 @@ function RepublicHeroes:Phase_II()
 	clone_data.full_list["Neyo"][1] = "NEYO_ASSIGN2"
 	clone_data.full_list["Bacara"][1] = "BACARA_ASSIGN2"
 	clone_data.full_list["Jet"][1] = "JET_ASSIGN2"
+	--clone_data.full_list["Ponds"][1] = "PONDS_ASSIGN2"
 
 	commando_data.full_list["Fordo"][1] = "FORDO_ASSIGN2"
 	commando_data.full_list["Alpha"][1] = "ALPHA_ASSIGN2"
