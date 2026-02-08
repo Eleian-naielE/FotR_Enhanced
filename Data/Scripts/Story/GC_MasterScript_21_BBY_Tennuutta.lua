@@ -84,6 +84,7 @@ function Definitions()
 end
 
 function State_Historical_GC_Choice_Prompt(message)
+	GlobalValue.Set("CURRENT_CLONE_PHASE", 1)
 	if message == OnEnter then
 		if p_cis.Is_Human() then
 			GlobalValue.Set("Tennuutta_CIS_GC_Version", 0) -- 1 = AU Version; 0 = Canonical Version
@@ -96,6 +97,7 @@ function State_Historical_GC_Choice_Prompt(message)
 
 			if TestValid(Find_First_Object("GC_AU_Dummy")) then
 				GlobalValue.Set("Tennuutta_Rep_GC_Version", 1) -- 1 = AU Version; 0 = Canonical Version
+				GlobalValue.Set("CURRENT_CLONE_PHASE", 2) -- FotR_Enhanced ; support for Phase 2 Clones for sandbox mode
 			end
 		end
 
@@ -125,8 +127,6 @@ function State_Historical_GC_Choice_Prompt(message)
 		p_republic.Lock_Tech(Find_Object_Type("Ahsoka_Assign"))
 		p_republic.Lock_Tech(Find_Object_Type("Bly_Assign"))
 		p_republic.Lock_Tech(Find_Object_Type("Rex_Assign"))
-
-		GlobalValue.Set("CURRENT_CLONE_PHASE", 1)
 
 		crossplot:publish("POPUPEVENT", "HISTORICAL_GC_CHOICE", {"STORY", "NO_INTRO", "NO_STORY"}, { },
 				{ }, { },
@@ -199,7 +199,20 @@ function Historical_GC_Choice_Made(choice)
 	crossplot:publish("INITIALIZE_AI", "empty")
 end
 
-function Generic_Story_Set_Up()
+function Generic_Story_Set_Up() -- FotR_Enhanced
+	if p_republic.Is_Human() then -- FotR_Enhanced ; support for Phase 2 Clones for sandbox mode
+		if GlobalValue.Get("CURRENT_CLONE_PHASE") == 2 then
+			crossplot:publish("CLONE_UPGRADES", "empty")
+			crossplot:publish("UPDATE_MOBILIZATION", "PHASE_TWO_RESEARCH") -- FotR_Enhanced ; clone market
+			p_republic.Unlock_Tech(Find_Object_Type("Clonetrooper_Phase_Two_Company"))
+			p_republic.Unlock_Tech(Find_Object_Type("Republic_BARC_Company"))
+			p_republic.Unlock_Tech(Find_Object_Type("ARC_Phase_Two_Company"))
+
+			p_republic.Lock_Tech(Find_Object_Type("Clonetrooper_Phase_One_Company"))
+			p_republic.Lock_Tech(Find_Object_Type("Republic_74Z_Bike_Company"))
+			p_republic.Lock_Tech(Find_Object_Type("ARC_Phase_One_Company"))
+		end
+	end
 	p_cis.Unlock_Tech(Find_Object_Type("CIS_Defoliator_Company"))
 	p_republic.Unlock_Tech(Find_Object_Type("Republic_Naval_Command_Centre"))
 
@@ -538,7 +551,7 @@ end
 
 -- Republic
 
-function Rep_Story_Set_Up()
+function Rep_Story_Set_Up() -- FotR_Enhanced
 	Story_Event("REP_STORY_START")
 
 	Set_Fighter_Hero("AXE_BLUE_SQUADRON","YULAREN_RESOLUTE")
@@ -555,6 +568,7 @@ function Rep_Story_Set_Up()
 	if (GlobalValue.Get("Tennuutta_Rep_GC_Version") == 1) then
 		GlobalValue.Set("CURRENT_CLONE_PHASE", 2)
 		crossplot:publish("CLONE_UPGRADES", "empty")
+		crossplot:publish("UPDATE_MOBILIZATION", "PHASE_TWO_RESEARCH") -- FotR_Enhanced ; clone market
 		p_republic.Unlock_Tech(Find_Object_Type("Clonetrooper_Phase_Two_Company"))
 		p_republic.Unlock_Tech(Find_Object_Type("Republic_BARC_Company"))
 		p_republic.Unlock_Tech(Find_Object_Type("ARC_Phase_Two_Company"))
