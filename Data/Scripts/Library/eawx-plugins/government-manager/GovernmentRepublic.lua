@@ -434,7 +434,7 @@ function GovernmentRepublic:Option_Cycle_Fleet_Skin()
 	StoryUtil.ShowScreenText(self.FleetSkins[self.FleetID + 1], 5)
 end
 
-function GovernmentRepublic:UpdateDisplay(favour_table, market_name, market_list)
+function GovernmentRepublic:UpdateDisplay(favour_table, market_name, market_list) -- FotR_Enhanced ; may need to refactor
 	--Logger:trace("entering GovernmentRepublic:UpdateDisplay")
 	local plot = Get_Story_Plot("Conquests\\Player_Agnostic_Plot.xml")
 	local government_display_event = plot.Get_Event("Government_Display")
@@ -453,18 +453,18 @@ function GovernmentRepublic:UpdateDisplay(favour_table, market_name, market_list
 		else
 			government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CURRENT_CHANCELLOR", Find_Object_Type(GlobalValue.Get("ChiefOfState")))
 		end
-
+		
 		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 		government_display_event.Add_Dialog_Text("TEXT_NONE")
-
+		--KDY Market Display
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_KDY_OVERVIEW_HEADER")
 		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_KDY_OVERVIEW")
 		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 		government_display_event.Add_Dialog_Text("TEXT_NONE")
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_KDY_LIST_01")
-		for i, ship in ipairs(SortKeysByElement(market_list,"order","asc")) do
-			local ship_data = market_list[ship]
+		for i, ship in ipairs(SortKeysByElement(market_list[1],"order","asc")) do
+			local ship_data = market_list[1][ship]
 			if (ship_data.amount > 0) or ((ship_data.locked == false) and (ship_data.gc_locked == false)) then
 				government_display_event.Add_Dialog_Text(ship_data.readable_name .. ": "..tostring(ship_data.amount) .." - [ ".. tostring(ship_data.chance/10) .."%% ] ")
 			end
@@ -478,7 +478,32 @@ function GovernmentRepublic:UpdateDisplay(favour_table, market_name, market_list
 				government_display_event.Add_Dialog_Text(ship_data.readable_name .." - "..ship_data.text_requirement)
 			end
 		end
+		--Clone Market Display -- FotR_Enhanced 
+		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+		government_display_event.Add_Dialog_Text("TEXT_NONE")
 
+		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW_HEADER")
+		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW")
+		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+		government_display_event.Add_Dialog_Text("TEXT_NONE")
+		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_KDY_LIST_01")
+		for i, ship in ipairs(SortKeysByElement(market_list[2],"order","asc")) do
+			local ship_data = market_list[2][ship]
+			if (ship_data.amount > 0) or ((ship_data.locked == false) and (ship_data.gc_locked == false)) then
+				government_display_event.Add_Dialog_Text(ship_data.readable_name .. ": "..tostring(ship_data.amount) .." - [ ".. tostring(ship_data.chance/10) .."%% ] ")
+			end
+		end
+
+		government_display_event.Add_Dialog_Text("TEXT_NONE")
+		government_display_event.Add_Dialog_Text("Currently Unavailable:")
+		for i, ship in ipairs(SortKeysByElement(market_list[2],"order","asc")) do
+			local ship_data = market_list[2][ship]
+			if (ship_data.amount == 0) and (ship_data.locked == true) and (ship_data.gc_locked == false) then
+				government_display_event.Add_Dialog_Text(ship_data.readable_name .." - "..ship_data.text_requirement)
+			end
+		end
+		--Republic Heroes
 		government_display_event.Add_Dialog_Text("TEXT_NONE")
 
 		local admiral_list = GlobalValue.Get("REP_MOFF_LIST")

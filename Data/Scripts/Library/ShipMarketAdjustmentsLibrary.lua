@@ -40,8 +40,8 @@ return {
 		["PHASE_TWO_RESEARCH"] = {
 			lock_lists = {
 				{"EMPIRE", "CLONE_MARKET", "CLONE_GALACTIC_MARINE_COMPANY", false, false, nil, 3},
-				{"EMPIRE", "CLONE_MARKET", "CLONE_SCOUT_TROOPER_COMPANY", false, false, nil, 3},
-				{"EMPIRE", "CLONE_MARKET", "CLONE_AIRBORNE_TROOPER_COMPANY", false, false, nil, 3},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_SCOUT_TROOPER_COMPANY", false, false, nil, 2},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_AIRBORNE_TROOPER_COMPANY", false, false, nil, 1},
 				{"EMPIRE", "CLONE_MARKET", "CLONE_VEHICULAR_ASSAULT_COMPANY", true},
 				{"EMPIRE", "CLONE_MARKET", "CLONE_SPECIAL_OPS_COMPANY", true},
 			},

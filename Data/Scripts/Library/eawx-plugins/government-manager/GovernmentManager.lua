@@ -160,8 +160,8 @@ function GovernmentManager:UpdateDisplay()
         self.HUTTGOV:UpdateDisplay(self.FAVOUR.FavourTables["HUTT_CARTELS"])
     elseif self.human == Find_Player("Rebel") then
         self.CISGOV:UpdateDisplay(self.FAVOUR.FavourTables["REBEL"])
-    elseif self.human == Find_Player("Empire") then
-        self.REPGOV:UpdateDisplay(self.FAVOUR.FavourTables["EMPIRE"]["SECTOR_FORCES"],self.SHIPMARKET.market_types["EMPIRE"]["KDY_MARKET"].market_name, self.SHIPMARKET.market_types["EMPIRE"]["KDY_MARKET"].list)
+    elseif self.human == Find_Player("Empire") then -- FotR_Enhanced ; may need to refactor
+        self.REPGOV:UpdateDisplay(self.FAVOUR.FavourTables["EMPIRE"]["SECTOR_FORCES"],self.SHIPMARKET.market_types["EMPIRE"]["KDY_MARKET"].market_name, {self.SHIPMARKET.market_types["EMPIRE"]["KDY_MARKET"].list, self.SHIPMARKET.market_types["EMPIRE"]["CLONE_MARKET"].list})
     end
 end
 
