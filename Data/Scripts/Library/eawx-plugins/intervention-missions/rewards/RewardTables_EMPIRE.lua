@@ -26,7 +26,7 @@ return {
 	Era_2 = {
 		{
 			{"CEC_Light_Cruiser", 5},
-			{"Clone_Special_Ops_Company", 5},
+			--{"Clone_Special_Ops_Company", 5},
 			{"Clone_Flame_Trooper_Company", 5},
 			--{"Clone_Galactic_Marine_Company", 5},
 			{"Special_Tactics_Trooper_Company", 5},
@@ -54,7 +54,7 @@ return {
 		{
 			{"Customs_Corvette", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Clone_Special_Ops_Company", 5},
+			--{"Clone_Special_Ops_Company", 5},
 			{"Clone_Flame_Trooper_Company", 5},
 			--{"Clone_Galactic_Marine_Company", 5},
 			{"Special_Tactics_Trooper_Company", 5},
@@ -81,9 +81,9 @@ return {
 		{
 			{"Customs_Corvette", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Clone_Scout_Trooper_Company", 5},
-			{"Clone_Airborne_Trooper_Company", 5},
-			{"Clone_Galactic_Marine_Company", 5},
+			--{"Clone_Scout_Trooper_Company", 5},
+			--{"Clone_Airborne_Trooper_Company", 5},
+			--{"Clone_Galactic_Marine_Company", 5},
 			{"Clone_Flame_Trooper_Company", 5},			
 			{"Special_Tactics_Trooper_Company", 5},
 			{"Republic_Navy_Trooper_Company", 5},
@@ -109,9 +109,9 @@ return {
 		{
 			{"Customs_Corvette", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Clone_Scout_Trooper_Company", 5},
-			{"Clone_Airborne_Trooper_Company", 5},
-			{"Clone_Galactic_Marine_Company", 5},
+			--{"Clone_Scout_Trooper_Company", 5},
+			--{"Clone_Airborne_Trooper_Company", 5},
+			--{"Clone_Galactic_Marine_Company", 5},
 			{"Clone_Flame_Trooper_Company", 5},			
 			{"Special_Tactics_Trooper_Company", 5},
 			{"Republic_Navy_Trooper_Company", 5},
