@@ -9195,7 +9195,7 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
-		<Property_Flags>HealsOrganics| HealsDroids | HealsVehicles</Property_Flags>
+		<Property_Flags>HealsOrganics</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Airborne_Medic_Healing">
@@ -9206,7 +9206,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry, InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
@@ -9344,7 +9344,7 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
-		<Property_Flags>HealsOrganics | HealsDroids | HealsVehicles</Property_Flags>
+		<Property_Flags>HealsOrganics</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Airborne_Medic_Healing">
@@ -9355,7 +9355,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry, InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
@@ -9452,7 +9452,7 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
-		<Property_Flags>HealsOrganics| HealsDroids | HealsVehicles</Property_Flags>
+		<Property_Flags>HealsOrganics</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Airborne_Medic_Healing">
@@ -9463,7 +9463,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry, InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
@@ -11640,7 +11640,7 @@
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MOVE
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP1
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP2
-		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP3
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
@@ -11669,6 +11669,14 @@
 		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
 
 		<HardPoints>HP_Hero_Republic_Commando_Blaster, HP_Hero_Republic_Commando_Grenade</HardPoints>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>HeroProj_Thrown_Thermal_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+        <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
 
 		<CategoryMask> Organic | Clone | InfantryHero | AntiInfantry </CategoryMask>
 
@@ -11797,7 +11805,7 @@
 
 	<GroundInfantry Name="Clone_Commando_Sniper">
 		<Variant_Of_Existing_Type>Clone_Commando_Sargent</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_SNIPERs</Text_ID>
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_SNIPER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_CLONE_COMMANDO
@@ -11816,5 +11824,7 @@
 		<HardPoints>HP_Hero_Republic_Commando_Sniper</HardPoints>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Sniper</Highlight_Blob_Material_Name>
+
+
 	</GroundInfantry>
 </Republic_Clones>
