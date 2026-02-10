@@ -478,10 +478,10 @@ function GovernmentRepublic:UpdateDisplay(favour_table, market_name, market_list
 				government_display_event.Add_Dialog_Text(ship_data.readable_name .." - "..ship_data.text_requirement)
 			end
 		end
-		--Clone Market Display -- FotR_Enhanced 
+		
 		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 		government_display_event.Add_Dialog_Text("TEXT_NONE")
-
+		--Clone Market Display -- FotR_Enhanced 
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW_HEADER")
 		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW")
