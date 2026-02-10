@@ -76,8 +76,6 @@ return {
 			lock_lists = {
 				{"EMPIRE", "KDY_MARKET", "PROCURATOR_BATTLECRUISER", nil, nil, true},
 				{"EMPIRE", "KDY_MARKET", "MAELSTROM_BATTLECRUISER", false},
-				{"EMPIRE", "CLONE_MARKET", "CLONE_VEHICULAR_ASSAULT_COMPANY", false},
-				{"EMPIRE", "CLONE_MARKET", "CLONE_SPECIAL_OPS_COMPANY", false},	
 			},
 		},
 		["TENNUUTTA"] = {
@@ -111,6 +109,8 @@ return {
 				{"EMPIRE", "KDY_MARKET", "MAELSTROM_BATTLECRUISER", false},
 				{"EMPIRE", "KDY_MARKET", "ACCLAMATOR_DESTROYER", nil, nil, true},
 				{"EMPIRE", "KDY_MARKET", "ACCLAMATOR_BATTLESHIP", nil, nil, true},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_VEHICULAR_ASSAULT_COMPANY", nil, nil, true},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_SPECIAL_OPS_COMPANY", nil, nil, true},
 			},
 		},
 		["DURGES_LANCE"] = {
