@@ -38,6 +38,8 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	yularen_second_chance_used = false
 	block_second_chance_used = false
 	screed_second_chance_used = false
+	jet_dead = false
+	bacara_dead = false
 
 	crossplot:subscribe("COMMAND_STAFF_INITIALIZE", self.CommandStaff_Initialize, self)
 	crossplot:subscribe("COMMAND_STAFF_DECREMENT", self.CommandStaff_Decrement, self)
@@ -227,11 +229,11 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			"Gree_Clone",
 			"Neyo",
 			"71",
-			"Bacara",
+			"Jet",
 			"Gaffa"
 		},
 		story_locked_list = {--Heroes not accessible, but able to return with the right conditions
-			["Jet"] = true,
+			["Bacara"] = true,
 		},
 		active_player = Find_Player("Empire"),
 		extra_name = "EXTRA_CLONE_SLOT",
@@ -360,6 +362,9 @@ function RepublicHeroes:on_production_finished(planet, object_type_name)--object
 		if TestValid(viewer) then
 			viewer.Despawn()
 		end
+	end
+	if object_type_name == "JET2BACARA" then
+		Jet2Bacara()
 	end
 	Handle_Build_Options(object_type_name, admiral_data)
 	Handle_Build_Options(object_type_name, moff_data)
@@ -507,10 +512,12 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 
 	if tech_level >= 4 then
 		Handle_Hero_Exit("Kilian", admiral_data)
+		Handle_Hero_Exit("Jet", clone_data)
 		--Handle_Hero_Exit("Ponds", clone_data)
 		--Handle_Hero_Exit("Knol", council_data)
 
 		Handle_Hero_Add("Autem", admiral_data)
+		Handle_Hero_Add("Bacara", clone_data)
 
 		set_unit_index("Maarisa", 2, admiral_data)
 		set_unit_index("Yularen", 3, admiral_data)
@@ -800,8 +807,16 @@ function RepublicHeroes:on_galactic_hero_killed(hero_name, owner)
 	local clone_tag = Handle_Hero_Killed(hero_name, owner, clone_data)
 	if clone_tag == "Bly" then
 		Handle_Hero_Add("Deviss", clone_data)
+	elseif clone_tag == "Jet" then
+		jet_dead = true
+		if bacara_dead == false then
+			Handle_Hero_Add("Bacara", clone_data)
+		end
 	elseif clone_tag == "Bacara" then
-		Handle_Hero_Add("Jet", clone_data)
+		bacara_dead = true
+		if jet_dead == false then	
+			Handle_Hero_Add("Jet", clone_data)
+		end
 	elseif clone_tag == "Appo" then
 		Bow_Check()
 	elseif clone_tag == "Rex" then
@@ -923,6 +938,9 @@ function RepublicHeroes:Phase_II()
 	Get_Active_Heroes(false, clone_data) --Account for the new slot
 
 	Phase_II_Checked = true
+
+	local upgrade_unit = Find_Object_Type("Jet2Bacara")
+	clone_data.active_player.Unlock_Tech(upgrade_unit)
 end
 
 function RepublicHeroes:Venator_Heroes() -- FotR_Enhanced ; admiral, moff slot increment, block/forral/kilian
@@ -1212,4 +1230,14 @@ end
 
 function RepublicHeroes:Dallin_Unlock()
 	Handle_Hero_Add("Dallin", admiral_data)
+end
+
+function Jet2Bacara()
+	Handle_Hero_Add("Bacara", clone_data)
+	local Jet_Object = Find_First_Object("Jet2")
+	local planet = Jet_Object.Get_Planet_Location()
+	Handle_Hero_Exit("Jet", clone_data)
+	if TestValid(Jet_Object) then
+		Handle_Hero_Spawn("Bacara", clone_data, planet)
+	end
 end

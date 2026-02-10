@@ -620,6 +620,7 @@
 		TEXT_TOOLTIP_REX
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
 		TEXT_TOOLTIP_ESCORT_REX_P1_1_SUBMOD
+		TEXT_TOOLTIP_ESCORT_REX_P1_2_SUBMOD
 		TEXT_TOOLTIP_ESCORT_REX_P1_2
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_REX_P1_HEALTH
@@ -825,6 +826,7 @@
 		TEXT_TOOLTIP_REX
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
 		TEXT_TOOLTIP_ESCORT_REX_P2_1_SUBMOD
+		TEXT_TOOLTIP_ESCORT_REX_P2_2_SUBMOD
 		TEXT_TOOLTIP_ESCORT_REX_P2_2
 		TEXT_TOOLTIP_ESCORT_REX_P2_3
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -2784,6 +2786,10 @@
 		<Affiliation>Empire</Affiliation>
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Jet2</Required_Orbiting_Units>
+	</DummyStructure>
+
+	<DummyStructure Name="Jet2Bacara">
+		
 	</DummyStructure>
 
 
@@ -9223,6 +9229,14 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>  </SFXEvent_GUI_Unit_Ability_Activated> 
 				<SFXEvent_GUI_Unit_Ability_Deactivated>  </SFXEvent_GUI_Unit_Ability_Deactivated> 
 			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TARGETED_HACK</Type>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Atin_Hack_Ability </GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Guard_Clone_Trooper </SFXEvent_Target_Ability> 
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -9230,6 +9244,53 @@
 				<Activation_Style> User_Input </Activation_Style>
 				<Owner_Particle_Effect>Sensor_Jamming_Effect_Infantry</Owner_Particle_Effect>
 			</Sensor_Jamming_Ability>
+
+			<Hack_Ability Name="Atin_Hack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Min_Range> 5.0 </Activation_Min_Range>
+				<Activation_Max_Range> 30.0 </Activation_Max_Range>
+				<Applicable_Unit_Categories> </Applicable_Unit_Categories>
+
+				<!--	List needs to be updated as stuff is added -->
+				<Applicable_Unit_Types>  
+					Empire_Anti_Aircraft_Turret,
+					Empire_Anti_Infantry_Turret,
+					Empire_Anti_Vehicle_Turret,
+					Empire_Bacta_Tank,
+					Empire_Repair_Facility,
+					Empire_Sensor_Node,
+					Rebel_Anti_Aircraft_Turret,
+					Rebel_Anti_Infantry_Turret,
+					Rebel_Anti_Vehicle_Turret,
+					Rebel_Bacta_Tank,
+					Rebel_Repair_Facility,
+					Rebel_Sensor_Node,
+					Hutt_Cartels_Anti_Aircraft_Turret,
+					Hutt_Cartels_Anti_Infantry_Turret,
+					Hutt_Cartels_Anti_Vehicle_Turret,
+					Generic_Field_Turbolaser_Emplacement,
+					Generic_Field_Turbolaser_Emplacement_Republic,
+					Generic_Field_Turbolaser_Emplacement_CIS,
+					Ground_Turbolaser_Tower,
+					Ground_Turbolaser_Tower_Republic,
+					Ground_Turbolaser_Tower_CIS
+				</Applicable_Unit_Types>
+
+				<Lightning_Effect_Name> Hack_Electicity_Zaps </Lightning_Effect_Name>
+				<Lightning_Source_Bone_Name> </Lightning_Source_Bone_Name>
+				<Lightning_Target_Bone_Name> B_Turret </Lightning_Target_Bone_Name>
+				<Lightning_Max_Targets> 1 </Lightning_Max_Targets> 
+				<Lightning_Targets_Radius> 0.0 </Lightning_Targets_Radius>
+				<SFXEvent_Activate> Unit_Force_Lightning </SFXEvent_Activate> 					<!-- STUB PLACEHOLDER for Frank -->
+				<SFXEvent_Target_Affected />
+				<Target_Particle_Effect> Force_Lightning_Smoke </Target_Particle_Effect> 	<!-- STUB PLACEHOLDER for Gary -->
+				<Target_Particle_Bone_Name> B_Turret </Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type> Linear_Pulse </Target_Light_Effect_Type>
+				<Target_Light_Effect_Color> 0.3, 0.3, 0.8 </Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration> 2.3893 </Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count> 25 </Target_Light_Effect_Pulse_Count>
+			</Hack_Ability>
 
 			<Galactic_Stealth_Ability Name="Omega_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
@@ -9279,6 +9340,7 @@
 		TEXT_TOOLTIP_OMEGA_WEAP3
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_BONUS_INFANTRY_HEAL
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
@@ -9301,6 +9363,7 @@
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<Property_Flags>HealsOrganics</Property_Flags>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
@@ -9352,30 +9415,31 @@
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
 
-			<Force_Healing_Ability Name="Fi_Self_Heal">
+			<Force_Healing_Ability Name="Fi_Medic_Healing">
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>5.0</Heal_Range>
-				<Heal_Amount> 0.0 </Heal_Amount>
-				<Heal_Percent> 0.01 </Heal_Percent>
+				<Heal_Range>100.0</Heal_Range>
+				<Heal_Percent>0.04</Heal_Percent>
 				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
-
-				<Applicable_Unit_Categories />
+				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>Fi</Applicable_Unit_Types>
-				<Excluded_Unit_Types />
-
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
 				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
 				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
 				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
 				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
 			</Force_Healing_Ability>
 		</Abilities>
 	
