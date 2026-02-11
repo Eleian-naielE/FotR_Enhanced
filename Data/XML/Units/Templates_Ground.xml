@@ -5879,7 +5879,7 @@
 		<Type>Hover</Type>
 		<CategoryMask> Vehicle | AntiInfantry </CategoryMask>
 		<Ranking_In_Category>7</Ranking_In_Category>
-		<Property_Flags>DoKite</Property_Flags>
+		<Property_Flags>DoKite | HealsOrganics</Property_Flags>
 		<Weather_Category>Hover</Weather_Category>
 		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -6030,7 +6030,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
