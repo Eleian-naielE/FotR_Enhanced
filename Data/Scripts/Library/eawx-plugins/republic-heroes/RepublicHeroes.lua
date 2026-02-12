@@ -346,6 +346,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	--FotR_Enhanced
 	Forral_Checks = 0
 	Gillehspy_Checks = 0
+	JetBacara_swapped = 0
 
 	Venator_init = false
 end
@@ -363,8 +364,8 @@ function RepublicHeroes:on_production_finished(planet, object_type_name)--object
 			viewer.Despawn()
 		end
 	end
-	if object_type_name == "JET2BACARA" then
-		Jet2Bacara()
+	if object_type_name == "JET2BACARA" or object_type_name == "BACARA2JET" then
+		JetBacaraSwap()
 	end
 	Handle_Build_Options(object_type_name, admiral_data)
 	Handle_Build_Options(object_type_name, moff_data)
@@ -525,6 +526,7 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 
 		Eta_Unlock()
 		Trachta_Checks = 1
+		JetBacara_swapped = 1
 		if not self.hero_clones_p2_disabled then
 			self.Phase_II()
 		end
@@ -940,7 +942,9 @@ function RepublicHeroes:Phase_II()
 	Phase_II_Checked = true
 
 	local upgrade_unit = Find_Object_Type("Jet2Bacara")
+	local upgrade_unit2 = Find_Object_Type("Bacara2Jet")
 	clone_data.active_player.Unlock_Tech(upgrade_unit)
+	clone_data.active_player.Unlock_Tech(upgrade_unit2)
 end
 
 function RepublicHeroes:Venator_Heroes() -- FotR_Enhanced ; admiral, moff slot increment, block/forral/kilian
@@ -1232,12 +1236,24 @@ function RepublicHeroes:Dallin_Unlock()
 	Handle_Hero_Add("Dallin", admiral_data)
 end
 
-function Jet2Bacara()
-	Handle_Hero_Add("Bacara", clone_data)
-	local Jet_Object = Find_First_Object("Jet2")
-	local planet = Jet_Object.Get_Planet_Location()
-	Handle_Hero_Exit("Jet", clone_data)
-	if TestValid(Jet_Object) then
-		Handle_Hero_Spawn("Bacara", clone_data, planet)
+function JetBacaraSwap()
+	if JetBacara_swapped == 0 then 
+		Handle_Hero_Add("Bacara", clone_data)
+		local Jet_Object = Find_First_Object("Jet2")
+		local planet = Jet_Object.Get_Planet_Location()
+		Handle_Hero_Exit("Jet", clone_data)
+		if TestValid(Jet_Object) then
+			Handle_Hero_Spawn("Bacara", clone_data, planet)
+		end
+		JetBacara_swapped = 1
+	else 
+		Handle_Hero_Add("Jet", clone_data)
+		local Jet_Object = Find_First_Object("Jet2")
+		local planet = Jet_Object.Get_Planet_Location()
+		Handle_Hero_Exit("Bacara", clone_data)
+		if TestValid(Jet_Object) then
+			Handle_Hero_Spawn("Jet", clone_data, planet)
+		end
+		JetBacara_swapped = 0
 	end
 end
