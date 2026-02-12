@@ -219,3 +219,8 @@ TEXT_TOOLTIP_ESCORT_REX_P1_2_SUBMOD,1x Clone Trooper Rifleman Squad (P1)
 TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW_HEADER,Clone Specialization Program
 TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW,Every cycle, new clone special platoons may be available for the Clone Specialization Program. You can see all platoons currently available and the amounts they're available in listed below.
 TEXT_EVENT_HAWK_SELECTOR_HEADER,Assign Hawk
+
+TEXT_TOOLTIP_OMEGA_WEAP6,DC17M GRENADE
+TEXT_TOOLTIP_OMEGA_WEAP7,FRAG GRENADE
+TEXT_TOOLTIP_OMEGA_WEAP8,SIDEARM
+TEXT_TOOLTIP_ABILITY_FI_SWAP_DESCRIPTION,
