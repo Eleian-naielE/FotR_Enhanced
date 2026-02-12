@@ -8794,7 +8794,7 @@
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Delta</Required_Orbiting_Units>
 	</DummyStructure>
 
-
+	<!-- FotR_Enhanced ; Ability, Speed, SWeapon(Dar, Fi) Rework-->
 	<HeroUnit Name="Niner">
 		<Variant_Of_Existing_Type>Hero_Commando_Shielded_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -8829,7 +8829,7 @@
 		<Shield_Points>50</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 
-		<Max_Speed>1.0</Max_Speed>
+		<Max_Speed>1.3</Max_Speed>
 		<OverrideAcceleration> 1.0 </OverrideAcceleration>
 		<OverrideDeceleration> 1.0 </OverrideDeceleration>
 
@@ -8877,11 +8877,23 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>TARGETED_HACK</Type>
-				<Recharge_Seconds>45.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> Niner_Hack_Ability </GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability> Unit_Guard_Clone_Trooper </SFXEvent_Target_Ability> 
-				<Supports_Autofire>False</Supports_Autofire>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Speeder_Bomb_Concussion_Hero</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>2</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Delta_Boss_Thermal_Detonator</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_Target_Ability> Unit_Delta_Boss_Thermal_Detonator </SFXEvent_Target_Ability>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_UNTARGETED_STICKY_BOMBC_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_UNTARGETED_STICKY_BOMBC_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_DROP_BOMB1.tga</Alternate_Icon_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>CAPTURE_VEHICLE</Type>
+				<Recharge_Seconds> 55.0 </Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Niner_Vehicle_Thief </GUI_Activated_Ability_Name> 
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Laugh_Chewie </SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -8934,52 +8946,61 @@
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
 
-			<Hack_Ability Name="Niner_Hack_Ability">
+			<Vehicle_Thief_Ability Name="Niner_Vehicle_Thief">
 				<Activation_Style> User_Input </Activation_Style>
-				<Activation_Min_Range> 5.0 </Activation_Min_Range>
-				<Activation_Max_Range> 30.0 </Activation_Max_Range>
-				<Applicable_Unit_Categories> </Applicable_Unit_Categories>
+				<Applicable_Unit_Categories />
 
-				<!--	List needs to be updated as stuff is added -->
-				<Applicable_Unit_Types>  
-					Empire_Anti_Aircraft_Turret,
-					Empire_Anti_Infantry_Turret,
-					Empire_Anti_Vehicle_Turret,
-					Empire_Bacta_Tank,
-					Empire_Repair_Facility,
-					Empire_Sensor_Node,
-					Rebel_Anti_Aircraft_Turret,
-					Rebel_Anti_Infantry_Turret,
-					Rebel_Anti_Vehicle_Turret,
-					Rebel_Bacta_Tank,
-					Rebel_Repair_Facility,
-					Rebel_Sensor_Node,
-					Hutt_Cartels_Anti_Aircraft_Turret,
-					Hutt_Cartels_Anti_Infantry_Turret,
-					Hutt_Cartels_Anti_Vehicle_Turret,
-					Generic_Field_Turbolaser_Emplacement,
-					Generic_Field_Turbolaser_Emplacement_Republic,
-					Generic_Field_Turbolaser_Emplacement_CIS,
-					Ground_Turbolaser_Tower,
-					Ground_Turbolaser_Tower_Republic,
-					Ground_Turbolaser_Tower_CIS
+				<!-- MAKE SURE to add a "_Captured" clone to any unit that you add in this list!!!! -->
+				<Applicable_Unit_Types>
+					AT_PT_Walker,
+					AT_RT_Walker,
+					Infantry_Support_Platform,
+					ULAV_Early,
+					Bantha_II_Skiff,
+					Hutt_Bantha_II_Skiff,
+					SuperHaul_II_Skiff,
+					Hutt_AA_Skiff,
+					Hutt_Personnel_Skiff_IV
+					WLO5_Tank,
+					Arrow_23,
+					Gian_Speeder,
+					Gian_PDF,
+					Gian_Rebel,
+					TX130S,
+					Treaded_Neutron_Torch,
+					A5RX,
+					AAT,
+					Persuader,
+
+					AAT_PDF,
+					Umbaran_Hover_Tank,
+
+					Persuader_Assault,
+					PAC,
+					HAML,
+					CIS_AAT,
+					J1_Cannon,
+					Super_Tank,
+					CIS_Super_Tank,
+
+					Hutt_Pongeeta_Swamp_Speeder,
+					
+					X34_Technical,
+					Hailfire_Riot_Control,
+					Persuader_Riot_Control,
+					Espo_Walker_91
+					MZ8_Tank,
+
+					Light_Rakatan_Annihilator,
+					Heavy_Rakatan_Annihilator,
+					Wookiee_Flutter,
 				</Applicable_Unit_Types>
 
-				<Lightning_Effect_Name> Hack_Electicity_Zaps </Lightning_Effect_Name>
-				<Lightning_Source_Bone_Name> </Lightning_Source_Bone_Name>
-				<Lightning_Target_Bone_Name> B_Turret </Lightning_Target_Bone_Name>
-				<Lightning_Max_Targets> 1 </Lightning_Max_Targets> 
-				<Lightning_Targets_Radius> 0.0 </Lightning_Targets_Radius>
-				<SFXEvent_Activate> Unit_Force_Lightning </SFXEvent_Activate> 					<!-- STUB PLACEHOLDER for Frank -->
-				<SFXEvent_Target_Affected />
-				<Target_Particle_Effect> Force_Lightning_Smoke </Target_Particle_Effect> 	<!-- STUB PLACEHOLDER for Gary -->
-				<Target_Particle_Bone_Name> B_Turret </Target_Particle_Bone_Name>
-				<Target_Light_Effect_Type> Linear_Pulse </Target_Light_Effect_Type>
-				<Target_Light_Effect_Color> 0.3, 0.3, 0.8 </Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
-				<Target_Light_Effect_Duration> 2.3893 </Target_Light_Effect_Duration>
-				<Target_Light_Effect_Pulse_Count> 25 </Target_Light_Effect_Pulse_Count>
-			</Hack_Ability>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>50.0</Activation_Max_Range>
+				<Activation_Chance>1.0</Activation_Chance>
+				<SFXEvent_Activate>Unit_Chewie_Beat_Up_SFX</SFXEvent_Activate>
+			</Vehicle_Thief_Ability>
 
 		</Abilities>
 
@@ -8998,8 +9019,9 @@
 		TEXT_TOOLTIP_OMEGA_HEALTH
 		TEXT_TOOLTIP_OMEGA_SHIELD
 		TEXT_TOOLTIP_OMEGA_MOVE
-		TEXT_TOOLTIP_OMEGA_WEAP4
-		TEXT_TOOLTIP_OMEGA_WEAP5
+		TEXT_TOOLTIP_OMEGA_WEAP6
+		TEXT_TOOLTIP_OMEGA_WEAP8
+		TEXT_TOOLTIP_OMEGA_WEAP7
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
@@ -9017,7 +9039,7 @@
 		<Shield_Points>50</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 
-		<Max_Speed>1.0</Max_Speed>
+		<Max_Speed>1.3</Max_Speed>
 		<OverrideAcceleration> 1.0 </OverrideAcceleration>
 		<OverrideDeceleration> 1.0 </OverrideDeceleration>
 
@@ -9028,10 +9050,10 @@
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 
-		<HardPoints>HP_Hero_Bowcaster</HardPoints>
+		<HardPoints>HP_Hero_Republic_Commando_Grenade_Launcher</HardPoints>
 
 		<!-- Grenade throw -->
-		<Projectile_Types>HeroProj_Thrown_Thermal_Grenade</Projectile_Types>
+		<Projectile_Types>HeroProj_Thrown_Fragmentation_Grenade</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
@@ -9181,7 +9203,7 @@
 		<Shield_Points>50</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 
-		<Max_Speed>1.0</Max_Speed>
+		<Max_Speed>1.3</Max_Speed>
 		<OverrideAcceleration> 1.0 </OverrideAcceleration>
 		<OverrideDeceleration> 1.0 </OverrideDeceleration>
 
@@ -9337,6 +9359,8 @@
 		TEXT_TOOLTIP_OMEGA_HEALTH
 		TEXT_TOOLTIP_OMEGA_SHIELD
 		TEXT_TOOLTIP_OMEGA_MOVE
+		TEXT_TOOLTIP_DELTA_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
 		TEXT_TOOLTIP_OMEGA_WEAP3
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
@@ -9356,7 +9380,7 @@
 		<Shield_Points>50</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 
-		<Max_Speed>1.0</Max_Speed>
+		<Max_Speed>1.3</Max_Speed>
 		<OverrideAcceleration> 1.0 </OverrideAcceleration>
 		<OverrideDeceleration> 1.0 </OverrideDeceleration>
 
@@ -9368,7 +9392,7 @@
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
 
-		<HardPoints>HP_Hero_Verpine_Sniper</HardPoints>
+		<HardPoints>HP_Hero_Republic_Commando_Sniper, HP_Hero_Verpine_Sniper_Switch</HardPoints>
 		
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Deltasquad </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
@@ -9408,6 +9432,14 @@
 				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
 			</Unit_Ability>
 
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_WEAPON_SWAP</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FI_SWAP_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_SWAP_WEAPONS.TGA</Alternate_Icon_Name>
+				<Targeting_Max_Attack_Distance>375</Targeting_Max_Attack_Distance>
+				<Recharge_Seconds> 9.0 </Recharge_Seconds>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
