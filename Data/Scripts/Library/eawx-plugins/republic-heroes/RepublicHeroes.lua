@@ -943,10 +943,12 @@ function RepublicHeroes:Phase_II()
 
 	Phase_II_Checked = true
 
-	local upgrade_unit = Find_Object_Type("Jet2Bacara")
-	local upgrade_unit2 = Find_Object_Type("Bacara2Jet")
-	clone_data.active_player.Unlock_Tech(upgrade_unit)
-	clone_data.active_player.Unlock_Tech(upgrade_unit2)
+	if not jet_dead then
+		local upgrade_unit = Find_Object_Type("Jet2Bacara")
+		local upgrade_unit2 = Find_Object_Type("Bacara2Jet")
+		clone_data.active_player.Unlock_Tech(upgrade_unit)
+		clone_data.active_player.Unlock_Tech(upgrade_unit2)
+	end
 end
 
 function RepublicHeroes:Venator_Heroes() -- FotR_Enhanced ; admiral, moff slot increment, block/forral/kilian
