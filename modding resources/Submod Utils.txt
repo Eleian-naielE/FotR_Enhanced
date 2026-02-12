@@ -6,6 +6,22 @@
 
 --[[FotR_Enhanced]]
 
+<Vehicle_Thief_Inside_Clone>_Captured</Vehicle_Thief_Inside_Clone>
+
+<GroundVehicle Name="_Captured">
+    <Variant_Of_Existing_Type></Variant_Of_Existing_Type>
+
+    <Affiliation>Independent_Forces</Affiliation>
+
+	<Unit_Abilities_Data SubObjectList="Yes">
+        <Unit_Ability>
+            <Type>EJECT_VEHICLE_THIEF</Type>
+            <Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+        </Unit_Ability>
+	</Unit_Abilities_Data>
+</GroundVehicle>
+
+
 
 
 Red nikto guard model(for bok & morgukai shadow army)
