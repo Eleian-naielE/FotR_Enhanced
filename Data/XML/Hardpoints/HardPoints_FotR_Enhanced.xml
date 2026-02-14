@@ -1337,4 +1337,8 @@
 
 		<Fire_Category_Restrictions>AirGunship, AirSpeeder </Fire_Category_Restrictions>
 	</HardPoint>
+
+	<HardPoint Name="HP_Hero_Republic_Commando_Sidearm">
+		
+	</HardPoint>
 </HardPoints>

@@ -11827,4 +11827,54 @@
 
 
 	</GroundInfantry>
+
+	<GroundInfantry Name="Clone_Commando_Heavy">
+		<Variant_Of_Existing_Type>Clone_Commando_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_HEAVY</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_COMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MOVE
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP4
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP5
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP8
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_CLONE_COMMANDO_HEAVY.tga</Icon_Name>
+
+		<HardPoints>HP_Hero_Republic_Commando_Grenade_Launcher, </HardPoints>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Grenadier</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Clone_Commando_Slicer">
+		<Variant_Of_Existing_Type>Clone_Commando_Sargent</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_SLICER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_COMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MOVE
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_CLONE_COMMANDO_SNIPER.tga</Icon_Name>
+
+		<HardPoints>HP_Hero_Republic_Commando_Blaster</HardPoints>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Sniper</Highlight_Blob_Material_Name>
+
+
+	</GroundInfantry>
+
 </Republic_Clones>
