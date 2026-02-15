@@ -11637,10 +11637,10 @@
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
-		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MOVE
-		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP1
+		TEXT_TOOLTIP_DELTA_MOVE
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP2
-		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP3
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP5
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP6
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
@@ -11679,6 +11679,8 @@
         <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
 
 		<CategoryMask> Organic | Clone | InfantryHero | AntiInfantry </CategoryMask>
+
+		<AI_Combat_Power>35</AI_Combat_Power>
 
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
@@ -11798,7 +11800,7 @@
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
-		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MOVE
+		TEXT_TOOLTIP_DELTA_MOVE
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP3
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
@@ -11810,6 +11812,8 @@
 		<HardPoints>HP_Hero_Republic_Commando_Sniper, HP_Hero_Republic_Commando_Sidearm</HardPoints>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Sniper</Highlight_Blob_Material_Name>
+
+		<AI_Combat_Power>38</AI_Combat_Power>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -11879,7 +11883,7 @@
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
-		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MOVE
+		TEXT_TOOLTIP_DELTA_MOVE
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP1
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP4
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP7
@@ -11899,6 +11903,8 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
         <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<AI_Combat_Power>38</AI_Combat_Power>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Grenadier</Highlight_Blob_Material_Name>
 
@@ -11998,8 +12004,8 @@
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
-		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MOVE
-		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP1
+		TEXT_TOOLTIP_DELTA_MOVE
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP2
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP5
 		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP8
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
@@ -12008,7 +12014,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_CLONE_COMMANDO_SNIPER.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_CLONE_COMMANDO_SLICER.tga</Icon_Name>
 
 		<HardPoints>HP_Hero_Republic_Commando_Blaster, HP_Hero_Republic_Commando_Grenade</HardPoints>
 
@@ -12019,6 +12025,8 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
         <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<AI_Combat_Power>35</AI_Combat_Power>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Special</Highlight_Blob_Material_Name>
 
@@ -12100,5 +12108,143 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</GroundInfantry>
+
+	<GroundInfantry Name="Clone_Commando_Rework_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>clone_commando.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_CLONE_COMMANDO.tga</Icon_Name>
+		<AI_Combat_Power>146</AI_Combat_Power>
+		<Affiliation>Empire</Affiliation>
+		<CategoryMask>Organic | InfantryHero | Clone</CategoryMask>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Delta_Boss_Sprint</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>BERSERKER</Type>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> CC_Sergeant_Berserk_Attack </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Effective_Radius> 300.0 </Effective_Radius>
+				<Supports_Autofire>True</Supports_Autofire>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_BERSERKER_INFANTRY_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_BERSERKER_INFANTRY_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>LUCKY_SHOT</Type>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 5</Mod_Multiplier>
+				<Projectile_Types_Override />
+				<GUI_Activated_Ability_Name> CC_Sniper_Assassin </GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability/>
+				<Supports_Autofire>True</Supports_Autofire>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ASSASSIN.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>90.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>CC_Heavy_Proximity_Mines_AI</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability/>
+				<Area_Effect_Decal_Distance>50.0</Area_Effect_Decal_Distance>
+				<Effective_Radius> 100.0 </Effective_Radius>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AP_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AP_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>STICKY_BOMB</Type>
+				<Recharge_Seconds>30.0f </Recharge_Seconds>
+				<GUI_Activated_Ability_Name> CC_Heavy_Grenade_Attack </GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Delta_Scorch_Thermal_Detonator </SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+                <Type>STUN</Type>
+                <Recharge_Seconds>90.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name> CC_Slicer_Infantry_Stun </GUI_Activated_Ability_Name>
+                <Effective_Radius> 100.0 </Effective_Radius>
+                <Spawned_Object_Type> Stun_Ability_Particles </Spawned_Object_Type>
+				<SFXEvent_Target_Ability> Unit_Stun_RTT </SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
+            </Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroudnCompany Name="Clone_Commando_Rework_Company">
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_REWORK_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_COMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
+		TEXT_TOOLTIP_DELTA_MOVE
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP1
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP2
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP3
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP4
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP5
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP6
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP7
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP8
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDO_SQUAD </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_CLONE_COMMANDO.tga</Icon_Name>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row>1</GUI_Row>
+		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Population_Value>2</Population_Value>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
+
+		<Affiliation>Empire</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> Clone_Commando_Rework_Company_Dummy </Company_Units>
+		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft_ARC</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+	</GroudnCompany>
 
 </Republic_Clones>

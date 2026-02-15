@@ -46,6 +46,7 @@ return {
 -- FotR_Enhanced ; company dummy added
 ["REPUBLIC_AT_RT_COMPANY_DUMMY"] = true,
 ["REPUBLIC_AT_PT_COMPANY_DUMMY"] = true,
+["CLONE_COMMANDO_REWORK_COMPANY_DUMMY"] = true,
 
 
 -- CIS
