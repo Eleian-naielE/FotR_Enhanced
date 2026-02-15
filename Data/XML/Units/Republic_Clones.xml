@@ -11630,7 +11630,7 @@
 	
 	<GroundInfantry Name="Clone_Commando_Sergeant">
 		<Variant_Of_Existing_Type>Hero_Commando_Shielded_Template</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_SARGENT</Text_ID>
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_SARGEANT</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_CLONE_COMMANDO
