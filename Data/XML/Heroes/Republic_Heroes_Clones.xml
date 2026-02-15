@@ -8925,7 +8925,7 @@
 				<Type>CAPTURE_VEHICLE</Type>
 				<Recharge_Seconds> 55.0 </Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Niner_Vehicle_Thief </GUI_Activated_Ability_Name> 
-				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Laugh_Chewie </SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
