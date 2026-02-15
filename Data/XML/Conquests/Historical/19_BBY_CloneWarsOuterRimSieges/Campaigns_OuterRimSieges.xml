@@ -1215,7 +1215,7 @@
 		<Starting_Forces> Empire, Anaxes, Clonetrooper_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Clone_Galactic_Marine_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_Navy_Trooper_Company </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_LAAT_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_AT_AP_Walker_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_ISP_Company </Starting_Forces>
@@ -1411,7 +1411,7 @@
 		<Starting_Forces> Empire, Coruscant, Clonetrooper_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, ARC_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Senate_Commando_Company </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_LAAT_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_AT_AP_Walker_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_AT_TE_Walker_Company </Starting_Forces>
@@ -1636,7 +1636,7 @@
 		<Starting_Forces> Empire, Orinda, E_Ground_Advanced_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Clone_Galactic_Marine_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Clonetrooper_Phase_Two_Company </Starting_Forces>
-		<Starting_Forces> Empire, Orinda, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Orinda, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_ISP_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_UT_AA_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_TX130S_Company </Starting_Forces>
@@ -3198,7 +3198,7 @@
 		<Starting_Forces> Empire, Anaxes, Clonetrooper_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Clone_Galactic_Marine_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_Navy_Trooper_Company </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_LAAT_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_AT_AP_Walker_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_ISP_Company </Starting_Forces>
@@ -3395,7 +3395,7 @@
 		<Starting_Forces> Empire, Coruscant, Clonetrooper_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, ARC_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Senate_Commando_Company </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_LAAT_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_AT_AP_Walker_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_AT_TE_Walker_Company </Starting_Forces>
@@ -3599,7 +3599,7 @@
 		<Starting_Forces> Empire, Orinda, E_Ground_Advanced_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Clone_Galactic_Marine_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Clonetrooper_Phase_Two_Company </Starting_Forces>
-		<Starting_Forces> Empire, Orinda, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Orinda, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_ISP_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_UT_AA_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_TX130S_Company </Starting_Forces>
@@ -5161,7 +5161,7 @@
 		<Starting_Forces> Empire, Anaxes, Clonetrooper_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Clone_Galactic_Marine_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_Navy_Trooper_Company </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_LAAT_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_AT_AP_Walker_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_ISP_Company </Starting_Forces>
@@ -5358,7 +5358,7 @@
 		<Starting_Forces> Empire, Coruscant, Clonetrooper_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, ARC_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Senate_Commando_Company </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_LAAT_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_AT_AP_Walker_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_AT_TE_Walker_Company </Starting_Forces>
@@ -5562,7 +5562,7 @@
 		<Starting_Forces> Empire, Orinda, E_Ground_Advanced_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Clone_Galactic_Marine_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Clonetrooper_Phase_Two_Company </Starting_Forces>
-		<Starting_Forces> Empire, Orinda, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Orinda, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_ISP_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_UT_AA_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_TX130S_Company </Starting_Forces>
@@ -7300,7 +7300,7 @@
 		<Starting_Forces> Empire, Coruscant, Clonetrooper_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, ARC_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Senate_Commando_Company </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_LAAT_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_AT_AP_Walker_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_AT_TE_Walker_Company </Starting_Forces>
@@ -7525,7 +7525,7 @@
 		<Starting_Forces> Empire, Orinda, E_Ground_Advanced_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Clone_Galactic_Marine_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Clonetrooper_Phase_Two_Company </Starting_Forces>
-		<Starting_Forces> Empire, Orinda, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Orinda, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_ISP_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_UT_AA_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_TX130S_Company </Starting_Forces>
@@ -9058,7 +9058,7 @@
 		<Starting_Forces> Empire, Anaxes, Clonetrooper_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Clone_Galactic_Marine_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_Navy_Trooper_Company </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_LAAT_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_AT_AP_Walker_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_ISP_Company </Starting_Forces>
@@ -9255,7 +9255,7 @@
 		<Starting_Forces> Empire, Coruscant, Clonetrooper_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, ARC_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Senate_Commando_Company </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_LAAT_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_AT_AP_Walker_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_AT_TE_Walker_Company </Starting_Forces>
@@ -9480,7 +9480,7 @@
 		<Starting_Forces> Empire, Orinda, E_Ground_Advanced_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Clone_Galactic_Marine_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Clonetrooper_Phase_Two_Company </Starting_Forces>
-		<Starting_Forces> Empire, Orinda, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Orinda, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_ISP_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_UT_AA_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_TX130S_Company </Starting_Forces>
@@ -11017,7 +11017,7 @@
 		<Starting_Forces> Empire, Anaxes, Clonetrooper_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Clone_Galactic_Marine_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_Navy_Trooper_Company </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_LAAT_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_AT_AP_Walker_Company </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_ISP_Company </Starting_Forces>
@@ -11214,7 +11214,7 @@
 		<Starting_Forces> Empire, Coruscant, Clonetrooper_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, ARC_Phase_Two_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Senate_Commando_Company </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_LAAT_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_AT_AP_Walker_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_AT_TE_Walker_Company </Starting_Forces>
@@ -11439,7 +11439,7 @@
 		<Starting_Forces> Empire, Orinda, E_Ground_Advanced_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Clone_Galactic_Marine_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Clonetrooper_Phase_Two_Company </Starting_Forces>
-		<Starting_Forces> Empire, Orinda, Clone_Commando_Company</Starting_Forces>
+		<Starting_Forces> Empire, Orinda, Clone_Commando_Rework_Company</Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_ISP_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_UT_AA_Company </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Republic_TX130S_Company </Starting_Forces>
