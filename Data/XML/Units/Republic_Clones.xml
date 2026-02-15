@@ -4283,7 +4283,7 @@
 		</Abilities>
 	</GroundInfantry>
 
-	<GroundInfantry Name="Clone_Commando_Sergeant">
+	<GroundInfantry Name="Clone_Commando_Sergeant_Base">
 		<Variant_Of_Existing_Type>Clone_Commando</Variant_Of_Existing_Type>
 
 		<Tactical_Health> 38 </Tactical_Health>
@@ -4370,7 +4370,7 @@
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
@@ -4424,7 +4424,7 @@
 
 		<Create_Team_Type> Clone_Commando_Container </Create_Team_Type>
 		<Max_Squad_Size> 4 </Max_Squad_Size>
-		<Company_Units> Clone_Commando, Clone_Commando, Clone_Commando, Clone_Commando_Sergeant </Company_Units>
+		<Company_Units> Clone_Commando, Clone_Commando, Clone_Commando, Clone_Commando_Sergeant_Base </Company_Units>
 	</GroundCompany>
 
 	<Container Name="Clone_Commando_Container">
@@ -12245,6 +12245,37 @@
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+	</GroudnCompany>
+
+	<GroundInfantry Name="Clone_Commando_Rework_Mission_Company_Dummy">
+		<Variant_Of_Existing_Type>Clone_Commando_Rework_Company_Dummy</Variant_Of_Existing_Type>
+		<AI_Combat_Power>292</AI_Combat_Power>
+	</GroundInfantry>
+
+	<GroudnCompany Name="Clone_Commando_Rework_Mission_Company">
+		<Variant_Of_Existing_Type>Clone_Commando_Rework_Company</Variant_Of_Existing_Type>
+		<Population_Value>1</Population_Value>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_COMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
+		TEXT_TOOLTIP_DELTA_MOVE
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP1
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP2
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP3
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP4
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP5
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP6
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP7
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP8
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
 	</GroudnCompany>
 
 </Republic_Clones>

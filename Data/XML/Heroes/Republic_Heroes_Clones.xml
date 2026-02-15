@@ -9698,7 +9698,7 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clone_Commando_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clone_Commando_Rework_Company, 2</Starting_Spawned_Units_Tech_0>
 
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -9811,7 +9811,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDO </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_VOCA.TGA</Icon_Name>
 		
-		<Population_Value>1</Population_Value>
+		<Population_Value>2</Population_Value>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>99</Tech_Level>
@@ -9956,8 +9956,9 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clone_Commando_Squad, 4</Starting_Spawned_Units_Tech_0>
-
+		<Starting_Spawned_Units_Tech_0>Clone_Commando_Sniper, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clone_Commando_Heavy, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clone_Commando_Slicer, 1</Starting_Spawned_Units_Tech_0>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
