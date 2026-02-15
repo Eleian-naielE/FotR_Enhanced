@@ -11,11 +11,6 @@ Captain, a rifleman, carbine, maybe a at spec, and a ai spec
 lieutenant, carbine ion grenade, rifle grenade, ai spec
 
 
-# Clone Commando Rework
-Company : 4 Commandos ; Sargent, Slicer, Marksman, Bomb Expertise
-
-base: dc 17m rifle, grenade launcher, 
-
 # Ion Weapon Damage 
 
 # Add New CIS Heroes
