@@ -1320,12 +1320,12 @@
 		<Fire_Cone_Width>120.0</Fire_Cone_Width>
 		<Fire_Cone_Height>120.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>HeroProj_Launch_Proton_Grenade</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>2</Fire_Pulse_Delay_Seconds>
-		<Fire_Min_Range_Distance>5.0</Fire_Min_Range_Distance>
-		<Fire_Range_Distance>270.0</Fire_Range_Distance>
+		<Fire_Min_Range_Distance>10.0</Fire_Min_Range_Distance>
+		<Fire_Range_Distance>275.0</Fire_Range_Distance>
 
 		<Fire_SFXEvent>Unit_DC17M_Grenade_Launcher</Fire_SFXEvent>
 
@@ -1339,6 +1339,29 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Hero_Republic_Commando_Sidearm">
-		
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
+
+		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+		<Fire_Cone_Width>120.0</Fire_Cone_Width>
+		<Fire_Cone_Height>120.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Carbine_Blue</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>100.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_DC17_Light_Pistol_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 60.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 </HardPoints>
