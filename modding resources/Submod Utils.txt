@@ -6,6 +6,22 @@
 
 --[[FotR_Enhanced]]
 
+<Vehicle_Thief_Inside_Clone>_Captured</Vehicle_Thief_Inside_Clone>
+
+<GroundVehicle Name="_Captured">
+    <Variant_Of_Existing_Type></Variant_Of_Existing_Type>
+
+    <Affiliation>Independent_Forces</Affiliation>
+
+	<Unit_Abilities_Data SubObjectList="Yes">
+        <Unit_Ability>
+            <Type>EJECT_VEHICLE_THIEF</Type>
+            <Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+        </Unit_Ability>
+	</Unit_Abilities_Data>
+</GroundVehicle>
+
+
 
 
 Red nikto guard model(for bok & morgukai shadow army)
@@ -22,4 +38,12 @@ TEXT_TOOLTIP_ARC_INDUCTEE,
 TEXT_TOOLTIP_ARC_INDUCTEE_WEAP2,1x DC-15S Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_ARC_INDUCTEE_WEAP1,1x DC-15A Blaster Rifle: 1 / 1.0s / 240m
 TEXT_TOOLTIP_ARC_INDCUTEE_WEAP11,1x Ion Grenade: 1 / 15.0s / 200m
+
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP1,1x DC-17m Blaster Rifle: 5 / 2.0s / 240m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP2,1x DC-17m Grenade Launcher: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP3,1x DC-17m Sniper Rifle: 1 / 3.0s / 320m
+
+
 }

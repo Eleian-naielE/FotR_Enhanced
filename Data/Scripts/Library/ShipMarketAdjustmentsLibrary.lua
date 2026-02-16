@@ -5,7 +5,11 @@ return {
 			lock_lists = {
 				{"EMPIRE", "KDY_MARKET", "ACCLAMATOR_DESTROYER", false},
 				{"EMPIRE", "KDY_MARKET", "ACCLAMATOR_BATTLESHIP", false},
-			}
+				{"EMPIRE", "CLONE_MARKET", "CLONE_VEHICULAR_ASSAULT_COMPANY", false},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_SPECIAL_OPS_COMPANY", false},	
+				{"EMPIRE", "CLONE_MARKET", "CLONE_COMMANDO_REWORK_COMPANY", false},	
+			},
+			
 		},
 		["VENATOR_RESEARCH"] = {
 		--Venator Research unlocks Maelstrom, reduces chance of Procurator
@@ -33,6 +37,20 @@ return {
 				{"EMPIRE", "KDY_MARKET", "MAELSTROM_BATTLECRUISER", "[ This design has been retired ]"},
 			}
 		},
+		["PHASE_TWO_RESEARCH"] = {
+			lock_lists = {
+				{"EMPIRE", "CLONE_MARKET", "CLONE_GALACTIC_MARINE_COMPANY", false, false, nil, 3},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_SCOUT_TROOPER_COMPANY", false, false, nil, 2},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_AIRBORNE_TROOPER_COMPANY", false, false, nil, 1},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_VEHICULAR_ASSAULT_COMPANY", true},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_SPECIAL_OPS_COMPANY", true},
+			},
+			requirement_lists = {
+				{"EMPIRE", "CLONE_MARKET", "CLONE_VEHICULAR_ASSAULT_COMPANY", "[ This unit has been phased out ]"},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_SPECIAL_OPS_COMPANY", "[ This unit has been phased out ]"},
+			},
+
+		},
 	--Specific GC start overwrites
 		["MALEVOLENCE"] = {
 			adjustment_lists = {
@@ -44,6 +62,8 @@ return {
 				{"EMPIRE", "KDY_MARKET", "MAELSTROM_BATTLECRUISER", false},
 				{"EMPIRE", "KDY_MARKET", "ACCLAMATOR_DESTROYER", nil, nil, true},
 				{"EMPIRE", "KDY_MARKET", "ACCLAMATOR_BATTLESHIP", nil, nil, true},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_VEHICULAR_ASSAULT_COMPANY", false},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_SPECIAL_OPS_COMPANY", false},	
 			},
 		},
 		["RIMWARD"] = {
@@ -89,6 +109,8 @@ return {
 				{"EMPIRE", "KDY_MARKET", "MAELSTROM_BATTLECRUISER", false},
 				{"EMPIRE", "KDY_MARKET", "ACCLAMATOR_DESTROYER", nil, nil, true},
 				{"EMPIRE", "KDY_MARKET", "ACCLAMATOR_BATTLESHIP", nil, nil, true},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_VEHICULAR_ASSAULT_COMPANY", nil, nil, true},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_SPECIAL_OPS_COMPANY", nil, nil, true},
 			},
 		},
 		["DURGES_LANCE"] = {

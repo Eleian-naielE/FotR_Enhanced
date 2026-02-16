@@ -111,7 +111,84 @@ return {
 					text_requirement = "[ Requires Order 66 and KDY Contract ]",
 					order = 9,
 				},			
+			}},
+		["CLONE_MARKET"] = {
+			market_name = "Clone Specialization Program",
+			faction_object = Find_Player("Empire"),
+			news_colour = {r = 250, g = 44, b = 44},
+			list = {
+				--Always Available
+				["CLONE_COMMANDO_REWORK_COMPANY"] = {
+					locked = true,
+					gc_locked = false,
+					amount = 0,
+					chance = 130,
+					perception_modifier = nil,
+					associtaion = nil,
+					readable_name = "Clone Commando Squad",
+					text_requirement = "",
+					order = 1,
+
+				},
+				--Phase 1
+				["CLONE_SPECIAL_OPS_COMPANY"] = {
+					locked = true,
+					gc_locked = false,
+					amount = 0,
+					chance = 150,
+					perception_modifier = nil,
+					associtaion = nil,
+					readable_name = "Special Ops Clone Trooper",
+					text_requirement = "",
+					order = 2,
+				},
+				["CLONE_VEHICULAR_ASSAULT_COMPANY"] = {
+					locked = true,
+					gc_locked = false,
+					amount = 0,
+					chance = 100,
+					perception_modifier = nil,
+					associtaion = nil,
+					readable_name = "Clone Vehicular Assault Trooper Platoon",
+					text_requirement = "",
+					order = 3,
+				},
+				
+				--Phase 2
+				["CLONE_GALACTIC_MARINE_COMPANY"] = {
+					locked = true,
+					gc_locked = false,
+					amount = 0,
+					chance = 250,
+					perception_modifier = nil,
+					associtaion = nil,
+					readable_name = "Clone Marine Platoon",
+					text_requirement = "[ Requires Phase II Armour Research ]",
+					order = 4
+				},
+				["CLONE_SCOUT_TROOPER_COMPANY"] = {
+					locked = true,
+					gc_locked = false,
+					amount = 0,
+					chance = 170,
+					perception_modifier = nil,
+					associtaion = nil,
+					readable_name = "Clone Scout Trooper Platoon",
+					text_requirement = "[ Requires Phase II Armour Research ]",
+					order = 5,
+				},
+				["CLONE_AIRBORNE_TROOPER_COMPANY"] = {
+					locked = true,
+					gc_locked = false,
+					amount = 0,
+					chance = 140,
+					perception_modifier = nil,
+					associtaion = nil,
+					readable_name = "Clone Airborne Trooper Platoon",
+					text_requirement = "[ Requires Phase II Armour Research ]",
+					order = 6,
+				},
+				}
 			},
 		},
-	},
 }

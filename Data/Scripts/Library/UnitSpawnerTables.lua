@@ -901,7 +901,7 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"Clone_Galactic_Marine_Company", 1, StartYear = -20} -- FotR_Enhanced ; mathced with Phase 2 research
 				,{"ARC_Phase_One_Company", 1, StartYear = -21, LastYear = -21} -- FotR_Enhanced ; 
 				,{"ARC_Phase_Two_Company", 1, StartYear = -20}
-				,{"Clone_Commando_Company", 1}
+				,{"Clone_Commando_Rework_Company", 1}
 				,{"Clone_Special_Ops_Company", 1, LastYear = -21}
 				,{"Clone_Vehicular_Assault_Company", 0.25, LastYear = -21}				
 				,{"Clone_Flame_Trooper_Company", 0.5}

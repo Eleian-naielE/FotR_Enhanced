@@ -745,6 +745,8 @@
 				UC_Empire_Anti_Aircraft_Turret_Pongeeta,
 		</Tactical_Buildable_Objects_Multiplayer>
 
+		<Vehicle_Thief_Inside_Clone>Hutt_Pongeeta_Swamp_Speeder_Captured</Vehicle_Thief_Inside_Clone>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DEPLOY</Type>
@@ -820,6 +822,31 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
+
+	<GroundVehicle Name="Hutt_Pongeeta_Swamp_Speeder_Captured"> <!-- FotR_Enhanced ; Build Pad ability needs testing -->
+		<Variant_Of_Existing_Type>Hutt_Pongeeta_Swamp_Speeder</Variant_Of_Existing_Type>
+
+		<Tactical_Buildable_Objects_Campaign>
+			Empire, 
+				UC_Empire_Anti_Infantry_Turret_Pongeeta,
+				UC_Empire_Anti_Vehicle_Turret_Pongeeta,
+				UC_Empire_Anti_Aircraft_Turret_Pongeeta,
+		</Tactical_Buildable_Objects_Campaign>
+
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEPLOY</Type>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_DEPLOY_BUILD_PAD_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
 
 	<GroundCompany Name="Hutt_Personnel_Skiff_IV_Company">
 

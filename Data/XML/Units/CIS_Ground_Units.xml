@@ -660,6 +660,7 @@
 
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, null</SFXEvent_Hardpoint_Destroyed>
 
+		<Vehicle_Thief_Inside_Clone>Persuader_Assault_Captured</Vehicle_Thief_Inside_Clone>
 	</GroundVehicle>
 	<GroundCompany Name="Persuader_Assault_Company">
 
@@ -734,6 +735,19 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
+
+    <GroundVehicle Name="Persuader_Assault_Captured">
+        <Variant_Of_Existing_Type>Persuader_Assault</Variant_Of_Existing_Type>
+
+        <Affiliation>Independent_Forces</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>EJECT_VEHICLE_THIEF</Type>
+                <Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+            </Unit_Ability>
+		</Unit_Abilities_Data>
+    </GroundVehicle>
 
 
 	<GroundVehicle Name="HMP">
@@ -1245,6 +1259,8 @@
 		<Death_Clone>Damage_Normal, Large_Explosion_Land</Death_Clone>
 		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
 		<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
+
+		<Vehicle_Thief_Inside_Clone>PAC_Captured</Vehicle_Thief_Inside_Clone>
 	</GroundVehicle>
 	<GroundCompany Name="PAC_Company">
 		<Text_ID>TEXT_UNIT_PAC_COMPANY</Text_ID>
@@ -1316,6 +1332,19 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
+
+	<GroundVehicle Name="PAC_Captured">
+		<Variant_Of_Existing_Type>PAC</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
 
 	<!-- <GroundVehicle Name="CIS_PAC">
 	</GroundVehicle> -->
@@ -1487,6 +1516,8 @@
 		<Death_Clone>Damage_Normal, Large_Explosion_Land</Death_Clone>
 		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
 		<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
+
+		<Vehicle_Thief_Inside_Clone>HAML_Captured</Vehicle_Thief_Inside_Clone>
 	</GroundVehicle>
 	<GroundCompany Name="HAML_Company">
 		<Text_ID>TEXT_UNIT_HAML_COMPANY</Text_ID>
@@ -1556,6 +1587,19 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 	</GroundCompany>
+
+	<GroundVehicle Name="HAML_Captured">
+		<Variant_Of_Existing_Type>HAML</Variant_Of_Existing_Type>
+		
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
 
 
 	<GroundCompany Name="AAT_Company">
@@ -1646,6 +1690,7 @@
 		</HardPoints>
 
 		<Land_Model_Name>CIS_Armoured_assault_tank.alo</Land_Model_Name>
+		<Vehicle_Thief_Inside_Clone>CIS_AAT_Captured</Vehicle_Thief_Inside_Clone>
 	</GroundVehicle>
 	<GroundCompany Name="CIS_AAT_Company">
 		<Variant_Of_Existing_Type>AAT_Company</Variant_Of_Existing_Type>
@@ -1655,6 +1700,27 @@
 		<Affiliation>Rebel</Affiliation>
 		<Company_Units>CIS_AAT, CIS_AAT, CIS_AAT</Company_Units>
 	</GroundCompany>
+
+	<GroundVehicle Name="CIS_AAT_Captured">
+		<Variant_Of_Existing_Type>CIS_AAT</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+                		<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_AMMOSWAP</Alternate_Name_Text>
+                		<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_AMMOSWAP_DESCRIPTION_AAT</Alternate_Description_Text>
+ 				<Alternate_Icon_Name>i_sa_swap_weapons.tga</Alternate_Icon_Name>
+				<Recharge_Seconds> 40.0 </Recharge_Seconds>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
 
 
 	<GroundVehicle Name="J1_Cannon">
@@ -1842,6 +1908,8 @@
 		<Death_Clone>Damage_Normal, J1_Cannon_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
 		<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
+
+		<Vehicle_Thief_Inside_Clone>J1_Cannon_Captured</Vehicle_Thief_Inside_Clone>
 	</GroundVehicle>
 	<GroundCompany Name="J1_Cannon_Company">
 
@@ -1912,6 +1980,19 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
+
+	<GroundVehicle Name="J1_Cannon_Captured">
+    	<Variant_Of_Existing_Type>J1_Cannon</Variant_Of_Existing_Type>
+
+    	<Affiliation>Independent_Forces</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
 
 	<GroundVehicle Name="J1_Cannon_Artillery_Anim">
 		<Text_ID>TEXT_UNIT_J1_CANNON</Text_ID>
@@ -3973,6 +4054,8 @@
 		<Air_Vehicle_Turret_Target> No </Air_Vehicle_Turret_Target>
 		<Death_Clone>Damage_Normal, Large_Explosion_Land</Death_Clone>
 
+		<Vehicle_Thief_Inside_Clone>Super_Tank_Captured</Vehicle_Thief_Inside_Clone>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DEPLOY</Type>
@@ -4055,6 +4138,26 @@
 
 	</GroundCompany>
 
+	<GroundVehicle Name="Super_Tank_Captured">
+		<Variant_Of_Existing_Type>Super_Tank</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>DEPLOY</Type>
+				<Targeting_Max_Attack_Distance>1800</Targeting_Max_Attack_Distance>
+				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Super_Tank_Deploy</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>GUI_Super_Tank_Deploy</SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
 	<GroundVehicle Name="CIS_Super_Tank">
 		<Variant_Of_Existing_Type>Super_Tank</Variant_Of_Existing_Type>
 
@@ -4065,7 +4168,8 @@
 		<HardPoints>
 			HP_CIS_Super_Tank_AV_1, HP_CIS_Super_Tank_AV_2, HP_Super_Tank_AI_1, HP_Super_Tank_AI_2
 		</HardPoints>
-
+		
+		<Vehicle_Thief_Inside_Clone>CIS_Super_Tank_Captured</Vehicle_Thief_Inside_Clone>
 	</GroundVehicle>
 	<GroundCompany Name="CIS_Super_Tank_Company">
 		<Variant_Of_Existing_Type>Super_Tank_Company</Variant_Of_Existing_Type>
@@ -4085,6 +4189,26 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
+
+	<GroundVehicle Name="CIS_Super_Tank_Captured">
+		<Variant_Of_Existing_Type>CIS_Super_Tank</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>DEPLOY</Type>
+				<Targeting_Max_Attack_Distance>1800</Targeting_Max_Attack_Distance>
+				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Super_Tank_Deploy</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>GUI_Super_Tank_Deploy</SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
 
 	<GroundVehicle Name="CIS_A6_Juggernaut">
 		<Variant_Of_Existing_Type>A6_Juggernaut</Variant_Of_Existing_Type>
