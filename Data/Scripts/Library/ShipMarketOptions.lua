@@ -118,18 +118,18 @@ return {
 			news_colour = {r = 250, g = 44, b = 44},
 			list = {
 				--Always Available
-				--[[["CLONE_COMMANDO_COMPANY"] = {
+				["CLONE_COMMANDO_REWORK_COMPANY"] = {
 					locked = true,
 					gc_locked = false,
 					amount = 0,
-					chance = 300,
+					chance = 130,
 					perception_modifier = nil,
 					associtaion = nil,
 					readable_name = "Clone Commando Squad",
 					text_requirement = "",
 					order = 1,
 
-				},]]
+				},
 				--Phase 1
 				["CLONE_SPECIAL_OPS_COMPANY"] = {
 					locked = true,
@@ -173,7 +173,7 @@ return {
 					chance = 170,
 					perception_modifier = nil,
 					associtaion = nil,
-					readable_name = nil,
+					readable_name = "Clone Scout Trooper Platoon",
 					text_requirement = "[ Requires Phase II Armour Research ]",
 					order = 5,
 				},
