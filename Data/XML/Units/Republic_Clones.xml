@@ -11792,7 +11792,7 @@
 	</GroundInfantry>
 
 	<GroundInfantry Name="Clone_Commando_Sniper">
-		<Variant_Of_Existing_Type>Clone_Commando_Sargent</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Clone_Commando_Sergeant</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_SNIPER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -11841,6 +11841,10 @@
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="CC_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
 			<Lucky_Shot_Attack_Ability Name="CC_Sniper_Assassin">
 				<Activation_Style> User_Input </Activation_Style>
 				<!-- We only consider the following unit types "valid targets" : -->
@@ -11996,7 +12000,7 @@
 	</GroundInfantry>
 
 	<GroundInfantry Name="Clone_Commando_Slicer">
-		<Variant_Of_Existing_Type>Clone_Commando_Sargent</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Clone_Commando_Sergeant</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_SLICER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -12058,6 +12062,10 @@
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="CC_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
 			<Stun_Ability Name="CC_Slicer_Infantry_Stun">
 				<Activation_Style> User_Input </Activation_Style>
 				<!-- We need to be within this distance of the clicked target to consider activating Stun -->

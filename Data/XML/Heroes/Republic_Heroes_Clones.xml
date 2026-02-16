@@ -2326,6 +2326,7 @@
 		<Icon_Name>I_BUTTON_JET2.tga</Icon_Name>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Bacara2</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
@@ -2814,6 +2815,7 @@
 		<Icon_Name>I_BUTTON_BACARA2.tga</Icon_Name>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Jet2</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
