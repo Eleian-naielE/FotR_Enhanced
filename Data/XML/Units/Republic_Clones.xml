@@ -12129,13 +12129,12 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>BERSERKER</Type>
-				<Recharge_Seconds>45.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> CC_Sergeant_Berserk_Attack </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Effective_Radius> 300.0 </Effective_Radius>
-				<Supports_Autofire>True</Supports_Autofire>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_BERSERKER_INFANTRY_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_BERSERKER_INFANTRY_DESCRIPTION</Alternate_Description_Text>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Delta_Boss_Sprint</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 
 			<Unit_Ability>
@@ -12151,36 +12150,6 @@
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_ASSASSIN.tga</Alternate_Icon_Name>
 			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>PROXIMITY_MINES</Type>
-				<Recharge_Seconds>90.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>CC_Heavy_Proximity_Mines_AI</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability/>
-				<Area_Effect_Decal_Distance>50.0</Area_Effect_Decal_Distance>
-				<Effective_Radius> 100.0 </Effective_Radius>
-
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AP_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AP_DESCRIPTION</Alternate_Description_Text>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>STICKY_BOMB</Type>
-				<Recharge_Seconds>30.0f </Recharge_Seconds>
-				<GUI_Activated_Ability_Name> CC_Heavy_Grenade_Attack </GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability> Unit_Delta_Scorch_Thermal_Detonator </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
-
-			<Unit_Ability>
-                <Type>STUN</Type>
-                <Recharge_Seconds>90.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> CC_Slicer_Infantry_Stun </GUI_Activated_Ability_Name>
-                <Effective_Radius> 100.0 </Effective_Radius>
-                <Spawned_Object_Type> Stun_Ability_Particles </Spawned_Object_Type>
-				<SFXEvent_Target_Ability> Unit_Stun_RTT </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
-            </Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
