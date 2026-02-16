@@ -9,22 +9,37 @@ TEXT_CAMPAIGN_HEADER_MAP_TESTING_REBEL,Map Testing Campaign (CIS Control)
 TEXT_CONQUEST_GOVERNMENT_REP_HERO_SWITCH_SPEECH_FORRAL,The war seems to near its end. I shall share my skill of piloting for the new generations of ace pilots. [Bythen Forral has retired and established Vensenor Flight Academy]
 TEXT_DOCUMENTATION_BODY_INFLUENCE_FIGHTERS_UMBARA,Umbara: Zenuas 33
 TEXT_DOCUMENTATION_BODY_INFLUENCE_PLANET_UMBARA_FOTR,Umbara: Can build Umbaran Support Frigate at 7+ influence.
+TEXT_DOCUMENTATION_BODY_KNIGHT_HAMMER_REPUBLIC,Progress from Operation Knight Hammer to Operation Durge's Lance
+TEXT_DOCUMENTATION_BODY_RIMWARD_REPUBLIC,Progress from Rimward Campaign to Tennuutta Skirmishes | Research: Phase II Clone Armor
+TEXT_DOCUMENTATION_BODY_TENNUUTTA_REPUBLIC,Progress from Tennuutta Skirmishes to Operation Durge's Lance
 TEXT_DOCUMENTATION_BODY_TRAITARCHDUKE,Archduke of Geonosis: 25% discounts on production time and cost on products produced on Geonosis
 TEXT_DOCUMENTATION_BODY_TRAITPLOBRO,Plo's Bros: +20% Health (Plo Koon Only)
 TEXT_DOCUMENTATION_HEADER_FOTR_ENHANCED_FEATS,==== FotR_Enhanced features ==================
+TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_FORRAL,Bythen Forral (Cloakshape Squadron) - Unlocked by default | Default Hero: Kohl Seerdon
+TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_HAWK,Hawk (No Fighter/Republic Z-95 Headhunter Squadron & LAAT/i Gunship) - Unlocks with Venators | Default Hero: Wullf Yularen
 TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_JAG,Jag (ARC-170 Starfighter Squadron) - Unlocks with Victory Is | Default Hero: Jan Dodonna
+TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_MAGNATRI_MISSILE,HMP Gunship - Unlocks Mid-20 BBY | Droid Vehicle Factory
+TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_UTAT,UT-AT Speeder - Unlocks Mid-21 BBY | Advanced Vehicle Factory
 TEXT_EVENT_BYTHEN_FORRAL_SELECTOR_HEADER,Assign Bythen Forral
+TEXT_EVENT_HAWK_SELECTOR_HEADER,Assign Hawk
 TEXT_EVENT_JAG_SELECTOR_HEADER,Assign Jag's 127th Gunship Wing
 TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_BLOCK,- Block (Venator) [ Requires Venator Research ]
+TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_GILLEHSPY,- Gillehspy (Venator) [ Requires Venator Research and Order 66 ]
+TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW,Every cycle, new clone special platoons may be available for the Clone Specialization Program. You can see all platoons currently available and the amounts they're available in listed below.
+TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW_HEADER,Clone Specialization Program
 TEXT_GOVERNMENT_REPUBLIC_COMMANDO_PRUDII,- Prudii Skirata (ARC Trooper)
 TEXT_GOVERNMENT_REPUBLIC_COUNCIL_OPPO,- Oppo Rancis (Jedi)
 TEXT_GOVERNMENT_SENATOR_LIST,Active Senators:
 TEXT_HERO_BLOCK,Block
+TEXT_HERO_GILLEHSPY,Gillehspy
+TEXT_HERO_HAWK,Hawk
 TEXT_HERO_JAG,Jai'galaar "Jag" 
 TEXT_HERO_JAG_WINGMAN,CT-57/11-9048
 TEXT_HERO_OPPO_RANCISIS,Oppo Rancisis
 TEXT_HERO_PRUDII,Prudii Skirata
 TEXT_HERO_REFORM_127TH,Reform 127th Gunship Wing
+TEXT_HERO_REFORM_HAWK,Heal Hawk
+TEXT_HERO_REFORM_HAWK_SQUADRON,Reform Hawk's Squadron
 TEXT_HERO_REPAIR_VADER_SUIT,Repair Vader's Suit
 TEXT_HERO_ROHN,Rohn
 TEXT_HERO_TJ912,TJ-912
@@ -36,21 +51,31 @@ TEXT_RESEARCH_PHASE2_MANUAL_UPGRADE,Phase 2 Manual Upgrade
 TEXT_SPEECH_ANAKIN_DARKSIDE_ESCAPED,Darth Vader: They thought destroying my ship would stop me? Prepare the troops, Commander. I want them crushed—every last one of them
 TEXT_SPEECH_BLOCK_RETURNS_VIGILANCE,Admiral Block: Close call... The Negotiator may be gone, but every life lost will be repaid!\n[Admiral Block has returned in control of the Venator-class, Vigilance].
 TEXT_SPEECH_CONQUER_RENDILI_REP_FINISHED,
+TEXT_SPEECH_PHASE_TWO_RESEARCH_LOCKED_TWO_SUBMOD,Special Clone Units: Clone Special Ops, Clone Vehicular Assault, Clone ARF
+TEXT_SPEECH_PHASE_TWO_RESEARCH_UNLOCK_THREE_SUBMOD,Special Clone Units: Clone Marine, Clone Airborne Trooper, Clone Scout Trooper
 TEXT_SPEECH_SCREED_RETURNS_DEMOLISHER,Admiral Screed: I may have lost my ship and an eye, but it's a one step back for a two steps forward.
 TEXT_SPEECH_VADER_ESCAPED,Darth Vader: They will pay for what they have done to my ship. Prepare the troops, Commander. I want no survivors.
 TEXT_STATBLOCK_BYTHEN_FORRAL_BASE,Health: 260 | Unshielded
 TEXT_STATBLOCK_CLOAKSHAPE_CW_BYTHEN_FORRAL_BASE,Health: 90 | Unshielded
+TEXT_STATBLOCK_REPUBLIC_Z95_HAWK_BASE,Health: 250 | Shields: 80
 TEXT_STATBLOCK_UMBARAN_FIGHTER_BASE,Health: 22 | Shields: 18
 TEXT_STATBLOCK_UMBARAN_FIGHTER_MOVE,Speed: 4.5 | Maneuverability: 4.0
 TEXT_STATBLOCK_UMBARAN_FIGHTER_SQUADRON,Squadron: 12x Zenuas 33 Umbaran Starfighter
 TEXT_STATBLOCK_UMBARAN_FIGHTER_WEAP1,1x Heavy Fighter Laser Cannon: 3 / 1.0s / 1.6km
 TEXT_STATBLOCK_UMBARAN_FIGHTER_WEAP2,2x Rhazer Missiles: 4 / 8.0s / 1.2km
+TEXT_STORY_REPUBLIC_FUTURE_EFFECT,Regardless of which you choose, the following will take effect
+TEXT_STORY_REPUBLIC_FUTURE_EFFECT_01,New Heroes: Bythen Forral (Venator), Removes: Bythen Forral (Cloakshape Squadron)
 TEXT_TOOLTIP_A6_PROTOTYPE,A prototype of the A6 Juggernaut, it is rather well armed and armored than its predecessor, the A5 Juggernaut. Though stripped down version of the final product, it is still capable of handling large enemies on it own.
 TEXT_TOOLTIP_A6_PROTOTYPE_HEALTH,Health: 1300 (Heavy Vehicle)
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP1,1x Heavy AV Blaster Cannon: 3 / 2.0s / 480m
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP2,1x Heavy AI Blaster Cannon: 8 / 2.0s / 480m
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP3,2x AI Blaster Cannons (AOE): 2 / 1.0s / 320m
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP4,2x Proton Missiles: 3 / 20.0s / 480m
+TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_DESCRIPTION,Inflicts increased damage to the targted enemy.
+TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_NAME,Critical Strike
+TEXT_TOOLTIP_ABILITY_FI_SWAP_DESCRIPTION,Swtich between to DC-17m Sniper Rifle to Verpine Sniper Rifle.
+TEXT_TOOLTIP_ABILITY_HASTE_DESCRIPTION,When time's short, hasty action may come in handy. Shield and damage energies are redirected for speed and firing rate.
+TEXT_TOOLTIP_ABILITY_HASTE_NAME,Hasty Action
 TEXT_TOOLTIP_ARC170_GROUND_COMPANY,Company: 2x ARC-170
 TEXT_TOOLTIP_ARC170_GROUND_HEALTH,Health: 250 (Heavy Speeder)
 TEXT_TOOLTIP_ARC170_GROUND_MOVE,Speed: 7.0 | Turn: 4.0
@@ -67,15 +92,53 @@ TEXT_TOOLTIP_BUILDLIMIT_LINK_P2,Linked Limit: Shared lifetime amount with Phase 
 TEXT_TOOLTIP_BUILDLIMIT_VENATOR_SPHA_T,Build Limit: 3 | Lifetime: 1
 TEXT_TOOLTIP_CAPITAL_CIS_13,Magnaguard: 2 / 0
 TEXT_TOOLTIP_CAPITAL_GAR_16,Red Guard: 2 / 0
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH,Health: 90 [1%/5s] (Hero)
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD,Company: 8x Clone Commando
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP1,4x DC-17 Pistol: 1 / 1.0s / 75m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP2,4x DC-17m Blaster Rifle: 5 / 2.0s / 240m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP3,2x DC-17m Sniper Rifle: 1 / 3.0s / 320m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP4,2x DC-17m Grenade Launcher: 1 / 5.0s / 220m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP5,4x DC-17m Grenade Launcher: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP6,2x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP7,2x Sonic Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP8,2x Ion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD,Shields: 30 / [4/R] (Infantry)
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD,Squad: 4x Clone Commando
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP1,2x DC-17 Pistol: 1 / 1.0s / 75m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP2,2x DC-17m Blaster Rifle: 5 / 2.0s / 240m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP3,1x DC-17m Sniper Rifle: 1 / 3.0s / 320m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP4,1x DC-17m Grenade Launcher: 1 / 5.0s / 220m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP5,2x DC-17m Grenade Launcher: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP7,1x Sonic Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP8,1x Ion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP1,1x DC-17 Pistol: 1 / 1.0s / 75m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP2,1x DC-17m Blaster Rifle: 5 / 2.0s / 240m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP3,1x DC-17m Sniper Rifle: 1 / 3.0s / 320m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP4,1x DC-17m Grenade Launcher: 1 / 5.0s / 220m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP5,1x DC-17m Grenade Launcher: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP7,1x Sonic Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP8,1x Ion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_COMMAND_127TH_ARC170,127th Gunship Wing (ARC-170s in space and ground)
 TEXT_TOOLTIP_COMMAND_EXACTOR,Imperator Star Destroyer, Exactor
+TEXT_TOOLTIP_COMMAND_HOUND,Venator Star Destroyer, Hound
 TEXT_TOOLTIP_COMMAND_NEGOTIATOR,Venator Star Destroyer, Negotiator
+TEXT_TOOLTIP_COMMAND_VALKYRIE2929,LAAT/i Gunship, Valkyrie 2929
 TEXT_TOOLTIP_COMMAND_VILGILANCE,Venator Star Destroyer, Vigilance
 TEXT_TOOLTIP_DARK_ACOLYTE,Dark Acolytes are Dark Jedis who joined the Confederacy of Independent Systems and directly serve its Head of State, Count Dooku. They served various roles from assassins to spies to civilian commanders. Although trained by Dooku, they are not considered to be Sith due to the Rule of Two.
+TEXT_TOOLTIP_ESCORT_P1_PLATOON,1x Clone Trooper Platoon (P1)
 TEXT_TOOLTIP_ESCORT_P1_WOLFFE_SPECIAL,2x - Wolfpack Squad (P1)
+TEXT_TOOLTIP_ESCORT_P2_PLATOON,1x Clone Trooper Platoon (P2)
 TEXT_TOOLTIP_ESCORT_P2_WOLFFE_SPECIAL,2x - Wolfpack Squad (P2)
 TEXT_TOOLTIP_ESCORT_PALPATINE_1,2x - Red Guards
 TEXT_TOOLTIP_ESCORT_PALPATINE_2,1x - Shock Trooper Squad
+TEXT_TOOLTIP_ESCORT_REX_P1_1_SUBMOD,1x Clone Trooper Carbineer Squad (P1)
+TEXT_TOOLTIP_ESCORT_REX_P1_2_SUBMOD,1x Clone Trooper Rifleman Squad (P1)
+TEXT_TOOLTIP_ESCORT_REX_P2_1_SUBMOD,1x Clone Trooper Carbineer Squad (P2)
+TEXT_TOOLTIP_ESCORT_REX_P2_2_SUBMOD,1x Clone Trooper Rifleman Squad (P2)
+TEXT_TOOLTIP_GILLEHSPY,Holding the rank of captain, Gillehspy was the commanding officer of the Venator star destroyer Hound, operating under Darth Vader during the mission at Kestavel.
+TEXT_TOOLTIP_HAWK,A call sign named after his hawk-like eyes, Lieutenant Hawk saw actions with 501st, often transporting and escorting General Anakin Skywalker, Commander Ahsoka Tano and Captain Rex to various worlds and battles.
 TEXT_TOOLTIP_JAG, CT-55/11-9009, known as Jai'galaar or Jag, was a clone pilot captin in the Clone Army. Originally a Clone Commander, he was demoted to captain after the Retreat at Katraasii. Later, Jedi General Plo Koon drafted the captin as the test pilot for the new ARC-170 starfighters and flew with him on many battles including the battle over Cato Neimoidia.
 TEXT_TOOLTIP_JAG_WINGMAN,CT-57/11-9048 was a clone pilot of the 127th Gunship Wing and wingman to Captain Jai’galaar. Flying an ARC-170 over Cato Neimoidia, he executed Order 66 without hesitation, shooting down Jedi General Plo Koon during a routine patrol.
 TEXT_TOOLTIP_MAGNATRI,Another Techno Union contribution, the Magna is a large variant of the Octuptarra walker, or Tri-Droid. This colossal walker is heavily armed and armored, although not the most nimble due to its leg configuration.
@@ -86,6 +149,9 @@ TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP1,1x Super Heavy Concussion Missile: 1 / 6.0s 
 TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP2,1x Light AI Blaster Cannon: 2 / 1.0s / 380m
 TEXT_TOOLTIP_MAGNATRI_WEAP1,1x Super Heavy AV Blaster Cannon: 3 / 2.0s / 400m
 TEXT_TOOLTIP_MAGNATRI_WEAP2,1x Heavy Proton Missiles: 2 / 8.33s / 480m
+TEXT_TOOLTIP_OMEGA_WEAP6,1x DC-17m Grenade Launcher: 1 / 15.0s / 200m
+TEXT_TOOLTIP_OMEGA_WEAP7,1x Fragmentation Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_OMEGA_WEAP8,1x DC-17 Pistol: 1 / 1.0s / 75m
 TEXT_TOOLTIP_OPPO_HEALTH,Health: 230 [4%/5s] (Hero)
 TEXT_TOOLTIP_OPPO_MOVE,Speed: 1.1
 TEXT_TOOLTIP_OPPO_RANCISIS,A Thisspiasian Jedi Master trained by Master Yaddle, he became a key member of the Jedi High Council and a leader in military strategy during the Clone Wars. Rancisis played a critical role in coordinating Republic forces from Coruscant, advising on campaigns like the defense of Kamino and the Battle of Zaadja. Late in the war, he led the five-month siege of Saleucami to stop Sora Bulq’s Shadow Army but was ultimately killed by Bulq during a surprise attack.
@@ -108,6 +174,8 @@ TEXT_TOOLTIP_TJ912,TJ-912 is a tactical droid that served under one of Count Doo
 TEXT_TOOLTIP_TM171,TM-171 was a CIS T-series tactical droid who was in charge of resupplying Umbaran Militia during the Republic campaign against the planet Umbara. During the resupply operation, three clone troopers infiltrated his ship and destroyed it despite droid's presence, preventing munitions delivery from the Confederacy.
 TEXT_TOOLTIP_TRAIT_ARCHDUKE,Archduke of Geonosis
 TEXT_TOOLTIP_TRAIT_BLOCKADE_ENFORCER,Blockade Enforcer
+TEXT_TOOLTIP_TRAIT_COMMAND_ARROGANT,Arrogant
+TEXT_TOOLTIP_TRAIT_COMMAND_RECKLESS,Reckless
 TEXT_TOOLTIP_TRAIT_PLO_BRO,Plo's Bros
 TEXT_TOOLTIP_UMBARAN_FIGHTER,An advanced Umbaran assault craft that blurs the line between fighter and patrol craft. Staggeringly maneuverable for its size and optimized for droid or highly-adaptable pilots, it served as a mainstay of Umbaran forces during the Battle of Umbara. Armed with a chin-mounted plasma cannon and dual wing-mounted missile pods, it excels at tearing through enemy fighters and bombers.
 TEXT_TOOLTIP_UMBARAN_FRIGATE,A fleet tender designed by the government of Umbara, this frigate is able to supply and reinforce CIS cruisers in battle and provide reapirs to fighter groups.
@@ -168,6 +236,11 @@ TEXT_UNIT_ARC_TROOPER_P2_ALPHA_SQUAD,Alpha-Class ARC Trooper Squad (Phase II)
 TEXT_UNIT_ARC_TROOPER_P2_HEAVY_ALPHA_SQUAD,Alpha-Class ARC Trooper Heavy Squad (Phase II)
 TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA,ARC Commander (Phase II)
 TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA_SQUAD,Alpha-Class ARC Trooper Officer Squad (Phase II)
+TEXT_UNIT_CLONE_COMMANDO_HEAVY,Clone Commando Demo Expert
+TEXT_UNIT_CLONE_COMMANDO_REWORK_SQUAD,Clone Commando Squad
+TEXT_UNIT_CLONE_COMMANDO_SARGEANT,Clone Commando Sergeant
+TEXT_UNIT_CLONE_COMMANDO_SLICER,Clone Commando Slicer
+TEXT_UNIT_CLONE_COMMANDO_SNIPER,Clone Commando Marksman
 TEXT_UNIT_COMBATTRI,Combat Octuptarra Droid
 TEXT_UNIT_COMBATTRI_COMPANY,Combat Octuptarra Droid Company
 TEXT_UNIT_DARK_ACOLYTE,Dark Acolyte 
@@ -201,65 +274,3 @@ TEXT_UNIT_WOLFPACK_P2_GUNNER_LIGHT,Wolfpack Light Gunner (Phase II)
 TEXT_UNIT_WOLFPACK_P2_RIFLEMAN,Wolfpack Rifleman (Phase II)
 TEXT_UNIT_WOLFPACK_P2_RIFLEMAN_GRENADIER,Wolfpack Rifleman Grenadier(Phase II)
 TEXT_UNIT_WOLFPACK_P2_SQUAD,Wolfpack Squad (Phase II)
-
-TEXT_TOOLTIP_TRAIT_COMMAND_ARROGANT,Arrogant
-TEXT_TOOLTIP_TRAIT_COMMAND_RECKLESS,Reckless
-TEXT_HERO_REFORM_HAWK,Heal Hawk
-TEXT_HERO_HAWK,Hawk
-TEXT_TOOLTIP_HAWK,A call sign named after his hawk-like eyes, Lieutenant Hawk saw actions with 501st, often transporting and escorting General Anakin Skywalker, Commander Ahsoka Tano and Captain Rex to various worlds and battles.
-TEXT_TOOLTIP_COMMAND_VALKYRIE2929,LAAT/i Gunship, Valkyrie 2929
-TEXT_HERO_REFORM_HAWK_SQUADRON,Reform Hawk's Squadron
-TEXT_STATBLOCK_REPUBLIC_Z95_HAWK_BASE,Health: 250 | Shields: 80
-TEXT_TOOLTIP_ESCORT_REX_P2_1_SUBMOD,1x Clone Trooper Carbineer Squad (P2)
-TEXT_TOOLTIP_ESCORT_REX_P2_2_SUBMOD,1x Clone Trooper Rifleman Squad (P2)
-TEXT_TOOLTIP_ESCORT_P1_PLATOON,1x Clone Trooper Platoon (P1)
-TEXT_TOOLTIP_ESCORT_P2_PLATOON,1x Clone Trooper Platoon (P2)
-TEXT_TOOLTIP_ESCORT_REX_P1_1_SUBMOD,1x Clone Trooper Carbineer Squad (P1)
-TEXT_TOOLTIP_ESCORT_REX_P1_2_SUBMOD,1x Clone Trooper Rifleman Squad (P1)
-TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW_HEADER,Clone Specialization Program
-TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW,Every cycle, new clone special platoons may be available for the Clone Specialization Program. You can see all platoons currently available and the amounts they're available in listed below.
-TEXT_EVENT_HAWK_SELECTOR_HEADER,Assign Hawk
-
-TEXT_TOOLTIP_OMEGA_WEAP6,1x DC-17m Grenade Launcher: 1 / 15.0s / 200m
-TEXT_TOOLTIP_OMEGA_WEAP7,1x Fragmentation Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_OMEGA_WEAP8,1x DC-17 Pistol: 1 / 1.0s / 75m
-TEXT_TOOLTIP_ABILITY_FI_SWAP_DESCRIPTION,Swtich between to DC-17m Sniper Rifle to Verpine Sniper Rifle.
-
-
-TEXT_UNIT_CLONE_COMMANDO_SARGEANT,Clone Commando Sergeant
-TEXT_UNIT_CLONE_COMMANDO_SNIPER,Clone Commando Marksman
-TEXT_UNIT_CLONE_COMMANDO_HEAVY,Clone Commando Demo Expert
-TEXT_UNIT_CLONE_COMMANDO_SLICER,Clone Commando Slicer
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP1,1x DC-17 Pistol: 1 / 1.0s / 75m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP2,1x DC-17m Blaster Rifle: 5 / 2.0s / 240m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP3,1x DC-17m Sniper Rifle: 1 / 3.0s / 320m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP4,1x DC-17m Grenade Launcher: 1 / 5.0s / 220m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP5,1x DC-17m Grenade Launcher: 1 / 15.0s / 200m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP7,1x Sonic Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP8,1x Ion Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH,Health: 90 [1%/5s] (Hero)
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD,Shields: 30 / [4/R] (Infantry)
-TEXT_UNIT_CLONE_COMMANDO_REWORK_SQUAD,Clone Commando Squad
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD,Squad: 4x Clone Commando
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP1,2x DC-17 Pistol: 1 / 1.0s / 75m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP2,2x DC-17m Blaster Rifle: 5 / 2.0s / 240m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP3,1x DC-17m Sniper Rifle: 1 / 3.0s / 320m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP4,1x DC-17m Grenade Launcher: 1 / 5.0s / 220m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP5,2x DC-17m Grenade Launcher: 1 / 15.0s / 200m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP7,1x Sonic Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP8,1x Ion Grenade: 1 / 15.0s / 200m
-
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD,Company: 8x Clone Commando
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP1,4x DC-17 Pistol: 1 / 1.0s / 75m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP2,4x DC-17m Blaster Rifle: 5 / 2.0s / 240m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP3,2x DC-17m Sniper Rifle: 1 / 3.0s / 320m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP4,2x DC-17m Grenade Launcher: 1 / 5.0s / 220m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP5,4x DC-17m Grenade Launcher: 1 / 15.0s / 200m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP6,2x Thermal Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP7,2x Sonic Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP8,2x Ion Grenade: 1 / 15.0s / 200m
-
-TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_NAME,Critical Strike
-TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_DESCRIPTION,Inflicts increased damage to the targted enemy.

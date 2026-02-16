@@ -1272,6 +1272,7 @@ TEXT_DOCUMENTATION_BODY_IONCANNON_9,| 67.5   | - Medium Triple Ion Cannon
 TEXT_DOCUMENTATION_BODY_IONCANNON_ARMOR,| 0.10x | 0.10x | 0.00x | 0.00x | 0.00x | 0.00x | 0.00x | 0.00x | - Against Armor Types
 TEXT_DOCUMENTATION_BODY_IONCANNON_HEADER,Ion Cannons:
 TEXT_DOCUMENTATION_BODY_IONCANNON_SHIELD,| 1.00x | 1.00x | 1.00x | 1.00x | 1.00x | 1.00x | 1.00x | 1.00x | - Against Shield Types
+TEXT_DOCUMENTATION_BODY_KNIGHT_HAMMER_REPUBLIC,Progress from Operation Knight Hammer to Operation Durge's Lance
 TEXT_DOCUMENTATION_BODY_LABOUR_CAMP,Labour Camp: -2
 TEXT_DOCUMENTATION_BODY_LASERCANNON_1,| 0.5   | - Fighter Laser / Maser Cannon 
 TEXT_DOCUMENTATION_BODY_LASERCANNON_10,| 3      | - Medium Dual Rapid Laser / Maser Cannon 
@@ -1366,7 +1367,7 @@ TEXT_DOCUMENTATION_BODY_REVOLT_INFLUENCE_4_5,Influence 4-5: No changes
 TEXT_DOCUMENTATION_BODY_REVOLT_INFLUENCE_6_10,Influence 6+: Removes 1 Unrest Stack per Cycle
 TEXT_DOCUMENTATION_BODY_REVOLTS,Having Low Influence level (1-3) on planet can cause Unrest. High Influence (6+) removes Unrest. After getting 3rd Unrest Stack planet will Revolt one Cycle later. All forces currently located on that planet will retreat to another planet. Control of that planet will flip to their preferred faction.
 TEXT_DOCUMENTATION_BODY_RIMWARD_CIS,Progress from Rimward Campaign to Operation Durge's Lance | Hero: Grievous (Subjugator Heavy Cruiser, Malevolence)
-TEXT_DOCUMENTATION_BODY_RIMWARD_REPUBLIC,Progress from Rimward Campaign to Operation Durge's Lance | Hero: Orn Free Taa (Economic), Research: Phase II Clone Armor
+TEXT_DOCUMENTATION_BODY_RIMWARD_REPUBLIC,Progress from Rimward Campaign to Tennuutta Skirmishes | Research: Phase II Clone Armor
 TEXT_DOCUMENTATION_BODY_SEPARATOR,--------------------------------------------------------
 TEXT_DOCUMENTATION_BODY_SHIELD_HEADER,| Shield Types |
 TEXT_DOCUMENTATION_BODY_SHIELD_TYPES,| Infantry | Light Vehicle | Heavy Vehicle | Speeder |
@@ -1395,6 +1396,7 @@ TEXT_DOCUMENTATION_BODY_STORYOVERVIEW_ERA_4,Era 4: 20 BBY - 19 BBY | 24 Cycles
 TEXT_DOCUMENTATION_BODY_STORYOVERVIEW_ERA_5,Era 5: 19+ BBY | ∞ Cycles
 TEXT_DOCUMENTATION_BODY_STORYOVERVIEW_ERA_PROGRESSION,=== Era Progression ===================================
 TEXT_DOCUMENTATION_BODY_TAXAGENCY,Tax Agency: -2
+TEXT_DOCUMENTATION_BODY_TENNUUTTA_REPUBLIC,Progress from Tennuutta Skirmishes to Operation Durge's Lance
 TEXT_DOCUMENTATION_BODY_THERMAL_1,| 4   | - Light Thermal Grenade
 TEXT_DOCUMENTATION_BODY_THERMAL_2,| 10 | - Rail Detonator
 TEXT_DOCUMENTATION_BODY_THERMAL_3,| 45 | - Light Artillery Cannon
@@ -1551,7 +1553,9 @@ TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_DALLOWS,Rhys Dallows (N1 Starfighter Squad
 TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_DECLANN,Nial Declann (T.I.E. Starfighter Squadron) - Unlocks 21 BBY | Default Hero: Arikakon Baraka
 TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_DFS1VR,DFS-1VR (Vulture Droid-I Squadron) - Unlocked by default | Default Hero: TF-1726
 TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_DREIS,Garven Dreis (Z-95 Headhunter Squadron) - Unlocked by default | Default Hero: Octavian Grant
+TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_FORRAL,Bythen Forral (Cloakshape Squadron) - Unlocked by default | Default Hero: Kohl Seerdon
 TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_GHENT,Nas Ghent (Z-95 Headhunter Squadron) - Unlocked by default | Default Hero: Grievous
+TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_HAWK,Hawk (No Fighter/Republic Z-95 Headhunter Squadron & LAAT/i Gunship) - Unlocks with Venators | Default Hero: Wullf Yularen
 TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_HUBLIN,Shea Hublin (V-wing Bomber Squadron) - Unlocks Mid-19 BBY
 TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_JAG,Jag (ARC-170 Starfighter Squadron) - Unlocks with Victory Is | Default Hero: Jan Dodonna
 TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_NARRA,Arhul Narra (ARC-170 Starfighter Squadron) - Unlocks with Venators | Default Hero: Jan Dodonna
@@ -1583,11 +1587,13 @@ TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_HMP,HMP Gunship - Unlocks Mid-20 BBY 
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_INVINCIBLE,Invincible Dreadnaught - Locks Mid-21 BBY | Dreadnought Shipyard
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_ISP,Infantry Support Platform - Unlocks Mid-21 BBY | Light Vehicle Factory
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_LUCREHULK_BC,Lucrehulk Battleship - Unlocks Mid-21 BBY | Dreadnought Shipyard
+TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_MAGNATRI_MISSILE,HMP Gunship - Unlocks Mid-20 BBY | Droid Vehicle Factory
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_PURSUER,Pursuer Enforcement Ship - Unlocks Mid-21 BBY | Light Frigate Shipyard
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_SABAOTH_DESTROYER,Sabaoth Destroyer - Sabaoth Squadron HQ
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_SABAOTH_FRIGATE,Sabaoth Frigate - Sabaoth Squadron HQ
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_SABAOTH_HEX_DEPLOYER,Sabaoth Hex Deployer - Sabaoth Squadron HQ
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_TX130T,TX-130T Fighter Tank (Locks TX-130S) - Unlocks 19 BBY | Heavy Vehicle Factory
+TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_UTAT,UT-AT Speeder - Unlocks Mid-21 BBY | Advanced Vehicle Factory
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_GOZANTI_RAIDER,Gozanti Cruiser Raider - Pirate Refuge Base
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_IPV1_GUNBOAT,IPV-1 Gunboat - Pirate Refuge Base
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_RANDOM_PIRATE_HERO_CORVETTE,2x Random Pirate Hero Corvettes - Pirate Refuge Base
@@ -2504,6 +2510,7 @@ TEXT_EVENT_FIGHER_SELECTOR_CANCEL,Clear current assignment
 TEXT_EVENT_FIGHER_SELECTOR_MAIN_BODY,Assign Squadron
 TEXT_EVENT_GARVEN_DREIS_SELECTOR_HEADER,Garven Dreis' Rarefied Air Cavalry
 TEXT_EVENT_GORGOL_SELECTOR_HEADER,Gorgol's Confessor Group
+TEXT_EVENT_HAWK_SELECTOR_HEADER,Assign Hawk
 TEXT_EVENT_HISTORICAL_STORY_CHOICE_AU_BODY,Start the GC with the progression rewards enabled
 TEXT_EVENT_HISTORICAL_STORY_CHOICE_AU_HEADER,AU Start
 TEXT_EVENT_HISTORICAL_STORY_CHOICE_HEADER,Galactic Conquest Starting Options
@@ -2774,6 +2781,7 @@ TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_DENIMOOR,- Denimoor (Venator) [ Requires Venato
 TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_DODONNA,- Jan Dodonna (Victor-class VSD-I) [ Requires Victory-I Research ]
 TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_DRON,- Dron (Venator) [ Requires Venator Research ]
 TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_FORRAL,- Bythen Forral (Venator) [ Requires Venator Research ]
+TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_GILLEHSPY,- Gillehspy (Venator) [ Requires Venator Research and Order 66 ]
 TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_GRUMBY,- Jona Grumby (Invincible)
 TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_KILIAN,- Shoan Kilian (Venator) [ Requires Venator Research | Automatically locks in 20 BBY | Locked in 20 BBY+ starts ]
 TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_LIST,Fleet Officer options:
@@ -2845,6 +2853,8 @@ TEXT_GOVERNMENT_REPUBLIC_CLONE_GREE,- Gree (Clone Commander)
 TEXT_GOVERNMENT_REPUBLIC_CLONE_JET,- Jet (Clone Commander) [ Unlocked if Bacara dies ]
 TEXT_GOVERNMENT_REPUBLIC_CLONE_KELLER,- Keller (Clone Commander) [ Requires Phase 2 Research ]
 TEXT_GOVERNMENT_REPUBLIC_CLONE_LIST,Clone Officer options:
+TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW,Every cycle, new clone special platoons may be available for the Clone Specialization Program. You can see all platoons currently available and the amounts they're available in listed below.
+TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW_HEADER,Clone Specialization Program
 TEXT_GOVERNMENT_REPUBLIC_CLONE_NEYO,- Neyo (ARC Trooper / BARC)
 TEXT_GOVERNMENT_REPUBLIC_CLONE_REX,- Rex (Clone Commander)
 TEXT_GOVERNMENT_REPUBLIC_CLONE_VILL,- Vill (Clone Commander) [ Unlocked if Rex dies | Requires Phase 2 Research ]
@@ -3320,6 +3330,7 @@ TEXT_HERO_GEVTES,Pagda Gevtes
 TEXT_HERO_GHA_NACHKT,Gha Nachkt
 TEXT_HERO_GIDDEAN_DANU,Giddean Danu
 TEXT_HERO_GIDEON_TARKIN,Gideon Tarkin
+TEXT_HERO_GILLEHSPY,Gillehspy
 TEXT_HERO_GORGOL,Gorgol
 TEXT_HERO_GRANT,Octavian Grant
 TEXT_HERO_GREE,Gree
@@ -3331,6 +3342,7 @@ TEXT_HERO_GRUNGER,Josef Grunger
 TEXT_HERO_GUNRAY,Nute Gunray
 TEXT_HERO_HARSOL,Rel Harsol
 TEXT_HERO_HAUSER,Lynch Hauser
+TEXT_HERO_HAWK,Hawk
 TEXT_HERO_HEVY,Hevy
 TEXT_HERO_HOLCHAS,Holchas Ap-langhe
 TEXT_HERO_HONDO_OHNAKA,Hondo Ohnaka
@@ -3456,6 +3468,8 @@ TEXT_HERO_REBUILD_GRIEVOUS_BODY,Rebuild General Grievous Body
 TEXT_HERO_REFORM_127TH,Reform 127th Gunship Wing
 TEXT_HERO_REFORM_31ST_FLIGHT,Replace 31st Flight's Vulture Droids
 TEXT_HERO_REFORM_88TH_FLIGHT,Replace 88th Flight's Vulture Droids
+TEXT_HERO_REFORM_HAWK,Heal Hawk
+TEXT_HERO_REFORM_HAWK_SQUADRON,Reform Hawk's Squadron
 TEXT_HERO_REFORM_HUNTER_SQUAEDRON,Reform Hunter Squadron
 TEXT_HERO_REFORM_SQUAD_SEVEN,Reform Squad Seven
 TEXT_HERO_RENAU,Renau
@@ -9145,7 +9159,9 @@ TEXT_SPEECH_GRIEVOUS_RETURNS_TACTICAL,General Grievous: All ships, cover my retr
 TEXT_SPEECH_PHASE_TWO_RESEARCH,Kaminoan Engineer: Greetings, commander. Our testing has revealed areas in which our clones' standard equipment could be improved for greater combat effectiveness. If you can provide us the necessary funding on Kamino, we can begin the upgrade process immediately for all future batches, along with new gear for our specialized products already in the field.
 TEXT_SPEECH_PHASE_TWO_RESEARCH_FINISHED,Kaminoan Engineer: Our improvements to standard Clone armor have been completed, they are ready for production.\n[Phase II clone types available]
 TEXT_SPEECH_PHASE_TWO_RESEARCH_LOCKED,Locks: Clone Trooper Phase I, Arc Trooper Phase I, 74-Z Speeder Scout
+TEXT_SPEECH_PHASE_TWO_RESEARCH_LOCKED_TWO_SUBMOD,Special Clone Units: Clone Special Ops, Clone Vehicular Assault, Clone ARF
 TEXT_SPEECH_PHASE_TWO_RESEARCH_UNLOCK_ONE,Unlocks: Clone Trooper Phase II, Arc Trooper Phase II, BARC Speeder Scout
+TEXT_SPEECH_PHASE_TWO_RESEARCH_UNLOCK_THREE_SUBMOD,Special Clone Units: Clone Marine, Clone Airborne Trooper, Clone Scout Trooper
 TEXT_SPEECH_PHASE_TWO_RESEARCH_UNLOCK_TWO,Command Staff: An additional slot for Clone Officers
 TEXT_SPEECH_PROVIDENCE_LOCK,Locks: Providence Destroyer
 TEXT_SPEECH_PROVIDENCE_RESEARCH,Shu Mai: General Grievous has suggested that Free Dac shift production of the Providence Destroyer to a Carrier-Destroyer hybrid. While his sales pitch was... lacking, I see the military value in such an idea. If the Confederacy were to provide the startup capital, I'm certain Free Dac could be persuaded of the merits of his proposal.
@@ -9485,6 +9501,7 @@ TEXT_STATBLOCK_RAINA_QUILL_BASE,Health: 300 [2%/5s] | Shields: 150
 TEXT_STATBLOCK_REPUBLIC_TIE_NIAL_DECLANN_ESCORT_BASE,Health: 60 | Unshielded
 TEXT_STATBLOCK_REPUBLIC_Z95_BASE,Health: 15 | Shields: 4
 TEXT_STATBLOCK_REPUBLIC_Z95_ESCORT_BASE,Health: 130 | Shields: 50
+TEXT_STATBLOCK_REPUBLIC_Z95_HAWK_BASE,Health: 250 | Shields: 80
 TEXT_STATBLOCK_REPUBLIC_Z95_MOVE,Speed: 4.61 | Maneuverability: 4.03
 TEXT_STATBLOCK_REPUBLIC_Z95_SQUADRON,Squadron: 12x Republic Z-95 Headhunter
 TEXT_STATBLOCK_REPUBLIC_Z95_SQUADRON_DOUBLE,Squadron: 24x Republic Z-95 Headhunter
@@ -10542,6 +10559,8 @@ TEXT_STORY_REPUBLIC_FUTURE_CHOOSE_HEADER,Story - The Future of the Republic
 TEXT_STORY_REPUBLIC_FUTURE_CHOOSE_INTRO,Senator Mon Mothma and Chancellor Palpatine have both approached you, asking for your support. When you close this dialog box, you will have to choose between them. Each option opens up different storylines with benefits and drawbacks.
 TEXT_STORY_REPUBLIC_FUTURE_CHOOSE_ORDER_65,SUPPORT THE DELEGATION OF 2,000: The Senators oust Palpatine from office and preserve the Republic. New heroes: Bail Organa, Mon Mothma, & Garm Bel Iblis (economic); Raymus Antilles (CR90). Removes: Sate Pestage and Wullf Yularen. Unlocks buildable Neutron Star Bulk Cruisers and upgrade for Adar Tallon (Praetor-I).
 TEXT_STORY_REPUBLIC_FUTURE_CHOOSE_ORDER_66,SUPPORT CHANCELLOR PALPATINE: Palpatine issues Order 66 and crowns himself Emperor. Removes: all Jedi, Jace Dallin, Sagoro Autem, Ordo Skirata, and A'den Skirata. New heroes: Emperor Palpatine & Darth Vader (Sith). Unlocks upgrade for Wullf Yularen (Invincible). After a short delay, unlocks a new KDY contract. The contract adds Imperator, Tector, and Secutor Star Destroyers to the ship market, gives new hero Mulleen (Imperator), unlocks Gamma ATR-6 Assault Transport and upgrade for Wilhuff Tarkin (Imperator).
+TEXT_STORY_REPUBLIC_FUTURE_EFFECT,Regardless of which you choose, the following will take effect
+TEXT_STORY_REPUBLIC_FUTURE_EFFECT_01,New Heroes: Bythen Forral (Venator), Removes: Bythen Forral (Cloakshape Squadron)
 TEXT_STORY_RIMWARD_CAMPAIGN_CIS_ACT_I_HINT,Certain heroes are required to advance the story!  [General Grievous]
 TEXT_STORY_RIMWARD_CAMPAIGN_CIS_ACT_I_OBJECTIVE,Conquer the following planets:
 TEXT_STORY_RIMWARD_CAMPAIGN_CIS_ACT_I_TITLE,Story - A Galaxy Divided
@@ -11186,7 +11205,7 @@ TEXT_TOOLTIP_ABILITY_CONCENTRATE_FIRE_DESCRIPTION,All weapons charge and fire on
 TEXT_TOOLTIP_ABILITY_CONCENTRATE_FIRE_NAME,Concentrate Fire
 TEXT_TOOLTIP_ABILITY_CORRUPT_SYSTEMS_DESCRIPTION,This ability causes targeted enemy ships to malfunction and fire inaccurately, drain shield power, and deactivate abilities.
 TEXT_TOOLTIP_ABILITY_CORRUPT_SYSTEMS_NAME,Corrupt Systems
-TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_DESCRIPTION,Fighters unleash a shield-piercing volley of projectiles at the target.
+TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_DESCRIPTION,Inflicts increased damage to the targted enemy.
 TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_NAME,Critical Strike
 TEXT_TOOLTIP_ABILITY_DEFEND_DESCRIPTION,Boost shield regeneration for a short duration.  While shields are boosted, ships move and fire at a slower rate.
 TEXT_TOOLTIP_ABILITY_DEFEND_NAME,Boost Shield Power
@@ -11229,6 +11248,7 @@ TEXT_TOOLTIP_ABILITY_EVASIVE_DESCRIPTION,Boosts shield regeneration rate and eng
 TEXT_TOOLTIP_ABILITY_EVASIVE_NAME,Evasive Maneuvers
 TEXT_TOOLTIP_ABILITY_FANATICISM_DESCRIPTION,Fanatical devotion grants unit increased attack and movement speed while increasing damage resistance; user takes damage on activation.
 TEXT_TOOLTIP_ABILITY_FANATICISM_NAME,Fanaticism
+TEXT_TOOLTIP_ABILITY_FI_SWAP_DESCRIPTION,Swtich between to DC-17m Sniper Rifle to Verpine Sniper Rifle.
 TEXT_TOOLTIP_ABILITY_FIGHTER_SHIELD_DESCRIPTION,Shields friendly fighters, boosting their defensive capabilities at the expense of the command ship's own fighting capabilities.
 TEXT_TOOLTIP_ABILITY_FIGHTER_SHIELD_NAME,Fighter Shield
 TEXT_TOOLTIP_ABILITY_FIGHTER_SUPERIORITY_DESCRIPTION,Superior piloting skills give a boost to fire rate and accuracy against enemy starfighters.
@@ -11286,6 +11306,8 @@ TEXT_TOOLTIP_ABILITY_HARASS_DESCRIPTION,Harass Enemy
 TEXT_TOOLTIP_ABILITY_HARASS_NAME,Harass Enemy
 TEXT_TOOLTIP_ABILITY_HARMONIC_BOMB_DESCRIPTION,A bomb drop that causes seismic damage to nearby units.
 TEXT_TOOLTIP_ABILITY_HARMONIC_BOMB_NAME,Seismic Charge
+TEXT_TOOLTIP_ABILITY_HASTE_DESCRIPTION,When time's short, hasty action may come in handy. Shield and damage energies are redirected for speed and firing rate.
+TEXT_TOOLTIP_ABILITY_HASTE_NAME,Hasty Action
 TEXT_TOOLTIP_ABILITY_HOLD_POSITION,Hold Position
 TEXT_TOOLTIP_ABILITY_HOLD_POSITION_DESCRIPTION,Prevents any movement for 60 seconds.
 TEXT_TOOLTIP_ABILITY_HOME_ONE_DESCRIPTION,Target an enemy ship for destruction.  All nearby units will redirect their fire on the enemy ship.  The targeted ship will take additional damage while the effect is active.
@@ -12493,6 +12515,34 @@ TEXT_TOOLTIP_CLONE_COMMANDO_COMPANY_WEAP2,16x Underslung Light Proton Grenade: 1
 TEXT_TOOLTIP_CLONE_COMMANDO_COMPANY_WEAP3,16x Secondary Blaster Sniper Rifle: 1 / 4.5s / 320m
 TEXT_TOOLTIP_CLONE_COMMANDO_HEALTH,Health: 35 [5%/5s] (Infantry)
 TEXT_TOOLTIP_CLONE_COMMANDO_MOVE,Speed: 1.2
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH,Health: 90 [1%/5s] (Hero)
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD,Company: 8x Clone Commando
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP1,4x DC-17 Pistol: 1 / 1.0s / 75m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP2,4x DC-17m Blaster Rifle: 5 / 2.0s / 240m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP3,2x DC-17m Sniper Rifle: 1 / 3.0s / 320m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP4,2x DC-17m Grenade Launcher: 1 / 5.0s / 220m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP5,4x DC-17m Grenade Launcher: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP6,2x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP7,2x Sonic Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP8,2x Ion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD,Shields: 30 / [4/R] (Infantry)
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD,Squad: 4x Clone Commando
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP1,2x DC-17 Pistol: 1 / 1.0s / 75m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP2,2x DC-17m Blaster Rifle: 5 / 2.0s / 240m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP3,1x DC-17m Sniper Rifle: 1 / 3.0s / 320m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP4,1x DC-17m Grenade Launcher: 1 / 5.0s / 220m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP5,2x DC-17m Grenade Launcher: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP7,1x Sonic Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP8,1x Ion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP1,1x DC-17 Pistol: 1 / 1.0s / 75m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP2,1x DC-17m Blaster Rifle: 5 / 2.0s / 240m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP3,1x DC-17m Sniper Rifle: 1 / 3.0s / 320m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP4,1x DC-17m Grenade Launcher: 1 / 5.0s / 220m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP5,1x DC-17m Grenade Launcher: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP7,1x Sonic Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP8,1x Ion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_CLONE_COMMANDO_SERGEANT_HEALTH,Health: 38 [5%/5s] (Infantry)
 TEXT_TOOLTIP_CLONE_COMMANDO_SHIELD,Shields: 10 / [2/R] (Infantry)
 TEXT_TOOLTIP_CLONE_COMMANDO_SQUAD,Squad: 4x Clone Commando
@@ -12814,6 +12864,7 @@ TEXT_TOOLTIP_COMMAND_GUARDIAN_SQUADRON_ARC170,ARC-170 Starfighter, Guardian Squa
 TEXT_TOOLTIP_COMMAND_GUNGAN_GLORY,Z-95 Headhunter, Gungan Glory Squadron
 TEXT_TOOLTIP_COMMAND_HARMZUAY,Kaloth Battlecruiser, Harmzuay
 TEXT_TOOLTIP_COMMAND_HAUSER,Modified Dreadnaught Heavy Cruiser, Ultrachrome
+TEXT_TOOLTIP_COMMAND_HOUND,Venator Star Destroyer, Hound
 TEXT_TOOLTIP_COMMAND_HOUNDSTOOTH,Modified YV-666 Light Freighter, Hound's Tooth
 TEXT_TOOLTIP_COMMAND_HUNTER_SQUADRON_TORRENT,Hunter Squadron (V-19 Torrents in space, LAAT on ground)
 TEXT_TOOLTIP_COMMAND_HUNTER_SQUADRON_Z95,Hunter Squadron (Clone Z-95 Headhunters in space, LAAT on ground)
@@ -12909,6 +12960,7 @@ TEXT_TOOLTIP_COMMAND_TRIUMPH,Acclamator-I Cruiser (Carrier), Triumph
 TEXT_TOOLTIP_COMMAND_TRIUMPHANT,Venator Star Destroyer, Triumphant
 TEXT_TOOLTIP_COMMAND_TWILIGHT,Modified G9 Rigger Light Freighter, Twilight
 TEXT_TOOLTIP_COMMAND_UNREPENTANT,Bulwark-I Battlecruiser, Unrepentant
+TEXT_TOOLTIP_COMMAND_VALKYRIE2929,LAAT/i Gunship, Valkyrie 2929
 TEXT_TOOLTIP_COMMAND_VALORUM,Victory-I Star Destroyer, Valorum
 TEXT_TOOLTIP_COMMAND_VANGAR,Customs Light Corvette, Hunting Thrubidor
 TEXT_TOOLTIP_COMMAND_VENSENOR,Venator Star Destroyer, Vensenor
@@ -13327,8 +13379,10 @@ TEXT_TOOLTIP_ESCORT_NORULAC1,2x Interceptor IV Frigate
 TEXT_TOOLTIP_ESCORT_NORULAC2,1x Marauder Cruiser
 TEXT_TOOLTIP_ESCORT_NORULAC3,1x Action VI Tender
 TEXT_TOOLTIP_ESCORT_P1,4x Clone Trooper Squad (P1)
+TEXT_TOOLTIP_ESCORT_P1_PLATOON,1x Clone Trooper Platoon (P1)
 TEXT_TOOLTIP_ESCORT_P1_WOLFFE_SPECIAL,2x - Wolfpack Squad (P1)
 TEXT_TOOLTIP_ESCORT_P2,4x Clone Trooper Squad (P2)
+TEXT_TOOLTIP_ESCORT_P2_PLATOON,1x Clone Trooper Platoon (P2)
 TEXT_TOOLTIP_ESCORT_P2_WOLFFE_SPECIAL,2x - Wolfpack Squad (P2)
 TEXT_TOOLTIP_ESCORT_PALPATINE_1,2x - Red Guards
 TEXT_TOOLTIP_ESCORT_PALPATINE_2,1x - Shock Trooper Squad
@@ -13336,9 +13390,13 @@ TEXT_TOOLTIP_ESCORT_POGGLE,4x B2 Super Battle Droid Squad
 TEXT_TOOLTIP_ESCORT_PORLA,8x Starhawk Speeder
 TEXT_TOOLTIP_ESCORT_RENTHAL2,1x Customs Light Corvette
 TEXT_TOOLTIP_ESCORT_REX_P1_1,2x Clone Trooper Squad (P1)
+TEXT_TOOLTIP_ESCORT_REX_P1_1_SUBMOD,1x Clone Trooper Carbineer Squad (P1)
 TEXT_TOOLTIP_ESCORT_REX_P1_2,2x Clone Vehicular Assault Trooper Heavy Squad
+TEXT_TOOLTIP_ESCORT_REX_P1_2_SUBMOD,1x Clone Trooper Rifleman Squad (P1)
 TEXT_TOOLTIP_ESCORT_REX_P2_1,2x Clone Trooper Squad (P2)
+TEXT_TOOLTIP_ESCORT_REX_P2_1_SUBMOD,1x Clone Trooper Carbineer Squad (P2)
 TEXT_TOOLTIP_ESCORT_REX_P2_2,1x Clone Marine Carbineer Squad
+TEXT_TOOLTIP_ESCORT_REX_P2_2_SUBMOD,1x Clone Trooper Rifleman Squad (P2)
 TEXT_TOOLTIP_ESCORT_REX_P2_3,1x Clone Airborne Trooper Sniper Squad
 TEXT_TOOLTIP_ESCORT_SELIMA,3x / 4x CR90 Corvette
 TEXT_TOOLTIP_ESCORT_SENATE_COMMANDO,2x Senate Commando Squad
@@ -13671,6 +13729,7 @@ TEXT_TOOLTIP_GIAN_WEAP2,2x AI Blaster Cannons: 2 / 1.0s / 240m
 TEXT_TOOLTIP_GIDDEAN_DANU,The representative in the Galactic Senate for Kuat, unusually opposed to increasing militarization and with respectable ties to the Jedi Order. Danu's stances often brought him into conflict with many other Kuati interests, and nearly saw him removed from his position by Onara Kuat on multiple occasions.
 TEXT_TOOLTIP_GIDEON_TARKIN,A scion of the Tarkin family, Gideon Tarkin enlisted in the ORSF along with his elder brother Wilhuff. The eruption of the Clone Wars saw Gideon overseeing the Seswenna sectors defense, and when Palpatine declared his New Order Gideon and his brother swore fealty to it. Despite being overshadowed by Wilhuff's accomplishments Gideon maintained a reputation as an accomplished military mind and would father a daughter, Rivoche, shortly after the war's end.
 TEXT_TOOLTIP_GIDEON_TARKIN_DEPLOY,Deploys: 1x Special Tactics Trooper Heavy Weapons Squad
+TEXT_TOOLTIP_GILLEHSPY,Holding the rank of captain, Gillehspy was the commanding officer of the Venator star destroyer Hound, operating under Darth Vader during the mission at Kestavel.
 TEXT_TOOLTIP_GINIVEX,A fanblade-shaped elite fighter built by the Geonosians for Count Dooku's most trusted acolytes and officers. It is named for the distinguishing energy fin along its spine, and it is extremely well shielded compared to most other fighter designs along with impressive maneuverability and firepower.
 TEXT_TOOLTIP_GLADIATOR,A small cruiser in the Star Destroyer family that was originally designed to escort the Victory-class. The design would not see general use and production until after the Clone Wars where it would be relegated to system patrols and enforcement. It has an unspecialized design and is able to defend itself from most threats when in sufficient numbers.
 TEXT_TOOLTIP_GLADIATOR_DEMOLISHER_CW_WEAP1,2x Proton Torpedoes: 5 / 7.25s / 5.1km
@@ -13860,6 +13919,7 @@ TEXT_TOOLTIP_HAVEN_SQUADRON,Fighters: 1 / 1 | Corvettes: 1 / 0
 TEXT_TOOLTIP_HAVEN_SQUADRON_HUTTS,Fighters: 1 / 1 | Corvettes: 2 / 0
 TEXT_TOOLTIP_HAVEN_WEAP1,4x Light Dual Turbolasers: 1 / 5.0s / 6.1km
 TEXT_TOOLTIP_HAVEN_WEAP2,4x Medium Dual Laser Cannons: 2 / 5.0s / 5.1km
+TEXT_TOOLTIP_HAWK,A call sign named after his hawk-like eyes, Lieutenant Hawk saw actions with 501st, often transporting and escorting General Anakin Skywalker, Commander Ahsoka Tano and Captain Rex to various worlds and battles.
 TEXT_TOOLTIP_HEAL_TURRET,Infantry healing station able to heal nearby friendly infantry.
 TEXT_TOOLTIP_HEALTH,Health
 TEXT_TOOLTIP_HEAVYSCAV,Heavy private forces maintained by Scavenger units for additional security. Often work with or subsume local governments and private armies. Well-equipped and meant to protect other units from military reprisal.
@@ -14936,6 +14996,9 @@ TEXT_TOOLTIP_OMEGA_WEAP2,1x DC-17m Grenade Launcher: 1 / 15.0s / 200m
 TEXT_TOOLTIP_OMEGA_WEAP3,1x Verpine Sniper Rifle: 1 / 3.0s / 320m
 TEXT_TOOLTIP_OMEGA_WEAP4,1x Wookiee Bowcaster: 1 / 3.0s / 240m
 TEXT_TOOLTIP_OMEGA_WEAP5,1x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_OMEGA_WEAP6,1x DC-17m Grenade Launcher: 1 / 15.0s / 200m
+TEXT_TOOLTIP_OMEGA_WEAP7,1x Fragmentation Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_OMEGA_WEAP8,1x DC-17 Pistol: 1 / 1.0s / 75m
 TEXT_TOOLTIP_ONACONDA_FARR,Onaconda Farr was Rodia's representative in the Galactic Senate. Farr was a strong opponent of the Military Creation Act, even producing and cameoing in a play in support of it, and was initially critical of Palpatine's handling of the Separatist crisis. After proving a member of the Loyalist Committee had Separatist ties Farr took their place, and was further rewarded by being placed at the head of the Senate Action Subcommittee for Corellian Trade Spine Defense when the Clone Wars began. Farr was briefly duped by Viceroy Gunray to have Rodia join the Separatists in exchange for aid, and while Gunray's plot failed, Farr's image was marred among his colleagues. Farr later used his position to bribe a fellow Senator to divert Star Destroyers meant for Duro's defense to Rodia, causing him to resign in disgrace from his post when Duro fell to the Separatists as a result.
 TEXT_TOOLTIP_ONARA_KUAT,Matriarch of the Kuat Family and principal director of Kuat Drive Yards, Onara Kuat effectively controlled the Kuat sector. She endeavoured to make sure everything benefited her family and KDY. During the Clone Wars she found herself displeased with Senator Giddean Danu's stances and attempted to recall him, only to be blocked by others in the Kuat family. In desperation to stop Danu revealing unsavoury secrets about the Kuat family, she would eventually end up pledging loyalty to Palpatine shortly before the Clone Wars ended.
 TEXT_TOOLTIP_ONARA_KUAT_UPGRADE,Upgrade: Mandator-II [Requires Kuat]
@@ -16641,11 +16704,13 @@ TEXT_TOOLTIP_TRAIT_AGENT_TIER_SMUGGLER,Smuggler (-10% cost, +10% income)
 TEXT_TOOLTIP_TRAIT_AGENT_TIER_SYNDICATE_HEAD,Syndicate Head (-5% cost, +10% income)
 TEXT_TOOLTIP_TRAIT_ARCHDUKE,Archduke of Geonosis
 TEXT_TOOLTIP_TRAIT_BLOCKADE_ENFORCER,Blockade Enforcer
+TEXT_TOOLTIP_TRAIT_COMMAND_ARROGANT,Arrogant
 TEXT_TOOLTIP_TRAIT_COMMAND_BATTLE_MEDITATION,Passive Battle Meditation
 TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS,Defense Focus
 TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE,Force Sensitive
 TEXT_TOOLTIP_TRAIT_COMMAND_INTEL_FOCUS,Intel Focus
 TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS,Offense Focus
+TEXT_TOOLTIP_TRAIT_COMMAND_RECKLESS,Reckless
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND,Command Tier I (Land)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND_SPACE,Command Tier I (Land / Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_SPACE,Command Tier I (Space)
@@ -17358,7 +17423,12 @@ TEXT_UNIT_CLONE_BLAZE_TROOPER_SQUAD,Clone Blaze Trooper Squad
 TEXT_UNIT_CLONE_COMMANDER,Clone Commander
 TEXT_UNIT_CLONE_COMMANDO,Clone Commando
 TEXT_UNIT_CLONE_COMMANDO_COMPANY,Clone Commando Platoon
+TEXT_UNIT_CLONE_COMMANDO_HEAVY,Clone Commando Demo Expert
+TEXT_UNIT_CLONE_COMMANDO_REWORK_SQUAD,Clone Commando Squad
+TEXT_UNIT_CLONE_COMMANDO_SARGEANT,Clone Commando Sergeant
 TEXT_UNIT_CLONE_COMMANDO_SERGEANT,Clone Commando Sergeant
+TEXT_UNIT_CLONE_COMMANDO_SLICER,Clone Commando Slicer
+TEXT_UNIT_CLONE_COMMANDO_SNIPER,Clone Commando Marksman
 TEXT_UNIT_CLONE_COMMANDO_SQUAD,Clone Commando Squad
 TEXT_UNIT_CLONE_FLAME_TROOPER_FLAMER,Clone Flame Trooper
 TEXT_UNIT_CLONE_FLAME_TROOPER_GRENADIER,Clone Flame Trooper Grenadier
