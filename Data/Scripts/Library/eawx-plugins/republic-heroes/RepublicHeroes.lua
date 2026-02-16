@@ -1052,6 +1052,9 @@ function RepublicHeroes:Victory1_Heroes()
 	Handle_Hero_Add("Ravik", moff_data)
 
 	RepublicHeroes:Add_Fighter_Set("Arhul_Narra_Location_Set")
+	RepublicHeroes:Add_Fighter_Set("Jag_ARC170_Location_Set")
+
+	Set_Fighter_Hero("JAG_ARC170_127TH_SQUADRON", "DODONNA_ARDENT")
 	
 	admiral_data.total_slots = admiral_data.total_slots + 1
 		admiral_data.free_hero_slots = admiral_data.free_hero_slots + 1

@@ -5587,7 +5587,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 	</UniqueUnit>
 
-
+	<!-- Order 66 -->
 	<UniqueUnit Name="Gillehspy_Hound">
 		<Variant_Of_Existing_Type>Template_Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Prevents_Story_Campaign_Autoresolve>no</Prevents_Story_Campaign_Autoresolve>
@@ -5595,6 +5595,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_RECKLESS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GILLEHSPY
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
@@ -5680,6 +5681,7 @@
 		TEXT_TOOLTIP_ASSIGN_NR_ADMIRAL
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_RECKLESS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GILLEHSPY
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
