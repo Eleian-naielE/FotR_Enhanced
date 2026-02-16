@@ -12129,15 +12129,6 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>SPRINT</Type>
-				<Expiration_Seconds> 8.0 </Expiration_Seconds>
-				<Recharge_Seconds> 45.0 </Recharge_Seconds>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Delta_Boss_Sprint</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>
-
-			<Unit_Ability>
 				<Type>BERSERKER</Type>
 				<Recharge_Seconds>45.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> CC_Sergeant_Berserk_Attack </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
@@ -12191,6 +12182,12 @@
 				<Supports_Autofire>True</Supports_Autofire>
             </Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="CC_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+		</Abilities>
 	</GroundInfantry>
 
 	<GroudnCompany Name="Clone_Commando_Rework_Company">
