@@ -472,8 +472,8 @@ function GovernmentRepublic:UpdateDisplay(favour_table, market_name, market_list
 
 		government_display_event.Add_Dialog_Text("TEXT_NONE")
 		government_display_event.Add_Dialog_Text("Currently Unavailable:")
-		for i, ship in ipairs(SortKeysByElement(market_list,"order","asc")) do
-			local ship_data = market_list[ship]
+		for i, ship in ipairs(SortKeysByElement(market_list[2],"order","asc")) do
+			local ship_data = market_list[2][ship]
 			if (ship_data.amount == 0) and (ship_data.locked == true) and (ship_data.gc_locked == false) then
 				government_display_event.Add_Dialog_Text(ship_data.readable_name .." - "..ship_data.text_requirement)
 			end
