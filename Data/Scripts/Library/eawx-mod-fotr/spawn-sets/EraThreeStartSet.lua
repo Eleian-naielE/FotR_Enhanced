@@ -8,17 +8,18 @@ return {
 	jedi = 4
 	]]
 	["EMPIRE"] = {
-	["CORUSCANT"] = {"Yoda_Delta_Team", "Pestage_Team"},
-	["KAMINO"] = {"Cody_Team", "Obi_Wan_Delta_Team"},
+	["CORUSCANT"] = {"Yoda_Delta_Team","Pestage_Team"},
+	["KAMINO"] = {"Cody_Team","Obi_Wan_Delta_Team","Block_Negotiator"},
 	["CARIDA"] = {"Rom_Mohc_Team"},
-	["NABOO"] = {"Rex_Team", "Anakin_Delta_Team", "Ahsoka_Delta_Team", "Yularen_Resolute"},
-	["KASHYYYK"] = {"Aayla_Secura_Delta_Team", "Tallon_Sundiver"},
+	["NABOO"] = {"Rex_Team","Anakin_Delta_Team","Ahsoka_Delta_Team","Yularen_Resolute"},
+	--["KASHYYYK"] = {"Aayla_Secura_Delta_Team"},
+	["PRAESITLYN"] = {"Nejaa_Halcyon_Team"},
 	--["RISHI"] = {"Fordo_Team"},
 	--["QIILURA"] = {"Romodi_Team"},
 	["BESTINE"] = {"Gentis_Team"},
 	["QIILURA"] = {"Omega_Squad"}, -- FotR_Enhanced
-	["ROTHANA"] = {"Tarkin_Venator"},
-	["KUAT"] = {"Coburn_Venator"},
+	["RHEN_VAR"] = {"Tarkin_Venator"},
+	["KUAT"] = {"Coburn_Venator","Plo_Koon_Delta_Team","Wolffe_Team"},
 	["MUUNILINST"] = {"Delta_Squad","Wessel_Acclamator"},
 	},
 	["REBEL"] = {
