@@ -2424,6 +2424,7 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDER</Encyclopedia_Unit_Class>																						 
 		<Icon_Name>i_button_odd_ball_p2.tga</Icon_Name>
+		<Space_Model_Name>ARC-170_starfighter_OFC.alo</Space_Model_Name>
 
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -2653,8 +2654,6 @@
 		TEXT_TOOLTIP_CAPABILITY_TRANSPORT
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_odd_ball_p2.tga</Icon_Name>
-
-		<No_Colorization_Color> 25, 25, 255, 255 </No_Colorization_Color>
 	</UniqueUnit>
 
 	<HeroCompany Name="Odd_Ball_P2_Team">
