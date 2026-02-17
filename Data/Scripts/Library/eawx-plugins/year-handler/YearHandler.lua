@@ -33,7 +33,7 @@ function YearHandler:new(start_year, start_month, id)
 
     if Find_Object_Type("fotr") then
 		self.cycles_per_month = 2
-		if id == id == "HISTORICAL" then -- FotR_Enhanced
+		if id == "HISTORICAL" then -- FotR_Enhanced
             self.cycles_per_month = 3
         end
         if self.start_year == 22 then
