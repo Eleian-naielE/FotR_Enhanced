@@ -117,6 +117,17 @@ return {
 			faction_object = Find_Player("Empire"),
 			news_colour = {r = 250, g = 44, b = 44},
 			list = {
+				["ARC_PHASE_ONE_COMPANY"] = {
+					locked = true,
+					gc_locked = false,
+					amount = 0,
+					chance = 0,
+					perception_modifier = nil,
+					associtaion = nil,
+					readable_name = "Alpha-Class ARC Trooper Platoon (Phase I)",
+					text_requirement = "",
+					order = 1,
+				},
 				--Always Available
 				["CLONE_COMMANDO_REWORK_COMPANY"] = {
 					locked = true,
@@ -127,8 +138,7 @@ return {
 					associtaion = nil,
 					readable_name = "Clone Commando Squad",
 					text_requirement = "",
-					order = 1,
-
+					order = 2,
 				},
 				--Phase 1
 				["CLONE_SPECIAL_OPS_COMPANY"] = {
@@ -140,7 +150,7 @@ return {
 					associtaion = nil,
 					readable_name = "Special Ops Clone Trooper",
 					text_requirement = "",
-					order = 2,
+					order = 3,
 				},
 				["CLONE_VEHICULAR_ASSAULT_COMPANY"] = {
 					locked = true,
@@ -151,10 +161,20 @@ return {
 					associtaion = nil,
 					readable_name = "Clone Vehicular Assault Trooper Platoon",
 					text_requirement = "",
-					order = 3,
+					order = 4,
 				},
-				
 				--Phase 2
+				["ARC_PHASE_TWO_COMPANY"] = {
+					locked = true,
+					gc_locked = false,
+					amount = 0,
+					chance = 0,
+					perception_modifier = nil,
+					associtaion = nil,
+					readable_name = "Alpha-Class ARC Trooper Platoon (Phase II)",
+					text_requirement = "",
+					order = 5,
+				},
 				["CLONE_GALACTIC_MARINE_COMPANY"] = {
 					locked = true,
 					gc_locked = false,
@@ -164,7 +184,7 @@ return {
 					associtaion = nil,
 					readable_name = "Clone Marine Platoon",
 					text_requirement = "[ Requires Phase II Armour Research ]",
-					order = 4
+					order = 6,
 				},
 				["CLONE_SCOUT_TROOPER_COMPANY"] = {
 					locked = true,
@@ -175,7 +195,7 @@ return {
 					associtaion = nil,
 					readable_name = "Clone Scout Trooper Platoon",
 					text_requirement = "[ Requires Phase II Armour Research ]",
-					order = 5,
+					order = 7,
 				},
 				["CLONE_AIRBORNE_TROOPER_COMPANY"] = {
 					locked = true,
@@ -186,7 +206,7 @@ return {
 					associtaion = nil,
 					readable_name = "Clone Airborne Trooper Platoon",
 					text_requirement = "[ Requires Phase II Armour Research ]",
-					order = 6,
+					order = 8,
 				},
 				}
 			},

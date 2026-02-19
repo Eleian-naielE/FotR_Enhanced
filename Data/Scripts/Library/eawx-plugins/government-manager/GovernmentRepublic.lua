@@ -383,17 +383,17 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 				end
 			end
         end
-		if GlobalValue.Get("ARC_LIFETIME_LIMIT") == 0 then
+		--[[if GlobalValue.Get("ARC_LIFETIME_LIMIT") == 0 then
 			UnitUtil.SetLockList("EMPIRE", {"ARC_PHASE_TWO_COMPANY"}, false)
-		end
+		end]]
 	elseif game_object_type_name == "ARC_PHASE_ONE_COMPANY" or game_object_type_name == "ARC_PHASE_TWO_COMPANY" then -- FotR_Enhanced
 		if self.id == "FTGU" or self.id == "CUSTOM" then
 			return
 		end
 		local lifetime = GlobalValue.Get("ARC_LIFETIME_LIMIT")
-		local object_type = Find_Object_Type(game_object_type_name)
+		--local object_type = Find_Object_Type(game_object_type_name)
 		lifetime = lifetime -1
-		if lifetime <= 0 then
+		--[[if lifetime <= 0 then
 			if not object_type.Is_Build_Locked(self.RepublicPlayer) then
 				UnitUtil.SetLockList('EMPIRE', {game_object_type_name}, false)
 				return
@@ -403,7 +403,7 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 			local last_spawned = Find_First_Object(dummy_name)
 			last_spawned.Despawn()
 			return
-		end
+		end]]
 		GlobalValue.Set("ARC_LIFETIME_LIMIT", lifetime)
 		StoryUtil.ShowScreenText("Available ARC Trooper left: "..tostring(lifetime) , 10, nil, {r = 244, g=244, b =0})
 	end

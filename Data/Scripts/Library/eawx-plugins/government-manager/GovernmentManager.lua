@@ -123,6 +123,10 @@ function GovernmentManager:Market_Update(tag)
         if self.market_adjustments[tag].requirement_lists then
             self.SHIPMARKET:adjust_ship_requirements(self.market_adjustments[tag].requirement_lists)
         end
+        if self.market_adjustments[tag].initial_amounts then
+            self.SHIPMARKET:add_or_remove_amount(self.market_adjustments[tag].initial_amounts)
+        end
+        
     end
 end
 
