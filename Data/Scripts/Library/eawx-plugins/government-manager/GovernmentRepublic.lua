@@ -71,6 +71,9 @@ function GovernmentRepublic:new(gc,id,gc_name)
 	self.SpaceStructureSnapshot = {}
 
 	self.p2_table = require("ClonePhaseTwoLibrary") -- FotR_Enhanced
+	local staringEra = GlobalValue.Get("CURRENT_ERA")
+	local Initial_ARC_Limit = self.p2_table[2][3][staringEra] -- FotR_Enhanced ; Initial Value
+	GlobalValue.Set("ARC_LIFETIME_LIMIT", Initial_ARC_Limit)
 
 	GCEventTable = {
 		["PROGRESSIVE"] = {EventName = "START_ORDER_6X", AutoOption = "SENATE_CHOICE_ORDER_6X_AI"},
