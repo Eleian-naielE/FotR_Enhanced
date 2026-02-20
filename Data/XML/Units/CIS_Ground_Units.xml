@@ -810,7 +810,7 @@
 
 		<LandBehavior>IDLE, WALK_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, SHIELDED, WEAPON, AMBIENT_SFX,UNIT_AI,TARGETING,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, SURFACE_FX, DEPLOY_TROOPERS</LandBehavior>
 
-		<Deploys>Yes</Deploys>
+		<Deploys>No</Deploys>
 		<Auto_Deploys>No</Auto_Deploys>
 
 		<HardPoints>
