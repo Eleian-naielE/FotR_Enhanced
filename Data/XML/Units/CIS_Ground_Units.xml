@@ -765,7 +765,7 @@
 		TEXT_TOOLTIP_HMP_WEAP3
 		TEXT_TOOLTIP_HMP_WEAP4
 		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
-		TEXT_TOOLTIP_HMP_DEPLOY
+		<!--TEXT_TOOLTIP_HMP_DEPLOY-->
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_hmp.tga</Icon_Name>
 
@@ -946,6 +946,7 @@
 		<Should_Reinforcements_Move> false </Should_Reinforcements_Move>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
+			<!--
 			<Unit_Ability>
 				<Type>DEPLOY_TROOPERS</Type>
 				<Recharge_Seconds>20</Recharge_Seconds>
@@ -956,6 +957,7 @@
 				<Alternate_Name_Text>TEXT_ABILITY_DEPLOY_B2</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_ABILITY_DEPLOY_B2_DESCRIPTION</Alternate_Description_Text>
 			</Unit_Ability>
+			-->
 		</Unit_Abilities_Data>
 	</GroundVehicle>
 	<GroundCompany Name="HMP_Company">
@@ -2272,7 +2274,7 @@
 		</Unit_Abilities_Data>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>590</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -4945,7 +4947,7 @@
 	
 <!-- FotR_Enhanced -->
 	<GroundVehicle Name="Magna_Tri_Missile">
-		<Variant_Of_Existing_Type>Magna_Tri</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Magna_Octuptarra</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_MAGNATRI_MISSILE</Text_ID>
 		<Encyclopedia_Text>
 			TEXT_TOOLTIP_MAGNATRI_MISSILE 
