@@ -18,7 +18,7 @@ TEXT_DOCUMENTATION_HEADER_FOTR_ENHANCED_FEATS,==== FotR_Enhanced features ======
 TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_FORRAL,Bythen Forral (Cloakshape Squadron) - Unlocked by default | Default Hero: Kohl Seerdon
 TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_HAWK,Hawk (No Fighter/Republic Z-95 Headhunter Squadron & LAAT/i Gunship) - Unlocks with Venators | Default Hero: Wullf Yularen
 TEXT_DOCUMENTATION_HEADER_UNIQUE_HERO_JAG,Jag (ARC-170 Starfighter Squadron) - Unlocks with Victory Is | Default Hero: Jan Dodonna
-TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_MAGNATRI_MISSILE,HMP Gunship - Unlocks Mid-20 BBY | Droid Vehicle Factory
+TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_MAGNATRI_MISSILE,Magna Octuptarra Droid (Ordance) - Unlocks Mid-20 BBY | Droid Heavy Vehicle Factory
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_UTAT,UT-AT Speeder - Unlocks Mid-21 BBY | Advanced Vehicle Factory
 TEXT_EVENT_BYTHEN_FORRAL_SELECTOR_HEADER,Assign Bythen Forral
 TEXT_EVENT_HAWK_SELECTOR_HEADER,Assign Hawk
@@ -141,8 +141,6 @@ TEXT_TOOLTIP_GILLEHSPY,Holding the rank of captain, Gillehspy was the commanding
 TEXT_TOOLTIP_HAWK,A call sign named after his hawk-like eyes, Lieutenant Hawk saw actions with 501st, often transporting and escorting General Anakin Skywalker, Commander Ahsoka Tano and Captain Rex to various worlds and battles.
 TEXT_TOOLTIP_JAG, CT-55/11-9009, known as Jai'galaar or Jag, was a clone pilot captin in the Clone Army. Originally a Clone Commander, he was demoted to captain after the Retreat at Katraasii. Later, Jedi General Plo Koon drafted the captin as the test pilot for the new ARC-170 starfighters and flew with him on many battles including the battle over Cato Neimoidia.
 TEXT_TOOLTIP_JAG_WINGMAN,CT-57/11-9048 was a clone pilot of the 127th Gunship Wing and wingman to Captain Jai’galaar. Flying an ARC-170 over Cato Neimoidia, he executed Order 66 without hesitation, shooting down Jedi General Plo Koon during a routine patrol.
-TEXT_TOOLTIP_MAGNATRI,Another Techno Union contribution, the Magna is a large variant of the Octuptarra walker, or Tri-Droid. This colossal walker is heavily armed and armored, although not the most nimble due to its leg configuration.
-TEXT_TOOLTIP_MAGNATRI_COMPANY,Company: 2x Magna Octuptarra Droid
 TEXT_TOOLTIP_MAGNATRI_MISSILE,A late war variant of the infamous Magna Tri Droid, this variant replaces its heavy lasers for chain fed ordnance. It was powerful enough to blow the enemy vehicle with a single shot of its missile such as UT-AT.
 TEXT_TOOLTIP_MAGNATRI_MISSILE_COMPANY,Company: 2x Magna Octuptarra Droid (Ordance)
 TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP1,1x Super Heavy Concussion Missile: 1 / 6.0s / 560m

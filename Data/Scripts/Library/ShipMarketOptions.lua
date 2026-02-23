@@ -163,6 +163,7 @@ return {
 					text_requirement = "",
 					order = 4,
 				},
+				--Phase 2
 				["ARC_PHASE_TWO_COMPANY"] = {
 					locked = true,
 					gc_locked = false,
@@ -170,11 +171,10 @@ return {
 					chance = 0,
 					perception_modifier = nil,
 					associtaion = nil,
-					readable_name = "Alpha-Class ARC Trooper Platoon (Phase I)",
+					readable_name = "Alpha-Class ARC Trooper Platoon (Phase II)",
 					text_requirement = "",
 					order = 5,
 				},
-				--Phase 2
 				["CLONE_GALACTIC_MARINE_COMPANY"] = {
 					locked = true,
 					gc_locked = false,
