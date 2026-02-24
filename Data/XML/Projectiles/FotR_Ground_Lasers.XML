@@ -147,7 +147,7 @@
 	
 	<!-- FotR_Enhanced -->
 	
-	<Projectile Name="Proj_SPHA-T_Turbo_Beam">
+	<Projectile Name="Proj_SPHA_T_Turbo_Beam">
 		<Variant_Of_Existing_Type>Proj_AV_Beam_Blue</Variant_Of_Existing_Type>
 		<Projectile_Damage>50</Projectile_Damage>
 		<Land_Model_Name>W_BEAM_Blue.ALO</Land_Model_Name>
