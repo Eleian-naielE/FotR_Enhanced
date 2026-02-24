@@ -5008,11 +5008,11 @@
 		<Deploys>Yes</Deploys>
 		<Affiliation>Rebel, Trade_Federation, Commerce_Guild</Affiliation>
 		
-		<Max_Speed>0.9</Max_Speed>
+		<Max_Speed>0.6</Max_Speed>
 		<Max_Thrust>1.0</Max_Thrust>
 		<OverrideAcceleration> 0.025 </OverrideAcceleration>
 		<OverrideDeceleration> 0.15 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 
@@ -5026,9 +5026,7 @@
 		<Armor_Type> ArmourG_HeavyVehicle </Armor_Type>
 		<Size_Value>70</Size_Value>
 		<Damage>6</Damage>
-		<Shield_Points>200</Shield_Points>
-		<Tactical_Health>275</Tactical_Health>
-		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
+		<Tactical_Health>250</Tactical_Health>
 		<Energy_Capacity>9999</Energy_Capacity>
 		<Energy_Refresh_Rate>9999</Energy_Refresh_Rate>
         <Mouse_Collide_Override_Sphere_Radius>35</Mouse_Collide_Override_Sphere_Radius>
@@ -5037,7 +5035,7 @@
 		<LandBehavior>
 			IDLE, AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, TURRET, TARGETING, WEAPON, 
 			POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, 
-			TELEKINESIS_TARGET, STUNNABLE, DAMAGE_TRACKING
+			TELEKINESIS_TARGET, STUNNABLE, DAMAGE_TRACKING, ABILITY_COUNTDOWN
 		</LandBehavior>
 
 		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
@@ -5102,7 +5100,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<AI_Combat_Power>50</AI_Combat_Power>
+		<AI_Combat_Power>130</AI_Combat_Power>
 
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -5140,7 +5138,7 @@
 				<Type>FORCE_WHIRLWIND</Type>
 				<Recharge_Seconds>25.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Seismic_Tank_Crush </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Effective_Radius> 500.0 </Effective_Radius>
+				<Effective_Radius> 400.0 </Effective_Radius>
 				<Spawned_Object_Type> Force_Whirlwind_Particles </Spawned_Object_Type>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
@@ -5153,7 +5151,7 @@
 				<!-- We need to be within this distance of the clicked target to consider activating Force Whirlwind -->
 				<Activation_Min_Range>0.0</Activation_Min_Range>
 				<Activation_Max_Range>75.0</Activation_Max_Range>
-				<Damage_Amount>500.0</Damage_Amount>
+				<Damage_Amount>300.0</Damage_Amount>
 				<Damage_Range>150.0</Damage_Range>
 				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
 				<Travel_Time_In_Secs>1.0</Travel_Time_In_Secs>
@@ -5163,7 +5161,9 @@
 				<!--				<Activation_Chance>0,0.0, 500,0.0</Activation_Chance>	< ! - - never activate -->
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>Infantry, Vehicle, Structure</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories></Excluded_Unit_Categories>
 				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>A6_Juggernaut, A6_Prototype, SPHA_T,</Excluded_Unit_Types>
 				<SFXEvent_Activate>Unit_Generic_Building_Death_SFX</SFXEvent_Activate>
 				<Owner_Particle_Effect>Force_Whirlwind_Particles</Owner_Particle_Effect>
 				<Owner_Particle_Bone_Name />
@@ -5210,8 +5210,8 @@
 		<Autoresolve_Health>450</Autoresolve_Health>
 		
 		<Affiliation>Rebel, Trade_Federation, Commerce_Guild</Affiliation>
-		<Build_Cost_Credits>1000</Build_Cost_Credits>
-		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Cost_Credits>1500</Build_Cost_Credits>
+		<Build_Time_Seconds>100</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>0</Tech_Level>
