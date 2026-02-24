@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<Options>
+	<DummyStructure Name="Template_Option">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Corporate_Sector, SsiRuuvi_Imperium</Affiliation>
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>Options_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+	</DummyStructure>
+
+<!--options-->
+	<DummyStructure Name="Option_Cruel_On">
+		<Variant_Of_Existing_Type>Template_Option</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_OPTION_DUMMY_CRUEL_ON</Text_ID>
+		<Encyclopedia_Text>TEXT_OPTION_DUMMY_CRUEL_ON_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OPTIONS </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_cruel_ai_on.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Option_Cruel_Off">
+		<Variant_Of_Existing_Type>Template_Option</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_OPTION_DUMMY_CRUEL_OFF</Text_ID>
+		<Encyclopedia_Text>TEXT_OPTION_DUMMY_CRUEL_OFF_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OPTIONS </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_cruel_ai_off.tga</Icon_Name>
+	</DummyStructure>
+	
+	<DummyStructure Name="Option_Factional_Fighters">
+		<Variant_Of_Existing_Type>Template_Option</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UPGRADE_IA_FACTIONAL_FIGHTERS</Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_IA_FACTIONAL_FIGHTERS_DESC</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OPTIONS </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_FACTIONAL_FIGHTERS.tga</Icon_Name>
+	</DummyStructure>
+
+<!--cheats-->
+	<DummyStructure Name="Template_Cheat">
+		<Variant_Of_Existing_Type>Template_Option</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CHEAT</Encyclopedia_Unit_Class>
+
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<GUI_Row>0</GUI_Row>
+	</DummyStructure>
+
+	<DummyStructure Name="Cheat_Disable_AI">
+		<Variant_Of_Existing_Type>Template_Cheat</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_CHEAT_DISABLE_AI</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CHEAT_DISABLE_AI</Encyclopedia_Text>
+		<Icon_Name>i_button_cheat_disable_ai.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Cheat_Give_Credits">
+		<Variant_Of_Existing_Type>Template_Cheat</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_CHEAT_GIVE_CREDITS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CHEAT_GIVE_CREDITS</Encyclopedia_Text>
+		<Icon_Name>i_button_cheat_credits.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Cheat_Give_Unit">
+		<Variant_Of_Existing_Type>Template_Cheat</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_CHEAT_GIVE_UNIT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CHEAT_GIVE_UNIT</Encyclopedia_Text>
+		<Icon_Name>i_button_cheat_give_unit.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Cheat_Give_Vision">
+		<Variant_Of_Existing_Type>Template_Cheat</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_CHEAT_GIVE_VISION</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CHEAT_GIVE_VISION</Encyclopedia_Text>
+		<Icon_Name>i_button_cheat_vision.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Cheat_Government">
+		<Variant_Of_Existing_Type>Template_Cheat</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_CHEAT_GOVERNMENT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CHEAT_GOVERNMENT</Encyclopedia_Text>
+		<Icon_Name>i_button_cheat_government.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Cheat_Influence">
+		<Variant_Of_Existing_Type>Template_Cheat</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_CHEAT_INFLUENCE</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CHEAT_INFLUENCE</Encyclopedia_Text>
+		<Icon_Name>i_button_cheat_influence.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Cheat_Infra_And_Discount">
+		<Variant_Of_Existing_Type>Template_Cheat</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_CHEAT_INFRA_AND_DISCOUNT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CHEAT_INFRA_AND_DISCOUNT</Encyclopedia_Text>
+		<Icon_Name>i_button_cheat_infra_and_discount.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Cheat_Kill_All">
+		<Variant_Of_Existing_Type>Template_Cheat</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_CHEAT_KILL_ALL</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CHEAT_KILL_ALL</Encyclopedia_Text>
+		<Icon_Name>i_button_cheat_kill_all.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Cheat_Turn_Off_Crews">
+		<Variant_Of_Existing_Type>Template_Cheat</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_CHEAT_TURN_OFF_CREWS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CHEAT_TURN_OFF_CREWS</Encyclopedia_Text>
+		<Icon_Name>i_button_cheat_crews.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Cheat_Victory">
+		<Variant_Of_Existing_Type>Template_Cheat</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_CHEAT_VICTORY</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CHEAT_VICTORY</Encyclopedia_Text>
+		<Icon_Name>i_button_cheat_victory.tga</Icon_Name>
+	</DummyStructure>
+</Options>

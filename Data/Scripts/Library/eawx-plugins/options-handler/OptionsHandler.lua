@@ -38,6 +38,7 @@ function OptionsHandler:new(galactic_conquest, gc_id, gc_name)
     self.cheat_influence_on = false
     self.cheat_infra_and_discount_on = false
     self.cheat_crews_on = false
+    self.cheat_govt_flag = false
 
     --comment out to disable cheats for release builds
     self:enable_cheats()
@@ -86,6 +87,8 @@ function OptionsHandler:on_construction_finished(planet, game_object_type_name)
             self:cheat_turn_off_crews()
         elseif game_object_type_name == "CHEAT_VICTORY" then
             self:cheat_victory()
+        elseif game_object_type_name == "CHEAT_GOVERNMENT" then
+            self:cheat_government()
         end
     end
 end
@@ -228,6 +231,7 @@ function OptionsHandler:enable_cheats()
         "Cheat_Kill_All",
         "Cheat_Turn_Off_Crews",
         "Cheat_Victory",
+        "Cheat_Government",
     }
 
     for _, cheat in pairs(cheat_list) do
@@ -349,6 +353,22 @@ function OptionsHandler:cheat_victory()
 
     StoryUtil.ShowScreenText("Victory will be declared imminently.", 15, nil, {r = 217, g = 2, b = 125}, false)
     StoryUtil.DeclareVictory(Find_Player("local"), true)
+end
+
+function OptionsHandler:cheat_government()
+    self:set_cheater()
+
+    if self.cheat_govt_flag == true then
+        StoryUtil.ShowScreenText("No effect.", 15, nil, {r = 217, g = 2, b = 125}, false)
+        return
+    end
+
+    self.cheat_govt_flag = true
+
+    if self.isFotR == true then
+        crossplot:publish("SENATE_SUPPORT_REACHED", "empty")
+        StoryUtil.ShowScreenText("Senate support capstone has been triggered for Republic player.", 15, nil, {r = 217, g = 2, b = 125}, false)
+    end
 end
 
 return OptionsHandler
