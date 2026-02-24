@@ -33,6 +33,10 @@ function HeroRespawn:new(herokilled_finished_event, human_player)
     herokilled_finished_event:attach_listener(self.on_galactic_hero_killed, self)
 	self.durge_chance = 105
 	self.dooku_second_chance_used = false
+    self.ventress_second_chance_used = false
+    if GlobalValue.Get("CURRENT_ERA") == 5 then
+        self.ventress_second_chance_used = true
+    end
 	self.p_republic = Find_Player("Empire") 
 end
 
@@ -71,6 +75,8 @@ function HeroRespawn:on_galactic_hero_killed(hero_name, owner)
         self:anakins_dark_suit(hero_name)
     elseif hero_name == "EXACTOR_ANAKIN_DARKSIDE" or hero_name == "EXACTOR_VADER" then
         self:anakin_vader_escaped(hero_name)        
+    elseif hero_name == "VENTRESS_TEAM" then
+        self:vengeful_ventress()
     end
 end
 
@@ -193,4 +199,16 @@ function HeroRespawn:anakin_vader_escaped(hero_type)
     if respawn then
         StoryUtil.Multimedia(text, 15, nil, loop_type, 0)
     end
+end
+
+function HeroRespawn:vengeful_ventress()
+	--Logger:trace("entering HeroRespawn:check_dooku_doppelganger")
+	if self.ventress_second_chance_used == false then
+		self.ventress_second_chance_used = true
+
+		local respawn_ventress = StoryUtil.SpawnAtSafePlanet("BOZ_PITY", self.p_CIS, StoryUtil.GetSafePlanetTable(),{"Ventress_Team"})
+		if respawn_ventress then
+			StoryUtil.Multimedia("TEXT_SPEECH_VENGEFUL_VENTRESS_SPAWN", 15, nil, "Silri_Loop", 0)
+		end
+	end
 end
