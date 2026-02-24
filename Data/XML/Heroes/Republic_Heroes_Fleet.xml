@@ -5372,7 +5372,7 @@
 
 	<UniqueUnit Name="Block_Negotiator">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Variant_Of_Existing_Type>Template_Venator_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Space_Model_Name>Venator_OFC.alo</Space_Model_Name>
 		<Icon_Name>i_button_block.tga</Icon_Name>
 		<Prevents_Story_Campaign_Autoresolve>no</Prevents_Story_Campaign_Autoresolve>
@@ -5416,12 +5416,14 @@
 			Destruction_Survivor_Block_Nu_Shuttle, 1
 		</Destruction_Survivors>
 
+		<Death_Clone>Damage_Noraml, Venator_OFC_Death_Clone</Death_Clone>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SELF_DESTRUCT</Type>
 				<Expiration_Seconds>2</Expiration_Seconds>
 				<Recharge_Seconds>10</Recharge_Seconds>
-				<Spawned_Object_Type> Space_Self_Destruct_Large </Spawned_Object_Type>
+				<Spawned_Object_Type> Space_Self_Destruct_Huge </Spawned_Object_Type>
 				<Supports_Autofire>false</Supports_Autofire>
 			</Unit_Ability>
 
@@ -5431,14 +5433,14 @@
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_AMBUSH_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>i_sa_AMBUSH.tga</Alternate_Icon_Name>
 				
-				<Expiration_Seconds>15</Expiration_Seconds>
+				<Expiration_Seconds>30</Expiration_Seconds>
 				<Recharge_Seconds>100000</Recharge_Seconds>
 				<Active_By_Default>Yes</Active_By_Default>
 				
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,    0.66f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,    0.3f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,    1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,    1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,        1.25f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,        1.5f</Mod_Multiplier>
 
 				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
@@ -5589,7 +5591,7 @@
 
 	<!-- Order 66 -->
 	<UniqueUnit Name="Gillehspy_Hound">
-		<Variant_Of_Existing_Type>Template_Venator_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Prevents_Story_Campaign_Autoresolve>no</Prevents_Story_Campaign_Autoresolve>
 		<Text_ID>TEXT_HERO_GILLEHSPY</Text_ID>
 		<Encyclopedia_Text>
@@ -5625,7 +5627,8 @@
 		<Tech_Level>99</Tech_Level>
 		<Affiliation>Empire</Affiliation>
 
-		<AI_Combat_Power>1140</AI_Combat_Power>
+		<Space_Model_Name>EV_Venator.alo</Space_Model_Name>
+		<Death_Clone>Damage_Normal, Venator_Death_Clone</Death_Clone>
 		
 		<Unit_Abilities_Data SubObjectList="Yes"> <!-- Haste Abiltiy -->
 			<Unit_Ability>
