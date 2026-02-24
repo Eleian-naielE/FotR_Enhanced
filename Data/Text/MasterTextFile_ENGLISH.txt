@@ -338,8 +338,8 @@ TEXT_ABILITY_BOARD,Board Enemy Vessel
 TEXT_ABILITY_BOARD_DESCRIPTION,Ready the troops to seize an enemy ship. The closest applicable vessel will be marked for capture. After 5 seconds, the boarding action will either be successful or not, with a higher chance for success the weaker the ship is. Check ship descriptions to see if they can be boarded. After the battle, it will be refitted at one of your planets, indicated in the top left corner when you re-enter Galactic mode.
 TEXT_ABILITY_DEPLOY_CLONE,Deploy Clone Troopers
 TEXT_ABILITY_DEPLOY_CLONE_DESCRIPTION,Deploy a squad of Clone troopers from the transport.
-TEXT_ABILITY_DEPLOY_DROID,Deploy B1 Battle Droids
-TEXT_ABILITY_DEPLOY_DROID_DESCRIPTION,Deploy a squad of B1 Battle Droids from the transport.
+TEXT_ABILITY_DEPLOY_DROID,Deploy B2 Super Battle Droids
+TEXT_ABILITY_DEPLOY_DROID_DESCRIPTION,Deploy a squad of B2 Battle Droids from the transport.
 TEXT_ABILITY_MICROJUMP,Micro-jump
 TEXT_ABILITY_MICROJUMP_DESCRIPTION,A micro-jump - tactical jump into hyperspace over a very short distance.
 TEXT_ABILITY_RETREAT,Emergency Retreat
@@ -688,6 +688,7 @@ TEXT_CHEAT_DISABLE_AI,laredlite
 TEXT_CHEAT_GIVE_CREDITS,forcenova
 TEXT_CHEAT_GIVE_UNIT,koelsch
 TEXT_CHEAT_GIVE_VISION,5858lvr
+TEXT_CHEAT_GOVERNMENT,raccoonking
 TEXT_CHEAT_INFLUENCE,yodajammies
 TEXT_CHEAT_INFRA_AND_DISCOUNT,TheGalaxyIsYours
 TEXT_CHEAT_KILL_ALL,tarkin
@@ -1587,7 +1588,7 @@ TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_HMP,HMP Gunship - Unlocks Mid-20 BBY 
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_INVINCIBLE,Invincible Dreadnaught - Locks Mid-21 BBY | Dreadnought Shipyard
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_ISP,Infantry Support Platform - Unlocks Mid-21 BBY | Light Vehicle Factory
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_LUCREHULK_BC,Lucrehulk Battleship - Unlocks Mid-21 BBY | Dreadnought Shipyard
-TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_MAGNATRI_MISSILE,HMP Gunship - Unlocks Mid-20 BBY | Droid Vehicle Factory
+TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_MAGNATRI_MISSILE,Magna Octuptarra Droid (Ordance) - Unlocks Mid-20 BBY | Droid Heavy Vehicle Factory
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_PURSUER,Pursuer Enforcement Ship - Unlocks Mid-21 BBY | Light Frigate Shipyard
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_SABAOTH_DESTROYER,Sabaoth Destroyer - Sabaoth Squadron HQ
 TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_SABAOTH_FRIGATE,Sabaoth Frigate - Sabaoth Squadron HQ
@@ -6271,7 +6272,7 @@ TEXT_PA_STAMINA_BOOST,Officer Academy
 TEXT_PARTICLE_DETAIL,Particles Detail
 TEXT_PASSWORDED_GAME,Password Required
 TEXT_PATCH_REQUEST_TEXT,A new update is available and required for Internet play, would you like to download the update?
-TEXT_PHASE_II_MANUAL_UPGRADE_DESCRIPTION,Upgrades clones who were in hyperspace during the initial upgrade to phase 2. 
+TEXT_PHASE_II_MANUAL_UPGRADE_DESCRIPTION,Issue an upgrade for clones who were in hyperspace during the initial upgrade to Phase II. 
 TEXT_PHASE_II_MANUAL_UPGRADE_WARNING, NOTE : This effect is galaxy wide and it will lock once there's no Phase 1 Clones left.
 TEXT_PIRATE_BASE,Pirate Refuge Base
 TEXT_PIRATE_LAND_GARRISON,Garrison
@@ -8929,7 +8930,7 @@ TEXT_RESEARCH_MALEVOLENCE_2_DESCRIPTION,Upgrades General Grievous to his newest 
 TEXT_RESEARCH_MALEVOLENCE_2_NAME,Research: Malevolence II
 TEXT_RESEARCH_MINING_OPERATION_DESCRIPTION,Establish a mining operation on Christophsis in order to harvest crystals that will power the Devastation.
 TEXT_RESEARCH_MINING_OPERATION_NAME,Research: Crystal Mining Operation
-TEXT_RESEARCH_PHASE2_MANUAL_UPGRADE,Phase 2 Manual Upgrade
+TEXT_RESEARCH_PHASE2_MANUAL_UPGRADE,Issue Phase II Armour Upgrade
 TEXT_RESEARCH_PROVIDENCE_DESCRIPTION,Completing this research option unleashes the Providence Carrier/Destroyer.
 TEXT_RESEARCH_PROVIDENCE_NAME,Research: Providence Carrier/Destroyer
 TEXT_RESEARCH_REPUBLIC_FIGHTER_DESCRIPTION,Completing this research option equips Carracks, CEC Light Cruisers and Dreadnaught Heavy Cruisers with external racks for additional fighters.
@@ -9159,8 +9160,9 @@ TEXT_SPEECH_GRIEVOUS_RETURNS_TACTICAL,General Grievous: All ships, cover my retr
 TEXT_SPEECH_PHASE_TWO_RESEARCH,Kaminoan Engineer: Greetings, commander. Our testing has revealed areas in which our clones' standard equipment could be improved for greater combat effectiveness. If you can provide us the necessary funding on Kamino, we can begin the upgrade process immediately for all future batches, along with new gear for our specialized products already in the field.
 TEXT_SPEECH_PHASE_TWO_RESEARCH_FINISHED,Kaminoan Engineer: Our improvements to standard Clone armor have been completed, they are ready for production.\n[Phase II clone types available]
 TEXT_SPEECH_PHASE_TWO_RESEARCH_LOCKED,Locks: Clone Trooper Phase I, Arc Trooper Phase I, 74-Z Speeder Scout
-TEXT_SPEECH_PHASE_TWO_RESEARCH_LOCKED_TWO_SUBMOD,Special Clone Units: Clone Special Ops, Clone Vehicular Assault, Clone ARF
+TEXT_SPEECH_PHASE_TWO_RESEARCH_LOCKED_TWO_SUBMOD,Special Clone Units: Clone Special Ops, Clone Vehicular Assault
 TEXT_SPEECH_PHASE_TWO_RESEARCH_UNLOCK_ONE,Unlocks: Clone Trooper Phase II, Arc Trooper Phase II, BARC Speeder Scout
+TEXT_SPEECH_PHASE_TWO_RESEARCH_UNLOCK_ONE_SUBMOD,Unlocks: Clone Trooper Phase II, Arc Trooper Phase II, BARC Speeder Scout and an option to auto upgrade to Phase II
 TEXT_SPEECH_PHASE_TWO_RESEARCH_UNLOCK_THREE_SUBMOD,Special Clone Units: Clone Marine, Clone Airborne Trooper, Clone Scout Trooper
 TEXT_SPEECH_PHASE_TWO_RESEARCH_UNLOCK_TWO,Command Staff: An additional slot for Clone Officers
 TEXT_SPEECH_PROVIDENCE_LOCK,Locks: Providence Destroyer
@@ -9170,6 +9172,7 @@ TEXT_SPEECH_PROVIDENCE_UNLOCK,Unlocks: Providence Carrier/Destroyer
 TEXT_SPEECH_RESEARCH_BULWARK_PREREQS,To begin the research, construct the new research option in the research/political options tab on Foerost or Sullust. This will allow construction of the Bulwark-I, as well as grant a new hero, Dua Ningo.
 TEXT_SPEECH_RESEARCH_BULWARK2_PREREQS,To begin the research, construct the new research option in the research/political options tab on Foerost or Sullust. This will allow construction of the Bulwark-II.
 TEXT_SPEECH_RESEARCH_CLONETROOPERII_PREREQS,To begin the research, construct the new research option in the research/political options tab on Kamino. Phase II armor grants a health and speed bonus to new clone units.
+TEXT_SPEECH_RESEARCH_CLONETROOPERII_PREREQS_SUBMOD,To begin the research, construct the new research option in the research/political options tab on Kamino. Phase II armor grants a health and speed bonus to new clone units, and a chance to get new special clone Units.
 TEXT_SPEECH_RESEARCH_PROVIDENCE_PREREQS,To begin the research, construct the new research option in the research/political options tab on any planet. This will allow construction of the Providence Carrier/Destroyer, but will lock Providence Destroyer.
 TEXT_SPEECH_RESEARCH_VENATOR_PREREQS,To begin the research, construct the new research option in the research/political options tab on Kuat. This will allow construction of the Venator Star Destroyer, as well as grant new command staff options.
 TEXT_SPEECH_RESEARCH_VENATOR_UNLOCK,Unlocks: Venator Star Destroyer
@@ -12415,6 +12418,7 @@ TEXT_TOOLTIP_CHEAT_DISABLE_AI,Sets all non-human factions to AI player "None" (t
 TEXT_TOOLTIP_CHEAT_GIVE_CREDITS,Gives player $100k
 TEXT_TOOLTIP_CHEAT_GIVE_UNIT,Spawns a supremely powerful ground & space unit over the selected planet (orbit must be secure)
 TEXT_TOOLTIP_CHEAT_GIVE_VISION,Gives galactic vision (toggleable)
+TEXT_TOOLTIP_CHEAT_GOVERNMENT,TR: Immediately give Dark Empire to a faction of your choice; FOTR: Immediate effect of 100 Senate approval; REV: N/A
 TEXT_TOOLTIP_CHEAT_INFLUENCE,Sets Influence to 10 on your planets (toggleable)
 TEXT_TOOLTIP_CHEAT_INFRA_AND_DISCOUNT,Gives 99% discount to build cost & time for everything; gives +10k pop cap per planet; turns off Infrastructure effects (toggleable)
 TEXT_TOOLTIP_CHEAT_KILL_ALL,Kills all units and structures for non-player factions, except heroes and primary starbases.
@@ -13956,6 +13960,7 @@ TEXT_TOOLTIP_HEVY_P1_MOVE,Speed: 0.9
 TEXT_TOOLTIP_HEVY_WEAP1,1x Z-6 Light Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_HMP,The gunship colloquially known as the HMP is a joint effort between Baktoid and Haor Chall developed in response to the success of the Republic's LAAT and underperformance of the earlier MAF. It is armed with three laser cannon turrets and two racks of seven missiles which can be fitted with different kinds of ordnance along with two wingtip hardpoints for a variety of weapons.
 TEXT_TOOLTIP_HMP_COMPANY,Company: 2x HMP Gunship
+TEXT_TOOLTIP_HMP_DEPLOY,Deploys: 1x B2 Super Battle Droid Squad
 TEXT_TOOLTIP_HMP_HEALTH,Health: 120 (Heavy Speeder)
 TEXT_TOOLTIP_HMP_MOVE,Speed: 5.0 | Turn: 4.0 
 TEXT_TOOLTIP_HMP_SHIELD,Shields: 100 / [10/R] (Speeder)
@@ -15926,6 +15931,11 @@ TEXT_TOOLTIP_SECUTOR_WEAP4,3x Heavy Dual Ion Cannons: 1 / 5.0s / 7.4km
 TEXT_TOOLTIP_SECUTOR_WEAP5,14x Light Dual Laser Cannons: 2 / 0.42s / 3.9km
 TEXT_TOOLTIP_SECUTOR_WEAP6,6x Light Proton Torpedoes: 1 / 10.0s / 5.4km
 TEXT_TOOLTIP_SEERDON_FOTR,Chandrilan officer who replaced Hiram Drayson in command of the associated defense forces. Unforgiving, somewhat greedy and nepotistic but reasonably competent, he became one of the first Moffs during the Clone Wars, placed in charge of Steel Blade Command given his prior position.
+TEXT_TOOLTIP_SEISMIC_TANK,Seismic Tank
+TEXT_TOOLTIP_SEISMIC_TANK_COMPANY,1x Seismic Tank
+TEXT_TOOLTIP_SEISMIC_TANK_HEALTH,Health: 250 (Heavy Vehicle)
+TEXT_TOOLTIP_SEISMIC_TANK_MOVE,Speed: 0.6 | Turn: 1.0 
+TEXT_TOOLTIP_SEISMIC_TANK_WEAP1,1x Seismic Driver: 1 / 25.0s / 400m
 TEXT_TOOLTIP_SELIMA,Sélima Kim was a pirate and starship mechanic who specialized in work for privateers. Once her son took over the business, he greatly expanded the scope of operations and named it in honor of his mother. The organization is focused on long term survival, and is paranoid about keeping the location of its main base secret.
 TEXT_TOOLTIP_SELIMA_SQUADRON,Fighters: 4 / 9
 TEXT_TOOLTIP_SELL_STRUCTURE,Sell the current structure
@@ -18424,6 +18434,7 @@ TEXT_UNIT_SECURITYTROOPER_ENGINEER,Corporate Security Trooper Engineer
 TEXT_UNIT_SECURITYTROOPER_PLATOON,Corporate Security Trooper Platoon
 TEXT_UNIT_SECURITYTROOPER_SQUAD,Corporate Security Trooper Squad
 TEXT_UNIT_SECUTOR,Secutor Star Destroyer
+TEXT_UNIT_SEISMIC_TANK,Seismic Tank
 TEXT_UNIT_SENATE_COMMANDO_ASSAULT_SQUAD,Senate Commando Carbineer Squad
 TEXT_UNIT_SENATE_COMMANDO_CARBINER,Senate Commando Carbineer
 TEXT_UNIT_SENATE_COMMANDO_CARBINER_GRENADIER,Senate Commando Carbineer Grenadier
