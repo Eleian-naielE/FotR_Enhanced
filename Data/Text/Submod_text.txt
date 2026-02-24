@@ -1,7 +1,5 @@
 ﻿TEXT_NOTE,Put text changes for submods here
 
-TEXT_ABILITY_DEPLOY_DROID,Deploy B2 Super Battle Droids
-TEXT_ABILITY_DEPLOY_DROID_DESCRIPTION,Deploy a squad of B2 Battle Droids from the transport.
 TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_EMPIRE,Map Testing Campaign Defence (Republic Control)
 TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_REBEL,Map Testing Campaign Defence (CIS Control)
 TEXT_CAMPAIGN_HEADER_MAP_TESTING_EMPIRE,Map Testing Campaign (Republic Control)
@@ -9,6 +7,7 @@ TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS_EMPIRE,Mission Testing (Republic Contr
 TEXT_CAMPAIGN_HEADER_MAP_TESTING_MISSIONS_REBEL,Mission Testing (CIS Control)
 TEXT_CAMPAIGN_HEADER_MAP_TESTING_REBEL,Map Testing Campaign (CIS Control)
 TEXT_CHEAT_GOVERNMENT,raccoonking
+TEXT_COMPANY_HAOR_CHALL_DESCRIPTION,All Haor Chall products: MAF Gunship, HMP Gunship, Hailfire Droid Tank, and C-9979 Carrier, Seismic Tank.
 TEXT_CONQUEST_GOVERNMENT_REP_HERO_SWITCH_SPEECH_FORRAL,The war seems to near its end. I shall share my skill of piloting for the new generations of ace pilots. [Bythen Forral has retired and established Vensenor Flight Academy]
 TEXT_DOCUMENTATION_BODY_INFLUENCE_FIGHTERS_UMBARA,Umbara: Zenuas 33
 TEXT_DOCUMENTATION_BODY_INFLUENCE_PLANET_UMBARA_FOTR,Umbara: Can build Umbaran Support Frigate at 7+ influence.
@@ -34,6 +33,7 @@ TEXT_GOVERNMENT_REPUBLIC_COMMANDO_PRUDII,- Prudii Skirata (ARC Trooper)
 TEXT_GOVERNMENT_REPUBLIC_COUNCIL_OPPO,- Oppo Rancis (Jedi)
 TEXT_GOVERNMENT_SENATOR_LIST,Active Senators:
 TEXT_HERO_BLOCK,Block
+TEXT_HERO_DASSYNE,Oro Dassyne
 TEXT_HERO_GILLEHSPY,Gillehspy
 TEXT_HERO_HAWK,Hawk
 TEXT_HERO_JAG,Jai'galaar "Jag" 
@@ -49,7 +49,7 @@ TEXT_HERO_TJ912,TJ-912
 TEXT_HERO_TM171,TM-171
 TEXT_PHASE_II_MANUAL_UPGRADE_DESCRIPTION,Issue an upgrade for clones who were in hyperspace during the initial upgrade to Phase II. 
 TEXT_PHASE_II_MANUAL_UPGRADE_WARNING, NOTE : This effect is galaxy wide and it will lock once there's no Phase 1 Clones left.
-TEXT_PLANET_INFO_UMBARA_INFLUENCE_REWARD,• Unlocks Umbaran Hover Tanks and Umbaran Support Frigate at 7+ influence
+TEXT_PLANET_INFO_UMBARA_INFLUENCE_REWARD,• Unlocks Umbaran Hover Tanks at 7+ influence and Umbaran Support Frigate at 8+ influence
 TEXT_RESEARCH_PHASE2_MANUAL_UPGRADE,Issue Phase II Armour Upgrade
 TEXT_SPEECH_ANAKIN_DARKSIDE_ESCAPED,Darth Vader: They thought destroying my ship would stop me? Prepare the troops, Commander. I want them crushed—every last one of them
 TEXT_SPEECH_BLOCK_RETURNS_VIGILANCE,Admiral Block: Close call... The Negotiator may be gone, but every life lost will be repaid!\n[Admiral Block has returned in control of the Venator-class, Vigilance].
@@ -60,6 +60,7 @@ TEXT_SPEECH_PHASE_TWO_RESEARCH_UNLOCK_THREE_SUBMOD,Special Clone Units: Clone Ma
 TEXT_SPEECH_RESEARCH_CLONETROOPERII_PREREQS_SUBMOD,To begin the research, construct the new research option in the research/political options tab on Kamino. Phase II armor grants a health and speed bonus to new clone units, and a chance to get new special clone Units.
 TEXT_SPEECH_SCREED_RETURNS_DEMOLISHER,Admiral Screed: I may have lost my ship and an eye, but it's a one step back for a two steps forward.
 TEXT_SPEECH_VADER_ESCAPED,Darth Vader: They will pay for what they have done to my ship. Prepare the troops, Commander. I want no survivors.
+TEXT_SPEECH_VENGEFUL_VENTRESS_SPAWN,Asajj Ventress: I AM fear. I am the queen of a blood soaked plant and an architect of genocide. I have helped to crack the galaxy in half with this war and conquered every enemy I have ever faced -- including death. \n[Asajj Ventress has returned]
 TEXT_STATBLOCK_BYTHEN_FORRAL_BASE,Health: 260 | Unshielded
 TEXT_STATBLOCK_CLOAKSHAPE_CW_BYTHEN_FORRAL_BASE,Health: 90 | Unshielded
 TEXT_STATBLOCK_REPUBLIC_Z95_HAWK_BASE,Health: 250 | Shields: 80
@@ -133,6 +134,10 @@ TEXT_TOOLTIP_COMMAND_NEGOTIATOR,Venator Star Destroyer, Negotiator
 TEXT_TOOLTIP_COMMAND_VALKYRIE2929,LAAT/i Gunship, Valkyrie 2929
 TEXT_TOOLTIP_COMMAND_VILGILANCE,Venator Star Destroyer, Vigilance
 TEXT_TOOLTIP_DARK_ACOLYTE,Dark Acolytes are Dark Jedis who joined the Confederacy of Independent Systems and directly serve its Head of State, Count Dooku. They served various roles from assassins to spies to civilian commanders. Although trained by Dooku, they are not considered to be Sith due to the Rule of Two.
+TEXT_TOOLTIP_DASSYNE,A koorivar who worked for Corporate Alliance and served as a general for the CIS during the clone wars. As a great enjoyer of war, he requested a transfer to Bomis Koori, the planet where he fortified a fortress he deems impenetrable. 
+TEXT_TOOLTIP_ESCORT_DASSYNE1,2x B1 Battle Droid Assault Squad
+TEXT_TOOLTIP_ESCORT_DASSYNE2,2x B2 Super Battle Droid Squad
+TEXT_TOOLTIP_ESCORT_DASSYNE3,2x Persuader Droid Enforcer
 TEXT_TOOLTIP_ESCORT_P1_PLATOON,1x Clone Trooper Platoon (P1)
 TEXT_TOOLTIP_ESCORT_P1_WOLFFE_SPECIAL,2x - Wolfpack Squad (P1)
 TEXT_TOOLTIP_ESCORT_P2_PLATOON,1x Clone Trooper Platoon (P2)
@@ -174,8 +179,9 @@ TEXT_TOOLTIP_RED_GUARD_WEAP1,1x Force Pike: 1 / 1.0s / 1m
 TEXT_TOOLTIP_REPAIR_VADER_SUIT,Repair Vader's damgaed suit.
 TEXT_TOOLTIP_RESOLUTE_SPHAT_UPGRADE,Equip Resolute with SPHA-T in the hanger.
 TEXT_TOOLTIP_RESOURCE_GARRISON_TNT, Treaded Neutron Torch: 1 / 0
+TEXT_TOOLTIP_RESPAWN_VENTRESS,Immense hatred: Respawns after first defeat
 TEXT_TOOLTIP_ROHN,Rohn was a general in command of Shrouded Offensive, a military operation at the planet of Oster assigned by Darth Vader himself.
-TEXT_TOOLTIP_SEISMIC_TANK,Seismic Tank
+TEXT_TOOLTIP_SEISMIC_TANK,A repulsorcraft that uses its large piston to inflict massive damage to the enemy. Originally usesd as a mining vehicle, it is repurposed as a military vehicle with the outebreak of the clone wars.
 TEXT_TOOLTIP_SEISMIC_TANK_COMPANY,1x Seismic Tank
 TEXT_TOOLTIP_SEISMIC_TANK_HEALTH,Health: 250 (Heavy Vehicle)
 TEXT_TOOLTIP_SEISMIC_TANK_MOVE,Speed: 0.6 | Turn: 1.0 

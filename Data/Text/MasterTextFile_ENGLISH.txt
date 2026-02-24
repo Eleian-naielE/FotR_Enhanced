@@ -338,8 +338,8 @@ TEXT_ABILITY_BOARD,Board Enemy Vessel
 TEXT_ABILITY_BOARD_DESCRIPTION,Ready the troops to seize an enemy ship. The closest applicable vessel will be marked for capture. After 5 seconds, the boarding action will either be successful or not, with a higher chance for success the weaker the ship is. Check ship descriptions to see if they can be boarded. After the battle, it will be refitted at one of your planets, indicated in the top left corner when you re-enter Galactic mode.
 TEXT_ABILITY_DEPLOY_CLONE,Deploy Clone Troopers
 TEXT_ABILITY_DEPLOY_CLONE_DESCRIPTION,Deploy a squad of Clone troopers from the transport.
-TEXT_ABILITY_DEPLOY_DROID,Deploy B2 Super Battle Droids
-TEXT_ABILITY_DEPLOY_DROID_DESCRIPTION,Deploy a squad of B2 Battle Droids from the transport.
+TEXT_ABILITY_DEPLOY_DROID,Deploy B1 Battle Droids
+TEXT_ABILITY_DEPLOY_DROID_DESCRIPTION,Deploy a squad of B1 Battle Droids from the transport.
 TEXT_ABILITY_MICROJUMP,Micro-jump
 TEXT_ABILITY_MICROJUMP_DESCRIPTION,A micro-jump - tactical jump into hyperspace over a very short distance.
 TEXT_ABILITY_RETREAT,Emergency Retreat
@@ -853,7 +853,7 @@ TEXT_COMPANY_GEONOSIAN_DESCRIPTION,All Geonosian Industries, Gordarl Weaponsmith
 TEXT_COMPANY_GUARJA,Guarja Shipyards
 TEXT_COMPANY_GUARJA_DESCRIPTION,All Guarja products: Juvard Frigate, Barabbula Frigate, Szajin Cruiser, Karagga Destroyer, Vontor Destroyer, and Dor'Bulla.
 TEXT_COMPANY_HAOR_CHALL,Haor Chall Engineering
-TEXT_COMPANY_HAOR_CHALL_DESCRIPTION,All Haor Chall products: MAF Gunship, HMP Gunship, Hailfire Droid Tank, and C-9979 Carrier.
+TEXT_COMPANY_HAOR_CHALL_DESCRIPTION,All Haor Chall products: MAF Gunship, HMP Gunship, Hailfire Droid Tank, and C-9979 Carrier, Seismic Tank.
 TEXT_COMPANY_HOERSCH_KESSEL,Hoersch-Kessel Drive, Inc.
 TEXT_COMPANY_HOERSCH_KESSEL_DESCRIPTION_FOTR,All Hoersch-Kessel products: Munificent Star Frigate, Recusant Light Destroyer, DH-Omni Support Vessel, and Lucrehulk variants.
 TEXT_COMPANY_HOLONET_RELAY_HQ,HoloNet Data Transfer HQ
@@ -3290,6 +3290,7 @@ TEXT_HERO_DARK_JEDI_HEADMASTER,Headmaster
 TEXT_HERO_DARMAN,Darman
 TEXT_HERO_DARTH_MAUL,Darth Maul
 TEXT_HERO_DARTH_VADER,Darth Vader
+TEXT_HERO_DASSYNE,Oro Dassyne
 TEXT_HERO_DELLSO,Gizor Dellso
 TEXT_HERO_DENGAR,Dengar
 TEXT_HERO_DENGAR_TEAM,Dengar
@@ -8607,7 +8608,7 @@ TEXT_PLANET_INFO_UMARENK_HISTORY,Umaren'k was a planet located in the Umaren'k s
 TEXT_PLANET_INFO_UMARENK_POPULATION,Native: Umaren'k'sa\nImmigrated: Hemes Arbora
 TEXT_PLANET_INFO_UMBARA_FAUNA,Banshee | Gladiopod | Mantorr | Skeeris | Slybex | Vixian Mauler | Vixus
 TEXT_PLANET_INFO_UMBARA_HISTORY,Informally known as the "Shadow World", Umbara is a perpetually darkened planet in the realm of the Ghost Nebula. Umbara has a mixed history of galactic allegiance; a member of the Republic since its earliest days but also spending considerable periods under Sith influence, such as under the New Sith Empire and later the Brotherhood of Darkness when the planet hosted a Sith assassin training academy.
-TEXT_PLANET_INFO_UMBARA_INFLUENCE_REWARD,• Unlocks Umbaran Hover Tanks and Umbaran Support Frigate at 7+ influence
+TEXT_PLANET_INFO_UMBARA_INFLUENCE_REWARD,• Unlocks Umbaran Hover Tanks at 7+ influence and Umbaran Support Frigate at 8+ influence
 TEXT_PLANET_INFO_UMBARA_POPULATION,Native: Umbaran\n55 Million
 TEXT_PLANET_INFO_URCH_FAUNA,Various
 TEXT_PLANET_INFO_URCH_HISTORY,Urch was a terrestrial planet located in the Unknown Regions Urch system, to the north east of the Chiss Ascendancy.  Urch was the capital planet of the Tower Dimension, the nation of the sentient Urchiv-ki species. Urch Planetary and Space Control controlled space traffic in the system. Around 19 BBY the Nikardun Destiny, the hegemony of the Nikardun species, subjugated Urch and the Tower Dimension.
@@ -9193,6 +9194,7 @@ TEXT_SPEECH_TRENCH_RETURNS,Trench: The Republic thinks they have beaten me, but 
 TEXT_SPEECH_VADER_ESCAPED,Darth Vader: They will pay for what they have done to my ship. Prepare the troops, Commander. I want no survivors.
 TEXT_SPEECH_VENATOR_RESEARCH,KDY Representative: The Navy is in dire need of a standardized command ship to combat the threats to our civilization. To show our commitment to the Chancellor, we at Kuat Drive Yards offer just such a ship, which will be substantially armed and able to host a vast number of fighters. This Venator-class will allow Republic officers to take the fight to the Separatists across all fronts, and KDY would be honored if you would sponsor it.
 TEXT_SPEECH_VENATOR_RESEARCH_FINISHED,KDY Representative: Development on the new capital ship has completed.\n[Venator Star Destroyer Unlocked]
+TEXT_SPEECH_VENGEFUL_VENTRESS_SPAWN,Asajj Ventress: I AM fear. I am the queen of a blood soaked plant and an architect of genocide. I have helped to crack the galaxy in half with this war and conquered every enemy I have ever faced -- including death. \n[Asajj Ventress has returned]
 TEXT_SPEECH_VICTORY1_RESEARCH,Walex Blissex: With your approval, Rendili and Kuat have approached me about creating a new type of destroyer for Republic use, the Victory-class. Compared to the Venator's design as a carrier-destroyer, the Victory will serve as a dedicated planetary assault ship featuring numerous turbolasers and missile tubes. My talks with High Command assured me this 'Victor Initiative' will round out the Republic Navy's offensive power significantly, and Kuat Drive Yards and Rendili StarDrive have both expressed interest in developing the initial production line.
 TEXT_SPEECH_VICTORY1_RESEARCH_FINISHED,Walex Blissex: A remarkable vessel. With the engineering breakthroughs we tackled developing her, she's just the start of things to come.\n[Victory-I Star Destroyer Unlocked] 
 TEXT_SPEECH_VICTORY2_RESEARCH,KDY Representative: The Victor Initiative Project has proven its combat effectiveness and our team at Kuat along with our Rendili counterparts have formulated further ways to improve the existing Victory-I Star Destroyer design. Our proposed Victory-II iteration will include increased speed along with heavy turbolasers and ion cannons, to counter larger Separatist warships. The engineers at Kuat and Rendili are ready if High Command would invest in it, but I assure you it will be well worth it.
@@ -13097,6 +13099,7 @@ TEXT_TOOLTIP_DARK_JEDI_HEALTH,Health: 60 [2%/5s] (Hero)
 TEXT_TOOLTIP_DARK_JEDI_MOVE,Speed: 1.2
 TEXT_TOOLTIP_DARK_JEDI_WEAP1,1x Lightsaber: 1 / 0.5s / 1m
 TEXT_TOOLTIP_DARMAN,RC-1136 was a Clone Commando who adopted the name Darman. Darman was the sole survivor of Theta squad in their first battle deployment to Geonosis and then reassigned to Omega Squad as the demolitions specialist. During the Clone Wars Darman would secretly marry a Padawan named Etain Tur-Mukan and even had a son with her, although she would die during Order 66. Despite being formally adopted into Clan Skirata, Darman was unable to desert the Empire like half of Omega Squad and was forced to become an Imperial Commando in Squad 40.
+TEXT_TOOLTIP_DASSYNE,A koorivar who worked for Corporate Alliance and served as a general for the CIS during the clone wars. As a great enjoyer of war, he requested a transfer to Bomis Koori, the planet where he fortified a fortress he deems impenetrable. 
 TEXT_TOOLTIP_DECONSTRUCT_STRUCTURE,Removes the existing structure and refunds 50% of its build cost to your treasury.
 TEXT_TOOLTIP_DEFEND_BUTTON,Boost shield regeneration rate while decreasing speed and fire rate
 TEXT_TOOLTIP_DEFENSE_SATELLITE_LASER_00,All purpose laser platform designed for perimeter space defense against fighter and corvette class ships.
@@ -13352,6 +13355,9 @@ TEXT_TOOLTIP_ESCORT_AYCEN2,1x Gozanti Cruiser Raider Squadron
 TEXT_TOOLTIP_ESCORT_BACARA,1x Clone Marine Platoon
 TEXT_TOOLTIP_ESCORT_CODY_P2_1,2x Clone Airborne Assault Squad
 TEXT_TOOLTIP_ESCORT_CODY_P2_2,2x Clone Airborne Heavy Weapons Squad
+TEXT_TOOLTIP_ESCORT_DASSYNE1,2x B1 Battle Droid Assault Squad
+TEXT_TOOLTIP_ESCORT_DASSYNE2,2x B2 Super Battle Droid Squad
+TEXT_TOOLTIP_ESCORT_DASSYNE3,2x Persuader Droid Enforcer
 TEXT_TOOLTIP_ESCORT_DROGEN_HOSH,4x STAP
 TEXT_TOOLTIP_ESCORT_EYTTYRMIN1,6x / 16x Light corvette (randomized)
 TEXT_TOOLTIP_ESCORT_EYTTYRMIN2,2x / 4x Heavy corvette (randomized)
@@ -15611,6 +15617,7 @@ TEXT_TOOLTIP_RESPAWN_GRIEVOUS_TIER2,Abandon Ship: Respawns in a Munificent after
 TEXT_TOOLTIP_RESPAWN_GRIEVOUS_TIER3,Warrior's Death: Grievous permanently dies if defeated
 TEXT_TOOLTIP_RESPAWN_SLAYKE,'til the last man: Respawns in a modified CR90 if defeated
 TEXT_TOOLTIP_RESPAWN_TRENCH,Mastermind: Respawns in 5 cycles if defeated
+TEXT_TOOLTIP_RESPAWN_VENTRESS,Immense hatred: Respawns after first defeat
 TEXT_TOOLTIP_RESULTS_EMPIRE_KILLED,Total number of Empire forces destroyed:
 TEXT_TOOLTIP_RESULTS_FUNDING_GAINED,Planetary funding gained:
 TEXT_TOOLTIP_RESULTS_FUNDING_LOST,Planetary funding lost:
@@ -15931,7 +15938,7 @@ TEXT_TOOLTIP_SECUTOR_WEAP4,3x Heavy Dual Ion Cannons: 1 / 5.0s / 7.4km
 TEXT_TOOLTIP_SECUTOR_WEAP5,14x Light Dual Laser Cannons: 2 / 0.42s / 3.9km
 TEXT_TOOLTIP_SECUTOR_WEAP6,6x Light Proton Torpedoes: 1 / 10.0s / 5.4km
 TEXT_TOOLTIP_SEERDON_FOTR,Chandrilan officer who replaced Hiram Drayson in command of the associated defense forces. Unforgiving, somewhat greedy and nepotistic but reasonably competent, he became one of the first Moffs during the Clone Wars, placed in charge of Steel Blade Command given his prior position.
-TEXT_TOOLTIP_SEISMIC_TANK,Seismic Tank
+TEXT_TOOLTIP_SEISMIC_TANK,A repulsorcraft that uses its large piston to inflict massive damage to the enemy. Originally usesd as a mining vehicle, it is repurposed as a military vehicle with the outebreak of the clone wars.
 TEXT_TOOLTIP_SEISMIC_TANK_COMPANY,1x Seismic Tank
 TEXT_TOOLTIP_SEISMIC_TANK_HEALTH,Health: 250 (Heavy Vehicle)
 TEXT_TOOLTIP_SEISMIC_TANK_MOVE,Speed: 0.6 | Turn: 1.0 
