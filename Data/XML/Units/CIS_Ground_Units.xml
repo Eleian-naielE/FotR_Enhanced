@@ -750,7 +750,7 @@
     </GroundVehicle>
 
 
-	<GroundVehicle Name="HMP"> <!-- FotR_Enhanced ; B2 Deploy Ability added -->
+	<GroundVehicle Name="HMP"> <!-- FotR_Enhanced ; B2 Deploy Ability added ; disabled -->
 
 		<Text_ID>TEXT_UNIT_HMP</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_GUNSHIP</Encyclopedia_Unit_Class>
@@ -764,8 +764,6 @@
 		TEXT_TOOLTIP_HMP_WEAP2 
 		TEXT_TOOLTIP_HMP_WEAP3
 		TEXT_TOOLTIP_HMP_WEAP4
-		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
-		<!--TEXT_TOOLTIP_HMP_DEPLOY-->
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_hmp.tga</Icon_Name>
 
@@ -974,8 +972,6 @@
 		TEXT_TOOLTIP_HMP_WEAP2
 		TEXT_TOOLTIP_HMP_WEAP3
 		TEXT_TOOLTIP_HMP_WEAP4
-		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
-		TEXT_TOOLTIP_HMP_DEPLOY
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_hmp.tga</Icon_Name>
 
