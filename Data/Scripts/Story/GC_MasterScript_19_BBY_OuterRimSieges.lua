@@ -279,6 +279,7 @@ function Generic_Story_Set_Up()
 	StoryUtil.SpawnAtSafePlanet("SY_MYRTH", p_cis, StoryUtil.GetSafePlanetTable(), {"Nute_Gunray_Team"})
 	StoryUtil.SpawnAtSafePlanet("NEW_BORNALEX", p_cis, StoryUtil.GetSafePlanetTable(), {"Tobbi_Dala_Team","Fenn_Shysa_Team","Spar_Team"})
 	StoryUtil.SpawnAtSafePlanet("THYFERRA", p_cis, StoryUtil.GetSafePlanetTable(), {"Colicoid_Swarm"})
+	StoryUtil.SpawnAtSafePlanet("BOMIS_KOORI", p_cis, StoryUtil.GetSafePlanetTable(), {"Dassyne_CA_Artillery_Team"}) -- FotR_Enhanced
 
 	StoryUtil.SpawnAtSafePlanet("BOZ_PITY", p_republic, StoryUtil.GetSafePlanetTable(), {"Anakin_Eta_Team","Obi_Wan_Eta_Team","Cody2_Team","Wessex_Redoubt"})
 	StoryUtil.SpawnAtSafePlanet("KASHYYYK", p_republic, StoryUtil.GetSafePlanetTable(), {"Delta_Squad"})
@@ -313,6 +314,7 @@ function CIS_Story_Set_Up()
 	StoryUtil.SpawnAtSafePlanet("TRITON", p_cis, StoryUtil.GetSafePlanetTable(), {"Dalesham_Nova_Defiant"})
 	StoryUtil.SpawnAtSafePlanet("NEW_BORNALEX", p_cis, StoryUtil.GetSafePlanetTable(), {"Tobbi_Dala_Team","Fenn_Shysa_Team","Spar_Team"})
 	StoryUtil.SpawnAtSafePlanet("THYFERRA", p_cis, StoryUtil.GetSafePlanetTable(), {"Colicoid_Swarm"})
+	StoryUtil.SpawnAtSafePlanet("BOMIS_KOORI", p_cis, StoryUtil.GetSafePlanetTable(), {"Dassyne_CA_Artillery_Team"}) -- FotR_Enhanced
 
 	StoryUtil.SpawnAtSafePlanet("KASHYYYK", p_republic, StoryUtil.GetSafePlanetTable(), {"Delta_Squad"})
 	StoryUtil.SpawnAtSafePlanet("CENTARES", p_republic, StoryUtil.GetSafePlanetTable(), {"Aayla_Secura_Eta_Team","Bly2_Team"})
@@ -972,6 +974,7 @@ function Rep_Story_Set_Up()
 	StoryUtil.SpawnAtSafePlanet("SY_MYRTH", p_cis, StoryUtil.GetSafePlanetTable(), {"Nute_Gunray_Team"})
 	StoryUtil.SpawnAtSafePlanet("NEW_BORNALEX", p_cis, StoryUtil.GetSafePlanetTable(), {"Tobbi_Dala_Team","Fenn_Shysa_Team","Spar_Team"})
 	StoryUtil.SpawnAtSafePlanet("THYFERRA", p_cis, StoryUtil.GetSafePlanetTable(), {"Colicoid_Swarm"})
+	StoryUtil.SpawnAtSafePlanet("BOMIS_KOORI", p_cis, StoryUtil.GetSafePlanetTable(), {"Dassyne_CA_Artillery_Team"}) -- FotR_Enhanced
 
 	StoryUtil.SpawnAtSafePlanet("KASHYYYK", p_republic, StoryUtil.GetSafePlanetTable(), {"Delta_Squad"})
 	StoryUtil.SpawnAtSafePlanet("CENTARES", p_republic, StoryUtil.GetSafePlanetTable(), {"Aayla_Secura_Eta_Team","Bly2_Team"})

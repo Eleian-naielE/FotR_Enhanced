@@ -353,4 +353,5 @@ return {
 	,ROHN_TEAM = {nil, false}
 	,TJ912_RECUSANT = {nil, true}
     ,TM171_DH_OMNI={nil, true}
+	,Dassyne_CA_Artillery_Team={nil, false}
 }

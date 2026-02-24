@@ -2875,6 +2875,145 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Commando</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
+<!-- FotR_Enhanced -->
+	<HeroUnit Name="Dassyne_CA_Artillery">
+		<Variant_Of_Existing_Type>CA_Artillery</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_DASSYNE</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GENERAL</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_FORTIFICATION
+		TEXT_TOOLTIP_TRAIT_UTILITY_SALVAGER
+		TEXT_TOOLTIP_TRAIT_COMMAND_ARROGANT
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_DASSYNE
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_CA_ARTILLERY
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_DASSYNE1
+		TEXT_TOOLTIP_ESCORT_DASSYNE2
+		TEXT_TOOLTIP_ESCORT_DASSYNE3
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CA_ARTILLERY_HEALTH
+		TEXT_TOOLTIP_CA_ARTILLERY_MOVE 
+		TEXT_TOOLTIP_CA_ARTILLERY_WEAP1
+		</Encyclopedia_Text>
+
+		<Icon_Name>i_button_dassyne.tga</Icon_Name>
+
+		<Affiliation>Rebel</Affiliation>
+		<CategoryMask> VehicleHero | AntiInfantry | AntiStructure </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		<LandBehavior>
+			ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, SQUASH, TREAD_SCROLL, 
+			WALK_LOCOMOTOR, IDLE,TARGETING, WEAPON, TURRET, POWERED, REVEAL,
+			HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET,STUNNABLE, 
+			WIND_DISTURBANCE,DAMAGE_TRACKING, SPAWN_SQUADRON
+		</LandBehavior>
+		<Highlight_Blob_Material_Name>Highlight_CIS_Hero</Highlight_Blob_Material_Name>
+		
+		<Starting_Spawned_Units_Tech_0>B1_Droid_MTT_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>B2_Droid_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Persuader, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 + Arrogant + Fortification_Specialist -->
+			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Battlefield_Modifier_Ability Name="Command_Tier_06_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.18</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Combat_Bonus_Ability Name="Fortification_Specialist_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Structure | SpaceStructure</Applicable_Unit_Categories>
+				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Battlefield_Modifier_Ability Name="Fortification_Specialist_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Structure | SpaceStructure</Applicable_Unit_Categories>
+				<FOW_Reveal_Range_Multiplier>1.06</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>1</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</HeroUnit>
+	<HeroCompany Name="Dassyne_CA_Artillery_Team">
+		<Text_ID>TEXT_HERO_DASSYNE</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GENERAL</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_FORTIFICATION
+		TEXT_TOOLTIP_TRAIT_UTILITY_SALVAGER
+		TEXT_TOOLTIP_TRAIT_COMMAND_ARROGANT
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_DASSYNE
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_CA_ARTILLERY
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_DASSYNE1
+		TEXT_TOOLTIP_ESCORT_DASSYNE2
+		TEXT_TOOLTIP_ESCORT_DASSYNE3
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CA_ARTILLERY_HEALTH
+		TEXT_TOOLTIP_CA_ARTILLERY_MOVE 
+		TEXT_TOOLTIP_CA_ARTILLERY_WEAP1
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_dassyne.tga</Icon_Name>
+		
+		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>CIS_Sheathipede_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Dassyne_CA_Artillery</Company_Units>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move/>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>4890</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</HeroCompany>
+
 <!-- For Reference
 	<HeroUnit Name="Poggle">
 		<Text_ID>TEXT_HERO_POGGLE</Text_ID>
