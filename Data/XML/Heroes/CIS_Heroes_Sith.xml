@@ -562,7 +562,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
 		<Scale_Factor>0.7</Scale_Factor>
-		<Select_Box_Scale>2000</Select_Box_Scale>
+		<Select_Box_Scale>1800</Select_Box_Scale>
 
 		<Tactical_Health>3600</Tactical_Health>
 		<Shield_Points>3500</Shield_Points>
