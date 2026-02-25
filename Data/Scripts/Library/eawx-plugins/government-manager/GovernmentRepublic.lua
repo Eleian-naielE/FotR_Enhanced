@@ -384,7 +384,7 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 				end
 			end
         end
-		crossplot:publish("ADJUST_MARKET_AMOUNT", {"EMPIRE", "CLONE_MARKET", "ARC_PHASE_TWO_COMPANY", amount})
+		crossplot:publish("ADJUST_MARKET_AMOUNT", {{"EMPIRE", "CLONE_MARKET", "ARC_PHASE_TWO_COMPANY", amount}})
 		--[[if GlobalValue.Get("ARC_LIFETIME_LIMIT") == 0 then
 			UnitUtil.SetLockList("EMPIRE", {"ARC_PHASE_TWO_COMPANY"}, false)
 		end]]
