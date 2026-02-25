@@ -1255,7 +1255,7 @@ function JetBacaraSwap()
 		JetBacara_swapped = 1
 	else 
 		Handle_Hero_Add("Jet", clone_data)
-		local Jet_Object = Find_First_Object("Jet2")
+		local Jet_Object = Find_First_Object("Bacara2")
 		local planet = Jet_Object.Get_Planet_Location()
 		Handle_Hero_Exit("Bacara", clone_data)
 		if TestValid(Jet_Object) then
