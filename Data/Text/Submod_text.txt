@@ -71,6 +71,7 @@ TEXT_STATBLOCK_UMBARAN_FIGHTER_WEAP1,1x Heavy Fighter Laser Cannon: 3 / 1.0s / 1
 TEXT_STATBLOCK_UMBARAN_FIGHTER_WEAP2,2x Rhazer Missiles: 4 / 8.0s / 1.2km
 TEXT_STORY_REPUBLIC_FUTURE_EFFECT,Regardless of which you choose, the following will take effect
 TEXT_STORY_REPUBLIC_FUTURE_EFFECT_01,New Heroes: Bythen Forral (Venator), Removes: Bythen Forral (Cloakshape Squadron)
+TEXT_STORY_REPUBLIC_FUTURE_EFFECT01,Byhten Forral will retire from pilot duty and will reappear in Vensenor (Venator)
 TEXT_TOOLTIP_A6_PROTOTYPE,A prototype of the A6 Juggernaut, it is rather well armed and armored than its predecessor, the A5 Juggernaut. Though stripped down version of the final product, it is still capable of handling large enemies on it own.
 TEXT_TOOLTIP_A6_PROTOTYPE_HEALTH,Health: 1300 (Heavy Vehicle)
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP1,1x Heavy AV Blaster Cannon: 3 / 2.0s / 480m

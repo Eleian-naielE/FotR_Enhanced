@@ -10566,6 +10566,7 @@ TEXT_STORY_REPUBLIC_FUTURE_CHOOSE_ORDER_65,SUPPORT THE DELEGATION OF 2,000: The 
 TEXT_STORY_REPUBLIC_FUTURE_CHOOSE_ORDER_66,SUPPORT CHANCELLOR PALPATINE: Palpatine issues Order 66 and crowns himself Emperor. Removes: all Jedi, Jace Dallin, Sagoro Autem, Ordo Skirata, and A'den Skirata. New heroes: Emperor Palpatine & Darth Vader (Sith). Unlocks upgrade for Wullf Yularen (Invincible). After a short delay, unlocks a new KDY contract. The contract adds Imperator, Tector, and Secutor Star Destroyers to the ship market, gives new hero Mulleen (Imperator), unlocks Gamma ATR-6 Assault Transport and upgrade for Wilhuff Tarkin (Imperator).
 TEXT_STORY_REPUBLIC_FUTURE_EFFECT,Regardless of which you choose, the following will take effect
 TEXT_STORY_REPUBLIC_FUTURE_EFFECT_01,New Heroes: Bythen Forral (Venator), Removes: Bythen Forral (Cloakshape Squadron)
+TEXT_STORY_REPUBLIC_FUTURE_EFFECT01,Byhten Forral will retire from pilot duty and will reappear in Vensenor (Venator)
 TEXT_STORY_RIMWARD_CAMPAIGN_CIS_ACT_I_HINT,Certain heroes are required to advance the story!  [General Grievous]
 TEXT_STORY_RIMWARD_CAMPAIGN_CIS_ACT_I_OBJECTIVE,Conquer the following planets:
 TEXT_STORY_RIMWARD_CAMPAIGN_CIS_ACT_I_TITLE,Story - A Galaxy Divided
