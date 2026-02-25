@@ -11898,6 +11898,7 @@ TEXT_TOOLTIP_BACARA_P1_HEALTH,Health: 145 (Hero)
 TEXT_TOOLTIP_BACARA_P1_MOVE,Speed: 0.9
 TEXT_TOOLTIP_BACARA_P2_HEALTH,Health: 155 (Hero)
 TEXT_TOOLTIP_BACARA_P2_MOVE,Speed: 1.1
+TEXT_TOOLTIP_BACARA_SWAP_JET,Replace Bacara with Jet
 TEXT_TOOLTIP_BACARA_WEAP1,1x DC-15S Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_BACARA_WEAP2,1x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_BACKWATER_SOLDIER,Soldiers drawn from local societies with limited contact with the wider galaxy, with little to no spaceflight capabilities of their own. They rely on primitive chemical propellant weapons and concentration of force, and can rarely succeed without high morale and support.
@@ -14186,6 +14187,7 @@ TEXT_TOOLTIP_JET_P1_HEALTH,Health: 135 (Hero)
 TEXT_TOOLTIP_JET_P1_MOVE,Speed: 1.1
 TEXT_TOOLTIP_JET_P2_HEALTH,Health: 150 (Hero)
 TEXT_TOOLTIP_JET_P2_MOVE,Speed: 1.2
+TEXT_TOOLTIP_JET_SWAP_BACARA,Replace Jet with Bacara
 TEXT_TOOLTIP_JET_WEAP1,1x PLX-1 Launcher: 1 / 5.0s / 320m
 TEXT_TOOLTIP_JET_WEAP2,1x Flame Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_JILIAC,After Jiliac's brother and kajidic head Zorba was imprisoned for his crimes, leadership of clan Desilijic passed to Jiliac, as well as Zorba's son Jabba. The pair expanded the Kajidic's share of the Spice trade while engaging in a fierce rivalry with the Besadii.

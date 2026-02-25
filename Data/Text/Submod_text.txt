@@ -91,6 +91,7 @@ TEXT_TOOLTIP_ARC170_GROUND_WEAP1,2x Heavy AV Blaster Cannon: 4 / 2.0s / 1.1km
 TEXT_TOOLTIP_ARC170_GROUND_WEAP2,2x Aft AV Blaster Cannon: 2 / 2.0s / 1.0km
 TEXT_TOOLTIP_ARC170_GROUND_WEAP3,1x Fighter Concussion Missile (AF): 1 / 37.5s / 1.8km
 TEXT_TOOLTIP_ARC170_GROUND_WEAP4,1x Proton Torpedo (AC): 1 / 37.5s / 1.8km
+TEXT_TOOLTIP_BACARA_SWAP_JET,Replace Bacara with Jet
 TEXT_TOOLTIP_BLOCK,Admiral Block was the commanding officer of the Negotiator, and later Vigilance, both serving the role as the flagship of Jedi general Obi Wan Kenobi.
 TEXT_TOOLTIP_BLOCK_VILGILANCE_RESPAWN,Block respawns in a Venator(Vigilance) after his first death
 TEXT_TOOLTIP_BUILDLIMIT_ARC_TROOPER,Build Limit & Lifetime: 40-10 (Era dependent)
@@ -154,6 +155,7 @@ TEXT_TOOLTIP_HAWK,A call sign named after his hawk-like eyes, Lieutenant Hawk sa
 TEXT_TOOLTIP_HMP_DEPLOY,Deploys: 1x B2 Super Battle Droid Squad
 TEXT_TOOLTIP_JAG, CT-55/11-9009, known as Jai'galaar or Jag, was a clone pilot captin in the Clone Army. Originally a Clone Commander, he was demoted to captain after the Retreat at Katraasii. Later, Jedi General Plo Koon drafted the captin as the test pilot for the new ARC-170 starfighters and flew with him on many battles including the battle over Cato Neimoidia.
 TEXT_TOOLTIP_JAG_WINGMAN,CT-57/11-9048 was a clone pilot of the 127th Gunship Wing and wingman to Captain Jai’galaar. Flying an ARC-170 over Cato Neimoidia, he executed Order 66 without hesitation, shooting down Jedi General Plo Koon during a routine patrol.
+TEXT_TOOLTIP_JET_SWAP_BACARA,Replace Jet with Bacara
 TEXT_TOOLTIP_MAGNATRI_MISSILE,A late war variant of the infamous Magna Tri Droid, this variant replaces its heavy lasers for chain fed ordnance. It was powerful enough to blow the enemy vehicle with a single shot of its missile such as UT-AT.
 TEXT_TOOLTIP_MAGNATRI_MISSILE_COMPANY,Company: 2x Magna Octuptarra Droid (Ordance)
 TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP1,1x Super Heavy Concussion Missile: 1 / 6.0s / 560m
