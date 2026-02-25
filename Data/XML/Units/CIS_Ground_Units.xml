@@ -5222,7 +5222,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>R_Ground_Advanced_Vehicle_Factory | Haor_Chall_HQ </Required_Special_Structures>
 		<Required_Planets />
-		<Build_Initially_Locked>No</Build_Initially_Locked> <!-- Should change -->
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>4</Formation_Priority>
