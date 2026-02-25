@@ -116,19 +116,20 @@ function DefineUnitTable(faction, rosterOverride)
 		EMPIRE = {
 			Space_Unit_Table = {
 				{"Invincible_Cruiser", 1, LastYear = -21}
-				,{"Venator_Star_Destroyer", 1, StartYear = -21}
+				,{"Venator_Star_Destroyer", 1.5, StartYear = -21}
 				,{"Victory_I_Star_Destroyer", 1, StartYear = -20}
 				,{"Imperial_DHC", 4, StartYear = -19}
 				,{"REP_DHC", 4}
 				,{"PDF_DHC", 4}
 				,{"Carrack_Cruiser_Lasers", 5}
-				,{"Acclamator_I_Carrier", 4, StartYear = -22}
-				,{"Acclamator_I_Assault", 4, StartYear = -22}
+				,{"Acclamator_I_Carrier", 4, StartYear = -22} 
+				,{"Acclamator_I_Assault", 4, StartYear = -21} -- FotR_Enhanced
 				,{"Acclamator_II", 4, StartYear = -19}
-				,{"Class_C_Frigate", 3, LastYear = -21}
+				,{"Class_C_Frigate", 3, LastYear = -22} 
+				,{"Class_C_Support", 3, LastYear = -22} 
 				,{"Arquitens", 3, StartYear = -21}
-				,{"Pelta_Assault", 3, StartYear = -22}
-				,{"Pelta_Support", 3, StartYear = -22}
+				,{"Pelta_Assault", 3, StartYear = -21}
+				,{"Pelta_Support", 3, StartYear = -21}
 				,{"LAC", 3}
 				,{"Consular_Refit", 3, LastYear = -22}
 				,{"Charger_C70", 3, StartYear = -22}
@@ -142,7 +143,10 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"Special_Tactics_Trooper_Company", 3}
 				,{"Clonetrooper_Phase_One_Company", 5, StartYear = -21, LastYear = -21}
 				,{"Clonetrooper_Phase_Two_Company", 5, StartYear = -20}
-				,{"Clone_Galactic_Marine_Company", 1, StartYear = -20} -- FotR_Enhanced ; mathced with Phase 2 research
+				,{"Clone_Special_Ops_Company", 2, LastYear = -21} -- FotR_Enhanced
+				,{"Clone_Galactic_Marine_Company", 2, StartYear = -20} -- FotR_Enhanced ; mathced with Phase 2 research
+				,{"Clone_Airborne_Trooper_Company", 1, StartYear = -20} -- FotR_Enhanced
+				,{"Clone_Scout_Trooper_Company", 2, StartYear = -20} -- FotR_Enhanced
 				,{"Republic_SD_6_Droid_Company", 1}
 				,{"Ailon_Nova_Guard_Company", 0.5}
 				,{"Republic_AT_PT_Company", 2}
@@ -259,6 +263,7 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"PAC_Company", 1}
 				,{"MAF_Company", 1}
 				,{"HMP_Company", 1, StartYear = -19}
+				,{"Magna_Missile_Company", 1, StartYear = -19}
 			},
 			Groundbase_Table = {
 				"R_Ground_Barracks",
@@ -299,8 +304,6 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"REP_DHC", 3}
 				,{"DHC_Carrier", 2}
 				,{"Carrack_Cruiser_Lasers", 5}
-				,{"Acclamator_I_Carrier", 4, StartYear = -22}
-				,{"Acclamator_I_Assault", 4, StartYear = -22}
 				,{"Praetor_I_Battlecruiser", 0.1}
 				,{"Citadel_Cruiser_Group", 3}
 				,{"Galleon", 3}
@@ -325,7 +328,7 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"Republic_ULAV_Company", 2, StartYear = -22}
 				,{"Republic_VAAT_Company", 1}
 				,{"Republic_Gaba18_Company", 1}
-				,{"Republic_A5RX_Company", 0.2, StartYear = -22}
+				--,{"Republic_A5RX_Company", 0.2, StartYear = -22} -- FotR_Enhanced
 				,{"Republic_A5_Juggernaut_Company", 1, StartYear = -22}
 				,{"Republic_A4_Juggernaut_Company", 1}
 				,{"Republic_Gian_Company", 1}
@@ -839,8 +842,7 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"Republic_AT_TE_Walker_Company", 0.5, StartYear = -22}
 				,{"AT_OT_Walker_Company", 2, StartYear = -19}
 				,{"Republic_AT_AP_Walker_Company", 2, StartYear = -19}
-				-- FotR_Enhanced
-				,{"Republic_A6_Prototype_Company", 0.5, StartYear = -21, LastYear = -20}
+				,{"Republic_A6_Prototype_Company", 0.5, StartYear = -21, LastYear = -20} -- FotR_Enhanced
 			},
 			Government_Building = "KDY_HQ",
 		},
@@ -897,9 +899,9 @@ function DefineUnitTable(faction, rosterOverride)
 				{"Clonetrooper_Phase_One_Company", 2, LastYear = -21}
 				,{"Clonetrooper_Phase_Two_Company", 2, StartYear = -20}
 				,{"Clone_Galactic_Marine_Company", 1, StartYear = -20} -- FotR_Enhanced ; mathced with Phase 2 research
-				,{"ARC_Phase_One_Company", 1, LastYear = -21}
+				,{"ARC_Phase_One_Company", 1, StartYear = -21, LastYear = -21} -- FotR_Enhanced ; 
 				,{"ARC_Phase_Two_Company", 1, StartYear = -20}
-				,{"Clone_Commando_Company", 1}
+				,{"Clone_Commando_Rework_Company", 1}
 				,{"Clone_Special_Ops_Company", 1, LastYear = -21}
 				,{"Clone_Vehicular_Assault_Company", 0.25, LastYear = -21}				
 				,{"Clone_Flame_Trooper_Company", 0.5}
@@ -915,9 +917,9 @@ function DefineUnitTable(faction, rosterOverride)
 				{"Galleon", 1}
 				,{"Pelta_Assault", 2, StartYear = -22}
 				,{"Pelta_Support", 2, StartYear = -22}
-				,{"Acclamator_I_Carrier", 4, StartYear = -22}
-				,{"Acclamator_I_Assault", 4, StartYear = -22}
-				,{"Acclamator_II", 4, StartYear = -19}
+				,{"Acclamator_I_Carrier", 5, StartYear = -22} -- FotR_Enhanced
+				,{"Acclamator_I_Assault", 5, StartYear = -21}
+				,{"Acclamator_II", 5, StartYear = -19} -- FotR_Enhanced
 			},
 			Land_Unit_Table = {
 				{"Security_Trooper_Company", 2, LastYear = -22}

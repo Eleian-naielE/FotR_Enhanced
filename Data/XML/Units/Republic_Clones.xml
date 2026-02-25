@@ -750,13 +750,21 @@
 
 		<Create_Team_Type> Clonetrooper_Phase_One_Heavy_Container </Create_Team_Type>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Company_Units> Clone_Phase_One_Sergeant, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One_Gunner_Heavy, Clone_Phase_One, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One, Clone_Phase_One_Plex, Clone_Phase_One_Plex,  Clone_Phase_One_Lt </Company_Units>
+		<Company_Units> 
+			Clone_Phase_One_Sergeant, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One_Gunner_Heavy, 
+			Clone_Phase_One, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One, 
+			Clone_Phase_One_Plex, Clone_Phase_One_Plex,  Clone_Phase_One_Lt 
+		</Company_Units>
 	</GroundCompany>
 	
 	<GroundCompany Name="Clonetrooper_Phase_One_Heavy_Squad">
 		<Variant_Of_Existing_Type>Clonetrooper_Phase_One_Main_Squad</Variant_Of_Existing_Type>
 
-		<Company_Units> Clone_Phase_One_Sergeant, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One, Clone_Phase_One_Gunner_Heavy, Clone_Phase_One, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One, Clone_Phase_One_Plex, Clone_Phase_One_Plex</Company_Units>
+		<Company_Units> 
+			Clone_Phase_One_Sergeant, Clone_Phase_One_Grenadier_Rifle, Clone_Phase_One, 
+			Clone_Phase_One_Gunner_Heavy, Clone_Phase_One, Clone_Phase_One_Grenadier_Rifle, 
+			Clone_Phase_One, Clone_Phase_One_Plex, Clone_Phase_One_Plex
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_One_Squad">
@@ -799,7 +807,11 @@
 		<Icon_Name>I_BUTTON_CLONE_P1_ASSAULT.TGA</Icon_Name>
 
 		<Create_Team_Type> Clonetrooper_Phase_One_Assault_Container </Create_Team_Type>
-		<Company_Units> Clone_Phase_One_Sergeant_Carbine, Clone_Phase_One_Grenadier_Carbine, Clone_Phase_One_Carbine, Clone_Phase_One_Carbine, Clone_Phase_One_Gunner_Light, Clone_Phase_One_Carbine, Clone_Phase_One_Grenadier_Carbine, Clone_Phase_One_RPS, Clone_Phase_One_RPS</Company_Units>
+		<Company_Units> 
+			Clone_Phase_One_Sergeant_Carbine, Clone_Phase_One_Grenadier_Carbine, Clone_Phase_One_Carbine, 
+			Clone_Phase_One_Carbine, Clone_Phase_One_Gunner_Light, Clone_Phase_One_Carbine, 
+			Clone_Phase_One_Grenadier_Carbine, Clone_Phase_One_RPS, Clone_Phase_One_RPS
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_One_Medic_Squad">
@@ -1654,13 +1666,21 @@
 
 		<Create_Team_Type> Clonetrooper_Phase_Two_Heavy_Container </Create_Team_Type>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Company_Units> Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two_Gunner_Heavy, Clone_Phase_Two, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two, Clone_Phase_Two_Plex, Clone_Phase_Two_Plex,  Clone_Phase_Two_Lt </Company_Units>
+		<Company_Units> 
+			Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two_Gunner_Heavy, 
+			Clone_Phase_Two, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two, 
+			Clone_Phase_Two_Plex, Clone_Phase_Two_Plex,  Clone_Phase_Two_Lt 
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_Two_Heavy_Squad">
 		<Variant_Of_Existing_Type>Clonetrooper_Phase_Two_Main_Squad</Variant_Of_Existing_Type>
 
-		<Company_Units> Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two, Clone_Phase_Two_Gunner_Heavy, Clone_Phase_Two, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two, Clone_Phase_Two_Plex, Clone_Phase_Two_Plex</Company_Units>
+		<Company_Units> 
+			Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two, 
+			Clone_Phase_Two_Gunner_Heavy, Clone_Phase_Two, Clone_Phase_Two_Grenadier_Rifle, 
+			Clone_Phase_Two, Clone_Phase_Two_Plex, Clone_Phase_Two_Plex
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_Two_Squad">
@@ -1680,7 +1700,11 @@
 		<Icon_Name>I_BUTTON_CLONE_P2.tga</Icon_Name>
 
 		<Create_Team_Type> Clonetrooper_Phase_Two_Container </Create_Team_Type>
-		<Company_Units> Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two </Company_Units>
+		<Company_Units> 
+			Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, 
+			Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, 
+			Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two 
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_Two_Assault_Squad">
@@ -1703,7 +1727,11 @@
 		<Icon_Name>I_BUTTON_CLONE_P2_ASSAULT.TGA</Icon_Name>
 
 		<Create_Team_Type> Clonetrooper_Phase_Two_Assault_Container </Create_Team_Type>
-		<Company_Units> Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Gunner_Light, Clone_Phase_Two_Carbine, Clone_Phase_Two_Grenadier_Carbine, Clone_Phase_Two_RPS, Clone_Phase_Two_RPS</Company_Units>
+		<Company_Units> 
+			Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Carbine, Clone_Phase_Two_Carbine, 
+			Clone_Phase_Two_Carbine, Clone_Phase_Two_Gunner_Light, Clone_Phase_Two_Carbine, 
+			Clone_Phase_Two_Grenadier_Carbine, Clone_Phase_Two_RPS, Clone_Phase_Two_RPS
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_Two_Medic_Squad">
@@ -1727,7 +1755,11 @@
 		<Icon_Name>I_BUTTON_CLONE_P2_SUPPORT.tga</Icon_Name>
 
 		<Create_Team_Type> Clonetrooper_Phase_Two_Medic_Container </Create_Team_Type>
-		<Company_Units> Clone_Phase_Two_Sergeant, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Medic, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine</Company_Units>
+		<Company_Units> 
+			Clone_Phase_Two_Sergeant, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, 
+			Clone_Phase_Two_Medic, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, 
+			Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine, Clone_Phase_Two_Carbine
+		</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Clonetrooper_Phase_Two_Container">
@@ -2204,7 +2236,11 @@
 
 		<Create_Team_Type> Shock_Clonetrooper_One_Container </Create_Team_Type>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Company_Units> Shock_Clone_Phase_One, Shock_Clone_Phase_One, Shock_Clone_Phase_One_Plex, Shock_Clone_Phase_One_Grenadier, Shock_Clone_Phase_One, Shock_Clone_Phase_One, Shock_Clone_Phase_One, Shock_Clone_Phase_One, Shock_Clone_Phase_One_Sergeant</Company_Units>
+		<Company_Units> 
+			Shock_Clone_Phase_One, Shock_Clone_Phase_One, Shock_Clone_Phase_One_Plex, 
+			Shock_Clone_Phase_One_Grenadier, Shock_Clone_Phase_One, Shock_Clone_Phase_One, 
+			Shock_Clone_Phase_One, Shock_Clone_Phase_One, Shock_Clone_Phase_One_Sergeant
+		</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Shock_Clonetrooper_One_Container">
@@ -2445,7 +2481,11 @@
 
 		<Create_Team_Type> Shock_Clonetrooper_Two_Container </Create_Team_Type>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Company_Units> Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two_Plex, Shock_Clone_Phase_Two_Grenadier, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two_Sergeant</Company_Units>
+		<Company_Units> 
+			Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two_Plex, 
+			Shock_Clone_Phase_Two_Grenadier, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, 
+			Shock_Clone_Phase_Two, Shock_Clone_Phase_Two, Shock_Clone_Phase_Two_Sergeant
+		</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Shock_Clonetrooper_Two_Container">
@@ -3969,7 +4009,7 @@
 	</Container>
 
 
-	<!-- Republic Commando -->
+	<!-- Republic Commando --> <!-- Reworked -->
 
 	<GroundInfantry Name="Clone_Commando">
 
@@ -4243,7 +4283,7 @@
 		</Abilities>
 	</GroundInfantry>
 
-	<GroundInfantry Name="Clone_Commando_Sergeant">
+	<GroundInfantry Name="Clone_Commando_Sergeant_Base">
 		<Variant_Of_Existing_Type>Clone_Commando</Variant_Of_Existing_Type>
 
 		<Tactical_Health> 38 </Tactical_Health>
@@ -4330,7 +4370,7 @@
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
@@ -4384,7 +4424,7 @@
 
 		<Create_Team_Type> Clone_Commando_Container </Create_Team_Type>
 		<Max_Squad_Size> 4 </Max_Squad_Size>
-		<Company_Units> Clone_Commando, Clone_Commando, Clone_Commando, Clone_Commando_Sergeant </Company_Units>
+		<Company_Units> Clone_Commando, Clone_Commando, Clone_Commando, Clone_Commando_Sergeant_Base </Company_Units>
 	</GroundCompany>
 
 	<Container Name="Clone_Commando_Container">
@@ -5789,13 +5829,13 @@
 		<Required_Special_Structures> E_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>120</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>6</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
 		<Affiliation>Empire</Affiliation>
@@ -6645,12 +6685,12 @@
 		<Required_Special_Structures>E_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>6</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
 		<Affiliation>Empire</Affiliation>
@@ -6702,13 +6742,21 @@
 
 		<Create_Team_Type> Clone_Vehicular_Assault_Heavy_Container </Create_Team_Type>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Company_Units> Clone_Vehicular_Assault_Sergeant, Clone_Vehicular_Assault, Clone_Vehicular_Assault_Mechanic_Rifle, Clone_Vehicular_Assault_Grenadier_Rifle, Clone_Vehicular_Assault, Clone_Vehicular_Assault, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_Lt </Company_Units>
+		<Company_Units> 
+			Clone_Vehicular_Assault_Sergeant, Clone_Vehicular_Assault, Clone_Vehicular_Assault_Mechanic_Rifle, 
+			Clone_Vehicular_Assault_Grenadier_Rifle, Clone_Vehicular_Assault, Clone_Vehicular_Assault, 
+			Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_Lt 
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clone_Vehicular_Assault_Heavy_Squad">
 		<Variant_Of_Existing_Type>Clone_Vehicular_Assault_Main_Squad</Variant_Of_Existing_Type>
 
-		<Company_Units> Clone_Vehicular_Assault_Sergeant, Clone_Vehicular_Assault, Clone_Vehicular_Assault_Mechanic_Rifle, Clone_Vehicular_Assault_Grenadier_Rifle, Clone_Vehicular_Assault, Clone_Vehicular_Assault, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX </Company_Units>
+		<Company_Units> 
+			Clone_Vehicular_Assault_Sergeant, Clone_Vehicular_Assault, Clone_Vehicular_Assault_Mechanic_Rifle, 
+			Clone_Vehicular_Assault_Grenadier_Rifle, Clone_Vehicular_Assault, Clone_Vehicular_Assault, 
+			Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX 
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clone_Vehicular_Assault_Assault_Squad">
@@ -6731,7 +6779,11 @@
 		<Icon_Name>I_BUTTON_CLONE_VEHICLE_ASSAULT_ASSAULT.tga</Icon_Name>
 
 		<Create_Team_Type> Clone_Vehicular_Assault_Assault_Container </Create_Team_Type>
-		<Company_Units> Clone_Vehicular_Assault_Sergeant_Carbine, Clone_Vehicular_Assault_Carbine, Clone_Vehicular_Assault_Mechanic_Carbine, Clone_Vehicular_Assault_Grenadier_Carbine, Clone_Vehicular_Assault_Carbine, Clone_Vehicular_Assault_Carbine, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX </Company_Units>
+		<Company_Units> 
+			Clone_Vehicular_Assault_Sergeant_Carbine, Clone_Vehicular_Assault_Carbine, Clone_Vehicular_Assault_Mechanic_Carbine, 
+			Clone_Vehicular_Assault_Grenadier_Carbine, Clone_Vehicular_Assault_Carbine, Clone_Vehicular_Assault_Carbine, 
+			Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX, Clone_Vehicular_Assault_PLX 
+		</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Clone_Vehicular_Assault_Heavy_Container">
@@ -7333,13 +7385,13 @@
 		<Required_Special_Structures> E_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>120</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>6</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
 		<Affiliation>Empire</Affiliation>
@@ -7390,13 +7442,19 @@
 
 		<Create_Team_Type> Clone_Special_Ops_Container </Create_Team_Type>
 		<Max_Squad_Size> 6 </Max_Squad_Size>
-		<Company_Units> Clone_Special_Ops, Clone_Special_Ops_Sergeant, Clone_Special_Ops_Grenadier, Clone_Special_Ops_Flamer, Clone_Special_Ops_Ion, Clone_Special_Ops_Lieutenant </Company_Units>
+		<Company_Units> 
+			Clone_Special_Ops, Clone_Special_Ops_Sergeant, Clone_Special_Ops_Grenadier, 
+			Clone_Special_Ops_Flamer, Clone_Special_Ops_Ion, Clone_Special_Ops_Lieutenant 
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clone_Special_Ops_Squad">
 		<Variant_Of_Existing_Type>Clone_Special_Ops_Main_Squad</Variant_Of_Existing_Type>
 
-		<Company_Units> Clone_Special_Ops, Clone_Special_Ops, Clone_Special_Ops_Sergeant, Clone_Special_Ops_Grenadier, Clone_Special_Ops_Flamer, Clone_Special_Ops_Ion </Company_Units>
+		<Company_Units> 
+			Clone_Special_Ops, Clone_Special_Ops, Clone_Special_Ops_Sergeant, 
+			Clone_Special_Ops_Grenadier, Clone_Special_Ops_Flamer, Clone_Special_Ops_Ion 
+		</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Clone_Special_Ops_Container">
@@ -8516,13 +8574,13 @@
 		<Required_Special_Structures> E_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>120</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>6</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
 		<Affiliation>Empire</Affiliation>
@@ -9137,7 +9195,7 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
-		<Property_Flags>HealsOrganics| HealsDroids | HealsVehicles</Property_Flags>
+		<Property_Flags>HealsOrganics</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Airborne_Medic_Healing">
@@ -9148,7 +9206,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry, InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
@@ -9286,7 +9344,7 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
-		<Property_Flags>HealsOrganics | HealsDroids | HealsVehicles</Property_Flags>
+		<Property_Flags>HealsOrganics</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Airborne_Medic_Healing">
@@ -9297,7 +9355,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry, InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
@@ -9394,7 +9452,7 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
-		<Property_Flags>HealsOrganics| HealsDroids | HealsVehicles</Property_Flags>
+		<Property_Flags>HealsOrganics</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Airborne_Medic_Healing">
@@ -9405,7 +9463,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry, InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
@@ -9695,13 +9753,13 @@
 		<Required_Special_Structures> E_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>120</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>6</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
 		<Affiliation>Empire</Affiliation>
@@ -9753,7 +9811,11 @@
 
 		<Create_Team_Type> Clone_Airborne_Trooper_Heavy_Container </Create_Team_Type>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Company_Units> Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle_Grenadier, Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle_Grenadier, Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle_Grenadier, Clone_Airborne_Trooper_Rifle_Medic, Clone_Airborne_Trooper_Rifle_Sergeant </Company_Units>
+		<Company_Units> 
+			Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle_Grenadier, 
+			Clone_Airborne_Trooper_Rifle, Clone_Airborne_Trooper_Rifle_Grenadier, Clone_Airborne_Trooper_Rifle, 
+			Clone_Airborne_Trooper_Rifle_Grenadier, Clone_Airborne_Trooper_Rifle_Medic, Clone_Airborne_Trooper_Rifle_Sergeant 
+		</Company_Units>
 	</GroundCompany>
 	
 	<GroundCompany Name="Clone_Airborne_Trooper_Assault_Squad">
@@ -9776,7 +9838,11 @@
 		<Icon_Name>I_BUTTON_CLONE_AIRBORNE_ASSAULT.tga</Icon_Name>
 
 		<Create_Team_Type> Clone_Airborne_Trooper_Assault_Container </Create_Team_Type>
-		<Company_Units> Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine_Grenadier, Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine_Grenadier, Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine_Grenadier, Clone_Airborne_Trooper_Carbine_Medic, Clone_Airborne_Trooper_Carbine_Sergeant </Company_Units>
+		<Company_Units> 
+			Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine_Grenadier, 
+			Clone_Airborne_Trooper_Carbine, Clone_Airborne_Trooper_Carbine_Grenadier, Clone_Airborne_Trooper_Carbine, 
+			Clone_Airborne_Trooper_Carbine_Grenadier, Clone_Airborne_Trooper_Carbine_Medic, Clone_Airborne_Trooper_Carbine_Sergeant 
+		</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clone_Airborne_Trooper_Weap_Squad">
@@ -9801,7 +9867,11 @@
 		<Icon_Name>I_BUTTON_CLONE_AIRBORNE_WEAP.tga</Icon_Name>
 
 		<Create_Team_Type> Clone_Airborne_Trooper_Weap_Container </Create_Team_Type>
-		<Company_Units> Clone_Airborne_Trooper_RPS, Clone_Airborne_Trooper_Gunner_Light, Clone_Airborne_Trooper_SMG, Clone_Airborne_Trooper_RPS, Clone_Airborne_Trooper_Gunner_Light, Clone_Airborne_Trooper_SMG, Clone_Airborne_Trooper_RPS, Clone_Airborne_Trooper_SMG_Medic, Clone_Airborne_Trooper_Gunner_Light_Sergeant </Company_Units>
+		<Company_Units> 
+			Clone_Airborne_Trooper_RPS, Clone_Airborne_Trooper_Gunner_Light, Clone_Airborne_Trooper_SMG, 
+			Clone_Airborne_Trooper_RPS, Clone_Airborne_Trooper_Gunner_Light, Clone_Airborne_Trooper_SMG, 
+			Clone_Airborne_Trooper_RPS, Clone_Airborne_Trooper_SMG_Medic, Clone_Airborne_Trooper_Gunner_Light_Sergeant 
+		</Company_Units>
 	</GroundCompany>
 	
 	<GroundCompany Name="Clone_Airborne_Trooper_Sniper_Squad">
@@ -9821,7 +9891,11 @@
 		<Icon_Name>I_BUTTON_CLONE_AIRBORNE_SNIPER.tga</Icon_Name>
 
 		<Create_Team_Type> Clone_Airborne_Trooper_Sniper_Container </Create_Team_Type>
-		<Company_Units> Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper_Sergeant, Clone_Airborne_Trooper_Sniper_Lieutenant </Company_Units>
+		<Company_Units> 
+			Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, 
+			Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper, 
+			Clone_Airborne_Trooper_Sniper, Clone_Airborne_Trooper_Sniper_Sergeant, Clone_Airborne_Trooper_Sniper_Lieutenant 
+		</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Clone_Airborne_Trooper_Heavy_Container">
@@ -11550,5 +11624,632 @@
 		</Abilities>
 
 	</GroundInfantry>
+
+
+	<!-- Clone Commando Reworked -->
+	
+	<GroundInfantry Name="Clone_Commando_Sergeant">
+		<Variant_Of_Existing_Type>Hero_Commando_Shielded_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_SARGEANT</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_COMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
+		TEXT_TOOLTIP_DELTA_MOVE
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP2
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP5
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP6
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_CLONE_COMMANDO_SERGEANT.tga</Icon_Name>
+
+		<Land_Model_Name>clone_commando.alo</Land_Model_Name>
+		<No_Colorization_Color> 69, 155, 212, 255 </No_Colorization_Color>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			clone_commando.alo,
+			Urban, 				omega_commando.alo,
+			Arctic, 			clone_commando.alo,
+			Volcanic, 			omega_commando.alo,
+			Desert, 			clone_commando.alo,
+			Forest, 			clone_commando.alo,
+			Swamp, 				clone_commando.alo
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>TrainedHero.alo</Land_Model_Anim_Override_Name>
+		<Scale_Factor>1.1</Scale_Factor>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Tactical_Health>90</Tactical_Health>
+		<Shield_Points>30</Shield_Points>
+		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
+
+		<HardPoints>HP_Hero_Republic_Commando_Blaster, HP_Hero_Republic_Commando_Grenade</HardPoints>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>HeroProj_Thrown_Thermal_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+        <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<CategoryMask> Organic | Clone | InfantryHero | AntiInfantry </CategoryMask>
+
+		<AI_Combat_Power>35</AI_Combat_Power>
+
+		<Ranking_In_Category> 5 </Ranking_In_Category>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>1.0</Death_Persistence_Duration>
+
+		<!-- Normal red blood for human-ish -->
+		<Death_Explosions>Organic_Infantry_Blood, Organic_Infantry_Blood_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Explosion</Death_Clone>
+
+		<Death_Clone>Damage_Force_Lightning, Infantry_Electric_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Infantry_Electric_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Fire, Infantry_Fire_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Fire, Infantry_Fire_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
+		
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Clone_Trooper </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Delta_Boss_Sprint</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>BERSERKER</Type>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> CC_Sergeant_Berserk_Attack </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Effective_Radius> 300.0 </Effective_Radius>
+				<Supports_Autofire>True</Supports_Autofire>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_BERSERKER_INFANTRY_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_BERSERKER_INFANTRY_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Berserker_Ability Name="CC_Sergeant_Berserk_Attack">
+				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>100.0</Activation_Max_Range>
+				<Berserker_Speed>1.2</Berserker_Speed>
+				<Berserker_Damage>12.0</Berserker_Damage>
+				<Berserker_Damage_Range>15.0</Berserker_Damage_Range>
+				<Berserker_Duration_In_Secs>6.0</Berserker_Duration_In_Secs>
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+			</Berserker_Ability>
+
+			<Galactic_Stealth_Ability Name="CC_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+			<Force_Healing_Ability Name="CC_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.01 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Clone_Commando_Sargent</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+		
+	</GroundInfantry>
+
+	<GroundInfantry Name="Clone_Commando_Sniper">
+		<Variant_Of_Existing_Type>Clone_Commando_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_SNIPER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_COMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
+		TEXT_TOOLTIP_DELTA_MOVE
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_CLONE_COMMANDO_SNIPER.tga</Icon_Name>
+
+		<HardPoints>HP_Hero_Republic_Commando_Sniper, HP_Hero_Republic_Commando_Sidearm</HardPoints>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Sniper</Highlight_Blob_Material_Name>
+
+		<AI_Combat_Power>38</AI_Combat_Power>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>LUCKY_SHOT</Type>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 5</Mod_Multiplier>
+				<Projectile_Types_Override />
+				<GUI_Activated_Ability_Name> CC_Sniper_Assassin </GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability/>
+				<Supports_Autofire>True</Supports_Autofire>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ASSASSIN.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Delta_Boss_Sprint</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="CC_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+			<Lucky_Shot_Attack_Ability Name="CC_Sniper_Assassin">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We only consider the following unit types "valid targets" : -->
+				<Applicable_Unit_Categories>Infantry, InfantryHero, Vehicle, VehicleHero</Applicable_Unit_Categories>
+			</Lucky_Shot_Attack_Ability>
+
+			<Force_Healing_Ability Name="CC_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.01 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Clone_Commando_Sargent</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Clone_Commando_Heavy">
+		<Variant_Of_Existing_Type>Clone_Commando_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_HEAVY</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_COMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
+		TEXT_TOOLTIP_DELTA_MOVE
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP1
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP4
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP7
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_CLONE_COMMANDO_HEAVY.tga</Icon_Name>
+
+		<HardPoints>HP_Hero_Republic_Commando_Grenade_Launcher, HP_Hero_Republic_Commando_Sidearm</HardPoints>
+		
+		<!-- Grenade throw -->
+		<Projectile_Types>HeroProj_Thrown_Sonic_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+        <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<AI_Combat_Power>38</AI_Combat_Power>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Grenadier</Highlight_Blob_Material_Name>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>90.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>CC_Heavy_Proximity_Mines_AI</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability/>
+				<Area_Effect_Decal_Distance>50.0</Area_Effect_Decal_Distance>
+				<Effective_Radius> 100.0 </Effective_Radius>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AP_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AP_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>STICKY_BOMB</Type>
+				<Recharge_Seconds>30.0f </Recharge_Seconds>
+				<GUI_Activated_Ability_Name> CC_Heavy_Grenade_Attack </GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Delta_Scorch_Thermal_Detonator </SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Proximity_Mines_Ability Name="CC_Heavy_Proximity_Mines_AI">
+				<Activation_Style>User_Input</Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>25.0</Activation_Max_Range>
+				<Mine_Type>Mine_Land_Prox_Antipersonnel</Mine_Type>
+				<Trigger_Radius>10</Trigger_Radius>
+				<Number_Of_Mines>18</Number_Of_Mines>
+				<Activation_Time_In_Seconds>0.5</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Mine_Arm</Activate_SFX>
+			</Proximity_Mines_Ability>
+
+			<Grenade_Attack_Ability Name="CC_Heavy_Grenade_Attack">
+				<Activation_Style> User_Input </Activation_Style> <!-- Was Special_Attack -->
+				<!-- We need to be within this distance of the clicked target to consider throwing the grenade -->
+				<Activation_Min_Range>5.0</Activation_Min_Range>
+				<Activation_Max_Range>300.0</Activation_Max_Range>
+				<Requires_Direct_Player_Command> No </Requires_Direct_Player_Command> <!-- Was NO -->
+
+				<Grenade_Type>Proj_Hero_Sticky_Bomb</Grenade_Type>
+				<Grenade_Toss_Anim>BOMBTOSS</Grenade_Toss_Anim>
+				<Grenade_Spawn_Frame>12.0</Grenade_Spawn_Frame>
+				<Grenade_Spawn_Bone>MuzzleA_00</Grenade_Spawn_Bone>
+				<Grenade_Explode_Timer_In_Secs>3.0</Grenade_Explode_Timer_In_Secs>
+				<!-- Percentage chance to activate given a certain number of valid targets in range. -->
+				<!-- First number in the pair is the number of valid targets, second is the chance to activate. -->
+				<Activation_Chance>0,0.0, 1,1.0, 5,1.0, 500,1.0</Activation_Chance>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Vehicle, Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Delta_Scorch_Thermal_Detonator</SFXEvent_Activate>
+			</Grenade_Attack_Ability>
+
+			<Galactic_Stealth_Ability Name="CC_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+			<Force_Healing_Ability Name="CC_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.01 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Clone_Commando_Heavy</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Clone_Commando_Slicer">
+		<Variant_Of_Existing_Type>Clone_Commando_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_SLICER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_COMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
+		TEXT_TOOLTIP_DELTA_MOVE
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP2
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP5
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_WEAP8
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_CLONE_COMMANDO_SLICER.tga</Icon_Name>
+
+		<HardPoints>HP_Hero_Republic_Commando_Blaster, HP_Hero_Republic_Commando_Grenade</HardPoints>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>HeroProj_Thrown_Ion_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+        <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<AI_Combat_Power>35</AI_Combat_Power>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Special</Highlight_Blob_Material_Name>
+
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		
+		<!-- Enhanced sensors capability -->
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+                <Type>STUN</Type>
+                <Recharge_Seconds>90.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name> CC_Slicer_Infantry_Stun </GUI_Activated_Ability_Name>
+                <Effective_Radius> 100.0 </Effective_Radius>
+                <Spawned_Object_Type> Stun_Ability_Particles </Spawned_Object_Type>
+				<SFXEvent_Target_Ability> Unit_Stun_RTT </SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
+            </Unit_Ability>
+
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Delta_Boss_Sprint</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="CC_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+			<Stun_Ability Name="CC_Slicer_Infantry_Stun">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We need to be within this distance of the clicked target to consider activating Stun -->
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>75.0</Activation_Max_Range>
+				<Stun_Time_In_Secs>5.0</Stun_Time_In_Secs>
+				<Stun_Range>100.0</Stun_Range>
+				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
+				<Stun_Travel_Time_In_Secs>1.0</Stun_Travel_Time_In_Secs>
+                <Stunned_Effect> Stunned_Particle_Effect </Stunned_Effect> 
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Ability_Stun</SFXEvent_Activate>
+				<Owner_Particle_Effect>Stun_Ability_Particles</Owner_Particle_Effect>
+				<Owner_Particle_Bone_Name />
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>2.0, 2.0, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count />
+			</Stun_Ability>
+
+			<Force_Healing_Ability Name="CC_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.01 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Clone_Commando_Sargent</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Clone_Commando_Rework_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>clone_commando.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_CLONE_COMMANDO.tga</Icon_Name>
+		<AI_Combat_Power>146</AI_Combat_Power>
+		<Affiliation>Empire</Affiliation>
+		<CategoryMask>Organic | InfantryHero | Clone</CategoryMask>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Delta_Boss_Sprint</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>LUCKY_SHOT</Type>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 5</Mod_Multiplier>
+				<Projectile_Types_Override />
+				<GUI_Activated_Ability_Name> CC_Sniper_Assassin </GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability/>
+				<Supports_Autofire>True</Supports_Autofire>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_CRITICAL_STRIKE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ASSASSIN.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="CC_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+		</Abilities>
+	</GroundInfantry>
+
+	<GroudnCompany Name="Clone_Commando_Rework_Company">
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDO_REWORK_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_COMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
+		TEXT_TOOLTIP_DELTA_MOVE
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP1
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP2
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP3
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP4
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP5
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP6
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP7
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SQUAD_WEAP8
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDO_SQUAD </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_CLONE_COMMANDO.tga</Icon_Name>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row>1</GUI_Row>
+		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Population_Value>2</Population_Value>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
+
+		<Affiliation>Empire</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> Clone_Commando_Rework_Company_Dummy </Company_Units>
+		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft_ARC</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+	</GroudnCompany>
+
+	<GroundInfantry Name="Clone_Commando_Rework_Mission_Company_Dummy">
+		<Variant_Of_Existing_Type>Clone_Commando_Rework_Company_Dummy</Variant_Of_Existing_Type>
+		<AI_Combat_Power>292</AI_Combat_Power>
+	</GroundInfantry>
+
+	<GroudnCompany Name="Clone_Commando_Rework_Mission_Company">
+		<Variant_Of_Existing_Type>Clone_Commando_Rework_Company</Variant_Of_Existing_Type>
+		<Population_Value>1</Population_Value>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_COMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_HEALTH
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_SHIELD
+		TEXT_TOOLTIP_DELTA_MOVE
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP1
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP2
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP3
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP4
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP5
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP6
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP7
+		TEXT_TOOLTIP_CLONE_COMMANDO_REWORK_MISSION_SQUAD_WEAP8
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+	</GroudnCompany>
 
 </Republic_Clones>

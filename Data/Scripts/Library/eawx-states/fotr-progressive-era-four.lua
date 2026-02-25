@@ -19,7 +19,8 @@ return {
         self.plot = Get_Story_Plot("Conquests\\Events\\EventLogRepository.xml")
 
         if self.entry_time <= 5 then
-            GlobalValue.Set("ARC_LIFETIME_LIMIT", 30) -- FotR_Enhanced
+            local amount = GlobalValue.Get("ARC_LIFETIME_LIMIT")
+            crossplot:publish("ADJUST_MARKET_AMOUNT", {{"EMPIRE", "CLONE_MARKET", "ARC_PHASE_TWO_COMPANY", amount}}) -- FotR_Enhanced
             if Find_Player("local") == Find_Player("Empire") then
                 StoryUtil.Multimedia("TEXT_STORY_INTRO_PROGRESSIVE_REPUBLIC_PALPATINE_ERA_4", 15, nil, "PalpatineFotR_Loop", 0)
                 Story_Event("CLONE_WARS_20BBY_REPUBLIC_START")

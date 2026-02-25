@@ -790,7 +790,7 @@
 	</UniqueUnit>
 
 	<!-- ********* Ground - Kamino ********* -->
-
+	<!-- FotR_Enhanced -->
 
 	<HeroUnit Name="Commander_Tier_I_Clone_Phase_One">
 		<Variant_Of_Existing_Type> Clone_Phase_One_Lt </Variant_Of_Existing_Type>
@@ -1811,12 +1811,208 @@
 	</Container>
 
 
-	<HeroUnit Name="Commander_Tier_II_Clone_Scout_Trooper">
-		<Variant_Of_Existing_Type> Clone_Scout_Trooper_Sniper_Sergeant </Variant_Of_Existing_Type>
+	<HeroUnit Name="Commander_Tier_II_Clone_Special_Ops"> <!-- FotR_Enhanced ; tier swapped with Scout Trooper -->
+		<Variant_Of_Existing_Type> Clone_Special_Ops_Lieutenant </Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_CLONE_COMMANDER</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_GENERIC_COMMANDER_ESCORT_CLONE_SPECIAL_OPS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE_SPECIAL_OPS_COMPANY
+		TEXT_TOOLTIP_GENERIC_COMMANDER_HEALTH_INFANTRY
+		TEXT_TOOLTIP_CLONE_SPECIAL_OPS_MOVE
+		TEXT_TOOLTIP_CLONE_SPECIAL_OPS_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_CLONE_SPECIAL_OPS_COMMANDER.tga</Icon_Name>
+
+		<Tactical_Health>150</Tactical_Health>
+		<Affiliation>Empire</Affiliation>
+		<CategoryMask> Organic | InfantryHero | AntiInfantry | Clone  </CategoryMask>
+		<Property_Flags>DoKite | GTSImmune</Property_Flags>
+		
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SPAWN_SQUADRON, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+
+		<HardPoints>Commander_Dummy_Hangar, HP_Clone_Carbine_Skilled</HardPoints>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Starting_Spawned_Units_Tech_0>Clone_Special_Ops_Squad, 4</Starting_Spawned_Units_Tech_0>
+		
+		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
+
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Sellable>Sellable_Never</Is_Sellable>
+		<Is_Squashable>False</Is_Squashable>
+
+		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Clone_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
+			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_02_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.06</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Commander_Tier_II_Clone_Special_Ops_Company">
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_GENERIC_COMMANDER_ESCORT_CLONE_SPECIAL_OPS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE_SPECIAL_OPS_COMPANY
+		TEXT_TOOLTIP_GENERIC_COMMANDER_HEALTH_INFANTRY
+		TEXT_TOOLTIP_CLONE_SPECIAL_OPS_MOVE
+		TEXT_TOOLTIP_CLONE_SPECIAL_OPS_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_CLONE_SPECIAL_OPS_COMMANDER.tga</Icon_Name>
+		
+		<Affiliation>Empire</Affiliation>
+
+		<Is_Dummy>Yes</Is_Dummy>
+		<Tech_Level>99</Tech_Level>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft_Commander</Company_Transport_Unit>
+		<Company_Units> Commander_Tier_II_Clone_Special_Ops </Company_Units>
+		<Create_Team_Type> Commander_Tier_II_Clone_Special_Ops_Container </Create_Team_Type>
+		
+		<Is_Homogeneous>No</Is_Homogeneous>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits> 500 </Score_Cost_Credits>
+
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Empire_Field</SFXEvent_Fleet_Move>
+	</HeroCompany>
+
+	<Container Name="Commander_Tier_II_Clone_Special_Ops_Container">
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_GENERIC_COMMANDER_ESCORT_CLONE_SPECIAL_OPS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE_SPECIAL_OPS_COMPANY
+		TEXT_TOOLTIP_GENERIC_COMMANDER_HEALTH_INFANTRY
+		TEXT_TOOLTIP_CLONE_SPECIAL_OPS_MOVE
+		TEXT_TOOLTIP_CLONE_SPECIAL_OPS_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_CLONE_SPECIAL_OPS_COMMANDER.tga</Icon_Name>
+		
+		<CategoryMask>Infantry | AntiInfantry | Clone</CategoryMask>
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<SpaceBehavior>REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+		
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		
+		<Max_Speed>0.9</Max_Speed>
+		<OverrideAcceleration> 0.9 </OverrideAcceleration>
+		<OverrideDeceleration> 0.9 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		
+		
+		<Select_Box_Scale>10</Select_Box_Scale>
+		<Show_Name>No</Show_Name>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> 1 </FormationSpacing> 
+		<MovementClass> Infantry </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Is_Squashable> false </Is_Squashable>
+		<MovementPredictionInterval> 0.1 </MovementPredictionInterval>
+		<ContainerArrangement> Rows </ContainerArrangement>
+		<FormationOrder> 1 </FormationOrder>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Targeting_Max_Attack_Distance>325.0</Targeting_Max_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Commander_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Vehicle | Infantry | AirGunship | AirSpeeder</Applicable_Unit_Categories>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</Container>
+
+
+	<HeroUnit Name="Commander_Tier_III_Clone_Scout_Trooper">
+		<Variant_Of_Existing_Type> Clone_Scout_Trooper_Sniper_Sergeant </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONE_COMMANDER</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -1872,34 +2068,34 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
-			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>    
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-			<Battlefield_Modifier_Ability Name="Command_Tier_02_FOW_Increase">
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.06</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
 
-	<HeroCompany Name="Commander_Tier_II_Clone_Scout_Trooper_Company">
+	<HeroCompany Name="Commander_Tier_III_Clone_Scout_Trooper_Company">
 		<Text_ID>TEXT_UNIT_CLONE_COMMANDER</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -1922,8 +2118,8 @@
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
 		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft_Commander</Company_Transport_Unit>
-		<Company_Units> Commander_Tier_II_Clone_Scout_Trooper </Company_Units>
-		<Create_Team_Type> Commander_Tier_II_Clone_Scout_Trooper_Container </Create_Team_Type>
+		<Company_Units> Commander_Tier_III_Clone_Scout_Trooper </Company_Units>
+		<Create_Team_Type> Commander_Tier_III_Clone_Scout_Trooper_Container </Create_Team_Type>
 		
 		<Is_Homogeneous>No</Is_Homogeneous>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
@@ -1934,11 +2130,11 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Empire_Field</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
-	<Container Name="Commander_Tier_II_Clone_Scout_Trooper_Container">
+	<Container Name="Commander_Tier_III_Clone_Scout_Trooper_Container">
 		<Text_ID>TEXT_UNIT_CLONE_COMMANDER</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -1994,202 +2190,6 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SPRINT</Type>
-			</Unit_Ability>
-			<Unit_Ability>
-				<Type>FOW_REVEAL_PING</Type>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-		<Abilities SubObjectList="Yes">
-			<Combat_Bonus_Ability Name="Commander_Bonus">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Applicable_Unit_Categories>Vehicle | Infantry | AirGunship | AirSpeeder</Applicable_Unit_Categories>
-			</Combat_Bonus_Ability>
-		</Abilities>
-	</Container>
-
-
-	<HeroUnit Name="Commander_Tier_III_Clone_Special_Ops">
-		<Variant_Of_Existing_Type> Clone_Special_Ops_Lieutenant </Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_CLONE_COMMANDER</Text_ID>
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE
-		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_GENERIC_COMMANDER_ESCORT_CLONE_SPECIAL_OPS
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE_SPECIAL_OPS_COMPANY
-		TEXT_TOOLTIP_GENERIC_COMMANDER_HEALTH_INFANTRY
-		TEXT_TOOLTIP_CLONE_SPECIAL_OPS_MOVE
-		TEXT_TOOLTIP_CLONE_SPECIAL_OPS_WEAP1
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_CLONE_SPECIAL_OPS_COMMANDER.tga</Icon_Name>
-
-		<Tactical_Health>150</Tactical_Health>
-		<Affiliation>Empire</Affiliation>
-		<CategoryMask> Organic | InfantryHero | AntiInfantry | Clone  </CategoryMask>
-		<Property_Flags>DoKite | GTSImmune</Property_Flags>
-		
-		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SPAWN_SQUADRON, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
-
-		<HardPoints>Commander_Dummy_Hangar, HP_Clone_Carbine_Skilled</HardPoints>
-
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
-
-		<Starting_Spawned_Units_Tech_0>Clone_Special_Ops_Squad, 4</Starting_Spawned_Units_Tech_0>
-		
-		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
-
-		<Show_Hero_Head>Yes</Show_Hero_Head>
-		<Is_Generic_Hero>Yes</Is_Generic_Hero>
-		<Is_Sellable>Sellable_Never</Is_Sellable>
-		<Is_Squashable>False</Is_Squashable>
-
-		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Clone_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>FOW_REVEAL_PING</Type>
-				<Recharge_Seconds> 30.0 </Recharge_Seconds>
-				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
-				<Effective_Radius> 0.0 </Effective_Radius>
-				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
-			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
-			</Combat_Bonus_Ability>
-			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
-				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
-				<Stacking_Category>0</Stacking_Category>
-			</Battlefield_Modifier_Ability>
-		</Abilities>
-	</HeroUnit>
-
-	<HeroCompany Name="Commander_Tier_III_Clone_Special_Ops_Company">
-		<Text_ID>TEXT_UNIT_CLONE_COMMANDER</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE
-		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_GENERIC_COMMANDER_ESCORT_CLONE_SPECIAL_OPS
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE_SPECIAL_OPS_COMPANY
-		TEXT_TOOLTIP_GENERIC_COMMANDER_HEALTH_INFANTRY
-		TEXT_TOOLTIP_CLONE_SPECIAL_OPS_MOVE
-		TEXT_TOOLTIP_CLONE_SPECIAL_OPS_WEAP1
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_CLONE_SPECIAL_OPS_COMMANDER.tga</Icon_Name>
-		
-		<Affiliation>Empire</Affiliation>
-
-		<Is_Dummy>Yes</Is_Dummy>
-		<Tech_Level>99</Tech_Level>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-
-		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft_Commander</Company_Transport_Unit>
-		<Company_Units> Commander_Tier_III_Clone_Special_Ops </Company_Units>
-		<Create_Team_Type> Commander_Tier_III_Clone_Special_Ops_Container </Create_Team_Type>
-		
-		<Is_Homogeneous>No</Is_Homogeneous>
-		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<Is_Generic_Hero>Yes</Is_Generic_Hero>
-
-		<Population_Value>1</Population_Value>
-		<Score_Cost_Credits> 500 </Score_Cost_Credits>
-
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Empire_Field</SFXEvent_Fleet_Move>
-	</HeroCompany>
-
-	<Container Name="Commander_Tier_III_Clone_Special_Ops_Container">
-		<Text_ID>TEXT_UNIT_CLONE_COMMANDER</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE
-		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_GENERIC_COMMANDER_ESCORT_CLONE_SPECIAL_OPS
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE_SPECIAL_OPS_COMPANY
-		TEXT_TOOLTIP_GENERIC_COMMANDER_HEALTH_INFANTRY
-		TEXT_TOOLTIP_CLONE_SPECIAL_OPS_MOVE
-		TEXT_TOOLTIP_CLONE_SPECIAL_OPS_WEAP1
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_CLONE_SPECIAL_OPS_COMMANDER.tga</Icon_Name>
-		
-		<CategoryMask>Infantry | AntiInfantry | Clone</CategoryMask>
-		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
-		<SpaceBehavior>REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
-		
-		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
-		
-		<Show_Hero_Head>Yes</Show_Hero_Head>
-		<Is_Generic_Hero>Yes</Is_Generic_Hero>
-		
-		<Max_Speed>0.9</Max_Speed>
-		<OverrideAcceleration> 0.9 </OverrideAcceleration>
-		<OverrideDeceleration> 0.9 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
-		
-		
-		<Select_Box_Scale>10</Select_Box_Scale>
-		<Show_Name>No</Show_Name>
-		<SFXEvent_Select>Null</SFXEvent_Select>
-		<Garrison_Category> Infantry </Garrison_Category>
-		<Space_Layer> Land </Space_Layer>
-		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> 1 </FormationSpacing> 
-		<MovementClass> Infantry </MovementClass>
-		<OccupationStyle>1x1</OccupationStyle>
-		<Is_Squashable> false </Is_Squashable>
-		<MovementPredictionInterval> 0.1 </MovementPredictionInterval>
-		<ContainerArrangement> Rows </ContainerArrangement>
-		<FormationOrder> 1 </FormationOrder>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Targeting_Max_Attack_Distance>325.0</Targeting_Max_Attack_Distance>
-		<Idle_Chase_Range>0.0</Idle_Chase_Range>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
 			</Unit_Ability>
 			<Unit_Ability>
 				<Type>FOW_REVEAL_PING</Type>
@@ -2532,7 +2532,7 @@
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_UNIT_BARC_SPEEDER
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_GENERIC_COMMANDER_ESCORT_CLONE_P1
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_GENERIC_COMMANDER_HEALTH_SPEEDER
 		TEXT_TOOLTIP_BARC_SPEEDER_MOVE 
@@ -2556,7 +2556,7 @@
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Company_Dummy, 1</Starting_Spawned_Units_Tech_0>
 		
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
@@ -2646,8 +2646,8 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Empire_Field</SFXEvent_Fleet_Move>
 	</HeroCompany>
 
-
-	<HeroUnit Name="Commander_Tier_IV_Republic_AT_RT_Walker">
+	<!-- FotR_Enhanced ; Different escort phase -->
+	<HeroUnit Name="Commander_Tier_IV_Republic_AT_RT_Walker_P1">
 		<Variant_Of_Existing_Type> Republic_AT_RT_Walker </Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_CLONE_COMMANDER</Text_ID>
 		<Encyclopedia_Text> 
@@ -2658,7 +2658,7 @@
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_UNIT_AT_RT_WALKER
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_GENERIC_COMMANDER_ESCORT_CLONE_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_GENERIC_COMMANDER_HEALTH_LIGHT_VEHICLE
 		TEXT_TOOLTIP_ATRT_MOVE 
@@ -2686,7 +2686,7 @@
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Company_Dummy, 1</Starting_Spawned_Units_Tech_0>
 		
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
@@ -2745,7 +2745,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Commander_Tier_IV_Republic_AT_RT_Walker</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Commander_Tier_IV_Republic_AT_RT_Walker_P1, Commander_Tier_IV_Republic_AT_RT_Walker_P2</Applicable_Unit_Types>
 				<Excluded_Unit_Types />
 
 				<SFXEvent_Target_Affected>Unit_Vehicle_Repair_Pulse</SFXEvent_Target_Affected>
@@ -2767,7 +2767,7 @@
 		</Abilities>
 	</HeroUnit>
 
-	<HeroCompany Name="Commander_Tier_IV_Republic_AT_RT_Walker_Company">
+	<HeroCompany Name="Commander_Tier_IV_Republic_AT_RT_Walker_P1_Company">
 		<Text_ID>TEXT_UNIT_CLONE_COMMANDER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -2778,7 +2778,7 @@
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_UNIT_AT_RT_WALKER
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_GENERIC_COMMANDER_ESCORT_CLONE_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_GENERIC_COMMANDER_HEALTH_LIGHT_VEHICLE
 		TEXT_TOOLTIP_ATRT_MOVE 
@@ -2798,7 +2798,7 @@
 
 		<Behavior>ABILITY_COUNTDOWN, DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>CR20_Landing_Craft_Clone_Commander</Company_Transport_Unit>
-		<Company_Units> Commander_Tier_IV_Republic_AT_RT_Walker</Company_Units>
+		<Company_Units> Commander_Tier_IV_Republic_AT_RT_Walker_P1</Company_Units>
 
 		<Is_Homogeneous>No</Is_Homogeneous>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
@@ -2807,6 +2807,57 @@
 		<Population_Value>1</Population_Value>
 
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Empire_Field</SFXEvent_Fleet_Move>
+	</HeroCompany>
+
+	<HeroUnit Name="Commander_Tier_IV_Republic_AT_RT_Walker_P2">
+		<Variant_Of_Existing_Type>Commander_Tier_IV_Republic_AT_RT_Walker_P1</Variant_Of_Existing_Type>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_AT_RT_WALKER
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GENERIC_COMMANDER_HEALTH_LIGHT_VEHICLE
+		TEXT_TOOLTIP_ATRT_MOVE 
+		TEXT_TOOLTIP_ATRT_WEAP1
+		TEXT_TOOLTIP_ATRT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_VEHICLE_SELF_REPAIR
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SMALL_WALKER
+		</Encyclopedia_Text>
+
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Company_Dummy, 1</Starting_Spawned_Units_Tech_0>
+	</HeroUnit>
+
+	<HeroCompany Name="Commander_Tier_IV_Republic_AT_RT_Walker_P2_Company">
+		<Variant_Of_Existing_Type>Commander_Tier_IV_Republic_AT_RT_Walker_P1_Company</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_GENERIC_COMMANDER_CLONE
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_AT_RT_WALKER
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GENERIC_COMMANDER_HEALTH_LIGHT_VEHICLE
+		TEXT_TOOLTIP_ATRT_MOVE 
+		TEXT_TOOLTIP_ATRT_WEAP1
+		TEXT_TOOLTIP_ATRT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_VEHICLE_SELF_REPAIR
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SMALL_WALKER
+		</Encyclopedia_Text>
+		<Company_Units> Commander_Tier_IV_Republic_AT_RT_Walker_P2</Company_Units>
 	</HeroCompany>
 
 

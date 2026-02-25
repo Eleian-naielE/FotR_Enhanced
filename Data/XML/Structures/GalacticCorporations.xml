@@ -829,14 +829,14 @@
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Haor_Chall_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> C9979_Carrier, C9979_Carrier_Subfaction, Hailfire_Company, HMP_Company, MAF_Company, CIS_MAF_Company </Applicable_Unit_Types>
+				<Applicable_Unit_Types> C9979_Carrier, C9979_Carrier_Subfaction, Hailfire_Company, HMP_Company, MAF_Company, CIS_MAF_Company, Seismic_Tank_Company </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>
 
 			<Reduce_Production_Time_Ability Name="Haor_Chall_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> C9979_Carrier, C9979_Carrier_Subfaction, Hailfire_Company, HMP_Company, MAF_Company, CIS_MAF_Company </Applicable_Unit_Types>
+				<Applicable_Unit_Types> C9979_Carrier, C9979_Carrier_Subfaction, Hailfire_Company, HMP_Company, MAF_Company, CIS_MAF_Company, Seismic_Tank_Company </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>

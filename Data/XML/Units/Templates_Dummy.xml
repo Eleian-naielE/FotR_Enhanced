@@ -1,0 +1,1630 @@
+<?xml version="1.0"?>
+<TemplateDummies>
+
+	<GroundCompany Name="Placement_Dummy">
+
+		<Text_ID>TEXT_PLACEMENT_DUMMY</Text_ID>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+		<Encyclopedia_Text></Encyclopedia_Text>
+		<Icon_Name>None.tga</Icon_Name>
+
+		<Damage>50</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>150</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>
+			Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels,
+			Alsakan_Republic, Chiss, Eternal_Empire, Killik_Hives, Krath, Lorell_Raiders, Mon_Cal_Kingdom, Rakata_Empire, Sector_Forces, Sith_Warlords, Tion_Hegemony,
+			Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Mandalorians,
+			Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Warlords
+		</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Land_Model_Name>diamond_planet.ALO</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Lua_Script>PlaceHolder_SelfDestruct</Lua_Script>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+	</GroundCompany>
+
+	<GroundInfantry Name="Infantry_Dummy_Template">
+		<Text_ID>TEXT_PLACEHOLDER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_PLACEHOLDER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_PLACEHOLDER</Encyclopedia_Text>
+		<Icon_Name></Icon_Name>
+
+		<Land_Model_Name>NI_Gmale_swamp_A.ALO</Land_Model_Name>
+		<No_Colorization_Color />
+		<Land_Terrain_Model_Mapping>
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name></Land_Model_Anim_Override_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Select_Box_Scale>10</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>10</Size_Value>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed>1.0</Movement_Animation_Speed>
+		<Rotation_Animation_Speed>1.0</Rotation_Animation_Speed>
+		<Walk_Animation_Speed>1.0</Walk_Animation_Speed>
+		<Crouch_Animation_Speed>1.0</Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.0</Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Armor_Type>ArmourG_Hero</Armor_Type>
+		<Tactical_Health>1</Tactical_Health>
+		<Surface_Type_Cover_Damage_Shield>0.5</Surface_Type_Cover_Damage_Shield>
+
+		<Damage>1</Damage>
+		<AI_Combat_Power>50</AI_Combat_Power>
+		<Affiliation>Neutral</Affiliation>
+		<Political_Control />
+
+		<Type>Walk</Type>
+		<CategoryMask>Infantry</CategoryMask>
+		<Weather_Category>Infantry</Weather_Category>
+		<Deploys>no</Deploys>
+		<Stealth_Capable>no</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Create_Team>no</Create_Team>
+
+		<Override_Bounty_SP></Override_Bounty_SP>
+		<Override_Bounty_MP></Override_Bounty_MP>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+
+		<GalacticBehavior>SELECTABLE</GalacticBehavior>
+		<LandBehavior> WALK_LOCOMOTOR, IDLE, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, SPAWN_SQUADRON</LandBehavior>
+
+		<HardPoints>Infantry_Boxes</HardPoints>
+
+		<Garrison_Category>Infantry</Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Target_Bones>Target_00</Target_Bones>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target>yes</Ground_Infantry_Turret_Target>
+		<Is_Squashable>no</Is_Squashable>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.25f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<SFXEvent_Tactical_Build_Started/>
+		<SFXEvent_Tactical_Build_Complete/>
+		<SFXEvent_Tactical_Build_Cancelled/>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, Null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Select/>
+		<SFXEvent_Move/>
+		<SFXEvent_Fleet_Move/>
+		<SFXEvent_Attack/>
+		<SFXEvent_Assist_Move/>
+		<SFXEvent_Assist_Attack/>
+		<SFXEvent_Guard/>
+		<SFXEvent_Health_Low_Warning/>
+		<SFXEvent_Health_Critical_Warning/>
+		<Death_SFXEvent_Start_Die/>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer>Land</Space_Layer>
+		<UnitCollisionClass>Infantry</UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent>2.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>2.0</Custom_Hard_YExtent>
+		<CanCellStack>yes</CanCellStack>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationSpacing>1.0</FormationSpacing>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance>5</MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Sensor_Range>20</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>0.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>2.5</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>false</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius>1.0</Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+
+		<Lua_Script>GenericCompanySpawner</Lua_Script>
+	</GroundInfantry>
+	
+	<GroundVehicle Name="Vehicle_Dummy_Template">
+		<Variant_Of_Existing_Type>Infantry_Dummy_Template</Variant_Of_Existing_Type>
+		
+		<CategoryMask>Vehicle</CategoryMask>
+	</GroundVehicle>
+
+	<HeroUnit Name="Hero_Commando_Template">
+		<Text_ID></Text_ID>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HEROTEMPLATE.TGA</Icon_Name>
+
+		<Land_Model_Name>NI_Gmale_swamp_A.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Land_Terrain_Model_Mapping/>
+		<Land_Model_Anim_Override_Name/>
+		<Scale_Factor>1.1</Scale_Factor>
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>10</Size_Value>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .40 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.0</Max_Speed>
+		<OverrideAcceleration> 1.0 </OverrideAcceleration>
+		<OverrideDeceleration> 1.0 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Hero </Armor_Type>
+		<Shield_Armor_Type>ShieldG_Infantry</Shield_Armor_Type>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+
+		<Damage>0.6</Damage>
+		<AI_Combat_Power>4</AI_Combat_Power>
+		<Affiliation>Hostile</Affiliation>
+		<Required_Timeline>2</Required_Timeline>
+		<IsBuildable>No</IsBuildable>
+		<Size_Value>10</Size_Value>
+		<Political_Control>0</Political_Control>
+
+		<Type>Walk</Type>
+		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<Weather_Category>Infantry</Weather_Category>
+		<Deploys>No</Deploys>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Create_Team>No</Create_Team>
+
+		<Override_Bounty_SP/>
+		<Override_Bounty_MP/>
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<GalacticBehavior>SELECTABLE</GalacticBehavior>
+		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, VEHICLE_THIEF, ABILITY_COUNTDOWN, SURFACE_FX, POWERED, WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI, GARRISON_UNIT, LURE, STUNNABLE, IMPOSING_PRESENCE</LandBehavior>
+		
+		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
+
+		<HardPoints/>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Target_Bones> b_head, b_chest </Target_Bones>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> No </Is_Squashable>
+		<Is_Combustible> No </Is_Combustible>
+		<Property_Flags>DoKite</Property_Flags>
+
+		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+		
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select>Unit_Select_Rebel_Field</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Rebel_Field</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Field</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Rebel_Field</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Rebel_Field</SFXEvent_Guard>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+
+		<MovementClass> Infantry </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<CanCellStack>yes</CanCellStack>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationSpacing> .3 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Sensor_Range>20</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>false</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>30.0, 30.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+
+		<Lua_Script>GroundHero</Lua_Script>
+
+		<Presence_Range>150.0</Presence_Range>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+	</HeroUnit>
+	<HeroUnit Name="Hero_Commando_Shielded_Template">
+		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
+
+		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, VEHICLE_THIEF, ABILITY_COUNTDOWN, SURFACE_FX, POWERED, SHIELDED, WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE</LandBehavior>
+	</HeroUnit>
+
+	<HeroUnit Name="Hero_Jedi_Template">
+		<LOD_Bias>5</LOD_Bias>
+
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+		<Text_ID></Text_ID>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HEROTEMPLATE.TGA</Icon_Name>
+
+		<Land_Model_Name>NI_Gmale_swamp_A.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Land_Terrain_Model_Mapping/>
+		<Land_Model_Anim_Override_Name/>
+		<Scale_Factor>1.1</Scale_Factor>
+		<Select_Box_Scale>40</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>10</Size_Value>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .40 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.0</Max_Speed>
+		<OverrideAcceleration> 1.0 </OverrideAcceleration>
+		<OverrideDeceleration> 1.0 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Hero </Armor_Type>
+		<Shield_Armor_Type>ShieldG_Infantry</Shield_Armor_Type>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+
+		<Damage>0.6</Damage>
+		<AI_Combat_Power>4</AI_Combat_Power>
+		<Affiliation>Hostile</Affiliation>
+		<Required_Timeline>2</Required_Timeline>
+		<IsBuildable>No</IsBuildable>
+		<Size_Value>10</Size_Value>
+		<Political_Control>0</Political_Control>
+
+		<Type>Walk</Type>
+		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
+		<Weather_Category>Infantry</Weather_Category>
+		<Deploys>No</Deploys>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Create_Team>No</Create_Team>
+
+		<Override_Bounty_SP/>
+		<Override_Bounty_MP/>
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, IMPOSING_PRESENCE </LandBehavior>
+
+		<HardPoints/>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Target_Bones> b_head, b_chest </Target_Bones>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> No </Is_Squashable>
+		<Is_Combustible> No </Is_Combustible>
+		<Property_Flags>DoKite</Property_Flags>
+
+		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+		<Spawn_Planet>Tatooine</Spawn_Planet>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select></SFXEvent_Select>
+		<SFXEvent_Move></SFXEvent_Move>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Attack></SFXEvent_Attack>
+		<SFXEvent_Assist_Move></SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack></SFXEvent_Assist_Attack>
+		<SFXEvent_Guard></SFXEvent_Guard>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
+
+		<MovementClass> Infantry </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<CanCellStack>yes</CanCellStack>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationSpacing> .3 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Visible_On_Enemy_Radar>Yes</Is_Visible_On_Enemy_Radar>
+		<Sensor_Range>20</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>30.0, 30.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+
+		<Lua_Script>GroundHero</Lua_Script>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		<!-- Lightsaber holstering data  -->
+		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
+		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
+		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
+		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
+		<Holster_Holstered_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Holstered_Bone_Translation>
+		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
+		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
+		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Obiwan_Lightsaber_Idle_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Obiwan_Lightsaber_Moving_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Obiwan_Lightsaber_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
+		<Projectile_Types> Proj_Lightsaber </Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Appearance_Delay_Frames> 20 </Projectile_Appearance_Delay_Frames>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> AirGunship, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> AirSpeeder, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
+
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+		<Highlight_Blob_Material_Name></Highlight_Blob_Material_Name>
+
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+	</HeroUnit>
+
+	<HeroUnit Name="Non_Combat_Hero_Template">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+		<CategoryMask> NonCombatHero </CategoryMask>
+		<Ranking_In_Category/>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Type>Walk</Type>
+		<Affiliation/>
+		<Size_Value>75</Size_Value>
+		<Damage>100</Damage>
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<AI_Combat_Power>1</AI_Combat_Power>
+		<Neutralization_Cost>1000.0</Neutralization_Cost>
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+	</HeroUnit>
+	<HeroCompany Name="Non_Combat_Hero_Template_Team">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Non_Combat_Hero_Template</Company_Units>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>1</Damage>
+		<Affiliation/>
+		<Tech_Level>99</Tech_Level>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		
+		<SFXEvent_Build_Started/>
+		<SFXEvent_Build_Cancelled/>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Hero_Respawned/>
+	</HeroCompany>
+
+	<DummyStructure Name="Template_Spawner">
+
+		<Text_ID>TEXT_UNIT_SPACE_SUPREMACY_SPAWNER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPACE_SUPREMACY_SPAWNER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_SPACE_SUPREMACY_SPAWNER
+		</Encyclopedia_Text>
+		<Icon_Name>I_SA_DEPLOY_STORMTROOPERS.TGA</Icon_Name>
+
+		<Space_Model_Name>diamond_planet.alo</Space_Model_Name>
+		<No_Colorization_Color />
+		<Scale_Factor>0.005</Scale_Factor>
+		<Select_Box_Scale>100</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
+		<Size_Value>1</Size_Value>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>0</Bank_Turn_Angle>
+		<Hyperspace>yes</Hyperspace>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed>
+
+		<Shield_Armor_Type></Shield_Armor_Type>
+		<Shield_Points></Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Armor_Type></Armor_Type>
+		<Tactical_Health>1</Tactical_Health>
+
+		<Energy_Capacity>1</Energy_Capacity>
+		<Energy_Refresh_Rate>1</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>1</AI_Combat_Power>
+		<Damage>1</Damage>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Ship_Class>Frigate</Ship_Class>
+		<CategoryMask>Wall</CategoryMask>
+
+		<Formation_Priority>1</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>no</Surface_Bombardment_Capable>
+
+		<Tech_Level>99</Tech_Level>
+
+		<GUI_Row>1</GUI_Row>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>yes</Build_Initially_Locked>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>1</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Behavior>DUMMY_STARSHIP</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, SPAWN_SQUADRON, SELF_DESTRUCT</SpaceBehavior>
+
+		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
+
+		<HardPoints>HP_SSD_Hangar</HardPoints>
+
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Target_Bones></Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>no</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>no</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions></Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Death_Clone></Death_Clone>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null</SFXEvent_Hardpoint_Destroyed>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>1.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.1</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set/>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>Frigate</Space_Layer>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>true</Has_Space_Evaluator>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>0.01</Expiration_Seconds>
+				<Recharge_Seconds>0.01</Recharge_Seconds>
+				<Active_By_Default>Yes</Active_By_Default>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Population_Value>50</Population_Value>
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</DummyStructure>
+
+	<DummyStructure Name="Template_Spawner_Unit">
+		<Variant_Of_Existing_Type>Template_Spawner</Variant_Of_Existing_Type>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Recharge_Seconds>10</Recharge_Seconds>
+				<Active_By_Default>Yes</Active_By_Default>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</DummyStructure>
+
+	<DummyStructure Name="Template_Flagship_Swap">
+		<Text_ID></Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_TRANSFER_FLAG
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_UNKNOWN.tga</Icon_Name>
+
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<CategoryMask>Wall</CategoryMask>
+		<AI_Combat_Power>10000</AI_Combat_Power>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<GUI_Row>1</GUI_Row>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Tab_Space_Units>yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Build_Time_Reduced_By_Multiple_Factories>no</Build_Time_Reduced_By_Multiple_Factories>
+
+		<Behavior>DUMMY_STARSHIP</Behavior>
+	</DummyStructure>
+	<DummyStructure Name="Template_Flagship_Swap_NoSelfDelete">
+		<Text_ID></Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_TRANSFER_FLAG
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_UNKNOWN.tga</Icon_Name>
+
+		<!-- <Lua_Script>DelayedSelfDelete</Lua_Script> -->
+
+		<CategoryMask>Wall</CategoryMask>
+		<AI_Combat_Power>10000</AI_Combat_Power>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<GUI_Row>1</GUI_Row>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Tab_Space_Units>yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Build_Time_Reduced_By_Multiple_Factories>no</Build_Time_Reduced_By_Multiple_Factories>
+
+		<Behavior>DUMMY_STARSHIP</Behavior>
+	</DummyStructure>
+
+	<DummyStructure Name="Template_Research_Dummy">
+		<Text_ID></Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text></Encyclopedia_Text>
+		<Icon_Name></Icon_Name>
+
+		<CategoryMask>Upgrade</CategoryMask>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<GUI_Row>1</GUI_Row>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Tab_Space_Units>yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Build_Time_Reduced_By_Multiple_Factories>no</Build_Time_Reduced_By_Multiple_Factories>
+
+		<Behavior>DUMMY_STARSHIP</Behavior>
+	</DummyStructure>
+
+	<DummyStructure Name="Template_Deconstruct">
+		<Text_ID></Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DOWNGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NONE 
+		</Encyclopedia_Text>
+
+		<CategoryMask>Wall</CategoryMask>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<GUI_Row>1</GUI_Row>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Tab_Space_Units>yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Build_Time_Reduced_By_Multiple_Factories>no</Build_Time_Reduced_By_Multiple_Factories>
+
+		<Behavior>DUMMY_STARSHIP</Behavior>
+	</DummyStructure>
+
+
+	<DummyStructure Name="Shipyard_Victory_Object">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_DUMMY_DECLARE_VICTORY_SHIPYARD</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_DUMMY_DECLARE_VICTORY_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_Button_Shipyard_Victory.tga</Icon_Name>
+
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Corporate_Sector, SsiRuuvi_Imperium</Affiliation>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+	</DummyStructure>
+	<DummyStructure Name="Conquest_Victory_Object">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_DUMMY_DECLARE_VICTORY_CONQUEST</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_DUMMY_DECLARE_VICTORY_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_conquest_victory.tga</Icon_Name>
+
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Corporate_Sector, SsiRuuvi_Imperium</Affiliation>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+	</DummyStructure>
+
+	<DummyStructure Name="Treaty_Victory_Object">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_DUMMY_DECLARE_VICTORY_TREATY</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_DUMMY_DECLARE_VICTORY_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_Button_Treaty_Victory.tga</Icon_Name>
+
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Corporate_Sector, SsiRuuvi_Imperium</Affiliation>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+	</DummyStructure>
+
+
+	<DummyStructure Name="Template_Assign">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Population_Value>0</Population_Value>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<AI_Combat_Power>10000</AI_Combat_Power>
+
+		<CategoryMask>Upgrade</CategoryMask>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Tech_Level>0</Tech_Level>
+
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
+
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+	</DummyStructure>
+	<DummyStructure Name="Template_Retire">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<GUI_Row> 1 </GUI_Row>
+
+		<Population_Value>0</Population_Value>
+		<Build_Cost_Credits>100</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<AI_Combat_Power>10000</AI_Combat_Power>
+
+		<CategoryMask>Wall</CategoryMask>
+
+		<Tech_Level>99</Tech_Level>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_RETIRE_NR_ADMIRAL
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
+
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+	</DummyStructure>
+
+
+	<DummyStructure Name="Event_Dummy_Template">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID></Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name></Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Neutralization_Cost>1</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Abilities SubObjectList="Yes">
+		</Abilities>
+	</DummyStructure>
+
+	<DummyStructure Name="Event_Trigger">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID></Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		<Is_Sellable>Sellable_Never</Is_Sellable>
+
+		<!-- <Is_Named_Hero>Yes</Is_Named_Hero> -->
+
+		<Icon_Name>fake_icon_to_make_Invisible.tga</Icon_Name>
+
+		<Abilities SubObjectList="Yes">
+
+			<Galactic_Stealth_Ability Name="Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+			<Neutralize_Hero_Ability Name="Open_Neutralize_Hero">
+				<Cost_Mod_By_Base_Level>1.0,1.0, 1.0,1.0</Cost_Mod_By_Base_Level>
+				<Cost_Mod_By_Previous_Neutralizations>0.0,0.0, 0.0,0.0</Cost_Mod_By_Previous_Neutralizations>
+				<Cost_Mod_By_Planetary_Corruption_Level>1.0,1.0, 1.0,1.0</Cost_Mod_By_Planetary_Corruption_Level>
+				<General_Minor_Hero_Cost_Mod>1.0</General_Minor_Hero_Cost_Mod>
+				<General_Major_Hero_Cost_Mod>1.0</General_Major_Hero_Cost_Mod>
+				<Owner_Respawn_Time_In_Secs>120.0, 150.0</Owner_Respawn_Time_In_Secs>
+				<Target_Respawn_Time_In_Secs>240.0, 300.0</Target_Respawn_Time_In_Secs>
+				<Can_Neutralize_Minor_Heroes>Yes</Can_Neutralize_Minor_Heroes>
+				<Can_Neutralize_Major_Heroes>Yes</Can_Neutralize_Major_Heroes>
+			</Neutralize_Hero_Ability>
+
+		</Abilities>
+
+	</DummyStructure>
+
+	<DummyStructure Name="Fighter_Selector_Body">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_FIGHER_SELECTOR_MAIN_BODY</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>nothing.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Neutralization_Cost>1.0</Neutralization_Cost>
+	</DummyStructure>
+	<DummyStructure Name="Fighter_Selector_Cancel">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_FIGHER_SELECTOR_CANCEL</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR_CANCEL </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_view_pilots.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<!--Historical Campaigns: GC Progression Dummies-->
+	<DummyStructure Name="GC_Progression_Dummy">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_GC_PROGRESSION_DUMMY</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GC_PROGRESSION_DESCRIPTION_01
+		TEXT_TOOLTIP_GC_PROGRESSION_DESCRIPTION_02
+		TEXT_TOOLTIP_GC_PROGRESSION_DESCRIPTION_03
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_PROGRESS.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Empire, Rebel, Underworld, Hutt_Cartels</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets/>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+	</DummyStructure>
+
+	<DummyStructure Name="GC_AU_Dummy">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID></Text_ID>
+		<Encyclopedia_Text></Encyclopedia_Text>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+		<Icon_Name></Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation></Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>99</Tech_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets/>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+
+		<Lua_Script>DelayedSelfDelete_10</Lua_Script>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+	</DummyStructure>
+	<DummyStructure Name="GC_AU_2_Dummy">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID></Text_ID>
+		<Encyclopedia_Text></Encyclopedia_Text>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+		<Icon_Name></Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation></Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>99</Tech_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets/>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+
+		<Lua_Script>DelayedSelfDelete_10</Lua_Script>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+	</DummyStructure>
+	<DummyStructure Name="GC_AU_3_Dummy">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID></Text_ID>
+		<Encyclopedia_Text></Encyclopedia_Text>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+		<Icon_Name></Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation></Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>99</Tech_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets/>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+
+		<Lua_Script>DelayedSelfDelete_10</Lua_Script>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+	</DummyStructure>
+
+	<!--- Historical Story Selector Dummies -->
+	<DummyStructure Name="Historical_GC_Choice_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_HISTORICAL_STORY_CHOICE_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>nothing.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Neutralization_Cost>1.0</Neutralization_Cost>
+	</DummyStructure>
+	<DummyStructure Name="Historical_GC_Choice_Body">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CHOOSE_AN_OPTION_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Neutralization_Cost>1.0</Neutralization_Cost>
+	</DummyStructure>
+	<DummyStructure Name="Historical_GC_Choice_Story">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_HISTORICAL_STORY_CHOICE_STORY_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_HISTORICAL_STORY_CHOICE_STORY_BODY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_story.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Neutralization_Cost>1.0</Neutralization_Cost>
+	</DummyStructure>
+	<DummyStructure Name="Historical_GC_Choice_No_Story">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_HISTORICAL_STORY_CHOICE_NO_STORY_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_HISTORICAL_STORY_CHOICE_NO_STORY_BODY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_no_story.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Neutralization_Cost>1.0</Neutralization_Cost>
+	</DummyStructure>
+	<DummyStructure Name="Historical_GC_Choice_No_Intro">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_HISTORICAL_STORY_CHOICE_NO_INTRO_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_HISTORICAL_STORY_CHOICE_NO_INTRO_BODY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_no_intro.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Neutralization_Cost>1.0</Neutralization_Cost>
+	</DummyStructure>
+	<DummyStructure Name="Historical_GC_Choice_Tutorial">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_HISTORICAL_STORY_CHOICE_TUTORIAL_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_HISTORICAL_STORY_CHOICE_TUTORIAL_BODY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_tutorial.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Neutralization_Cost>1.0</Neutralization_Cost>
+	</DummyStructure>
+	<DummyStructure Name="Historical_GC_Choice_AU">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_HISTORICAL_STORY_CHOICE_AU_HEADER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_HISTORICAL_STORY_CHOICE_AU_BODY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_au.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Neutralization_Cost>1.0</Neutralization_Cost>
+	</DummyStructure>
+
+	<DummyStructure Name="Custom_GC_Body">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_MAIN_BODY</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>nothing.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>nothing.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_FTGU_Layout">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_FTGU_LAYOUT</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_CUSTOM_GC_FTGU_LAYOUT </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_ftgu_mod.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Small">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CUSTOM_START_SMALL</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_CUSTOM_START_SMALL</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_less.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Medium">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CUSTOM_START_MEDIUM</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_CUSTOM_START_MEDIUM</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_equal.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Large">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CUSTOM_START_LARGE</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_CUSTOM_START_LARGE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_extra.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Influencers">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CUSTOM_START_INFLUENCERS</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_CUSTOM_START_INFLUENCERS</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_influencers.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Learner_Mode">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_LEARNER_MODE</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_GC_LEARNER_MODE_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_story.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Pick_Location">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_PICK_LOCATION</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_GC_PICK_LOCATION_DESCRIPTION TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK TEXT_EVENT_CUSTOM_GC_PICK_LOCATION_DESCRIPTION2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_random_enemy.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Pick_Enemy_Location">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_PICK_ENEMY_LOCATION</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_GC_PICK_ENEMY_LOCATION_DESCRIPTION TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK TEXT_EVENT_CUSTOM_GC_PICK_ENEMY_LOCATION_DESCRIPTION2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_pick_enemy.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Pick_Everywhere">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_PICK_EVERYWHERE</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_GC_PICK_EVERYWHERE_DESCRIPTION TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK TEXT_EVENT_CUSTOM_GC_PICK_EVERYWHERE_DESCRIPTION2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_no_story.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Roguelike_Factional">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_ROGUELIKE_FACTIONAL</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_GC_ROGUELIKE_FACTIONAL_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_roguelike2.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Roguelike_All">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_ROGUELIKE_ALL</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_GC_ROGUELIKE_ALL_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_roguelike.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Standard_Roster">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_STANDARD_ROSTER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_GC_STANDARD_ROSTER_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_roster_standard.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Custom_Roster">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_CUSTOM_ROSTER</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_EVENT_CUSTOM_GC_CUSTOM_ROSTER_DESCRIPTION
+			TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+			TEXT_EVENT_CUSTOM_GC_CUSTOM_ROSTER_DESCRIPTION2
+			TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+			TEXT_EVENT_CUSTOM_GC_CUSTOM_ROSTER_DESCRIPTION3
+			TEXT_EVENT_CUSTOM_GC_CUSTOM_ROSTER_DESCRIPTION4
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_roster_custom.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Custom_Roster_Enable">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_CUSTOM_ROSTER_ENABLE</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_EVENT_CUSTOM_GC_CUSTOM_ROSTER_ENABLE_DESCRIPTION
+			TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+			TEXT_EVENT_CUSTOM_GC_CUSTOM_ROSTER_ENABLE_DESCRIPTION2
+			TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+			TEXT_EVENT_CUSTOM_GC_CUSTOM_ROSTER_DESCRIPTION3
+			TEXT_EVENT_CUSTOM_GC_CUSTOM_ROSTER_DESCRIPTION4
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_roster_additions.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Mapped_Roster">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_MAPPED_ROSTER</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_EVENT_CUSTOM_GC_MAPPED_ROSTER_DESCRIPTION
+			TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+			TEXT_EVENT_CUSTOM_GC_CUSTOM_ROSTER_DESCRIPTION3
+			TEXT_EVENT_CUSTOM_GC_CUSTOM_ROSTER_DESCRIPTION4
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		
+		<Icon_Name>i_button_custom_roster_mapped.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Random_Roster">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_RANDOM_ROSTER</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_EVENT_CUSTOM_GC_RANDOM_ROSTER_DESCRIPTION
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		
+		<Icon_Name>I_BUTTON_UNKNOWN.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Random_Maps">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_RANDOM_MAPS</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_EVENT_CUSTOM_GC_RANDOM_MAPS_DESCRIPTION
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		
+		<Icon_Name>I_BUTTON_RANDOM_UNIT.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Lootbox_Roster">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_LOOTBOX_ROSTER</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_EVENT_CUSTOM_GC_LOOTBOX_ROSTER_DESCRIPTION
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		
+		<Icon_Name>i_button_custom_lootbox.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Custom_GC_FTGU">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_FTGU</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_GC_FTGU_DESCRIPTION TEXT_EVENT_CUSTOM_GC_PICK_EVERYWHERE_HERONOTE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_Button_custom_ftgu.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Small_Start">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_SMALL_START</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_GC_SMALL_START_DESCRIPTION TEXT_EVENT_CUSTOM_GC_SMALL_START_ALTHERO TEXT_EVENT_CUSTOM_GC_PICK_EVERYWHERE_HERONOTE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_Button_custom_small.tga</Icon_Name>
+	</DummyStructure>
+
+	<DummyStructure Name="Custom_GC_Full_Start">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_GC_FULL_START</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_GC_FULL_START_DESCRIPTION TEXT_EVENT_CUSTOM_GC_PICK_EVERYWHERE_HERONOTE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_Button_custom_full.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Hero_Default">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_HERO_DEFAULT</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_HERO_DEFAULT_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_hero_default.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Hero_Factional">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_HERO_FACTIONAL</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_HERO_FACTIONAL_DESCRIPTION TEXT_EVENT_CUSTOM_HERO_FIGHTER TEXT_EVENT_CUSTOM_HERO_WARNING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_hero_factional.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Hero_All">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_HERO_ALL</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_HERO_ALL_DESCRIPTION TEXT_EVENT_CUSTOM_HERO_FIGHTER TEXT_EVENT_CUSTOM_HERO_WARNING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_hero_all.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Hero_Factional_Random">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_HERO_FACTIONAL_RANDOM</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_HERO_FACTIONAL_RANDOM_DESCRIPTION TEXT_EVENT_CUSTOM_HERO_WARNING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_UNKNOWN.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Hero_All_Random">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_HERO_ALL_RANDOM</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_HERO_ALL_RANDOM_DESCRIPTION TEXT_EVENT_CUSTOM_HERO_WARNING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_lootbox.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Equal">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_EQUAL_START</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_EQUAL_START_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_equal.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Player_Extra">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_PLAYER_EXTRA</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_PLAYER_EXTRA_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_extra.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Player_Half">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_PLAYER_HALF</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_PLAYER_HALF_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_less.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Player_FTGU_Extreme">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_PLAYER_FTGU_EXTREME</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_PLAYER_FTGU_EXTREME_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_custom_ftgu_mod.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Player_Observer">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Text_ID>TEXT_EVENT_CUSTOM_PLAYER_OBSERVER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_CUSTOM_PLAYER_OBSERVER_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_gc_choice_observer.tga</Icon_Name>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Starter_Dummy">
+		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_DUMMY_CUSTOM_GC_STARTER</Text_ID>
+		<Icon_Name>I_BUTTON_COMMAND_BAR_PLAY.tga</Icon_Name>
+		<Encyclopedia_Text>
+		TEXT_DUMMY_CUSTOM_GC_STARTER_DESCRIPTION
+		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+		TEXT_DUMMY_CUSTOM_GC_STARTER_DESCRIPTION2
+		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+		TEXT_DUMMY_CUSTOM_GC_STARTER_DESCRIPTION3
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="Boba_Fett_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+		</Abilities>
+
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Starter_Dummy_Team">
+		<Text_ID>TEXT_DUMMY_CUSTOM_GC_STARTER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_DUMMY_CUSTOM_GC_STARTER_DESCRIPTION
+		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+		TEXT_DUMMY_CUSTOM_GC_STARTER_DESCRIPTION2
+		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+		TEXT_DUMMY_CUSTOM_GC_STARTER_DESCRIPTION3
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_COMMAND_BAR_PLAY.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Gallofree_Transport_Superfast</Company_Transport_Unit>
+		<Company_Units>Custom_GC_Starter_Dummy</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Random_Dummy">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<CategoryMask>Wall</CategoryMask>
+
+		<Text_ID>TEXT_DUMMY_CUSTOM_GC_RANDOM_FACTION</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_DUMMY_CUSTOM_GC_RANDOM_FACTION_DESCRIPTION
+		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+		TEXT_DUMMY_CUSTOM_GC_RANDOM_FACTION_DESCRIPTION2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_UNKNOWN.tga</Icon_Name>
+		<Hyperspace_Speed>25</Hyperspace_Speed>
+		<Hyperspace>Yes</Hyperspace>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="Dummy_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+		</Abilities>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Capital">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_CAPITALDUMMY.TGA</Icon_Name>
+		<Text_ID>TEXT_DUMMY_CUSTOM_GC_CAPITAL</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_DUMMY_CUSTOM_GC_CAPITAL_DESCRIPTION
+		</Encyclopedia_Text>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Planet_Lock">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_PADLOCK.TGA</Icon_Name>
+		<Text_ID>TEXT_DUMMY_CUSTOM_GC_PLANET_LOCK</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_DUMMY_CUSTOM_GC_PLANET_LOCK_DESCRIPTION
+		</Encyclopedia_Text>
+	</DummyStructure>
+	<DummyStructure Name="Custom_GC_Random_Unit_Dummy">
+		<Variant_Of_Existing_Type>Custom_GC_Random_Dummy</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_DUMMY_CUSTOM_GC_RANDOM_UNIT</Text_ID>
+		<Icon_Name>I_BUTTON_RANDOM_UNIT.tga</Icon_Name>
+		<Encyclopedia_Text>
+		TEXT_DUMMY_CUSTOM_GC_RANDOM_UNIT_DESCRIPTION
+		</Encyclopedia_Text>
+	</DummyStructure>
+
+</TemplateDummies>

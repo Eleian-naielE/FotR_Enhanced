@@ -1537,6 +1537,8 @@
 		
 		<Death_Clone>Damage_Force_Telekinesis, Medium_Explosion_Land</Death_Clone>
 		<Death_Clone>Damage_Crush, Medium_Explosion_Land</Death_Clone>
+
+		<Vehicle_Thief_Inside_Clone>Light_Rakatan_Annihilator_Captured</Vehicle_Thief_Inside_Clone>
 	</GroundVehicle>
 	<GroundCompany Name="Light_Rakatan_Annihilator_Company">
 		<Text_ID>TEXT_UNIT_RAKATAN_ANNIHILATOR_LIGHT_COMPANY</Text_ID>
@@ -1596,6 +1598,18 @@
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 	</GroundCompany>
 
+	<GroundVehicle Name="Light_Rakatan_Annihilator_Captured">
+		<Variant_Of_Existing_Type>Light_Rakatan_Annihilator</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
 
 	<GroundVehicle Name="Heavy_Rakatan_Annihilator">
 		<Text_ID>TEXT_UNIT_RAKATAN_ANNIHILATOR_HEAVY</Text_ID>
@@ -1776,6 +1790,7 @@
 		
 		<Death_Clone>Damage_Force_Telekinesis, Huge_Explosion_Land</Death_Clone>
 		<Death_Clone>Damage_Crush, Huge_Explosion_Land</Death_Clone>
+		<Vehicle_Thief_Inside_Clone>Heavy_Rakatan_Annihilator_Captured</Vehicle_Thief_Inside_Clone>
 	</GroundVehicle>
 	<GroundCompany Name="Heavy_Rakatan_Annihilator_Company">
 		<Text_ID>TEXT_UNIT_RAKATAN_ANNIHILATOR_HEAVY_COMPANY</Text_ID>
@@ -1836,6 +1851,18 @@
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 	</GroundCompany>
 
+	<GroundVehicle Name="Heavy_Rakatan_Annihilator_Captured">
+		<Variant_Of_Existing_Type>Heavy_Rakatan_Annihilator</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
 
 	<GroundVehicle Name="Wookiee_Flutter">
 		<Text_ID>TEXT_UNIT_WOOKFLUTTER</Text_ID>
@@ -2015,9 +2042,29 @@
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<FormationGrouping> Solo </FormationGrouping>
 		<Weather_Category>Flying</Weather_Category>
+
+		<Vehicle_Thief_Inside_Clone>Wookiee_Flutter_Captured</Vehicle_Thief_Inside_Clone>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<GroundVehicle Name="Wookiee_Flutter_Captured">
+		<Variant_Of_Existing_Type>Wookiee_Flutter</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>

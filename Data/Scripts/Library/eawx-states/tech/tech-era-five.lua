@@ -32,7 +32,7 @@ return {
                 "Lucrehulk_Auxiliary",
                 "CIS_GAT_Company",
                 "Destroyer_Droid_I_W_Company",
-                "Magna_Company"
+                "Magna_Octuptarra_Company"
             }, false)
 
             UnitUtil.SetLockList("REBEL", {

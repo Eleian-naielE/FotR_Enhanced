@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Campaigns> <!-- FotR_Enhanced ; SPHA_T Starting Forces on Geonosis -->
+<Campaigns> <!-- FotR_Enhanced ; Starting Forces adjustments on Geonosis -->
   <Campaign Name="Clone_Wars_Large_Era_2_Empire">
     <Campaign_Set>Clone_Wars_Large_Era_2</Campaign_Set>
     <Sort_Order>3</Sort_Order>
@@ -474,6 +474,7 @@
     <Starting_Forces>Empire, Geonosis, Empire_Office</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, E_Ground_Barracks</Starting_Forces>
 	<Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
+	<Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_74Z_Bike_Company</Starting_Forces>
@@ -483,6 +484,7 @@
     <Starting_Forces>Empire, Geonosis, Empire_Star_Base_2</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Acclamator_I_Carrier</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Acclamator_I_Carrier</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, Republic_AT_TE_Walker_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_AT_TE_Walker_Company</Starting_Forces>
     <Starting_Forces>Sector_Forces, Glee_Anselm, Generate_Force</Starting_Forces>
     <Starting_Forces>Rebel, Haruun_Kal, Generate_Force</Starting_Forces>
@@ -1033,9 +1035,10 @@
     <Starting_Forces>Banking_Clan, Garqi, Generate_Force</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Empire_Office</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, E_Ground_Barracks</Starting_Forces>
-    <Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
-	<Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
-	<Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
+	<Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
+	<Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_74Z_Bike_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_Jedi_Knight_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Clonetrooper_Phase_One_Company</Starting_Forces>
@@ -1043,6 +1046,7 @@
     <Starting_Forces>Empire, Geonosis, Empire_Star_Base_2</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Acclamator_I_Carrier</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Acclamator_I_Carrier</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, Republic_AT_TE_Walker_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_AT_TE_Walker_Company</Starting_Forces>
     <Starting_Forces>Sector_Forces, Glee_Anselm, Generate_Force</Starting_Forces>
     <Starting_Forces>Rebel, Haruun_Kal, Generate_Force</Starting_Forces>
@@ -1593,9 +1597,10 @@
     <Starting_Forces>Banking_Clan, Garqi, Generate_Force</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Empire_Office</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, E_Ground_Barracks</Starting_Forces>
-    <Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
-	<Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
-	<Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
+	<Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
+	<Starting_Forces>Empire, Geonosis, Republic_LAAT_Company</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, SPHA_T_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_74Z_Bike_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_Jedi_Knight_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Clonetrooper_Phase_One_Company</Starting_Forces>
@@ -1603,6 +1608,7 @@
     <Starting_Forces>Empire, Geonosis, Empire_Star_Base_2</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Acclamator_I_Carrier</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Acclamator_I_Carrier</Starting_Forces>
+    <Starting_Forces>Empire, Geonosis, Republic_AT_TE_Walker_Company</Starting_Forces>
     <Starting_Forces>Empire, Geonosis, Republic_AT_TE_Walker_Company</Starting_Forces>
     <Starting_Forces>Sector_Forces, Glee_Anselm, Generate_Force</Starting_Forces>
     <Starting_Forces>Rebel, Haruun_Kal, Generate_Force</Starting_Forces>

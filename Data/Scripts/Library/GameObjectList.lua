@@ -364,8 +364,10 @@ return {
 --FotR_Enhanced
 ["BLOCK_NEGOTIATOR"] = true,
 ["BLOCK_VIGILANCE"] = true,
-["VADER_EXACTOR"] = true,
 ["YULAREN_RESOLUTE_SPHAT"] = true,
+["EXACTOR_ANAKIN_DARKSIDE"] = true,
+["EXACTOR_VADER"] = true,
+["GILLEHSPY_HOUND"] = true,
 ["TJ912_RECUSANT"] = true,
 ["TM171_DH_OMNI"] = true,
 ["UMBARAN_FRIGATE"] = true,

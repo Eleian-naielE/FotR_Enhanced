@@ -1661,11 +1661,9 @@
 	<TransportUnit Name="LAAT_Landing_Craft_501st">
 		<Variant_Of_Existing_Type>LAAT_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>LAAT_Landing_Craft_501st_Landing</Landing_Transport_Variant>
-		<No_Colorization_Color> 25, 25, 255, 255 </No_Colorization_Color>
 	</TransportUnit>
 	<TransportUnit Name="LAAT_Landing_Craft_501st_Landing">
 		<Variant_Of_Existing_Type>LAAT_Landing_Craft_Landing</Variant_Of_Existing_Type>
-		<No_Colorization_Color> 25, 25, 255, 255 </No_Colorization_Color>
 	</TransportUnit>
 
 	<TransportUnit Name="LAAT_Landing_Craft_Plos_Bros">
@@ -1884,6 +1882,17 @@
 
 	<TransportUnit Name="Theta_Shuttle_Landing_Craft_Oppo_Landing">
 		<Variant_Of_Existing_Type>Theta_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<!-- Rohn -->
+
+	<TransportUnit Name="CR25_Landing_Craft_Rohn">
+		<Variant_Of_Existing_Type>CR25_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>CR25_Landing_Craft_Rohn_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+
+	<TransportUnit Name="CR25_Landing_Craft_Rohn_Landing">
+		<Variant_Of_Existing_Type>CR25_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
 	<!-- Ground Fighters -->

@@ -1,24 +1,35 @@
 return {
+	--[[
+	adjusted total hero amounts ;
+	moff = 2
+	admiral = 4
+	clones officer = 4
+	commando = 3
+	jedi = 4
+	]]
 	["EMPIRE"] = {
-	["CORUSCANT"] = {"Yoda_Eta_Team", "Pestage_Team", "Fordo2_Team"},
-	["CARIDA"] = { "Obi_Wan_Eta_Team", "Cody2_Team", "Ozzel_Team"},
-	["NABOO"] = {"Rex2_Team", "Anakin_Eta_Team"},
-	["ORINDA"] = {"Romodi_Team", "Pellaeon_Leveler"},
-	["ERIADU"] = {"Tarkin_Venator"},
-	["KASHYYYK"] = {"Delta_Squad"},
-	["KUAT"] = {"Yularen_Integrity", "Rahm_Kota_Team", "Kotas_Militia_Trooper_Company", "Kotas_Militia_Trooper_Company"},
-	["CORELLIA"] = {"Plo_Koon_Delta_Team", "Coburn_Venator"}
+		["CORUSCANT"] = {"Yoda_Eta_Team", "Pestage_Team", "Fordo2_Team"},
+		["CARIDA"] = {"Block_Vigilance", "Obi_Wan_Eta_Team", "Cody2_Team"},
+		["NABOO"] = {"Rex2_Team", "Anakin_Eta_Team"},
+		["ORINDA"] = {"Romodi_Team", "Pellaeon_Leveler"},
+		["ERIADU"] = {"Tarkin_Venator"},
+		["KASHYYYK"] = {"Delta_Squad"},
+		["CORELLIA"] = {"Plo_Koon_Delta_Team", "Tallon_Sundiver"},
+		["HONOGHR"] = {"Aayla_Secura_Eta_Team", "Bly2_Team"},
+		["MALASTARE"] = {"Maarisa_Retaliation", "KLIGSON_TEAM"},
+		["RYLOTH"] = {"Ravik_Victory"},
 	},
 	["REBEL"] = {
-	["RAXUS_SECOND"] = {"Nute_Gunray_Team", "Trench_Invulnerable"},
-	["DURO"] = {"Grievous_Invisible_Hand", "Harsol_Munificent", "Durge_Team"},
-	["ONDERON"] = {"Kalani_Team"},
-	["SALEUCAMI"] = {"Sora_Bulq_Team"},
-	["SULLUST"] = {"Ventress_Team", "AutO_Providence",--[[FotR_Enhanced]] "TJ912_Recusant"},
-	["VJUN"] = {"Dooku_Team", "Lucid_Voice"},
-	["RENDILI"] = {"Mellor_Yago_Rendili_Reign"},
-	["HYPORI"] = {"TF1726_Munificent", "Colicoid_Swarm"},
-	["MANDALORE"] = {"Spar_Team", "Fenn_Shysa_Team", "Tobbi_Dala_Team"}
+		["RAXUS_SECOND"] = {"Nute_Gunray_Team", "Trench_Invulnerable"},
+		["DURO"] = {"Grievous_Invisible_Hand", "Harsol_Munificent", "Durge_Team"},
+		["ONDERON"] = {"Kalani_Team"},
+		["SALEUCAMI"] = {"Sora_Bulq_Team"},
+		["SULLUST"] = {"Ventress_Team", "AutO_Providence",--[[FotR_Enhanced]] "TJ912_Recusant"},
+		["VJUN"] = {"Dooku_Team", "Lucid_Voice"},
+		["RENDILI"] = {"Mellor_Yago_Rendili_Reign"},
+		["HYPORI"] = {"TF1726_Munificent", "Colicoid_Swarm"},
+		["MANDALORE"] = {"Spar_Team", "Fenn_Shysa_Team", "Tobbi_Dala_Team"},
+		["BOMIS_KOORI"] = {"Dassyne_CA_Artillery_Team"},
 	},
 	["HUTT_CARTELS"] = {
 		["CIRCUMTORE"]  = {

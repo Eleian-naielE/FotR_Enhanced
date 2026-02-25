@@ -883,7 +883,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Vehicle_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Vehicle, VehicleHero, AirGunship, AirSpeeder</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Droid, Vehicle, VehicleHero, AirGunship, AirSpeeder</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Vehicle_Repair_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
@@ -6024,6 +6024,31 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
 		
 		<Targeting_Priority_Set>AntiInfantryVehicle</Targeting_Priority_Set>
+
+		<Vehicle_Thief_Inside_Clone>Persuader_Riot_Control_Captured</Vehicle_Thief_Inside_Clone>
+	</GroundVehicle>
+
+	<GroundVehicle Name="Persuader_Riot_Control_Captured">
+		<Variant_Of_Existing_Type>Persuader_Riot_Control</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 1.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.9f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_Persuader</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SPRINT_ALT_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 	</GroundVehicle>
 
 	<GroundVehicle Name="Espo_Walker_91">

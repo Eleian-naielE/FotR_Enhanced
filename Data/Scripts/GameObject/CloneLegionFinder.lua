@@ -18,7 +18,18 @@ function State_Init(message)
 			clone_skin = 0
 		end
 
-		local generics = {"Commander_Clone_P2_III","Commander_Clone_P1_III","Commander_Clone_P2_IV","Commander_Clone_P1_IV"} --Earlier in the list determines priority if multiple are present
+		local generics = {
+			"Commander_Tier_IV_Republic_AT_RT_Walker_P2",
+			"Commander_Tier_IV_Republic_AT_RT_Walker_P1",
+			"Commander_Tier_IV_Republic_BARC_Speeder",
+			"Commander_Tier_IV_Republic_74Z_Speeder_Bike",
+			"Commander_Tier_III_Clone_Airborne_Trooper",
+			"Commander_Tier_III_Clone_Scout_Trooper",
+			"Commander_Tier_II_Clone_Special_Ops",
+			"Commander_Tier_II_Clone_Galactic_Marine",
+			"Commander_Tier_I_Clone_Phase_Two",
+			"Commander_Tier_I_Clone_Phase_One",
+			} --Earlier in the list determines priority if multiple are present
 
 		for _, generic in pairs(generics) do
 			local unit = Find_First_Object(generic)
@@ -72,6 +83,7 @@ function State_Init(message)
 		or Find_First_Object("Bow")
 		or Find_First_Object("Vill")
 		or Find_First_Object("Voca")
+		or Find_First_Object("Hawk_P1_LAAT") or Find_First_Object("Hawk_P2_LAAT") -- FotR_Enhanced
 		then
 			clone_skin = 2
 		elseif Find_First_Object("Plo_Koon")

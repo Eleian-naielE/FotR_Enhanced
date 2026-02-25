@@ -3587,6 +3587,7 @@
 		<Required_Orbiting_Units>Coburn_Venator</Required_Orbiting_Units>
 	</DummyStructure>
 	
+	
 	<UniqueUnit Name="Yularen_Resolute">
 		<Variant_Of_Existing_Type>Template_Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -4104,9 +4105,7 @@
 		</Abilities>
 	</UniqueUnit>
 	
-	<!-- FotR_Enhanced -->
-	
-	<UniqueUnit Name="Yularen_Resolute_SPHAT">
+	<UniqueUnit Name="Yularen_Resolute_SPHAT"> <!-- FotR_Enhanced -->
 		<Variant_Of_Existing_Type>Yularen_Integrity</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -4183,7 +4182,7 @@
 
 		<Required_Orbiting_Units>Yularen_Resolute</Required_Orbiting_Units>
 	</DummyStructure>
-	<DummyStructure Name="Yularen_Retire1">
+	<DummyStructure Name="Yularen_Retire1"> <!-- For Yularen_Resolute_SPHAT -->
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
 		<SFXEvent_Build_Started> </SFXEvent_Build_Started>
@@ -4252,6 +4251,7 @@
 		<Required_Orbiting_Units>Yularen_Resolute</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Three | Republic_Shipyard_Level_Four</Required_Special_Structures>
 	</DummyStructure>
+
 	<DummyStructure Name="Yularen_Integrity_Upgrade_Invincible">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<GUI_Row> 1 </GUI_Row>
@@ -4272,10 +4272,8 @@
 		<Required_Orbiting_Units>Yularen_Integrity</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Three | Republic_Shipyard_Level_Four</Required_Special_Structures>
 	</DummyStructure>
-	
-	<!-- FotR_Enhanced -->
 
-	<DummyStructure Name="Yularen_Resolute_Upgrade_Resolute_SPHAT">
+	<DummyStructure Name="Yularen_Resolute_Upgrade_Resolute_SPHAT"> <!-- For Yularen_Resolute_SPHAT -->
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<GUI_Row> 1 </GUI_Row>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
@@ -4294,7 +4292,8 @@
 		<Required_Orbiting_Units>Yularen_Resolute</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Republic_Shipyard_Level_Three | Republic_Shipyard_Level_Four</Required_Special_Structures>
 	</DummyStructure>
-	<DummyStructure Name="Yularen_Resolute_SPHAT_Upgrade_Invincible">
+
+	<DummyStructure Name="Yularen_Resolute_SPHAT_Upgrade_Invincible"> <!-- For Yularen_Resolute_SPHAT -->
 	  <Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<GUI_Row> 1 </GUI_Row>
 		<Build_Cost_Credits>1700</Build_Cost_Credits>
@@ -4814,7 +4813,7 @@
 	</DummyStructure>
 
 
-	<UniqueUnit Name="Denimoor_Tenacious">
+	<UniqueUnit Name="Denimoor_Tenacious"> <!-- FotR_Enhanced ; Respect for the jedi ability added-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Variant_Of_Existing_Type>Template_Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_DENIMOOR</Text_ID>
@@ -4844,7 +4843,9 @@
 		
 		<Ranking_In_Category> 8 </Ranking_In_Category>
 
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<SpaceBehavior>
+			LURE, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA
+		</SpaceBehavior>
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Tech_Level>99</Tech_Level>
 		<Affiliation>Empire</Affiliation>
@@ -4890,6 +4891,43 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>LURE</Type>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_RESPECT_FOR_JEDI_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_RESPECT_FOR_JEDI_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_RESPECT_FOR_JEDI.tga</Alternate_Icon_Name>
+				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
+					 Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
+				<Effective_Radius>1</Effective_Radius>
+
+				<Target_Types />
+
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<Expiration_Seconds>60</Expiration_Seconds>
+
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>120</Max_Number_Of_Pulses>
+				<Particle_Effect>Respect_for_Jedi_Ability_Particle</Particle_Effect>
+
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,    0.85f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,    -1f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,    1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,        0.5f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Jedi_Cruiser</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -5334,7 +5372,7 @@
 
 	<UniqueUnit Name="Block_Negotiator">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Variant_Of_Existing_Type>Template_Venator_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Space_Model_Name>Venator_OFC.alo</Space_Model_Name>
 		<Icon_Name>i_button_block.tga</Icon_Name>
 		<Prevents_Story_Campaign_Autoresolve>no</Prevents_Story_Campaign_Autoresolve>
@@ -5378,12 +5416,14 @@
 			Destruction_Survivor_Block_Nu_Shuttle, 1
 		</Destruction_Survivors>
 
+		<Death_Clone>Damage_Noraml, Venator_OFC_Death_Clone</Death_Clone>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SELF_DESTRUCT</Type>
 				<Expiration_Seconds>2</Expiration_Seconds>
 				<Recharge_Seconds>10</Recharge_Seconds>
-				<Spawned_Object_Type> Space_Self_Destruct_Large </Spawned_Object_Type>
+				<Spawned_Object_Type> Space_Self_Destruct_Huge </Spawned_Object_Type>
 				<Supports_Autofire>false</Supports_Autofire>
 			</Unit_Ability>
 
@@ -5393,14 +5433,14 @@
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_AMBUSH_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>i_sa_AMBUSH.tga</Alternate_Icon_Name>
 				
-				<Expiration_Seconds>15</Expiration_Seconds>
+				<Expiration_Seconds>30</Expiration_Seconds>
 				<Recharge_Seconds>100000</Recharge_Seconds>
 				<Active_By_Default>Yes</Active_By_Default>
 				
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,    0.66f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,    0.3f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,    1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,    1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,        1.25f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,        1.5f</Mod_Multiplier>
 
 				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
@@ -5549,6 +5589,129 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 	</UniqueUnit>
 
+	<!-- Order 66 -->
+	<UniqueUnit Name="Gillehspy_Hound">
+		<Variant_Of_Existing_Type>Venator_Star_Destroyer</Variant_Of_Existing_Type>
+		<Prevents_Story_Campaign_Autoresolve>no</Prevents_Story_Campaign_Autoresolve>
+		<Text_ID>TEXT_HERO_GILLEHSPY</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_RECKLESS
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_GILLEHSPY
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
+		TEXT_TOOLTIP_COMMAND_HOUND
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VENATOR_HULL 
+		TEXT_TOOLTIP_VENATOR_SHIELD
+		TEXT_TOOLTIP_VENATOR_MOVE
+		TEXT_TOOLTIP_VENATOR_SQUADRON
+		TEXT_TOOLTIP_VENATOR_WEAP1
+		TEXT_TOOLTIP_VENATOR_WEAP2 
+		TEXT_TOOLTIP_VENATOR_WEAP3
+		TEXT_TOOLTIP_VENATOR_WEAP4
+		TEXT_TOOLTIP_VENATOR_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN</Encyclopedia_Unit_Class>
+		
+		<Ranking_In_Category> 6 </Ranking_In_Category>
+		<Icon_Name>i_button_gillehpsy.tga</Icon_Name>
+		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
+
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Tech_Level>99</Tech_Level>
+		<Affiliation>Empire</Affiliation>
+
+		<Space_Model_Name>EV_Venator.alo</Space_Model_Name>
+		<Death_Clone>Damage_Normal, Venator_Death_Clone</Death_Clone>
+		
+		<Unit_Abilities_Data SubObjectList="Yes"> <!-- Haste Abiltiy -->
+			<Unit_Ability>
+				<Type>TURBO</Type>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	0.2f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,    0.5</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,    0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,        2.2f</Mod_Multiplier>
+
+				<!--<SFXEvent_GUI_Unit_Ability_Activated>Unit_Fleet_Move_Captain_Screed</SFXEvent_GUI_Unit_Ability_Activated>-->
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_HASTE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_HASTE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_SPRINT.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 + Reckless -->
+			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_04_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<DummyStructure Name="Gillehspy_Assign">
+		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_GILLEHSPY</Text_ID>
+		<Icon_Name>i_button_gillehspy_command.tga</Icon_Name>
+
+		<SFXEvent_Build_Started> </SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled> </SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete> </SFXEvent_Build_Complete>	
+
+		<Affiliation>Empire</Affiliation>
+
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_ASSIGN_NR_ADMIRAL
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_RECKLESS
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_GILLEHSPY
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
+		TEXT_TOOLTIP_COMMAND_HOUND
+		</Encyclopedia_Text>
+	</DummyStructure>
+
+	<DummyStructure Name="Gillehspy_Retire">
+		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
+
+		<SFXEvent_Build_Started> </SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled> </SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete> </SFXEvent_Build_Complete>
+
+		<Text_ID>TEXT_HERO_GILLEHSPY</Text_ID>
+		<Icon_Name>i_button_gillehspy_retire.tga</Icon_Name>
+
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Required_Orbiting_Units>Gillehspy_Hound</Required_Orbiting_Units>
+
+	</DummyStructure>
+	
+	<!-- end -->
+
 
 	<!-- Admiral Staff: Gladiator-I Heroes -->
 
@@ -5678,7 +5841,7 @@
 		</Abilities>
 	</UniqueUnit>
 	
-	<DummyStructure Name="Screed_Assign">
+	<DummyStructure Name="Screed_Assign"> <!-- FotR_Enhanced ; tooltip edited -->
 		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_HERO_TERRINALD_SCREED</Text_ID>
@@ -6025,7 +6188,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</UniqueUnit>
 
-	<DummyStructure Name="Screed_Retire">
+	<DummyStructure Name="Screed_Retire"> <!-- FotR_Enhanced ; VSD Screed added as command staff option -->
 		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_HERO_TERRINALD_SCREED</Text_ID>

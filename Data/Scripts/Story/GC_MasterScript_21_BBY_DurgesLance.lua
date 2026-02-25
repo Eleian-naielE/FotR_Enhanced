@@ -159,7 +159,7 @@ function State_Historical_GC_Choice_Prompt(message)
 	end
 end
 
-function Historical_GC_Choice_Made(choice)
+function Historical_GC_Choice_Made(choice) -- FotR_Enhanced ; clone market
 	if choice == "HISTORICAL_GC_CHOICE_STORY" then
 		if p_cis.Is_Human() then
 			Create_Thread("CIS_Story_Set_Up")
@@ -189,6 +189,9 @@ function Historical_GC_Choice_Made(choice)
 		end
 	end
 	if choice == "HISTORICAL_GC_CHOICE_NO_STORY" then
+		if GlobalValue.Get("CURRENT_CLONE_PHASE") == 2 then
+			crossplot:publish("UPDATE_MOBILIZATION", "PHASE_TWO_RESEARCH") -- FotR_Enhanced ; clone market
+		end
 		Create_Thread("Generic_Story_Set_Up")
 	end
 	if choice == "HISTORICAL_GC_CHOICE_AU" then
@@ -823,7 +826,7 @@ end
 
 -- Republic
 
-function Rep_Story_Set_Up()
+function Rep_Story_Set_Up() -- FotR_Enhanced
 	Story_Event("REP_STORY_START")
 
 	StoryUtil.SpawnAtSafePlanet("YAGDHUL", p_cis, StoryUtil.GetSafePlanetTable(), {"Grievous_Invisible_Hand"})
@@ -845,6 +848,7 @@ function Rep_Story_Set_Up()
 
 	if (GlobalValue.Get("CURRENT_CLONE_PHASE") == 2) then
 		crossplot:publish("CLONE_UPGRADES", "empty")
+		crossplot:publish("UPDATE_MOBILIZATION", "PHASE_TWO_RESEARCH") -- FotR_Enhanced ; clone market
 		p_republic.Unlock_Tech(Find_Object_Type("Clonetrooper_Phase_Two_Company"))
 		p_republic.Unlock_Tech(Find_Object_Type("Republic_BARC_Company"))
 		p_republic.Unlock_Tech(Find_Object_Type("ARC_Phase_Two_Company"))

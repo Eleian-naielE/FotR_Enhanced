@@ -5476,7 +5476,34 @@
 
 		<Target_Bones> TARGET_00, TARGET_01 </Target_Bones>
 
+		<Vehicle_Thief_Inside_Clone>Hutt_Bantha_II_Skiff_Captured</Vehicle_Thief_Inside_Clone>
+
 	</GroundVehicle>
+
+	<GroundVehicle Name="Hutt_Bantha_II_Skiff_Captured">
+		<Variant_Of_Existing_Type>Hutt_Bantha_II_Skiff</Variant_Of_Existing_Type>
+		
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>90.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>BanthaII_Proximity_Mines_Frag</GUI_Activated_Ability_Name>
+				<Effective_Radius> 100.0 </Effective_Radius>
+				<SFXEvent_Target_Ability/>
+				<Area_Effect_Decal_Distance>50.0</Area_Effect_Decal_Distance>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_FRAG_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_FRAG_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_CLUSTER_BOMB.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+    </GroundVehicle>
 
 	<GroundVehicle Name="SuperHaul_II_Skiff">
 
@@ -5879,7 +5906,7 @@
 		<Type>Hover</Type>
 		<CategoryMask> Vehicle | AntiInfantry </CategoryMask>
 		<Ranking_In_Category>7</Ranking_In_Category>
-		<Property_Flags>DoKite</Property_Flags>
+		<Property_Flags>DoKite | HealsOrganics</Property_Flags>
 		<Weather_Category>Hover</Weather_Category>
 		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -6030,7 +6057,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>

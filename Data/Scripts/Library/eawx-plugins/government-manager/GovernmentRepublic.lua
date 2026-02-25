@@ -71,6 +71,9 @@ function GovernmentRepublic:new(gc,id,gc_name)
 	self.SpaceStructureSnapshot = {}
 
 	self.p2_table = require("ClonePhaseTwoLibrary") -- FotR_Enhanced
+	local startingEra = GlobalValue.Get("CURRENT_ERA")
+	local Initial_ARC_Limit = self.p2_table[2][3][startingEra] -- FotR_Enhanced ; Initial Value
+	GlobalValue.Set("ARC_LIFETIME_LIMIT", Initial_ARC_Limit)
 
 	GCEventTable = {
 		["PROGRESSIVE"] = {EventName = "START_ORDER_6X", AutoOption = "SENATE_CHOICE_ORDER_6X_AI"},
@@ -349,7 +352,6 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 
 	elseif game_object_type_name == "DUMMY_RESEARCH_VENATOR" then
 		crossplot:publish("UPDATE_MOBILIZATION","VENATOR_RESEARCH")
-
 	elseif game_object_type_name == "DUMMY_KDY_CONTRACT" then
 		if self.RepublicPlayer.Is_Human() then
 			Story_Event("KDY_CONTRACT_COMPLETED")
@@ -361,6 +363,8 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 		StoryUtil.SpawnAtSafePlanet("CORUSCANT", Find_Player("Empire"), StoryUtil.GetSafePlanetTable(), {"Mulleen_Imperator"})
 
 	elseif game_object_type_name == "DUMMY_RESEARCH_CLONE_TROOPER_II" then -- FotR_Enhanced
+		crossplot:publish("UPDATE_MOBILIZATION", "PHASE_TWO_RESEARCH")
+		local amount = GlobalValue.Get("ARC_LIFETIME_LIMIT")
 		if self.gc_name == "RIMWARD" then
 			UnitUtil.DespawnList({"DUMMY_RESEARCH_CLONE_TROOPER_II"})
 
@@ -379,14 +383,18 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 				end
 			end
         end
-		if GlobalValue.Get("ARC_LIFETIME_LIMIT") == 0 then
+		crossplot:publish("ADJUST_MARKET_AMOUNT", {{"EMPIRE", "CLONE_MARKET", "ARC_PHASE_TWO_COMPANY", amount, true}})
+		--[[if GlobalValue.Get("ARC_LIFETIME_LIMIT") == 0 then
 			UnitUtil.SetLockList("EMPIRE", {"ARC_PHASE_TWO_COMPANY"}, false)
-		end
+		end]]
 	elseif game_object_type_name == "ARC_PHASE_ONE_COMPANY" or game_object_type_name == "ARC_PHASE_TWO_COMPANY" then -- FotR_Enhanced
+		if self.id == "FTGU" or self.id == "CUSTOM" then
+			return
+		end
 		local lifetime = GlobalValue.Get("ARC_LIFETIME_LIMIT")
-		local object_type = Find_Object_Type(game_object_type_name)
+		--local object_type = Find_Object_Type(game_object_type_name)
 		lifetime = lifetime -1
-		if lifetime <= 0 then
+		--[[if lifetime <= 0 then
 			if not object_type.Is_Build_Locked(self.RepublicPlayer) then
 				UnitUtil.SetLockList('EMPIRE', {game_object_type_name}, false)
 				return
@@ -396,7 +404,7 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 			local last_spawned = Find_First_Object(dummy_name)
 			last_spawned.Despawn()
 			return
-		end
+		end]]
 		GlobalValue.Set("ARC_LIFETIME_LIMIT", lifetime)
 		StoryUtil.ShowScreenText("Available ARC Trooper left: "..tostring(lifetime) , 10, nil, {r = 244, g=244, b =0})
 	end
@@ -430,7 +438,7 @@ function GovernmentRepublic:Option_Cycle_Fleet_Skin()
 	StoryUtil.ShowScreenText(self.FleetSkins[self.FleetID + 1], 5)
 end
 
-function GovernmentRepublic:UpdateDisplay(favour_table, market_name, market_list)
+function GovernmentRepublic:UpdateDisplay(favour_table, market_name, market_list) -- FotR_Enhanced ; may need to refactor
 	--Logger:trace("entering GovernmentRepublic:UpdateDisplay")
 	local plot = Get_Story_Plot("Conquests\\Player_Agnostic_Plot.xml")
 	local government_display_event = plot.Get_Event("Government_Display")
@@ -449,18 +457,18 @@ function GovernmentRepublic:UpdateDisplay(favour_table, market_name, market_list
 		else
 			government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CURRENT_CHANCELLOR", Find_Object_Type(GlobalValue.Get("ChiefOfState")))
 		end
-
+		
 		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 		government_display_event.Add_Dialog_Text("TEXT_NONE")
-
+		--KDY Market Display
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_KDY_OVERVIEW_HEADER")
 		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_KDY_OVERVIEW")
 		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 		government_display_event.Add_Dialog_Text("TEXT_NONE")
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_KDY_LIST_01")
-		for i, ship in ipairs(SortKeysByElement(market_list,"order","asc")) do
-			local ship_data = market_list[ship]
+		for i, ship in ipairs(SortKeysByElement(market_list[1],"order","asc")) do
+			local ship_data = market_list[1][ship]
 			if (ship_data.amount > 0) or ((ship_data.locked == false) and (ship_data.gc_locked == false)) then
 				government_display_event.Add_Dialog_Text(ship_data.readable_name .. ": "..tostring(ship_data.amount) .." - [ ".. tostring(ship_data.chance/10) .."%% ] ")
 			end
@@ -468,13 +476,38 @@ function GovernmentRepublic:UpdateDisplay(favour_table, market_name, market_list
 
 		government_display_event.Add_Dialog_Text("TEXT_NONE")
 		government_display_event.Add_Dialog_Text("Currently Unavailable:")
-		for i, ship in ipairs(SortKeysByElement(market_list,"order","asc")) do
-			local ship_data = market_list[ship]
+		for i, ship in ipairs(SortKeysByElement(market_list[1],"order","asc")) do
+			local ship_data = market_list[1][ship]
 			if (ship_data.amount == 0) and (ship_data.locked == true) and (ship_data.gc_locked == false) then
 				government_display_event.Add_Dialog_Text(ship_data.readable_name .." - "..ship_data.text_requirement)
 			end
 		end
+		
+		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+		government_display_event.Add_Dialog_Text("TEXT_NONE")
+		--Clone Market Display -- FotR_Enhanced 
+		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW_HEADER")
+		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_CLONE_MARKET_OVERVIEW")
+		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+		government_display_event.Add_Dialog_Text("TEXT_NONE")
+		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_KDY_LIST_01")
+		for i, ship in ipairs(SortKeysByElement(market_list[2],"order","asc")) do
+			local ship_data = market_list[2][ship]
+			if (ship_data.amount > 0) or ((ship_data.locked == false) and (ship_data.gc_locked == false)) then
+				government_display_event.Add_Dialog_Text(ship_data.readable_name .. ": "..tostring(ship_data.amount) .." - [ ".. tostring(ship_data.chance/10) .."%% ] ")
+			end
+		end
 
+		government_display_event.Add_Dialog_Text("TEXT_NONE")
+		government_display_event.Add_Dialog_Text("Currently Unavailable:")
+		for i, ship in ipairs(SortKeysByElement(market_list[2],"order","asc")) do
+			local ship_data = market_list[2][ship]
+			if (ship_data.amount == 0) and (ship_data.locked == true) and (ship_data.gc_locked == false) then
+				government_display_event.Add_Dialog_Text(ship_data.readable_name .." - "..ship_data.text_requirement)
+			end
+		end
+		--Republic Heroes
 		government_display_event.Add_Dialog_Text("TEXT_NONE")
 
 		local admiral_list = GlobalValue.Get("REP_MOFF_LIST")
@@ -693,10 +726,11 @@ function GovernmentRepublic:UpdateDisplay(favour_table, market_name, market_list
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_DAO")
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_AUTEM")
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_TENANT")
-		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_BLOCK") --FotR_Enhanced
+		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_BLOCK") -- FotR_Enhanced
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_SCREED")
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_DODONNA")
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_PARCK")
+		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_ADMIRAL_GILLEHSPY") -- FotR_Enhanced
 
 		government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 		government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_REPUBLIC_COUNCIL_LIST")

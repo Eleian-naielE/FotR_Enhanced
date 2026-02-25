@@ -43,20 +43,21 @@ function Get_Hero_Entries(upgrade_object)
 			Hero_Squadron = "ARHUL_NARRA_GUARDIAN_SQUADRON",
 			PopupHeader = "ARHUL_NARRA_SELECTOR_HEADER",
 			Options = {
-				{"SEERDON", Locations = {"SEERDON_INVINCIBLE"}},
-				{"PARCK", Locations = {"PARCK_STRIKEFAST"}},
 				{"TARKIN", Locations = {"TARKIN_VENATOR","TARKIN_EXECUTRIX"}},
-				{"THERBON", Locations = {"THERBON_CERULEAN_SUNRISE"}},
+				{"VORRU", Locations = {"VORRU_VENATOR"}},
+				{"DENIMOOR", Locations = {"DENIMOOR_TENACIOUS"}},
+				{"PARCK", Locations = {"PARCK_STRIKEFAST"}},
+				{"THERBON", Locations = {"THERBON_CERULEAN_SUNRISE"}},				
 			}
 		},
 		["GARVEN_DREIS_LOCATION_SET"] = {
 			Hero_Squadron = "GARVEN_DREIS_RAREFIED_SQUADRON",
 			PopupHeader = "GARVEN_DREIS_SELECTOR_HEADER",
 			Options = {
+				{"GRUMBY", Locations = {"GRUMBY_INVINCIBLE"}},
 				{"GRANT", Locations = {"GRANT_VENATOR"}},
 				{"RAVIK", Locations = {"RAVIK_VICTORY"}},
 				{"PRAJI", Locations = {"PRAJI_VALORUM"}},
-				{"GRUMBY", Locations = {"GRUMBY_INVINCIBLE"}},
 				{"SCREED", Locations = {"SCREED_ARLIONNE","SCREED_DEMOLISHER"}},
 			}
 		},
@@ -76,8 +77,8 @@ function Get_Hero_Entries(upgrade_object)
 			PopupHeader = "RHYS_DALLOWS_SELECTOR_HEADER",
 			Options = {
 				{"HAUSER", Locations = {"HAUSER_DREADNAUGHT"}},
-				{"TENANT", Locations = {"TENANT_VENATOR"}},
 				{"DALLIN", Locations = {"DALLIN_KEBIR"}},
+				{"TENANT", Locations = {"TENANT_VENATOR"}},
 				{"MAARISA", Locations = {"MAARISA_CAPTOR","MAARISA_RETALIATION"}},
 			}
 		},
@@ -86,19 +87,19 @@ function Get_Hero_Entries(upgrade_object)
 			PopupHeader = "ARON_ONSTALL_SELECTOR_HEADER",
 			Options = {
 				{"TALLON", Locations = {"TALLON_SUNDIVER","TALLON_BATTALION"}},
+				{"MAARISA", Locations = {"MAARISA_CAPTOR","MAARISA_RETALIATION"}},
 				{"GRANT", Locations = {"GRANT_VENATOR"}},
 				{"AUTEM", Locations = {"AUTEM_VENATOR"}},
 				{"TENANT", Locations = {"TENANT_VENATOR"}},
-				{"MAARISA", Locations = {"MAARISA_CAPTOR","MAARISA_RETALIATION"}},
 			}
 		},
 		["ODD_BALL_TORRENT_LOCATION_SET"] = {
 			Hero_Squadron = "ODD_BALL_TORRENT_SQUAD_SEVEN_SQUADRON",
 			PopupHeader = "ODD_BALL_P1_SELECTOR_HEADER",
 			Options = {
-				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}, GroundPerception = "Yularen_In_Orbit"},
-				{"KILIAN", Locations = {"KILIAN_ENDURANCE"}, GroundPerception = "Kilian_In_Orbit"},
 				{"BLOCK", Locations = {"BLOCK_NEGOTIATOR","BLOCK_VIGILANCE"}, GroundPerception = "Block_In_Orbit"},
+				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_RESOLUTE_SPHAT","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}, GroundPerception = "Yularen_In_Orbit"},
+				{"KILIAN", Locations = {"KILIAN_ENDURANCE"}, GroundPerception = "Kilian_In_Orbit"},
 				{"WESSEX", Locations = {"WESSEX_REDOUBT"}, GroundPerception = "Denn_Wessex_In_Orbit"},
 			},
 			GroundCompany = "ODD_BALL_P1_TEAM",
@@ -111,9 +112,9 @@ function Get_Hero_Entries(upgrade_object)
 			PopupHeader = "ODD_BALL_P2_SELECTOR_HEADER",
 			NoInit = true,
 			Options = {
-				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}, GroundPerception = "Yularen_In_Orbit"},
-				{"KILIAN", Locations = {"KILIAN_ENDURANCE"}, GroundPerception = "Kilian_In_Orbit"},
 				{"BLOCK", Locations = {"BLOCK_NEGOTIATOR","BLOCK_VIGILANCE"}, GroundPerception = "Block_In_Orbit"},
+				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_RESOLUTE_SPHAT","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}, GroundPerception = "Yularen_In_Orbit"},
+				{"KILIAN", Locations = {"KILIAN_ENDURANCE"}, GroundPerception = "Kilian_In_Orbit"},
 				{"WESSEX", Locations = {"WESSEX_REDOUBT"}, GroundPerception = "Denn_Wessex_In_Orbit"},
 				{"ORGANA", Locations = {"BAIL_ORGANA_VENATOR"}, GroundPerception = "Bail_Organa_In_Orbit"},
 			},
@@ -200,6 +201,7 @@ function Get_Hero_Entries(upgrade_object)
 		},
 		--FotR_Enhanced
 		["JAG_ARC170_LOCATION_SET"] = {
+			NoInit = true,
 			Hero_Squadron = "JAG_ARC170_127TH_SQUADRON",
 			PopupHeader = "JAG_P2_SELECTOR_HEADER",
 			Options = {
@@ -218,15 +220,35 @@ function Get_Hero_Entries(upgrade_object)
 			Hero_Squadron = "BYTHEN_FORRAL_SQUADRON",
 			PopupHeader = "BYTHEN_FORRAL_SELECTOR_HEADER",
 			Options = {
-				{"DRON", Locations = {"DRON_VENATOR"}},
+				{"SEERDON", Locations = {"SEERDON_INVINCIBLE"}},				
 				{"BARAKA", Locations = {"BARAKA_NEXU"}},
-				{"SEERDON", Locations = {"SEERDON_INVINCIBLE"}},
-				{"DENIMOOR", Locations = {"DENIMOOR_TENACIOUS"}},
+				{"DAO", Locations = {"DAO_VENATOR"}},
+				{"DRON", Locations = {"DRON_VENATOR"}},
+				{"BYLUIR", Locations = {"BYLUIR_VENATOR"}},
 				{"KREUGE", Locations = {"KREUGE_GIBBON"}},
 			},
 			Factions = {"Empire"},
 		},
-		
+		["REFORM_HAWK"] = {
+			NoInit = true,
+			GroundReinforcementPerception = "Yularen_In_Orbit",
+			GroundCompany = "HAWK_P1_TEAM",
+			Factions = {"Empire"},
+			NoSpawnFlag = "GROUND_HAWK_DEAD",
+			DeathMessage = "Lieutenant Hawk has taken crippling damage and must be healed"
+		},
+		["HAWK_LOCATION_SET"] = {
+			NoInit = true,
+			Hero_Squadron = "HAWK_CLONE_Z95_SQUADRON",
+			PopupHeader = "HAWK_SELECTOR_HEADER",
+			Options = {
+				{"YULAREN", Locations = {"YULAREN_RESOLUTE","YULAREN_RESOLUTE_SPHAT","YULAREN_INTEGRITY","YULAREN_INVINCIBLE"}, GroundPerception = "Yularen_In_Orbit"},
+			},
+			GroundCompany = "HAWK_P2_TEAM",
+			Factions = {"Empire"},
+			Enabler = "REFORM_HAWK2",
+			DeathMessage = "Lieutenant Hawk's squadron has taken crippling casualties and must be reformed.",
+		},
 		["DUMMY_ANAKIN_DARKSIDE"] = {
 			NoInit = true, 
 			GroundReinforcementPerception = "Exactor_Anakin_Darkside_In_Orbit",

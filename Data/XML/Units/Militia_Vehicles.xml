@@ -363,6 +363,8 @@
 		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
 		<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
 
+		<Vehicle_Thief_Inside_Clone>AAT_PDF_Captured</Vehicle_Thief_Inside_Clone>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>ROCKET_ATTACK</Type>
@@ -370,6 +372,26 @@
                 		<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_AMMOSWAP_DESCRIPTION_AAT</Alternate_Description_Text>
  				<Alternate_Icon_Name>i_sa_swap_weapons.tga</Alternate_Icon_Name>
 				<Recharge_Seconds> 40.0 </Recharge_Seconds>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<GroundVehicle Name="AAT_PDF_Captured">
+		<Variant_Of_Existing_Type>AAT_PDF</Variant_Of_Existing_Type>
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+                		<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_AMMOSWAP</Alternate_Name_Text>
+                		<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_AMMOSWAP_DESCRIPTION_AAT</Alternate_Description_Text>
+ 				<Alternate_Icon_Name>i_sa_swap_weapons.tga</Alternate_Icon_Name>
+				<Recharge_Seconds> 40.0 </Recharge_Seconds>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>

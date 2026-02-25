@@ -2,7 +2,7 @@
 <Republic_Heroes>
 <!-- All upgraded heroes must have <Always_Spawn_In_Orbit>Yes ~Mord -->
 
-	<!-- Clone Officers -->
+<!-- Clone Officers -->
 	
 	<DummyStructure Name="Extra_Clone_Slot">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
@@ -90,7 +90,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_CODY
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_CODY_P1_HEALTH
 		TEXT_TOOLTIP_CODY_P1_MOVE
@@ -180,7 +180,7 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Company, 1</Starting_Spawned_Units_Tech_0>
 
 		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
 
@@ -234,7 +234,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_CODY
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_CODY_P1_HEALTH
 		TEXT_TOOLTIP_CODY_P1_MOVE
@@ -508,7 +508,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_CODY
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_LEGIONS_OBI_WAN
 		</Encyclopedia_Text>
@@ -619,7 +619,8 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_REX
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_REX_P1_1
+		TEXT_TOOLTIP_ESCORT_REX_P1_1_SUBMOD
+		TEXT_TOOLTIP_ESCORT_REX_P1_2_SUBMOD
 		TEXT_TOOLTIP_ESCORT_REX_P1_2
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_REX_P1_HEALTH
@@ -709,7 +710,8 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Assault_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Heavy_Squad, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Clone_Vehicular_Assault_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -781,7 +783,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_REX
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_REX_P1_1
+		TEXT_TOOLTIP_ESCORT_REX_P1_1_SUBMOD
 		TEXT_TOOLTIP_ESCORT_REX_P1_2
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_REX_P1_HEALTH
@@ -823,7 +825,8 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_REX
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_REX_P2_1
+		TEXT_TOOLTIP_ESCORT_REX_P2_1_SUBMOD
+		TEXT_TOOLTIP_ESCORT_REX_P2_2_SUBMOD
 		TEXT_TOOLTIP_ESCORT_REX_P2_2
 		TEXT_TOOLTIP_ESCORT_REX_P2_3
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -914,7 +917,8 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Assault_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Heavy_Squad, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Clone_Galactic_Marine_Assault_Squad, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Clone_Airborne_Trooper_Sniper_Squad, 1</Starting_Spawned_Units_Tech_0>
 
@@ -990,7 +994,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_REX
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_REX_P2_1
+		TEXT_TOOLTIP_ESCORT_REX_P2_1_SUBMOD
 		TEXT_TOOLTIP_ESCORT_REX_P2_2
 		TEXT_TOOLTIP_ESCORT_REX_P2_3
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -1066,7 +1070,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_REX
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_REX_P1_1
+		TEXT_TOOLTIP_ESCORT_REX_P1_1_SUBMOD
 		TEXT_TOOLTIP_ESCORT_REX_P1_2
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_LEGIONS_ANAKIN
@@ -1104,7 +1108,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_REX
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_REX_P2_1
+		TEXT_TOOLTIP_ESCORT_REX_P2_1_SUBMOD
 		TEXT_TOOLTIP_ESCORT_REX_P2_2
 		TEXT_TOOLTIP_ESCORT_REX_P2_3
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
@@ -1177,7 +1181,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_71
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_71_P1_HEALTH
 		TEXT_TOOLTIP_71_P1_MOVE
@@ -2314,6 +2318,26 @@
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Bacara2</Required_Orbiting_Units>
 	</DummyStructure>
 
+	<DummyStructure Name="Bacara2Jet">
+		<Variant_Of_Existing_Type>Template_Flagship_Swap</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_TOOLTIP_BACARA_SWAP_JET</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_COMMAND_STAFF_SWAP</Encyclopedia_Text>
+		
+		<Icon_Name>I_BUTTON_JET2.tga</Icon_Name>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Affiliation>Empire</Affiliation>
+
+		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Bacara2</Required_Orbiting_Units>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+	</DummyStructure>
+
 
 	<HeroUnit Name="Jet">
 		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
@@ -2784,6 +2808,26 @@
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Jet2</Required_Orbiting_Units>
 	</DummyStructure>
 
+	<DummyStructure Name="Jet2Bacara">
+		<Variant_Of_Existing_Type>Template_Flagship_Swap</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_TOOLTIP_JET_SWAP_BACARA</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_COMMAND_STAFF_SWAP</Encyclopedia_Text>
+		
+		<Icon_Name>I_BUTTON_BACARA2.tga</Icon_Name>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Affiliation>Empire</Affiliation>
+
+		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Jet2</Required_Orbiting_Units>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+	</DummyStructure>
+
 
 	<HeroUnit Name="Faie">
 		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
@@ -3103,7 +3147,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_GREE
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_GREE_P1_HEALTH
 		TEXT_TOOLTIP_GREE_P1_MOVE
@@ -3190,7 +3234,7 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Company, 1</Starting_Spawned_Units_Tech_0>
 
 		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
 
@@ -3682,7 +3726,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_DEVISS
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_DEVISS_P1_HEALTH
 		TEXT_TOOLTIP_DEVISS_P1_MOVE
@@ -3769,7 +3813,7 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Company, 1</Starting_Spawned_Units_Tech_0>
 
 		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
 
@@ -3941,7 +3985,7 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Company, 1</Starting_Spawned_Units_Tech_0>
 
 		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
 
@@ -4024,7 +4068,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_DEVISS
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_LEGIONS_AAYLA
 		</Encyclopedia_Text>
@@ -4057,7 +4101,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_DEVISS
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_LEGIONS_AAYLA
 		</Encyclopedia_Text>
@@ -4124,7 +4168,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BLY
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_BLY_P1_HEALTH
 		TEXT_TOOLTIP_BLY_P1_MOVE
@@ -4223,7 +4267,7 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Company, 1</Starting_Spawned_Units_Tech_0>
 
 		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
 
@@ -4276,7 +4320,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BLY
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_BLY_P1_HEALTH
 		TEXT_TOOLTIP_BLY_P1_MOVE
@@ -4317,7 +4361,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BLY
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_BLY_P2_HEALTH
 		TEXT_TOOLTIP_BLY_P2_MOVE
@@ -4416,7 +4460,7 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Company, 1</Starting_Spawned_Units_Tech_0>
 
 		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
 
@@ -4472,7 +4516,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BLY
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_BLY_P2_HEALTH
 		TEXT_TOOLTIP_BLY_P2_MOVE
@@ -4506,7 +4550,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BLY
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_LEGIONS_AAYLA
 		</Encyclopedia_Text>
@@ -4543,7 +4587,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BLY
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_LEGIONS_AAYLA
 		</Encyclopedia_Text>
@@ -4614,7 +4658,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_WOLFFE
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_WOLFFE_P1_HEALTH
 		TEXT_TOOLTIP_WOLFFE_P1_MOVE
@@ -4701,7 +4745,7 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Company, 1</Starting_Spawned_Units_Tech_0>
 
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -5113,13 +5157,14 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_NEYO
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_NEYO_P1_HEALTH
 		TEXT_TOOLTIP_NEYO_P1_MOVE
 		TEXT_TOOLTIP_NEYO_P1_WEAP1
 		TEXT_TOOLTIP_NEYO_P1_WEAP2
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		<!--TEXT_TOOLTIP_LEGIONS_NEYO-->
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MARSHAL_COMMANDER </Encyclopedia_Unit_Class>
@@ -5191,7 +5236,7 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Company, 1</Starting_Spawned_Units_Tech_0>
 
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -5244,13 +5289,14 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_NEYO
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_NEYO_P1_HEALTH
 		TEXT_TOOLTIP_NEYO_P1_MOVE
 		TEXT_TOOLTIP_NEYO_P1_WEAP1
 		TEXT_TOOLTIP_NEYO_P1_WEAP2
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		<!--TEXT_TOOLTIP_LEGIONS_NEYO-->
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MARSHAL_COMMANDER </Encyclopedia_Unit_Class>
@@ -5291,6 +5337,8 @@
 		TEXT_TOOLTIP_NEYO_BARC_SPEEDER_HEALTH
 		TEXT_TOOLTIP_NEYO_BARC_SPEEDER_MOVE 
 		TEXT_TOOLTIP_NEYO_BARC_SPEEDER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		<!--TEXT_TOOLTIP_LEGIONS_NEYO-->
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MARSHAL_COMMANDER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_NEYO2.tga</Icon_Name>
@@ -5407,6 +5455,8 @@
 		TEXT_TOOLTIP_NEYO_BARC_SPEEDER_HEALTH
 		TEXT_TOOLTIP_NEYO_BARC_SPEEDER_MOVE 
 		TEXT_TOOLTIP_NEYO_BARC_SPEEDER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		<!--TEXT_TOOLTIP_LEGIONS_NEYO-->
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_NEYO2.tga</Icon_Name>
 		
@@ -5434,7 +5484,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_NEYO
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		</Encyclopedia_Text>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -5713,7 +5763,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_APPO
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_APPO_P2_HEALTH
 		TEXT_TOOLTIP_APPO_P2_MOVE
@@ -5774,7 +5824,7 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Company, 1</Starting_Spawned_Units_Tech_0>
 
 
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
@@ -5865,7 +5915,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_APPO
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_APPO_P2_HEALTH
 		TEXT_TOOLTIP_APPO_P2_MOVE
@@ -5940,7 +5990,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_APPO
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_LEGIONS_ANAKIN
 		</Encyclopedia_Text>
@@ -6013,7 +6063,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BOW
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_BOW_HEALTH
 		TEXT_TOOLTIP_BOW_MOVE
@@ -6100,7 +6150,7 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Company, 1</Starting_Spawned_Units_Tech_0>
 
 		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
 
@@ -6203,7 +6253,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BOW
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_LEGIONS_ANAKIN
 		</Encyclopedia_Text>
@@ -6253,7 +6303,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_VILL
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_VILL_HEALTH
 		TEXT_TOOLTIP_VILL_MOVE
@@ -6339,7 +6389,7 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Company, 1</Starting_Spawned_Units_Tech_0>
 
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -6457,7 +6507,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_VILL
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P2
+		TEXT_TOOLTIP_ESCORT_P2_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_LEGIONS_ANAKIN
 		</Encyclopedia_Text>
@@ -6663,8 +6713,273 @@
 		<Required_Orbiting_Units>CR25_Landing_Craft_Gaffa</Required_Orbiting_Units>
 	</DummyStructure>
 
+<!-- FotR_Enhacnd ; Clone Officers -->
 
-	<!-- Special Forces -->
+	<Herounit Name="Ponds_PreLegion">
+		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_CT0411</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PONDS
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PONDS_P1_HEALTH
+		TEXT_TOOLTIP_PONDS_P1_MOVE
+		TEXT_TOOLTIP_PONDS_WEAP1
+		TEXT_TOOLTIP_PONDS_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_LEGIONS_NIL
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_CT0411.tga</Icon_Name>
+		
+		<Land_Model_Name>clone_phase1.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>TrainedHero.alo</Land_Model_Anim_Override_Name>
+		<No_Colorization_Color> 213, 172, 88, 255 </No_Colorization_Color>
+		
+		<Ranking_In_Category> 5 </Ranking_In_Category>
+
+		<Tactical_Health>135</Tactical_Health>
+
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<OverrideAcceleration> 1.0 </OverrideAcceleration>
+		<OverrideDeceleration> 1.0 </OverrideDeceleration>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Scale_Factor>1.1</Scale_Factor>
+		<Affiliation>Empire</Affiliation>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
+
+		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints>HP_Hero_Clone_Rifle</HardPoints>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>HeroProj_Thrown_Thermal_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+        <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+		
+		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Alpha_17 </SFXEvent_Tactical_Build_Complete>
+
+		<SFXEvent_Select>Unit_Select_Alpha_17</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Alpha_17</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Alpha_17</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Alpha_17</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Alpha_17</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Alpha_17</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Alpha_17</SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die>Unit_Arc_Trooper_Death</Death_SFXEvent_Start_Die>
+
+		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
+
+		<AI_Combat_Power>37</AI_Combat_Power>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Squad, 4</Starting_Spawned_Units_Tech_0>
+
+		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>LURE</Type>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PRESS_ON_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PRESS_ON_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ASSAULT.tga</Alternate_Icon_Name> <!-- I_SA_BERSERKER? -->
+				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
+					 Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
+				<Effective_Radius>1</Effective_Radius>
+
+				<Target_Types />
+
+				<Recharge_Seconds>40</Recharge_Seconds>
+				<Expiration_Seconds>25</Expiration_Seconds>
+
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>50</Max_Number_Of_Pulses>
+				<Particle_Effect>PRESS_ON_Ground_Ability_Particle</Particle_Effect>
+
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name>
+				</GUI_Activated_Ability_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</Herounit>
+
+	<HeroUnit Name="Ponds">
+		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_PONDS</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PONDS
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PONDS_P1_HEALTH
+		TEXT_TOOLTIP_PONDS_P1_MOVE
+		TEXT_TOOLTIP_PONDS_WEAP1
+		TEXT_TOOLTIP_PONDS_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_LEGIONS_NEYO
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_PONDS.tga</Icon_Name>
+		
+		<Land_Model_Name>clone_phase1.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>TrainedHero.alo</Land_Model_Anim_Override_Name>
+		<No_Colorization_Color> 213, 172, 88, 255 </No_Colorization_Color>
+		
+		<Ranking_In_Category> 5 </Ranking_In_Category>
+
+		<Tactical_Health>135</Tactical_Health>
+
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<OverrideAcceleration> 1.0 </OverrideAcceleration>
+		<OverrideDeceleration> 1.0 </OverrideDeceleration>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Scale_Factor>1.1</Scale_Factor>
+		<Affiliation>Empire</Affiliation>
+		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
+
+		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints>HP_Hero_Clone_Rifle</HardPoints>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>HeroProj_Thrown_Thermal_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+        <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+		
+		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Alpha_17 </SFXEvent_Tactical_Build_Complete>
+
+		<SFXEvent_Select>Unit_Select_Alpha_17</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Alpha_17</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Alpha_17</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Alpha_17</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Alpha_17</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Alpha_17</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Alpha_17</SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die>Unit_Arc_Trooper_Death</Death_SFXEvent_Start_Die>
+
+		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
+
+		<AI_Combat_Power>37</AI_Combat_Power>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+
+		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Squad, 4</Starting_Spawned_Units_Tech_0>
+
+		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>LURE</Type>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PRESS_ON_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PRESS_ON_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ASSAULT.tga</Alternate_Icon_Name> <!-- I_SA_BERSERKER? -->
+				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
+					 Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
+				<Effective_Radius>1</Effective_Radius>
+
+				<Target_Types />
+
+				<Recharge_Seconds>40</Recharge_Seconds>
+				<Expiration_Seconds>25</Expiration_Seconds>
+
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>50</Max_Number_Of_Pulses>
+				<Particle_Effect>PRESS_ON_Ground_Ability_Particle</Particle_Effect>
+
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name>
+				</GUI_Activated_Ability_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</HeroUnit>
+
+<!-- Special Forces -->
 
 	<DummyStructure Name="Extra_Commando_Slot">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
@@ -8515,7 +8830,7 @@
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Delta</Required_Orbiting_Units>
 	</DummyStructure>
 
-
+	<!-- FotR_Enhanced ; Ability, Speed, SWeapon(Dar, Fi) Rework-->
 	<HeroUnit Name="Niner">
 		<Variant_Of_Existing_Type>Hero_Commando_Shielded_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -8550,7 +8865,7 @@
 		<Shield_Points>50</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 
-		<Max_Speed>1.0</Max_Speed>
+		<Max_Speed>1.3</Max_Speed>
 		<OverrideAcceleration> 1.0 </OverrideAcceleration>
 		<OverrideDeceleration> 1.0 </OverrideDeceleration>
 
@@ -8598,11 +8913,23 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>TARGETED_HACK</Type>
-				<Recharge_Seconds>45.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> Niner_Hack_Ability </GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability> Unit_Guard_Clone_Trooper </SFXEvent_Target_Ability> 
-				<Supports_Autofire>False</Supports_Autofire>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Speeder_Bomb_Concussion_Hero</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>2</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Delta_Boss_Thermal_Detonator</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_Target_Ability> Unit_Delta_Boss_Thermal_Detonator </SFXEvent_Target_Ability>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_UNTARGETED_STICKY_BOMBC_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_UNTARGETED_STICKY_BOMBC_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_DROP_BOMB1.tga</Alternate_Icon_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>CAPTURE_VEHICLE</Type>
+				<Recharge_Seconds> 55.0 </Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Niner_Vehicle_Thief </GUI_Activated_Ability_Name> 
+				<SFXEvent_GUI_Unit_Ability_Activated/>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -8655,52 +8982,61 @@
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
 
-			<Hack_Ability Name="Niner_Hack_Ability">
+			<Vehicle_Thief_Ability Name="Niner_Vehicle_Thief">
 				<Activation_Style> User_Input </Activation_Style>
-				<Activation_Min_Range> 5.0 </Activation_Min_Range>
-				<Activation_Max_Range> 30.0 </Activation_Max_Range>
-				<Applicable_Unit_Categories> </Applicable_Unit_Categories>
+				<Applicable_Unit_Categories />
 
-				<!--	List needs to be updated as stuff is added -->
-				<Applicable_Unit_Types>  
-					Empire_Anti_Aircraft_Turret,
-					Empire_Anti_Infantry_Turret,
-					Empire_Anti_Vehicle_Turret,
-					Empire_Bacta_Tank,
-					Empire_Repair_Facility,
-					Empire_Sensor_Node,
-					Rebel_Anti_Aircraft_Turret,
-					Rebel_Anti_Infantry_Turret,
-					Rebel_Anti_Vehicle_Turret,
-					Rebel_Bacta_Tank,
-					Rebel_Repair_Facility,
-					Rebel_Sensor_Node,
-					Hutt_Cartels_Anti_Aircraft_Turret,
-					Hutt_Cartels_Anti_Infantry_Turret,
-					Hutt_Cartels_Anti_Vehicle_Turret,
-					Generic_Field_Turbolaser_Emplacement,
-					Generic_Field_Turbolaser_Emplacement_Republic,
-					Generic_Field_Turbolaser_Emplacement_CIS,
-					Ground_Turbolaser_Tower,
-					Ground_Turbolaser_Tower_Republic,
-					Ground_Turbolaser_Tower_CIS
+				<!-- MAKE SURE to add a "_Captured" clone to any unit that you add in this list!!!! -->
+				<Applicable_Unit_Types>
+					AT_PT_Walker,
+					AT_RT_Walker,
+					Infantry_Support_Platform,
+					ULAV_Early,
+					Bantha_II_Skiff,
+					Hutt_Bantha_II_Skiff,
+					SuperHaul_II_Skiff,
+					Hutt_AA_Skiff,
+					Hutt_Personnel_Skiff_IV
+					WLO5_Tank,
+					Arrow_23,
+					Gian_Speeder,
+					Gian_PDF,
+					Gian_Rebel,
+					TX130S,
+					Treaded_Neutron_Torch,
+					A5RX,
+					AAT,
+					Persuader,
+
+					AAT_PDF,
+					Umbaran_Hover_Tank,
+
+					Persuader_Assault,
+					PAC,
+					HAML,
+					CIS_AAT,
+					J1_Cannon,
+					Super_Tank,
+					CIS_Super_Tank,
+
+					Hutt_Pongeeta_Swamp_Speeder,
+					
+					X34_Technical,
+					Hailfire_Riot_Control,
+					Persuader_Riot_Control,
+					Espo_Walker_91
+					MZ8_Tank,
+
+					Light_Rakatan_Annihilator,
+					Heavy_Rakatan_Annihilator,
+					Wookiee_Flutter,
 				</Applicable_Unit_Types>
 
-				<Lightning_Effect_Name> Hack_Electicity_Zaps </Lightning_Effect_Name>
-				<Lightning_Source_Bone_Name> </Lightning_Source_Bone_Name>
-				<Lightning_Target_Bone_Name> B_Turret </Lightning_Target_Bone_Name>
-				<Lightning_Max_Targets> 1 </Lightning_Max_Targets> 
-				<Lightning_Targets_Radius> 0.0 </Lightning_Targets_Radius>
-				<SFXEvent_Activate> Unit_Force_Lightning </SFXEvent_Activate> 					<!-- STUB PLACEHOLDER for Frank -->
-				<SFXEvent_Target_Affected />
-				<Target_Particle_Effect> Force_Lightning_Smoke </Target_Particle_Effect> 	<!-- STUB PLACEHOLDER for Gary -->
-				<Target_Particle_Bone_Name> B_Turret </Target_Particle_Bone_Name>
-				<Target_Light_Effect_Type> Linear_Pulse </Target_Light_Effect_Type>
-				<Target_Light_Effect_Color> 0.3, 0.3, 0.8 </Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
-				<Target_Light_Effect_Duration> 2.3893 </Target_Light_Effect_Duration>
-				<Target_Light_Effect_Pulse_Count> 25 </Target_Light_Effect_Pulse_Count>
-			</Hack_Ability>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>50.0</Activation_Max_Range>
+				<Activation_Chance>1.0</Activation_Chance>
+				<SFXEvent_Activate>Unit_Chewie_Beat_Up_SFX</SFXEvent_Activate>
+			</Vehicle_Thief_Ability>
 
 		</Abilities>
 
@@ -8719,8 +9055,9 @@
 		TEXT_TOOLTIP_OMEGA_HEALTH
 		TEXT_TOOLTIP_OMEGA_SHIELD
 		TEXT_TOOLTIP_OMEGA_MOVE
-		TEXT_TOOLTIP_OMEGA_WEAP4
-		TEXT_TOOLTIP_OMEGA_WEAP5
+		TEXT_TOOLTIP_OMEGA_WEAP6
+		TEXT_TOOLTIP_OMEGA_WEAP8
+		TEXT_TOOLTIP_OMEGA_WEAP7
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
@@ -8738,7 +9075,7 @@
 		<Shield_Points>50</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 
-		<Max_Speed>1.0</Max_Speed>
+		<Max_Speed>1.3</Max_Speed>
 		<OverrideAcceleration> 1.0 </OverrideAcceleration>
 		<OverrideDeceleration> 1.0 </OverrideDeceleration>
 
@@ -8749,10 +9086,10 @@
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 
-		<HardPoints>HP_Hero_Bowcaster</HardPoints>
+		<HardPoints>HP_Hero_Republic_Commando_Grenade_Launcher</HardPoints>
 
 		<!-- Grenade throw -->
-		<Projectile_Types>HeroProj_Thrown_Thermal_Grenade</Projectile_Types>
+		<Projectile_Types>HeroProj_Thrown_Fragmentation_Grenade</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
@@ -8902,7 +9239,7 @@
 		<Shield_Points>50</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 
-		<Max_Speed>1.0</Max_Speed>
+		<Max_Speed>1.3</Max_Speed>
 		<OverrideAcceleration> 1.0 </OverrideAcceleration>
 		<OverrideDeceleration> 1.0 </OverrideDeceleration>
 
@@ -8950,6 +9287,14 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>  </SFXEvent_GUI_Unit_Ability_Activated> 
 				<SFXEvent_GUI_Unit_Ability_Deactivated>  </SFXEvent_GUI_Unit_Ability_Deactivated> 
 			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TARGETED_HACK</Type>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Atin_Hack_Ability </GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Guard_Clone_Trooper </SFXEvent_Target_Ability> 
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -8957,6 +9302,53 @@
 				<Activation_Style> User_Input </Activation_Style>
 				<Owner_Particle_Effect>Sensor_Jamming_Effect_Infantry</Owner_Particle_Effect>
 			</Sensor_Jamming_Ability>
+
+			<Hack_Ability Name="Atin_Hack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Min_Range> 5.0 </Activation_Min_Range>
+				<Activation_Max_Range> 30.0 </Activation_Max_Range>
+				<Applicable_Unit_Categories> </Applicable_Unit_Categories>
+
+				<!--	List needs to be updated as stuff is added -->
+				<Applicable_Unit_Types>  
+					Empire_Anti_Aircraft_Turret,
+					Empire_Anti_Infantry_Turret,
+					Empire_Anti_Vehicle_Turret,
+					Empire_Bacta_Tank,
+					Empire_Repair_Facility,
+					Empire_Sensor_Node,
+					Rebel_Anti_Aircraft_Turret,
+					Rebel_Anti_Infantry_Turret,
+					Rebel_Anti_Vehicle_Turret,
+					Rebel_Bacta_Tank,
+					Rebel_Repair_Facility,
+					Rebel_Sensor_Node,
+					Hutt_Cartels_Anti_Aircraft_Turret,
+					Hutt_Cartels_Anti_Infantry_Turret,
+					Hutt_Cartels_Anti_Vehicle_Turret,
+					Generic_Field_Turbolaser_Emplacement,
+					Generic_Field_Turbolaser_Emplacement_Republic,
+					Generic_Field_Turbolaser_Emplacement_CIS,
+					Ground_Turbolaser_Tower,
+					Ground_Turbolaser_Tower_Republic,
+					Ground_Turbolaser_Tower_CIS
+				</Applicable_Unit_Types>
+
+				<Lightning_Effect_Name> Hack_Electicity_Zaps </Lightning_Effect_Name>
+				<Lightning_Source_Bone_Name> </Lightning_Source_Bone_Name>
+				<Lightning_Target_Bone_Name> B_Turret </Lightning_Target_Bone_Name>
+				<Lightning_Max_Targets> 1 </Lightning_Max_Targets> 
+				<Lightning_Targets_Radius> 0.0 </Lightning_Targets_Radius>
+				<SFXEvent_Activate> Unit_Force_Lightning </SFXEvent_Activate> 					<!-- STUB PLACEHOLDER for Frank -->
+				<SFXEvent_Target_Affected />
+				<Target_Particle_Effect> Force_Lightning_Smoke </Target_Particle_Effect> 	<!-- STUB PLACEHOLDER for Gary -->
+				<Target_Particle_Bone_Name> B_Turret </Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type> Linear_Pulse </Target_Light_Effect_Type>
+				<Target_Light_Effect_Color> 0.3, 0.3, 0.8 </Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration> 2.3893 </Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count> 25 </Target_Light_Effect_Pulse_Count>
+			</Hack_Ability>
 
 			<Galactic_Stealth_Ability Name="Omega_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
@@ -9003,9 +9395,12 @@
 		TEXT_TOOLTIP_OMEGA_HEALTH
 		TEXT_TOOLTIP_OMEGA_SHIELD
 		TEXT_TOOLTIP_OMEGA_MOVE
+		TEXT_TOOLTIP_DELTA_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
 		TEXT_TOOLTIP_OMEGA_WEAP3
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_BONUS_INFANTRY_HEAL
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
@@ -9021,18 +9416,19 @@
 		<Shield_Points>50</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 
-		<Max_Speed>1.0</Max_Speed>
+		<Max_Speed>1.3</Max_Speed>
 		<OverrideAcceleration> 1.0 </OverrideAcceleration>
 		<OverrideDeceleration> 1.0 </OverrideDeceleration>
 
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
+		<Property_Flags>HealsOrganics</Property_Flags>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
 
-		<HardPoints>HP_Hero_Verpine_Sniper</HardPoints>
+		<HardPoints>HP_Hero_Republic_Commando_Sniper, HP_Hero_Verpine_Sniper_Switch</HardPoints>
 		
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Deltasquad </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
@@ -9072,6 +9468,14 @@
 				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
 			</Unit_Ability>
 
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_WEAPON_SWAP</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FI_SWAP_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_SWAP_WEAPONS.TGA</Alternate_Icon_Name>
+				<Targeting_Max_Attack_Distance>375</Targeting_Max_Attack_Distance>
+				<Recharge_Seconds> 9.0 </Recharge_Seconds>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -9079,30 +9483,31 @@
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
 
-			<Force_Healing_Ability Name="Fi_Self_Heal">
+			<Force_Healing_Ability Name="Fi_Medic_Healing">
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>5.0</Heal_Range>
-				<Heal_Amount> 0.0 </Heal_Amount>
-				<Heal_Percent> 0.01 </Heal_Percent>
+				<Heal_Range>100.0</Heal_Range>
+				<Heal_Percent>0.04</Heal_Percent>
 				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
-
-				<Applicable_Unit_Categories />
+				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>Fi</Applicable_Unit_Types>
-				<Excluded_Unit_Types />
-
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
 				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
 				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
 				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
 				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
 			</Force_Healing_Ability>
 		</Abilities>
 	
@@ -9297,7 +9702,7 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clone_Commando_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clone_Commando_Rework_Company, 2</Starting_Spawned_Units_Tech_0>
 
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -9410,7 +9815,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDO </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_VOCA.TGA</Icon_Name>
 		
-		<Population_Value>1</Population_Value>
+		<Population_Value>2</Population_Value>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>99</Tech_Level>
@@ -9555,8 +9960,9 @@
 
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
-		<Starting_Spawned_Units_Tech_0>Clone_Commando_Squad, 4</Starting_Spawned_Units_Tech_0>
-
+		<Starting_Spawned_Units_Tech_0>Clone_Commando_Sniper, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clone_Commando_Heavy, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Clone_Commando_Slicer, 1</Starting_Spawned_Units_Tech_0>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -10722,7 +11128,7 @@
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Aden2</Required_Orbiting_Units>
 	</DummyStructure>
 
-<!-- FotR_Enhanced -->
+<!-- FotR_Enhanced ; Special Forces-->
 
 	<HeroUnit Name="Prudii_Skirata">
 		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>

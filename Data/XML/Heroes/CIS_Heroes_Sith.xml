@@ -520,7 +520,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</UniqueUnit>
 
-	<UniqueUnit Name="Grievous_Invisible_Hand">
+	<UniqueUnit Name="Grievous_Invisible_Hand"> <!-- FotR_Enhanced ; increased size for visual pleasure-->
 		<Variant_Of_Existing_Type>Providence_Carrier_Destroyer</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_GRIEVOUS</Text_ID>
 		<Encyclopedia_Text> 
@@ -560,6 +560,9 @@
 		<Tech_Level>99</Tech_Level>
 		<Affiliation>Rebel</Affiliation>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Scale_Factor>0.7</Scale_Factor>
+		<Select_Box_Scale>1800</Select_Box_Scale>
 
 		<Tactical_Health>3600</Tactical_Health>
 		<Shield_Points>3500</Shield_Points>
@@ -3182,6 +3185,7 @@
 		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
 		TEXT_TOOLTIP_BONUS_FORCE_TRAINING_40_20
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_RESPAWN_VENTRESS
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DARK_ACOLYTE</Encyclopedia_Unit_Class>
@@ -3510,6 +3514,7 @@
 		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
 		TEXT_TOOLTIP_BONUS_FORCE_TRAINING_40_20
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_RESPAWN_VENTRESS
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DARK_ACOLYTE </Encyclopedia_Unit_Class>
