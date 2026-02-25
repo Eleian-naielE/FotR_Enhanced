@@ -46,6 +46,12 @@ ADDED STUFFS
 --- Consists of 
     2x rifle, 2x carbine, Ion grenadier & rifle, 2x Ion grenadier & carbine, EMP & wrist rocket, LMG & wrist rocket
 
+-Clone Commando Squad
+-- Comes in 4 commandos each with unqiue abilities and roles
+-- 2 Pop, available through Clone Specialization Program, chance of 13% each cycle
+--- Sergeant: Ability; Sprint, Meeley Frenzy
+--- Sniper: Ablity; 
+
 -Red Guard
 -- Emperor Palpatine escort, Captial garrison only
 
@@ -110,9 +116,15 @@ ADDED STUFFS
 
 
 # New Mechanics
+-Clone Specialization Program
+-- Enables you to build special clone platoons for a certain chance
+-- Phase 1: Vehicular Assault Trooper, Special Ops
+-- Phase 2: Clone Marine, Clone Scout, Clone Airbourne
+-- Always Avilable: Clone Commando Squad
+
 -Clone Phase2 Automatic swap
 -- Upon Phase 2 upgrade, Phase 1 Clones will be upgraded to Phase 2 Clones (Includes Generic Commanders)
---- * Special Ops are swapped for Galactic Marines
+--- * Special Ops -> Clone Marine, Vehicular Assault -> Airbourne,
 
 -Clone Phase2 Manual swap
 -- Upon Phase 2 upgrade, a galactic upgrade dummy for clones in hyperspace during phase 2 research will be unlocked (Includes Generic Commanders)
@@ -120,7 +132,7 @@ ADDED STUFFS
 
 -ARC Trooper Lifetime Limits
 -- Build Lifetime limits depending on starting Era
--- Era 2: 60, Era 3: 45, Era 4: 30, Era 5: 15
+-- Era 2: 40, Era 3: 30, Era 4: 20, Era 5: 10
 -- IMPORTANT : Synced with Phase 2 ARC Trooper
 
 [[
@@ -149,6 +161,7 @@ CHANGES & ADJUSTMENTS
 - SPHA-T addded for Rothanan
 - All A6 Spawns regardless of planet type are moved to Era 4+
 - Special Ops added as replacement of Galactic marines for Coruscant Guards
+- More movie accurate era 2 Geonosis Republic starting forces 
 
 
 # Darkside Anakin's Respawn mechanics
