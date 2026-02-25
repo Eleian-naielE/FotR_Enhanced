@@ -133,6 +133,7 @@ TEXT_TOOLTIP_COMMAND_127TH_ARC170,127th Gunship Wing (ARC-170s in space and grou
 TEXT_TOOLTIP_COMMAND_EXACTOR,Imperator Star Destroyer, Exactor
 TEXT_TOOLTIP_COMMAND_HOUND,Venator Star Destroyer, Hound
 TEXT_TOOLTIP_COMMAND_NEGOTIATOR,Venator Star Destroyer, Negotiator
+TEXT_TOOLTIP_COMMAND_STAFF_SWAP,Swap current command staff to different one
 TEXT_TOOLTIP_COMMAND_VALKYRIE2929,LAAT/i Gunship, Valkyrie 2929
 TEXT_TOOLTIP_COMMAND_VILGILANCE,Venator Star Destroyer, Vigilance
 TEXT_TOOLTIP_DARK_ACOLYTE,Dark Acolytes are Dark Jedis who joined the Confederacy of Independent Systems and directly serve its Head of State, Count Dooku. They served various roles from assassins to spies to civilian commanders. Although trained by Dooku, they are not considered to be Sith due to the Rule of Two.
