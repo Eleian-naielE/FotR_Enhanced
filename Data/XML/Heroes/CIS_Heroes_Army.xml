@@ -2899,6 +2899,7 @@
 		TEXT_TOOLTIP_CA_ARTILLERY_MOVE 
 		TEXT_TOOLTIP_CA_ARTILLERY_WEAP1
 		</Encyclopedia_Text>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
 
 		<Icon_Name>i_button_dassyne.tga</Icon_Name>
 
