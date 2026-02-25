@@ -3431,8 +3431,8 @@
 		<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>
 
 		<HardPoints>
-			HP_RX200_Turret_Undeployed,
-			HP_RX200_Turret_Deployed,
+			HP_RX200_Turret_Undeployed_Submod,
+			HP_RX200_Turret_Deployed_Submod,
 			HP_RX200_Laser_1,
 			HP_RX200_Laser_2
 		</HardPoints>

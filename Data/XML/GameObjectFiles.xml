@@ -69,7 +69,7 @@
 	<File>Projectiles\Projectiles_Ground_Lasers.xml</File>
 	<File>Projectiles\Projectiles_GroundExplosives.xml</File>
 	<!-- FotR_Enhanced -->
-	<File>Projectiles\Projectiles_GroundExplosives_FotR_Enhanced.xml</File>
+	<File>Projectiles\Projectiles_FotR_Enhanced.xml</File>
 	<!-- FotR_Enhanced -->
 	<File>Projectiles\Projectiles_Infantry.xml</File>
 	<File>Projectiles\Projectiles.xml</File>
