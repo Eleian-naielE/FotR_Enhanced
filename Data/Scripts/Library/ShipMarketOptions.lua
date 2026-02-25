@@ -172,7 +172,7 @@ return {
 					perception_modifier = nil,
 					associtaion = nil,
 					readable_name = "Alpha-Class ARC Trooper Platoon (Phase II)",
-					text_requirement = "",
+					text_requirement = "[ Requires Phase II Armour Research ]",
 					order = 5,
 				},
 				["CLONE_GALACTIC_MARINE_COMPANY"] = {
