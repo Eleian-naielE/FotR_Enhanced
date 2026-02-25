@@ -92,7 +92,7 @@ TEXT_TOOLTIP_ARC170_GROUND_WEAP3,1x Fighter Concussion Missile (AF): 1 / 37.5s /
 TEXT_TOOLTIP_ARC170_GROUND_WEAP4,1x Proton Torpedo (AC): 1 / 37.5s / 1.8km
 TEXT_TOOLTIP_BLOCK,Admiral Block was the commanding officer of the Negotiator, and later Vigilance, both serving the role as the flagship of Jedi general Obi Wan Kenobi.
 TEXT_TOOLTIP_BLOCK_VILGILANCE_RESPAWN,Block respawns in a Venator(Vigilance) after his first death
-TEXT_TOOLTIP_BUILDLIMIT_ARC_TROOPER,Build Limit & Lifetime: 60-15 (Era dependent)
+TEXT_TOOLTIP_BUILDLIMIT_ARC_TROOPER,Build Limit & Lifetime: 40-10 (Era dependent)
 TEXT_TOOLTIP_BUILDLIMIT_LINK_P1,Linked Limit: Shared lifetime amount with Phase II
 TEXT_TOOLTIP_BUILDLIMIT_LINK_P2,Linked Limit: Shared lifetime amount with Phase I
 TEXT_TOOLTIP_BUILDLIMIT_VENATOR_SPHA_T,Build Limit: 3 | Lifetime: 1

@@ -12182,7 +12182,7 @@ TEXT_TOOLTIP_BTLA2_Y_WING,Early model of Y-wing tuned more towards a multirole f
 TEXT_TOOLTIP_BTLB_YWING_SHADOW,Comprised of clone pilots that received personal training from Anakin Skywalker himself, Shadow Squadron is a highly elite squadron that is attached to Admiral Yularen's complement. Although skilled with a variety of craft, Shadow Squadron predominantly flew V-19 Torrents and BTL-B Y-wings.
 TEXT_TOOLTIP_BTLS1_Y_WING,The second of the debut Y-wing models from the Clone Wars, more common in defense forces and garrisons than well-equipped fleets. The S1 Bomber is less armored than the -B series but has better flight performance, leading to it being preferred for further development. It is best used to attack larger enemy vessels with its ion cannons and munitions.
 TEXT_TOOLTIP_BUILD_PAD_ABILITY,Mobile Base: Creates build pad when deployed
-TEXT_TOOLTIP_BUILDLIMIT_ARC_TROOPER,Build Limit & Lifetime: 60-15 (Era dependent)
+TEXT_TOOLTIP_BUILDLIMIT_ARC_TROOPER,Build Limit & Lifetime: 40-10 (Era dependent)
 TEXT_TOOLTIP_BUILDLIMIT_BANKS,Build Limit: 1 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_CAPITAL,Build Limit: 1
 TEXT_TOOLTIP_BUILDLIMIT_DEVASTATION,Build Limit: 1 | Lifetime: 1
