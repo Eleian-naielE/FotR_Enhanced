@@ -71,8 +71,8 @@ function GovernmentRepublic:new(gc,id,gc_name)
 	self.SpaceStructureSnapshot = {}
 
 	self.p2_table = require("ClonePhaseTwoLibrary") -- FotR_Enhanced
-	local staringEra = GlobalValue.Get("CURRENT_ERA")
-	local Initial_ARC_Limit = self.p2_table[2][3][staringEra] -- FotR_Enhanced ; Initial Value
+	local startingEra = GlobalValue.Get("CURRENT_ERA")
+	local Initial_ARC_Limit = self.p2_table[2][3][startingEra] -- FotR_Enhanced ; Initial Value
 	GlobalValue.Set("ARC_LIFETIME_LIMIT", Initial_ARC_Limit)
 
 	GCEventTable = {
@@ -365,7 +365,7 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 
 	elseif game_object_type_name == "DUMMY_RESEARCH_CLONE_TROOPER_II" then -- FotR_Enhanced
 		crossplot:publish("UPDATE_MOBILIZATION", "PHASE_TWO_RESEARCH")
-		crossplot:publish("ADJUST_MARKET_AMOUNT", {"EMPIRE", "CLONE_MARKET", "ARC_PHASE_TWO_COMPANY", GlobalValue.Get("ARC_LIFETIME_LIMIT")})
+		local amount = GlobalValue.Get("ARC_LIFETIME_LIMIT")
 		if self.gc_name == "RIMWARD" then
 			UnitUtil.DespawnList({"DUMMY_RESEARCH_CLONE_TROOPER_II"})
 
@@ -384,6 +384,7 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 				end
 			end
         end
+		crossplot:publish("ADJUST_MARKET_AMOUNT", {"EMPIRE", "CLONE_MARKET", "ARC_PHASE_TWO_COMPANY", amount})
 		--[[if GlobalValue.Get("ARC_LIFETIME_LIMIT") == 0 then
 			UnitUtil.SetLockList("EMPIRE", {"ARC_PHASE_TWO_COMPANY"}, false)
 		end]]
