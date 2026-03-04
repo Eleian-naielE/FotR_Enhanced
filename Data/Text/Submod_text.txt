@@ -163,6 +163,7 @@ TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP1,1x Super Heavy Concussion Missile: 1 / 6.0s 
 TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP2,1x Light AI Blaster Cannon: 2 / 1.0s / 380m
 TEXT_TOOLTIP_MAGNATRI_WEAP1,1x Super Heavy AV Blaster Cannon: 3 / 2.0s / 400m
 TEXT_TOOLTIP_MAGNATRI_WEAP2,1x Heavy Proton Missiles: 2 / 8.33s / 480m
+TEXT_TOOLTIP_OMEGA_WEAP3_SUBMOD,1x Verpine Sniper Rifle: 2 / 3.0s / 320m
 TEXT_TOOLTIP_OMEGA_WEAP6,1x DC-17m Grenade Launcher: 1 / 15.0s / 200m
 TEXT_TOOLTIP_OMEGA_WEAP7,1x Fragmentation Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_OMEGA_WEAP8,1x DC-17 Pistol: 1 / 1.0s / 75m
@@ -185,7 +186,7 @@ TEXT_TOOLTIP_RESOLUTE_SPHAT_UPGRADE,Equip Resolute with SPHA-T in the hanger.
 TEXT_TOOLTIP_RESOURCE_GARRISON_TNT, Treaded Neutron Torch: 1 / 0
 TEXT_TOOLTIP_RESPAWN_VENTRESS,Immense hatred: Respawns after first defeat
 TEXT_TOOLTIP_ROHN,Rohn was a general in command of Shrouded Offensive, a military operation at the planet of Oster assigned by Darth Vader himself.
-TEXT_TOOLTIP_SEISMIC_TANK,A repulsorcraft that uses its large piston to inflict massive damage to the enemy. Originally usesd as a mining vehicle, it is repurposed as a military vehicle with the outebreak of the clone wars.
+TEXT_TOOLTIP_SEISMIC_TANK,A repulsorcraft that uses its large piston to inflict massive damage to the enemy. Originally used as a mining vehicle, it is repurposed as a military vehicle with the outbreak of the clone wars.
 TEXT_TOOLTIP_SEISMIC_TANK_COMPANY,1x Seismic Tank
 TEXT_TOOLTIP_SEISMIC_TANK_HEALTH,Health: 250 (Heavy Vehicle)
 TEXT_TOOLTIP_SEISMIC_TANK_MOVE,Speed: 0.6 | Turn: 1.0 
