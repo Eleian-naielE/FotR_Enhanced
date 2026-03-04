@@ -814,7 +814,7 @@
         <Projectile_Instant_Heal_Targets_Category_Mask> Fighter | Bomber </Projectile_Instant_Heal_Targets_Category_Mask>
         <Projectile_Instant_Heal_Health_Increase> 10 </Projectile_Instant_Heal_Health_Increase>
     </Projectile>
-		<Projectile Name="Proj_No_Retreat">
+	<Projectile Name="Proj_No_Retreat">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>

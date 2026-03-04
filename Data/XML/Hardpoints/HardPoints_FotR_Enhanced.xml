@@ -772,7 +772,7 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>60.0</Fire_Cone_Height>
 
-		<Fire_Projectile_Type>Proj_SPHA_T_Turbo_Beam</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ion_Beam_Submod</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>16</Fire_Pulse_Count>
@@ -804,7 +804,7 @@
 		<Fire_Cone_Width>30.0</Fire_Cone_Width>
 		<Fire_Cone_Height>60.0</Fire_Cone_Height>
 
-		<Fire_Projectile_Type>Proj_SPHA_T_Turbo_Beam</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ion_Beam_Submod</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>16</Fire_Pulse_Count>
@@ -1353,7 +1353,7 @@
 		<Fire_Projectile_Type>HeroProj_Slug_Sniper</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Min_Range_Distance>15.0</Fire_Min_Range_Distance>
 		<Fire_Range_Distance>400.0</Fire_Range_Distance>

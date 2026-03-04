@@ -15009,6 +15009,7 @@ TEXT_TOOLTIP_OMEGA_SQUAD_WEAP5,2x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_OMEGA_WEAP1,1x DC-17m Blaster Rifle: 5 / 2.0s / 240m
 TEXT_TOOLTIP_OMEGA_WEAP2,1x DC-17m Grenade Launcher: 1 / 15.0s / 200m
 TEXT_TOOLTIP_OMEGA_WEAP3,1x Verpine Sniper Rifle: 1 / 3.0s / 320m
+TEXT_TOOLTIP_OMEGA_WEAP3_SUBMOD,1x Verpine Sniper Rifle: 2 / 3.0s / 320m
 TEXT_TOOLTIP_OMEGA_WEAP4,1x Wookiee Bowcaster: 1 / 3.0s / 240m
 TEXT_TOOLTIP_OMEGA_WEAP5,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_OMEGA_WEAP6,1x DC-17m Grenade Launcher: 1 / 15.0s / 200m
@@ -15942,7 +15943,7 @@ TEXT_TOOLTIP_SECUTOR_WEAP4,3x Heavy Dual Ion Cannons: 1 / 5.0s / 7.4km
 TEXT_TOOLTIP_SECUTOR_WEAP5,14x Light Dual Laser Cannons: 2 / 0.42s / 3.9km
 TEXT_TOOLTIP_SECUTOR_WEAP6,6x Light Proton Torpedoes: 1 / 10.0s / 5.4km
 TEXT_TOOLTIP_SEERDON_FOTR,Chandrilan officer who replaced Hiram Drayson in command of the associated defense forces. Unforgiving, somewhat greedy and nepotistic but reasonably competent, he became one of the first Moffs during the Clone Wars, placed in charge of Steel Blade Command given his prior position.
-TEXT_TOOLTIP_SEISMIC_TANK,A repulsorcraft that uses its large piston to inflict massive damage to the enemy. Originally usesd as a mining vehicle, it is repurposed as a military vehicle with the outebreak of the clone wars.
+TEXT_TOOLTIP_SEISMIC_TANK,A repulsorcraft that uses its large piston to inflict massive damage to the enemy. Originally used as a mining vehicle, it is repurposed as a military vehicle with the outbreak of the clone wars.
 TEXT_TOOLTIP_SEISMIC_TANK_COMPANY,1x Seismic Tank
 TEXT_TOOLTIP_SEISMIC_TANK_HEALTH,Health: 250 (Heavy Vehicle)
 TEXT_TOOLTIP_SEISMIC_TANK_MOVE,Speed: 0.6 | Turn: 1.0 
