@@ -77,6 +77,11 @@ ADDED STUFFS
 --- Ability : Ambush, Self destruct Ability(Negotiator)
 -- Destruction Survivor mechanic applied
 
+-Gillehspy
+-- Venator Hound, Command Tier 4
+-- Ability : Hasty Action(Boosts speed and firing rate while decreasing shield regen and damage)
+-- Available as a command staff post order 66 
+
 -Captain Jag
 -- ARC 170 squadron(space and ground), 127th gunship wing, Command tier 2
 --- Ground version escorted by his wingman, CT-57/11-9048(non-bonus hero)
@@ -164,6 +169,10 @@ CHANGES & ADJUSTMENTS
 - More movie accurate era 2 Geonosis Republic starting forces 
 
 
+# Starting Heroes
+-Overhauled starting hero lists for every era(mostly republic)
+
+
 # Darkside Anakin's Respawn mechanics
 - If killed in flagship version in space, will respawn as ground only hero
 - If killed on ground as reinforcement, will respawn as Vader with Exactor intact
@@ -174,7 +183,6 @@ CHANGES & ADJUSTMENTS
 
 # Units made available/unavailable
 - UT-AT locked until 21bby Month 6
-- A5 Juggernaut locked (will come back with new mechanics for limited ground units)
 
 
 # Republic Heroes
@@ -198,6 +206,11 @@ CHANGES & ADJUSTMENTS
 
 -Screed starts as VSDI (victor fleet), can be respawned as gladiator
 
+-Jet return rework
+-- Default option in place of Bacara
+-- Phase 2 will enable the option to swap for Bacara
+-- Death will automatically bring bacara in place
+-- Bacara as default option for post Phase 2 era (Switchable)
 
 -Cut Heroes
 -- Knol Vennari
@@ -221,6 +234,11 @@ CHANGES & ADJUSTMENTS
 -- Rhys Dallows : Hauser, Tenant, Dallin, Maarisa
 -- Shea Hublin : Trachta, Therbon, Ravik, Mulleen, Screed, Parck
 -- Warthog : Coburn, Dallin, Dodonna, Wieler, Kilian
+
+
+# Historical Campaigns
+-- Cycles per month incresaed to 3
+-- support for Clone Specialization Program for Rimward, Tennuutta
 
 
 # Republic Shipmarket chance
