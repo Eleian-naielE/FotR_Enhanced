@@ -39,6 +39,7 @@ ADDED STUFFS
 
 -SPHA-T
 -- Available in Era 2 as starting forces, mission rewards 
+--- Fires custom stated beam projectile
 --- Hardcoded starting forces on Geonosis
 
 -Wolfpack squads
@@ -47,10 +48,12 @@ ADDED STUFFS
     2x rifle, 2x carbine, Ion grenadier & rifle, 2x Ion grenadier & carbine, EMP & wrist rocket, LMG & wrist rocket
 
 -Clone Commando Squad
--- Comes in 4 commandos each with unqiue abilities and roles
+-- Comes in 4 commandos each with unqiue abilities and roles (Doubled on story mission variants)
 -- 2 Pop, available through Clone Specialization Program, chance of 13% each cycle
 --- Sergeant: Ability; Sprint, Meeley Frenzy
---- Sniper: Ablity; 
+--- Sniper: Ablity; Critical Strike, Sprint
+--- Heavy(Demo Expert): Ability; Infantry Mine, Bomb Toss
+--- Slicer: Ability; Infantry Stun, Sprint
 
 -Red Guard
 -- Emperor Palpatine escort, Captial garrison only
@@ -68,6 +71,9 @@ ADDED STUFFS
 -- Replaces laser magna tri Era 4+
 -- Uses Custom made projectile type for missile
 
+-Seismic Tank
+-- CIS TF and commerce Guild Mission  Rewards
+
 
 # New Heroes
 
@@ -75,12 +81,13 @@ ADDED STUFFS
 -Block
 -- Venator Negoiator, Vigilance(Respawn), Command Tier 6
 --- Ability : Ambush, Self destruct Ability(Negotiator)
--- Destruction Survivor mechanic applied
+--- Destruction Survivor mechanic applied
+--- Uses custom coded explosions when self destructed
 
 -Gillehspy
 -- Venator Hound, Command Tier 4
--- Ability : Hasty Action(Boosts speed and firing rate while decreasing shield regen and damage)
--- Available as a command staff post order 66 
+--- Ability : Hasty Action(Boosts speed and firing rate while decreasing shield regen and damage)
+--- Available as a command staff post order 66 
 
 -Captain Jag
 -- ARC 170 squadron(space and ground), 127th gunship wing, Command tier 2
@@ -111,6 +118,11 @@ ADDED STUFFS
 --- Carrick Cruiser Integrity, Command Tier 4, Always Available]]
 
 [CIS]
+-Oro Dassyne
+-- CA Artillery, Command Tier 6, Fortification Specialist, Arrogant, Salvager
+--- 2 Battle Droid squad, 2 B2 squad, 2 Persuader tanks
+--- Era 2, 3 : Murkhana, Era 4, 5: Bomis Koori (Note; may spawn on captial depending on the map size)
+
 -TJ912
 --- Recusant light destroyer, Command Tier 4
 --- Era 3 : Yagdhul / Era 4 : Sullust / Era 5 : Raxus
@@ -127,13 +139,11 @@ ADDED STUFFS
 -- Phase 2: Clone Marine, Clone Scout, Clone Airbourne
 -- Always Avilable: Clone Commando Squad
 
--Clone Phase2 Automatic swap
+-Clone Phase 2 Automatic & Manual swap
 -- Upon Phase 2 upgrade, Phase 1 Clones will be upgraded to Phase 2 Clones (Includes Generic Commanders)
+--- A galactic upgrade dummy for clones in hyperspace during phase 2 research will be unlocked (Includes Generic Commanders, self locks if no Phase 1 clones are left)
+--- Leftover Phase 1 Special Clone units will still be avilable(swappable via dummy)
 --- * Special Ops -> Clone Marine, Vehicular Assault -> Airbourne,
-
--Clone Phase2 Manual swap
--- Upon Phase 2 upgrade, a galactic upgrade dummy for clones in hyperspace during phase 2 research will be unlocked (Includes Generic Commanders)
---- Locks if no Phase 1 clones are left
 
 -ARC Trooper Lifetime Limits
 -- Build Lifetime limits depending on starting Era
@@ -170,7 +180,7 @@ CHANGES & ADJUSTMENTS
 
 
 # Starting Heroes
--Overhauled starting hero lists for every era(mostly republic)
+-Overhauled starting hero lists and location for every era(mostly republic)
 
 
 # Darkside Anakin's Respawn mechanics
@@ -212,6 +222,18 @@ CHANGES & ADJUSTMENTS
 -- Death will automatically bring bacara in place
 -- Bacara as default option for post Phase 2 era (Switchable)
 
+-Omega Squad Ability & Weapon & Speed Rework
+-- movement speeds increased to 1.3 (was 1.0)
+-- Niner: Ability; Concussion Bomb, Hijack Vehicle 
+-- Fi: Weapon; DC17M Sniper, Ability; Medic Ring, Verpine sniper switch ability added
+-- Darman: Weapon; DC17M grenade launcher, passive Frag Grenade throw
+-- Atin: Ability; Turret Hack
+
+-Clone Officer Escort Overhaul
+- Rifle clone squads have been replaced with squada from regular platoons
+
+-- Ahsoka appearance delayed to 22bby month 11
+
 -Cut Heroes
 -- Knol Vennari
 
@@ -219,9 +241,14 @@ CHANGES & ADJUSTMENTS
 -- Bythen Forral(Venator) : Available as fighter hero until Order 6X (automatically converts to venator)
 -- Locus Geen : locked until 21bby Month 6
 
+-Generic Commanders
+-- AT-RT Heroes divided to Phase 1&2 due to the escorts
+-- Spec ops commanders nerfed to tier 2
+-- Scout commander buffed to tier 3
 -- Generic ARC Commanders temporary disabled to prevent first spawn bug (will be brought back in future version)
+-- Legion mechanic properly implemented
 
--New model for Padme 
+-- New model for Padme 
 
 
 # Fighter Hero
@@ -234,11 +261,6 @@ CHANGES & ADJUSTMENTS
 -- Rhys Dallows : Hauser, Tenant, Dallin, Maarisa
 -- Shea Hublin : Trachta, Therbon, Ravik, Mulleen, Screed, Parck
 -- Warthog : Coburn, Dallin, Dodonna, Wieler, Kilian
-
-
-# Historical Campaigns
--- Cycles per month incresaed to 3
--- support for Clone Specialization Program for Rimward, Tennuutta
 
 
 # Republic Shipmarket chance
@@ -257,8 +279,24 @@ CHANGES & ADJUSTMENTS
 - All new units added
 
 # Historical GC
--ORS
+-General
+-- Cycles per month incresaed to 3
+
+-Rimward, Tennuutta, Durge's Lance
+-- Support for Clone Specialization Program in AU versions
+
+-Outer Rim Sieges
 -- More Venator starting Forces for the Republic
+
+
+# Misc 
+-RX200 Fires custom coded Ion Beam projectile
+-- can temporary stun units, increased damage
+
+-AT-RT, AT-PT company spawn configured
+
+-Clone CategoryMask applied to mainly clone manned vehicles (clone prejudice affected)
+-- Clone 74z, BARC, Clone AT-RT, ISP, AT-XT, TX130S, TX130T, AV7, LAAT, UT-AT, AT-OT, AT-TE, A6, A6 Prototype, SPHA-T, 
 
 # [[Count Dooku Able to build dark Acolyte(Dark Jedi from TR, Requires Dooku in orbit)]]
 
