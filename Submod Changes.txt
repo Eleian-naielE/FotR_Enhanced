@@ -24,7 +24,7 @@ ________________________________________________________________________________
 
 
 
-ADDED STUFFS
+NEW FEATURES
 
 # New Units
 
@@ -50,6 +50,7 @@ ADDED STUFFS
 -Clone Commando Squad
 -- Comes in 4 commandos each with unqiue abilities and roles (Doubled on story mission variants)
 -- 2 Pop, available through Clone Specialization Program, chance of 13% each cycle
+-- Replaces commando company from the base mod
 --- Sergeant: Ability; Sprint, Meeley Frenzy
 --- Sniper: Ablity; Critical Strike, Sprint
 --- Heavy(Demo Expert): Ability; Infantry Mine, Bomb Toss
@@ -90,13 +91,20 @@ ADDED STUFFS
 --- Available as a command staff post order 66 
 
 -Captain Jag
--- ARC 170 squadron(space and ground), 127th gunship wing, Command tier 2
+-- ARC 170 squadron(space and ground), 127th gunship wing, Command Tier 2, Plo's Bros
 --- Ground version escorted by his wingman, CT-57/11-9048(non-bonus hero)
 --- Available post Era 4 with venator research
 
--Bythen Forral Fighter Hero
+-Bythen Forral (Fighter Hero)
 -- Cloakshape squadron, Starfighter Specialist, 
---- Available until Order 6X
+--- Available until Order 6X (converts to venator)
+--- Assignable Heroes: Seerdon, Baraka, Dao, Dron, Byluir, Kreuge
+
+-Hawk
+-- Clone Z95 (P2), LAAT Gunship Valkyrie 2929 (P1 & P2)
+--- Available to Yularen Only
+--- Auto ground reinforcement for Yularen in P1
+--- Legion Priority 2 ; 501st
 
 -Prudii Skirata
 -- ARC lieutenant, Command Tier 2, Galactic Stealth, Tactical Stealth, Sticky Bomb
@@ -105,6 +113,10 @@ ADDED STUFFS
 -Oppo Rancisis
 -- Command Tier 9, 327th Star Corp Legion skin, Battle Meditation, Mind Trick
 --- Always available
+
+-Rohn
+-- AT-TE, Command Tier 4, Arrogant, Reckless
+--- Available post Order 66 as general command staff
 
 -Flagship Upgrade for Darkside Anakin & Darth Vader
 -- Imperator Exactor, available on Kuat post Kuat Contract
@@ -128,7 +140,7 @@ ADDED STUFFS
 --- Era 3 : Yagdhul / Era 4 : Sullust / Era 5 : Raxus
 
 -TM-171
---- Dh Omni supply vessel, command tier 3
+-- Dh Omni supply vessel, Command Tier 3
 --- Era 3 progression spawn
 
 
@@ -150,6 +162,13 @@ ADDED STUFFS
 -- Era 2: 40, Era 3: 30, Era 4: 20, Era 5: 10
 -- IMPORTANT : Synced with Phase 2 ARC Trooper
 
+-- Ventress respawns in Boz Pity after first death
+
+
+# Misc
+-New trait
+-- Plo's Bros: Gives Plo Koon 20% Heatlh Bonus
+
 [[
 -Republic's Decolorized military
 --- All colorizable Ships/Ground units now have Grey "Decolorized" Version for order 66 swaps
@@ -170,6 +189,11 @@ CHANGES & ADJUSTMENTS
 
 
 # Starting Forces
+- Acclamator Assault, Pelta variants(replaced with Class Cs) moved to Era 3+
+- Acclamator variants, A5-RX removed from Sector Forces lists
+- Acclamator variants chances increased for Rothana list
+- Venator chance increased
+- Alpha ARC Trooper P1 moved to Era 3 for Kamino list
 - Galactic Marines moved to Era 4+ only
 - A6 Prototype for Republic and Kuati Era 2-3
 - UT-AT moved to Era 4+
@@ -189,6 +213,11 @@ CHANGES & ADJUSTMENTS
 - If killed as ground only hero, will respawn as Vader with Exactor upgrade available
 - If killed in flagship version in space as Vader, will respawn as ground only hero 
 - If killed on ground as Vader with Exactor, will be able to renabled like Grievous
+
+
+# Frequent Hyenas 
+- Changed fighter loadout to Hyenas for certain CIS units
+-- Lucrehulk Carrier, CIS C9979
 
 
 # Units made available/unavailable
@@ -225,8 +254,8 @@ CHANGES & ADJUSTMENTS
 -Omega Squad Ability & Weapon & Speed Rework
 -- movement speeds increased to 1.3 (was 1.0)
 -- Niner: Ability; Concussion Bomb, Hijack Vehicle 
--- Fi: Weapon; DC17M Sniper, Ability; Medic Ring, Verpine sniper switch ability added
--- Darman: Weapon; DC17M grenade launcher, passive Frag Grenade throw
+-- Fi: Weapon; DC17M Sniper, DC17 Sidearm, Ability; Medic Ring, Verpine sniper switch ability added
+-- Darman: Weapon; DC17M grenade launcher, DC17 Sidearm, passive Frag Grenade throw
 -- Atin: Ability; Turret Hack
 
 -Clone Officer Escort Overhaul
@@ -246,20 +275,20 @@ CHANGES & ADJUSTMENTS
 -- Spec ops commanders nerfed to tier 2
 -- Scout commander buffed to tier 3
 -- Generic ARC Commanders temporary disabled to prevent first spawn bug (will be brought back in future version)
--- Legion mechanic properly implemented
+-- Legion skin mechanic properly implemented
 
 -- New model for Padme 
 
 
 # Fighter Hero
 -Assignable Ships changed
--- Arhul Narra : Seerdon, Parck, Tarkin, Therbon
--- Aron Onstall : Tallon, Grant, Autem, Tenant, Maarisa
--- Garven Dreis : Grant, Ravik, Praji, Grumby, Screed
+-- Arhul Narra : Tarkin, Vorru, Denimoor, Parck, Therbon
+-- Aron Onstall : Tallon, Maarisa, Grant, Autem, Tenant
+-- Garven Dreis : Grumby, Grant, Ravik, Praji, Screed
 -- Nial Declann : Baraka, Wessel, Pellaeon, Martz, Tallon
--- Odd Ball : Yularen, Kilian, Block, Wessex
--- Rhys Dallows : Hauser, Tenant, Dallin, Maarisa
--- Shea Hublin : Trachta, Therbon, Ravik, Mulleen, Screed, Parck
+-- Odd Ball : Block, Yularen, Kilian, Wessex, 
+-- Rhys Dallows : Hauser, Dallin, Tenant, Maarisa
+-- Shea Hublin : Tarkin, Trachta, Therbon, Ravik, Mulleen, Screed, Parck
 -- Warthog : Coburn, Dallin, Dodonna, Wieler, Kilian
 
 
@@ -273,16 +302,23 @@ CHANGES & ADJUSTMENTS
 -Republic
 -- Autem(From the comic Republic)
 -- Vorru(changed to 1.4 version)
+-- Odd Ball ; Accurate portrait applied
 
 
 # Instant action
 - All new units added
 
+
 # Historical GC
 -General
 -- Cycles per month incresaed to 3
+-- All Clone Commando Companies replaced with reworked variants
 
--Rimward, Tennuutta, Durge's Lance
+-Rimward, 
+-- Clone Commando reinforcements in Kamino mission replaced with reworked mission variants
+-- Support for Clone Specialization Program after phase 2 research
+
+Tennuutta, Durge's Lance
 -- Support for Clone Specialization Program in AU versions
 
 -Outer Rim Sieges
@@ -297,6 +333,10 @@ CHANGES & ADJUSTMENTS
 
 -Clone CategoryMask applied to mainly clone manned vehicles (clone prejudice affected)
 -- Clone 74z, BARC, Clone AT-RT, ISP, AT-XT, TX130S, TX130T, AV7, LAAT, UT-AT, AT-OT, AT-TE, A6, A6 Prototype, SPHA-T, 
+
+-- Grievous Invisible Hand scale increased for visual pleasure (film accurate)
+
+-- In game document edited to properly implement submod features 
 
 # [[Count Dooku Able to build dark Acolyte(Dark Jedi from TR, Requires Dooku in orbit)]]
 
