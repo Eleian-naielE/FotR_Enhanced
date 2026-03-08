@@ -1,0 +1,348 @@
+
+    ______    _ _          __   _______ _            _____                  _     _ _       
+   |  ____|  | | |        / _| |__   __| |          |  __ \                | |   | (_)      
+   | |__ __ _| | |   ___ | |_     | |  | |__   ___  | |__) |___ _ __  _   _| |__ | |_  ___  
+   |  __/ _` | | |  / _ \|  _|    | |  | '_ \ / _ \ |  _  // _ \ '_ \| | | | '_ \| | |/ __| 
+   | | | (_| | | | | (_) | |      | |  | | | |  __/ | | \ \  __/ |_) | |_| | |_) | | | (__  
+   |_|  \__,_|_|_|_ \___/|_|      |_|  |_| |_|\___| |_|  \_\___| .__/ \__,_|_.__/|_|_|\___| 
+            |  ____|     | |                            | |    | |                          
+    ______  | |__   _ __ | |__   __ _ _ __   ___ ___  __| |  __|_|_                         
+   |______| |  __| | '_ \| '_ \ / _` | '_ \ / __/ _ \/ _` | |______|                        
+            | |____| | | | | | | (_| | | | | (_|  __/ (_| |                                 
+            |______|_| |_|_| |_|\__,_|_| |_|\___\___|\__,_|                                 
+                                                                                            
+                                                                                            
+
+
+
+Fall of The Republic Enhanced, Submod by Eleian
+_______________________________________________________________________________________________
+
+This Change contains all exhaustive changes.
+_______________________________________________________________________________________________
+*([[ ]]) means changes that are currently disabled
+
+
+
+NEW FEATURES
+
+# New Units
+
+-Venator SPHA-T Refit
+-- Upgradeble from normal Venator with Anakin in orbit on tier 3+ shipyards Era 4+
+--- Build limit lifetime of total 3
+--- Respawns as regular venators post Order 66
+
+-A6 Prototype
+-- Stripped down, downgraded weapons, Undestroyble Hardpoints, 1 Pop cap
+--- Available through mission rewards in Era 2, 3
+
+-SPHA-T
+-- Available in Era 2 as starting forces, mission rewards 
+--- Fires custom stated beam projectile
+--- Hardcoded starting forces on Geonosis
+
+-Wolfpack squads
+-- commander wolffe Phase 2 escort only
+--- Consists of 
+    2x rifle, 2x carbine, Ion grenadier & rifle, 2x Ion grenadier & carbine, EMP & wrist rocket, LMG & wrist rocket
+
+-Clone Commando Squad
+-- Comes in 4 commandos each with unqiue abilities and roles (Doubled on story mission variants)
+-- 2 Pop, available through Clone Specialization Program, chance of 13% each cycle
+-- Replaces commando company from the base mod
+--- Sergeant: Ability; Sprint, Meeley Frenzy
+--- Sniper: Ablity; Critical Strike, Sprint
+--- Heavy(Demo Expert): Ability; Infantry Mine, Bomb Toss
+--- Slicer: Ability; Infantry Stun, Sprint
+
+-Red Guard
+-- Emperor Palpatine escort, Captial garrison only
+
+-Umbaran Support Frigate(Influence) 
+--- Fleet Tender, Available at Umbara at influence 8+
+
+-Umbaran fighter
+-- Spawns as Militia, Support Frigate loadout, influence militia
+
+-Umbaran Hover Tank
+-- Influence Unit, Available at Umbara at influence 7+
+
+-Magna Tri Droid Missile Refit
+-- Replaces laser magna tri Era 4+
+-- Uses Custom made projectile type for missile
+
+-Seismic Tank
+-- CIS TF and commerce Guild Mission  Rewards
+
+
+# New Heroes
+
+[Rep]
+-Block
+-- Venator Negoiator, Vigilance(Respawn), Command Tier 6
+--- Ability : Ambush, Self destruct Ability(Negotiator)
+--- Destruction Survivor mechanic applied
+--- Uses custom coded explosions when self destructed
+
+-Gillehspy
+-- Venator Hound, Command Tier 4
+--- Ability : Hasty Action(Boosts speed and firing rate while decreasing shield regen and damage)
+--- Available as a command staff post order 66 
+
+-Captain Jag
+-- ARC 170 squadron(space and ground), 127th gunship wing, Command Tier 2, Plo's Bros
+--- Ground version escorted by his wingman, CT-57/11-9048(non-bonus hero)
+--- Available post Era 4 with venator research
+
+-Bythen Forral (Fighter Hero)
+-- Cloakshape squadron, Starfighter Specialist, 
+--- Available until Order 6X (converts to venator)
+--- Assignable Heroes: Seerdon, Baraka, Dao, Dron, Byluir, Kreuge
+
+-Hawk
+-- Clone Z95 (P2), LAAT Gunship Valkyrie 2929 (P1 & P2)
+--- Available to Yularen Only
+--- Auto ground reinforcement for Yularen in P1
+--- Legion Priority 2 ; 501st
+
+-Prudii Skirata
+-- ARC lieutenant, Command Tier 2, Galactic Stealth, Tactical Stealth, Sticky Bomb
+--- Removed in Order 66
+
+-Oppo Rancisis
+-- Command Tier 9, 327th Star Corp Legion skin, Battle Meditation, Mind Trick
+--- Always available
+
+-Rohn
+-- AT-TE, Command Tier 4, Arrogant, Reckless
+--- Available post Order 66 as general command staff
+
+-Flagship Upgrade for Darkside Anakin & Darth Vader
+-- Imperator Exactor, available on Kuat post Kuat Contract
+--- Ground version available as reinforcement when flagship is in orbit
+
+-SPHA-T upgrade for Yularen Resolute(Not Integrity upgrade)
+-- Seperate upgrade for Yularen Resolute
+-- Respawns as Integrity if killed
+
+[[-Lorth Needa
+--- Carrick Cruiser Integrity, Command Tier 4, Always Available]]
+
+[CIS]
+-Oro Dassyne
+-- CA Artillery, Command Tier 6, Fortification Specialist, Arrogant, Salvager
+--- 2 Battle Droid squad, 2 B2 squad, 2 Persuader tanks
+--- Era 2, 3 : Murkhana, Era 4, 5: Bomis Koori (Note; may spawn on captial depending on the map size)
+
+-TJ912
+--- Recusant light destroyer, Command Tier 4
+--- Era 3 : Yagdhul / Era 4 : Sullust / Era 5 : Raxus
+
+-TM-171
+-- Dh Omni supply vessel, Command Tier 3
+--- Era 3 progression spawn
+
+
+# New Mechanics
+-Clone Specialization Program
+-- Enables you to build special clone platoons for a certain chance
+-- Phase 1: Vehicular Assault Trooper, Special Ops
+-- Phase 2: Clone Marine, Clone Scout, Clone Airbourne
+-- Always Avilable: Clone Commando Squad
+
+-Clone Phase 2 Automatic & Manual swap
+-- Upon Phase 2 upgrade, Phase 1 Clones will be upgraded to Phase 2 Clones (Includes Generic Commanders)
+--- A galactic upgrade dummy for clones in hyperspace during phase 2 research will be unlocked (Includes Generic Commanders, self locks if no Phase 1 clones are left)
+--- Leftover Phase 1 Special Clone units will still be avilable(swappable via dummy)
+--- * Special Ops -> Clone Marine, Vehicular Assault -> Airbourne,
+
+-ARC Trooper Lifetime Limits
+-- Build Lifetime limits depending on starting Era
+-- Era 2: 40, Era 3: 30, Era 4: 20, Era 5: 10
+-- IMPORTANT : Synced with Phase 2 ARC Trooper
+
+-- Ventress respawns in Boz Pity after first death
+
+
+# Misc
+-New trait
+-- Plo's Bros: Gives Plo Koon 20% Heatlh Bonus
+
+[[
+-Republic's Decolorized military
+--- All colorizable Ships/Ground units now have Grey "Decolorized" Version for order 66 swaps
+--- Will also replace standard roster after order 66
+]]
+
+
+
+
+
+
+CHANGES & ADJUSTMENTS
+
+# Category Mask
+-New infantry Category Mask : Droid, Organic(also applies to heroes)
+-- Droid infantry/heroes can now be affected by Emp blast, healed from vehicle repair center and immune to drain life ability
+-Related changes applied accordingly
+
+
+# Starting Forces
+- Acclamator Assault, Pelta variants(replaced with Class Cs) moved to Era 3+
+- Acclamator variants, A5-RX removed from Sector Forces lists
+- Acclamator variants chances increased for Rothana list
+- Venator chance increased
+- Alpha ARC Trooper P1 moved to Era 3 for Kamino list
+- Galactic Marines moved to Era 4+ only
+- A6 Prototype for Republic and Kuati Era 2-3
+- UT-AT moved to Era 4+
+- SPHA-T addded for Rothanan
+- All A6 Spawns regardless of planet type are moved to Era 4+
+- Special Ops added as replacement of Galactic marines for Coruscant Guards
+- More movie accurate era 2 Geonosis Republic starting forces 
+
+
+# Starting Heroes
+-Overhauled starting hero lists and location for every era(mostly republic)
+
+
+# Darkside Anakin's Respawn mechanics
+- If killed in flagship version in space, will respawn as ground only hero
+- If killed on ground as reinforcement, will respawn as Vader with Exactor intact
+- If killed as ground only hero, will respawn as Vader with Exactor upgrade available
+- If killed in flagship version in space as Vader, will respawn as ground only hero 
+- If killed on ground as Vader with Exactor, will be able to renabled like Grievous
+
+
+# Frequent Hyenas 
+- Changed fighter loadout to Hyenas for certain CIS units
+-- Lucrehulk Carrier, CIS C9979
+
+
+# Units made available/unavailable
+- UT-AT locked until 21bby Month 6
+
+
+# Republic Heroes
+-Limits
+-NOTE : All vacant limits(limits of affordable losses) increased to match the number of all available Heroes
+-- Jedi : 3 -> 4
+-- Clone Officer : 2 -> 3
+
+-Gradual increase of staff limits with tech research
+-- Venator research : +1 Admiral, +1 Moff
+-- Phase 2 research : +1 Commando
+
+-Eta 2 Upgrades for Jedi moved to Era 4 (was Era 3)
+
+-Historical GC hero lists & limits (in comparison to the original)
+-- ORS :
+    +1 Admiral, +1 Jedi
+    Wieler included as available
+
+-Venator research Era 4+ will lock Kilian
+
+-Screed starts as VSDI (victor fleet), can be respawned as gladiator
+
+-Jet return rework
+-- Default option in place of Bacara
+-- Phase 2 will enable the option to swap for Bacara
+-- Death will automatically bring bacara in place
+-- Bacara as default option for post Phase 2 era (Switchable)
+
+-Omega Squad Ability & Weapon & Speed Rework
+-- movement speeds increased to 1.3 (was 1.0)
+-- Niner: Ability; Concussion Bomb, Hijack Vehicle 
+-- Fi: Weapon; DC17M Sniper, DC17 Sidearm, Ability; Medic Ring, Verpine sniper switch ability added
+-- Darman: Weapon; DC17M grenade launcher, DC17 Sidearm, passive Frag Grenade throw
+-- Atin: Ability; Turret Hack
+
+-Clone Officer Escort Overhaul
+- Rifle clone squads have been replaced with squada from regular platoons
+
+-- Ahsoka appearance delayed to 22bby month 11
+
+-Cut Heroes
+-- Knol Vennari
+
+-Initially Locked Heroes
+-- Bythen Forral(Venator) : Available as fighter hero until Order 6X (automatically converts to venator)
+-- Locus Geen : locked until 21bby Month 6
+
+-Generic Commanders
+-- AT-RT Heroes divided to Phase 1&2 due to the escorts
+-- Spec ops commanders nerfed to tier 2
+-- Scout commander buffed to tier 3
+-- Generic ARC Commanders temporary disabled to prevent first spawn bug (will be brought back in future version)
+-- Legion skin mechanic properly implemented
+
+-- New model for Padme 
+
+
+# Fighter Hero
+-Assignable Ships changed
+-- Arhul Narra : Tarkin, Vorru, Denimoor, Parck, Therbon
+-- Aron Onstall : Tallon, Maarisa, Grant, Autem, Tenant
+-- Garven Dreis : Grumby, Grant, Ravik, Praji, Screed
+-- Nial Declann : Baraka, Wessel, Pellaeon, Martz, Tallon
+-- Odd Ball : Block, Yularen, Kilian, Wessex, 
+-- Rhys Dallows : Hauser, Dallin, Tenant, Maarisa
+-- Shea Hublin : Tarkin, Trachta, Therbon, Ravik, Mulleen, Screed, Parck
+-- Warthog : Coburn, Dallin, Dodonna, Wieler, Kilian
+
+
+# Republic Shipmarket chance
+-- Imperator : 5% -> 40%
+-- Imperator Assault : 1% -> 20%
+-- Tector : 5% -> 30%
+
+
+# Icon Changes
+-Republic
+-- Autem(From the comic Republic)
+-- Vorru(changed to 1.4 version)
+-- Odd Ball ; Accurate portrait applied
+
+
+# Instant action
+- All new units added
+
+
+# Historical GC
+-General
+-- Cycles per month incresaed to 3
+-- All Clone Commando Companies replaced with reworked variants
+
+-Rimward, 
+-- Clone Commando reinforcements in Kamino mission replaced with reworked mission variants
+-- Support for Clone Specialization Program after phase 2 research
+
+Tennuutta, Durge's Lance
+-- Support for Clone Specialization Program in AU versions
+
+-Outer Rim Sieges
+-- More Venator starting Forces for the Republic
+
+
+# Misc 
+-RX200 Fires custom coded Ion Beam projectile
+-- can temporary stun units, increased damage
+
+-AT-RT, AT-PT company spawn configured
+
+-Clone CategoryMask applied to mainly clone manned vehicles (clone prejudice affected)
+-- Clone 74z, BARC, Clone AT-RT, ISP, AT-XT, TX130S, TX130T, AV7, LAAT, UT-AT, AT-OT, AT-TE, A6, A6 Prototype, SPHA-T, 
+
+-- Grievous Invisible Hand scale increased for visual pleasure (film accurate)
+
+-- In game document edited to properly implement submod features 
+
+# [[Count Dooku Able to build dark Acolyte(Dark Jedi from TR, Requires Dooku in orbit)]]
+
+
+[[-Senate Commando - available at galactic senate
+]]
+
+
+
