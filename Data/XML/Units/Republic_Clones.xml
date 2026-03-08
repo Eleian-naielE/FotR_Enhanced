@@ -5078,7 +5078,7 @@
 		<Icon_Name>i_button_clone_jumptrooper_p2.tga</Icon_Name>
 		<AI_Combat_Power>101.16</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Infantry | Clone</CategoryMask>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 	</GroundInfantry>
 
@@ -6640,6 +6640,7 @@
 		<Icon_Name>I_BUTTON_CLONE_VEHICLE_ASSAULT.tga</Icon_Name>
 		<AI_Combat_Power>142.89</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -9702,6 +9703,7 @@
 		<Icon_Name>I_BUTTON_CLONE_AIRBORNE.tga</Icon_Name>
 		<AI_Combat_Power>153.09</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
+		<CategoryMask>Organic | Infantry | Clone</CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
