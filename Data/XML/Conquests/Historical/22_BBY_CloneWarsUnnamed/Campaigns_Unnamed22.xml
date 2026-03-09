@@ -49,15 +49,12 @@
 				Thule,
 				Yavin,
 		</Locations>
-
 		
-		
-
 		<Trade_Routes>
-		</Trade_Routes> 
-
-        <Home_Location> Rebel, Mon_Calamari </Home_Location>
-        <Home_Location> Empire, Coruscant </Home_Location>
+		</Trade_Routes>
+		
+		<Home_Location> Rebel, Mon_Calamari </Home_Location>
+		<Home_Location> Empire, Coruscant </Home_Location>
         
         <Starting_Active_Player> Empire </Starting_Active_Player>
 
