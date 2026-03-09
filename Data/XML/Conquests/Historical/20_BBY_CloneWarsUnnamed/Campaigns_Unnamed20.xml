@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Campaigns>
 
-	<Campaign Name="Sandbox_Unnamed22_Republic">
+	<Campaign Name="Sandbox_Unnamed20_Republic">
 		<Campaign_Set> Sandbox_Unnamed20 </Campaign_Set>
 		<Sort_Order>31</Sort_Order>
 
@@ -16,38 +16,35 @@
 		<Tutorial>true</Tutorial>
 
 		<Locations> 
-				Galaxy_Core_Art_Model,
-				Alderaan,
-				<!-- Antolus, -->
-				Bandomeer,
-				Bomis_Koori,
-				<!-- Biitu, -->
-				Cato_Neimoidia,
-				<!-- Callos, -->	
-				Coruscant,
-				Deko_Neimoidia,
-				<!-- Felacat, -->
-				<!-- Gentes, -->
-				Gyndine,
-				Honoghr,
-				Koru_Neimoidia,
-				Malastare
-				<!-- Maramere, -->
-				<!-- Nothoiin, -->				
-				Onderon,
-				<!-- Phorose, -->
-				Rendili,
-				Ringo_Vinda,
-				Togoria,
-				<!-- Trigalis, -->
-				Umbara,
-				<!-- Vandos, -->
-				<!-- Viidaav, -->
-				<!-- Virujansi, -->
+			Galaxy_Core_Art_Model,
+			Alderaan,
+			<!-- Antolus, -->
+			Bandomeer,
+			Bomis_Koori,
+			<!-- Biitu, -->
+			Cato_Neimoidia,
+			<!-- Callos, -->	
+			Coruscant,
+			Deko_Neimoidia,
+			<!-- Felacat, -->
+			<!-- Gentes, -->
+			Gyndine,
+			Honoghr,
+			Koru_Neimoidia,
+			Malastare
+			<!-- Maramere, -->
+			<!-- Nothoiin, -->				
+			Onderon,
+			<!-- Phorose, -->
+			Rendili,
+			Ringo_Vinda,
+			Togoria,
+			<!-- Trigalis, -->
+			Umbara,
+			<!-- Vandos, -->
+			<!-- Viidaav, -->
+			<!-- Virujansi, -->
 		</Locations>
-
-		
-		
 
 		<Trade_Routes>
 		</Trade_Routes> 
