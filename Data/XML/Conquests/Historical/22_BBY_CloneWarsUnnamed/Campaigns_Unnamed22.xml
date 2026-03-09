@@ -16,38 +16,40 @@
 		<Tutorial>true</Tutorial>
 
 		<Locations> 
-				Galaxy_Core_Art_Model,
-				Aargonar,
-				Agamar,
-				<!-- Atraken, -->
-				<!-- Axion, -->
-				Ando,
-				Brentaal,
-				Cartao,
-				Christophsis,
-				Coruscant,
-				Dantooine,
-				Foerost,
-				Geonosis,
-				Hypori,
-				Jabiim,
-				Kamino,
-				Krant,
-				Kuat,
-				Metalorn,
-				<!-- Merson, -->
-				Mon_Calamari,
-				Muunilinst,
-				Naboo,
-				<!-- Ohma_Dun -->
-				Raxus,
-				Rhen_Var,
-				Rishi,
-				Tatooine,
-				Teth,
-				The_Wheel,
-				Thule,
-				Yavin,
+			Galaxy_Core_Art_Model,
+			Aargonar,
+			Agamar,
+			<!-- Atraken, -->
+			<!-- Axion, -->
+			Ando,
+			Brentaal,
+			Cartao,
+			Christophsis,
+			Coruscant,
+			Dantooine,
+			Foerost,
+			Geonosis,
+			Haruun_Kal,
+			Hypori,
+			Jabiim,
+			Kamino,
+			Kerkodia,
+			Krant,
+			Kuat,
+			Metalorn,
+			<!-- Merson, -->
+			Mon_Calamari,
+			Muunilinst,
+			Naboo,
+			<!-- Ohma_Dun -->
+			Raxus,
+			Rhen_Var,
+			Rishi,
+			Tatooine,
+			Teth,
+			The_Wheel,
+			Thule,
+			Yavin,
 		</Locations>
 		
 		<Trade_Routes>
