@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Campaigns>
 
-	<Campaign Name="Sandbox_Unnamed22_Republic">
+	<Campaign Name="Sandbox_Unnamed_Republic">
 		<Campaign_Set> Sandbox_Unnamed22 </Campaign_Set>
 		<Sort_Order>30</Sort_Order>
 
@@ -16,40 +16,39 @@
 		<Tutorial>true</Tutorial>
 
 		<Locations> 
-			Galaxy_Core_Art_Model,
-			Aargonar,
-			Agamar,
-			<!-- Atraken, -->
-			<!-- Axion, -->
-			Ando,
-			Brentaal,
-			Cartao,
-			Christophsis,
-			Coruscant,
-			Dantooine,
-			Foerost,
-			Geonosis,
-			Haruun_Kal,
-			Hypori,
-			Jabiim,
-			Kamino,
-			Kerkodia,
-			Krant,
-			Kuat,
-			Metalorn,
-			<!-- Merson, -->
-			Mon_Calamari,
-			Muunilinst,
-			Naboo,
-			<!-- Ohma_Dun -->
-			Raxus,
-			Rhen_Var,
-			Rishi,
-			Tatooine,
-			Teth,
-			The_Wheel,
-			Thule,
-			Yavin,
+				Galaxy_Core_Art_Model,
+				Aargonar,
+				Agamar,
+				Alaris,
+				Ando,
+				<!-- Atraken, -->
+				<!-- Axion, -->
+				Brentaal,
+				Cartao,
+				Christophsis,
+				Coruscant,
+				Dantooine,
+				Foerost,
+				Geonosis,
+				Hypori,
+				Jabiim,
+				Kamino,
+				Krant,
+				Kuat,
+				Metalorn,
+				<!-- Merson, -->
+				Mon_Calamari,
+				Muunilinst,
+				Naboo,
+				<!-- Ohma_Dun -->
+				Raxus,
+				Rhen_Var,
+				Rishi,
+				Tatooine,
+				Teth,
+				The_Wheel,
+				Thule,
+				Yavin,
 		</Locations>
 		
 		<Trade_Routes>
