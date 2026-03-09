@@ -3,7 +3,7 @@
 
 	<Campaign Name="Sandbox_Unnamed22_Republic">
 		<Campaign_Set> Sandbox_Unnamed20 </Campaign_Set>
-		<Sort_Order>30</Sort_Order>
+		<Sort_Order>31</Sort_Order>
 
         <Text_ID> TEXT_CAMPAIGN_HEADER_20BBY_UNNAMED </Text_ID>
         <Description_Text> TEXT_CAMPAIGN_DESCRIPTION_20BBY_UNNAMED </Description_Text>
