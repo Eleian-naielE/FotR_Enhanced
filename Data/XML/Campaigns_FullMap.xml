@@ -1,0 +1,4155 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+	<Campaign Name="Sandbox_Full_Map">
+		<Campaign_Set> Sandbox_Full_Map </Campaign_Set>
+		<Sort_Order>30</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_FULL_MAP </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DESCRIPTION_FULL_MAP </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Is_Listed>false</Is_Listed>
+		<Tutorial>true</Tutorial>
+
+		<Locations> 
+				Galaxy_Core_Art_Model,
+		</Locations>
+
+		
+		<Locations>Aargau</Locations>
+		
+		<Locations>Aargonar</Locations>
+		
+		<Locations>Abeloth_World</Locations>
+		
+		<Locations>Abhean</Locations>
+		
+		<Locations>Abregado_Rae</Locations>
+		
+		<Locations>Abridon</Locations>
+		
+		<Locations>Abyss</Locations>
+		
+		<Locations>Adumar</Locations>
+		
+		<Locations>Aefao</Locations>
+		
+		<Locations>Aeten</Locations>
+		
+		<Locations>Agamar</Locations>
+		
+		<Locations>Agomar</Locations>
+		
+		<Locations>Aguarl</Locations>
+		
+		<Locations>Aikhibba</Locations>
+		
+		<Locations>Ailon</Locations>
+		
+		<Locations>Akuria</Locations>
+		
+		<Locations>Alagon</Locations>
+		
+		<Locations>Alaris</Locations>
+		
+		<Locations>Alashan</Locations>
+		
+		<Locations>Alderaan</Locations>
+		
+		<Locations>Alderaan_Graveyard</Locations>
+		
+		<Locations>Aleen</Locations>
+		
+		<Locations>Allanteen</Locations>
+		
+		<Locations>Allyuen</Locations>
+		
+		<Locations>Almania</Locations>
+		
+		<Locations>Alpheridies</Locations>
+		
+		<Locations>Alsakan</Locations>
+		
+		<Locations>Althir</Locations>
+		
+		<Locations>Alzoc</Locations>
+		
+		<Locations>Ambria</Locations>
+		
+		<Locations>Anaxes</Locations>
+		
+		<Locations>Andara</Locations>
+		
+		<Locations>Ando</Locations>
+		
+		<Locations>Ando_Prime</Locations>
+		
+		<Locations>Annaj</Locations>
+		
+		<Locations>Anoat</Locations>
+		
+		<Locations>Ansion</Locations>
+		
+		<Locations>Antar</Locations>
+		
+		<Locations>Antemeridias</Locations>
+		
+		<Locations>Anx_Minor</Locations>
+		
+		<Locations>Arda</Locations>
+		
+		<Locations>Ardis</Locations>
+		
+		<Locations>Argazda</Locations>
+		
+		<Locations>Argovia</Locations>
+		
+		<Locations>Argul</Locations>
+		
+		<Locations>Arkania</Locations>
+		
+		<Locations>Aruza</Locations>
+		
+		<Locations>Atchorb</Locations>
+		
+		<Locations>Athiss</Locations>
+		
+		<Locations>Atravis</Locations>
+		
+		<Locations>Attahox</Locations>
+		
+		<Locations>Aturi</Locations>
+		
+		<Locations>Atzerri</Locations>
+		
+		<Locations>AX456</Locations>
+		
+		<Locations>Axxila</Locations>
+		
+		<Locations>Azure</Locations>
+		
+		<Locations>Bacrana</Locations>
+		
+		<Locations>Bajic</Locations>
+		
+		<Locations>Bakura</Locations>
+		
+		<Locations>Balamak</Locations>
+		
+		<Locations>Balmorra</Locations>
+		
+		<Locations>Bandomeer</Locations>
+		
+		<Locations>Bannistar</Locations>
+		
+		<Locations>Barab</Locations>
+		
+		<Locations>Bardram_Scoft</Locations>
+		
+		<Locations>Barkhesh</Locations>
+		
+		<Locations>Barlok</Locations>
+		
+		<Locations>Basilisk</Locations>
+		
+		<Locations>Bassadro</Locations>
+		
+		<Locations>Bastion</Locations>
+		
+		<Locations>Batuu</Locations>
+		
+		<Locations>Bazaar</Locations>
+		
+		<Locations>Begeren</Locations>
+		
+		<Locations>Belasco</Locations>
+		
+		<Locations>Belderone</Locations>
+		
+		<Locations>Belgaroth</Locations>
+		
+		<Locations>Belkadan</Locations>
+		
+		<Locations>Belsavis</Locations>
+		
+		<Locations>Belsmuth</Locations>
+		
+		<Locations>Berrols_Donn</Locations>
+		
+		<Locations>Bescane</Locations>
+		
+		<Locations>Bespin</Locations>
+		
+		<Locations>Bestine</Locations>
+		
+		<Locations>Bilbringi</Locations>
+		
+		<Locations>Bimmiel</Locations>
+		
+		<Locations>Bimmisaari</Locations>
+		
+		<Locations>Bknos</Locations>
+		
+		<Locations>Black_Bantha_Nebula</Locations>
+		
+		<Locations>Bogden</Locations>
+		
+		<Locations>Bogo_Rai</Locations>
+		
+		<Locations>Bomis_Koori</Locations>
+		
+		<Locations>Bompreil</Locations>
+		
+		<Locations>Bonadan</Locations>
+		
+		<Locations>Boonta</Locations>
+		
+		<Locations>Borgo_Prime</Locations>
+		
+		<Locations>Borleias</Locations>
+		
+		<Locations>Bormter</Locations>
+		
+		<Locations>Bormus</Locations>
+		
+		<Locations>Borosk</Locations>
+		
+		<Locations>Botajef</Locations>
+		
+		<Locations>Bothawui</Locations>
+		
+		<Locations>Boz_Pity</Locations>
+		
+		<Locations>Bpfassh</Locations>
+		
+		<Locations>Brentaal</Locations>
+		
+		<Locations>Bresnia</Locations>
+		
+		<Locations>Brigia</Locations>
+		
+		<Locations>Burnin_Konn</Locations>
+		
+		<Locations>Byblos</Locations>
+		
+		<Locations>Byss</Locations>
+		
+		<Locations>Caamas</Locations>
+		
+		<Locations>Cal_Seti</Locations>
+		
+		<Locations>Calonica</Locations>
+		
+		<Locations>Cantonica</Locations>
+		
+		<Locations>Carida</Locations>
+		
+		<Locations>Carosi</Locations>
+		
+		<Locations>Carrivar</Locations>
+		
+		<Locations>Cartao</Locations>
+		
+		<Locations>Casfield</Locations>
+		
+		<Locations>Castell</Locations>
+		
+		<Locations>Cathar</Locations>
+		
+		<Locations>Catlia</Locations>
+		
+		<Locations>Cato_Neimoidia</Locations>
+		
+		<Locations>Cattamascar</Locations>
+		
+		<Locations>Cauldron_Nebula</Locations>
+		
+		<Locations>Cejansij</Locations>
+		
+		<Locations>Celanon</Locations>
+		
+		<Locations>Celwis</Locations>
+		
+		<Locations>Centares</Locations>
+		
+		<Locations>Cerea</Locations>
+		
+		<Locations>Chalcedon</Locations>
+		
+		<Locations>Champala</Locations>
+		
+		<Locations>Chandrila</Locations>
+		
+		<Locations>Chardaan</Locations>
+		
+		<Locations>Charros</Locations>
+		
+		<Locations>Charubah</Locations>
+		
+		<Locations>Chasin</Locations>
+		
+		<Locations>Chazwa</Locations>
+		
+		<Locations>Chorax</Locations>
+		
+		<Locations>Christophsis</Locations>
+		
+		<Locations>Chrondre</Locations>
+		
+		<Locations>Circumtore</Locations>
+		
+		<Locations>Ciutric</Locations>
+		
+		<Locations>Clakdor</Locations>
+		
+		<Locations>Codian_Moon</Locations>
+		
+		<Locations>Colla</Locations>
+		
+		<Locations>Columex</Locations>
+		
+		<Locations>Columus</Locations>
+		
+		<Locations>Comkin</Locations>
+		
+		<Locations>Commenor</Locations>
+		
+		<Locations>Comra</Locations>
+		
+		<Locations>Concord_Dawn</Locations>
+		
+		<Locations>Contruum</Locations>
+		
+		<Locations>Copero</Locations>
+		
+		<Locations>Cophrigin</Locations>
+		
+		<Locations>Corellia</Locations>
+		
+		<Locations>Cormit</Locations>
+		
+		<Locations>Corsin</Locations>
+		
+		<Locations>Corthenia</Locations>
+		
+		<Locations>Corulag</Locations>
+		
+		<Locations>Coruscant</Locations>
+		
+		<Locations>Corvis_Minor</Locations>
+		
+		<Locations>Crakull</Locations>
+		
+		<Locations>Cron_Drift</Locations>
+		
+		<Locations>Crustai</Locations>
+		
+		<Locations>Csaus</Locations>
+		
+		<Locations>Csilla</Locations>
+		
+		<Locations>Cularin</Locations>
+		
+		<Locations>Da_Soocha</Locations>
+		
+		<Locations>Daalang</Locations>
+		
+		<Locations>Dagary_Minor</Locations>
+		
+		<Locations>Dagobah</Locations>
+		
+		<Locations>Dalicron</Locations>
+		
+		<Locations>Dalron</Locations>
+		
+		<Locations>Daluuj</Locations>
+		
+		<Locations>Dantooine</Locations>
+		
+		<Locations>Danuta</Locations>
+		
+		<Locations>Darkon</Locations>
+		
+		<Locations>Darvannis</Locations>
+		
+		<Locations>Datar</Locations>
+		
+		<Locations>Dathomir</Locations>
+		
+		<Locations>Deko_Neimoidia</Locations>
+		
+		<Locations>Delacrix</Locations>
+		
+		<Locations>Dellalt</Locations>
+		
+		<Locations>Dennogra</Locations>
+		
+		<Locations>Denon</Locations>
+		
+		<Locations>Dentaal</Locations>
+		
+		<Locations>Derra</Locations>
+		
+		<Locations>Desevro</Locations>
+		
+		<Locations>Despayre</Locations>
+		
+		<Locations>Devaron</Locations>
+		
+		<Locations>Dioya</Locations>
+		
+		<Locations>Dkee</Locations>
+		
+		<Locations>Dohlban</Locations>
+		
+		<Locations>Dohu</Locations>
+		
+		<Locations>Dolla</Locations>
+		
+		<Locations>Dolomar</Locations>
+		
+		<Locations>Doniphon</Locations>
+		
+		<Locations>Doornik</Locations>
+		
+		<Locations>Dorin</Locations>
+		
+		<Locations>DQar</Locations>
+		
+		<Locations>Dravian_Starport</Locations>
+		
+		<Locations>Dressel</Locations>
+		
+		<Locations>Dromund</Locations>
+		
+		<Locations>Druckenwell</Locations>
+		
+		<Locations>Dubrillion</Locations>
+		
+		<Locations>Durace</Locations>
+		
+		<Locations>Duro</Locations>
+		
+		<Locations>Durren</Locations>
+		
+		<Locations>Dxun</Locations>
+		
+		<Locations>Eadu</Locations>
+		
+		<Locations>Ebaq</Locations>
+		
+		<Locations>Eiattu</Locations>
+		
+		<Locations>Ejolus</Locations>
+		
+		<Locations>Elom</Locations>
+		
+		<Locations>Elrood</Locations>
+		
+		<Locations>Emberlene</Locations>
+		
+		<Locations>Emmer</Locations>
+		
+		<Locations>Empress_Teta</Locations>
+		
+		<Locations>Enarc</Locations>
+		
+		<Locations>Endelaan</Locations>
+		
+		<Locations>Endor</Locations>
+		
+		<Locations>Endor_Gate</Locations>
+		
+		<Locations>Entralla</Locations>
+		
+		<Locations>EolSha</Locations>
+		
+		<Locations>Eredenn</Locations>
+		
+		<Locations>Eres</Locations>
+		
+		<Locations>Eriadu</Locations>
+		
+		<Locations>Esfandia</Locations>
+		
+		<Locations>Eshan</Locations>
+		
+		<Locations>Essien</Locations>
+		
+		<Locations>Ession</Locations>
+		
+		<Locations>Etti</Locations>
+		
+		<Locations>Euceron</Locations>
+		
+		<Locations>Exegol</Locations>
+		
+		<Locations>Exocron</Locations>
+		
+		<Locations>Exodeen</Locations>
+		
+		<Locations>Exodo</Locations>
+		
+		<Locations>Explume_Minor</Locations>
+		
+		<Locations>Falleen</Locations>
+		
+		<Locations>Faras_Belt</Locations>
+		
+		<Locations>Farrfin</Locations>
+		
+		<Locations>Fedalle</Locations>
+		
+		<Locations>Feldrona</Locations>
+		
+		<Locations>Felucia</Locations>
+		
+		<Locations>Fenel</Locations>
+		
+		<Locations>Feriae_Junction</Locations>
+		
+		<Locations>Feswe_Prime</Locations>
+		
+		<Locations>Filve</Locations>
+		
+		<Locations>Flashpoint</Locations>
+		
+		<Locations>Florn</Locations>
+		
+		<Locations>Florrum</Locations>
+		
+		<Locations>Foerost</Locations>
+		
+		<Locations>Foless</Locations>
+		
+		<Locations>Fondor</Locations>
+		
+		<Locations>Formos</Locations>
+		
+		<Locations>Fresia</Locations>
+		
+		<Locations>Frunchettan</Locations>
+		
+		<Locations>Fwsen</Locations>
+		
+		<Locations>Gabredor</Locations>
+		
+		<Locations>Galantos</Locations>
+		
+		<Locations>Galidraan</Locations>
+		
+		<Locations>Gallinore</Locations>
+		
+		<Locations>Gamor</Locations>
+		
+		<Locations>Gamorr</Locations>
+		
+		<Locations>Ganath</Locations>
+		
+		<Locations>Gannaria</Locations>
+		
+		<Locations>Garos</Locations>
+		
+		<Locations>Garqi</Locations>
+		
+		<Locations>Gavryn</Locations>
+		
+		<Locations>Gelgelar</Locations>
+		
+		<Locations>Gendrah_Narvin</Locations>
+		
+		<Locations>Generis</Locations>
+		
+		<Locations>Genon</Locations>
+		
+		<Locations>Geonosis</Locations>
+		
+		<Locations>Geroon</Locations>
+		
+		<Locations>Gerrard</Locations>
+		
+		<Locations>Gestrex</Locations>
+		
+		<Locations>Gestron</Locations>
+		
+		<Locations>Ghorman</Locations>
+		
+		<Locations>Giju</Locations>
+		
+		<Locations>Gizer</Locations>
+		
+		<Locations>Glade</Locations>
+		
+		<Locations>Glee_Anselm</Locations>
+		
+		<Locations>Glom_Tho</Locations>
+		
+		<Locations>Glova</Locations>
+		
+		<Locations>Gobindi</Locations>
+		
+		<Locations>Gravan</Locations>
+		
+		<Locations>Gravlex_Med</Locations>
+		
+		<Locations>Gree</Locations>
+		
+		<Locations>Grho</Locations>
+		
+		<Locations>Gwori</Locations>
+		
+		<Locations>Gymelo</Locations>
+		
+		<Locations>Gyndine</Locations>
+		
+		<Locations>Had_Abbadon</Locations>
+		
+		<Locations>Hakassi</Locations>
+		
+		<Locations>Halanit</Locations>
+		
+		<Locations>Halmad</Locations>
+		
+		<Locations>Halthor</Locations>
+		
+		<Locations>Handooine</Locations>
+		
+		<Locations>Hapes</Locations>
+		
+		<Locations>Haruun_Kal</Locations>
+		
+		<Locations>Hast</Locations>
+		
+		<Locations>Helska</Locations>
+		
+		<Locations>Herdessa</Locations>
+		
+		<Locations>Hewett</Locations>
+		
+		<Locations>Hijarna</Locations>
+		
+		<Locations>Hinakuu</Locations>
+		
+		<Locations>Hollastin</Locations>
+		
+		<Locations>Honoghr</Locations>
+		
+		<Locations>Hosnian_Prime</Locations>
+		
+		<Locations>Hoth</Locations>
+		
+		<Locations>Hoxim</Locations>
+		
+		<Locations>Hratth</Locations>
+		
+		<Locations>Huk</Locations>
+		
+		<Locations>Humbarine</Locations>
+		
+		<Locations>Humbarine_Bombarded</Locations>
+		
+		<Locations>Hypori</Locations>
+		
+		<Locations>Iego</Locations>
+		
+		<Locations>Iktotch</Locations>
+		
+		<Locations>Ilum</Locations>
+		
+		<Locations>Immalia</Locations>
+		
+		<Locations>Iokath</Locations>
+		
+		<Locations>Iol</Locations>
+		
+		<Locations>Iphigin</Locations>
+		
+		<Locations>Iridonia</Locations>
+		
+		<Locations>Iskadrell</Locations>
+		
+		<Locations>Ithor</Locations>
+		
+		<Locations>Ixtlar</Locations>
+		
+		<Locations>Jabiim</Locations>
+		
+		<Locations>Jaemus</Locations>
+		
+		<Locations>Jagas_Cluster</Locations>
+		
+		<Locations>Jakku</Locations>
+		
+		<Locations>Jaminere</Locations>
+		
+		<Locations>Jardeen</Locations>
+		
+		<Locations>Jazbina</Locations>
+		
+		<Locations>Jebble</Locations>
+		
+		<Locations>Jedha</Locations>
+		
+		<Locations>Jestan</Locations>
+		
+		<Locations>Jomark</Locations>
+		
+		<Locations>Jtptan</Locations>
+		
+		<Locations>Kaal</Locations>
+		
+		<Locations>Kabal</Locations>
+		
+		<Locations>Kadavo</Locations>
+		
+		<Locations>Kafrene</Locations>
+		
+		<Locations>Kaikielius</Locations>
+		
+		<Locations>Kalaan</Locations>
+		
+		<Locations>Kalarba</Locations>
+		
+		<Locations>Kalee</Locations>
+		
+		<Locations>Kaliida_Nebula</Locations>
+		
+		<Locations>Kalist</Locations>
+		
+		<Locations>Kalla</Locations>
+		
+		<Locations>Kamino</Locations>
+		
+		<Locations>Kammia</Locations>
+		
+		<Locations>Kampe</Locations>
+		
+		<Locations>Karavis</Locations>
+		
+		<Locations>Kariek</Locations>
+		
+		<Locations>Kashyyyk</Locations>
+		
+		<Locations>Katana_Space</Locations>
+		
+		<Locations>Katarr</Locations>
+		
+		<Locations>Kattada</Locations>
+		
+		<Locations>Kauron</Locations>
+		
+		<Locations>Kayri</Locations>
+		
+		<Locations>Kem_Stor_Ai</Locations>
+		
+		<Locations>Kerkoidia</Locations>
+		
+		<Locations>Kesh</Locations>
+		
+		<Locations>Keskin</Locations>
+		
+		<Locations>Kessel</Locations>
+		
+		<Locations>Ketal</Locations>
+		
+		<Locations>Ketaris</Locations>
+		
+		<Locations>Khar_Delba</Locations>
+		
+		<Locations>Khomm</Locations>
+		
+		<Locations>Kile</Locations>
+		
+		<Locations>Kilji</Locations>
+		
+		<Locations>Kinoss</Locations>
+		
+		<Locations>Kinyen</Locations>
+		
+		<Locations>Kip</Locations>
+		
+		<Locations>Kira</Locations>
+		
+		<Locations>Kirdo</Locations>
+		
+		<Locations>Kirima</Locations>
+		
+		<Locations>Klatooine</Locations>
+		
+		<Locations>Koda_Station</Locations>
+		
+		<Locations>Kooriva</Locations>
+		
+		<Locations>Korda</Locations>
+		
+		<Locations>Korriban</Locations>
+		
+		<Locations>Koru_Neimoidia</Locations>
+		
+		<Locations>Kostra</Locations>
+		
+		<Locations>Kothlis</Locations>
+		
+		<Locations>Krant</Locations>
+		
+		<Locations>Kriselist</Locations>
+		
+		<Locations>Kuar</Locations>
+		
+		<Locations>Kuat</Locations>
+		
+		<Locations>Kwenn</Locations>
+		
+		<Locations>Laakteen</Locations>
+		
+		<Locations>Lakra</Locations>
+		
+		<Locations>Lannik</Locations>
+		
+		<Locations>Lantillies</Locations>
+		
+		<Locations>Latharra</Locations>
+		
+		<Locations>Leritor</Locations>
+		
+		<Locations>Levian</Locations>
+		
+		<Locations>Lianna</Locations>
+		
+		<Locations>Liinade</Locations>
+		
+		<Locations>Lioan</Locations>
+		
+		<Locations>Lizil</Locations>
+		
+		<Locations>Llanic</Locations>
+		
+		<Locations>Loedorvia</Locations>
+		
+		<Locations>Lok</Locations>
+		
+		<Locations>Lola_Sayu</Locations>
+		
+		<Locations>Lonnaw</Locations>
+		
+		<Locations>Loronar</Locations>
+		
+		<Locations>Lorrd</Locations>
+		
+		<Locations>Lothal</Locations>
+		
+		<Locations>Lown</Locations>
+		
+		<Locations>Lucazec</Locations>
+		
+		<Locations>Lur</Locations>
+		
+		<Locations>Lwhekk</Locations>
+		
+		<Locations>Lyran</Locations>
+		
+		<Locations>M293</Locations>
+		
+		<Locations>M4_78</Locations>
+		
+		<Locations>Makatak</Locations>
+		
+		<Locations>Makeb</Locations>
+		
+		<Locations>Makem_Te</Locations>
+		
+		<Locations>Malachor</Locations>
+		
+		<Locations>Malastare</Locations>
+		
+		<Locations>Maldra</Locations>
+		
+		<Locations>Manaan</Locations>
+		
+		<Locations>Manda</Locations>
+		
+		<Locations>Mandallia</Locations>
+		
+		<Locations>Mandalore</Locations>
+		
+		<Locations>Mardona</Locations>
+		
+		<Locations>Maridun</Locations>
+		
+		<Locations>Maryo</Locations>
+		
+		<Locations>Massoss</Locations>
+		
+		<Locations>Mataou</Locations>
+		
+		<Locations>Mechis</Locations>
+		
+		<Locations>Mendig</Locations>
+		
+		<Locations>Mephout</Locations>
+		
+		<Locations>Metalorn</Locations>
+		
+		<Locations>Metellos</Locations>
+		
+		<Locations>Mhaeli</Locations>
+		
+		<Locations>Milagro</Locations>
+		
+		<Locations>Mimban</Locations>
+		
+		<Locations>Mindor</Locations>
+		
+		<Locations>Minntooine</Locations>
+		
+		<Locations>Mirial</Locations>
+		
+		<Locations>Miztoc</Locations>
+		
+		<Locations>Mon_Calamari</Locations>
+		
+		<Locations>Mon_Gazza</Locations>
+		
+		<Locations>Monastery</Locations>
+		
+		<Locations>Moonus_Mandel</Locations>
+		
+		<Locations>Moorja</Locations>
+		
+		<Locations>Morishim</Locations>
+		
+		<Locations>Movris</Locations>
+		
+		<Locations>Mrisst</Locations>
+		
+		<Locations>Mrlsst</Locations>
+		
+		<Locations>Mulatan</Locations>
+		
+		<Locations>Mullan</Locations>
+		
+		<Locations>Munlali_Mafir</Locations>
+		
+		<Locations>Murgo</Locations>
+		
+		<Locations>Murkhana</Locations>
+		
+		<Locations>Mustafar</Locations>
+		
+		<Locations>Muunilinst</Locations>
+		
+		<Locations>Mygeeto</Locations>
+		
+		<Locations>Myrkr</Locations>
+		
+		<Locations>Mytus</Locations>
+		
+		<Locations>Naboo</Locations>
+		
+		<Locations>Nadiri</Locations>
+		
+		<Locations>Nal_Hutta</Locations>
+		
+		<Locations>Nam_Chorios</Locations>
+		
+		<Locations>Naos</Locations>
+		
+		<Locations>Naporar</Locations>
+		
+		<Locations>Nar_Haaska</Locations>
+		
+		<Locations>Nar_Hekka</Locations>
+		
+		<Locations>Nar_Kaaga</Locations>
+		
+		<Locations>Nar_Shaddaa</Locations>
+		
+		<Locations>Nath_Goordi</Locations>
+		
+		<Locations>Nathema</Locations>
+		
+		<Locations>Nazzri</Locations>
+		
+		<Locations>Neimoidia</Locations>
+		
+		<Locations>Nelvaan</Locations>
+		
+		<Locations>Nentan</Locations>
+		
+		<Locations>Nespis</Locations>
+		
+		<Locations>Nettehi</Locations>
+		
+		<Locations>New_Alderaan</Locations>
+		
+		<Locations>New_Bornalex</Locations>
+		
+		<Locations>New_Cov</Locations>
+		
+		<Locations>New_Heurkea</Locations>
+		
+		<Locations>New_Plympto</Locations>
+		
+		<Locations>Nexus_Ortai</Locations>
+		
+		<Locations>Nez_Peron</Locations>
+		
+		<Locations>Nihil</Locations>
+		
+		<Locations>Nimban</Locations>
+		
+		<Locations>Nirauan</Locations>
+		
+		<Locations>Nixor</Locations>
+		
+		<Locations>Nkllon</Locations>
+		
+		<Locations>Nocto</Locations>
+		
+		<Locations>Noonar</Locations>
+		
+		<Locations>Noquivzor</Locations>
+		
+		<Locations>Nouane</Locations>
+		
+		<Locations>Nubia</Locations>
+		
+		<Locations>Nulan</Locations>
+		
+		<Locations>Null_Zone</Locations>
+		
+		<Locations>Nzoth</Locations>
+		
+		<Locations>Oba_Diah</Locations>
+		
+		<Locations>Obredaan</Locations>
+		
+		<Locations>Obroa_Skai</Locations>
+		
+		<Locations>Obulette</Locations>
+		
+		<Locations>Odik</Locations>
+		
+		<Locations>Odryn</Locations>
+		
+		<Locations>Ojom</Locations>
+		
+		<Locations>Omonoth</Locations>
+		
+		<Locations>Onderon</Locations>
+		
+		<Locations>Ord_Biniir</Locations>
+		
+		<Locations>Ord_Cantrell</Locations>
+		
+		<Locations>Ord_Cestus</Locations>
+		
+		<Locations>Ord_Mantell</Locations>
+		
+		<Locations>Ord_Pardron</Locations>
+		
+		<Locations>Ord_Radama</Locations>
+		
+		<Locations>Ord_Tiddell</Locations>
+		
+		<Locations>Ord_Trasi</Locations>
+		
+		<Locations>Ord_Vaug</Locations>
+		
+		<Locations>Ordo</Locations>
+		
+		<Locations>Oreen</Locations>
+		
+		<Locations>Orinda</Locations>
+		
+		<Locations>Orion</Locations>
+		
+		<Locations>Oristrom</Locations>
+		
+		<Locations>Orleon</Locations>
+		
+		<Locations>Orocco</Locations>
+		
+		<Locations>Orron</Locations>
+		
+		<Locations>Oslumpex</Locations>
+		
+		<Locations>Osseriton</Locations>
+		
+		<Locations>Ossus</Locations>
+		
+		<Locations>Paarin_Minor</Locations>
+		
+		<Locations>Pako_Ramoon</Locations>
+		
+		<Locations>Pakrik_Minor</Locations>
+		
+		<Locations>Palanhi</Locations>
+		
+		<Locations>Pallaxides</Locations>
+		
+		<Locations>Pammant</Locations>
+		
+		<Locations>Pantolomin</Locations>
+		
+		<Locations>Pantora</Locations>
+		
+		<Locations>Parnassos</Locations>
+		
+		<Locations>Pashvi</Locations>
+		
+		<Locations>Peg_Shar</Locations>
+		
+		<Locations>Pelagon</Locations>
+		
+		<Locations>Peragus</Locations>
+		
+		<Locations>Perann_Nebula</Locations>
+		
+		<Locations>Peregrine</Locations>
+		
+		<Locations>Pesfavri</Locations>
+		
+		<Locations>Pesitiin</Locations>
+		
+		<Locations>Phaeda</Locations>
+		
+		<Locations>Phindar</Locations>
+		
+		<Locations>Pleknok</Locations>
+		
+		<Locations>Poderis</Locations>
+		
+		<Locations>Polis_Massa</Locations>
+		
+		<Locations>Poln_Major</Locations>
+		
+		<Locations>Polneye</Locations>
+		
+		<Locations>Polus</Locations>
+		
+		<Locations>Porchello</Locations>
+		
+		<Locations>Porus_Vida</Locations>
+		
+		<Locations>Poseidenna</Locations>
+		
+		<Locations>Praadost</Locations>
+		
+		<Locations>Praesitlyn</Locations>
+		
+		<Locations>Prakith</Locations>
+		
+		<Locations>Prefsbelt</Locations>
+		
+		<Locations>Prildaz</Locations>
+		
+		<Locations>Primea</Locations>
+		
+		<Locations>Qat_Chrystac</Locations>
+		
+		<Locations>Qiilura</Locations>
+		
+		<Locations>Qoribu</Locations>
+		
+		<Locations>Qretu</Locations>
+		
+		<Locations>Quelii</Locations>
+		
+		<Locations>Quell</Locations>
+		
+		<Locations>Quellor</Locations>
+		
+		<Locations>Quermia</Locations>
+		
+		<Locations>Quesh</Locations>
+		
+		<Locations>Quethold</Locations>
+		
+		<Locations>Ragmar</Locations>
+		
+		<Locations>Rago</Locations>
+		
+		<Locations>Rakata</Locations>
+		
+		<Locations>Ralltiir</Locations>
+		
+		<Locations>Randon</Locations>
+		
+		<Locations>Rapacc</Locations>
+		
+		<Locations>Rattatak</Locations>
+		
+		<Locations>Raxus</Locations>
+		
+		<Locations>Raxus_Second</Locations>
+		
+		<Locations>Rduba</Locations>
+		
+		<Locations>Reecee</Locations>
+		
+		<Locations>Rekkiad</Locations>
+		
+		<Locations>Relephon</Locations>
+		
+		<Locations>Rendili</Locations>
+		
+		<Locations>Rennek</Locations>
+		
+		<Locations>Rett</Locations>
+		
+		<Locations>Rhand</Locations>
+		
+		<Locations>Rhelg</Locations>
+		
+		<Locations>Rhen_Var</Locations>
+		
+		<Locations>Rhigar</Locations>
+		
+		<Locations>Rhommamool</Locations>
+		
+		<Locations>Riette</Locations>
+		
+		<Locations>Riflor</Locations>
+		
+		<Locations>Ringneldia</Locations>
+		
+		<Locations>Ringo_Vinda</Locations>
+		
+		<Locations>Rintonne</Locations>
+		
+		<Locations>Rion</Locations>
+		
+		<Locations>Rishi</Locations>
+		
+		<Locations>Roche</Locations>
+		
+		<Locations>Rodia</Locations>
+		
+		<Locations>Romin</Locations>
+		
+		<Locations>Ronyards</Locations>
+		
+		<Locations>Roqoo</Locations>
+		
+		<Locations>Rothana</Locations>
+		
+		<Locations>Roxuli</Locations>
+		
+		<Locations>Rudrig</Locations>
+		
+		<Locations>Rugosa</Locations>
+		
+		<Locations>Ruhe</Locations>
+		
+		<Locations>Ruuria</Locations>
+		
+		<Locations>Ruusan</Locations>
+		
+		<Locations>Ryloth</Locations>
+		
+		<Locations>Ryndellia</Locations>
+		
+		<Locations>Ryvester</Locations>
+		
+		<Locations>Ryyk_Nebula</Locations>
+		
+		<Locations>RZ7</Locations>
+		
+		<Locations>Sacorria</Locations>
+		
+		<Locations>Saffalore</Locations>
+		
+		<Locations>Sagma</Locations>
+		
+		<Locations>Saijo</Locations>
+		
+		<Locations>Saleucami</Locations>
+		
+		<Locations>Salvara</Locations>
+		
+		<Locations>Sanbra</Locations>
+		
+		<Locations>Sanjin</Locations>
+		
+		<Locations>Sanrafsix</Locations>
+		
+		<Locations>Sarapin</Locations>
+		
+		<Locations>Sarko</Locations>
+		
+		<Locations>Sarm</Locations>
+		
+		<Locations>Sarrish</Locations>
+		
+		<Locations>Sarvchi</Locations>
+		
+		<Locations>Scarif</Locations>
+		
+		<Locations>Scarl</Locations>
+		
+		<Locations>Schesa</Locations>
+		
+		<Locations>Scipio</Locations>
+		
+		<Locations>Selaggis</Locations>
+		
+		<Locations>Sellasas</Locations>
+		
+		<Locations>Sepan</Locations>
+		
+		<Locations>Serenno</Locations>
+		
+		<Locations>Sernpidal</Locations>
+		
+		<Locations>Serroco</Locations>
+		
+		<Locations>Seylott</Locations>
+		
+		<Locations>Shadren</Locations>
+		
+		<Locations>Shaylin</Locations>
+		
+		<Locations>Shedu_Maad</Locations>
+		
+		<Locations>Shili</Locations>
+		
+		<Locations>Shogun</Locations>
+		
+		<Locations>Shola</Locations>
+		
+		<Locations>Shree</Locations>
+		
+		<Locations>Sifkric</Locations>
+		
+		<Locations>Sikurd</Locations>
+		
+		<Locations>Siskeen</Locations>
+		
+		<Locations>Skako</Locations>
+		
+		<Locations>Skye</Locations>
+		
+		<Locations>Sleheyron</Locations>
+		
+		<Locations>Sluis_Van</Locations>
+		
+		<Locations>Snevu</Locations>
+		
+		<Locations>Solaest</Locations>
+		
+		<Locations>Solem</Locations>
+		
+		<Locations>Solitair</Locations>
+		
+		<Locations>Sriluur</Locations>
+		
+		<Locations>Stenos</Locations>
+		
+		<Locations>Stivic</Locations>
+		
+		<Locations>Storinal</Locations>
+		
+		<Locations>Sullust</Locations>
+		
+		<Locations>Sunrise</Locations>
+		
+		<Locations>Surron</Locations>
+		
+		<Locations>Suurja</Locations>
+		
+		<Locations>Svivren</Locations>
+		
+		<Locations>Sy_Myrth</Locations>
+		
+		<Locations>Syca</Locations>
+		
+		<Locations>Syned</Locations>
+		
+		<Locations>Syni</Locations>
+		
+		<Locations>Taanab</Locations>
+		
+		<Locations>Talasea</Locations>
+		
+		<Locations>Talay</Locations>
+		
+		<Locations>Talcene</Locations>
+		
+		<Locations>Talfaglio</Locations>
+		
+		<Locations>Talhovi</Locations>
+		
+		<Locations>Taloraan</Locations>
+		
+		<Locations>Talus_Tralus</Locations>
+		
+		<Locations>Tangrene</Locations>
+		
+		<Locations>Tar_Morden</Locations>
+		
+		<Locations>Taral_V</Locations>
+		
+		<Locations>Taris</Locations>
+		
+		<Locations>Tarnith</Locations>
+		
+		<Locations>Tartaglia</Locations>
+		
+		<Locations>Taskeed</Locations>
+		
+		<Locations>Tatooine</Locations>
+		
+		<Locations>Telerath</Locations>
+		
+		<Locations>Tellanroaeg</Locations>
+		
+		<Locations>Telos</Locations>
+		
+		<Locations>Telti</Locations>
+		
+		<Locations>Tenupe</Locations>
+		
+		<Locations>Tepasi</Locations>
+		
+		<Locations>Teptixii</Locations>
+		
+		<Locations>Terephon</Locations>
+		
+		<Locations>Teth</Locations>
+		
+		<Locations>Teya</Locations>
+		
+		<Locations>Thanos</Locations>
+		
+		<Locations>The_Maw</Locations>
+		
+		<Locations>The_Prism</Locations>
+		
+		<Locations>The_Redoubt</Locations>
+		
+		<Locations>The_Wheel</Locations>
+		
+		<Locations>Thila</Locations>
+		
+		<Locations>Thomork</Locations>
+		
+		<Locations>ThonBoka</Locations>
+		
+		<Locations>Thrago</Locations>
+		
+		<Locations>Thule</Locations>
+		
+		<Locations>Thustra</Locations>
+		
+		<Locations>Thyferra</Locations>
+		
+		<Locations>Thyrsus</Locations>
+		
+		<Locations>Tibrin</Locations>
+		
+		<Locations>Timora</Locations>
+		
+		<Locations>Tingel_Deepspace_Besh</Locations>
+		
+		<Locations>Tisssharl</Locations>
+		
+		<Locations>Togoria</Locations>
+		
+		<Locations>Tol_Amn</Locations>
+		
+		<Locations>Tolan</Locations>
+		
+		<Locations>Ton_Falk</Locations>
+		
+		<Locations>Toola</Locations>
+		
+		<Locations>Toprawa</Locations>
+		
+		<Locations>Tosste</Locations>
+		
+		<Locations>Toydaria</Locations>
+		
+		<Locations>Trandosha</Locations>
+		
+		<Locations>Transitory_Mists_I</Locations>
+		
+		<Locations>Transitory_Mists_II</Locations>
+		
+		<Locations>Transitory_Mists_III</Locations>
+		
+		<Locations>Traval_Pacor</Locations>
+		
+		<Locations>Trian</Locations>
+		
+		<Locations>Triton</Locations>
+		
+		<Locations>Troukree</Locations>
+		
+		<Locations>Trulalis</Locations>
+		
+		<Locations>Tsoss</Locations>
+		
+		<Locations>Tulpaa</Locations>
+		
+		<Locations>Tund</Locations>
+		
+		<Locations>Turak</Locations>
+		
+		<Locations>Turcan</Locations>
+		
+		<Locations>Turkana</Locations>
+		
+		<Locations>Tuskens_Eye</Locations>
+		
+		<Locations>Twilight_Void</Locations>
+		
+		<Locations>Tyan</Locations>
+		
+		<Locations>Tynna</Locations>
+		
+		<Locations>Tythe</Locations>
+		
+		<Locations>Tython</Locations>
+		
+		<Locations>Ubrikkia</Locations>
+		
+		<Locations>Udray</Locations>
+		
+		<Locations>Ukio</Locations>
+		
+		<Locations>Ulda_Frav</Locations>
+		
+		<Locations>Ulicia</Locations>
+		
+		<Locations>Umarenk</Locations>
+		
+		<Locations>Umbara</Locations>
+		
+		<Locations>Urch</Locations>
+		
+		<Locations>Utapau</Locations>
+		
+		<Locations>Utegetu_Nebula</Locations>
+		
+		<Locations>Vagar_Praxut</Locations>
+		
+		<Locations>Vaklin</Locations>
+		
+		<Locations>Valahari</Locations>
+		
+		<Locations>Valc</Locations>
+		
+		<Locations>Vanquo</Locations>
+		
+		<Locations>Varada</Locations>
+		
+		<Locations>Vassek</Locations>
+		
+		<Locations>Veccacopia</Locations>
+		
+		<Locations>Vena</Locations>
+		
+		<Locations>Vento</Locations>
+		
+		<Locations>Verdanth</Locations>
+		
+		<Locations>Vergesso</Locations>
+		
+		<Locations>Veroleem</Locations>
+		
+		<Locations>Vicondor</Locations>
+		
+		<Locations>Vjun</Locations>
+		
+		<Locations>Volik</Locations>
+		
+		<Locations>Vondarc</Locations>
+		
+		<Locations>Vorpaya</Locations>
+		
+		<Locations>Vortex</Locations>
+		
+		<Locations>Vorzyd</Locations>
+		
+		<Locations>Vrosynri</Locations>
+		
+		<Locations>Vulpter</Locations>
+		
+		<Locations>Vulta</Locations>
+		
+		<Locations>VunHanna</Locations>
+		
+		<Locations>Vurdon_Ka</Locations>
+		
+		<Locations>Walinor</Locations>
+		
+		<Locations>Wayland</Locations>
+		
+		<Locations>Wistril</Locations>
+		
+		<Locations>Woostri</Locations>
+		
+		<Locations>Woteba</Locations>
+		
+		<Locations>Wroona</Locations>
+		
+		<Locations>Wurrif</Locations>
+		
+		<Locations>Xa_Fel</Locations>
+		
+		<Locations>Xagobah</Locations>
+		
+		<Locations>Xeron</Locations>
+		
+		<Locations>Xo</Locations>
+		
+		<Locations>Xolu</Locations>
+		
+		<Locations>Xuaquarres</Locations>
+		
+		<Locations>Yaga_Minor</Locations>
+		
+		<Locations>YagDhul</Locations>
+		
+		<Locations>Yashuvhu</Locations>
+		
+		<Locations>Yavin</Locations>
+		
+		<Locations>Yinchorr</Locations>
+		
+		<Locations>Ylesia</Locations>
+		
+		<Locations>Yoggoy</Locations>
+		
+		<Locations>Zaddja</Locations>
+		
+		<Locations>Zakuul</Locations>
+		
+		<Locations>Zanbar</Locations>
+		
+		<Locations>Zeltros</Locations>
+		
+		<Locations>Zfell</Locations>
+		
+		<Locations>Ziost</Locations>
+		
+		<Locations>Zolan</Locations>
+		
+		<Locations>Zonama</Locations>
+		
+		<Locations>Zonama_30BBY</Locations>
+		
+		<Locations>Zongorlu</Locations>
+		
+		<Locations>Zosha</Locations>
+		
+		<Locations>Zygerria</Locations>
+		
+		<Locations>Zyzek</Locations>
+
+		<Locations>Maramere</Locations>
+		
+		<Locations>Ohma_Dun</Locations>
+		
+		<Locations>Axion</Locations>
+		
+
+		<Trade_Routes>
+		</Trade_Routes> 
+
+        <Home_Location> Rebel, Mon_Calamari </Home_Location>
+        <Home_Location> Empire, Coruscant </Home_Location>
+        
+        <Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Rebel_Story_Name></Rebel_Story_Name>
+        <Empire_Story_Name></Empire_Story_Name>
+        
+		<AI_Player_Control> Empire, SkynetAI </AI_Player_Control>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel, 900 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire, 900 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		
+		<Starting_Forces> Rebel, Aargau, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Aargau, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Aargonar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Aargonar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Abeloth_World, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Abeloth_World, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Abhean, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Abhean, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Abregado_Rae, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Abregado_Rae, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Abridon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Abridon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Abyss, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Abyss, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Adumar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Adumar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Aefao, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Aefao, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Aeten, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Aeten, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Agamar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Agamar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Agomar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Agomar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Aguarl, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Aguarl, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Aikhibba, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Aikhibba, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ailon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ailon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Akuria, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Akuria, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Alagon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Alagon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Alaris, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Alaris, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Alashan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Alashan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Alderaan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Alderaan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Alderaan_Graveyard, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Alderaan_Graveyard, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Aleen, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Aleen, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Allanteen, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Allanteen, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Allyuen, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Allyuen, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Almania, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Almania, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Alpheridies, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Alpheridies, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Alsakan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Alsakan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Althir, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Althir, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Alzoc, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Alzoc, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ambria, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ambria, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Anaxes, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Andara, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Andara, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ando, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ando, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ando_Prime, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ando_Prime, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Annaj, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Annaj, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Anoat, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Anoat, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ansion, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ansion, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Antar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Antemeridias, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Antemeridias, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Anx_Minor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Anx_Minor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Arda, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Arda, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ardis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ardis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Argazda, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Argazda, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Argovia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Argovia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Argul, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Argul, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Arkania, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Arkania, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Aruza, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Aruza, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Atchorb, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Atchorb, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Athiss, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Athiss, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Atravis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Atravis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Attahox, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Attahox, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Aturi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Aturi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Atzerri, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Atzerri, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, AX456, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, AX456, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Axxila, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Axxila, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Azure, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Azure, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bacrana, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bacrana, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bajic, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bajic, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bakura, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bakura, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Balamak, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Balamak, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Balmorra, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Balmorra, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bandomeer, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bandomeer, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bannistar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bannistar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Barab, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Barab, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bardram_Scoft, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bardram_Scoft, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Barkhesh, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Barkhesh, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Barlok, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Barlok, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Basilisk, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Basilisk, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bassadro, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bassadro, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bastion, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bastion, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Batuu, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Batuu, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bazaar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bazaar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Begeren, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Begeren, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Belasco, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Belasco, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Belderone, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Belderone, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Belgaroth, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Belgaroth, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Belkadan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Belkadan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Belsavis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Belsavis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Belsmuth, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Belsmuth, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Berrols_Donn, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Berrols_Donn, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bescane, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bescane, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bespin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bespin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bestine, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bilbringi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bilbringi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bimmiel, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bimmiel, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bimmisaari, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bimmisaari, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bknos, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bknos, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Black_Bantha_Nebula, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Black_Bantha_Nebula, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bogden, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bogden, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bogo_Rai, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bogo_Rai, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bomis_Koori, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bomis_Koori, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bompreil, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bompreil, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bonadan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bonadan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Boonta, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Boonta, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Borgo_Prime, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Borgo_Prime, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Borleias, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Borleias, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bormter, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bormter, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bormus, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bormus, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Borosk, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Borosk, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Botajef, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Botajef, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bothawui, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bothawui, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Boz_Pity, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Boz_Pity, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bpfassh, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bpfassh, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Brentaal, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Brentaal, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bresnia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Bresnia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Brigia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Brigia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Burnin_Konn, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Burnin_Konn, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Byblos, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Byblos, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Byss, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Byss, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Caamas, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Caamas, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Cal_Seti, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Cal_Seti, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Calonica, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Calonica, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Cantonica, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Cantonica, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Carida, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Carosi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Carosi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Carrivar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Carrivar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Cartao, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Cartao, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Casfield, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Casfield, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Castell, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Castell, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Cathar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Cathar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Catlia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Catlia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Cato_Neimoidia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Cato_Neimoidia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Cattamascar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Cattamascar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Cauldron_Nebula, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Cauldron_Nebula, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Cejansij, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Cejansij, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Celanon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Celanon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Celwis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Celwis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Centares, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Centares, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Cerea, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Cerea, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Chalcedon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Chalcedon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Champala, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Champala, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Chandrila, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Chandrila, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Chardaan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Chardaan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Charros, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Charros, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Charubah, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Charubah, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Chasin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Chasin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Chazwa, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Chazwa, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Chorax, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Chorax, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Christophsis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Chrondre, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Chrondre, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Circumtore, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Circumtore, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ciutric, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ciutric, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Clakdor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Clakdor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Codian_Moon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Codian_Moon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Colla, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Colla, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Columex, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Columex, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Columus, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Columus, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Comkin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Comkin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Commenor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Commenor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Comra, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Comra, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Concord_Dawn, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Concord_Dawn, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Contruum, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Contruum, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Copero, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Copero, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Cophrigin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Cophrigin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Corellia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Corellia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Cormit, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Cormit, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Corsin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Corsin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Corthenia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Corthenia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Corulag, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Corulag, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Coruscant, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Corvis_Minor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Corvis_Minor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Crakull, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Crakull, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Cron_Drift, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Cron_Drift, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Crustai, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Crustai, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Csaus, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Csaus, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Csilla, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Csilla, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Cularin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Cularin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Da_Soocha, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Da_Soocha, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Daalang, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Daalang, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dagary_Minor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dagary_Minor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dagobah, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dagobah, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dalicron, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dalicron, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dalron, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dalron, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Daluuj, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Daluuj, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dantooine, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dantooine, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Danuta, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Danuta, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Darkon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Darkon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Darvannis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Darvannis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Datar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Datar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dathomir, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dathomir, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Deko_Neimoidia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Deko_Neimoidia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Delacrix, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Delacrix, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dellalt, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dellalt, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dennogra, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dennogra, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Denon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Denon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dentaal, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dentaal, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Derra, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Derra, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Desevro, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Desevro, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Despayre, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Despayre, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Devaron, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Devaron, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dioya, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dioya, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dkee, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dkee, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dohlban, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dohlban, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dohu, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dohu, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dolla, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dolla, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dolomar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dolomar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Doniphon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Doniphon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Doornik, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Doornik, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dorin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dorin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, DQar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, DQar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dravian_Starport, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dravian_Starport, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dressel, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dressel, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dromund, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dromund, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Druckenwell, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Druckenwell, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dubrillion, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dubrillion, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Durace, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Durace, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Duro, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Duro, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Durren, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Durren, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dxun, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Dxun, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Eadu, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Eadu, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ebaq, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ebaq, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Eiattu, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Eiattu, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ejolus, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ejolus, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Elom, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Elom, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Elrood, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Elrood, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Emberlene, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Emberlene, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Emmer, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Emmer, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Empress_Teta, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Empress_Teta, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Enarc, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Enarc, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Endelaan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Endelaan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Endor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Endor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Endor_Gate, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Endor_Gate, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Entralla, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Entralla, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, EolSha, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, EolSha, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Eredenn, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Eredenn, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Eres, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Eres, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Eriadu, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Esfandia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Esfandia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Eshan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Eshan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Essien, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Essien, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ession, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ession, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Etti, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Etti, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Euceron, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Euceron, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Exegol, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Exegol, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Exocron, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Exocron, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Exodeen, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Exodeen, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Exodo, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Exodo, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Explume_Minor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Explume_Minor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Falleen, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Falleen, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Faras_Belt, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Faras_Belt, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Farrfin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Farrfin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Fedalle, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Fedalle, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Feldrona, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Feldrona, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Felucia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Felucia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Fenel, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Fenel, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Feriae_Junction, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Feriae_Junction, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Feswe_Prime, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Feswe_Prime, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Filve, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Filve, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Flashpoint, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Flashpoint, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Florn, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Florn, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Florrum, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Florrum, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Foerost, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Foerost, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Foless, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Foless, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Fondor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Fondor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Formos, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Formos, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Fresia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Fresia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Frunchettan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Frunchettan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Fwsen, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Fwsen, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gabredor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gabredor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Galantos, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Galantos, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Galidraan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Galidraan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gallinore, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gallinore, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gamor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gamor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gamorr, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gamorr, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ganath, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ganath, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gannaria, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gannaria, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Garos, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Garos, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Garqi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Garqi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gavryn, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gavryn, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gelgelar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gelgelar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gendrah_Narvin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gendrah_Narvin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Generis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Generis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Genon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Genon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Geonosis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Geonosis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Geroon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Geroon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gerrard, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gerrard, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gestrex, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gestrex, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gestron, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gestron, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ghorman, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ghorman, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Giju, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Giju, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gizer, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gizer, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Glade, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Glade, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Glee_Anselm, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Glee_Anselm, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Glom_Tho, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Glom_Tho, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Glova, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Glova, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gobindi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gobindi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gravan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gravan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gravlex_Med, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gravlex_Med, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gree, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gree, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Grho, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Grho, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gwori, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gwori, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gymelo, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gymelo, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Gyndine, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Gyndine, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Had_Abbadon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Had_Abbadon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hakassi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Hakassi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Halanit, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Halanit, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Halmad, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Halmad, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Halthor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Halthor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Handooine, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Handooine, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hapes, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Hapes, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Haruun_Kal, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Haruun_Kal, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hast, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Hast, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Helska, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Helska, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Herdessa, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Herdessa, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hewett, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Hewett, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hijarna, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Hijarna, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hinakuu, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Hinakuu, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hollastin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Hollastin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Honoghr, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Honoghr, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hosnian_Prime, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Hosnian_Prime, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hoth, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Hoth, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hoxim, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Hoxim, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hratth, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Hratth, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Huk, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Huk, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Humbarine, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Humbarine, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Humbarine_Bombarded, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Humbarine_Bombarded, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hypori, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Hypori, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Iego, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Iego, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Iktotch, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Iktotch, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ilum, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Immalia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Immalia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Iokath, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Iokath, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Iol, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Iol, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Iphigin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Iphigin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Iridonia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Iridonia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Iskadrell, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Iskadrell, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ithor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ithor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ixtlar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ixtlar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Jabiim, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Jabiim, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Jaemus, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Jaemus, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Jagas_Cluster, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Jagas_Cluster, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Jakku, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Jakku, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Jaminere, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Jaminere, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Jardeen, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Jardeen, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Jazbina, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Jazbina, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Jebble, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Jebble, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Jedha, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Jedha, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Jestan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Jestan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Jomark, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Jomark, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Jtptan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Jtptan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kaal, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kaal, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kabal, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kabal, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kadavo, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kadavo, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kafrene, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kafrene, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kaikielius, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kaikielius, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kalaan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kalaan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kalarba, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kalarba, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kalee, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kalee, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kaliida_Nebula, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kaliida_Nebula, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kalist, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kalist, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kalla, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kalla, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kamino, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kamino, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kammia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kammia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kampe, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kampe, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Karavis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Karavis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kariek, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kariek, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Katana_Space, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Katana_Space, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Katarr, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Katarr, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kattada, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kattada, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kauron, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kauron, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kayri, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kayri, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kem_Stor_Ai, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kem_Stor_Ai, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kerkoidia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kerkoidia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kesh, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kesh, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Keskin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Keskin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kessel, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kessel, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ketal, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ketal, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ketaris, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ketaris, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Khar_Delba, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Khar_Delba, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Khomm, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Khomm, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kile, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kile, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kilji, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kilji, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kinoss, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kinoss, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kinyen, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kinyen, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kip, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kip, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kira, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kira, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kirdo, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kirdo, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kirima, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kirima, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Klatooine, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Klatooine, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Koda_Station, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Koda_Station, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kooriva, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kooriva, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Korda, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Korda, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Korriban, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Korriban, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Koru_Neimoidia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Koru_Neimoidia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kostra, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kostra, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kothlis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kothlis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Krant, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Krant, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kriselist, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kriselist, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kuar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kuar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kuat, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kwenn, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Kwenn, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Laakteen, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Laakteen, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lakra, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lakra, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lannik, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lannik, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lantillies, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lantillies, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Latharra, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Latharra, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Leritor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Leritor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Levian, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Levian, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lianna, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lianna, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Liinade, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Liinade, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lioan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lioan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lizil, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lizil, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Llanic, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Llanic, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Loedorvia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Loedorvia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lok, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lok, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lola_Sayu, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lola_Sayu, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lonnaw, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lonnaw, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Loronar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Loronar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lorrd, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lorrd, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lothal, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lothal, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lown, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lown, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lucazec, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lucazec, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lur, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lur, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lwhekk, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lwhekk, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Lyran, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Lyran, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, M293, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, M293, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, M4_78, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, M4_78, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Makatak, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Makatak, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Makeb, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Makeb, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Makem_Te, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Makem_Te, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Malachor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Malachor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Malastare, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Maldra, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Maldra, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Manaan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Manaan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Manda, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Manda, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mandallia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mandallia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mandalore, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mandalore, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mardona, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mardona, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Maridun, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Maridun, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Maryo, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Maryo, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Massoss, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Massoss, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mataou, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mataou, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mechis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mechis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mendig, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mendig, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mephout, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mephout, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Metalorn, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Metalorn, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Metellos, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Metellos, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mhaeli, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mhaeli, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Milagro, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Milagro, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mimban, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mimban, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mindor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mindor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Minntooine, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Minntooine, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mirial, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mirial, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Miztoc, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Miztoc, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mon_Calamari, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mon_Calamari, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mon_Gazza, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mon_Gazza, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Monastery, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Monastery, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Moonus_Mandel, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Moonus_Mandel, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Moorja, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Moorja, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Morishim, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Movris, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Movris, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mrisst, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mrisst, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mrlsst, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mrlsst, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mulatan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mulatan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mullan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mullan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Munlali_Mafir, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Munlali_Mafir, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Murgo, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Murgo, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Murkhana, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Murkhana, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mustafar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mustafar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Muunilinst, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Muunilinst, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mygeeto, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mygeeto, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Myrkr, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Myrkr, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mytus, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Mytus, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Naboo, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nadiri, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nadiri, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nal_Hutta, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nal_Hutta, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nam_Chorios, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nam_Chorios, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Naos, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Naos, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Naporar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Naporar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nar_Haaska, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nar_Haaska, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nar_Hekka, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nar_Hekka, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nar_Kaaga, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nar_Kaaga, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nar_Shaddaa, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nar_Shaddaa, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nath_Goordi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nath_Goordi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nathema, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nathema, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nazzri, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nazzri, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Neimoidia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Neimoidia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nelvaan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nelvaan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nentan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nentan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nespis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nespis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nettehi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nettehi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, New_Alderaan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, New_Alderaan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, New_Bornalex, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, New_Bornalex, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, New_Cov, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, New_Cov, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, New_Heurkea, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, New_Heurkea, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, New_Plympto, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, New_Plympto, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nexus_Ortai, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nexus_Ortai, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nez_Peron, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nez_Peron, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nihil, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nihil, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nimban, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nimban, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nirauan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nirauan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nixor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nixor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nkllon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nkllon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nocto, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nocto, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Noonar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Noonar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Noquivzor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nouane, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nouane, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nubia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nubia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nulan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nulan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Null_Zone, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Null_Zone, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Nzoth, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Nzoth, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Oba_Diah, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Oba_Diah, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Obredaan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Obredaan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Obroa_Skai, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Obroa_Skai, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Obulette, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Obulette, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Odik, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Odik, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Odryn, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Odryn, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ojom, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ojom, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Omonoth, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Omonoth, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Onderon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Onderon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ord_Biniir, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ord_Biniir, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ord_Cantrell, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ord_Cantrell, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ord_Cestus, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ord_Cestus, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ord_Mantell, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ord_Mantell, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ord_Pardron, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ord_Pardron, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ord_Radama, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ord_Radama, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ord_Tiddell, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ord_Tiddell, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ord_Trasi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ord_Trasi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ord_Vaug, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ord_Vaug, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ordo, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ordo, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Oreen, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Oreen, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Orinda, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Orinda, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Orion, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Orion, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Oristrom, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Oristrom, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Orleon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Orleon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Orocco, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Orocco, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Orron, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Orron, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Oslumpex, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Oslumpex, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Osseriton, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Osseriton, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ossus, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ossus, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Paarin_Minor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Paarin_Minor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Pako_Ramoon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Pako_Ramoon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Pakrik_Minor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Pakrik_Minor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Palanhi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Palanhi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Pallaxides, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Pallaxides, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Pammant, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Pammant, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Pantolomin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Pantolomin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Pantora, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Pantora, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Parnassos, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Parnassos, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Pashvi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Pashvi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Peg_Shar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Peg_Shar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Pelagon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Pelagon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Peragus, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Peragus, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Perann_Nebula, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Perann_Nebula, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Peregrine, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Peregrine, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Pesfavri, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Pesfavri, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Pesitiin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Pesitiin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Phaeda, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Phaeda, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Phindar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Phindar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Pleknok, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Pleknok, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Poderis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Poderis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Polis_Massa, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Polis_Massa, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Poln_Major, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Poln_Major, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Polneye, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Polneye, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Polus, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Polus, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Porchello, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Porchello, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Porus_Vida, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Porus_Vida, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Poseidenna, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Poseidenna, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Praadost, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Praadost, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Praesitlyn, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Praesitlyn, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Prakith, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Prakith, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Prefsbelt, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Prefsbelt, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Prildaz, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Prildaz, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Primea, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Primea, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Qat_Chrystac, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Qat_Chrystac, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Qiilura, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Qiilura, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Qoribu, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Qoribu, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Qretu, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Qretu, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Quelii, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Quelii, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Quell, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Quell, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Quellor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Quellor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Quermia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Quermia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Quesh, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Quesh, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Quethold, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Quethold, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ragmar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ragmar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rago, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rago, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rakata, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rakata, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ralltiir, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ralltiir, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Randon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Randon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rapacc, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rapacc, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rattatak, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rattatak, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Raxus, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Raxus, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Raxus_Second, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Raxus_Second, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rduba, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rduba, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Reecee, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Reecee, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rekkiad, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rekkiad, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Relephon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Relephon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rendili, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rendili, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rennek, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rennek, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rett, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rett, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rhand, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rhand, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rhelg, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rhelg, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rhen_Var, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rhen_Var, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rhigar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rhigar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rhommamool, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rhommamool, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Riette, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Riette, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Riflor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Riflor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ringneldia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ringneldia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ringo_Vinda, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ringo_Vinda, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rintonne, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rintonne, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rion, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rion, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rishi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rishi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Roche, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Roche, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rodia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rodia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Romin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Romin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ronyards, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ronyards, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Roqoo, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Roqoo, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rothana, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rothana, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Roxuli, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Roxuli, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rudrig, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rudrig, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Rugosa, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Rugosa, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ruhe, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ruhe, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ruuria, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ruuria, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ruusan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ruusan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ryloth, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ryloth, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ryndellia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ryndellia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ryvester, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ryvester, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ryyk_Nebula, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ryyk_Nebula, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, RZ7, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, RZ7, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sacorria, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sacorria, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Saffalore, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Saffalore, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sagma, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sagma, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Saijo, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Saijo, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Saleucami, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Saleucami, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Salvara, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Salvara, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sanbra, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sanbra, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sanjin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sanjin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sanrafsix, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sanrafsix, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sarapin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sarapin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sarko, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sarko, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sarm, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sarm, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sarrish, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sarrish, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sarvchi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sarvchi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Scarif, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Scarif, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Scarl, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Scarl, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Schesa, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Schesa, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Scipio, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Scipio, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Selaggis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Selaggis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sellasas, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sellasas, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sepan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sepan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Serenno, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Serenno, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sernpidal, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sernpidal, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Serroco, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Serroco, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Seylott, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Seylott, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Shadren, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Shadren, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Shaylin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Shaylin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Shedu_Maad, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Shedu_Maad, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Shili, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Shili, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Shogun, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Shogun, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Shola, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Shola, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Shree, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Shree, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sifkric, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sifkric, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sikurd, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sikurd, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Siskeen, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Siskeen, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Skako, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Skako, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Skye, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Skye, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sleheyron, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sleheyron, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sluis_Van, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sluis_Van, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Snevu, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Snevu, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Solaest, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Solaest, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Solem, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Solem, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Solitair, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Solitair, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sriluur, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sriluur, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Stenos, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Stenos, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Stivic, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Stivic, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Storinal, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Storinal, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sullust, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sullust, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sunrise, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sunrise, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Surron, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Surron, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Suurja, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Suurja, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Svivren, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Svivren, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Sy_Myrth, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Sy_Myrth, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Syca, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Syca, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Syned, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Syned, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Syni, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Syni, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Taanab, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Taanab, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Talasea, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Talasea, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Talay, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Talay, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Talcene, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Talcene, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Talfaglio, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Talfaglio, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Talhovi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Talhovi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Taloraan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Taloraan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Talus_Tralus, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Talus_Tralus, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tangrene, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tangrene, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tar_Morden, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tar_Morden, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Taral_V, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Taral_V, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Taris, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Taris, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tarnith, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tarnith, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tartaglia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tartaglia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Taskeed, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Taskeed, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tatooine, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tatooine, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Telerath, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Telerath, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tellanroaeg, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tellanroaeg, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Telos, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Telos, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Telti, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Telti, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tenupe, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tenupe, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tepasi, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tepasi, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Teptixii, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Teptixii, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Terephon, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Terephon, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Teth, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Teth, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Teya, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Teya, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Thanos, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Thanos, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, The_Maw, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, The_Maw, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, The_Prism, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, The_Prism, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, The_Redoubt, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, The_Redoubt, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, The_Wheel, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, The_Wheel, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Thila, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Thila, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Thomork, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Thomork, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, ThonBoka, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, ThonBoka, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Thrago, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Thrago, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Thule, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Thule, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Thustra, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Thustra, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Thyferra, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Thyrsus, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Thyrsus, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tibrin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tibrin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Timora, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Timora, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tingel_Deepspace_Besh, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tingel_Deepspace_Besh, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tisssharl, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tisssharl, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Togoria, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Togoria, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tol_Amn, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tol_Amn, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tolan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tolan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ton_Falk, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ton_Falk, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Toola, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Toola, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Toprawa, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Toprawa, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tosste, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tosste, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Toydaria, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Toydaria, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Trandosha, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Trandosha, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Transitory_Mists_I, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Transitory_Mists_I, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Transitory_Mists_II, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Transitory_Mists_II, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Transitory_Mists_III, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Transitory_Mists_III, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Traval_Pacor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Traval_Pacor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Trian, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Trian, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Triton, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Triton, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Troukree, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Troukree, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Trulalis, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Trulalis, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tsoss, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tulpaa, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tulpaa, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tund, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tund, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Turak, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Turak, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Turcan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Turcan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Turkana, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Turkana, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tuskens_Eye, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tuskens_Eye, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Twilight_Void, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Twilight_Void, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tyan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tyan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tynna, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tynna, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tythe, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tythe, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tython, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Tython, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ubrikkia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ubrikkia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Udray, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Udray, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ukio, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ukio, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ulda_Frav, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ulda_Frav, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ulicia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ulicia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Umarenk, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Umarenk, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Umbara, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Umbara, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Urch, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Urch, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Utapau, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Utapau, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Utegetu_Nebula, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Utegetu_Nebula, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vagar_Praxut, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vagar_Praxut, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vaklin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vaklin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Valahari, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Valahari, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Valc, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Valc, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vanquo, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vanquo, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Varada, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Varada, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vassek, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vassek, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Veccacopia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Veccacopia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vena, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vena, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vento, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vento, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Verdanth, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Verdanth, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vergesso, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vergesso, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Veroleem, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Veroleem, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vicondor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vicondor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vjun, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vjun, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Volik, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Volik, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vondarc, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vondarc, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vorpaya, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vorpaya, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vortex, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vortex, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vorzyd, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vorzyd, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vrosynri, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vrosynri, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vulpter, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vulpter, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vulta, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vulta, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, VunHanna, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, VunHanna, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Vurdon_Ka, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Vurdon_Ka, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Walinor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Walinor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Wayland, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Wistril, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Wistril, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Woostri, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Woostri, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Woteba, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Woteba, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Wroona, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Wroona, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Wurrif, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Wurrif, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Xa_Fel, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Xa_Fel, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Xagobah, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Xagobah, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Xeron, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Xeron, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Xo, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Xo, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Xolu, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Xolu, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Xuaquarres, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Xuaquarres, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Yaga_Minor, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Yaga_Minor, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, YagDhul, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, YagDhul, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Yashuvhu, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Yashuvhu, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Yavin, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Yavin, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Yinchorr, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Yinchorr, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ylesia, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ylesia, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Yoggoy, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Yoggoy, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Zaddja, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Zaddja, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Zakuul, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Zakuul, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Zanbar, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Zanbar, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Zeltros, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Zeltros, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Zfell, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Zfell, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Ziost, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Ziost, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Zolan, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Zolan, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Zonama, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Zonama, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Zonama_30BBY, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Zonama_30BBY, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Zongorlu, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Zongorlu, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Zosha, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Zosha, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Zygerria, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Zygerria, Empire_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Zyzek, Rebel_Office </Starting_Forces>
+		<Starting_Forces> Empire, Zyzek, Empire_Star_Base_1 </Starting_Forces>
+		
+
+	</Campaign>
+
+ </Campaigns>
