@@ -11514,6 +11514,14 @@
 
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Prudii2</Required_Orbiting_Units>
 	</DummyStructure>
-
-
+	
+	<HeroUnit Name="Corr">
+	  <Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_CORR</Text_ID>
+		<Encyclopedia_Text>
+		  
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+	</HeroUnit>
 </Republic_Heroes>
