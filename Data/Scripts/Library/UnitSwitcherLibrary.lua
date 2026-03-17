@@ -18,7 +18,7 @@ return {
 	["MANDATOR_II_UPGRADE"] = {"Mandator_I_Dreadnought","Mandator_II_Dreadnought",["location_check"] = true},
 	["BATTLECARRIER_LUCREHULK_UPGRADE"] = {"Lucrehulk_Auxiliary","Lucrehulk_Carrier",["location_check"] = true},
 	["REFIT_VENATOR_STAR_DESTROYER_UPGRADE"] = {"Venator_Star_Destroyer","Refit_Venator_Star_Destroyer",["location_check"] = true},
-	--FotR_Enhanced
+	-- FotR_Enhanced
 	["YULAREN_RESOLUTE_UPGRADE_RESOLUTE_SPHAT"] = {"Yularen_Resolute", "Yularen_Resolute_SPHAT"},
 	["YULAREN_RESOLUTE_SPHAT_UPGRADE_INVINCIBLE"] = {"Yularen_Resolute_SPHAT", "Yularen_Invincible"},
 	["ANAKIN_DARKSIDE_UPGRADE_EXACTOR"] = {"Anakin_Darkside", "Exactor_Anakin_Darkside"},

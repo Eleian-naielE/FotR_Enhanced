@@ -98,7 +98,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			["Grumby"] = {"GRUMBY_ASSIGN",{"GRUMBY_RETIRE"},{"GRUMBY_INVINCIBLE"},"Jona Grumby"},
 			["Baraka"] = {"BARAKA_ASSIGN",{"BARAKA_RETIRE"},{"BARAKA_NEXU"},"Arikakon Baraka"},
 			["Martz"] = {"MARTZ_ASSIGN",{"MARTZ_RETIRE"},{"MARTZ_PROSECUTOR"},"Stinnet Martz"},
-			--FotR_Enhanced
+			-- FotR_Enhanced
 			["Block"] = {"BLOCK_ASSIGN",{"BLOCK_RETIRE","BLOCK_RETIRE2"},{"BLOCK_NEGOTIATOR","BLOCK_VIGILANCE"}, "Block"},
 			["Gillehspy"] = {"GILLEHSPY_ASSIGN",{"GILLEHSPY_RETIRE"},{"GILLEHSPY_HOUND"}, "Gillehspy"},
 		},
@@ -257,7 +257,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			["Omega"] = {"OMEGA_ASSIGN",{"OMEGA_RETIRE"},{"OMEGA_SQUAD"},"Omega Squad", ["Units"] = {{"DARMAN","ATIN","FI","NINER"}}},
 			["Ordo"] = {"ORDO_ASSIGN",{"ORDO_RETIRE","ORDO_RETIRE2"},{"ORDO_SKIRATA","ORDO_SKIRATA2"},"Ordo Skirata", ["Companies"] = {"ORDO_SKIRATA_TEAM","ORDO_SKIRATA2_TEAM"}},
 			["Aden"] = {"ADEN_ASSIGN",{"ADEN_RETIRE","ADEN_RETIRE2"},{"ADEN_SKIRATA","ADEN_SKIRATA2"},"A'den Skirata", ["Companies"] = {"ADEN_SKIRATA_TEAM","ADEN_SKIRATA2_TEAM"}},
-			--FotR_Enhanced
+			-- FotR_Enhanced
 			["Prudii"] = {"PRUDII_ASSIGN",{"PRUDII_RETIRE","PRUDII_RETIRE2"},{"PRUDII_SKIRATA","PRUDII_SKIRATA2"},"Prudii Skirata", ["Companies"] = {"PRUDII_SKIRATA_TEAM","PRUDII_SKIRATA2_TEAM"}}, 
 		},
 		available_list = {--Heroes currently available for purchase. Seeded with those who have no special prereqs
@@ -343,7 +343,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	Bow_Checks = 0
 	Vill_Checks = 0
 	Tenant_Checks = 0
-	--FotR_Enhanced
+	-- FotR_Enhanced
 	Forral_Checks = 0
 	Gillehspy_Checks = 0
 	JetBacara_swapped = 0
@@ -972,7 +972,7 @@ function RepublicHeroes:Venator_Heroes() -- FotR_Enhanced ; admiral, moff slot i
 		Handle_Hero_Add("Grant", moff_data)
 		Handle_Hero_Add("Vorru", moff_data)
 		Handle_Hero_Add("Byluir", moff_data)
-		--FotR_Enhanced
+		-- FotR_Enhanced
 		Handle_Hero_Add("Block", admiral_data)
 
 		if admiral_data.active_player.Get_Tech_Level() <= 3 then
@@ -1216,7 +1216,7 @@ function RepublicHeroes:Remove_Fighter_Set(set, nolock)
 	end
 end
 
---FotR_Enhanced
+-- FotR_Enhanced
 
 function RepublicHeroes:Geen_Unlock()
 	Handle_Hero_Add("Geen", general_data)

@@ -154,7 +154,7 @@
 			Commander_Tier_III_Bulwark_I_TU,
 			Commander_Tier_IV_Recusant_Dreadnought,
 			Commander_Tier_IV_Bulwark_II,
-			<!--FotR_Enhanced ; Submod Units/Heroes-->
+			<!-- FotR_Enhanced ; Submod Units/Heroes-->
 			TJ912_Recusant,
 			TM171_DH_Omni,
 		</Bombardment_Required_Orbital_Ships>
@@ -712,7 +712,7 @@
 			Commander_Tier_IV_Invincible_Cruiser,
 			Commander_Tier_IV_Procurator_Battlecruiser,
 			Commander_Tier_IV_Imperator_Star_Destroyer
-			<!--FotR_Enhanced ; Submod Units/Heroes-->
+			<!-- FotR_Enhanced ; Submod Units/Heroes-->
 			Block_Negotiator,
 			Block_Vigilance,
 			Gillehspy_Hound,
