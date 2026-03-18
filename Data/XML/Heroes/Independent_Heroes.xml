@@ -99,6 +99,8 @@
 				<Alternate_Icon_Name>I_SA_ASSASSIN.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -291,6 +293,7 @@
 				</GUI_Activated_Ability_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Admin_01 -->
 			<Reduce_Production_Price_Ability Name="Admin_Tier_Admin_01_Reduce_Production_Price">
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -370,6 +373,7 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 		</Unit_Abilities_Data>
+		
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Admin_01 -->
 			<Reduce_Production_Price_Ability Name="Admin_Tier_Admin_01_Reduce_Production_Price">
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -512,7 +516,9 @@
 				<Alternate_Icon_Name>I_SA_ASSASSIN.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
+		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+		
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -639,6 +645,8 @@
 
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 		
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 and Agent_Tier_Syndicate_Head -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">

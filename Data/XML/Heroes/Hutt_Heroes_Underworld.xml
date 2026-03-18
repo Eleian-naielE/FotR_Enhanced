@@ -929,6 +929,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1184,6 +1186,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1399,6 +1403,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 and Agent_Tier_Syndicate_Head -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1589,6 +1595,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 and Agent_Tier_Syndicate_Head -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1745,6 +1753,8 @@
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 and Agent_Tier_Syndicate_Head -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>

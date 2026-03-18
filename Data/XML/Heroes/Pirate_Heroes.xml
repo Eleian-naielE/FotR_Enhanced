@@ -1,0 +1,1816 @@
+<?xml version="1.0"?>
+<Pirate_Heroes>
+	<DummyStructure Name="Random_Pirate_Hero">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Population_Value>1</Population_Value>
+		<Build_Cost_Credits>650</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>2</Build_Limit_Lifetime_Per_Player> 
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Text_ID>TEXT_HERO_RANDOM_PIRATE</Text_ID>
+		<Lua_Script>RandomPirates</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+		<Icon_Name>I_BUTTON_PIRATE_TIER3.tga</Icon_Name>
+
+		<Tech_Level>1</Tech_Level>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_RANDOM_PIRATE 
+		TEXT_TOOLTIP_RANDOM_PIRATE_HERO
+		TEXT_NONE
+		TEXT_TOOLTIP_RANDOM_PIRATE_HERO_RENTHAL
+		TEXT_TOOLTIP_RANDOM_PIRATE_HERO_VULTURE_PIRATES
+		TEXT_TOOLTIP_RANDOM_PIRATE_HERO_DREDNAR
+		TEXT_TOOLTIP_RANDOM_PIRATE_HERO_ARDELLA
+		TEXT_TOOLTIP_RANDOM_PIRATE_HERO_KOTHA
+		TEXT_TOOLTIP_RANDOM_PIRATE_HERO_TARNTA
+		TEXT_TOOLTIP_RANDOM_PIRATE_HERO_LOOSE_CANNON
+		TEXT_TOOLTIP_RANDOM_PIRATE_HERO_VANGAR
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_HERO_RANDOM_PIRATE_CORVETTE</Encyclopedia_Unit_Class>
+
+		<Required_Special_Structures>Pirate_Base | Sabaoth_HQ, AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+	</DummyStructure>
+
+	<DummyStructure Name="Random_Pirate_Fleet">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Population_Value>4</Population_Value>
+		<Build_Cost_Credits>2400</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player> 
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Text_ID>TEXT_HERO_RANDOM_PIRATE</Text_ID>
+		<Lua_Script>RandomPiratesHeavy</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+		<Icon_Name>I_BUTTON_PIRATE_TIER2.tga</Icon_Name>
+
+		<Tech_Level>1</Tech_Level>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_RANDOM_PIRATE
+		TEXT_TOOLTIP_RANDOM_PIRATE_FLEET
+		TEXT_NONE
+		TEXT_TOOLTIP_RANDOM_PIRATE_FLEET_TARGRIM
+		TEXT_TOOLTIP_RANDOM_PIRATE_FLEET_ZAN_DANE
+		TEXT_TOOLTIP_RANDOM_PIRATE_FLEET_VEILED_QUEEN
+		TEXT_TOOLTIP_RANDOM_PIRATE_FLEET_THALASSIAN
+		TEXT_TOOLTIP_RANDOM_PIRATE_FLEET_AYCEN
+		TEXT_TOOLTIP_RANDOM_PIRATE_FLEET_NORULAC
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_HERO_RANDOM_PIRATE_FLEET</Encyclopedia_Unit_Class>
+
+		<Required_Special_Structures>Pirate_Base | Sabaoth_HQ, AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Unit_Abilities_Data SubObjectList="No">
+
+		</Unit_Abilities_Data>
+	</DummyStructure>
+
+	<DummyStructure Name="Random_Pirate_Legend">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Population_Value>18</Population_Value>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player> 
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Text_ID>TEXT_HERO_RANDOM_PIRATE</Text_ID>
+		<Lua_Script>RandomPirateLegend</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+		<Icon_Name>I_BUTTON_PIRATE_TIER1.tga</Icon_Name>
+
+		<Tech_Level>1</Tech_Level>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_RANDOM_PIRATE
+		TEXT_TOOLTIP_RANDOM_PIRATE_LEGEND
+		TEXT_NONE
+		TEXT_TOOLTIP_RANDOM_PIRATE_LEGEND_PUNDAR
+		TEXT_TOOLTIP_RANDOM_PIRATE_LEGEND_SELIMA
+		TEXT_TOOLTIP_RANDOM_PIRATE_LEGEND_SLAGORTH
+		TEXT_TOOLTIP_RANDOM_PIRATE_LEGEND_QUINCE
+		TEXT_TOOLTIP_RANDOM_PIRATE_LEGEND_QUIST
+		TEXT_TOOLTIP_RANDOM_PIRATE_LEGEND_EYTTYRMIN_BATIIV
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_HERO_RANDOM_PIRATE_LEGEND </Encyclopedia_Unit_Class>
+
+		<Required_Special_Structures>Pirate_Base | Sabaoth_HQ, AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Unit_Abilities_Data SubObjectList="No">
+
+		</Unit_Abilities_Data>
+	</DummyStructure>
+	
+	<!-- Pirate heroes -->
+	<UniqueUnit Name="Ardella_N1_Squadron">
+
+		<Variant_Of_Existing_Type>N1_Squadron</Variant_Of_Existing_Type>
+		<Squadron_Units>N1, N1, N1, N1</Squadron_Units>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_N1 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARDELLA_N1_SQUADRON
+		TEXT_STATBLOCK_N1_BASE 
+		TEXT_STATBLOCK_N1_MOVE
+		TEXT_STATBLOCK_N1_WEAP1
+		</Encyclopedia_Text>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Ardella_Smokeswimmer">
+		<Variant_Of_Existing_Type>CR90</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_ARDELLA</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_ARDELLA 
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_SMOKESWIMMER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_HULL
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_SHIELD
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_MOVE 
+		TEXT_TOOLTIP_ARDELLA_SQUADRON
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_WEAP1
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_PD
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_ardella.tga</Icon_Name>
+		
+		<Ranking_In_Category> 10 </Ranking_In_Category>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<Starting_Spawned_Units_Tech_1>Ardella_N1_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		
+		<CategoryMask> SpaceHero | AntiFighter | AntiBomber </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Tech_Level>99</Tech_Level>
+
+		<HardPoints> 
+			HP_Corellian_Corvette_01, HP_Corellian_Corvette_02, HP_Corellian_Corvette_03, HP_Corellian_Corvette_04, HP_Corellian_Corvette_05, HP_Corellian_Corvette_06, HP_CR90_Hangar
+		</HardPoints>
+
+		<SFXEvent_Select>Unit_Select_Bossk</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Bossk</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Bossk</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Bossk</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Bossk</SFXEvent_Guard>
+		<SFXEvent_Group_Move>Unit_Move_Bossk</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Attack_Bossk</SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Bossk </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Bossk </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Bossk </Death_SFXEvent_Start_Die>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Bossk</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Laser_Defense_Ability Name="CR90_Laser_Defense">
+				<Activation_Style> Space_Automatic </Activation_Style>
+				<Defense_Duration_In_Secs> 4800.0 </Defense_Duration_In_Secs>
+				<Laser_Color>255, 134, 134, 255</Laser_Color>
+				<Bone_Names>ROOT</Bone_Names>
+				<Projectile_Types_Targeted>ROCKET, MISSILE</Projectile_Types_Targeted>
+				<Protection_Radius>791.67</Protection_Radius>
+				<Laser_Beam_Frames>2</Laser_Beam_Frames>
+				<Laser_Beam_Width>4</Laser_Beam_Width>
+				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+				<Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+				<Recharge_Time_In_Secs>0.38</Recharge_Time_In_Secs>
+				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+			</Laser_Defense_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Tarnta_Bane_Tarntas_Fang">
+		<Variant_Of_Existing_Type>CR90</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_TARNTA_BANE</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_TRAIT_AGENT_TIER_SLAVELORD
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_TARNTA
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_TARNTAS_FANG
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_HULL
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_SHIELD
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_MOVE
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_WEAP1
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_PD
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_tarnta.tga</Icon_Name>
+		
+		<Ranking_In_Category> 10 </Ranking_In_Category>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+		
+		<CategoryMask> SpaceHero | AntiFighter | AntiBomber </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Tech_Level>99</Tech_Level>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
+			<Reduce_Production_Time_Ability Name="Agent_Tier_Slavelord_Reduce_Production_Time">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
+				<Stacking_Category>51</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			<Bounty_On_Faction_Ability Name="Agent_Tier_Slavelord_Destruction_Income_Bonus">
+				<Bounty_Percentage_Amount> 2 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<Target_Faction_Names> Rebel, Empire, Underworld, Hutt_Cartels, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians, Independent_Forces, Hostile </Target_Faction_Names>
+				<Apply_To_All_Allies> Yes </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+
+			<Laser_Defense_Ability Name="CR90_Laser_Defense">
+				<Activation_Style> Space_Automatic </Activation_Style>
+				<Defense_Duration_In_Secs> 4800.0 </Defense_Duration_In_Secs>
+				<Laser_Color>255, 134, 134, 255</Laser_Color>
+				<Bone_Names>ROOT</Bone_Names>
+				<Projectile_Types_Targeted>ROCKET, MISSILE</Projectile_Types_Targeted>
+				<Protection_Radius>791.67</Protection_Radius>
+				<Laser_Beam_Frames>2</Laser_Beam_Frames>
+				<Laser_Beam_Width>4</Laser_Beam_Width>
+				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+				<Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+				<Recharge_Time_In_Secs>0.38</Recharge_Time_In_Secs>
+				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+			</Laser_Defense_Ability>
+		</Abilities>
+
+	</UniqueUnit>
+
+	<UniqueUnit Name="Vangar_Corvette">
+		<Variant_Of_Existing_Type>Customs_Corvette</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_VANGAR</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_VANGAR
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_VANGAR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CUSTOMS_CORVETTE_HULL
+		TEXT_TOOLTIP_CUSTOMS_CORVETTE_SHIELD
+		TEXT_TOOLTIP_CUSTOMS_CORVETTE_MOVE 
+		TEXT_TOOLTIP_CUSTOMS_CORVETTE_PIRATE_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_vangar.tga</Icon_Name>
+		
+		<Ranking_In_Category> 10 </Ranking_In_Category>
+
+		<Population_Value>2</Population_Value>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<CategoryMask> SpaceHero | AntiCorvette </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<Tech_Level>99</Tech_Level>
+
+		<HardPoints>
+			HP_Customs_Corvette_Pirate_01, HP_Customs_Corvette_Pirate_02
+		</HardPoints>
+
+		<Targeting_Max_Attack_Distance>2900.0</Targeting_Max_Attack_Distance>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>21</Tactical_Build_Time_Seconds>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-3</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Customs_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Renthals_Fist">
+		<Variant_Of_Existing_Type>CR90</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_RENTHAL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_RENTHAL
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_RENTHALS_FIST
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_RENTHAL2
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_HULL
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_SHIELD
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_MOVE 
+		TEXT_TOOLTIP_RENTHAL_SQUADRON
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_WEAP1
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_WEAP2
+		TEXT_TOOLTIP_RENTHAL_TORPEDO
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_PD
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_renthal.tga</Icon_Name>
+		
+		<Ranking_In_Category> 10 </Ranking_In_Category>
+
+		<Population_Value>2</Population_Value>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<Starting_Spawned_Units_Tech_1>BTLS1_Y_Wing_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Customs_Corvette, 1</Starting_Spawned_Units_Tech_1>
+		<!-- Should also have a SoroSuub Medium transport, possibly a Brayl? -->
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+
+		<CategoryMask> SpaceHero | AntiFighter | AntiBomber </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Tech_Level>99</Tech_Level>
+
+		<HardPoints> 
+			HP_Corellian_Corvette_01, HP_Corellian_Corvette_02, HP_Corellian_Corvette_03, HP_Corellian_Corvette_04, HP_Corellian_Corvette_05, HP_Corellian_Corvette_06, HP_Renthal_Torpedo, HP_CR90_Hangar
+		</HardPoints>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>1580</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
+			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_04_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Laser_Defense_Ability Name="CR90_Laser_Defense">
+				<Activation_Style> Space_Automatic </Activation_Style>
+				<Defense_Duration_In_Secs> 4800.0 </Defense_Duration_In_Secs>
+				<Laser_Color>255, 134, 134, 255</Laser_Color>
+				<Bone_Names>ROOT</Bone_Names>
+				<Projectile_Types_Targeted>ROCKET, MISSILE</Projectile_Types_Targeted>
+				<Protection_Radius>791.67</Protection_Radius>
+				<Laser_Beam_Frames>2</Laser_Beam_Frames>
+				<Laser_Beam_Width>4</Laser_Beam_Width>
+				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+				<Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+				<Recharge_Time_In_Secs>0.38</Recharge_Time_In_Secs>
+				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+			</Laser_Defense_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Drednar_Sable_III">
+		<Variant_Of_Existing_Type>CR90</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_DREDNAR</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_DREDNAR
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_SABLE_III 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_HULL
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_SHIELD
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_MOVE 
+		TEXT_TOOLTIP_DREDNAR_SQUADRON
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_WEAP1
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_WEAP2
+		TEXT_TOOLTIP_DREDNAR_ION
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_CORELLIAN_CORVETTE_PD
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_drednar.tga</Icon_Name>
+		
+		<Ranking_In_Category> 10 </Ranking_In_Category>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		
+		<CategoryMask> SpaceHero | AntiFighter | AntiBomber </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<HardPoints>
+			HP_Corellian_Corvette_01, HP_Corellian_Corvette_02, HP_Corellian_Corvette_03, HP_Corellian_Corvette_04, HP_Corellian_Corvette_05, HP_Corellian_Corvette_06, HP_Sable_III_Ion, HP_CR90_Hangar
+		</HardPoints>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Tech_Level>99</Tech_Level>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Combat_Bonus_Ability Name="Starfighter_Specialist_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
+				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Starfighter_Specialist_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
+				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>1</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Laser_Defense_Ability Name="CR90_Laser_Defense">
+				<Activation_Style> Space_Automatic </Activation_Style>
+				<Defense_Duration_In_Secs> 4800.0 </Defense_Duration_In_Secs>
+				<Laser_Color>255, 134, 134, 255</Laser_Color>
+				<Bone_Names>ROOT</Bone_Names>
+				<Projectile_Types_Targeted>ROCKET, MISSILE</Projectile_Types_Targeted>
+				<Protection_Radius>791.67</Protection_Radius>
+				<Laser_Beam_Frames>2</Laser_Beam_Frames>
+				<Laser_Beam_Width>4</Laser_Beam_Width>
+				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+				<Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+				<Recharge_Time_In_Secs>0.38</Recharge_Time_In_Secs>
+				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+			</Laser_Defense_Ability>
+		</Abilities>
+
+	</UniqueUnit>
+
+	<UniqueUnit Name="Vulture_Pirates">
+		<Variant_Of_Existing_Type>Marauder_Cruiser</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_VULTURE_PIRATES</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_VULTURE_PIRATES
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_VULTURE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_MARAUDER_HULL
+		TEXT_TOOLTIP_MARAUDER_SHIELD 
+		TEXT_TOOLTIP_MARAUDER_MOVE
+		TEXT_TOOLTIP_VULTURE_SQUADRON
+		TEXT_TOOLTIP_MARAUDER_WEAP1 
+		TEXT_TOOLTIP_MARAUDER_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_vultures.tga</Icon_Name>
+		
+		<Ranking_In_Category> 10 </Ranking_In_Category>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<Starting_Spawned_Units_Tech_1>BTLS1_Y_Wing_Squadron, 2</Starting_Spawned_Units_Tech_1> <!-- one of these should actually be Toscans -->
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+		<CategoryMask> SpaceHero | AntiCorvette </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Tech_Level>99</Tech_Level>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Loose_Cannon_Pirates">
+		<Variant_Of_Existing_Type>DP20</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_LOOSE_CANNON</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_LOOSE_CANNON
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_LOOSE_CANNON
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CORELLIAN_GUNBOAT_HULL 
+		TEXT_TOOLTIP_CORELLIAN_GUNBOAT_SHIELD
+		TEXT_TOOLTIP_CORELLIAN_GUNBOAT_MOVE
+		TEXT_TOOLTIP_LOOSE_CANNON_SQUADRON
+		TEXT_TOOLTIP_CORELLIAN_GUNBOAT_WEAP1
+		TEXT_TOOLTIP_CORELLIAN_GUNBOAT_WEAP2
+		TEXT_TOOLTIP_CORELLIAN_GUNBOAT_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PIRATE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_loose_cannon.tga</Icon_Name>
+		
+		<Ranking_In_Category> 10 </Ranking_In_Category>
+		
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<CategoryMask> AntiCorvette | SpaceHero </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Starting_Spawned_Units_Tech_1>Cloakshape_Squadron_Half, 1</Starting_Spawned_Units_Tech_1>
+		
+		<HardPoints>
+				HP_Corellian_Gunship_01,
+				HP_Corellian_Gunship_02,
+				HP_Corellian_Gunship_03_Green,
+				HP_Corellian_Gunship_04_Green,
+				HP_Corellian_Gunship_05_Green,
+				HP_Corellian_Gunship_06_Green,
+				HP_Corellian_Gunship_07_Green
+		</HardPoints>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Kotha_Raka">
+		<Variant_Of_Existing_Type>Raka_Freighter_Tender</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_KOTHA</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_KOTHA
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_KOTHA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_RAKA_FREIGHTER_HULL
+		TEXT_TOOLTIP_RAKA_FREIGHTER_SHIELD 
+		TEXT_TOOLTIP_RAKA_FREIGHTER_MOVE
+		TEXT_TOOLTIP_RAKA_FREIGHTER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_RAKA_FREIGHTER_PD
+		TEXT_TOOLTIP_RAKA_FREIGHTER_TENDER
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_KOTHA.tga</Icon_Name>
+		
+		<Ranking_In_Category> 10 </Ranking_In_Category>
+
+		<Tech_Level>99</Tech_Level>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<CategoryMask> SpaceHero | AntiFighter | AntiBomber </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
+			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_01_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Laser_Defense_Ability Name="Raka_Freighter_Laser_Defense">
+				<Activation_Style> Space_Automatic </Activation_Style>
+				<Defense_Duration_In_Secs> 4800.0 </Defense_Duration_In_Secs>
+				<Laser_Color>255, 218, 13, 255</Laser_Color>
+				<Bone_Names>WEAP_LASER_DH_00_190, WEAP_LASER_DH_01_190</Bone_Names>
+				<Projectile_Types_Targeted>ROCKET, MISSILE</Projectile_Types_Targeted>
+				<Protection_Radius>875.0</Protection_Radius>
+				<Laser_Beam_Frames>2</Laser_Beam_Frames>
+				<Laser_Beam_Width>4</Laser_Beam_Width>
+				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+				<Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+				<Recharge_Time_In_Secs>0.95</Recharge_Time_In_Secs>
+				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+			</Laser_Defense_Ability>
+
+			<Force_Healing_Ability Name="Raka_Freighter_Fighter_Tender">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>850.0</Heal_Range>
+				<Heal_Amount> 2.0 </Heal_Amount>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Space_Repair_Fighter_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Veiled_Queen_Savrip">
+		<Variant_Of_Existing_Type>Marauder_Cruiser</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_VEILED_QUEEN</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_VEILED_QUEEN
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_SAVRIP
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK 
+		TEXT_TOOLTIP_ESCORT_VEILED_QUEEN1
+		TEXT_TOOLTIP_ESCORT_VEILED_QUEEN2
+		TEXT_TOOLTIP_ESCORT_VEILED_QUEEN3
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_MARAUDER_HULL
+		TEXT_TOOLTIP_MARAUDER_SHIELD 
+		TEXT_TOOLTIP_MARAUDER_MOVE
+		TEXT_TOOLTIP_VEILED_QUEEN_SQUADRON
+		TEXT_TOOLTIP_MARAUDER_WEAP1 
+		TEXT_TOOLTIP_MARAUDER_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_veiled_queen.tga</Icon_Name>
+		
+		<Ranking_In_Category> 8 </Ranking_In_Category>
+
+		<Population_Value>7</Population_Value>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<Starting_Spawned_Units_Tech_1>Skirmish_Interceptor_IV_Frigate, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Consular_Refit, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Skirmish_Citadel_Cruiser_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron_Half, 1</Starting_Spawned_Units_Tech_1> <!-- standin for Cutlass -->
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+		
+		<CategoryMask> SpaceHero | AntiCorvette </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Tech_Level>99</Tech_Level>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
+			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_04_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Dane_Sweet_Victory">
+		<Variant_Of_Existing_Type>Marauder_Cruiser</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_ZAN_DANE</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_05_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_ZAN_DANE 
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_SWEET_VICTORY
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_ZAN_DANE1
+		TEXT_TOOLTIP_ESCORT_ZAN_DANE2
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_MARAUDER_HULL
+		TEXT_TOOLTIP_MARAUDER_SHIELD
+		TEXT_TOOLTIP_MARAUDER_MOVE
+		TEXT_TOOLTIP_ZAN_DANE_SQUADRON
+		TEXT_TOOLTIP_MARAUDER_WEAP1 
+		TEXT_TOOLTIP_MARAUDER_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_zan_dane.tga</Icon_Name>
+		
+		<Ranking_In_Category> 8 </Ranking_In_Category>
+
+		<Population_Value>6</Population_Value>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<Starting_Spawned_Units_Tech_1>Sabaoth_Fighter_Squadron_Half, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Skirmish_CR90, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Gozanti_Cruiser_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+
+		<CategoryMask> SpaceHero | AntiCorvette </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Tech_Level>99</Tech_Level>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_05 -->
+			<Combat_Bonus_Ability Name="Command_Tier_05_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_05_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.15</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Targrim_C9979">
+		<Variant_Of_Existing_Type>C9979_Carrier</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_TARGRIM</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_TARGRIM
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_TARGRIM
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK 
+		TEXT_TOOLTIP_ESCORT_TARGRIM
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_C9979_HULL
+		TEXT_TOOLTIP_C9979_SHIELD 
+		TEXT_TOOLTIP_C9979_MOVE
+		TEXT_TOOLTIP_TARGRIM_SQUADRON
+		TEXT_TOOLTIP_C9979_WEAP1
+		TEXT_TOOLTIP_C9979_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_C9979_PD
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_targrim.tga</Icon_Name>
+		
+		<Ranking_In_Category> 8 </Ranking_In_Category>
+
+		<Population_Value>8</Population_Value>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<Starting_Spawned_Units_Tech_1>Skirmish_Interceptor_IV_Frigate, 3</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Delta6_Squadron_Double, 1</Starting_Spawned_Units_Tech_1> <!-- These are supposed to mostly be Zebras -->
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron_Double, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Z95XT_Headhunter_Squadron_Double, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Cloakshape_Squadron_Double, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Cloakshape_Stock_Squadron_Double, 1</Starting_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_1>Skirmish_Interceptor_IV_Frigate, 5</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Delta6_Squadron_Double, 2</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Z95_Headhunter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Z95XT_Headhunter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Cloakshape_Squadron_Double, 2</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Cloakshape_Stock_Squadron_Double, 2</Reserve_Spawned_Units_Tech_1>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+		<CategoryMask> SpaceHero | AntiFighter </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Tech_Level>99</Tech_Level>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Laser_Defense_Ability Name="C9979_Laser_Defense">
+				<Activation_Style> Space_Automatic </Activation_Style>
+				<Defense_Duration_In_Secs> 4800.0 </Defense_Duration_In_Secs>
+				<Laser_Color>255, 134, 134, 255</Laser_Color>
+				<Bone_Names>MuzzleB_00, MuzzleB_01</Bone_Names>
+				<Projectile_Types_Targeted>ROCKET, MISSILE</Projectile_Types_Targeted>
+				 <Protection_Radius>750.0</Protection_Radius>
+				<Laser_Beam_Frames>2</Laser_Beam_Frames>
+				<Laser_Beam_Width>4</Laser_Beam_Width>
+				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+				<Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+				<Recharge_Time_In_Secs>1.14</Recharge_Time_In_Secs>
+				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+			</Laser_Defense_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Thalassian_Harmzuay">
+		<Variant_Of_Existing_Type>Kaloth_Battlecruiser</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_THALASSIAN</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UTILITY_SLAVER
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_THALASSIAN
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_HARMZUAY
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK 
+		TEXT_TOOLTIP_ESCORT_THALASSIAN
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_HULL 
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_SHIELD 
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_MOVE
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_SQUADRON
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_WEAP1 
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_WEAP2
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_thalassian.tga</Icon_Name>
+		
+		<Ranking_In_Category> 8 </Ranking_In_Category>
+		
+		<Population_Value>6</Population_Value>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<Starting_Spawned_Units_Tech_1>IPV1, 3</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron_Half, 1</Starting_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_1>Z95_Headhunter_Squadron_Half, 1</Reserve_Spawned_Units_Tech_1>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+		
+		<CategoryMask> SpaceHero | AntiCorvette </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<Tech_Level>99</Tech_Level>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<Abilities SubObjectList="Yes">
+			<Bounty_On_Faction_Ability Name="Agent_Tier_Slaver_Destruction_Income_Bonus">
+				<Bounty_Percentage_Amount> 1 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<Target_Faction_Names> Rebel, Empire, Underworld, Hutt_Cartels, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians, Independent_Forces, Hostile </Target_Faction_Names>
+				<Apply_To_All_Allies> Yes </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Aycen_Freejack">
+		<Variant_Of_Existing_Type>IPV1_Gunboat</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_AYCEN</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_AYCEN
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_FREEJACK
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK 
+		TEXT_TOOLTIP_ESCORT_AYCEN1
+		TEXT_TOOLTIP_ESCORT_AYCEN2
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_IPV_HULL 
+		TEXT_TOOLTIP_IPV_SHIELD 
+		TEXT_TOOLTIP_IPV_MOVE
+		TEXT_TOOLTIP_AYCEN_SQUADRON
+		TEXT_TOOLTIP_IPV_GUNBOAT_WEAP1 
+		TEXT_TOOLTIP_IPV_GUNBOAT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_aycen.tga</Icon_Name>
+		
+		<Ranking_In_Category> 8 </Ranking_In_Category>
+
+		<Population_Value>5</Population_Value>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<Starting_Spawned_Units_Tech_1>Citadel_Cruiser_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Gozanti_Cruiser_Raider_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Cloakshape_Squadron_Double, 1</Starting_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_1>Cloakshape_Squadron_Double, 2</Reserve_Spawned_Units_Tech_1>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+		
+		<CategoryMask> SpaceHero | AntiCorvette </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Tech_Level>99</Tech_Level>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Norulac_Freebooters">
+		<Variant_Of_Existing_Type>Marauder_Cruiser</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_NORULAC</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_NORULAC
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_NORULAC
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK 
+		TEXT_TOOLTIP_ESCORT_NORULAC1
+		TEXT_TOOLTIP_ESCORT_NORULAC2
+		TEXT_TOOLTIP_ESCORT_NORULAC3
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_MARAUDER_HULL
+		TEXT_TOOLTIP_MARAUDER_SHIELD 
+		TEXT_TOOLTIP_MARAUDER_MOVE
+		TEXT_TOOLTIP_NORULAC_SQUADRON
+		TEXT_TOOLTIP_MARAUDER_WEAP1 
+		TEXT_TOOLTIP_MARAUDER_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_norulac.tga</Icon_Name>
+		
+		<Ranking_In_Category> 8 </Ranking_In_Category>
+
+		<Population_Value>10</Population_Value>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<Starting_Spawned_Units_Tech_1>Skirmish_Interceptor_IV_Frigate, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Skirmish_Marauder_Cruiser, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Action_VI_Support, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron_Half, 1</Starting_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+		
+		<CategoryMask> SpaceHero | AntiCorvette </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Tech_Level>99</Tech_Level>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Eyttyrmin_Batiiv">
+		<Variant_Of_Existing_Type>Super_Transport_VI</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_EYTTYRMIN_BATIIV</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_EYTTYRMIN_BATIIV
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_EYTTYRMIN_BATIIV
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK 
+		TEXT_TOOLTIP_ESCORT_EYTTYRMIN1
+		TEXT_TOOLTIP_ESCORT_EYTTYRMIN2
+		TEXT_TOOLTIP_ESCORT_EYTTYRMIN3
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SUPER_TRANSPORT_VI_HULL
+		TEXT_TOOLTIP_SUPER_TRANSPORT_VI_SHIELD
+		TEXT_TOOLTIP_SUPER_TRANSPORT_VI_MOVE 
+		TEXT_TOOLTIP_EYTTYRMIN_BATIIV_SQUADRON
+		TEXT_TOOLTIP_SUPER_TRANSPORT_VI_WEAP1 
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_eyttyrmin_batiiv.tga</Icon_Name>
+		
+		<Ranking_In_Category> 6 </Ranking_In_Category>
+
+		<Population_Value>15</Population_Value>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+		
+		<Starting_Spawned_Units_Tech_1> Z95_Headhunter_Squadron, 1 </Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1> IPV1_Gunboat, 2 </Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1> Interceptor_IV_Frigate, 6 </Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1> Citadel_Cruiser_Squadron, 3 </Starting_Spawned_Units_Tech_1>
+
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		
+		<Reserve_Spawned_Units_Tech_1> Z95_Headhunter_Squadron, 2 </Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1> IPV1_Gunboat, 4 </Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1> Interceptor_IV_Frigate, 16 </Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1> Citadel_Cruiser_Squadron, 9 </Reserve_Spawned_Units_Tech_1>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+		
+		<CategoryMask> SpaceHero | AntiFighter </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Tech_Level>99</Tech_Level>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Selima_Kim_Bloodthirsty">
+		<Variant_Of_Existing_Type>Liberty_Liner</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_SELIMA_KIM</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_SELIMA
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_BLOODTHIRTSY
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_SELIMA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_LIBERTY_LINER_HULL
+		TEXT_TOOLTIP_LIBERTY_LINER_SHIELD
+		TEXT_TOOLTIP_LIBERTY_LINER_MOVE
+		TEXT_TOOLTIP_SELIMA_SQUADRON
+		TEXT_TOOLTIP_LIBERTY_LINER_WEAP1
+		TEXT_TOOLTIP_LIBERTY_LINER_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_selima_kim.tga</Icon_Name>
+		
+		<Ranking_In_Category> 6 </Ranking_In_Category>
+		
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<Starting_Spawned_Units_Tech_1>Skirmish_CR90, 3</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 4</Starting_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_1>Skirmish_CR90, 4</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 9</Reserve_Spawned_Units_Tech_1>
+
+		<Population_Value>14</Population_Value>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+
+		<CategoryMask> AntiFrigate | SpaceHero </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, ASTEROID_FIELD_DAMAGE, NEBULA</SpaceBehavior>
+		<Tech_Level>99</Tech_Level>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
+			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_06_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.18</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>6445</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</UniqueUnit>
+
+	<UniqueUnit Name="Quist_Pinnace">
+		<Variant_Of_Existing_Type>Invincible_Cruiser</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_QUIST</Text_ID>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_QUIST
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_QUIST
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_INVINCIBLE_HULL
+		TEXT_TOOLTIP_INVINCIBLE_SHIELD
+		TEXT_TOOLTIP_INVINCIBLE_MOVE
+		TEXT_TOOLTIP_INVINCIBLE_SQUADRON
+		TEXT_TOOLTIP_INVINCIBLE_WEAP1
+		TEXT_TOOLTIP_INVINCIBLE_WEAP2
+		TEXT_TOOLTIP_INVINCIBLE_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_quist.tga</Icon_Name>
+		
+		<Ranking_In_Category> 6 </Ranking_In_Category>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+		<Tech_Level>99</Tech_Level>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+
+		<CategoryMask> AntiFrigate | SpaceHero </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>6445</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Pundar_Profit">
+		<Variant_Of_Existing_Type>Lucrehulk_Auxiliary</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_PUNDAR</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PUNDAR
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_PROFIT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_HULL
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_SHIELD 
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_MOVE 
+		TEXT_TOOLTIP_PUNDAR_SQUADRON
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP1
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP2 
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP3 
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP4 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PIRATE </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_pundar.tga</Icon_Name>
+		
+		<Ranking_In_Category> 6 </Ranking_In_Category>
+
+		<Population_Value>25</Population_Value>
+
+		<Starting_Spawned_Units_Tech_1>Vulture_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Vulture_Squadron_Half, 1</Starting_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_1>Vulture_Squadron, 2</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Vulture_Squadron_Half, 2</Reserve_Spawned_Units_Tech_1>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+		
+		<CategoryMask> AntiCorvette | AntiFighter | SpaceHero </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Tech_Level>99</Tech_Level>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>6445</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
+			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_04_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Slagorth_ARC">
+		<Variant_Of_Existing_Type>Space_ARC_Cruiser</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_SLAGORTH</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_05_SPACE
+		TEXT_TOOLTIP_TRAIT_AGENT_TIER_SLAVELORD
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_SLAGORTH
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_SLAGORTH
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SPACE_ARC_HULL
+		TEXT_TOOLTIP_SPACE_ARC_SHIELD
+		TEXT_TOOLTIP_SPACE_ARC_MOVE
+		TEXT_TOOLTIP_SPACE_ARC_SQUADRON
+		TEXT_TOOLTIP_SPACE_ARC_STOCK_WEAP1
+		TEXT_TOOLTIP_SPACE_ARC_STOCK_WEAP2 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_slagorth.tga</Icon_Name>
+		
+		<Ranking_In_Category> 6 </Ranking_In_Category>
+		
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+
+		<CategoryMask> AntiCapital | SpaceHero </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, POWERED, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, ASTEROID_FIELD_DAMAGE, NEBULA</SpaceBehavior>
+		<Tech_Level>99</Tech_Level>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>6445</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_05 -->
+			<Combat_Bonus_Ability Name="Command_Tier_05_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_05_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.15</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
+			<Reduce_Production_Time_Ability Name="Agent_Tier_Slavelord_Reduce_Production_Time">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
+				<Stacking_Category>51</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			<Bounty_On_Faction_Ability Name="Agent_Tier_Slavelord_Destruction_Income_Bonus">
+				<Bounty_Percentage_Amount> 2 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<Target_Faction_Names> Rebel, Empire, Underworld, Hutt_Cartels, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians, Independent_Forces, Hostile </Target_Faction_Names>
+				<Apply_To_All_Allies> Yes </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Quince_Quinceys_Girl">
+		<Variant_Of_Existing_Type>Providence_Carrier</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_QUINCE</Text_ID>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_TRAIT_AGENT_TIER_SLAVELORD
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_QUINCE
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_QUINCEYS_GIRL
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_PROVIDENCE_CARRIER_HULL 
+		TEXT_TOOLTIP_PROVIDENCE_CARRIER_SHIELD 
+		TEXT_TOOLTIP_PROVIDENCE_CARRIER_MOVE 
+		TEXT_TOOLTIP_PROVIDENCE_SQUADRON
+		TEXT_TOOLTIP_PROVIDENCE_CARRIER_WEAP1
+		TEXT_TOOLTIP_PROVIDENCE_CARRIER_WEAP2
+		TEXT_TOOLTIP_PROVIDENCE_CARRIER_WEAP3
+		TEXT_TOOLTIP_PROVIDENCE_CARRIER_WEAP4
+		TEXT_TOOLTIP_PROVIDENCE_CARRIER_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_quince.tga</Icon_Name>
+		
+		<Ranking_In_Category> 6 </Ranking_In_Category>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Affiliation>Hutt_Cartels, Rebel</Affiliation>
+		<Tech_Level>99</Tech_Level>
+
+		<Build_Cost_Credits>4800</Build_Cost_Credits>
+
+		<CategoryMask> AntiFrigate | SpaceHero </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Required_Special_Structures>Pirate_Base </Required_Special_Structures>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>6445</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>    
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
+			<Reduce_Production_Time_Ability Name="Admin_Tier_Slavelord_Reduce_Production_Time">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
+				<Stacking_Category>51</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			<Bounty_On_Faction_Ability Name="Admin_Tier_Slavelord_Destruction_Income_Bonus">
+				<Bounty_Percentage_Amount> 2 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<Target_Faction_Names> Rebel, Empire, Underworld, Hutt_Cartels, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians, Independent_Forces, Hostile </Target_Faction_Names>
+				<Apply_To_All_Allies> Yes </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+		</Abilities>
+	</UniqueUnit>
+</Pirate_Heroes>
