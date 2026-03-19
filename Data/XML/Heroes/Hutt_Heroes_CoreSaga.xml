@@ -234,6 +234,8 @@
 		<CategoryMask> SpaceHero | AntiFighter | AntiBomber </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 and Agent_Tier_Hutt_Lord -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -374,6 +376,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_05 -->
 			<Combat_Bonus_Ability Name="Command_Tier_05_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -458,6 +462,8 @@
 		<CategoryMask> SpaceHero | AntiFighter | AntiBomber </CategoryMask>
 		<Property_Flags>DoKite | GTSImmune | HealsVehicles</Property_Flags>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -625,6 +631,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 and Agent_Tier_Hutt_Lord -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -751,6 +759,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 and Agent_Tier_Hutt_Lord -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -999,6 +1009,8 @@
 		<Reserve_Spawned_Units_Tech_0>KIMOGILA_SQUADRON_DOUBLE, 2</Reserve_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1097,6 +1109,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 and Agent_Tier_Hutt_Lord -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1261,6 +1275,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 and Agent_Tier_Hutt_Lord -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1478,6 +1494,8 @@
 		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
 
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 and Agent_Tier_Hutt_Lord -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1697,6 +1715,8 @@
 		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
 
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1893,6 +1913,8 @@
 
 		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>

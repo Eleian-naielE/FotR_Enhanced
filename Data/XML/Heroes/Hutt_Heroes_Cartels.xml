@@ -58,6 +58,8 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Hutt_Hero</Highlight_Blob_Material_Name>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 and Agent_Tier_Kajidii --> <!-- Has stealth for mission purposes -->
 			<Galactic_Stealth_Ability Name="Stealth_Operative_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
@@ -253,6 +255,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 and Agent_Tier_Kajidii -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -397,7 +401,6 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>-->
-
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Admin_01 -->
 			<Reduce_Production_Price_Ability Name="Admin_Tier_Admin_01_Reduce_Production_Price">
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -577,6 +580,8 @@
 		<Starting_Spawned_Units_Tech_0>Hutt_Starhawk, 8</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 and Agent_Tier_Hutt_Lord -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -735,6 +740,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 and Agent_Tier_Kajidii -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -839,6 +846,8 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Hutt_Boss </SFXEvent_Attack_Hardpoint>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 and Agent_Tier_Hutt_Lord -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -976,6 +985,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>

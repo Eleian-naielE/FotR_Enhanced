@@ -406,22 +406,22 @@
 		<Max_Speed>3.25</Max_Speed>
 
 		<HardPoints>
-		HP_Munificent_Bay, 
-		HP_Munificent_Turbo_LD_01, 
-		HP_Munificent_Turbo_LD_02, 
-		HP_Munificent_Turbo_LD_03, 
-		HP_Munificent_Turbo_LD_04, 
-		HP_Munificent_Turbo_LS_01,
-		HP_Munificent_Turbo_LS_02, 
-		HP_Munificent_Laser_LS_01, 
-		HP_Munificent_Laser_LS_02, 
-		HP_Munificent_Laser_LS_03,
-		HP_Munificent_Laser_LS_04,
-		HP_Munificent_Turbo_UH_01,
-		HP_Munificent_Ion_HD_01,
-		HP_Munificent_Hero_01,
-		HP_Munificent_Hero_02,
-		HP_Munificent_Engines
+			HP_Munificent_Bay, 
+			HP_Munificent_Turbo_LD_01, 
+			HP_Munificent_Turbo_LD_02, 
+			HP_Munificent_Turbo_LD_03, 
+			HP_Munificent_Turbo_LD_04, 
+			HP_Munificent_Turbo_LS_01,
+			HP_Munificent_Turbo_LS_02, 
+			HP_Munificent_Laser_LS_01, 
+			HP_Munificent_Laser_LS_02, 
+			HP_Munificent_Laser_LS_03,
+			HP_Munificent_Laser_LS_04,
+			HP_Munificent_Turbo_UH_01,
+			HP_Munificent_Ion_HD_01,
+			HP_Munificent_Hero_01,
+			HP_Munificent_Hero_02,
+			HP_Munificent_Engines
 		</HardPoints>
 
 		<Destruction_Survivors> 
@@ -462,6 +462,8 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -641,6 +643,8 @@
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -777,6 +781,8 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

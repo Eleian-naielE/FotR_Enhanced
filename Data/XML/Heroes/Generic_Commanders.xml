@@ -42,6 +42,8 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
@@ -100,6 +102,8 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
@@ -160,6 +164,8 @@
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -215,6 +221,8 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
@@ -275,6 +283,8 @@
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -333,6 +343,8 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
@@ -402,6 +414,8 @@
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -469,6 +483,8 @@
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -527,6 +543,8 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -587,6 +605,8 @@
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -646,6 +666,8 @@
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -703,6 +725,8 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -765,6 +789,8 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -853,6 +879,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -980,6 +1008,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1061,6 +1091,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1189,6 +1221,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1263,6 +1297,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1398,6 +1434,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1472,6 +1510,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1606,6 +1646,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1675,6 +1717,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1802,6 +1846,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1870,6 +1916,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1998,6 +2046,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2068,6 +2118,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2195,6 +2247,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2263,6 +2317,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2390,6 +2446,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2461,6 +2519,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2585,6 +2645,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2716,6 +2778,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2923,6 +2987,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3050,6 +3116,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3118,6 +3186,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3245,6 +3315,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3315,6 +3387,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3444,6 +3518,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3522,6 +3598,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3670,6 +3748,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3743,6 +3823,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3874,6 +3956,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4005,6 +4089,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4137,6 +4223,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4261,6 +4349,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4408,6 +4498,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4515,6 +4607,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -4590,6 +4684,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -4648,6 +4744,8 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
@@ -4712,6 +4810,8 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
@@ -4819,6 +4919,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -4876,6 +4978,8 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
@@ -4935,6 +5039,8 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -4997,6 +5103,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -5053,6 +5161,8 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -5113,6 +5223,8 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -5175,6 +5287,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -5232,6 +5346,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -5288,6 +5404,8 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -5369,6 +5487,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -5494,6 +5614,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -5570,6 +5692,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -5702,6 +5826,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -5785,6 +5911,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -5910,6 +6038,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -6207,6 +6337,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -6337,6 +6469,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -6473,6 +6607,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -6602,6 +6738,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -6746,6 +6884,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -6875,6 +7015,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -7002,6 +7144,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -7125,6 +7269,8 @@
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -7183,6 +7329,8 @@
 
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
@@ -7257,6 +7405,8 @@
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -7313,6 +7463,8 @@
 
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
@@ -7371,6 +7523,8 @@
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -7428,6 +7582,8 @@
 
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
@@ -7488,6 +7644,8 @@
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -7542,6 +7700,8 @@
 
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
@@ -7600,6 +7760,8 @@
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -7657,6 +7819,8 @@
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -7713,6 +7877,8 @@
 
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -7775,6 +7941,8 @@
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -7832,6 +8000,8 @@
 
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -7892,6 +8062,8 @@
 
 		<Affiliation>Hutt_Cartels</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -7980,6 +8152,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -8108,6 +8282,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -8182,6 +8358,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -8315,6 +8493,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -8384,6 +8564,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -8514,6 +8696,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -8577,6 +8761,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -8703,6 +8889,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -8778,6 +8966,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -8938,6 +9128,8 @@
 				<Type>FOW_REVEAL_PING</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Commander_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -9008,6 +9200,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -9135,6 +9329,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -9259,6 +9455,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -9373,6 +9571,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -9501,6 +9701,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -9622,6 +9824,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -9746,6 +9950,8 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
