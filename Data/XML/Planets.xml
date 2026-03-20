@@ -57241,7 +57241,7 @@
         <Special_Structures_Land>5</Special_Structures_Land>
         <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
         
-        <Terrain>Temperate</Terrain>
+        <Terrain>Swamp</Terrain>
         <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
         <Land_Tactical_Map>_MOD_LAND_NABOO_THEED_TEMPERATE_URBAN.ted</Land_Tactical_Map>
         <Space_Tactical_Map>_MOD_SPACE_CIUTRIC_IV_CONTINENTAL_01_LOW_A.ted</Space_Tactical_Map>
@@ -57354,6 +57354,74 @@
         <Planet_Restricted_Unit_Categories></Planet_Restricted_Unit_Categories>
         <Planet_Restricted_Unit_Types/>
     </Planet>
+
+    <Planet Name="Merson">
+        <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MERSON</Text_ID>
+        <Encyclopedia_Text>TEXT_PLANET_LIGHT TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_REVOLT_OWNER TEXT_FACTION_INDEPENDENT_FORCES TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_PLANETARY_BONUS TEXT_PLANET_INFO_INFLUENCE_REWARD_NONE TEXT_PLANET_SEPARATOR TEXT_PLANET_INFO_BIOME_FOREST</Encyclopedia_Text>
+
+        <Galactic_Position>624, -20, 10</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_dagobah_low.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>1.45</Scale_Factor>
+        <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>50</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>11</Additional_Population_Capacity>
+
+        <Max_Space_Base>1</Max_Space_Base>
+        <Special_Structures_Land>4</Special_Structures_Land>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+        
+        <Terrain>Forest</Terrain>
+        <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
+        <Land_Tactical_Map>_MOD_LAND_GENERIC_PLAINS_SOUTH_TEMPERATE.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_PORUS_VIDA_MOUNTAIN_01_LOW_A.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map>_MOD_SPACE_PORUS_VIDA_MOUNTAIN_01_LOW_A.ted</Destroyed_Space_Tactical_Map>
+
+        <Describe_Population>TEXT_PLANET_INFO_COPHRIGIN_POPULATION</Describe_Population>
+        <Describe_Wildlife>TEXT_PLANET_INFO_COPHRIGIN_FAUNA</Describe_Wildlife>
+        <Describe_Terrain>TEXT_FACTION_INDEPENDENT_FORCES</Describe_Terrain>
+        <Describe_Weather>TEXT_PLANET_LIGHT</Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage>TEXT_PLANET_SHIPYARD_LEVEL</Describe_Advantage>
+        <Describe_History>TEXT_PLANET_INFO_MERSON_HISTORY</Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon>i_pa_weather_none.tga</Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon>i_button_space_station_one.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name>TEXT_PLANET_LIGHT</Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>Yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>yes</Pre_Lit>
+        <Show_Name>Yes</Show_Name>
+        <The_Force>Neutral</The_Force>
+        <Special_Structures_Space>99</Special_Structures_Space>
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+        <Planet_Restricted_Unit_Categories></Planet_Restricted_Unit_Categories>
+        <Planet_Restricted_Unit_Types/>
+    </Planet>
+
     <!--
     <Planet Name="Anzat"> Rocky, mountain, dirt looking
         <Text_ID></Text_ID>
@@ -57368,9 +57436,6 @@
     <Planet Name="Baldemnic">
         <Text_ID></Text_ID>
         <Galactic_Position></Galactic_Position>
-    </Planet>
-
-    <Planet Name="Merson">
     </Planet>
     -->
 </Planets>
