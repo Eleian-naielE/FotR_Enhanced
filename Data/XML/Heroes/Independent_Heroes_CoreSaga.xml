@@ -45,6 +45,8 @@ Nuso Esva - Quethold (it's unclear if he should be in FotR or not to me, but I g
 
         <Highlight_Blob_Material_Name>Highlight_CSA_Hero</Highlight_Blob_Material_Name> <!-- is there an IF icon? CSA seems closest if not -->
 		<Property_Flags> GTSImmune </Property_Flags>
+		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -145,6 +147,8 @@ Nuso Esva - Quethold (it's unclear if he should be in FotR or not to me, but I g
 		<CategoryMask> VehicleHero | AntiVehicle </CategoryMask>
 
         <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
+        
+        <Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
