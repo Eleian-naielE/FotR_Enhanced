@@ -726,8 +726,6 @@
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
 	
-		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
-	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -5404,8 +5402,6 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Property_Flags>GTSImmune</Property_Flags>
-	
-		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 	
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
