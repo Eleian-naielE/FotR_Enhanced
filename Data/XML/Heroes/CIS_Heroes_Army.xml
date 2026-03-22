@@ -2990,6 +2990,13 @@
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>1</Stacking_Category>
 			</Battlefield_Modifier_Ability>
+
+			<Bounty_On_Faction_Ability Name="Agent_Tier_Salvager_Destruction_Income_Bonus">
+				<Bounty_Percentage_Amount> 1 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<Target_Faction_Names> Rebel, Empire, Underworld, Hutt_Cartels, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians, Independent_Forces, Hostile </Target_Faction_Names>
+				<Apply_To_All_Allies> Yes </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
 		</Abilities>
 	</HeroUnit>
 	<HeroCompany Name="Dassyne_CA_Artillery_Team">

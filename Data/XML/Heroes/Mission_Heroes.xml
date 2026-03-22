@@ -103,6 +103,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -363,6 +365,8 @@
 				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -1506,6 +1510,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2034,6 +2040,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2208,12 +2216,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes">
-			<Sensor_Jamming_Ability Name="Slayke_Sensor_Jamming">
-				<Activation_Style> User_Input </Activation_Style>
-				<Owner_Particle_Effect>Sensor_Jamming_Effect_Infantry</Owner_Particle_Effect>
-			</Sensor_Jamming_Ability>
-		</Abilities>
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -2233,6 +2236,10 @@
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
+			<Sensor_Jamming_Ability Name="Slayke_Sensor_Jamming">
+				<Activation_Style> User_Input </Activation_Style>
+				<Owner_Particle_Effect>Sensor_Jamming_Effect_Infantry</Owner_Particle_Effect>
+			</Sensor_Jamming_Ability>
 		</Abilities>
 	</HeroUnit>
 
@@ -2391,6 +2398,8 @@
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Neimoidian_Lucrehulk</SFXEvent_Fleet_Move>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -3053,6 +3062,8 @@
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 and Agent_Tier_Syndicate_Head -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4696,6 +4707,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4865,6 +4878,8 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 + Cooperative equals Tier 04 with hero by itself -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">

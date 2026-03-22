@@ -168,6 +168,8 @@
 
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -384,6 +386,8 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -611,6 +615,8 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes">
 			<Galactic_Stealth_Ability Name="Bounty_Hunter_Galactic_Stealth">
@@ -841,6 +847,8 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes">
 			<Galactic_Stealth_Ability Name="Bounty_Hunter_Galactic_Stealth">
@@ -1202,6 +1210,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Bossk_Self_Heal">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1422,6 +1432,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Sensor_Jamming_Ability Name="HoundsTooth_Sensor_Jamming">
 				<Activation_Style> User_Input </Activation_Style>
@@ -1564,6 +1576,8 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes">
 			<Galactic_Stealth_Ability Name="Bounty_Hunter_Galactic_Stealth">
@@ -1813,6 +1827,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Galactic_Stealth_Ability Name="Bounty_Hunter_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
@@ -1956,6 +1972,8 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes">
 			<Galactic_Stealth_Ability Name="Boba_Fett_Galactic_Stealth">
@@ -2285,6 +2303,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Galactic_Stealth_Ability Name="Bounty_Hunter_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
@@ -2559,6 +2579,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2818,6 +2840,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 + Cooperative equals Tier 03 with hero by itself -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3355,6 +3379,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 and Agent_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3565,6 +3591,8 @@
 				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -3803,6 +3831,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4027,6 +4057,8 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Cavik_Toth</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">

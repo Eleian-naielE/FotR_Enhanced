@@ -205,6 +205,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -404,6 +406,8 @@
 				</GUI_Activated_Ability_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
@@ -734,6 +738,8 @@
 
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -944,6 +950,8 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -1286,6 +1294,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1459,6 +1469,8 @@
 				</GUI_Activated_Ability_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -1741,6 +1753,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2003,6 +2017,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 + Offense Focus -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2145,6 +2161,8 @@
 				<Alternate_Icon_Name>I_SA_ANTITANK_MINES.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
@@ -2471,6 +2489,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2650,6 +2670,8 @@
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -2985,6 +3007,8 @@
 
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3263,6 +3287,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_05 -->
 			<Combat_Bonus_Ability Name="Command_Tier_05_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3506,6 +3532,8 @@
 				</GUI_Activated_Ability_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_05 -->
 			<Combat_Bonus_Ability Name="Command_Tier_05_Combat_Bonus">
@@ -3834,6 +3862,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4008,6 +4038,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4295,6 +4327,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4489,6 +4523,8 @@
 				</GUI_Activated_Ability_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
@@ -4762,6 +4798,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4972,6 +5010,8 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -5263,6 +5303,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 + Intel Focus -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -5421,6 +5463,8 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 + Intel Focus -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
@@ -5668,6 +5712,8 @@
 
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -5849,6 +5895,8 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 + Cooperative equals Tier 04 with hero by itself -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -6180,6 +6228,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -6414,6 +6464,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -6606,6 +6658,8 @@
 		<Starting_Spawned_Units_Tech_2>Clonetrooper_Phase_One_Medic_Squad, 2</Starting_Spawned_Units_Tech_2>
 		<Starting_Spawned_Units_Tech_4>Clonetrooper_Phase_Two_Medic_Squad, 2</Starting_Spawned_Units_Tech_4>
 		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
@@ -6830,6 +6884,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -6961,6 +7017,8 @@
 				</GUI_Activated_Ability_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -7153,6 +7211,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -7341,6 +7401,8 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -7629,6 +7691,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -7823,6 +7887,8 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -8159,6 +8225,8 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
@@ -8936,6 +9004,8 @@
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
@@ -9727,6 +9797,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -9977,6 +10049,8 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivate/>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -10230,6 +10304,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_05 -->
 			<Combat_Bonus_Ability Name="Command_Tier_05_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -10438,6 +10514,8 @@
 				<Supports_Autofire>False</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_05 -->
 			<Combat_Bonus_Ability Name="Command_Tier_05_Combat_Bonus">
@@ -10753,6 +10831,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -10963,6 +11043,8 @@
 				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -11228,6 +11310,8 @@
 			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->			
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
@@ -11516,7 +11600,7 @@
 	</DummyStructure>
 	
 	<HeroUnit Name="Corr">
-	  <Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_CORR</Text_ID>
 		<Encyclopedia_Text>

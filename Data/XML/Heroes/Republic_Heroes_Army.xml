@@ -173,6 +173,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -430,6 +432,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 + Defense Focus + Infantry Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -666,6 +670,8 @@
 				</GUI_Activated_Ability_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 + Defense Focus + Infantry Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -931,6 +937,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 + Infantry_Specialization -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1122,6 +1130,8 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_Barrage_Rom_Mohc</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
@@ -1407,6 +1417,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1635,6 +1647,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1814,6 +1828,8 @@
 		<SFXEvent_Guard>Unit_Guard_Empire_Field</SFXEvent_Guard>
 		<SFXEvent_Group_Move>Unit_Group_Move_Empire_Field</SFXEvent_Group_Move>
 		<SFXEvent_Group_Attack>Unit_Group_Attack_Empire_Field</SFXEvent_Group_Attack>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 + Infantry Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
@@ -2008,6 +2024,8 @@
 				<Alternate_Icon_Name>i_sa_FORCE_CLOAK.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 + Offense Focus -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
@@ -2218,6 +2236,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2386,6 +2406,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2541,6 +2563,8 @@
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 + Defense Focus and Agent_Tier_Agent_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2693,6 +2717,8 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<CategoryMask> VehicleHero | AntiInfantry | AntiVehicle </CategoryMask>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus"> <!-- Command_Tier_04 + Arrogant + Reckless-->
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2931,6 +2957,8 @@
 				<SFXEvent_Target_Ability>Unit_Detonate_Rodian</SFXEvent_Target_Ability>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
@@ -3608,6 +3636,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3844,6 +3874,8 @@
 		<Starting_Spawned_Units_Tech_0>Storm_Cloud_Car, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -3973,6 +4005,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 + Defense Focus -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4081,6 +4115,8 @@
 		<SFXEvent_Guard>Unit_Guard_Empire_Field</SFXEvent_Guard>
 		<SFXEvent_Group_Move>Unit_Group_Move_Empire_Field</SFXEvent_Group_Move>
 		<SFXEvent_Group_Attack>Unit_Group_Attack_Empire_Field</SFXEvent_Group_Attack>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
