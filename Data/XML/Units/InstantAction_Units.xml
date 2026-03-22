@@ -5,7 +5,7 @@
 
 	<UpgradeObject Name="IA_Pursuer_Enforcement_Ship_Group">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -42,7 +42,7 @@
 
 	<UpgradeObject Name="IA_Gozanti_Cruiser_Group">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -79,7 +79,7 @@
 
 	<UpgradeObject Name="IA_Diamond_Frigate">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -115,7 +115,7 @@
 
 	<UpgradeObject Name="IA_Hardcell">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -150,7 +150,7 @@
 
 	<UpgradeObject Name="IA_Lupus_Missile_Frigate">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -185,7 +185,7 @@
 
 	<UpgradeObject Name="IA_Sabaoth_Frigate">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -220,7 +220,7 @@
 	
 	<UpgradeObject Name="IA_Sabaoth_Frigate_Spy">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -255,7 +255,7 @@
 
 	<UpgradeObject Name="IA_Sabaoth_Hex_Deployer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -293,7 +293,7 @@
 
 	<UpgradeObject Name="IA_C9979_Carrier">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -332,7 +332,7 @@
 
 	<UpgradeObject Name="IA_Munifex">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 200 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -369,7 +369,7 @@
 
 	<UpgradeObject Name="IA_Auxilia">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -408,7 +408,7 @@
 
 	<UpgradeObject Name="IA_Munificent">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 200 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -449,7 +449,7 @@
 
 	<UpgradeObject Name="IA_Recusant_Light_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -491,7 +491,7 @@
 
 	<UpgradeObject Name="IA_Captor">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -530,7 +530,7 @@
 
 	<UpgradeObject Name="IA_Sabaoth_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -571,7 +571,7 @@
 
 	<UpgradeObject Name="IA_Bulwark_I">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 180 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -609,7 +609,7 @@
 
 	<UpgradeObject Name="IA_DH_Omni">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -650,7 +650,7 @@
 
 	<UpgradeObject Name="IA_Providence_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -690,7 +690,7 @@
 
 	<UpgradeObject Name="IA_Providence_Carrier_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -732,7 +732,7 @@
 
 	<UpgradeObject Name="IA_Bulwark_II">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -769,7 +769,7 @@
 
 	<UpgradeObject Name="IA_Lucrehulk_Carrier">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -808,7 +808,7 @@
 
 	<UpgradeObject Name="IA_Lucrehulk_Battleship">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -847,7 +847,7 @@
 
 	<UpgradeObject Name="IA_Subjugator">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -889,7 +889,7 @@
 	
 	<UpgradeObject Name="IA_Devastation">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -935,7 +935,7 @@
 
 	<UpgradeObject Name="IA_Interceptor_III_Frigate">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -971,7 +971,7 @@
 
 	<UpgradeObject Name="IA_Action_VI_Support">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1008,7 +1008,7 @@
 
 	<UpgradeObject Name="IA_Hardcell_Tender">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1043,7 +1043,7 @@
 
 	<UpgradeObject Name="IA_Marauder_Cruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1080,7 +1080,7 @@
 
 	<UpgradeObject Name="IA_CIS_PDF_DHC">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1119,7 +1119,7 @@
 
 	<UpgradeObject Name="IA_CIS_DHC">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1159,7 +1159,7 @@
 	
 	<UpgradeObject Name="IA_Munificent_Transport">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 200 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1196,7 +1196,7 @@
 	
 	<UpgradeObject Name="IA_Munificent_Tender">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 200 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1236,7 +1236,7 @@
 	
 	<UpgradeObject Name="IA_Munificent_C3">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 200 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1281,7 +1281,7 @@
 	
 	<UpgradeObject Name="IA_Munificent_Heavy_Cruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 200 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1323,7 +1323,7 @@
 	
 	<UpgradeObject Name="IA_Storm_Fleet_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1361,7 +1361,7 @@
 
 	<UpgradeObject Name="IA_Lucrehulk_Core_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1400,7 +1400,7 @@
 
 	<UpgradeObject Name="IA_Providence_Carrier">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1442,7 +1442,7 @@
 
 	<UpgradeObject Name="IA_Recusant_Dreadnought">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1483,7 +1483,7 @@
 
 	<UpgradeObject Name="IA_Providence_Dreadnought">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1524,7 +1524,7 @@
 
 	<UpgradeObject Name="IA_Lucrehulk_Auxiliary">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1564,7 +1564,7 @@
 
 	<UpgradeObject Name="IA_Lucrehulk_Auxiliary_Control">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1607,7 +1607,7 @@
 	
 	<UpgradeObject Name="IA_Lucrehulk_Bulk_Cruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1645,7 +1645,7 @@
 	
 	<UpgradeObject Name="IA_Lucrehulk_Carrier_Control">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1693,7 +1693,7 @@
 
 	<UpgradeObject Name="IA_CR90">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1729,7 +1729,7 @@
 
 	<UpgradeObject Name="IA_DP20">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1766,7 +1766,7 @@
 
 	<UpgradeObject Name="IA_Charger_C70">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1804,7 +1804,7 @@
 
 	<UpgradeObject Name="IA_Pelta_Assault">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1842,7 +1842,7 @@
 
 	<UpgradeObject Name="IA_Arquitens">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1879,7 +1879,7 @@
 
 	<UpgradeObject Name="IA_Pelta_Support">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1915,7 +1915,7 @@
 
 	<UpgradeObject Name="IA_Carrack_Cruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1952,7 +1952,7 @@
 
 	<UpgradeObject Name="IA_Carrack_Cruiser_Lasers">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -1989,7 +1989,7 @@
 
 	<UpgradeObject Name="IA_REP_DHC">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2029,7 +2029,7 @@
 
 	<UpgradeObject Name="IA_Neutron_Star">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2066,7 +2066,7 @@
 
 	<UpgradeObject Name="IA_Acclamator_II">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2104,7 +2104,7 @@
 
 	<UpgradeObject Name="IA_Acclamator_I_Assault">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2145,7 +2145,7 @@
 
 	<UpgradeObject Name="IA_Acclamator_I_Carrier">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2185,7 +2185,7 @@
 
 	<UpgradeObject Name="IA_Victory_I_Star_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2224,7 +2224,7 @@
 
 	<UpgradeObject Name="IA_Victory_II_Star_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2263,7 +2263,7 @@
 
 	<UpgradeObject Name="IA_Victory_I_Fleet_Star_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2302,7 +2302,7 @@
 
 	<UpgradeObject Name="IA_Venator_Star_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2344,7 +2344,7 @@
 
 	<UpgradeObject Name="IA_Invincible_Cruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2383,7 +2383,7 @@
 
 	<UpgradeObject Name="IA_Imperator_Star_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2425,7 +2425,7 @@
 
 	<UpgradeObject Name="IA_Tector_Star_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2464,7 +2464,7 @@
 
 	<UpgradeObject Name="IA_Secutor_Star_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2506,7 +2506,7 @@
 
 	<UpgradeObject Name="IA_Maelstrom_Battlecruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2547,7 +2547,7 @@
 
 	<UpgradeObject Name="IA_Procurator_Battlecruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2585,7 +2585,7 @@
 
 	<UpgradeObject Name="IA_Praetor_I_Battlecruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2624,7 +2624,7 @@
 
 	<UpgradeObject Name="IA_Mandator_I_Dreadnought">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2668,7 +2668,7 @@
 
 	<UpgradeObject Name="IA_Mandator_II_Dreadnought">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2712,7 +2712,7 @@
 
 	<UpgradeObject Name="IA_Citadel_Cruiser_Group">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2749,7 +2749,7 @@
 
 	<UpgradeObject Name="IA_Customs_Corvette">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2784,7 +2784,7 @@
 
 	<UpgradeObject Name="IA_IPV1">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2820,7 +2820,7 @@
 
 	<UpgradeObject Name="IA_Class_C_Frigate">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2860,7 +2860,7 @@
 
 	<UpgradeObject Name="IA_Class_C_Support">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2899,7 +2899,7 @@
 
 	<UpgradeObject Name="IA_Victory_I_Frigate">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2936,7 +2936,7 @@
 
 	<UpgradeObject Name="IA_Galleon">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -2977,7 +2977,7 @@
 
 	<UpgradeObject Name="IA_CEC_Light_Cruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3014,7 +3014,7 @@
 
 	<UpgradeObject Name="IA_LAC">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3049,7 +3049,7 @@
 
 	<UpgradeObject Name="IA_Consular_Refit">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3085,7 +3085,7 @@
 
 	<UpgradeObject Name="IA_Lancer_Frigate_Prototype">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3120,7 +3120,7 @@
 
 	<UpgradeObject Name="IA_Starbolt">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3160,7 +3160,7 @@
 
 	<UpgradeObject Name="IA_PDF_DHC">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3199,7 +3199,7 @@
 
 	<UpgradeObject Name="IA_DHC_Carrier">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3239,7 +3239,7 @@
 
 	<UpgradeObject Name="IA_Imperial_DHC">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3280,7 +3280,7 @@
 
 	<UpgradeObject Name="IA_Gladiator_I">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3319,7 +3319,7 @@
 
 	<UpgradeObject Name="IA_Imperial_I_Frigate">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3359,7 +3359,7 @@
 	
 	<UpgradeObject Name="IA_Acclamator_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3399,7 +3399,7 @@
 
 	<UpgradeObject Name="IA_Acclamator_Battleship">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3440,7 +3440,7 @@
 	
 	<UpgradeObject Name="IA_Imperator_Star_Destroyer_Assault">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3484,7 +3484,7 @@
 
 	<UpgradeObject Name="IA_Venator_SPHA_T">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3537,7 +3537,7 @@
 
 	<UpgradeObject Name="IA_Light_Minstrel_Yacht">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3572,7 +3572,7 @@
 
 	<UpgradeObject Name="IA_Heavy_Minstrel_Yacht">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3608,7 +3608,7 @@
 
 	<UpgradeObject Name="IA_Raka_Freighter_Tender">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3644,7 +3644,7 @@
 
 	<UpgradeObject Name="IA_Kaloth_Battlecruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3682,7 +3682,7 @@
 
 	<UpgradeObject Name="IA_Juvard_Frigate">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3721,7 +3721,7 @@
 	
 	<UpgradeObject Name="IA_Hutt_Galleon">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3760,7 +3760,7 @@
 
 	<UpgradeObject Name="IA_Barabbula_Frigate">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3796,7 +3796,7 @@
 
 	<UpgradeObject Name="IA_Kossak_Frigate">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3834,7 +3834,7 @@
 
 	<UpgradeObject Name="IA_Ubrikkian_Cruiser_CW">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3871,7 +3871,7 @@
 
 	<UpgradeObject Name="IA_Tempest_Cruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3910,7 +3910,7 @@
 
 	<UpgradeObject Name="IA_Szajin_Cruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3948,7 +3948,7 @@
 
 	<UpgradeObject Name="IA_Karagga_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -3986,7 +3986,7 @@
 
 	<UpgradeObject Name="IA_Vontor_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4026,7 +4026,7 @@
 
 	<UpgradeObject Name="IA_Voracious_Carrier">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4064,7 +4064,7 @@
 
 	<UpgradeObject Name="IA_DorBulla_Warship">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4106,7 +4106,7 @@
 
 	<UpgradeObject Name="IA_Komrk_Gunship_Group">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4141,7 +4141,7 @@
 
 	<UpgradeObject Name="IA_Geonosian_Cruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4180,7 +4180,7 @@
 
 	<UpgradeObject Name="IA_Super_Transport_VI">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4218,7 +4218,7 @@
 	
 	<UpgradeObject Name="IA_Super_Transport_VI_Missile">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4252,7 +4252,7 @@
 	
 	<UpgradeObject Name="IA_Super_Transport_VII">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4291,7 +4291,7 @@
 	
 	<UpgradeObject Name="IA_Super_Transport_VII_Missile">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4324,7 +4324,7 @@
 
 	<UpgradeObject Name="IA_Super_Transport_XI">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4363,7 +4363,7 @@
 
 	<UpgradeObject Name="IA_Super_Transport_XI_Missile">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4398,7 +4398,7 @@
 
 	<UpgradeObject Name="IA_Neutron_Star_Mercenary">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4434,7 +4434,7 @@
 	
 	<UpgradeObject Name="IA_Space_ARC_Cruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4472,7 +4472,7 @@
 
 	<UpgradeObject Name="IA_Kuari_Princess_Liner">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4511,7 +4511,7 @@
 
 	<UpgradeObject Name="IA_Liberty_Liner">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4550,7 +4550,7 @@
 
 	<UpgradeObject Name="IA_Home_One_Type_Liner">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4588,7 +4588,7 @@
 
 	<UpgradeObject Name="IA_Tagge_Battlecruiser">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4631,7 +4631,7 @@
 
 	<UpgradeObject Name="IA_Umbaran_Frigate">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -4676,7 +4676,7 @@
 
 	<UpgradeObject Name="IA_Set_Empire">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel</Affiliation>
+		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>

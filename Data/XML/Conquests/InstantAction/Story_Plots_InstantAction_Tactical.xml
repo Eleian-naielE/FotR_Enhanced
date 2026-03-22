@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+
+<Story_Mode_Plots>
+	<Lua_Script>Script_InstantAction_Tactical</Lua_Script>
+	<Active_Plot>Conquests\InstantAction\Story_InstantAction_Tactical.xml</Active_Plot>
+
+	<Active_Plot>Conquests\Tactical\Story_Tactical_Universal_Space.xml</Active_Plot>
+</Story_Mode_Plots>

@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+	<Campaign Name="Campaign_InstantAction_Empire">
+		<Campaign_Set> Campaign_Set_InstantAction </Campaign_Set>
+		<Tutorial>false</Tutorial>
+		<Is_Listed>true</Is_Listed>
+		<Sort_Order>509</Sort_Order>
+
+		<Text_ID> TEXT_CAMPAIGN_HEADER_INSTANTACTION </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_INSTANTACTION </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model,
+			InstantAction
+		</Locations>
+
+		<Trade_Routes>
+		</Trade_Routes>
+
+		<Starting_Active_Player> Empire </Starting_Active_Player>
+
+		<Story_Name>
+			Empire, Conquests\InstantAction\Story_Plots_InstantAction_Galactic.xml
+		</Story_Name>
+
+		<AI_Player_Control>Banking_Clan, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Commerce_Guild, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
+		<AI_Player_Control>Hostile, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Rebel, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Sector_Forces, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Techno_Union, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Trade_Federation, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Underworld, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Empire, 900 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+	</Campaign>
+
+	<Campaign Name="Campaign_InstantAction_Hutt_Cartels">
+		<Campaign_Set> Campaign_Set_InstantAction </Campaign_Set>
+		<Tutorial>false</Tutorial>
+		<Is_Listed>true</Is_Listed>
+		<Sort_Order>509</Sort_Order>
+
+		<Text_ID> TEXT_CAMPAIGN_HEADER_INSTANTACTION </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_INSTANTACTION </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model,
+			InstantAction
+		</Locations>
+
+		<Trade_Routes>
+		</Trade_Routes>
+
+		<Starting_Active_Player> Hutt_Cartels </Starting_Active_Player>
+
+		<Story_Name>
+			Hutt_Cartels, Conquests\InstantAction\Story_Plots_InstantAction_Galactic.xml
+		</Story_Name>
+
+		<AI_Player_Control>Banking_Clan, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Commerce_Guild, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Empire, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Hostile, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, SandboxHuman</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Rebel, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Sector_Forces, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Techno_Union, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Trade_Federation, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Underworld, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Hutt_Cartels, 900 </Starting_Credits>
+		<Starting_Tech_Level> Hutt_Cartels, 3 </Starting_Tech_Level>
+		<Max_Tech_Level> Hutt_Cartels, 5 </Max_Tech_Level>
+	</Campaign>
+
+	<Campaign Name="Campaign_InstantAction_Rebel">
+		<Campaign_Set> Campaign_Set_InstantAction </Campaign_Set>
+		<Tutorial>false</Tutorial>
+		<Is_Listed>true</Is_Listed>
+		<Sort_Order>509</Sort_Order>
+
+		<Text_ID> TEXT_CAMPAIGN_HEADER_INSTANTACTION </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_INSTANTACTION </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model,
+			InstantAction
+		</Locations>
+
+		<Trade_Routes>
+		</Trade_Routes>
+
+		<Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Story_Name>
+			Rebel, Conquests\InstantAction\Story_Plots_InstantAction_Galactic.xml
+		</Story_Name>
+		
+		<AI_Player_Control>Banking_Clan, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Commerce_Guild, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Empire, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Hostile, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
+		<AI_Player_Control>Sector_Forces, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Techno_Union, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Trade_Federation, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+		<AI_Player_Control>Underworld, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Rebel, 900 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+	</Campaign>
+
+</Campaigns>

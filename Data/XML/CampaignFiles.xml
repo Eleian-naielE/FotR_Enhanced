@@ -70,4 +70,5 @@
 	<File>Conquests\Progressive\Known_Galaxy_Large_Era_5.xml</File>
 
 	<File>Conquests\Survival\Campaigns_Survival.xml</File>
+	<File>Conquests\InstantAction\Campaigns_InstantAction.xml</File> <!-- FotR_Enhanced -->
 </Campaign_Files>

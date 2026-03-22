@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" ?>
+<Story>
+	<!-- ================================================================= -->
+	<!-- ==================== Universal Event Templates ================== -->
+	<!-- ================================================================= -->
+
+	<Event Name="Template_Screen_Text">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SCREEN_TEXT</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Template_Generic_Speech">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GENERIC_SPEECH</Event_Param2>
+		<Reward_Type>SPEECH</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Cinematic_Speech">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NARRATIVE_SPEECH</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10></Reward_Param10>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Cinematic_Speech_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1></Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>
+		<Perpetual>true</Perpetual>
+		<Prereq>Template_Cinematic_Speech</Prereq>
+	</Event>
+	<Event Name="Template_Cinematic_Speech_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Perpetual>true</Perpetual>
+		<Prereq>Template_Cinematic_Speech_Remove_TExt</Prereq>
+	</Event>
+	<Event Name="Template_Multimedia">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MULTIMEDIA</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10></Reward_Param10>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Template_Generic_Event">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GENERIC_EVENT</Event_Param2>
+		<Reward_Type></Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Reward_Param3></Reward_Param3>
+		<Reward_Param4></Reward_Param4>
+		<Reward_Param5></Reward_Param5>
+		<Reward_Param6></Reward_Param6>
+		<Reward_Param7></Reward_Param7>
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10></Reward_Param10>
+		<Reward_Param11></Reward_Param11>
+		<Reward_Param12></Reward_Param12>
+		<Reward_Param13></Reward_Param13>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Set_Tech_Level">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SET_TECH_LEVEL</Event_Param2>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Switch_Sides">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SWITCH_SIDES</Event_Param2>
+		<Reward_Type>SWITCH_SIDES</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Switch_Sides_Listener">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SWITCH_SIDES</Event_Param2>
+		<Reward_Type>TRIGGER_AI</Reward_Type>
+		<Reward_Param1>SWITCH_SIDES_LISTENER</Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Switch_Control">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SWITCH_CONTROL</Event_Param2>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Position_Camera">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>POSITION_CAMERA</Event_Param2>
+		<Reward_Type>POSITION_CAMERA</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2>0,0,0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Victory_Event">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DECLARE_VICTORY</Event_Param2>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Template_Link_Tactical">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>LINK_TACTICAL</Event_Param2>
+		<Reward_Type>LINK_TACTICAL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Reward_Param3></Reward_Param3>
+		<Reward_Param4></Reward_Param4>
+		<Reward_Param5></Reward_Param5>
+		<Reward_Param6></Reward_Param6>
+		<Reward_Param7></Reward_Param7>
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10></Reward_Param10>
+		<Reward_Param11></Reward_Param11>
+		<Reward_Param12></Reward_Param12>
+		<Reward_Param13></Reward_Param13>
+		<Reward_Param14></Reward_Param14>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Load_Campaign">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CAMPAIGN_LOADING</Event_Param2>
+		<Reward_Type>LOAD_CAMPAIGN</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_New_Ability">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NEW_ABILITY</Event_Param2>
+		<Reward_Type>NEW_POWER_FOR_ALL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Remove_Ability">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REMOVE_ABILITY</Event_Param2>
+		<Reward_Type>REMOVE_POWER_FROM_ALL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Template_AI_Activation">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>AI_ACTIVATION</Event_Param2>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Disable_Retreat">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DISABLE_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Victory_Allowance">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VICTORY_ALLOWANCE</Event_Param2>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Reinforcement_Handler">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DISABLE_REINFORCEMENTS</Event_Param2>
+		<Reward_Type>DISABLE_REINFORCEMENTS</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Hide_Autoresolve">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HIDE_AUTORESOLVE</Event_Param2>
+		<Reward_Type>HIDE_AUTORESOLVE</Reward_Type>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Template_Objective_Sandbox_Set">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>OBJECTIVE_SANDBOX_SET</Event_Param2>
+		<Reward_Type>SET_SANDBOX_OBJECTIVES</Reward_Type>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Objective_Clean_Up">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>OBJECTIVE_CLEAN_UP</Event_Param2>
+		<Reward_Type>REMOVE_ALL_OBJECTIVES</Reward_Type>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Objective_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>OBJECTIVE_COMPLETE</Event_Param2>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Objective_Update">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>OBJECTIVE_UPDATE</Event_Param2>
+		<Reward_Type>UPDATE_OBJECTIVE</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Objective_Failed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>OBJECTIVE_FAILED</Event_Param2>
+		<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Objective_Remove">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REMOVE_OBJECTIVE</Event_Param2>
+		<Reward_Type>REMOVE_OBJECTIVE</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Objective_New">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ADD_OBJECTIVE</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<!-- ================================================================= -->
+	<!-- ================= Victory Point Event Templates ================= -->
+	<!-- ================================================================= -->
+
+	<Event Name="Capture_Victory_Speech">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CAPTURE_POINT_PRESENT</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_TACTICAL_EVENT_VICTORYPOINT</Reward_Param1>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Reward_Param2>20</Reward_Param2>
+	</Event>
+	<Event Name="Destroy_Enemy_Speech">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CAPTURE_POINT_NOT_PRESENT</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_TACTICAL_EVENT_DESTROYALL</Reward_Param1>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Reward_Param2>20</Reward_Param2>
+	</Event>  
+	<Event Name="Capture_Victory_Speech_Defender">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CAPTURE_POINT_PRESENT_DEFENDER</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_TACTICAL_EVENT_VICTORYPOINT_DEFENDER</Reward_Param1>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Reward_Param2>20</Reward_Param2>
+	</Event>
+	<Event Name="Destroy_Enemy_Speech_Defender">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CAPTURE_POINT_NOT_PRESENT_DEFENDER</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_TACTICAL_EVENT_DESTROYALL_DEFENDER</Reward_Param1>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Reward_Param2>20</Reward_Param2>
+	</Event> 
+</Story>

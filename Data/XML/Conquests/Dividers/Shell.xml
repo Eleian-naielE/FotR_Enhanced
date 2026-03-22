@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+	<Campaign Name="Sandbox_Shell_ProgressiveGC">
+		<Campaign_Set> Sandbox_Shell_Progressive </Campaign_Set>
+		<Sort_Order>1</Sort_Order>
+
+		<Text_ID> TEXT_CAMPAIGN_DIVIDER_HEADER_PROGRESSIVE</Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DIVIDER_DESCRIPTION_PROGRESSIVE </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model, 
+		</Locations>
+		<Trade_Routes>
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Coruscant </Home_Location>
+		<Home_Location> Empire, Bastion </Home_Location>
+
+		<Starting_Active_Player> Neutral </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\Tutorial\Tutorial_Story_Plots.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, SandBoxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+	</Campaign>
+
+	<Campaign Name="Sandbox_Shell_RegionalGC_Spacer">
+		<Campaign_Set> Sandbox_Shell_Regional_Spacer </Campaign_Set>
+		<Sort_Order>100</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_DIVIDER_BLANK</Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DIVIDER_BLANK </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model, 
+		</Locations>
+		<Trade_Routes>
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Coruscant </Home_Location>
+		<Home_Location> Empire, Bastion </Home_Location>
+
+		<Starting_Active_Player> Neutral </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\Tutorial\Tutorial_Story_Plots.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, SandBoxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+	</Campaign>
+	<Campaign Name="Sandbox_Shell_RegionalGC">
+		<Campaign_Set> Sandbox_Shell_Regionals </Campaign_Set>
+		<Sort_Order>101</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_DIVIDER_HEADER_REGIONAL</Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DIVIDER_DESCRIPTION_REGIONAL </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model, 
+		</Locations>
+		<Trade_Routes>
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Coruscant </Home_Location>
+		<Home_Location> Empire, Bastion </Home_Location>
+
+		<Starting_Active_Player> Neutral </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\Tutorial\Tutorial_Story_Plots.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, SandBoxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+	</Campaign>
+
+	<Campaign Name="Sandbox_Shell_HistoricalGC_Spacer">
+		<Campaign_Set> Sandbox_Shell_Historical_Spacer </Campaign_Set>
+		<Sort_Order>200</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_DIVIDER_BLANK</Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DIVIDER_BLANK </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model, 
+		</Locations>
+		<Trade_Routes>
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Coruscant </Home_Location>
+		<Home_Location> Empire, Bastion </Home_Location>
+
+		<Starting_Active_Player> Neutral </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\Tutorial\Tutorial_Story_Plots.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, SandBoxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+	</Campaign>
+	<Campaign Name="Sandbox_Shell_HistoricalGC">
+		<Campaign_Set> Sandbox_Shell_Historical </Campaign_Set>
+		<Sort_Order>201</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_DIVIDER_HEADER_HISTORICAL</Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DIVIDER_DESCRIPTION_HISTORICAL </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model, 
+		</Locations>
+		<Trade_Routes>
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Coruscant </Home_Location>
+		<Home_Location> Empire, Bastion </Home_Location>
+
+		<Starting_Active_Player> Neutral </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\Tutorial\Tutorial_Story_Plots.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, SandBoxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+	</Campaign>
+
+	<Campaign Name="Sandbox_Shell_InfinitiesGC_Spacer">
+		<Campaign_Set> Sandbox_Shell_Infinities_Spacer </Campaign_Set>
+		<Sort_Order>300</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_DIVIDER_BLANK</Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DIVIDER_BLANK </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model, 
+		</Locations>
+		<Trade_Routes>
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Coruscant </Home_Location>
+		<Home_Location> Empire, Bastion </Home_Location>
+
+		<Starting_Active_Player> Neutral </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\Tutorial\Tutorial_Story_Plots.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, SandBoxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+	</Campaign>
+	<Campaign Name="Sandbox_Shell_InfinitiesGC">
+		<Campaign_Set> Sandbox_Shell_Infinities </Campaign_Set>
+		<Sort_Order>301</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_DIVIDER_HEADER_INFINITY</Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DIVIDER_DESCRIPTION_INFINITY </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model, 
+		</Locations>
+		<Trade_Routes>
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Coruscant </Home_Location>
+		<Home_Location> Empire, Bastion </Home_Location>
+
+		<Starting_Active_Player> Neutral </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\Tutorial\Tutorial_Story_Plots.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, SandBoxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+	</Campaign>
+
+	<Campaign Name="Sandbox_Shell_InstantAction_Spacer">
+		<Campaign_Set> Sandbox_Shell_Infinities_Spacer </Campaign_Set>
+		<Sort_Order>500</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_DIVIDER_BLANK</Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DIVIDER_BLANK </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model, 
+		</Locations>
+		<Trade_Routes>
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Coruscant </Home_Location>
+		<Home_Location> Empire, Bastion </Home_Location>
+
+		<Starting_Active_Player> Neutral </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\Tutorial\Tutorial_Story_Plots.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, SandBoxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+	</Campaign>
+	<Campaign Name="Sandbox_Shell_InstantAction">
+		<Campaign_Set> Sandbox_Shell_Infinities </Campaign_Set>
+		<Sort_Order>501</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_DIVIDER_HEADER_INSTANTACTION</Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DIVIDER_DESCRIPTION_INSTANTACTION </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model, 
+		</Locations>
+		<Trade_Routes>
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Coruscant </Home_Location>
+		<Home_Location> Empire, Bastion </Home_Location>
+
+		<Starting_Active_Player> Neutral </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\Tutorial\Tutorial_Story_Plots.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, SandBoxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+	</Campaign>
+
+</Campaigns>

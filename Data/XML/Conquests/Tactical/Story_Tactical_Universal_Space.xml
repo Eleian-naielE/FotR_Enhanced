@@ -1,0 +1,995 @@
+﻿<?xml version="1.0" ?>
+<Story>
+	<!-- ================================================================= -->
+	<!-- ==================== Universal Event Templates ================== -->
+	<!-- ================================================================= -->
+
+	<Event Name="Template_Screen_Text">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SCREEN_TEXT</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Template_Generic_Speech">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GENERIC_SPEECH</Event_Param2>
+		<Reward_Type>SPEECH</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Cinematic_Speech">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NARRATIVE_SPEECH</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10></Reward_Param10>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Cinematic_Speech_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1></Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>
+		<Perpetual>true</Perpetual>
+		<Prereq>Template_Cinematic_Speech</Prereq>
+	</Event>
+	<Event Name="Template_Cinematic_Speech_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Perpetual>true</Perpetual>
+		<Prereq>Template_Cinematic_Speech_Remove_TExt</Prereq>
+	</Event>
+	<Event Name="Template_Multimedia">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MULTIMEDIA</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10></Reward_Param10>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Template_Generic_Event">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GENERIC_EVENT</Event_Param2>
+		<Reward_Type></Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Reward_Param3></Reward_Param3>
+		<Reward_Param4></Reward_Param4>
+		<Reward_Param5></Reward_Param5>
+		<Reward_Param6></Reward_Param6>
+		<Reward_Param7></Reward_Param7>
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10></Reward_Param10>
+		<Reward_Param11></Reward_Param11>
+		<Reward_Param12></Reward_Param12>
+		<Reward_Param13></Reward_Param13>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Set_Tech_Level">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SET_TECH_LEVEL</Event_Param2>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Switch_Control">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SWITCH_CONTROL</Event_Param2>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Switch_Sides">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SWITCH_SIDES</Event_Param2>
+		<Reward_Type>SWITCH_SIDES</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Switch_Sides_Listener">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SWITCH_SIDES</Event_Param2>
+		<Reward_Type>TRIGGER_AI</Reward_Type>
+		<Reward_Param1>SWITCH_SIDES_LISTENER</Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Position_Camera">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>POSITION_CAMERA</Event_Param2>
+		<Reward_Type>POSITION_CAMERA</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2>0,0,0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Victory_Event">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DECLARE_VICTORY</Event_Param2>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Link_Tactical">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>LINK_TACTICAL</Event_Param2>
+		<Reward_Type>LINK_TACTICAL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Reward_Param3></Reward_Param3>
+		<Reward_Param4></Reward_Param4>
+		<Reward_Param5></Reward_Param5>
+		<Reward_Param6></Reward_Param6>
+		<Reward_Param7></Reward_Param7>
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10></Reward_Param10>
+		<Reward_Param11></Reward_Param11>
+		<Reward_Param12></Reward_Param12>
+		<Reward_Param13></Reward_Param13>
+		<Reward_Param14></Reward_Param14>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Load_Campaign">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CAMPAIGN_LOADING</Event_Param2>
+		<Reward_Type>LOAD_CAMPAIGN</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_New_Ability">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NEW_ABILITY</Event_Param2>
+		<Reward_Type>NEW_POWER_FOR_ALL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Remove_Ability">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REMOVE_ABILITY</Event_Param2>
+		<Reward_Type>REMOVE_POWER_FROM_ALL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Template_AI_Activation">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>AI_ACTIVATION</Event_Param2>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Disable_Retreat">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DISABLE_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Victory_Allowance">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VICTORY_ALLOWANCE</Event_Param2>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Reinforcement_Handler">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DISABLE_REINFORCEMENTS</Event_Param2>
+		<Reward_Type>DISABLE_REINFORCEMENTS</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Hide_Autoresolve">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HIDE_AUTORESOLVE</Event_Param2>
+		<Reward_Type>HIDE_AUTORESOLVE</Reward_Type>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Template_Objective_Sandbox_Set">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>OBJECTIVE_SANDBOX_SET</Event_Param2>
+		<Reward_Type>SET_SANDBOX_OBJECTIVES</Reward_Type>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Objective_Clean_Up">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>OBJECTIVE_CLEAN_UP</Event_Param2>
+		<Reward_Type>REMOVE_ALL_OBJECTIVES</Reward_Type>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Objective_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>OBJECTIVE_COMPLETE</Event_Param2>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Objective_Update">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>OBJECTIVE_UPDATE</Event_Param2>
+		<Reward_Type>UPDATE_OBJECTIVE</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Objective_Failed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>OBJECTIVE_FAILED</Event_Param2>
+		<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Objective_Remove">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REMOVE_OBJECTIVE</Event_Param2>
+		<Reward_Type>REMOVE_OBJECTIVE</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Template_Objective_New">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ADD_OBJECTIVE</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<!-- ================================================================= -->
+	<!-- ======================= AI Control Events ======================= -->
+	<!-- ================================================================= -->
+
+	<Event Name="Reset_AI">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RESET_AI</Event_Param2>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Hostile</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+	</Event>
+
+	<Event Name="SWITCH_CONTROL_None1">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Rebel</Event_Param1>
+	</Event>
+	<Event Name="SWITCH_CONTROL_None2">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Empire</Event_Param1>
+	</Event>
+	<Event Name="SWITCH_CONTROL_None3">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>EmpireoftheHand</Event_Param1>
+	</Event>
+	<Event Name="SWITCH_CONTROL_None4">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Pirates</Event_Param1>
+	</Event>
+	<Event Name="SWITCH_CONTROL_None5">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Pentastar</Event_Param1>
+	</Event>
+	<Event Name="SWITCH_CONTROL_None7">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Hapes_Consortium</Event_Param1>
+	</Event>
+	<Event Name="SWITCH_CONTROL_None8">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Hostile</Event_Param1>
+	</Event>
+	<Event Name="SWITCH_CONTROL_None9">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Hutts</Event_Param1>
+	</Event>
+	<Event Name="SWITCH_CONTROL_None10">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Teradoc</Event_Param1>
+	</Event>
+
+	<!-- ========================================================================= -->
+	<!-- ======================== Disable Retreat Events ========================= -->
+	<!-- ========================================================================= -->
+	
+	<!-- Shared -->
+
+	<Event Name="Disable_Retreat_Rebel"> <!-- Sith Empire, Confederacy, New Republic -->
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Empire"> <!-- Galactic Republic, Galactic Republic, Galactic Empire -->
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Underworld"> <!-- Mandalorians, N/A, Yuuzhan Vong -->
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Underworld</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Hutt_Cartels">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Hutt_Cartels</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Chiss">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Chiss</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Killik_Hives">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Killik_Hives</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Hapes_Consortium">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Hapes_Consortium</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Sector_Forces">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Sector_Forces</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Mandalorians">	<!-- Non playable in FotR and TR -->
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Mandalorians</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<!-- Revan's Revenge -->
+
+	<Event Name="Disable_Retreat_Alsakan_Republic">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Hutts</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Eternal_Empire">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Pirates</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Krath">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Krath</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Mon_Cal_Kingdom">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Mon_Cal_Kingdom</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Rakata_Empire">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Rakata_Empire</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Sith_Warlords">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Sith_Warlords</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Tion_Hegemony">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Tion_Hegemony</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	
+	<!-- Fall of the Republic -->
+
+	<Event Name="Disable_Retreat_Banking_Clan">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Banking_Clan</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Commerce_Guild">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Commerce_Guild</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Techno_Union">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Techno_Union</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Trade_Federationm">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Trade_Federation</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<!-- Thrawn's Revenge -->
+
+	<Event Name="Disable_Retreat_Eriadu_Authority">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Eriadu_Authority</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Greater_Maldrood">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Greater_Maldrood</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Zsinj_Empire">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Zsinj_Empire</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Corellia">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Corellia</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Corporate_Sector">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Corporate_Sector</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Yevetha">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Yevetha</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_EmpireoftheHand">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>EmpireoftheHand</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_SsiRuuvi_Imperium">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>SsiRuuvi_Imperium</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Warlords">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Warlords</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Disable_Retreat_Imperial_Proteus">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Imperial_Proteus</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<!-- ======================================================================== -->
+	<!-- ======================== Enable Retreat Events ========================= -->
+	<!-- ======================================================================== -->
+
+	<!-- Shared -->
+
+	<Event Name="Enable_Retreat_Rebel"> <!-- Sith Empire, Confederacy, New Republic -->
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Empire"> <!-- Galactic Republic, Galactic Republic, Galactic Empire -->
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Underworld"> <!-- Mandalorians, N/A, Yuuzhan Vong -->
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Underworld</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Hutt_Cartels">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Hutt_Cartels</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Chiss">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Chiss</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Killik_Hives">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Killik_Hives</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Hapes_Consortium">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Hapes_Consortium</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Sector_Forces">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Sector_Forces</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Mandalorians">	<!-- Non playable in FotR and TR -->
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Mandalorians</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<!-- Revan's Revenge -->
+
+	<Event Name="Enable_Retreat_Alsakan_Republic">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Hutts</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Eternal_Empire">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Pirates</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Krath">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Krath</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Mon_Cal_Kingdom">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Mon_Cal_Kingdom</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Rakata_Empire">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Rakata_Empire</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Sith_Warlords">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Sith_Warlords</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Tion_Hegemony">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Tion_Hegemony</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	
+	<!-- Fall of the Republic -->
+
+	<Event Name="Enable_Retreat_Banking_Clan">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Banking_Clan</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Commerce_Guild">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Commerce_Guild</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Techno_Union">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Techno_Union</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Trade_Federationm">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Trade_Federation</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<!-- Thrawn's Revenge -->
+
+	<Event Name="Enable_Retreat_Eriadu_Authority">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Eriadu_Authority</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Greater_Maldrood">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Greater_Maldrood</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Zsinj_Empire">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Zsinj_Empire</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Corellia">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Corellia</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Corporate_Sector">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Corporate_Sector</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Yevetha">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Yevetha</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_EmpireoftheHand">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>EmpireoftheHand</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_SsiRuuvi_Imperium">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>SsiRuuvi_Imperium</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Warlords">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Warlords</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Retreat_Imperial_Proteus">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>YES_RETREAT</Event_Param2>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Imperial_Proteus</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<!-- ======================================================================= -->
+	<!-- ======================== Reinforcement Events ========================= -->
+	<!-- ======================================================================= -->
+
+	<Event Name="Disable_Reinforcements">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_REINFORCEMENTS</Event_Param2>
+		<Reward_Type>DISABLE_REINFORCEMENTS</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Close_Reinforcement_Window">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+		<Reward_Param1>r_close</Reward_Param1>
+		<Prereq>Disable_Reinforcements</Prereq>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Enable_Reinforcements">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ENABLE_REINFORCEMENTS</Event_Param2>
+		<Reward_Type>DISABLE_REINFORCEMENTS</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="Flash_Reinforcement_Button">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Reward_Type>FLASH_GUI</Reward_Type>
+		<Reward_Param1>b_reinforcement</Reward_Param1>
+		<Prereq>Raid_Objective_Complete</Prereq>
+	</Event>
+
+	<Event Name="Remove_Flash_Reinforcement_Button">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Prereq>Flash_Reinforcement_Button</Prereq>
+	</Event>
+
+	<!-- ==================================================================== -->
+	<!-- ======================== Raid Fleet Events ========================= -->
+	<!-- ==================================================================== -->
+
+	<Event Name="Retreat_Complete">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>RETREAT_COMPLETE</Event_Param1>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Hostile</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+	</Event>
+	<Event Name="Raid_Speech">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>START_SPEECH</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_DETECTED_FLEET</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+	</Event>
+	<Event Name="End_Raid_Speech">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>END_SPEECH</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_DETECTED_FLEET</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+	</Event>
+	<Event Name="Raid_Objective_Complete">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_TACTICAL_SECONDARY_SPACE_RAID</Reward_Param1>
+		<Prereq>Enable_Retreat_Rebel</Prereq>
+		<Prereq>Enable_Retreat_Empire</Prereq>
+		<Prereq>Enable_Retreat_Underworld</Prereq>
+		<Prereq>Enable_Retreat_Hutt_Cartels</Prereq>
+		<Prereq>Enable_Retreat_Chiss</Prereq>
+		<Prereq>Enable_Retreat_Killik_Hives</Prereq>
+		<Prereq>Enable_Retreat_Hapes_Consortium</Prereq>
+		<Prereq>Enable_Retreat_Sector_Forces</Prereq>
+		<Prereq>Enable_Retreat_Mandalorians</Prereq>
+		<Prereq>Enable_Retreat_Alsakan_Republic</Prereq>
+		<Prereq>Enable_Retreat_Eternal_Empire</Prereq>
+		<Prereq>Enable_Retreat_Krath</Prereq>
+		<Prereq>Enable_Retreat_Mon_Cal_Kingdom</Prereq>
+		<Prereq>Enable_Retreat_Rakata_Empire</Prereq>
+		<Prereq>Enable_Retreat_Sith_Warlords</Prereq>
+		<Prereq>Enable_Retreat_Tion_Hegemony</Prereq>
+		<Prereq>Enable_Retreat_Banking_Clan</Prereq>
+		<Prereq>Enable_Retreat_Commerce_Guild</Prereq>
+		<Prereq>Enable_Retreat_Techno_Union</Prereq>
+		<Prereq>Enable_Retreat_Trade_Federationm</Prereq>
+		<Prereq>Enable_Retreat_Eriadu_Authority</Prereq>
+		<Prereq>Enable_Retreat_Greater_Maldrood</Prereq>
+		<Prereq>Enable_Retreat_Zsinj_Empire</Prereq>
+		<Prereq>Enable_Retreat_Corporate_Sector</Prereq>
+		<Prereq>Enable_Retreat_Yevetha</Prereq>
+		<Prereq>Enable_Retreat_EmpireoftheHand</Prereq>
+		<Prereq>Enable_Retreat_SsiRuuvi_Imperium</Prereq>
+		<Prereq>Enable_Retreat_Warlords</Prereq>
+		<Prereq>Enable_Retreat_Imperial_Proteus</Prereq>
+	</Event>
+	<Event Name="Flash_Retreat_Button">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Reward_Type>FLASH_GUI</Reward_Type>
+		<Reward_Param1>b_retreat</Reward_Param1>
+		<Prereq>Raid_Objective_Complete</Prereq>
+	</Event>
+	<Event Name="Remove_Flash_Retreat_Button">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Prereq>Flash_Retreat_Button</Prereq>
+	</Event>
+</Story>
