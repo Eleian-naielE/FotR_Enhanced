@@ -57152,8 +57152,80 @@
 
     </Planet>
 
-    <!-- FotR_Enhanced -->
+<!-- FotR_Enhanced -->
 
+    <Planet Name="InstantAction"> <!-- Ported from TR, required for updated IA -->
+
+        <Text_ID>TEXT_OBJECT_STAR_SYSTEM_INSTANTACTION</Text_ID>
+        <Encyclopedia_Text></Encyclopedia_Text>
+
+        <Galactic_Position>20, -180, 0</Galactic_Position>
+
+        <Galactic_Model_Name>W_planet_asteroids.alo</Galactic_Model_Name>
+        <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+        <Scale_Factor>0.05</Scale_Factor>
+        <Name_Adjust>-12, -10, 0.1</Name_Adjust>
+
+        <Planet_Credit_Value>0.0</Planet_Credit_Value>
+        <Planet_Destroyed_Credit_Value>7.0</Planet_Destroyed_Credit_Value>
+        <Planet_Capture_Bonus_Reward></Planet_Capture_Bonus_Reward>
+        <Additional_Population_Capacity>60</Additional_Population_Capacity>
+
+        <Max_Space_Base>5.0</Max_Space_Base>
+        <Special_Structures_Land>5.0</Special_Structures_Land>
+        <Special_Structures_Space>99.0</Special_Structures_Space>
+        <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>  
+        
+        <Terrain>Urban</Terrain>
+        <Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+
+        <Land_Tactical_Map>_MOD_LAND_VIC_SULLUST_INDUSTRIAL_VOLCANIC.ted</Land_Tactical_Map>
+        <Space_Tactical_Map>_MOD_SPACE_BILBRINGI_ASTEROID_01_HIGH_SHIPYARDS_A.ted</Space_Tactical_Map>
+
+
+        <Describe_Population></Describe_Population>
+        <Describe_Wildlife></Describe_Wildlife>
+        <Describe_Terrain></Describe_Terrain>
+        <Describe_Weather></Describe_Weather>
+        <Describe_Tactical></Describe_Tactical>
+        <Describe_Advantage></Describe_Advantage>
+        <Describe_History></Describe_History>
+        <Native_Icon_Name></Native_Icon_Name>
+
+        <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+        <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
+        <Encyclopedia_Weather_Info></Encyclopedia_Weather_Info>
+
+        <Planet_Ability_Icon></Planet_Ability_Icon>
+        <Planet_Ability_Name></Planet_Ability_Name>
+        <Planet_Ability_Description></Planet_Ability_Description>
+
+        <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+        <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+        <Camera_Aligned>yes</Camera_Aligned>
+        <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Mass>1.0</Mass>
+        <Mouse_Collide_Override_Sphere_Radius> 9.77 </Mouse_Collide_Override_Sphere_Radius>
+        <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+        <Planet_Is_Destroyable_By_TSW>yes</Planet_Is_Destroyable_By_TSW>
+        <Planet_Retains_Residual_Influence>yes</Planet_Retains_Residual_Influence>
+        <Planet_Slice_Affinity_Types/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+        <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+        <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+        <Political_Control>0</Political_Control>
+        <Pre_Lit>No</Pre_Lit>
+        <Show_Name>No</Show_Name>
+        <The_Force>Neutral</The_Force>
+
+        <Planet_Restricted_Unit_Categories/>
+        <Planet_Restricted_Unit_Types/>
+
+    </Planet>
+    
+    <!-- Below needs in-depth property editing -->
+    
     <Planet Name="Maramere">
         <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MARAMERE</Text_ID>
         <Encyclopedia_Text>TEXT_PLANET_HEAVY TEXT_PLANET_SEPARATOR TEXT_PLANET_MINING_MINERALS TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_REVOLT_OWNER TEXT_FACTION_INDEPENDENT_FORCES TEXT_PLANET_SEPARATOR TEXT_PLANET_TOOLTIP_PLANETARY_BONUS TEXT_PLANET_INFO_INFLUENCE_REWARD_NONE TEXT_PLANET_SEPARATOR TEXT_PLANET_INFO_BIOME_TEMPERATE</Encyclopedia_Text>
