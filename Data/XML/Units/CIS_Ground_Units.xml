@@ -808,10 +808,13 @@
 		<Tactical_Bribe_Cost>525</Tactical_Bribe_Cost>
 		<Score_Cost_Credits>50</Score_Cost_Credits>
 
-		<LandBehavior>IDLE, WALK_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, SHIELDED, WEAPON, AMBIENT_SFX,UNIT_AI,TARGETING,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, SURFACE_FX, DEPLOY_TROOPERS</LandBehavior>
+		<LandBehavior>IDLE, WALK_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, SHIELDED, WEAPON, AMBIENT_SFX,UNIT_AI,TARGETING,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, SURFACE_FX, DEPLOY_TROOPERS, ABILITY_COUNTDOWN</LandBehavior>
 
-		<Deploys>No</Deploys>
+		<Deploys>Yes</Deploys>
 		<Auto_Deploys>No</Auto_Deploys>
+
+		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
+		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
 
 		<HardPoints>
 			HP_HMP_Missiles_1,
