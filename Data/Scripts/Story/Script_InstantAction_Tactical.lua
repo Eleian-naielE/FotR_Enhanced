@@ -42,6 +42,15 @@ function State_Setup_Start(message)
 		local event = plot.Get_Event("End_Battle")
 		event.Set_Reward_Parameter(0,humanPlayer.Get_Faction_Name())
 
+		ia_marker_target_pos = Find_First_Object("Attacker Entry Position")
+		ia_marker_faction_pos = Find_Hint("STORY_TRIGGER_ZONE_00", "instantaction-faction-switcher")
+
+		Create_Generic_Object("InstantAction_Marker_Target", ia_marker_target_pos.Get_Position(), humanPlayer)
+
+		if Find_Object_Type("icw") then
+			Create_Generic_Object("InstantAction_Marker_Faction", ia_marker_faction_pos.Get_Position(), humanPlayer)
+		end
+
 		for _, faction in pairs(CONSTANTS.ALL_FACTIONS_NOT_NEUTRAL) do
 			local faction_object = Find_Player(faction)
 			for _, second_faction in pairs(CONSTANTS.ALL_FACTIONS_NOT_NEUTRAL) do
