@@ -1,6 +1,6 @@
 Models
 - Oppo Rancisis : Complete Clone Wars Team
-- Umbaran Frigate(aka CIS Frigate) : Warbnull
+- Umbaran Frigate(aka CIS Frigate), Seismic Tank : Warbnull
 - padme_CW  : Toshi, Jeff, StingRay, Liberty Ashford, Mars Marshall(NeoMarz), z3r0x, Modding_noob
 
 
