@@ -38,7 +38,7 @@ function State_Setup_Start(message)
 	if message == OnEnter then
 		local humanPlayer = Find_Player("local")
 
-		local plot = Get_Story_Plot("Conquests\\InstantAction\\Story_InstantAction_Tactical.xml")
+		local plot = Get_Story_Plot("Conquests\\InstantAction\\Story_InstantAction_Ground_Tactical.xml")
 		local event = plot.Get_Event("End_Battle")
 		event.Set_Reward_Parameter(0,humanPlayer.Get_Faction_Name())
 

@@ -112,24 +112,6 @@
 		<Reward_Param2>5</Reward_Param2>
 		<Perpetual>true</Perpetual>
 	</Event>
-	
-	<Event Name="IA_Screentext_Factional_Fighters_On">
-		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-		<Event_Param2>AI_NOTIF_IA_FF_ON</Event_Param2>
-		<Reward_Type>SCREEN_TEXT</Reward_Type>
-		<Reward_Param1>Factional Fighters On</Reward_Param1>
-		<Reward_Param2>5</Reward_Param2>
-		<Perpetual>true</Perpetual>
-	</Event>
-	
-	<Event Name="IA_Screentext_Factional_Fighters_Off">
-		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-		<Event_Param2>AI_NOTIF_IA_FF_OFF</Event_Param2>
-		<Reward_Type>SCREEN_TEXT</Reward_Type>
-		<Reward_Param1>Factional Fighters Off</Reward_Param1>
-		<Reward_Param2>5</Reward_Param2>
-		<Perpetual>true</Perpetual>
-	</Event>
 
 	<Event Name="Flash_Movie_Button">
 		<Event_Type>STORY_ELAPSED</Event_Type>

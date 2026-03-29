@@ -541,4 +541,245 @@
 		<Space_Model_Name>C-type_thrustship.alo</Space_Model_Name>
 	</DummyStructure>
 
+	<!-- FotR_Enhanced ; Ground -->
+
+	<DummyStructure Name="InstantAction_Marker_Target_Ground">
+
+		<Text_ID>TEXT_UNIT_MARKER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NONE 
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_vigilance.tga</Icon_Name>
+
+		<Space_Model_Name>diamond_planet.alo</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.93</Scale_Factor>
+		<Select_Box_Scale>180</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Size_Value>120</Size_Value>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+
+		<Mass>0.9995</Mass>
+		<Max_Speed>60</Max_Speed>
+		<Max_Thrust>3</Max_Thrust>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>5</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+		<Shield_Points>700</Shield_Points>
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_Frigate </Armor_Type>
+		<Tactical_Health>700</Tactical_Health>
+
+		<Energy_Capacity>1500</Energy_Capacity>
+		<Energy_Refresh_Rate>350</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>130</AI_Combat_Power>
+		<Damage>25</Damage>
+
+		<Affiliation>Underworld</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<Ship_Class>corvette</Ship_Class>
+		<CategoryMask> Fighter </CategoryMask>
+		<Ranking_In_Category>7</Ranking_In_Category>
+		<Property_Flags/>
+		<Formation_Priority>3</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>no</Surface_Bombardment_Capable>
+		<Squadron_Capacity>0</Squadron_Capacity>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>750</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 1350</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+		<Space_Override_Population_Value/>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN,SIMPLE_SPACE_LOCOMOTOR, REVEAL, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+
+		<HardPoints>
+
+		</HardPoints>
+
+		<Lua_Script/>
+
+		<Target_Bones>Target_00</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>EHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name/>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>1.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>400.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set/>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass>Space</MovementClass>
+		<Space_Layer> Corvette </Space_Layer>
+		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<MovementClass> Space </MovementClass>
+		<Death_Clone>Damage_Normal, Small_Explosion_Space</Death_Clone>
+		<Space_FOW_Reveal_Range>24000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2700.0</Targeting_Max_Attack_Distance>
+		<Transport_Capacity>6</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2700.0</Targeting_Max_Attack_Distance>
+		<MovementClass> Space </MovementClass>
+		<Unit_Abilities_Data SubObjectList="Yes">
+		 <Unit_Ability>
+			 <Type>STEALTH</Type>
+			 <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+			 <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+			 <GUI_Activated_Ability_Name>Stealth_Symbol</GUI_Activated_Ability_Name> 
+			 <Recharge_Seconds>15.0</Recharge_Seconds>
+			 <Expiration_Seconds>10000000000.0</Expiration_Seconds>
+			 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Stealth_On_Vengeance_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
+			 <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Stealth_Off_Vengeance_Frigate</SFXEvent_GUI_Unit_Ability_Deactivated>
+			 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+		 </Unit_Ability>
+
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes">
+			<Stealth_Ability Name="Stealth_Symbol">
+				<Activation_Style> Space_Automatic </Activation_Style>
+				<Stealth_Color>255, 255, 255, 255</Stealth_Color>
+				<Stealth_Transition_Time>.5</Stealth_Transition_Time>
+				<SFXEvent_Activate/>
+				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+			</Stealth_Ability>
+		</Abilities>
+	</DummyStructure>
+
+	<UniqueUnit Name="Cheat_Ground_Unit">
+		<Variant_Of_Existing_Type>Partisan_Ewok_Warrior</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_CHEAT_STEVE</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CHEAT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CHEAT_UNIT</Encyclopedia_Text>
+		<Icon_Name>i_button_cheat_unit.tga</Icon_Name>
+
+		<Scale_Factor>20</Scale_Factor>
+		<Select_Box_Scale>10</Select_Box_Scale>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .40 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+
+		<Max_Speed>10.0</Max_Speed>
+		<OverrideAcceleration> 5.0 </OverrideAcceleration>
+		<OverrideDeceleration> 5.0 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<Shield_Armor_Type>ShieldG_HeavyVehicle</Shield_Armor_Type>
+		<Shield_Points>100000</Shield_Points>
+		<Shield_Refresh_Rate>10000</Shield_Refresh_Rate>
+		<Armor_Type> ArmourG_HeavyVehicle </Armor_Type>
+		<Tactical_Health>100000</Tactical_Health>
+
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<CategoryMask>InfantryHero</CategoryMask>
+		<Victory_Relevant>Yes</Victory_Relevant>
+
+		<LandBehavior>ABILITY_COUNTDOWN, SELF_DESTRUCT, SHIELDED, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI</LandBehavior>
+
+		<HardPoints>
+			HP_Cheat_Ground_Unit_AI,HP_Cheat_Ground_Unit_AV,
+			HP_Cheat_Ground_Unit_AI,HP_Cheat_Ground_Unit_AV,
+			HP_Cheat_Ground_Unit_AI,HP_Cheat_Ground_Unit_AV,
+			HP_Cheat_Ground_Unit_AI,HP_Cheat_Ground_Unit_AV,
+		</HardPoints>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, null</SFXEvent_Hardpoint_Destroyed>
+
+		<Is_Squashable> No </Is_Squashable>
+		<Is_Supercrusher>Yes</Is_Supercrusher>
+		<Is_Sellable>Sellable_Always</Is_Sellable>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Create_Team>No</Create_Team>
+
+		<Land_FOW_Reveal_Range>10000</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantryVehicle</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>0.1</Targeting_Stickiness_Time_Threshold>
+
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+
+		<Unique_Space_Unit>Cheat_Space_Unit</Unique_Space_Unit>
+		<Is_Named_Hero>True</Is_Named_Hero>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>1</Expiration_Seconds>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</UniqueUnit>
+
 </Dummy_Structures>
