@@ -9962,7 +9962,7 @@
 	</Container>
 
 
-	<GroundInfantry Name="B2_Droid">
+	<GroundInfantry Name="B2_Droid"> <!-- FotR_Enhanced ; LANDING Behavior added -->
 
 		<Text_ID>TEXT_UNIT_B2_BATTLE_DROID</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
