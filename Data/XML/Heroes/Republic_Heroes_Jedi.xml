@@ -14809,7 +14809,7 @@
 			SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, TARGETING, 
 			WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, 
 			IMPOSING_PRESENCE, VEHICLE_THIEF,  
-		</LandBehavior> <!-- Consider ; imposing presence -->
+		</LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -14857,7 +14857,7 @@
 		<Size_Value>10</Size_Value>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points> 
-		<Tactical_Health>240</Tactical_Health> <!-- Update -->
+		<Tactical_Health>200</Tactical_Health> <!-- Update -->
 		<Damage>100</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -14867,7 +14867,7 @@
 
 		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
 		<Projectile_Types> Proj_Lightsaber </Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>0.1</Projectile_Fire_Recharge_Seconds> <!-- Consider -->
+		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds> <!-- Consider -->
 		<Projectile_Appearance_Delay_Frames> 20 </Projectile_Appearance_Delay_Frames>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
