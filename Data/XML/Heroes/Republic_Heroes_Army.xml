@@ -4247,7 +4247,7 @@
 	</HeroCompany>
 
 	<HeroUnit Name="Bail_Organa">
-		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_BAIL_ORGANA</Text_ID>
 		<Encyclopedia_Text>
@@ -4255,14 +4255,65 @@
 		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SENATOR
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BAIL_ORGANA_CW
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BAIL_ORGANA_CW_HEALTH
+		TEXT_TOOLTIP_BAIL_ORGANA_CW_MOVE
+		TEXT_TOOLTIP_BAIL_ORGANA_CW_WEAP1
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_BAIL_ORGANA_ADMIN.tga</Icon_Name>
-		
-		<Affiliation>Empire</Affiliation>
+
+		<Land_Model_Name>Bail_Organa.alo</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Bail_Organa.ALO,
+			Urban, 				Bail_Organa_Cape.ALO,
+			Arctic, 			Bail_Organa_Cape.ALO,
+			Volcanic, 			Bail_Organa.ALO,
+			Desert, 			Bail_Organa_Cape.ALO,
+			Forest, 			Bail_Organa.ALO,
+			Swamp, 				Bail_Organa.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>Bail_Organa.alo</Land_Model_Anim_Override_Name>
+
 		<Ranking_In_Category> 4 </Ranking_In_Category>
+
+		<CategoryMask> Organic </CategoryMask>
+
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>1.0</Max_Speed>
+		<Min_Speed> .1 </Min_Speed>
+		<OverrideAcceleration> 1.0 </OverrideAcceleration>
+		<OverrideDeceleration> 1.0 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<Tactical_Health>140</Tactical_Health>
+
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Type>Walk</Type>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Political_Faction>Empire</Political_Faction>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<Required_Special_Structures />
+		<Required_Planets />
+		<IsBuildable>No</IsBuildable>
+		<Size_Value>75</Size_Value>
+		<Damage>100</Damage>
+		<AI_Combat_Power>1</AI_Combat_Power>
+
+		<Neutralization_Cost>1000.0</Neutralization_Cost>
+
+		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
+
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Senator -->
 			<Reduce_Production_Price_Ability Name="Admin_Tier_Senator_Reduce_Production_Price">
@@ -4294,8 +4345,13 @@
 		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SENATOR
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_BAIL_ORGANA_CW
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BAIL_ORGANA_CW_HEALTH
+		TEXT_TOOLTIP_BAIL_ORGANA_CW_MOVE
+		TEXT_TOOLTIP_BAIL_ORGANA_CW_WEAP1
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_BAIL_ORGANA_ADMIN.tga</Icon_Name>
@@ -4304,6 +4360,17 @@
 		<Company_Units>Bail_Organa</Company_Units>
 
 		<Affiliation>Empire</Affiliation>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>1</Damage>
+		<Tech_Level>99</Tech_Level>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
