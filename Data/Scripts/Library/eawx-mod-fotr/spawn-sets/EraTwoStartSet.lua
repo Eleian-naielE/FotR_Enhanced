@@ -5,7 +5,7 @@ return {
 	jedi = 4
 	]]
 	["EMPIRE"] = {
-		["CORUSCANT"] = {"Mace_Windu_Delta_Team", "Pestage_Team"},
+		["CORUSCANT"] = {"Mace_Windu_Delta_Team", "Pestage_Team", "Ponds_Early_Team"},
 		["KAMINO"] = {"Delta_Squad", "Shaak_Ti_Delta_Team", "Ordo_Skirata_Team"},
 		["ANAXES"] = {"Tallon_Sundiver", "COMMANDER_71", --[["Geen_Team"]]}, -- FotR_Enhanced
 		["ALDERAAN"] = {"Josef_Grunger_Team"}, -- FotR_Enhanced
