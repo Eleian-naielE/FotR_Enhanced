@@ -6851,8 +6851,8 @@
 			<Unit_Ability>
 				<Type>LURE</Type>
 
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PRESS_ON_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PRESS_ON_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_HOLD_POSITION_VEHICLE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_HOLD_POSITION_VEHICLE_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_ASSAULT.tga</Alternate_Icon_Name> <!-- I_SA_BERSERKER? -->
 				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
 					 Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
@@ -6866,7 +6866,7 @@
 				<Is_Pulsing>Yes</Is_Pulsing>
 				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
 				<Max_Number_Of_Pulses>50</Max_Number_Of_Pulses>
-				<Particle_Effect>PRESS_ON_Ground_Ability_Particle</Particle_Effect>
+				<Particle_Effect>HOLD_POSITION_VEHICLE_Ground_Ability_Particle</Particle_Effect>
 
 				<Supports_Autofire>False</Supports_Autofire>
 			</Unit_Ability>
@@ -6905,6 +6905,42 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</Herounit>
+
+	<HeroCompany Name="Ponds_Early_Team">
+		<Text_ID>TEXT_HERO_PONDS_EARLY</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PONDS_EARLY
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PONDS_P1_HEALTH
+		TEXT_TOOLTIP_PONDS_P1_MOVE
+		TEXT_TOOLTIP_PONDS_WEAP1f
+		TEXT_TOOLTIP_PONDS_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_PONDS_EARLY.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Population_Value>1</Population_Value>
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft_Ponds_Early</Company_Transport_Unit>
+		<Company_Units>Ponds_Early</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Alpha_17</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Alpha_17</SFXEvent_Fleet_Move>
+	</HeroCompany>
 
 	<HeroUnit Name="Ponds">
 		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
@@ -7039,42 +7075,6 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
-
-	<HeroCompany Name="Ponds_Early_Team">
-		<Text_ID>TEXT_HERO_PONDS_EARLY</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_PONDS_EARLY
-		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_P1_PLATOON
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_PONDS_P1_HEALTH
-		TEXT_TOOLTIP_PONDS_P1_MOVE
-		TEXT_TOOLTIP_PONDS_WEAP1
-		TEXT_TOOLTIP_PONDS_WEAP2
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_PONDS_EARLY.tga</Icon_Name>
-		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Population_Value>1</Population_Value>
-		<Affiliation>Empire</Affiliation>
-		<Tech_Level>99</Tech_Level>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft_Ponds_Early</Company_Transport_Unit>
-		<Company_Units>Ponds_Early</Company_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
-		
-		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Alpha_17</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Alpha_17</SFXEvent_Fleet_Move>
-	</HeroCompany>
 
 
 <!-- Special Forces -->
