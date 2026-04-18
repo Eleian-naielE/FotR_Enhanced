@@ -19120,7 +19120,7 @@
 	</SFXEvent>
 
 
-<!-- FotR_Enhanced ; Umbaran Starfighter ported from TR 3.5 -->
+<!-- FotR_Enhanced -->
 
 	<!--***********************************************************-->
 	<!--***********************Lorth Needa*************************-->
@@ -19156,6 +19156,7 @@
 		<Overlap_Test> Unit_Lorth_Needa </Overlap_Test>
 	</SFXEvent>
 
+	<!-- Ported from TR 3.5 -->
 
 	<!--***********************************************************-->
     <!--********************Umbaran Fighters***********************-->
