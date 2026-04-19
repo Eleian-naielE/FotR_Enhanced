@@ -110,11 +110,16 @@ function State_Init(message)
 		or Find_First_Object("Barriss_Offee") or Find_First_Object("Barriss_Offee2")
 		then
 			clone_skin = 7
+		elseif Find_First_Object("Adi_Gallia") or Find_First_Object("Adi_Gallia2")
+		or Find_First_Object("Stass_Allie") or Find_First_Object("Stass_Allie2")
+		or Find_First_Object("Ponds") or Find_First_Object("Neyo2")
+		then
+			clone_skin = 8
 		end
 
-		if clone_skin >= 8 then
+		if clone_skin >= 9 then
 			time_interval = 1
-			if clone_skin == 9 then
+			if clone_skin == 10 then
 				time_interval = 10
 			end
 			clone_skin = Simple_Mod(Dirty_Floor(GetCurrentTime()/time_interval),8)
@@ -211,6 +216,19 @@ function State_Init(message)
 			Hide_Sub_Object(Object, 0, "helmet_41_LOD1")
 			Hide_Sub_Object(Object, 0, "head_41_LOD0")
 			Hide_Sub_Object(Object, 0, "head_41_LOD1")
+		elseif clone_skin == 8 then
+			Hide_Sub_Object(Object, 1, "body_LOD0")
+			Hide_Sub_Object(Object, 1, "body_LOD1")
+			Hide_Sub_Object(Object, 1, "helmet_LOD0")
+			Hide_Sub_Object(Object, 1, "helmet_LOD1")
+			Hide_Sub_Object(Object, 1, "head_LOD0")
+			Hide_Sub_Object(Object, 1, "head_LOD1")
+			Hide_Sub_Object(Object, 0, "body_91_LOD0")
+			Hide_Sub_Object(Object, 0, "body_91_LOD1")
+			Hide_Sub_Object(Object, 0, "helmet_91_LOD0")
+			Hide_Sub_Object(Object, 0, "helmet_91_LOD1")
+			Hide_Sub_Object(Object, 0, "head_91_LOD0")
+			Hide_Sub_Object(Object, 0, "head_91_LOD1")
 		end
 		ScriptExit()
 	end
