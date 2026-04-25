@@ -64,6 +64,10 @@ function State_Init(message)
 	 			if contain_check ~= nil then
 					clone_skin = 7
 				end
+				contain_check = string.find(object_name, "91st")
+	 			if contain_check ~= nil then
+					clone_skin = 8
+				end
 				break
 			end
 		end
@@ -113,7 +117,7 @@ function State_Init(message)
 		elseif Find_First_Object("Adi_Gallia") or Find_First_Object("Adi_Gallia2")
 		or Find_First_Object("Stass_Allie") or Find_First_Object("Stass_Allie2")
 		or Find_First_Object("Ponds") or Find_First_Object("Neyo2")
-		then
+		then -- FotR_Enhanced
 			clone_skin = 8
 		end
 
@@ -216,7 +220,7 @@ function State_Init(message)
 			Hide_Sub_Object(Object, 0, "helmet_41_LOD1")
 			Hide_Sub_Object(Object, 0, "head_41_LOD0")
 			Hide_Sub_Object(Object, 0, "head_41_LOD1")
-		elseif clone_skin == 8 then
+		elseif clone_skin == 8 then -- FotR_Enhanced
 			Hide_Sub_Object(Object, 1, "body_LOD0")
 			Hide_Sub_Object(Object, 1, "body_LOD1")
 			Hide_Sub_Object(Object, 1, "helmet_LOD0")
