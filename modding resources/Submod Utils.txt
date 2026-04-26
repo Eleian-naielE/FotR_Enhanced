@@ -39,4 +39,82 @@ TEXT_TOOLTIP_ARC_INDUCTEE_WEAP2,1x DC-15S Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_ARC_INDUCTEE_WEAP1,1x DC-15A Blaster Rifle: 1 / 1.0s / 240m
 TEXT_TOOLTIP_ARC_INDCUTEE_WEAP11,1x Ion Grenade: 1 / 15.0s / 200m
 
+    Below are xml codes for later use
+
+    <HeroCompany Name="Kenobi_Skywalker_Team">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_HERO_KENOBI_SKYWALKER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND3_LANDSPACE
+		TEXT_TOOLTIP_TRAIT_ACEPILOT
+		TEXT_TOOLTIP_TRAIT_DEFENSIVE 
+		TEXT_TOOLTIP_TRAIT_FORCESENSITIVE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_KENOBI_SKYWALKER
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_DELTA7_FIGHTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_OBIWAN_COMPANY1
+		TEXT_TOOLTIP_AAYLA_SECURA_HEALTH
+		TEXT_TOOLTIP_OBIWAN_COMPANY2
+		TEXT_TOOLTIP_AHSOKA_HEALTH
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
+		TEXT_TOOLTIP_BONUS_FORCE_TRAINING
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MASTERTEAM </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_OBIWAN_ANAKIN.TGA</Icon_Name>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Combat_Power_Value>10</Combat_Power_Value>
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets>Dagobah</Required_Planets>
+		<Build_Cost_Credits> 2000 </Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Obi_Wan_Delta</Company_Transport_Unit>
+		<Company_Units>Obi_Wan</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+		<Is_Buildable>Yes</Is_Buildable>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>50</Damage>
+		<Affiliation>Empire</Affiliation>
+				
+		<Required_Timeline>0</Required_Timeline>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+				
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+		<SFXEvent_Build_Complete>Unit_Complete_ObiWan</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Complete_ObiWan</SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_ObiWan</SFXEvent_Fleet_Move>
+
+		<CategoryMask>LandHero | SpaceHero</CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		<Population_Value>1</Population_Value>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>2440</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>   
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</HeroCompany>
+
 }
