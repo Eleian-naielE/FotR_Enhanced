@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<Particles>
+
+	<Particle Name="Fighter_Shield_Merai_Free_Dac_Ability_Particle">
+		<Land_Model_Name>p_lure_object_particle_effect.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect.ALO</Space_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Fighter_Shield_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories> Fighter | Bomber </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.00</Health_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>0.0</Ability_Recharge_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.00</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>8</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Fighter_Shield_Penalty">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Merai_Free_Dac </Applicable_Unit_Types>
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.00</Health_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>0.0</Ability_Recharge_Bonus_Percentage>
+				<Damage_Bonus_Percentage>-0.25</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>-0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>-0.2</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>8</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</Particle>
+
+	<Particle Name="Fighter_Shield_Tallon_Sundiver_Ability_Particle">
+		<Land_Model_Name>p_lure_object_particle_effect.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect.ALO</Space_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Fighter_Shield_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories> Fighter | Bomber </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.00</Health_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>0.0</Ability_Recharge_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.00</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>8</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Fighter_Shield_Penalty">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />  
+				<Applicable_Unit_Types> Tallon_Sundiver </Applicable_Unit_Types>
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.00</Health_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>0.0</Ability_Recharge_Bonus_Percentage>
+				<Damage_Bonus_Percentage>-0.25</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>-0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>-0.2</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>8</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</Particle>
+
+	<Particle Name="Fighter_Shield_Tallon_Battalion_Ability_Particle">
+		<Land_Model_Name>p_lure_object_particle_effect.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect.ALO</Space_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Fighter_Shield_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories> Fighter | Bomber </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.00</Health_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>0.0</Ability_Recharge_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.00</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>8</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Fighter_Shield_Penalty">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />  
+				<Applicable_Unit_Types> Tallon_Battalion </Applicable_Unit_Types>
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.00</Health_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>0.0</Ability_Recharge_Bonus_Percentage>
+				<Damage_Bonus_Percentage>-0.25</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>-0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>-0.2</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>8</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+		</Abilities>
+	</Particle>
+
+	<Particle Name="Respect_for_Jedi_Ability_Particle">
+		<Land_Model_Name>p_lure_object_particle_effect.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Respect_for_Jedi_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>
+				Yoda_Eta, Windu_Eta, Obi_Wan_Eta, Anakin_Eta, Kit_Fisto_Eta, Aayla_Secura_Eta, Ki_Adi_Mundi_Eta, Luminara_Unduli_Eta, Barriss_Offee_Eta, Shaak_Ti_Eta, Ahsoka_Eta,
+				Yoda_Delta, Windu_Delta, Ima_Gun_Di_Delta, Obi_Wan_Delta, Plo_Koon_Delta, Anakin_Delta, Kit_Fisto_Delta, Aayla_Secura_Delta, Ki_Adi_Mundi_Delta, Luminara_Unduli_Delta, Barriss_Offee_Delta, Shaak_Ti_Delta, Ahsoka_Delta,
+				Knol_Vennari_Skipray
+				</Applicable_Unit_Types>
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.15</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</Particle>
+
+	<Particle Name="PRESS_ON_Ground_Ability_Particle">
+		<Land_Model_Name>p_lure_object_particle_effect_land.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect_land.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Battle_Meditation_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Clone</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>-0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</Particle>
+	
+	<Particle Name="Showdown_Ground_Ability_Particle">
+		<Land_Model_Name>p_lure_object_particle_effect_land.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect_land.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Battle_Meditation_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types>Sallow_Violect</Applicable_Unit_Types>
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>-0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</Particle>
+
+	<Particle Name="Seismic_Pulse_Particles">
+		<Land_Model_Name>P_seismic_pulse.ALO</Land_Model_Name>
+		<Space_Model_Name>P_seismic_pulse.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+	</Particle>
+
+	<Particle Name="Rampage_Ability_Particle">
+		<Land_Model_Name>p_lure_object_particle_effect.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Rampage_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.00</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.00</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>-0.10</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.00</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Bounty_On_Faction_Ability Name="Rampage_Bounty_Ability">
+				<Bounty_Percentage_Amount> 1 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<Target_Faction_Names> Rebel, Empire, Underworld, Hutt_Cartels, Banking_Clan, Commerce_Guild, Techno_Union, Trade_Federation, Sector_Forces, Mandalorians, Independent_Forces, Hostile </Target_Faction_Names>
+				<Apply_To_All_Allies> Yes </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+		</Abilities>
+	</Particle>
+
+<!-- FotR_Enhacnd -->
+
+	<Particle Name="HOLD_POSITION_VEHICLE_Ground_Ability_Particle">
+		<Land_Model_Name>p_lure_object_particle_effect_land.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect_land.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Battle_Meditation_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types>
+					Republic_AT_AP_Walker, UT_AT_Speeder, AT_OT_Walker, RX200_Falchion, Republic_AT_TE_Walker, AV7, AT_XT_Walker, Republic_ULAV, ULAV_Early,
+					<!-- PDF Units -->
+					AAT, MZ8_Tank, Espo_Walker_91, AAT_PDF, Umbaran_Hover_Tank,
+					<!-- Heroes -->
+					Ozzel_AT_TE, Geen_UT_AT, Solomahal_RX200, 
+					<!-- Generic Commanders -->
+					Commander_Tier_III_Republic_ULAV, Commander_Tier_III_AT_XT_Walker, Commander_Tier_IV_AT_TE_Walker, Commander_Tier_IV_RX200_Falchion
+				</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>    
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.30</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>-0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</Particle>
+</Particles>

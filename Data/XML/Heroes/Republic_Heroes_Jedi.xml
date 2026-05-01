@@ -14077,7 +14077,7 @@
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> InfantryHero </CategoryMask>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
@@ -14095,7 +14095,7 @@
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<AI_Combat_Power>500</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -14105,7 +14105,7 @@
 
 		<Neutralization_Cost>3500.0</Neutralization_Cost>
 
-		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Death_Fade_Time>0.25</Death_Fade_Time>		
 
@@ -14121,22 +14121,23 @@
 		<SFXEvent_Guard>Unit_Guard_Imp_Guard</SFXEvent_Guard>
 
   		<!-- Normal red blood for human-ish -->
-        	<Death_Explosions>Organic_Infantry_Blood, Organic_Infantry_Blood_Alt, Tiny_Dud</Death_Explosions>
+        <Death_Explosions>Organic_Infantry_Blood, Organic_Infantry_Blood_Alt, Tiny_Dud</Death_Explosions>
 
-        	<Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_00</Death_Clone>
-        	<Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_01</Death_Clone>
-        	<Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_00</Death_Clone>
-        	<Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_01</Death_Clone>
-        	<Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_00</Death_Clone>
-        	<Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_01</Death_Clone>
-        	<Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_00</Death_Clone>
-        	<Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_01</Death_Clone>
-        	<Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_00</Death_Clone>
-        	<Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_01</Death_Clone>
+        <Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+    	<Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+        <Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_00</Death_Clone>
+        <Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_01</Death_Clone>
+        <Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_00</Death_Clone>
+        <Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_01</Death_Clone>
+        <Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_00</Death_Clone>
+    	<Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_01</Death_Clone>
+        <Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_00</Death_Clone>
+        <Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_01</Death_Clone>
 		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
 	</HeroUnit>
 
 	<!-- Early Anakin & Obi Wan from NFOW ; Needs editing-->
+	
 	<HeroUnit Name="Obi_Wan_Knight">
 		<LOD_Bias>5</LOD_Bias>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -14144,29 +14145,32 @@
 		<Text_ID>TEXT_HERO_OBI_WAN_KENOBI</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND3_LANDSPACE
-		TEXT_TOOLTIP_TRAIT_DEFENSIVE 
-		TEXT_TOOLTIP_TRAIT_FORCESENSITIVE
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
+		TEXT_TOOLTIP_TRAIT_UTILITY_BEAST_TAMER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_OBI_WAN_KENOBI
+		TEXT_TOOLTIP_OBI_WAN_KENOBI_KNIGHT
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_UNIT_DELTA7_FIGHTER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_AAYLA_SECURA_HEALTH
+		TEXT_TOOLTIP_OBI_WAN_KENOBI_KNIGHT_HEALTH
 		TEXT_TOOLTIP_OBI_WAN_KENOBI_MOVE
 		TEXT_TOOLTIP_OBI_WAN_KENOBI_WEAP1
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
-		TEXT_TOOLTIP_BONUS_FORCE_TRAINING
+		TEXT_TOOLTIP_BONUS_FORCE_TRAINING_40_20
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_GENERAL </Encyclopedia_Unit_Class>
 		<Land_Model_Name>RI_OBIWAN.ALO</Land_Model_Name>
-		<Icon_Name>i_button_obiwan.tga</Icon_Name>
+		<Icon_Name>i_button_obiwan_knight.tga</Icon_Name>
 
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, STUNNABLE, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -14179,7 +14183,7 @@
 		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
 
 		<Garrison_Category> Infantry </Garrison_Category>
-		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Is_Visible_On_Enemy_Radar>Yes</Is_Visible_On_Enemy_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -14187,8 +14191,7 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Unique_Space_Unit>Obi_Wan_Delta</Unique_Space_Unit>
-		
+
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1.45</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
@@ -14200,14 +14203,14 @@
 		<FormationSpacing> .5 </FormationSpacing>
 		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
 		<Min_Speed> .1 </Min_Speed>
-		<OverrideAcceleration> .1 </OverrideAcceleration>
-		<OverrideDeceleration> .25 </OverrideDeceleration>
+		<OverrideAcceleration> 1.45 </OverrideAcceleration>
+		<OverrideDeceleration> 1.45 </OverrideDeceleration>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Obiwan_Lightsaber_Idle_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Obiwan_Lightsaber_Moving_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Obiwan_Lightsaber_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>			
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -14215,23 +14218,18 @@
 		<Size_Value>10</Size_Value>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>190</Tactical_Health>
-		<Autoresolve_Health>190</Autoresolve_Health>
+		<Tactical_Health>210</Tactical_Health>
 		<Damage>100</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
+		<Presence_Range>150.0</Presence_Range>
 
 		<Armor_Type> ArmourG_Hero </Armor_Type>
-		
+
 		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
 		<Projectile_Types> Proj_Lightsaber </Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Appearance_Delay_Frames> 20 </Projectile_Appearance_Delay_Frames>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 0.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 0.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
 
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
@@ -14249,14 +14247,12 @@
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_ObiWan </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Die_ObiWan </Death_SFXEvent_Start_Die>   
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> Unit_Complete_ObiWan </SFXEvent_Tactical_Build_Complete>		
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		
-		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> Unit_Complete_ObiWan </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
-		<CategoryMask> LandHero </CategoryMask>
-		<Ranking_In_Category> 2 </Ranking_In_Category>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+		
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
@@ -14265,48 +14261,42 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>		
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
-		
+
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<AI_Combat_Power>253</AI_Combat_Power>
+		<AI_Combat_Power>255</AI_Combat_Power>
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiInfantryNoAir</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-		
-		<Starting_Spawned_Units_Tech_0>Anakin, 1</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
 
 		<Neutralization_Cost>3500.0</Neutralization_Cost>
 
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes"> 
-
-				<Unit_Ability>
+			<Unit_Ability>
 				<Type>FORCE_CONFUSE</Type>
+				<Alternate_Icon_Name>I_SA_MIND_TRICK.tga</Alternate_Icon_Name>
 				<Recharge_Seconds>40.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> ObiWan_Confuse </GUI_Activated_Ability_Name> 
+				<GUI_Activated_Ability_Name> Obi_Wan_Confuse </GUI_Activated_Ability_Name> 
 				<Effective_Radius> 500.0 </Effective_Radius>
-				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Confuse_Obi_Wan </SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_ability_ObiWan </SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_ability_ObiWan</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 			
-			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>TARGETED_INVULNERABILITY</Type>
 				<Recharge_Seconds>60.0</Recharge_Seconds>
@@ -14314,41 +14304,109 @@
 				<Spawned_Object_Type> Proj_Special_Obiwan_Instant_Invulnerability_Blast </Spawned_Object_Type>
 				<Effective_Radius>400</Effective_Radius>
 				<Friendly_Ability> true </Friendly_Ability>
-				<Supports_Autofire>True</Supports_Autofire>				
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes">
-				
-			<Combat_Bonus_Ability Name="Obi_Wan_Combat_Bonus">
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<Unit_Strength_Category>All</Unit_Strength_Category>
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 + Force Sensitive + Defense Focus -->
+			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types> </Excluded_Unit_Types>
-				<Health_Bonus_Percentage>0.1</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
-				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.1</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.30</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.30</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-
-			<Combat_Bonus_Ability Name="Obi_Wan_Ground_Combat_Bonus">
+			<Battlefield_Modifier_Ability Name="Command_Tier_07_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Unit_Strength_Category>Vehicle | Infantry | Air</Unit_Strength_Category>
-				<Applicable_Unit_Categories>Vehicle | Infantry | Air</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<Excluded_Unit_Types> </Excluded_Unit_Types>
-				<Health_Bonus_Percentage>0.1</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
-				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.1</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<FOW_Reveal_Range_Multiplier>1.39</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
-			</Combat_Bonus_Ability>
+			</Battlefield_Modifier_Ability>
+
+		   	<Redirect_Blaster_Ability Name="Obi_Wan_Redirect_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+				<Redirect_Chance>0.4</Redirect_Chance>
+				<Block_Chance>0.5</Block_Chance>
+				<Reaction_Arc_In_Degrees>180.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories> Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+
+			<Absorb_Blaster_Ability Name="Obi_Wan_Absorb_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<Absorb_Chance>0.2</Absorb_Chance>
+				<!-- Absorb Percentage and Amount work together in the following way: -->
+				<!-- Actual Amount healed = (Projectile Damage * Absorb Percentage) + Absorb Amount -->
+				<!-- Either value can be zero, but at least one should be non-zero. -->
+				<Damage_Absorb_Percentage>0.2</Damage_Absorb_Percentage>
+				<Damage_Absorb_Amount>1</Damage_Absorb_Amount>
+				<!-- We can absorb shots from the following units types (but no missiles or grenades): -->
+				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<SFXEvent_Activate>Unit_Force_Absorb</SFXEvent_Activate>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>2.0, 0.4, 0.4</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2></Owner_Light_Effect_Color2>
+				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count></Owner_Light_Effect_Pulse_Count>
+			</Absorb_Blaster_Ability>
+
+			<Force_Healing_Ability Name="Obi_Wan_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.02 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				
+				<Applicable_Unit_Types>Obi_Wan, Obi_Wan2, Obi_Wan3</Applicable_Unit_Types>
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+
+			<Force_Confuse_Ability Name="Obi_Wan_Confuse">
+			   <Activation_Style> User_Input </Activation_Style>
+				<!-- We need to be within this distance of the clicked target to consider activating Stun -->
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>132.0</Activation_Max_Range>
+				<Confuse_Time_In_Secs>8.0</Confuse_Time_In_Secs>
+				<Confuse_Range>132.0</Confuse_Range>
+				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
+				<Confuse_Travel_Time_In_Secs>1.2</Confuse_Travel_Time_In_Secs>
+				<Confuse_Effect> Confuse_Particle_Effect </Confuse_Effect>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories> Infantry | InfantryHero </Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<SFXEvent_Activate>Unit_Ability_Confuse</SFXEvent_Activate>
+				<Owner_Particle_Effect>Jedi_Mind_Trick_Effect</Owner_Particle_Effect>
+				<!--<Owner_Particle_Effect>Confuse_Ability_Particles</Owner_Particle_Effect>-->
+				<Owner_Particle_Bone_Name />
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>2.0, 2.0, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count />
+			</Force_Confuse_Ability>
 
 			<Earthquake_Attack_Ability Name="Obi_Wan_Attack_Structures">
 				<Activation_Style>Special_Attack</Activation_Style>
@@ -14368,90 +14426,6 @@
 				<Target_Particle_Bone_Name />
 			</Earthquake_Attack_Ability>
 
-		   <Redirect_Blaster_Ability Name="Obi_Wan_Redirect_Blaster">
-				<Activation_Style>Take_Damage</Activation_Style>
-				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
-				<Redirect_Chance>0.5</Redirect_Chance>
-				<Block_Chance>0.80</Block_Chance>
-				<Reaction_Arc_In_Degrees>180.0</Reaction_Arc_In_Degrees>
-				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
-				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
-				<!-- We can block/redirect shots from the following units types: -->
-				<Applicable_Unit_Categories> Infantry | LandHero</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
-			</Redirect_Blaster_Ability>
-			
-			<Absorb_Blaster_Ability Name="Obi_Wan_Absorb_Blaster">
-				<Activation_Style>Take_Damage</Activation_Style>
-				<Absorb_Chance>0.20</Absorb_Chance>
-				<!-- Absorb Percentage and Amount work together in the following way: -->
-				<!-- Actual Amount healed = (Projectile Damage * Absorb Percentage) + Absorb Amount -->
-				<!-- Either value can be zero, but at least one should be non-zero. -->
-				<Damage_Absorb_Percentage>0.2</Damage_Absorb_Percentage>
-				<Damage_Absorb_Amount>1</Damage_Absorb_Amount>
-				<!-- We can absorb shots from the following units types (but no missiles or grenades): -->
-				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
-				<Applicable_Unit_Types></Applicable_Unit_Types>
-				<SFXEvent_Activate>Unit_Force_Absorb</SFXEvent_Activate>
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>2.0, 0.4, 0.4</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2></Owner_Light_Effect_Color2>
-				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count></Owner_Light_Effect_Pulse_Count>
-			</Absorb_Blaster_Ability>
-			
-			<Force_Healing_Ability Name="Obi_Wan_Self_Heal">
-			
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>5.0</Heal_Range>
-				<Heal_Amount> 0.0 </Heal_Amount>
-				<Heal_Percent> 0.02 </Heal_Percent>
-				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
-				<Single_Target_Heal>Yes</Single_Target_Heal>
-
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Obi_Wan, Obi_Wan2</Applicable_Unit_Types>
-				<Excluded_Unit_Types />
-				
-				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
-				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
-				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
-				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
-				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-			</Force_Healing_Ability>
-			
-			<Force_Confuse_Ability Name="ObiWan_Confuse">
-			   <Activation_Style> User_Input </Activation_Style>
-				<!-- We need to be within this distance of the clicked target to consider activating Stun -->
-				<Activation_Min_Range>0.0</Activation_Min_Range>
-				<Activation_Max_Range>132.0</Activation_Max_Range>
-				<Confuse_Time_In_Secs>8.0</Confuse_Time_In_Secs>
-				<Confuse_Range>132.0</Confuse_Range>
-				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
-				<Confuse_Travel_Time_In_Secs>1.2</Confuse_Travel_Time_In_Secs>
-				<Confuse_Effect> Confuse_Particle_Effect </Confuse_Effect>
-				<!-- We only consider the following unit types "valid targets": -->
-				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-				<SFXEvent_Activate>Unit_Ability_Confuse</SFXEvent_Activate>
-				<Applicable_Unit_Types>Rancor </Applicable_Unit_Types>
-				<Owner_Particle_Effect>Jedi_Mind_Trick_Effect</Owner_Particle_Effect>
-				<!--<Owner_Particle_Effect>Confuse_Ability_Particles</Owner_Particle_Effect>-->
-				<Owner_Particle_Bone_Name />
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>2.0, 2.0, 2.0</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
-				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count />
-			</Force_Confuse_Ability>
-			
 			<Berserker_Ability Name="Obi_Wan_Force_Attack">
 				<Activation_Style> Special_Attack </Activation_Style>
 				<Activation_Min_Range>0.0</Activation_Min_Range>
@@ -14461,99 +14435,78 @@
 				<Berserker_Damage_Range>12.0</Berserker_Damage_Range>
 				<Berserker_Duration_In_Secs>4.0</Berserker_Duration_In_Secs>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Excluded_Unit_Types>Jedi_Consular, Jedi_Guardian, Jedi_Sentinel, Jedi_Padawan, Dark_Jedi, Nightsister_Sith_Witch</Excluded_Unit_Types>
 			</Berserker_Ability>
-			
-			<Battlefield_Modifier_Ability Name="Obi_Wan_FOW_Increase">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.6</FOW_Reveal_Range_Multiplier>
-				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
-				<Stacking_Category>0</Stacking_Category>
-			</Battlefield_Modifier_Ability>
-			
-			<System_Spy_Ability Name="Obiwan_Limited_Spy">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Galactic_Automatic</Activation_Style>
-				<Causes_Despawn>No</Causes_Despawn>
-				<Duration_In_Secs>-1.0</Duration_In_Secs>
-				<See_Num_Fleets>Yes</See_Num_Fleets>
-				<See_Minor_Stealth_Heroes>Yes</See_Minor_Stealth_Heroes>
-				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
-			</System_Spy_Ability>
-			
-			<Galactic_Stealth_Ability Name="Obiwan_Galactic_Stealth">
-				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
-			</Galactic_Stealth_Ability>
-
 		</Abilities>
 
 	</HeroUnit>
 
 	<UniqueUnit Name="Obi_Wan_Knight_Delta">
+		<Variant_Of_Existing_Type>Delta7</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_OBI_WAN_KENOBI</Text_ID>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
-		TEXT_TOOLTIP_TRAIT_COMMAND3_LANDSPACE
-		TEXT_TOOLTIP_TRAIT_DEFENSIVE
-		TEXT_TOOLTIP_TRAIT_FORCESENSITIVE 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
+		TEXT_TOOLTIP_TRAIT_UTILITY_BEAST_TAMER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_OBI_WAN_KENOBI
+		TEXT_TOOLTIP_OBI_WAN_KENOBI_KNIGHT
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_UNIT_DELTA7_FIGHTER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_JEDI_DELTA7_BASE
+		TEXT_STATBLOCK_DELTA7_JEDI_BASE
 		TEXT_STATBLOCK_DELTA7_MOVE
 		TEXT_STATBLOCK_DELTA7_WEAP1
 		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HIGH_JEDI_GENERAL </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_obiwan_knight.tga</Icon_Name>
 
-		<Variant_Of_Existing_Type>Delta7</Variant_Of_Existing_Type>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
-		<Shield_Points>80</Shield_Points>
-		<Tactical_Health>240</Tactical_Health>
-		<Shield_Refresh_Rate>2</Shield_Refresh_Rate>
+		<Shield_Points>100</Shield_Points>
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 		<Energy_Capacity>600</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
-		
-		<SpaceBehavior>SPAWN_SQUADRON, HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
-		<HardPoints> HP_Delta7_Laser, Commander_Dummy_Hangar</HardPoints>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 		
 		<Affiliation>Empire</Affiliation>
-		
-		<CategoryMask>Fighter | AntiFighter</CategoryMask>
-		
-		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
-		
-		<MovementClass>Space</MovementClass>
 
-		<Armor_Type> Armor_Hero_Transport </Armor_Type>
-		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+
+		<MovementClass>Space</MovementClass>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
+		<Create_Team>No</Create_Team>
+		<Damage>1</Damage>
+		<AI_Combat_Power>80</AI_Combat_Power>
+		<Landing_Transport_Variant>Obi_Wan_Knight_Delta_Landing</Landing_Transport_Variant>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> Unit_Complete_ObiWan </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>  
+
 		<SFXEvent_Select>Unit_Select_ObiWan</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_ObiWan</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_ObiWan</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_ObiWan</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_ObiWan</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Move_ObiWan</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Attack_ObiWan</SFXEvent_Group_Attack>
-		<SFXEvent_Health_Low_Warning>Unit_Health_Low_ObiWan  </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_ObiWan </SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die>Unit_Die_ObiWan </Death_SFXEvent_Start_Die>   
-
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> Unit_Complete_ObiWan </SFXEvent_Tactical_Build_Complete>		
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>  
-
+		<SFXEvent_Assist_Move>null</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>null</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_ObiWan </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_ObiWan </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_ObiWan</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_ObiWan </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Die_ObiWan </Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_ObiWan </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_ObiWan </SFXEvent_Attack_Hardpoint>
@@ -14563,19 +14516,35 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_ObiWan </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_ObiWan </SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Ambient_Moving> Unit_A_Wing_Fly_By </SFXEvent_Ambient_Moving>
-		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
-		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_A_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-		
-		<Starting_Spawned_Units_Tech_2>Anakin_Delta, 1</Starting_Spawned_Units_Tech_2>
-		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-		
-		<Starting_Spawned_Units_Tech_3>Anakin_Delta, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>Torrent_Blue_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.2f</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_RAPID_FIRE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_RAPID_FIRE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes">
+		<Abilities SubObjectList="Yes"> <!-- Force Sensitive -->
+			<Combat_Bonus_Ability Name="Force_Sensitive_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Battlefield_Modifier_Ability Name="Force_Sensitive_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
 			<Absorb_Blaster_Ability Name="Jedi_Fighter_Absorb_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Absorb_Chance>0.25</Absorb_Chance>
@@ -14585,7 +14554,7 @@
 				<Damage_Absorb_Percentage>0.01</Damage_Absorb_Percentage>
 				<Damage_Absorb_Amount>0.01</Damage_Absorb_Amount>
 				<!-- We can absorb shots from the following units types (but no missiles or grenades): -->
-				<Applicable_Unit_Categories>Fighter | Bomber | Corvette | Frigate | Capital | Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Fighter | Bomber | Gunship | Corvette | Frigate | Capital | SpaceStructure</Applicable_Unit_Categories>
 				<Applicable_Unit_Types></Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Force_Absorb</SFXEvent_Activate>
 				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
@@ -14594,19 +14563,11 @@
 				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count></Owner_Light_Effect_Pulse_Count>
 			</Absorb_Blaster_Ability>
-		</Abilities>		
-
-		<Create_Team>No</Create_Team>
-		<Damage>1</Damage>
-		<AI_Combat_Power>80</AI_Combat_Power>
-		<Population_Value>0</Population_Value>	
-		<Icon_Name>i_button_obiwan.tga</Icon_Name>
-		<Landing_Transport_Variant>Obi_Wan_Delta_Landing</Landing_Transport_Variant>
-
+		</Abilities>
 	</UniqueUnit>
 
 	<TransportUnit Name="Obi_Wan_Knight_Delta_Landing">
-		<Variant_Of_Existing_Type>Obi_Wan_Delta</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Obi_Wan_Knight_Delta</Variant_Of_Existing_Type>
 		<Land_Model_Name>rep_delta7_lander.alo</Land_Model_Name>
 		<Behavior>TRANSPORT</Behavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -14619,156 +14580,69 @@
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>	
 	</TransportUnit>
 
-	<HeroCompany Name="Obi_Wan_Knight_elta_Team">
-		<LOD_Bias>5</LOD_Bias>
+	<HeroCompany Name="Obi_Wan_Knight_Delta_Team">
 		<Text_ID>TEXT_HERO_OBI_WAN_KENOBI</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND3_LANDSPACE
-		TEXT_TOOLTIP_TRAIT_DEFENSIVE 
-		TEXT_TOOLTIP_TRAIT_FORCESENSITIVE
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
+		TEXT_TOOLTIP_TRAIT_COMMAND_DEFENSE_FOCUS
+		TEXT_TOOLTIP_TRAIT_UTILITY_BEAST_TAMER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_OBI_WAN_KENOBI
+		TEXT_TOOLTIP_OBI_WAN_KENOBI_KNIGHT
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_UNIT_DELTA7_FIGHTER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_AAYLA_SECURA_HEALTH
+		TEXT_TOOLTIP_OBI_WAN_KENOBI_KNIGHT_HEALTH
 		TEXT_TOOLTIP_OBI_WAN_KENOBI_MOVE
 		TEXT_TOOLTIP_OBI_WAN_KENOBI_WEAP1
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
-		TEXT_TOOLTIP_BONUS_FORCE_TRAINING
+		TEXT_TOOLTIP_BONUS_FORCE_TRAINING_40_20
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_obiwan.tga</Icon_Name>
-		<Build_Time_Seconds>15</Build_Time_Seconds>
-		<Combat_Power_Value>10</Combat_Power_Value>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_GENERAL </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_obiwan_knight.tga</Icon_Name>
+		
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Obi_Wan_Knight_Delta</Company_Transport_Unit>
+		<Company_Units>Obi_Wan_Knight</Company_Units>
+
+		<Population_Value>1</Population_Value>
+		
 		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets>Dagobah</Required_Planets>
 		<Build_Cost_Credits> 2000 </Build_Cost_Credits>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Obi_Wan_Delta</Company_Transport_Unit>
-		<Company_Units>Obi_Wan</Company_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Available_In_Skirmish>yes</Available_In_Skirmish>
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 		<Can_Be_Only_One>true</Can_Be_Only_One>
 		<Is_Buildable>Yes</Is_Buildable>
-		
+
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>50</Damage>
 		<Affiliation>Empire</Affiliation>
-				
-		<Required_Timeline>0</Required_Timeline>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-				
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_ObiWan</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Complete_ObiWan</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_ObiWan</SFXEvent_Fleet_Move>
 
-		<CategoryMask>LandHero | SpaceHero</CategoryMask>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
-		<Population_Value>1</Population_Value>
-		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
-				<Tactical_Build_Cost_Multiplayer>2440</Tactical_Build_Cost_Multiplayer>
-				<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
-				<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
-				<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-				<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-				<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-				<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>   
-				<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-	</HeroCompany>
-	
-	<HeroCompany Name="Kenobi_Skywalker_Team">
-		<LOD_Bias>5</LOD_Bias>
-		<Text_ID>TEXT_HERO_KENOBI_SKYWALKER</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND3_LANDSPACE
-		TEXT_TOOLTIP_TRAIT_ACEPILOT
-		TEXT_TOOLTIP_TRAIT_DEFENSIVE 
-		TEXT_TOOLTIP_TRAIT_FORCESENSITIVE
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_KENOBI_SKYWALKER
-		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
-		TEXT_UNIT_DELTA7_FIGHTER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_OBIWAN_COMPANY1
-		TEXT_TOOLTIP_AAYLA_SECURA_HEALTH
-		TEXT_TOOLTIP_OBIWAN_COMPANY2
-		TEXT_TOOLTIP_AHSOKA_HEALTH
-		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
-		TEXT_TOOLTIP_BONUS_FORCE_TRAINING
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MASTERTEAM </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_OBIWAN_ANAKIN.TGA</Icon_Name>
-		<Build_Time_Seconds>15</Build_Time_Seconds>
-		<Combat_Power_Value>10</Combat_Power_Value>
-		<Tech_Level>99</Tech_Level>
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets>Dagobah</Required_Planets>
-		<Build_Cost_Credits> 2000 </Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>2440</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Obi_Wan_Delta</Company_Transport_Unit>
-		<Company_Units>Obi_Wan</Company_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
-		<Available_In_Skirmish>yes</Available_In_Skirmish>
-		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
-		<Can_Be_Only_One>true</Can_Be_Only_One>
-		<Is_Buildable>Yes</Is_Buildable>
-		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>50</Damage>
-		<Affiliation>Empire</Affiliation>
-				
-		<Required_Timeline>0</Required_Timeline>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-				
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
-		<SFXEvent_Build_Complete>Unit_Complete_ObiWan</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Complete_ObiWan</SFXEvent_Hero_Respawned>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_ObiWan</SFXEvent_Fleet_Move>
-
-		<CategoryMask>LandHero | SpaceHero</CategoryMask>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
-		<Population_Value>1</Population_Value>
-		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
-				<Tactical_Build_Cost_Multiplayer>2440</Tactical_Build_Cost_Multiplayer>
-				<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
-				<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
-				<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-				<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-				<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-				<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>   
-				<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
+		<Build_Limit_Lifetime_For_All_Allies></Build_Limit_Lifetime_For_All_Allies>   
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</HeroCompany>
 
 	<HeroUnit Name="Anakin_Padawan">
@@ -14777,31 +14651,37 @@
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_ANAKIN</Text_ID>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
-		TEXT_TOOLTIP_TRAIT_COMMAND4_LANDSPACE
-		TEXT_TOOLTIP_TRAIT_ACEPILOT
-		TEXT_TOOLTIP_TRAIT_FORCESENSITIVE
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_ANAKIN
-		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
-		TEXT_UNIT_DELTA7_FIGHTER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_AHSOKA_HEALTH
-		TEXT_TOOLTIP_ANAKIN_MOVE
-		TEXT_TOOLTIP_ANAKIN_WEAP1
-		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
-		TEXT_TOOLTIP_BONUS_FORCE_TRAINING
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+			TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+			TEXT_TOOLTIP_TRAIT_COMMAND_TIER_05_LAND
+			TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
+			TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
+			TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+			TEXT_TOOLTIP_ANAKIN_PADAWAN
+			TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+			TEXT_UNIT_DELTA7_FIGHTER
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_ANAKIN_PADAWAN_HEALTH
+			TEXT_TOOLTIP_ANAKIN_MOVE
+			TEXT_TOOLTIP_ANAKIN_PADAWAN_WEAP1
+			TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+			TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
+			TEXT_TOOLTIP_BONUS_FORCE_TRAINING_40_20
+			TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+			TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_PADAWAN </Encyclopedia_Unit_Class>
-		<Land_Model_Name>RI_Jedi_Blue.ALO</Land_Model_Name>
-		<Icon_Name>i_button_anakin.tga</Icon_Name>
+		<Land_Model_Name>Anakin_Padawan.ALO</Land_Model_Name>
+		<Icon_Name>i_button_anakin_padawan.tga</Icon_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
-		
+
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
+		<Ranking_In_Category> 2 </Ranking_In_Category>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, VEHICLE_THIEF, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
+		<LandBehavior>
+			SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, TARGETING, 
+			WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, STUNNABLE, 
+			IMPOSING_PRESENCE, VEHICLE_THIEF,  
+		</LandBehavior>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -14814,7 +14694,7 @@
 		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
 
 		<Garrison_Category> Infantry </Garrison_Category>
-		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Is_Visible_On_Enemy_Radar>Yes</Is_Visible_On_Enemy_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -14822,8 +14702,7 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Unique_Space_Unit>Anakin_Delta</Unique_Space_Unit>
-		
+
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1.45</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
@@ -14835,44 +14714,38 @@
 		<FormationSpacing> .5 </FormationSpacing>
 		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
 		<Min_Speed> .1 </Min_Speed>
-		<OverrideAcceleration> .1 </OverrideAcceleration>
-		<OverrideDeceleration> .25 </OverrideDeceleration>
+		<OverrideAcceleration> 1.45 </OverrideAcceleration>
+		<OverrideDeceleration> 1.45 </OverrideDeceleration>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Obiwan_Lightsaber_Idle_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Obiwan_Lightsaber_Moving_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Obiwan_Lightsaber_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>			
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>10</Size_Value>
 		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>170</Tactical_Health>
-		<Autoresolve_Health>170</Autoresolve_Health>
+		<Shield_Points>0</Shield_Points> 
+		<Tactical_Health>200</Tactical_Health>
 		<Damage>100</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
+		<Presence_Range>150.0</Presence_Range>
 
 		<Armor_Type> ArmourG_Hero </Armor_Type>
-		
+
 		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
 		<Projectile_Types> Proj_Lightsaber </Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Appearance_Delay_Frames> 20 </Projectile_Appearance_Delay_Frames>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 0.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 0.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
-
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-
 
 		<SFXEvent_Select>Unit_Select_Anakin_Skywalker</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Anakin_Skywalker</SFXEvent_Move>
@@ -14885,14 +14758,23 @@
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Anakin_Skywalker</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Die_Anakin_Skywalker </Death_SFXEvent_Start_Die>   
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Anakin_Skywalker </SFXEvent_Tactical_Build_Complete>		
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Anakin_Skywalker </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<Presence_Induced_Animations>
+			Celebrate,
+				<!--MTT_Death_Clone,-->
+				<!--CIS_MTT_Death_Clone,-->
+				<!--Protodeka_Death_Clone,-->
+				HAG_Death_Clone, HAG_Deployed_Death_Clone,
+				Template_Planetary_Shield_Death_Clone,
+				RB_CommandCenter_Death_Clone,
+				CIS_Local_Government_Death_Clone,
+		</Presence_Induced_Animations>
 
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
-		<CategoryMask> LandHero </CategoryMask>
-		<Ranking_In_Category> 2 </Ranking_In_Category>
+		
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
@@ -14901,20 +14783,20 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>		
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
-		
+
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<AI_Combat_Power>261</AI_Combat_Power>
+		<AI_Combat_Power>373</AI_Combat_Power> <!-- Update -->
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiInfantryNoAir</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Neutralization_Cost>3500.0</Neutralization_Cost>
@@ -14922,7 +14804,6 @@
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
-		<Lua_Script>GroundHero</Lua_Script>
 
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
@@ -14947,6 +14828,7 @@
 				<Alternate_Icon_Name>I_SA_REPAIR_VEHICLE.tga</Alternate_Icon_Name>
 		  	</Unit_Ability>
 
+			<!-- Disabled until can know it works for sure
 			<Unit_Ability>
 				<Type>SABER_THROW</Type>
 				<Recharge_Seconds>30.0</Recharge_Seconds>
@@ -14954,39 +14836,28 @@
 				<Effective_Radius> 500.0 </Effective_Radius>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
+			-->
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-				
-			<Combat_Bonus_Ability Name="Anakin_Combat_Bonus">
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<Unit_Strength_Category>All</Unit_Strength_Category>
+			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types> </Excluded_Unit_Types>
-				<Health_Bonus_Percentage>0.05</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.05</Damage_Bonus_Percentage>
-				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.05</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.05</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-			
-			<Combat_Bonus_Ability Name="Anakin_Ground_Combat_Bonus">
+
+			<Battlefield_Modifier_Ability Name="Command_Tier_02_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Unit_Strength_Category>Vehicle | Infantry | Air</Unit_Strength_Category>
-				<Applicable_Unit_Categories>Vehicle | Infantry | Air</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<Excluded_Unit_Types> </Excluded_Unit_Types>
-				<Health_Bonus_Percentage>0.05</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.05</Damage_Bonus_Percentage>
-				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.05</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.05</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<FOW_Reveal_Range_Multiplier>1.15</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
-			</Combat_Bonus_Ability>
+			</Battlefield_Modifier_Ability>
 			
 			<Earthquake_Attack_Ability Name="Anakin_Attack_Structures">
 				<Activation_Style>Special_Attack</Activation_Style>
@@ -15005,25 +14876,6 @@
 				<Target_Particle_Effect>Earthquake_Dust_Particles</Target_Particle_Effect>
 				<Target_Particle_Bone_Name />
 			</Earthquake_Attack_Ability>
-			
-			<Force_Healing_Ability Name="Jedi_Force_Healing">
-				<!-- <Activation_Style>Ground_Automatic</Activation_Style> -->
-				<Activation_Style> User_Input </Activation_Style>
-				<Heal_Range>100.0</Heal_Range>
-				<Heal_Amount>2.0</Heal_Amount>
-				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
-				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
-				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
-				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
-				<Target_Light_Effect_Type>Smooth_Pulse</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2/>
-				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
-				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
-			</Force_Healing_Ability>
 			
 			<Force_Healing_Ability Name="Anakin_Self_Heal">
 			
@@ -15061,11 +14913,11 @@
 				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<!-- We can block/redirect shots from the following units types: -->
-				<Applicable_Unit_Categories> Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories> Infantry | InfantryHero</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-			
+
 			<Absorb_Blaster_Ability Name="Anakin_Absorb_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Absorb_Chance>0.2</Absorb_Chance>
@@ -15075,7 +14927,7 @@
 				<Damage_Absorb_Percentage>0.2</Damage_Absorb_Percentage>
 				<Damage_Absorb_Amount>1</Damage_Absorb_Amount>
 				<!-- We can absorb shots from the following units types (but no missiles or grenades): -->
-				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Infantry | InfantryHero</Applicable_Unit_Categories>
 				<Applicable_Unit_Types></Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Force_Absorb</SFXEvent_Activate>
 				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
@@ -15084,33 +14936,6 @@
 				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count></Owner_Light_Effect_Pulse_Count>
 			</Absorb_Blaster_Ability>
-			
-			<Force_Whirlwind_Ability Name="Vader_Force_Whirlwind">
-				<!-- <Activation_Style>Special_Attack</Activation_Style> -->
-				<Activation_Style> User_Input </Activation_Style>
-				<!-- We need to be within this distance of the clicked target to consider activating Force Whirlwind -->
-				<Activation_Min_Range>0.0</Activation_Min_Range>
-				<Activation_Max_Range>75.0</Activation_Max_Range>
-				<Damage_Amount>500.0</Damage_Amount>
-				<Damage_Range>75.0</Damage_Range>
-				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
-				<Travel_Time_In_Secs>1.0</Travel_Time_In_Secs>
-				<!-- Percentage chance to activate given a certain number of valid targets in range. -->
-				<!-- First number in the pair is the number of valid targets, second is the chance to activate. -->
-				<Activation_Chance>0,0.0, 1,0.0, 5,1.0, 500,1.0</Activation_Chance>
-				<!--				<Activation_Chance>0,0.0, 500,0.0</Activation_Chance>	< ! - - never activate -->
-				<!-- We only consider the following unit types "valid targets": -->
-				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<SFXEvent_Activate>Unit_Force_Whirlwind</SFXEvent_Activate>
-				<Owner_Particle_Effect>Force_Whirlwind_Particles</Owner_Particle_Effect>
-				<Owner_Particle_Bone_Name />
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>2.0, 2.0, 2.0</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
-				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count />
-			</Force_Whirlwind_Ability>
 			
 			<Berserker_Ability Name="Anakin_Force_Attack">
 				<Activation_Style> Special_Attack </Activation_Style>
@@ -15121,6 +14946,7 @@
 				<Berserker_Damage_Range>12.0</Berserker_Damage_Range>
 				<Berserker_Duration_In_Secs>4.0</Berserker_Duration_In_Secs>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Excluded_Unit_Types>Jedi_Consular, Jedi_Guardian, Jedi_Sentinel, Jedi_Padawan, Dark_Jedi, Nightsister_Sith_Witch</Excluded_Unit_Types>
 			</Berserker_Ability>
 			
   			<Vehicle_Thief_Ability Name="Anakin_Vehicle_Thief">
@@ -15188,22 +15014,7 @@
   				<SFXEvent_Activate>Unit_Select_Anakin_Skywalker</SFXEvent_Activate>
   			</Vehicle_Thief_Ability>
 			
-			<Battlefield_Modifier_Ability Name="Anakin_FOW_Increase">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.3</FOW_Reveal_Range_Multiplier>
-				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
-				<Stacking_Category>0</Stacking_Category>
-			</Battlefield_Modifier_Ability>
-			
-			<Battlefield_Modifier_Ability Name="Anakin_FOW_Increase2">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.3</FOW_Reveal_Range_Multiplier>
-				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
-				<Stacking_Category>0</Stacking_Category>
-			</Battlefield_Modifier_Ability>
-
+			<!--
 			<Saber_Throw_Ability Name="Anakin_Padawan_Saber_Throw">
 				<Activation_Style> User_Input </Activation_Style>
 				<Activation_Min_Range>20.0</Activation_Min_Range>
@@ -15211,56 +15022,52 @@
 				<Saber_Name>Lukes_Light_Saber</Saber_Name>
 				<Catch_Dist>15.0</Catch_Dist>
 			</Saber_Throw_Ability>
-
+			-->
 		</Abilities>
 
 	</HeroUnit>
 
 	<UniqueUnit Name="Anakin_Padawan_Delta">
+		<Variant_Of_Existing_Type>Delta7</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_ANAKIN</Text_ID>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND4_LANDSPACE
-		TEXT_TOOLTIP_TRAIT_ACEPILOT
-		TEXT_TOOLTIP_TRAIT_FORCESENSITIVE
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_ANAKIN
-		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
-		TEXT_UNIT_DELTA7_FIGHTER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_JEDI_DELTA7_BASE
-		TEXT_STATBLOCK_DELTA7_MOVE
-		TEXT_STATBLOCK_DELTA7_WEAP1
+			TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+			TEXT_TOOLTIP_TRAIT_COMMAND_TIER_05_LAND
+			TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
+			TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
+			TEXT_TOOLTIP_TRAIT_FORCESENSITIVE
+			TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+			TEXT_TOOLTIP_ANAKIN_PADAWAN
+			TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+			TEXT_UNIT_DELTA7_FIGHTER
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_STATBLOCK_DELTA7_JEDI_BASE
+			TEXT_STATBLOCK_DELTA7_MOVE
+			TEXT_STATBLOCK_DELTA7_WEAP1
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_PADAWAN </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_anakin.tga</Icon_Name>
+		<Icon_Name>i_button_anakin_padawan.tga</Icon_Name>
 		
-		<No_Colorization_Color> 32, 42, 68, 255 </No_Colorization_Color>
+		<!-- <No_Colorization_Color> 32, 42, 68, 255 </No_Colorization_Color> ; use later for azure angel -->
 
-		<Variant_Of_Existing_Type>Delta7</Variant_Of_Existing_Type>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
-		<Shield_Points>80</Shield_Points>
-		<Tactical_Health>240</Tactical_Health>
-		<Shield_Refresh_Rate>2</Shield_Refresh_Rate>
-		<Energy_Capacity>600</Energy_Capacity>
-		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Shield_Points>100</Shield_Points>
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
+
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
 
 		<Armor_Type> Armor_Hero_Transport </Armor_Type>
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		
-		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
-
-		<HardPoints> HP_Delta7_Laser </HardPoints>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, REVEAL, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 		
 		<Affiliation>Empire</Affiliation>
-		
-		<CategoryMask>Fighter | AntiFighter</CategoryMask>
 		
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 		
@@ -15271,50 +15078,83 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<SFXEvent_Select>Unit_Select_Anakin_Skywalker</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Anakin_Skywalker</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Anakin_Skywalker</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Anakin_Skywalker</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Anakin_Skywalker</SFXEvent_Guard>
-		<SFXEvent_Group_Move>Unit_Move_Anakin_Skywalker</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Attack_Anakin_Skywalker</SFXEvent_Group_Attack>
-		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Anakin_Skywalker </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Anakin_Skywalker</SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die> Unit_Die_Anakin_Skywalker </Death_SFXEvent_Start_Die>   
+		<SFXEvent_Select>Unit_Select_Anakin_Skywalker_Padawan</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Anakin_Skywalker_Padawan</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Anakin_Skywalker_Padawan</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Anakin_Skywalker_Padawan</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Anakin_Skywalker_Padawan</SFXEvent_Guard>
+		<SFXEvent_Group_Move>Unit_Move_Anakin_Skywalker_Padawan</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Attack_Anakin_Skywalker_Padawan</SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Anakin_Skywalker_Padawan </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Anakin_Skywalker_Padawan</SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Die_Anakin_Skywalker_Padawan </Death_SFXEvent_Start_Die>   
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Anakin_Skywalker </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Anakin_Skywalker </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Anakin_Skywalker </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Anakin_Skywalker </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Anakin_Skywalker </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Anakin_Skywalker </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Anakin_Skywalker </SFXEvent_Attack_Hardpoint>
-
-		<SFXEvent_Ambient_Moving> Unit_A_Wing_Fly_By </SFXEvent_Ambient_Moving>
-		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
-		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_A_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Anakin_Skywalker_Padawan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Anakin_Skywalker_Padawan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Anakin_Skywalker_Padawan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Anakin_Skywalker_Padawan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Anakin_Skywalker_Padawan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Anakin_Skywalker_Padawan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Anakin_Skywalker_Padawan </SFXEvent_Attack_Hardpoint>
 
 		<Create_Team>No</Create_Team>
 		<Damage>1</Damage>
-		<AI_Combat_Power>80</AI_Combat_Power>
-		<Population_Value>0</Population_Value>	
-		<Landing_Transport_Variant>Anakin_Delta_Landing</Landing_Transport_Variant>
+		<AI_Combat_Power>75</AI_Combat_Power>
+		<Landing_Transport_Variant>Anakin_Padawan_Delta_Landing</Landing_Transport_Variant>
 		
-		<Abilities SubObjectList="Yes">
-			<Combat_Bonus_Ability Name="Anakin_Combat_Bonus">
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.2f</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_RAPID_FIRE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_RAPID_FIRE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Force Sensitive + Starfighter Specialist -->
+			<Combat_Bonus_Ability Name="Force_Sensitive_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Unit_Strength_Category> Fighter | Bomber </Unit_Strength_Category>
-				<Applicable_Unit_Categories> Fighter | Bomber </Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<Health_Bonus_Percentage>0.10</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
-				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Force_Sensitive_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Combat_Bonus_Ability Name="Starfighter_Specialist_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
+				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Starfighter_Specialist_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
+				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>1</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Force_Healing_Ability Name="Anakin_Delta_Self_Heal">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Percent>0.02</Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Types>Anakin_Padawan_Delta</Applicable_Unit_Types>
+			</Force_Healing_Ability>
 
 			<Absorb_Blaster_Ability Name="Jedi_Pilot_Absorb_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
@@ -15325,7 +15165,7 @@
 				<Damage_Absorb_Percentage>0.01</Damage_Absorb_Percentage>
 				<Damage_Absorb_Amount>0.01</Damage_Absorb_Amount>
 				<!-- We can absorb shots from the following units types (but no missiles or grenades): -->
-				<Applicable_Unit_Categories>Fighter | Bomber | Corvette | Frigate | Capital | Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Fighter | Bomber | Gunship | Corvette | Frigate | Capital | SpaceStructure</Applicable_Unit_Categories>
 				<Applicable_Unit_Types></Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Force_Absorb</SFXEvent_Activate>
 				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
@@ -15335,11 +15175,10 @@
 				<Owner_Light_Effect_Pulse_Count></Owner_Light_Effect_Pulse_Count>
 			</Absorb_Blaster_Ability>
 		</Abilities>
-		
 	</UniqueUnit>
 
-	<TransportUnit Name="Anakin_PadawanDelta_Landing">
-		<Variant_Of_Existing_Type>Anakin_Delta</Variant_Of_Existing_Type>
+	<TransportUnit Name="Anakin_Padawan_Delta_Landing">
+		<Variant_Of_Existing_Type>Anakin_Padawan_Delta</Variant_Of_Existing_Type>
 		<Land_Model_Name>rep_delta7_lander.alo</Land_Model_Name>
 		<Behavior>TRANSPORT</Behavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -15353,44 +15192,47 @@
 	</TransportUnit>
 
 	<HeroCompany Name="Anakin_Padawan_Delta_Team">
-		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_HERO_ANAKIN</Text_ID>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
-		TEXT_TOOLTIP_TRAIT_COMMAND4_LANDSPACE
-		TEXT_TOOLTIP_TRAIT_ACEPILOT
-		TEXT_TOOLTIP_TRAIT_FORCESENSITIVE 
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_ANAKIN
-		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
-		TEXT_UNIT_DELTA7_FIGHTER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_AHSOKA_HEALTH
-		TEXT_TOOLTIP_ANAKIN_MOVE
-		TEXT_TOOLTIP_ANAKIN_WEAP1
-		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
-		TEXT_TOOLTIP_BONUS_FORCE_TRAINING
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+			TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+			TEXT_TOOLTIP_TRAIT_COMMAND_TIER_05_LAND
+			TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
+			TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
+			TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+			TEXT_TOOLTIP_ANAKIN_PADAWAN
+			TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+			TEXT_UNIT_DELTA7_FIGHTER
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_ANAKIN_PADAWAN_HEALTH
+			TEXT_TOOLTIP_ANAKIN_MOVE
+			TEXT_TOOLTIP_ANAKIN_PADAWAN_WEAP1
+			TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+			TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
+			TEXT_TOOLTIP_BONUS_FORCE_TRAINING_40_20
+			TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+			TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_PADAWAN </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_anakin.tga</Icon_Name>
+		<Icon_Name>i_button_anakin_padawan.tga</Icon_Name>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Anakin_Padawan_Delta</Company_Transport_Unit>
+		<Company_Units>Anakin_Padawan</Company_Units>
+
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>50</Damage>
+		<Affiliation>Empire</Affiliation>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
-		<Combat_Power_Value>10</Combat_Power_Value>
 		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets>Dagobah</Required_Planets>
+		<Population_Value>1</Population_Value>
+		
 		<Build_Cost_Credits> 2000 </Build_Cost_Credits>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Anakin_Delta</Company_Transport_Unit>
-		<Company_Units>Anakin</Company_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Available_In_Skirmish>yes</Available_In_Skirmish>
@@ -15398,20 +15240,10 @@
 		<Can_Be_Only_One>true</Can_Be_Only_One>
 		<Is_Buildable>Yes</Is_Buildable>
 
-		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>50</Damage>
-		<Affiliation>Empire</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
-		<SFXEvent_Build_Complete>Unit_Complete_Anakin_Skywalker</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Complete_Anakin_Skywalker</SFXEvent_Hero_Respawned>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Anakin_Skywalker</SFXEvent_Fleet_Move>
-
-		<CategoryMask>LandHero | SpaceHero</CategoryMask>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
-		<Population_Value>1</Population_Value>
-			
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Anakin_Skywalker_Padawan</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Anakin_Skywalker_Padawan</SFXEvent_Fleet_Move>
+		
 	</HeroCompany>
 </Republic_Heroes>

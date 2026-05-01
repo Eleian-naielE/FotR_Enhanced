@@ -29,6 +29,7 @@ function GovernmentRepublic:new(gc,id,gc_name)
 		"Default clone armour set to 187th",
 		"Default clone armour set to 21st",
 		"Default clone armour set to 41st",
+		"Default clone armour set to 91st",
 		"Default clone armour set to random squads",
 		"Default clone armour set to random companies"
 	}
@@ -417,7 +418,7 @@ function GovernmentRepublic:Option_Cycle_Clone_Colour()
 	UnitUtil.DespawnList({"OPTION_CYCLE_CLONES"})
 	local clone_skin = GlobalValue.Get("CLONE_DEFAULT")
 	clone_skin = clone_skin + 1
-	if clone_skin > 9 then
+	if clone_skin > 10 then
 		clone_skin = 0
 	end
 	GlobalValue.Set("CLONE_DEFAULT", clone_skin)

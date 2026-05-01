@@ -808,7 +808,7 @@
 		<Tactical_Bribe_Cost>525</Tactical_Bribe_Cost>
 		<Score_Cost_Credits>50</Score_Cost_Credits>
 
-		<LandBehavior>IDLE, WALK_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, SHIELDED, WEAPON, AMBIENT_SFX,UNIT_AI,TARGETING,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, SURFACE_FX, DEPLOY_TROOPERS, ABILITY_COUNTDOWN</LandBehavior>
+		<LandBehavior>IDLE, WALK_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, SHIELDED, WEAPON, AMBIENT_SFX,UNIT_AI,TARGETING,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, SURFACE_FX, DEPLOY_TROOPERS, ABILITY_COUNTDOWN, POWERED</LandBehavior>
 
 		<Deploys>Yes</Deploys>
 		<Auto_Deploys>No</Auto_Deploys>
@@ -5311,8 +5311,9 @@
 		<Damage>6</Damage>
 		<AI_Combat_Power>55</AI_Combat_Power>
 
-		<Affiliation>Empire, Rebel, Underworld, Hutt_Cartels, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Corporate_Sector, SsiRuuvi_Imperium,
-	Trade_Federation, Techno_Union, Banking_Clan, Commerce_Guild, Imperial_Proteus</Affiliation>
+		<Affiliation>
+			Empire, Rebel, Underworld, Hutt_Cartels, Trade_Federation, Techno_Union, Banking_Clan, Commerce_Guild,
+		</Affiliation>
 
 		<Type>Walk</Type>
 		<CategoryMask> Vehicle | AntiInfantry</CategoryMask>

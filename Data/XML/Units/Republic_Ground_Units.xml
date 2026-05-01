@@ -362,6 +362,7 @@
 		<Variant_Of_Existing_Type> Vehicle_Dummy_Template </Variant_Of_Existing_Type>
 
 		<Land_Model_Name>at-rt_legions.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
 		<Icon_Name>I_BUTTON_ATRT_CLONE.tga</Icon_Name>
 		<AI_Combat_Power>128.25</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>
@@ -508,6 +509,7 @@
 		<Variant_Of_Existing_Type> Vehicle_Dummy_Template </Variant_Of_Existing_Type>
 
 		<Land_Model_Name>ATPT.ALO</Land_Model_Name>
+		<Scale_Factor>0.4</Scale_Factor>
 		<Icon_Name>i_button_atpt.tga</Icon_Name>
 		<AI_Combat_Power>126.25</AI_Combat_Power>
 		<Affiliation>Empire</Affiliation>

@@ -5375,8 +5375,6 @@
 		TEXT_TOOLTIP_TRAIT_COMMAND_INTEL_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_NEYO
-		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
-		TEXT_TOOLTIP_COMMAND_91ST_RECON_CORPS
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
 		TEXT_TOOLTIP_ESCORT_NEYO
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -5384,7 +5382,7 @@
 		TEXT_TOOLTIP_NEYO_BARC_SPEEDER_MOVE 
 		TEXT_TOOLTIP_NEYO_BARC_SPEEDER_WEAP1
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		<!--TEXT_TOOLTIP_LEGIONS_NEYO-->
+		TEXT_TOOLTIP_LEGIONS_NEYO
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MARSHAL_COMMANDER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_NEYO2.tga</Icon_Name>
@@ -5495,8 +5493,6 @@
 		TEXT_TOOLTIP_TRAIT_COMMAND_INTEL_FOCUS
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_NEYO
-		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
-		TEXT_TOOLTIP_COMMAND_91ST_RECON_CORPS
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
 		TEXT_TOOLTIP_ESCORT_NEYO
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -5504,7 +5500,7 @@
 		TEXT_TOOLTIP_NEYO_BARC_SPEEDER_MOVE 
 		TEXT_TOOLTIP_NEYO_BARC_SPEEDER_WEAP1
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		<!--TEXT_TOOLTIP_LEGIONS_NEYO-->
+		TEXT_TOOLTIP_LEGIONS_NEYO
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_NEYO2.tga</Icon_Name>
 		
@@ -5569,6 +5565,8 @@
 		TEXT_TOOLTIP_NEYO
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
 		TEXT_TOOLTIP_ESCORT_NEYO
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_LEGIONS_NEYO
 		</Encyclopedia_Text>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -6781,7 +6779,7 @@
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_PONDS
+		TEXT_TOOLTIP_PONDS_EARLY
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
 		TEXT_TOOLTIP_ESCORT_P1_PLATOON
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -6790,7 +6788,6 @@
 		TEXT_TOOLTIP_PONDS_WEAP1
 		TEXT_TOOLTIP_PONDS_WEAP2
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_LEGIONS_NIL
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
@@ -6820,23 +6817,23 @@
 		<HardPoints>HP_Hero_Clone_Rifle</HardPoints>
 
 		<!-- Grenade throw -->
-		<Projectile_Types>HeroProj_Thrown_Thermal_Grenade</Projectile_Types>
+		<Projectile_Types>HeroProj_Thrown_Concussion_Grenade</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
         <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
-		
-		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Alpha_17 </SFXEvent_Tactical_Build_Complete>
 
-		<SFXEvent_Select>Unit_Select_Alpha_17</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Alpha_17</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Alpha_17</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Alpha_17</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Alpha_17</SFXEvent_Guard>
-		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Alpha_17</SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Alpha_17</SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die>Unit_Arc_Trooper_Death</Death_SFXEvent_Start_Die>
+		<SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Clone_Trooper</SFXEvent_Health_Critical_Warning>
+
+		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
@@ -6852,9 +6849,9 @@
 			<Unit_Ability>
 				<Type>LURE</Type>
 
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PRESS_ON_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PRESS_ON_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_ASSAULT.tga</Alternate_Icon_Name> <!-- I_SA_BERSERKER? -->
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_HOLD_POSITION_VEHICLE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_HOLD_POSITION_VEHICLE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_Cautiousness.tga</Alternate_Icon_Name> <!-- I_SA_BERSERKER? -->
 				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
 					 Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
 				<Effective_Radius>1</Effective_Radius>
@@ -6867,7 +6864,7 @@
 				<Is_Pulsing>Yes</Is_Pulsing>
 				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
 				<Max_Number_Of_Pulses>50</Max_Number_Of_Pulses>
-				<Particle_Effect>PRESS_ON_Ground_Ability_Particle</Particle_Effect>
+				<Particle_Effect>HOLD_POSITION_VEHICLE_Ground_Ability_Particle</Particle_Effect>
 
 				<Supports_Autofire>False</Supports_Autofire>
 			</Unit_Ability>
@@ -6907,13 +6904,50 @@
 		</Abilities>
 	</Herounit>
 
+	<HeroCompany Name="Ponds_Early_Team">
+		<Text_ID>TEXT_HERO_PONDS_EARLY</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PONDS_EARLY
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PONDS_P1_HEALTH
+		TEXT_TOOLTIP_PONDS_P1_MOVE
+		TEXT_TOOLTIP_PONDS_WEAP1
+		TEXT_TOOLTIP_PONDS_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_PONDS_EARLY.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Population_Value>1</Population_Value>
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft_Ponds_Early</Company_Transport_Unit>
+		<Company_Units>Ponds_Early</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Alpha_17</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Alpha_17</SFXEvent_Fleet_Move>
+	</HeroCompany>
+
 	<HeroUnit Name="Ponds">
 		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_PONDS</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_05_LAND
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_WALKER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PONDS
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -6930,9 +6964,8 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_PONDS.tga</Icon_Name>
 		
-		<Land_Model_Name>clone_phase1.alo</Land_Model_Name>
+		<Land_Model_Name>Clone_Commander_Ponds_P1.alo</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>TrainedHero.alo</Land_Model_Anim_Override_Name>
-		<No_Colorization_Color> 213, 172, 88, 255 </No_Colorization_Color>
 		
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
@@ -7040,6 +7073,44 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+
+	<HeroCompany Name="Ponds_Team">
+		<Text_ID>TEXT_HERO_PONDS_EARLY</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PONDS
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PONDS_P1_HEALTH
+		TEXT_TOOLTIP_PONDS_P1_MOVE
+		TEXT_TOOLTIP_PONDS_WEAP1
+		TEXT_TOOLTIP_PONDS_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_LEGIONS_NEYO
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_PONDS.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Population_Value>1</Population_Value>
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Nu_Shuttle_Landing_Craft_Ponds</Company_Transport_Unit>
+		<Company_Units>Ponds</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Respawn_Veers</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>EHD_Reinforcements_En_Route</SFXEvent_Fleet_Move>
+	</HeroCompany>
+
 
 <!-- Special Forces -->
 

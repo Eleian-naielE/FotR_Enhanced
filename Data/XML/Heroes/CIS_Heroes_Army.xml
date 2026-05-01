@@ -2334,7 +2334,7 @@
 		<Land_Model_Name>Nute_Gunray.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>MilitiaInfantry.alo</Land_Model_Anim_Override_Name>
 
-		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic </CategoryMask>
 		
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 
