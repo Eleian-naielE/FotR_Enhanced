@@ -543,107 +543,40 @@
 
 	<!-- FotR_Enhanced ; Ground -->
 
-	<DummyStructure Name="InstantAction_Marker_Target_Ground">
+	<UniqueUnit Name="InstantAction_Marker_Target_Ground">
 		<Variant_Of_Existing_Type>Cheat_Ground_Unit</Variant_Of_Existing_Type>
 		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
+				IA_Revert_Factions,
 			Hutt_Cartels,
+				IA_Revert_Factions,
 			Rebel,
+				IA_Revert_Factions,
 		</Tactical_Buildable_Objects_Campaign>
+		
 		<Tech_Level>99</Tech_Level>
-		<Lua_Script>GenericCompanySpawner</Lua_Script>
-
-		<HardPoints>
-			HP_Cheat_Ground_Unit_AI,HP_Cheat_Ground_Unit_AV,
-			HP_Cheat_Ground_Unit_AI,HP_Cheat_Ground_Unit_AV,
-			HP_Cheat_Ground_Unit_AI,HP_Cheat_Ground_Unit_AV,
-			HP_Cheat_Ground_Unit_AI,HP_Cheat_Ground_Unit_AV,
-		</HardPoints>
+		
+		<HardPoints/>
 
 		<LandBehavior>
 			ABILITY_COUNTDOWN, SELF_DESTRUCT, SHIELDED, SELECTABLE, 
 			SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, 
-			TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI
+			TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, SPAWN_SQUADRON
 		</LandBehavior>
 
-	</DummyStructure>
+		<Starting_Spawned_Units_Tech_0>InstantAction_Marker_Ground_Empire, 1</Starting_Spawned_Units_Tech_0>
 
-	<UniqueUnit Name="Cheat_Ground_Unit">
-		<Variant_Of_Existing_Type>Partisan_Ewok_Warrior</Variant_Of_Existing_Type>
+		<Starting_Spawned_Units_Tech_0>InstantAction_Marker_Ground_Empire_2, 1</Starting_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>InstantAction_Marker_Ground_NewRep, 1</Starting_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>InstantAction_Marker_Ground_NewRep_2, 1</Starting_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>InstantAction_Marker_Ground_CSA, 1</Starting_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>InstantAction_Marker_Ground_Hutts, 1</Starting_Spawned_Units_Tech_0>
 
-		<Text_ID>TEXT_UNIT_CHEAT_STEVE</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CHEAT</Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_CHEAT_UNIT</Encyclopedia_Text>
-		<Icon_Name>i_button_cheat_unit.tga</Icon_Name>
-
-		<Scale_Factor>20</Scale_Factor>
-		<Select_Box_Scale>10</Select_Box_Scale>
-
-		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
-		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
-		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
-		<Walk_Animation_Speed> .40 </Walk_Animation_Speed>
-		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-
-		<Max_Speed>10.0</Max_Speed>
-		<OverrideAcceleration> 5.0 </OverrideAcceleration>
-		<OverrideDeceleration> 5.0 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
-
-		<Shield_Armor_Type>ShieldG_HeavyVehicle</Shield_Armor_Type>
-		<Shield_Points>100000</Shield_Points>
-		<Shield_Refresh_Rate>10000</Shield_Refresh_Rate>
-		<Armor_Type> ArmourG_HeavyVehicle </Armor_Type>
-		<Tactical_Health>100000</Tactical_Health>
-
-		<AI_Combat_Power>50000</AI_Combat_Power>
-
-		<CategoryMask>InfantryHero</CategoryMask>
-		<Victory_Relevant>Yes</Victory_Relevant>
-
-		<LandBehavior>ABILITY_COUNTDOWN, SELF_DESTRUCT, SHIELDED, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI</LandBehavior>
-
-		<HardPoints>
-			HP_Cheat_Ground_Unit_AI,HP_Cheat_Ground_Unit_AV,
-			HP_Cheat_Ground_Unit_AI,HP_Cheat_Ground_Unit_AV,
-			HP_Cheat_Ground_Unit_AI,HP_Cheat_Ground_Unit_AV,
-			HP_Cheat_Ground_Unit_AI,HP_Cheat_Ground_Unit_AV,
-		</HardPoints>
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, null</SFXEvent_Hardpoint_Destroyed>
-
-		<Is_Squashable> No </Is_Squashable>
-		<Is_Supercrusher>Yes</Is_Supercrusher>
-		<Is_Sellable>Sellable_Always</Is_Sellable>
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Create_Team>No</Create_Team>
-
-		<Land_FOW_Reveal_Range>10000</Land_FOW_Reveal_Range>
-		<Dense_FOW_Reveal_Range_Multiplier>1</Dense_FOW_Reveal_Range_Multiplier>
-
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
-
-		<Targeting_Priority_Set>AntiInfantryVehicle</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>0.1</Targeting_Stickiness_Time_Threshold>
-
-		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
-
-		<Unique_Space_Unit>Cheat_Space_Unit</Unique_Space_Unit>
-		<Is_Named_Hero>True</Is_Named_Hero>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SELF_DESTRUCT</Type>
-				<Expiration_Seconds>1</Expiration_Seconds>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
 	</UniqueUnit>
-
 </Dummy_Structures>
