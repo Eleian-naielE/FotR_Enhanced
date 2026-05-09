@@ -1852,6 +1852,17 @@
 	<TransportUnit Name="CIS_Sheathipede_Landing_Craft_Dooku_Landing">
 		<Variant_Of_Existing_Type>CIS_Sheathipede_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
+	
+	<!-- Ponds Early -->
+	
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Ponds_Early">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Ponds_Early_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Ponds_Early_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
 
 	<!-- Prudii Skirata -->
 

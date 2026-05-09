@@ -10,7 +10,7 @@ return {
 		["ANAXES"] = {"Tallon_Sundiver", "Commander_71_Team", --[["Geen_Team"]]}, -- FotR_Enhanced
 		["ALDERAAN"] = {"Josef_Grunger_Team"}, -- FotR_Enhanced
 		["CARIDA"] = {"Pellaeon_Leveler", "Ozzel_Team"},
-		["GEONOSIS"] = {"Obi_Wan_Delta_Team", "Anakin_Padawan_Delta_Team"}, -- FotR_Enhanced
+		["GEONOSIS"] = {"Obi_Wan_Knight_Delta_Team", "Anakin_Padawan_Delta_Team"}, -- FotR_Enhanced
 		["MON_CALAMARI"] = {"Kit_Fisto_Delta_Team"},
 		["AZURE"] = {"Aayla_Secura_Delta_Team"}, -- FotR_Enhanced
 		["ERIADU"] = {"Maarisa_Captor"}, -- FotR_Enhanced

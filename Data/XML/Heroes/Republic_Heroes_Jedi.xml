@@ -14077,7 +14077,7 @@
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
 
-		<CategoryMask> InfantryHero </CategoryMask>
+		<CategoryMask> Organic | InfantryHero </CategoryMask>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
@@ -14368,7 +14368,7 @@
 				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				
-				<Applicable_Unit_Types>Obi_Wan, Obi_Wan2, Obi_Wan3</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Obi_Wan_Knight</Applicable_Unit_Types>
 
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
@@ -14459,7 +14459,7 @@
 		TEXT_STATBLOCK_DELTA7_MOVE
 		TEXT_STATBLOCK_DELTA7_WEAP1
 		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HIGH_JEDI_GENERAL </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_GENERAL </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_obiwan_knight.tga</Icon_Name>
 
 		<Hyperspace>Yes</Hyperspace>
