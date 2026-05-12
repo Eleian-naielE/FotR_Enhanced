@@ -112,6 +112,7 @@ return {
 					order = 9,
 				},			
 			}},
+		-- FotR_Enhanced
 		["CLONE_MARKET"] = {
 			market_name = "Clone Specialization Program",
 			faction_object = Find_Player("Empire"),

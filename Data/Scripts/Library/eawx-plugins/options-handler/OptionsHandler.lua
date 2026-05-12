@@ -355,6 +355,7 @@ function OptionsHandler:cheat_victory()
     StoryUtil.DeclareVictory(Find_Player("local"), true)
 end
 
+-- FotR_Enhanced ; ported from TR 3.5
 function OptionsHandler:cheat_government()
     self:set_cheater()
 

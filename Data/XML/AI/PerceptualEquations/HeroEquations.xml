@@ -323,6 +323,8 @@
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Obi_Wan2"}
 		+
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Obi_Wan3"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Obi_Wan_Knight"}
 	</Obiwan_In_Orbit>
 	<Anakin_In_Orbit>
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Anakin"}
@@ -330,6 +332,8 @@
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Anakin2"}
 		+
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Anakin3"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Anakin_Padawan"}
 	</Anakin_In_Orbit>
 	<Tarkin_In_Orbit>
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Tarkin_Venator"}
