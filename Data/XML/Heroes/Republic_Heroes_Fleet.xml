@@ -2141,7 +2141,7 @@
 
 	<!-- Admiral Staff: Frigate Heroes -->
 	<UniqueUnit Name="Dallin_Kebir">
-		<Variant_Of_Existing_Type>REP_DHC</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Rendili_DHC</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_DALLIN</Text_ID>
 		<Encyclopedia_Text>
