@@ -842,7 +842,7 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"Republic_AT_TE_Walker_Company", 0.5, StartYear = -22}
 				,{"AT_OT_Walker_Company", 2, StartYear = -19}
 				,{"Republic_AT_AP_Walker_Company", 2, StartYear = -19}
-				,{"Republic_A6_Prototype_Company", 0.5, StartYear = -21, LastYear = -20} -- FotR_Enhanced
+				,{"Republic_A6_Prototype_Company", 1, StartYear = -21, LastYear = -20} -- FotR_Enhanced
 			},
 			Government_Building = "KDY_HQ",
 		},
