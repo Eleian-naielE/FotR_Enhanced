@@ -18,6 +18,28 @@
 		<Land_Model_Name>P_Blue_Plasma_Gun_Ground_Huge.alo</Land_Model_Name>
 	</Projectile>
 
+	<!-- Saber Throw ; duplicate from eawx Projectiles_Melee.xml -->
+
+	<Projectile Name="Proj_Thrown_Lightsaber_Single_Green">
+		<!--Saber Throw-->
+		<!--Not currently used, but left in for future reference-->
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RI_saber_spin.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Max_Speed>8.0</Max_Speed>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>LIGHT_SABER</Projectile_Category>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Rocket_Straight_Distance>250</Projectile_Rocket_Straight_Distance>
+		<Projectile_Max_Flight_Distance>250.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>30.0</Projectile_Damage>
+		<Projectile_Stun_Radius>23</Projectile_Stun_Radius>
+		<Damage_Type> DamageL_Lightsaber </Damage_Type>
+		<Projectile_SFXEvent_Detonate>Unit_Light_Saber_Hit</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Light_Saber_Hit </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
 
 	<!-- ************************************************************************************** -->
 	<!-- ********************                    Space                        ***************** -->

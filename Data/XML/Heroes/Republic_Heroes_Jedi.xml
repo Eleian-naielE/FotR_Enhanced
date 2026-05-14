@@ -14645,6 +14645,8 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</HeroCompany>
 
+	<!-- Needs saber throw configuration -->
+
 	<HeroUnit Name="Anakin_Padawan">
 		<LOD_Bias>5</LOD_Bias>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -14828,7 +14830,6 @@
 				<Alternate_Icon_Name>I_SA_REPAIR_VEHICLE.tga</Alternate_Icon_Name>
 		  	</Unit_Ability>
 
-			<!-- Disabled until can know it works for sure
 			<Unit_Ability>
 				<Type>SABER_THROW</Type>
 				<Recharge_Seconds>30.0</Recharge_Seconds>
@@ -14836,7 +14837,6 @@
 				<Effective_Radius> 500.0 </Effective_Radius>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-			-->
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -15014,7 +15014,6 @@
   				<SFXEvent_Activate>Unit_Select_Anakin_Skywalker</SFXEvent_Activate>
   			</Vehicle_Thief_Ability>
 			
-			<!--
 			<Saber_Throw_Ability Name="Anakin_Padawan_Saber_Throw">
 				<Activation_Style> User_Input </Activation_Style>
 				<Activation_Min_Range>20.0</Activation_Min_Range>
@@ -15022,7 +15021,7 @@
 				<Saber_Name>Lukes_Light_Saber</Saber_Name>
 				<Catch_Dist>15.0</Catch_Dist>
 			</Saber_Throw_Ability>
-			-->
+			
 		</Abilities>
 
 	</HeroUnit>
