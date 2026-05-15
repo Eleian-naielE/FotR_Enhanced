@@ -4802,6 +4802,16 @@
 		<!--<Land_Model_Name>Rep_Padme.ALO</Land_Model_Name>-->
 		<!--<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>-->
 		<Land_Model_Name>padme_CW.ALO</Land_Model_Name> <!-- FotR_Enhanced : New model -->
+		<Land_Model_Anim_Override_Name>padme_CW.alo</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			padme_CW.ALO,
+			Urban, 				padme_CW.ALO,
+			Arctic, 			Padme_snow.ALO,
+			Volcanic, 			padme_CW.ALO,
+			Desert, 			padme_CW.ALO,
+			Forest, 			padme_CW.ALO,
+			Swamp, 				padme_CW.ALO
+		</Land_Terrain_Model_Mapping>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Ranking_In_Category> 5 </Ranking_In_Category>
