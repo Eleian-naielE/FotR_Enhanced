@@ -1128,7 +1128,7 @@
 				<Target_Particle_Bone_Name />
 			</Earthquake_Attack_Ability>
 
-		   <Redirect_Blaster_Ability Name="Anakin_Redirect_Blaster">
+		   	<Redirect_Blaster_Ability Name="Anakin_Redirect_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.4</Redirect_Chance>
@@ -1246,6 +1246,14 @@
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 				<Excluded_Unit_Types>Jedi_Consular, Jedi_Guardian, Jedi_Sentinel, Jedi_Padawan, Dark_Jedi, Nightsister_Sith_Witch</Excluded_Unit_Types>
 			</Berserker_Ability>
+
+			<Saber_Throw_Ability Name="Anakin_Saber_Throw">
+				<Activation_Style> Special_Attack </Activation_Style>
+				<Activation_Min_Range>20.0</Activation_Min_Range>
+				<Activation_Max_Range>200.0</Activation_Max_Range>
+				<Saber_Name>Proj_SaberThrow_Single_Blue</Saber_Name>
+				<Catch_Dist>15.0</Catch_Dist>
+			</Saber_Throw_Ability>
 		</Abilities>
 	</HeroUnit>
 	<HeroCompany Name="Anakin_Delta_Team">
@@ -13359,7 +13367,7 @@
 				<Target_Particle_Bone_Name />
 			</Earthquake_Attack_Ability>
 
-		   <Redirect_Blaster_Ability Name="Vader_Redirect_Blaster">
+		   	<Redirect_Blaster_Ability Name="Vader_Redirect_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.5</Redirect_Chance>
@@ -13476,6 +13484,14 @@
 				<Berserker_Duration_In_Secs>4.0</Berserker_Duration_In_Secs>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 			</Berserker_Ability>
+
+			<Saber_Throw_Ability Name="Vader_Saber_Throw">
+				<Activation_Style> Special_Attack </Activation_Style>
+				<Activation_Min_Range>20.0</Activation_Min_Range>
+				<Activation_Max_Range>200.0</Activation_Max_Range>
+				<Saber_Name>Proj_SaberThrow_Single_Red</Saber_Name>
+				<Catch_Dist>15.0</Catch_Dist>
+			</Saber_Throw_Ability>
 		</Abilities>
 	</HeroUnit>
 	<HeroCompany Name="Vader_Team">
@@ -14812,17 +14828,6 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
-				<Type>FORCE_WHIRLWIND</Type>
-				<Recharge_Seconds>25.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> Vader_Force_Whirlwind </GUI_Activated_Ability_Name> 
-				<Effective_Radius> 500.0 </Effective_Radius>
-				<Spawned_Object_Type> Force_Whirlwind_Particles </Spawned_Object_Type>
-				<Supports_Autofire>True</Supports_Autofire>
-					<SFXEvent_GUI_Unit_Ability_Activated>Unit_ability_push_Anakin_Skywalker </SFXEvent_GUI_Unit_Ability_Activated>
-					<SFXEvent_Target_Ability> Unit_ability_push_Anakin_Skywalker </SFXEvent_Target_Ability> 	
-			</Unit_Ability>
-			
-			<Unit_Ability>
 				<Type>CAPTURE_VEHICLE</Type>
 				<Recharge_Seconds> 165.0 </Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Anakin_Vehicle_Thief </GUI_Activated_Ability_Name> 
@@ -14836,7 +14841,21 @@
 				<GUI_Activated_Ability_Name> Anakin_Padawan_Saber_Throw </GUI_Activated_Ability_Name>
 				<Effective_Radius> 500.0 </Effective_Radius>
 				<Supports_Autofire>True</Supports_Autofire>
+				<Alternate_Icon_Name>I_SA_SABER_THROW.tga</Alternate_Icon_Name>
 			</Unit_Ability>
+
+			<!--
+			<Unit_Ability>
+				<Type>FORCE_WHIRLWIND</Type>
+				<Recharge_Seconds>25.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Vader_Force_Whirlwind </GUI_Activated_Ability_Name> 
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<Spawned_Object_Type> Force_Whirlwind_Particles </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+					<SFXEvent_GUI_Unit_Ability_Activated>Unit_ability_push_Anakin_Skywalker </SFXEvent_GUI_Unit_Ability_Activated>
+					<SFXEvent_Target_Ability> Unit_ability_push_Anakin_Skywalker </SFXEvent_Target_Ability> 	
+			</Unit_Ability>
+			-->
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -15018,7 +15037,7 @@
 				<Activation_Style> User_Input </Activation_Style>
 				<Activation_Min_Range>20.0</Activation_Min_Range>
 				<Activation_Max_Range>200.0</Activation_Max_Range>
-				<Saber_Name>Lukes_Light_Saber</Saber_Name>
+				<Saber_Name>Proj_SaberThrow_Single_Blue</Saber_Name>
 				<Catch_Dist>15.0</Catch_Dist>
 			</Saber_Throw_Ability>
 			

@@ -18,13 +18,12 @@
 		<Land_Model_Name>P_Blue_Plasma_Gun_Ground_Huge.alo</Land_Model_Name>
 	</Projectile>
 
-	<!-- Saber Throw ; duplicate from eawx Projectiles_Melee.xml -->
+	<!-- Saber Throw -->
 
-	<Projectile Name="Proj_Thrown_Lightsaber_Single_Green">
-		<!--Saber Throw-->
-		<!--Not currently used, but left in for future reference-->
+	<Projectile Name="Proj_SaberThrow_Single_Green">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>RI_saber_spin.ALO</Land_Model_Name>
+		<Land_Model_Name>RI_SABER_SPIN_GREEN.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>RI_saber_spin.ALO</Land_Model_Anim_Override_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<Max_Speed>8.0</Max_Speed>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
@@ -38,6 +37,31 @@
 		<Damage_Type> DamageL_Lightsaber </Damage_Type>
 		<Projectile_SFXEvent_Detonate>Unit_Light_Saber_Hit</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Light_Saber_Hit </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+	<Projectile Name="Proj_SaberThrow_Single_Blue">
+		<Variant_Of_Existing_Type>Proj_SaberThrow_Single_Green</Variant_Of_Existing_Type>
+		<Land_Model_Name>RI_SABER_SPIN_BLUE.ALO</Land_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_SaberThrow_Single_Red">
+		<Variant_Of_Existing_Type>Proj_SaberThrow_Single_Green</Variant_Of_Existing_Type>
+		<Land_Model_Name>RI_SABER_SPIN_RED1.ALO</Land_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_SaberThrow_Single_Purple">
+		<Variant_Of_Existing_Type>Proj_SaberThrow_Single_Green</Variant_Of_Existing_Type>
+		<Land_Model_Name>RI_SABER_SPIN_PURPLE.ALO</Land_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_SaberThrow_Single_Yellow">
+		<Variant_Of_Existing_Type>Proj_SaberThrow_Single_Green</Variant_Of_Existing_Type>
+		<Land_Model_Name>RI_SABER_SPIN_YELLOW.ALO</Land_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_SaberThrow_Single_Magenta">
+		<Variant_Of_Existing_Type>Proj_SaberThrow_Single_Green</Variant_Of_Existing_Type>
+		<Land_Model_Name>RI_SABER_SPIN_MAGENTA.ALO</Land_Model_Name>
 	</Projectile>
 
 
