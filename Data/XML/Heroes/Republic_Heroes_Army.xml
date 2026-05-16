@@ -4788,7 +4788,7 @@
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_PADME_HEALTH
 		TEXT_TOOLTIP_PADME_MOVE
-		TEXT_TOOLTIP_PADME_WEAP1
+		TEXT_TOOLTIP_PADME_WEAP1_SUBMOD
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_FORCE_PLOT_05
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
@@ -4909,7 +4909,7 @@
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_PADME_HEALTH
 		TEXT_TOOLTIP_PADME_MOVE
-		TEXT_TOOLTIP_PADME_WEAP1
+		TEXT_TOOLTIP_PADME_WEAP1_SUBMOD
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_FORCE_PLOT_05
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
@@ -4920,23 +4920,17 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_PADME_ADMIN.tga</Icon_Name>
 		
-		<Is_Dummy>Yes</Is_Dummy>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Theta_Shuttle_Landing_Craft_Admin</Company_Transport_Unit>
 		<Company_Units>Padme_Amidala</Company_Units>
-
-		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<CategoryMask>NonCombatHero</CategoryMask>
+		
 		<Population_Value>1</Population_Value>
-
+		<Damage>20</Damage>
 		<Tech_Level>99</Tech_Level>
 		<Affiliation>Empire</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
