@@ -2869,6 +2869,12 @@
 		<Required_Orbiting_Units>CR25_Landing_Craft_Rohn</Required_Orbiting_Units>
 	</DummyStructure>
 
+	<!-- Moff/Sector Commander Staff Ground -->
+
+	<UniqueUnit Name="Gann_">
+		<Variant_Of_Existing_Type></Variant_Of_Existing_Type>
+	</UniqueUnit>
+
 
 	<!-- Non-Staff Heroes -->
 
