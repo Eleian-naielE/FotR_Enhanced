@@ -59,5 +59,10 @@ return {
         ["BRIGIA"] = {
             "Keek_Team"
         }
+	},
+	["SECTOR_FORCES"] ={
+		["RENDILI"] ={
+			"Dallin_Kebir"
+		},
 	}
 }

@@ -59,8 +59,9 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	crossplot:subscribe("VICTORY2_HEROES", self.Victory2_Heroes, self)
 
 	crossplot:subscribe("SENATE_CHOICE_MADE", self.Senate_Choice_Handler, self)
+	
 	-- FotR_Enhanced
-	--crossplot:subscribe("DALLIN_UNLLOCK", self.Dallin_Unlock, self)
+	crossplot:subscribe("DALLIN_UNLLOCK", self.Dallin_Unlock, self)
 	crossplot:subscribe("GEEN_UNLOCK", self.Geen_Unlock, self)
 	-- FotR_Enhanced 
 	--Changes : 
@@ -103,7 +104,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			["Gillehspy"] = {"GILLEHSPY_ASSIGN",{"GILLEHSPY_RETIRE"},{"GILLEHSPY_HOUND"}, "Gillehspy"},
 		},
 		available_list = {--Heroes currently available for purchase. Seeded with those who have no special prereqs
-			"Dallin",
+			--"Dallin",
 			"Maarisa",
 			"Grumby",
 		},
@@ -793,14 +794,13 @@ function RepublicHeroes:on_galactic_hero_killed(hero_name, owner)
 			if hero_name == "SCREED_DEMOLISHER" then
 				return
 			end
-			admiral_data.full_list["Screed"].unit_id = 2  --SCREED_DEMOLISHER
+			admiral_data.full_list["Screed"].unit_id = 2 --SCREED_DEMOLISHER
 			Handle_Hero_Add("Screed", admiral_data)
 			if Find_Player("Empire").Is_Human() then
 				StoryUtil.Multimedia("TEXT_SPEECH_SCREED_RETURNS_DEMOLISHER", 15, nil, "Piett_Loop", 0)
 			end
 		end
 	end
-		
 
 	Handle_Hero_Killed(hero_name, owner, moff_data)
 
@@ -1241,6 +1241,9 @@ end
 
 function RepublicHeroes:Dallin_Unlock()
 	Handle_Hero_Add("Dallin", admiral_data)
+	if Find_Player("Empire").Is_Human() then
+		StoryUtil.Multimedia("TEXT_SPEECH_SCREED_RETURNS_DEMOLISHER", 15, nil, "Piett_Loop", 0)
+	end
 end
 
 function JetBacaraSwap()

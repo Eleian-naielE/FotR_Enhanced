@@ -2130,9 +2130,9 @@
 		<Variant_Of_Existing_Type>Lucrehulk_Transport_A</Variant_Of_Existing_Type>
 	</SpaceUnit>
 
-<!-- FotR_Enhanced Unit-->
+<!-- FotR_Enhanced -->
 
-	<!--Umbaran Frigate-->
+	<!--Umbaran Frigate--> <!-- TR 3.5 Port -->
 
 	<SpaceUnit Name="Umbaran_Frigate">
 		<Text_ID>TEXT_UNIT_UMBARAN_FRIGATE</Text_ID>
@@ -2400,6 +2400,8 @@
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 55</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_DREADNAUGHT_RENDILI.TGA</Icon_Name>
 
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color> <!-- Just some visual pleasure -->
+
 		<Damage>30</Damage>
 		<Shield_Points>2400</Shield_Points>
 		<Shield_Refresh_Rate>36</Shield_Refresh_Rate>
@@ -2442,7 +2444,7 @@
 
 	<!-- Fighters -->
 
-	<!-- Umbaran Fighter -->
+	<!-- Umbaran Fighter --> <!-- TR 3.5 Port -->
 
 	<SpaceUnit Name="Umbaran_Starfighter">
 		<Text_ID>TEXT_UNIT_UMBARAN_STARFIGHTER</Text_ID>
