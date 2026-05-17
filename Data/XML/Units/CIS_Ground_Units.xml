@@ -5268,7 +5268,7 @@
 		</Unit_Abilities_Data>
 	</GroundCompany>
 	
-	<!-- Scorpenek needs text from TR -->
+	<!-- TR 3.5 Port -->
 	<GroundVehicle Name="Scorpenek">
 		<Text_ID>TEXT_UNIT_SCORPENEK</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
@@ -5494,6 +5494,76 @@
 		</Unit_Abilities_Data>
 	</GroundVehicle>
 
+	<GroundCompany Name="Scorpenek_Company">
+
+		<Text_ID>TEXT_UNIT_SCORPENEK_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SCORPENEK
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SCORPENEK_COMPANY
+		TEXT_TOOLTIP_SCORPENEK_HEALTH
+		TEXT_TOOLTIP_SCORPENEK_SHIELD 
+		TEXT_TOOLTIP_SCORPENEK_MOVE
+		TEXT_TOOLTIP_SCORPENEK_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_SCORPENEK_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SMALL_WALKER
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_scorpenek.tga</Icon_Name>
+
+		<Damage>40</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>700</Build_Cost_Credits>
+		<Build_Time_Seconds>50</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures/>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Independent_Forces</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Scorpenek</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Scorpenek</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Company_Units>Scorpenek, Scorpenek, Scorpenek</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>670</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
 	<GroundVehicle Name="Scorpenek_Sentry">
 		<Variant_Of_Existing_Type>Scorpenek</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_SCORPENEK_SENTRY</Text_ID>
@@ -5553,6 +5623,78 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>
+
+	<GroundCompany Name="Scorpenek_Sentry_Company">
+
+		<Text_ID>TEXT_UNIT_SCORPENEK_SENTRY_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SCORPENEK_SENTRY
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SCORPENEK_SENTRY_COMPANY
+		TEXT_TOOLTIP_SCORPENEK_SENTRY_HEALTH
+		TEXT_TOOLTIP_SCORPENEK_SENTRY_SHIELD 
+		TEXT_TOOLTIP_SCORPENEK_SENTRY_MOVE
+		TEXT_TOOLTIP_SCORPENEK_SENTRY_WEAP1
+		TEXT_TOOLTIP_SCORPENEK_SENTRY_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_SCORPENEK_SENTRY_WEAP2
+		TEXT_TOOLTIP_SCORPENEK_SENTRY_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SMALL_WALKER
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_scorpenek_sentry.tga</Icon_Name>
+
+		<Damage>40</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>700</Build_Cost_Credits>
+		<Build_Time_Seconds>50</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures/>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Independent_Forces</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Scorpenek</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Scorpenek</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Company_Units>Scorpenek_Sentry, Scorpenek_Sentry, Scorpenek_Sentry</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>670</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
 	
 	<GroundVehicle Name="Scorpenek_Utility">
 		<Variant_Of_Existing_Type>Scorpenek</Variant_Of_Existing_Type>
@@ -5592,10 +5734,10 @@
 		<Unit_Abilities_Data SubObjectList="Yes">	
 			<Unit_Ability>
 				<Type>ROCKET_ATTACK</Type>
-					<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_AMMOSWAP</Alternate_Name_Text>
-					<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_AMMOSWAP_DESCRIPTION_SCORPENEK</Alternate_Description_Text>
-					<Alternate_Icon_Name>i_sa_swap_weapons.tga</Alternate_Icon_Name>
-					<Recharge_Seconds> 10.0 </Recharge_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_AMMOSWAP</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_AMMOSWAP_DESCRIPTION_SCORPENEK</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_swap_weapons.tga</Alternate_Icon_Name>
+				<Recharge_Seconds> 10.0 </Recharge_Seconds>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
@@ -5648,5 +5790,77 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>
+
+	<GroundCompany Name="Scorpenek_Utility_Company">
+
+		<Text_ID>TEXT_UNIT_SCORPENEK_UTILITY_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SCORPENEK_UTILITY
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SCORPENEK_UTILITY_COMPANY
+		TEXT_TOOLTIP_SCORPENEK_UTILITY_HEALTH
+		TEXT_TOOLTIP_SCORPENEK_UTILITY_MOVE
+		TEXT_TOOLTIP_SCORPENEK_UTILITY_WEAP1
+		TEXT_TOOLTIP_SCORPENEK_UTILITY_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_SCORPENEK_UTILITY_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_VEHICLE_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SMALL_WALKER
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_scorpenek_utility.tga</Icon_Name>
+
+		<Damage>40</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>700</Build_Cost_Credits>
+		<Build_Time_Seconds>50</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures/>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Independent_Forces</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Scorpenek</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Scorpenek</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Company_Units>Scorpenek_Utility, Scorpenek_Utility</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>670</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
 
 </CIS_Ground_Companies>

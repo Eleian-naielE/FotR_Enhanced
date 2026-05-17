@@ -329,3 +329,35 @@ TEXT_TOOLTIP_DREADNAUGHT_KATANA_WEAP1,2x Heavy Dual Turbolasers: 2 / 4.0s / 7.1k
 TEXT_TOOLTIP_DREADNAUGHT_KATANA_WEAP2,2x Medium Ion Cannons: 2 / 2.0s / 6.1km
 TEXT_TOOLTIP_DREADNAUGHT_KATANA_WEAP3,2x Heavy Laser Cannons: 2 / 1.0s / 4.6km
 TEXT_TOOLTIP_DREADNAUGHT_KATANA_WEAP4,2x Light Quad Laser Cannons: 2 / 0.5s / 3.6km
+
+
+TEXT_UNIT_SCORPENEK,Scorpenek Annihilator Droid
+TEXT_UNIT_SCORPENEK_COMPANY,Scorpenek Annihilator Company
+TEXT_UNIT_SCORPENEK_SENTRY,Scorpenek Sentry Droid
+TEXT_UNIT_SCORPENEK_SENTRY_COMPANY,Scorpenek Sentry Company
+TEXT_UNIT_SCORPENEK_UTILITY,Scorpenek Utility Droid
+TEXT_UNIT_SCORPENEK_UTILITY_COMPANY,Scorpenek Utility Company
+TEXT_TOOLTIP_SCORPENEK,The Annihilator Droid is the apex of Colicoid engineering, a formidable platform built on the success of the Droideka to destroy enemy tanks and troop transports that might threaten their homeworld. Though they lack the rolling mobility of their smaller cousins, Annihilators pack powerful shield generators and versatile cannons that can engage heavy armor or fire in lower power modes to defeat infantry. Too expensive to see truly mass use and seldom deployed off of Colla, the rarely seen "Scorpeneks" have become the subject of fearsome legends.
+TEXT_TOOLTIP_SCORPENEK_COMPANY,Company: 3x Scorpenek Annihilator Droid
+TEXT_TOOLTIP_SCORPENEK_HEALTH,Health: 90 (Light Vehicle)
+TEXT_TOOLTIP_SCORPENEK_MOVE,Speed: 1.25 | Turn: 3.0
+TEXT_TOOLTIP_SCORPENEK_SENTRY,A surprising number of the fearsome Colicoid Annihilator Droids can be found in the black markets of the galaxy. A semi-standard modification is a conversion to a sentry with improved sensors and mobility systems to support ordnance. Though it's not unheard of to replace both laser assemblies, most techs prefer to keep one intact so that the droid can continue to defend itself when its projectiles are depleted.
+TEXT_TOOLTIP_SCORPENEK_SENTRY_COMPANY,Company: 3x Scorpenek Sentry Droid
+TEXT_TOOLTIP_SCORPENEK_SENTRY_HEALTH,Health: 90 (Light Vehicle)
+TEXT_TOOLTIP_SCORPENEK_SENTRY_MOVE,Speed: 1.5 | Turn: 3.0
+TEXT_TOOLTIP_SCORPENEK_SENTRY_SHIELD,Shields: 100 / [6/R] (Light Vehicle)
+TEXT_TOOLTIP_SCORPENEK_SENTRY_WEAP1,1x AV Blaster Cannon: 2 / 2.0s / 320m
+TEXT_TOOLTIP_SCORPENEK_SENTRY_WEAP2,1x AI Blaster Cannon: 2 / 0.5s / 320m
+TEXT_TOOLTIP_SCORPENEK_SENTRY_WEAP3,1x Light Proton Missile: 1 / 5.0s / 320m
+TEXT_TOOLTIP_SCORPENEK_SENTRY_WEAP4,1x Concussion Missile: 1 / 5.0s / 320m
+TEXT_TOOLTIP_SCORPENEK_SHIELD,Shields: 100 / [6/R] (Light Vehicle)
+TEXT_TOOLTIP_SCORPENEK_UTILITY,The Scorpenek frame has found use in scrapping operations across the galaxy where the legs can provide a stable platform across treacherous terrain, especially when equipped with magnetic clamps. The deadly laser cannons can be modified into welding tools to disassemble shipwrecks, and the huge powertrain allows it to haul large pieces of cargo in a package rivals are reluctant to attack. The extra power, weight, and maintenance complications of the shield generator rarely stay in the more peaceful use of these erstwhile war droids.
+TEXT_TOOLTIP_SCORPENEK_UTILITY_COMPANY,Company: 2x Scorpenek Utility Droid
+TEXT_TOOLTIP_SCORPENEK_UTILITY_HEALTH,Health: 90 (Light Vehicle)
+TEXT_TOOLTIP_SCORPENEK_UTILITY_MOVE,Speed: 1.25 | Turn: 3.0
+TEXT_TOOLTIP_SCORPENEK_UTILITY_WEAP1,1x AV Blaster Cannon: 2 / 2.0s / 320m
+TEXT_TOOLTIP_SCORPENEK_UTILITY_WEAP2,1x AI Blaster Cannon: 2 / 0.5s / 320m
+TEXT_TOOLTIP_SCORPENEK_UTILITY_WEAP3,1x AI Beam Cannon: 20 / 5.0s / 240m
+TEXT_TOOLTIP_SCORPENEK_WEAP1,2x AV Blaster Cannons: 2 / 2.0s / 320m
+TEXT_TOOLTIP_SCORPENEK_WEAP2,2x AI Blaster Cannons: 2 / 0.5s / 320m
+TEXT_TOOLTIP_ABILITY_AMMOSWAP_DESCRIPTION_SCORPENEK,Reconfigure the Scorpenek's weapons to an anti-infantry setting or back to the default anti-vehicle arrangement.
