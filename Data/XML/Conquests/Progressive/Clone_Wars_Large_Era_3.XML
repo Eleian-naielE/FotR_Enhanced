@@ -1,0 +1,1703 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Campaigns>
+  <Campaign Name="Clone_Wars_Large_Era_3_Empire">
+    <Campaign_Set>Clone_Wars_Large_Era_3</Campaign_Set>
+    <Sort_Order>003</Sort_Order>
+    <Is_Listed>False</Is_Listed>
+    <Supports_Custom_Settings>False</Supports_Custom_Settings>
+    <Show_Completed_Tab>True</Show_Completed_Tab>
+    <Text_ID>TEXT_CAMPAIGN_HEADER_CWLARGE</Text_ID>
+    <Description_Text>TEXT_CAMPAIGN_DESCRIPTION_CWLARGE</Description_Text>
+    <Era_Start>3</Era_Start>
+    <Use_Default_Forces>True</Use_Default_Forces>
+    <Camera_Shift_X>0.0</Camera_Shift_X>
+    <Camera_Shift_Y>0.0</Camera_Shift_Y>
+    <Camera_Distance>1000.0</Camera_Distance>
+    
+	<Locations>
+			Aargonar,
+			Agamar,
+			Alderaan,
+			Anaxes,
+			Ando_Prime,
+			Arkania,
+			Bajic,
+			Balmorra,
+			Begeren,
+			Belderone,
+			Bespin,
+			Bestine,
+			Bilbringi,
+			Bomis_Koori,
+			Bothawui,
+			Boz_Pity,
+			Bresnia,
+			Carida,
+			Cato_Neimoidia,
+			Chazwa,
+			Christophsis,
+			Columus,
+			Coruscant,
+			Cularin,
+			Dantooine,
+			Dathomir,
+			Deko_Neimoidia,
+			Denon,
+			Devaron,
+			Duro,
+			Felucia,
+			Filve,
+			Florrum,
+			Foerost,
+			Fondor,
+			Galaxy_Core_Art_Model,
+			Geonosis,
+			Glee_Anselm,
+			Gyndine,
+			Haruun_Kal,
+			Humbarine,
+			Hypori,
+			Iego,
+			Ithor,
+			Jabiim,
+			Kaikielius,
+			Kalarba,
+			Kamino,
+			Kashyyyk,
+			Khomm,
+			Kirima,
+			Kooriva,
+			Korda,
+			Kuat,
+			Lantillies,
+			Lola_Sayu,
+			Malastare,
+			Mandalore,
+			Maridun,
+			Mimban,
+			Minntooine,
+			Mon_Calamari,
+			Murkhana,
+			Mustafar,
+			Muunilinst,
+			Mygeeto,
+			Naboo,
+			Nal_Hutta,
+			Nelvaan,
+			New_Plympto,
+			Onderon,
+			Ord_Biniir,
+			Ord_Cestus,
+			Ord_Mantell,
+			Ord_Trasi,
+			Ord_Vaug,
+			Pammant,
+			Pantora,
+			Phaeda,
+			Praesitlyn,
+			Qiilura,
+			Quell,
+			Raxus,
+			Raxus_Second,
+			Rendili,
+			Rhen_Var,
+			Ringo_Vinda,
+			Rintonne,
+			Rishi,
+			Roche,
+			Rodia,
+			Rothana,
+			Ryloth,
+			Saleucami,
+			Sarrish,
+			Scipio,
+			Serenno,
+			Sluis_Van,
+			Sullust,
+			Talcene,
+			Tatooine,
+			Tibrin,
+			Toydaria,
+			Trandosha,
+			Turkana,
+			Tynna,
+			Ubrikkia,
+			Umbara,
+			Utapau,
+			Vassek,
+			Wayland,
+			Xagobah,
+			YagDhul,
+			Yavin,
+			Zanbar,
+	</Locations>
+    
+	<Trade_Routes>
+			Aargonar_Quell,
+			Aargonar_Ringo_Vinda,
+			Aargonar_Talcene,
+			Aargonar_Zanbar,
+			Agamar_Dathomir,
+			Agamar_Ithor,
+			Agamar_Ord_Trasi,
+			Agamar_Phaeda,
+			Agamar_Serenno,
+			Alderaan_Anaxes,
+			Alderaan_Carida,
+			Alderaan_Columus,
+			Alderaan_Coruscant,
+			Alderaan_Kaikielius,
+			Alderaan_Kuat,
+			Anaxes_Arkania,
+			Anaxes_Bilbringi,
+			Anaxes_Coruscant,
+			Ando_Prime_Christophsis,
+			Ando_Prime_Cularin,
+			Ando_Prime_Filve,
+			Ando_Prime_Rintonne,
+			Arkania_Carida,
+			Arkania_Ord_Mantell,
+			Bajic_Naboo,
+			Bajic_Nelvaan,
+			Bajic_Pantora,
+			Bajic_Rintonne,
+			Bajic_Xagobah,
+			Balmorra_Carida,
+			Balmorra_Deko_Neimoidia,
+			Balmorra_Kuat,
+			Balmorra_Onderon,
+			Begeren_Florrum,
+			Begeren_Maridun,
+			Begeren_Serenno,
+			Belderone_Jabiim,
+			Belderone_Murkhana,
+			Belderone_Rhen_Var,
+			Belderone_Ringo_Vinda,
+			Bespin_Bomis_Koori,
+			Bespin_Mustafar,
+			Bespin_Tibrin,
+			Bespin_Vassek,
+			Bestine_Devaron,
+			Bestine_Fondor,
+			Bestine_Kooriva,
+			Bestine_YagDhul,
+			Bilbringi_Glee_Anselm,
+			Bilbringi_Qiilura,
+			Bomis_Koori_Sarrish,
+			Bomis_Koori_Tibrin,
+			Bomis_Koori_Vassek,
+			Bothawui_Bresnia,
+			Bothawui_Filve,
+			Bothawui_Rishi,
+			Bothawui_Toydaria,
+			Boz_Pity_Ringo_Vinda,
+			Boz_Pity_Roche,
+			Boz_Pity_Saleucami,
+			Boz_Pity_Toydaria,
+			Boz_Pity_Ubrikkia,
+			Bresnia_Cularin,
+			Bresnia_Mimban,
+			Carida_Chazwa,
+			Cato_Neimoidia_Deko_Neimoidia,
+			Cato_Neimoidia_Denon,
+			Cato_Neimoidia_Humbarine,
+			Cato_Neimoidia_Rendili,
+			Chazwa_Ithor,
+			Chazwa_Korda,
+			Chazwa_Onderon,
+			Chazwa_Wayland,
+			Christophsis_Nelvaan,
+			Christophsis_Rodia,
+			Columus_Kaikielius,
+			Columus_New_Plympto,
+			Columus_Rendili,
+			Coruscant_Foerost,
+			Coruscant_Kaikielius,
+			Cularin_Kalarba,
+			Cularin_Mimban,
+			Cularin_Tynna,
+			Dantooine_Muunilinst,
+			Dantooine_Ord_Trasi,
+			Dathomir_Mandalore,
+			Dathomir_Ord_Cestus,
+			Dathomir_Wayland,
+			Deko_Neimoidia_Gyndine,
+			Deko_Neimoidia_Mimban,
+			Deko_Neimoidia_Onderon,
+			Denon_Devaron,
+			Denon_Duro,
+			Denon_Gyndine,
+			Denon_Tynna,
+			Devaron_Duro,
+			Devaron_Kooriva,
+			Duro_New_Plympto,
+			Duro_Rendili,
+			Felucia_Florrum,
+			Felucia_Lola_Sayu,
+			Felucia_Murkhana,
+			Felucia_Raxus,
+			Filve_Kamino,
+			Filve_Rodia,
+			Florrum_Raxus_Second,
+			Foerost_Kaikielius,
+			Fondor_Khomm,
+			Fondor_Sarrish,
+			Fondor_YagDhul,
+			Geonosis_Nelvaan,
+			Geonosis_Ryloth,
+			Geonosis_Tatooine,
+			Glee_Anselm_Qiilura,
+			Glee_Anselm_Scipio,
+			Gyndine_Mimban,
+			Gyndine_Tynna,
+			Haruun_Kal_Malastare,
+			Haruun_Kal_Ord_Vaug,
+			Haruun_Kal_Sullust,
+			Humbarine_Kuat,
+			Humbarine_Rendili,
+			Hypori_Kamino,
+			Hypori_Rothana,
+			Hypori_Ryloth,
+			Hypori_Tatooine,
+			Iego_Jabiim,
+			Iego_Minntooine,
+			Ithor_Ord_Mantell,
+			Ithor_Phaeda,
+			Ithor_Wayland,
+			Jabiim_Saleucami,
+			Kaikielius_Khomm,
+			Kalarba_Kirima,
+			Kalarba_Rintonne,
+			Kamino_Rishi,
+			Kashyyyk_Korda,
+			Kashyyyk_Trandosha,
+			Kashyyyk_Umbara,
+			Khomm_New_Plympto,
+			Kirima_Malastare,
+			Kirima_Naboo,
+			Kirima_Tynna,
+			Kooriva_Malastare,
+			Kooriva_Tynna,
+			Korda_Lantillies,
+			Korda_Mandalore,
+			Korda_Onderon,
+			Korda_Wayland,
+			Lantillies_Mandalore,
+			Lantillies_Roche,
+			Lantillies_Trandosha,
+			Lola_Sayu_Maridun,
+			Lola_Sayu_Rhen_Var,
+			Malastare_Naboo,
+			Mandalore_Zanbar,
+			Maridun_Quell,
+			Maridun_Yavin,
+			Maridun_Zanbar,
+			Mimban_Ubrikkia,
+			Mimban_Umbara,
+			Minntooine_Mon_Calamari,
+			Minntooine_Murkhana,
+			Minntooine_Pammant,
+			Mon_Calamari_Pammant,
+			Mon_Calamari_Turkana,
+			Murkhana_Raxus,
+			Mustafar_Sluis_Van,
+			Mustafar_Tibrin,
+			Mustafar_Utapau,
+			Muunilinst_Mygeeto,
+			Mygeeto_Ord_Trasi,
+			Mygeeto_Scipio,
+			Naboo_Rintonne,
+			Nal_Hutta_Rishi,
+			Nal_Hutta_Toydaria,
+			Nelvaan_Ryloth,
+			Onderon_Umbara,
+			Ord_Biniir_Ord_Trasi,
+			Ord_Biniir_Phaeda,
+			Ord_Biniir_Scipio,
+			Ord_Cestus_Serenno,
+			Ord_Cestus_Yavin,
+			Ord_Cestus_Zanbar,
+			Ord_Mantell_Qiilura,
+			Ord_Vaug_Sarrish,
+			Ord_Vaug_Tibrin,
+			Ord_Vaug_YagDhul,
+			Pantora_Praesitlyn,
+			Pantora_Utapau,
+			Phaeda_Qiilura,
+			Praesitlyn_Sluis_Van,
+			Praesitlyn_Utapau,
+			Praesitlyn_Xagobah,
+			Qiilura_Scipio,
+			Quell_Rhen_Var,
+			Raxus_Raxus_Second,
+			Raxus_Turkana,
+			Ringo_Vinda_Saleucami,
+			Ringo_Vinda_Talcene,
+			Rishi_Rothana,
+			Roche_Talcene,
+			Roche_Trandosha,
+			Rodia_Tatooine,
+			Sarrish_YagDhul,
+			Serenno_Yavin,
+			Sluis_Van_Tibrin,
+			Sluis_Van_Utapau,
+			Sullust_Tibrin,
+			Sullust_Xagobah,
+			Toydaria_Ubrikkia,
+			Trandosha_Ubrikkia,
+			Ubrikkia_Umbara,
+	</Trade_Routes>
+    
+	<Starting_Active_Player>Empire</Starting_Active_Player>
+    <AI_Player_Control>Banking_Clan, None</AI_Player_Control>
+    <AI_Player_Control>Commerce_Guild, None</AI_Player_Control>
+    <AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
+    <AI_Player_Control>Hostile, None</AI_Player_Control>
+    <AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+    <AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+    <AI_Player_Control>Mandalorians, None</AI_Player_Control>
+    <AI_Player_Control>Rebel, None</AI_Player_Control>
+    <AI_Player_Control>Sector_Forces, None</AI_Player_Control>
+    <AI_Player_Control>Techno_Union, None</AI_Player_Control>
+    <AI_Player_Control>Trade_Federation, None</AI_Player_Control>
+    <AI_Player_Control>Underworld, None</AI_Player_Control>
+    <Markup_Filename>Banking_Clan, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Commerce_Guild, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Hutt_Cartels, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Sector_Forces, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Techno_Union, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Trade_Federation, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+    
+	<Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
+    <AI_Victory_Conditions>Galactic_All_Planets_Controlled</AI_Victory_Conditions>
+    
+	<Story_Name>
+		Rebel, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_CIS.xml,
+		Empire, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Republic.xml,
+		Hutt_Cartels, Conquests\Story_Plots_Generic_Hutt_Cartels.xml,
+		Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml
+	</Story_Name>
+    
+	<Starting_Credits>Banking_Clan, 10000</Starting_Credits>
+    <Starting_Tech_Level>Banking_Clan, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Banking_Clan, 5</Max_Tech_Level>
+    <Starting_Credits>Commerce_Guild, 10000</Starting_Credits>
+    <Starting_Tech_Level>Commerce_Guild, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Commerce_Guild, 5</Max_Tech_Level>
+    <Starting_Credits>Empire, 10000</Starting_Credits>
+    <Starting_Tech_Level>Empire, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Empire, 5</Max_Tech_Level>
+    <Starting_Credits>Hostile, 10000</Starting_Credits>
+    <Starting_Tech_Level>Hostile, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Hostile, 5</Max_Tech_Level>
+    <Starting_Credits>Hutt_Cartels, 10000</Starting_Credits>
+    <Starting_Tech_Level>Hutt_Cartels, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Hutt_Cartels, 5</Max_Tech_Level>
+    <Starting_Credits>Independent_Forces, 10000</Starting_Credits>
+    <Starting_Tech_Level>Independent_Forces, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Independent_Forces, 5</Max_Tech_Level>
+    <Starting_Credits>Mandalorians, 10000</Starting_Credits>
+    <Starting_Tech_Level>Mandalorians, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Mandalorians, 5</Max_Tech_Level>
+    <Starting_Credits>Rebel, 10000</Starting_Credits>
+    <Starting_Tech_Level>Rebel, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Rebel, 5</Max_Tech_Level>
+    <Starting_Credits>Sector_Forces, 10000</Starting_Credits>
+    <Starting_Tech_Level>Sector_Forces, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Sector_Forces, 5</Max_Tech_Level>
+    <Starting_Credits>Techno_Union, 10000</Starting_Credits>
+    <Starting_Tech_Level>Techno_Union, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Techno_Union, 5</Max_Tech_Level>
+    <Starting_Credits>Trade_Federation, 10000</Starting_Credits>
+    <Starting_Tech_Level>Trade_Federation, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Trade_Federation, 5</Max_Tech_Level>
+    <Starting_Credits>Underworld, 10000</Starting_Credits>
+    <Starting_Tech_Level>Underworld, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Underworld, 5</Max_Tech_Level>
+    
+	<Starting_Forces>Empire, Aargonar, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Aargonar, Era_Three_Dummy</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Agamar, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Alderaan, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Anaxes, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ando_Prime, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Arkania, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Bajic, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Balmorra, Generate_Force</Starting_Forces>
+    <Starting_Forces>Commerce_Guild, Begeren, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Belderone, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Bespin, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Bestine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Bilbringi, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Bomis_Koori, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Bothawui, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Boz_Pity, Generate_Force</Starting_Forces>
+    <Starting_Forces>Sector_Forces, Bresnia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Carida, Generate_Force</Starting_Forces>
+    <Starting_Forces>Trade_Federation, Cato_Neimoidia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Chazwa, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Republic_LAAT_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, AV7_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Republic_AT_TE_Walker_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Republic_AT_RT_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Empire_Office</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Pelta_Assault</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Clonetrooper_Phase_One_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Clonetrooper_Phase_One_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Pelta_Support</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Venator_Star_Destroyer</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Empire_Star_Base_1</Starting_Forces>
+    <Starting_Forces>Empire, Columus, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Coruscant, Republic_Capital</Starting_Forces>
+    <Starting_Forces>Empire, Coruscant, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Coruscant, Senate_Commando_Company</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Cularin, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Dantooine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Dathomir, Generate_Force</Starting_Forces>
+    <Starting_Forces>Trade_Federation, Deko_Neimoidia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Denon, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Devaron, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Duro, Generate_Force</Starting_Forces>
+    <Starting_Forces>Commerce_Guild, Felucia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Trade_Federation, Filve, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Florrum, Generate_Force</Starting_Forces>
+    <Starting_Forces>Techno_Union, Foerost, Generate_Force</Starting_Forces>
+    <Starting_Forces>Techno_Union, Fondor, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, R_Ground_Heavy_Vehicle_Factory</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Destroyer_Droid_I_W_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, AAT_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, J1_Cannon_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Rebel_Star_Base_3</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Secondary_TF_Outpost</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Lucrehulk_Core_Destroyer</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Hardcell</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Hardcell_Tender</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, R_Ground_Light_Vehicle_Factory</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, R_Ground_Barracks</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Galactic_Turbolaser_Tower_Defenses_CIS</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Rebel_Office</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, B2_Droid_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, B1_Geo_Droid_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, B1_Geo_Droid_Company</Starting_Forces>
+    <Starting_Forces>Empire, Glee_Anselm, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Gyndine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Haruun_Kal, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Humbarine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Techno_Union, Hypori, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Iego, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ithor, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Jabiim, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Kaikielius, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Kalarba, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Kamino, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Kashyyyk, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Khomm, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Kirima, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Kooriva, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Korda, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Kuat, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Lantillies, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Lola_Sayu, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Malastare, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Mandalore, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Maridun, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Mimban, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Minntooine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Mon_Calamari, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Murkhana, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Mustafar, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Muunilinst, Generate_Force</Starting_Forces>
+    <Starting_Forces>Banking_Clan, Mygeeto, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Naboo, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Nal_Hutta, Hutt_Capital</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Nal_Hutta, Generate_Force</Starting_Forces>
+    <Starting_Forces>Techno_Union, Nelvaan, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, New_Plympto, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Onderon, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ord_Biniir, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ord_Cestus, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ord_Mantell, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ord_Trasi, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ord_Vaug, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Pammant, Generate_Force</Starting_Forces>
+    <Starting_Forces>Trade_Federation, Pantora, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Phaeda, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Praesitlyn, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Qiilura, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Quell, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Raxus, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Raxus_Second, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Raxus_Second, CIS_Capital</Starting_Forces>
+    <Starting_Forces>Sector_Forces, Rendili, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rhen_Var, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ringo_Vinda, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rintonne, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rishi, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Roche, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rodia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rothana, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ryloth, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Saleucami, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Sarrish, Generate_Force</Starting_Forces>
+    <Starting_Forces>Banking_Clan, Scipio, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Serenno, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Sluis_Van, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Sullust, Generate_Force</Starting_Forces>
+    <Starting_Forces>Commerce_Guild, Talcene, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Tatooine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Tibrin, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Toydaria, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Trandosha, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Turkana, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Tynna, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Ubrikkia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Umbara, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Utapau, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Vassek, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Wayland, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Xagobah, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, YagDhul, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Yavin, Generate_Force</Starting_Forces>
+    <Starting_Forces>Mandalorians, Zanbar, Generate_Force</Starting_Forces>
+  </Campaign>
+  
+  <Campaign Name="Clone_Wars_Large_Era_3_Hutt_Cartels">
+    <Campaign_Set>Clone_Wars_Large_Era_3</Campaign_Set>
+    <Sort_Order>003</Sort_Order>
+    <Is_Listed>False</Is_Listed>
+    <Supports_Custom_Settings>False</Supports_Custom_Settings>
+    <Show_Completed_Tab>True</Show_Completed_Tab>
+    <Text_ID>TEXT_CAMPAIGN_HEADER_CWLARGE</Text_ID>
+    <Description_Text>TEXT_CAMPAIGN_DESCRIPTION_CWLARGE</Description_Text>
+    <Era_Start>3</Era_Start>
+    <Use_Default_Forces>True</Use_Default_Forces>
+    <Camera_Shift_X>0.0</Camera_Shift_X>
+    <Camera_Shift_Y>0.0</Camera_Shift_Y>
+    <Camera_Distance>1000.0</Camera_Distance>
+    
+	<Locations>
+			Aargonar,
+			Agamar,
+			Alderaan,
+			Anaxes,
+			Ando_Prime,
+			Arkania,
+			Bajic,
+			Balmorra,
+			Begeren,
+			Belderone,
+			Bespin,
+			Bestine,
+			Bilbringi,
+			Bomis_Koori,
+			Bothawui,
+			Boz_Pity,
+			Bresnia,
+			Carida,
+			Cato_Neimoidia,
+			Chazwa,
+			Christophsis,
+			Columus,
+			Coruscant,
+			Cularin,
+			Dantooine,
+			Dathomir,
+			Deko_Neimoidia,
+			Denon,
+			Devaron,
+			Duro,
+			Felucia,
+			Filve,
+			Florrum,
+			Foerost,
+			Fondor,
+			Galaxy_Core_Art_Model,
+			Geonosis,
+			Glee_Anselm,
+			Gyndine,
+			Haruun_Kal,
+			Humbarine,
+			Hypori,
+			Iego,
+			Ithor,
+			Jabiim,
+			Kaikielius,
+			Kalarba,
+			Kamino,
+			Kashyyyk,
+			Khomm,
+			Kirima,
+			Kooriva,
+			Korda,
+			Kuat,
+			Lantillies,
+			Lola_Sayu,
+			Malastare,
+			Mandalore,
+			Maridun,
+			Mimban,
+			Minntooine,
+			Mon_Calamari,
+			Murkhana,
+			Mustafar,
+			Muunilinst,
+			Mygeeto,
+			Naboo,
+			Nal_Hutta,
+			Nelvaan,
+			New_Plympto,
+			Onderon,
+			Ord_Biniir,
+			Ord_Cestus,
+			Ord_Mantell,
+			Ord_Trasi,
+			Ord_Vaug,
+			Pammant,
+			Pantora,
+			Phaeda,
+			Praesitlyn,
+			Qiilura,
+			Quell,
+			Raxus,
+			Raxus_Second,
+			Rendili,
+			Rhen_Var,
+			Ringo_Vinda,
+			Rintonne,
+			Rishi,
+			Roche,
+			Rodia,
+			Rothana,
+			Ryloth,
+			Saleucami,
+			Sarrish,
+			Scipio,
+			Serenno,
+			Sluis_Van,
+			Sullust,
+			Talcene,
+			Tatooine,
+			Tibrin,
+			Toydaria,
+			Trandosha,
+			Turkana,
+			Tynna,
+			Ubrikkia,
+			Umbara,
+			Utapau,
+			Vassek,
+			Wayland,
+			Xagobah,
+			YagDhul,
+			Yavin,
+			Zanbar,
+	</Locations>
+    
+	<Trade_Routes>
+			Aargonar_Quell,
+			Aargonar_Ringo_Vinda,
+			Aargonar_Talcene,
+			Aargonar_Zanbar,
+			Agamar_Dathomir,
+			Agamar_Ithor,
+			Agamar_Ord_Trasi,
+			Agamar_Phaeda,
+			Agamar_Serenno,
+			Alderaan_Anaxes,
+			Alderaan_Carida,
+			Alderaan_Columus,
+			Alderaan_Coruscant,
+			Alderaan_Kaikielius,
+			Alderaan_Kuat,
+			Anaxes_Arkania,
+			Anaxes_Bilbringi,
+			Anaxes_Coruscant,
+			Ando_Prime_Christophsis,
+			Ando_Prime_Cularin,
+			Ando_Prime_Filve,
+			Ando_Prime_Rintonne,
+			Arkania_Carida,
+			Arkania_Ord_Mantell,
+			Bajic_Naboo,
+			Bajic_Nelvaan,
+			Bajic_Pantora,
+			Bajic_Rintonne,
+			Bajic_Xagobah,
+			Balmorra_Carida,
+			Balmorra_Deko_Neimoidia,
+			Balmorra_Kuat,
+			Balmorra_Onderon,
+			Begeren_Florrum,
+			Begeren_Maridun,
+			Begeren_Serenno,
+			Belderone_Jabiim,
+			Belderone_Murkhana,
+			Belderone_Rhen_Var,
+			Belderone_Ringo_Vinda,
+			Bespin_Bomis_Koori,
+			Bespin_Mustafar,
+			Bespin_Tibrin,
+			Bespin_Vassek,
+			Bestine_Devaron,
+			Bestine_Fondor,
+			Bestine_Kooriva,
+			Bestine_YagDhul,
+			Bilbringi_Glee_Anselm,
+			Bilbringi_Qiilura,
+			Bomis_Koori_Sarrish,
+			Bomis_Koori_Tibrin,
+			Bomis_Koori_Vassek,
+			Bothawui_Bresnia,
+			Bothawui_Filve,
+			Bothawui_Rishi,
+			Bothawui_Toydaria,
+			Boz_Pity_Ringo_Vinda,
+			Boz_Pity_Roche,
+			Boz_Pity_Saleucami,
+			Boz_Pity_Toydaria,
+			Boz_Pity_Ubrikkia,
+			Bresnia_Cularin,
+			Bresnia_Mimban,
+			Carida_Chazwa,
+			Cato_Neimoidia_Deko_Neimoidia,
+			Cato_Neimoidia_Denon,
+			Cato_Neimoidia_Humbarine,
+			Cato_Neimoidia_Rendili,
+			Chazwa_Ithor,
+			Chazwa_Korda,
+			Chazwa_Onderon,
+			Chazwa_Wayland,
+			Christophsis_Nelvaan,
+			Christophsis_Rodia,
+			Columus_Kaikielius,
+			Columus_New_Plympto,
+			Columus_Rendili,
+			Coruscant_Foerost,
+			Coruscant_Kaikielius,
+			Cularin_Kalarba,
+			Cularin_Mimban,
+			Cularin_Tynna,
+			Dantooine_Muunilinst,
+			Dantooine_Ord_Trasi,
+			Dathomir_Mandalore,
+			Dathomir_Ord_Cestus,
+			Dathomir_Wayland,
+			Deko_Neimoidia_Gyndine,
+			Deko_Neimoidia_Mimban,
+			Deko_Neimoidia_Onderon,
+			Denon_Devaron,
+			Denon_Duro,
+			Denon_Gyndine,
+			Denon_Tynna,
+			Devaron_Duro,
+			Devaron_Kooriva,
+			Duro_New_Plympto,
+			Duro_Rendili,
+			Felucia_Florrum,
+			Felucia_Lola_Sayu,
+			Felucia_Murkhana,
+			Felucia_Raxus,
+			Filve_Kamino,
+			Filve_Rodia,
+			Florrum_Raxus_Second,
+			Foerost_Kaikielius,
+			Fondor_Khomm,
+			Fondor_Sarrish,
+			Fondor_YagDhul,
+			Geonosis_Nelvaan,
+			Geonosis_Ryloth,
+			Geonosis_Tatooine,
+			Glee_Anselm_Qiilura,
+			Glee_Anselm_Scipio,
+			Gyndine_Mimban,
+			Gyndine_Tynna,
+			Haruun_Kal_Malastare,
+			Haruun_Kal_Ord_Vaug,
+			Haruun_Kal_Sullust,
+			Humbarine_Kuat,
+			Humbarine_Rendili,
+			Hypori_Kamino,
+			Hypori_Rothana,
+			Hypori_Ryloth,
+			Hypori_Tatooine,
+			Iego_Jabiim,
+			Iego_Minntooine,
+			Ithor_Ord_Mantell,
+			Ithor_Phaeda,
+			Ithor_Wayland,
+			Jabiim_Saleucami,
+			Kaikielius_Khomm,
+			Kalarba_Kirima,
+			Kalarba_Rintonne,
+			Kamino_Rishi,
+			Kashyyyk_Korda,
+			Kashyyyk_Trandosha,
+			Kashyyyk_Umbara,
+			Khomm_New_Plympto,
+			Kirima_Malastare,
+			Kirima_Naboo,
+			Kirima_Tynna,
+			Kooriva_Malastare,
+			Kooriva_Tynna,
+			Korda_Lantillies,
+			Korda_Mandalore,
+			Korda_Onderon,
+			Korda_Wayland,
+			Lantillies_Mandalore,
+			Lantillies_Roche,
+			Lantillies_Trandosha,
+			Lola_Sayu_Maridun,
+			Lola_Sayu_Rhen_Var,
+			Malastare_Naboo,
+			Mandalore_Zanbar,
+			Maridun_Quell,
+			Maridun_Yavin,
+			Maridun_Zanbar,
+			Mimban_Ubrikkia,
+			Mimban_Umbara,
+			Minntooine_Mon_Calamari,
+			Minntooine_Murkhana,
+			Minntooine_Pammant,
+			Mon_Calamari_Pammant,
+			Mon_Calamari_Turkana,
+			Murkhana_Raxus,
+			Mustafar_Sluis_Van,
+			Mustafar_Tibrin,
+			Mustafar_Utapau,
+			Muunilinst_Mygeeto,
+			Mygeeto_Ord_Trasi,
+			Mygeeto_Scipio,
+			Naboo_Rintonne,
+			Nal_Hutta_Rishi,
+			Nal_Hutta_Toydaria,
+			Nelvaan_Ryloth,
+			Onderon_Umbara,
+			Ord_Biniir_Ord_Trasi,
+			Ord_Biniir_Phaeda,
+			Ord_Biniir_Scipio,
+			Ord_Cestus_Serenno,
+			Ord_Cestus_Yavin,
+			Ord_Cestus_Zanbar,
+			Ord_Mantell_Qiilura,
+			Ord_Vaug_Sarrish,
+			Ord_Vaug_Tibrin,
+			Ord_Vaug_YagDhul,
+			Pantora_Praesitlyn,
+			Pantora_Utapau,
+			Phaeda_Qiilura,
+			Praesitlyn_Sluis_Van,
+			Praesitlyn_Utapau,
+			Praesitlyn_Xagobah,
+			Qiilura_Scipio,
+			Quell_Rhen_Var,
+			Raxus_Raxus_Second,
+			Raxus_Turkana,
+			Ringo_Vinda_Saleucami,
+			Ringo_Vinda_Talcene,
+			Rishi_Rothana,
+			Roche_Talcene,
+			Roche_Trandosha,
+			Rodia_Tatooine,
+			Sarrish_YagDhul,
+			Serenno_Yavin,
+			Sluis_Van_Tibrin,
+			Sluis_Van_Utapau,
+			Sullust_Tibrin,
+			Sullust_Xagobah,
+			Toydaria_Ubrikkia,
+			Trandosha_Ubrikkia,
+			Ubrikkia_Umbara,
+	</Trade_Routes>
+    
+	<Starting_Active_Player>Hutt_Cartels</Starting_Active_Player>
+    <AI_Player_Control>Banking_Clan, None</AI_Player_Control>
+    <AI_Player_Control>Commerce_Guild, None</AI_Player_Control>
+    <AI_Player_Control>Empire, None</AI_Player_Control>
+    <AI_Player_Control>Hostile, None</AI_Player_Control>
+    <AI_Player_Control>Hutt_Cartels, SandboxHuman</AI_Player_Control>
+    <AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+    <AI_Player_Control>Mandalorians, None</AI_Player_Control>
+    <AI_Player_Control>Rebel, None</AI_Player_Control>
+    <AI_Player_Control>Sector_Forces, None</AI_Player_Control>
+    <AI_Player_Control>Techno_Union, None</AI_Player_Control>
+    <AI_Player_Control>Trade_Federation, None</AI_Player_Control>
+    <AI_Player_Control>Underworld, None</AI_Player_Control>
+    <Markup_Filename>Banking_Clan, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Commerce_Guild, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Hutt_Cartels, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Sector_Forces, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Techno_Union, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Trade_Federation, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+    
+	<Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
+    <AI_Victory_Conditions>Galactic_All_Planets_Controlled</AI_Victory_Conditions>
+    
+	<Story_Name>
+		Rebel, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_CIS.xml,
+		Empire, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Republic.xml,
+		Hutt_Cartels, Conquests\Story_Plots_Generic_Hutt_Cartels.xml,
+		Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml
+	</Story_Name>
+    
+	<Starting_Credits>Banking_Clan, 10000</Starting_Credits>
+    <Starting_Tech_Level>Banking_Clan, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Banking_Clan, 5</Max_Tech_Level>
+    <Starting_Credits>Commerce_Guild, 10000</Starting_Credits>
+    <Starting_Tech_Level>Commerce_Guild, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Commerce_Guild, 5</Max_Tech_Level>
+    <Starting_Credits>Empire, 10000</Starting_Credits>
+    <Starting_Tech_Level>Empire, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Empire, 5</Max_Tech_Level>
+    <Starting_Credits>Hostile, 10000</Starting_Credits>
+    <Starting_Tech_Level>Hostile, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Hostile, 5</Max_Tech_Level>
+    <Starting_Credits>Hutt_Cartels, 10000</Starting_Credits>
+    <Starting_Tech_Level>Hutt_Cartels, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Hutt_Cartels, 5</Max_Tech_Level>
+    <Starting_Credits>Independent_Forces, 10000</Starting_Credits>
+    <Starting_Tech_Level>Independent_Forces, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Independent_Forces, 5</Max_Tech_Level>
+    <Starting_Credits>Mandalorians, 10000</Starting_Credits>
+    <Starting_Tech_Level>Mandalorians, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Mandalorians, 5</Max_Tech_Level>
+    <Starting_Credits>Rebel, 10000</Starting_Credits>
+    <Starting_Tech_Level>Rebel, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Rebel, 5</Max_Tech_Level>
+    <Starting_Credits>Sector_Forces, 10000</Starting_Credits>
+    <Starting_Tech_Level>Sector_Forces, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Sector_Forces, 5</Max_Tech_Level>
+    <Starting_Credits>Techno_Union, 10000</Starting_Credits>
+    <Starting_Tech_Level>Techno_Union, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Techno_Union, 5</Max_Tech_Level>
+    <Starting_Credits>Trade_Federation, 10000</Starting_Credits>
+    <Starting_Tech_Level>Trade_Federation, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Trade_Federation, 5</Max_Tech_Level>
+    <Starting_Credits>Underworld, 10000</Starting_Credits>
+    <Starting_Tech_Level>Underworld, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Underworld, 5</Max_Tech_Level>
+    
+	<Starting_Forces>Empire, Aargonar, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Aargonar, Era_Three_Dummy</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Agamar, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Alderaan, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Anaxes, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ando_Prime, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Arkania, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Bajic, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Balmorra, Generate_Force</Starting_Forces>
+    <Starting_Forces>Commerce_Guild, Begeren, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Belderone, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Bespin, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Bestine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Bilbringi, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Bomis_Koori, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Bothawui, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Boz_Pity, Generate_Force</Starting_Forces>
+    <Starting_Forces>Sector_Forces, Bresnia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Carida, Generate_Force</Starting_Forces>
+    <Starting_Forces>Trade_Federation, Cato_Neimoidia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Chazwa, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Republic_LAAT_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, AV7_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Republic_AT_TE_Walker_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Republic_AT_RT_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Empire_Office</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Pelta_Assault</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Clonetrooper_Phase_One_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Clonetrooper_Phase_One_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Pelta_Support</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Venator_Star_Destroyer</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Empire_Star_Base_1</Starting_Forces>
+    <Starting_Forces>Empire, Columus, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Coruscant, Republic_Capital</Starting_Forces>
+    <Starting_Forces>Empire, Coruscant, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Coruscant, Senate_Commando_Company</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Cularin, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Dantooine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Dathomir, Generate_Force</Starting_Forces>
+    <Starting_Forces>Trade_Federation, Deko_Neimoidia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Denon, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Devaron, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Duro, Generate_Force</Starting_Forces>
+    <Starting_Forces>Commerce_Guild, Felucia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Trade_Federation, Filve, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Florrum, Generate_Force</Starting_Forces>
+    <Starting_Forces>Techno_Union, Foerost, Generate_Force</Starting_Forces>
+    <Starting_Forces>Techno_Union, Fondor, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, R_Ground_Heavy_Vehicle_Factory</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Destroyer_Droid_I_W_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, AAT_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, J1_Cannon_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Rebel_Star_Base_3</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Secondary_TF_Outpost</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Lucrehulk_Core_Destroyer</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Hardcell</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Hardcell_Tender</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, R_Ground_Light_Vehicle_Factory</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, R_Ground_Barracks</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Galactic_Turbolaser_Tower_Defenses_CIS</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Rebel_Office</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, B2_Droid_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, B1_Geo_Droid_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, B1_Geo_Droid_Company</Starting_Forces>
+    <Starting_Forces>Empire, Glee_Anselm, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Gyndine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Haruun_Kal, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Humbarine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Techno_Union, Hypori, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Iego, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ithor, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Jabiim, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Kaikielius, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Kalarba, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Kamino, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Kashyyyk, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Khomm, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Kirima, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Kooriva, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Korda, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Kuat, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Lantillies, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Lola_Sayu, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Malastare, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Mandalore, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Maridun, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Mimban, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Minntooine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Mon_Calamari, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Murkhana, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Mustafar, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Muunilinst, Generate_Force</Starting_Forces>
+    <Starting_Forces>Banking_Clan, Mygeeto, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Naboo, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Nal_Hutta, Hutt_Capital</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Nal_Hutta, Generate_Force</Starting_Forces>
+    <Starting_Forces>Techno_Union, Nelvaan, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, New_Plympto, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Onderon, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ord_Biniir, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ord_Cestus, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ord_Mantell, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ord_Trasi, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ord_Vaug, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Pammant, Generate_Force</Starting_Forces>
+    <Starting_Forces>Trade_Federation, Pantora, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Phaeda, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Praesitlyn, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Qiilura, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Quell, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Raxus, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Raxus_Second, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Raxus_Second, CIS_Capital</Starting_Forces>
+    <Starting_Forces>Sector_Forces, Rendili, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rhen_Var, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ringo_Vinda, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rintonne, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rishi, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Roche, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rodia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rothana, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ryloth, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Saleucami, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Sarrish, Generate_Force</Starting_Forces>
+    <Starting_Forces>Banking_Clan, Scipio, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Serenno, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Sluis_Van, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Sullust, Generate_Force</Starting_Forces>
+    <Starting_Forces>Commerce_Guild, Talcene, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Tatooine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Tibrin, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Toydaria, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Trandosha, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Turkana, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Tynna, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Ubrikkia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Umbara, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Utapau, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Vassek, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Wayland, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Xagobah, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, YagDhul, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Yavin, Generate_Force</Starting_Forces>
+    <Starting_Forces>Mandalorians, Zanbar, Generate_Force</Starting_Forces>
+  </Campaign>
+  
+  <Campaign Name="Clone_Wars_Large_Era_3_Rebel">
+    <Campaign_Set>Clone_Wars_Large_Era_3</Campaign_Set>
+    <Sort_Order>003</Sort_Order>
+    <Is_Listed>False</Is_Listed>
+    <Supports_Custom_Settings>False</Supports_Custom_Settings>
+    <Show_Completed_Tab>True</Show_Completed_Tab>
+    <Text_ID>TEXT_CAMPAIGN_HEADER_CWLARGE</Text_ID>
+    <Description_Text>TEXT_CAMPAIGN_DESCRIPTION_CWLARGE</Description_Text>
+    <Era_Start>3</Era_Start>
+    <Use_Default_Forces>True</Use_Default_Forces>
+    <Camera_Shift_X>0.0</Camera_Shift_X>
+    <Camera_Shift_Y>0.0</Camera_Shift_Y>
+    <Camera_Distance>1000.0</Camera_Distance>
+    
+	<Locations>
+			Aargonar,
+			Agamar,
+			Alderaan,
+			Anaxes,
+			Ando_Prime,
+			Arkania,
+			Bajic,
+			Balmorra,
+			Begeren,
+			Belderone,
+			Bespin,
+			Bestine,
+			Bilbringi,
+			Bomis_Koori,
+			Bothawui,
+			Boz_Pity,
+			Bresnia,
+			Carida,
+			Cato_Neimoidia,
+			Chazwa,
+			Christophsis,
+			Columus,
+			Coruscant,
+			Cularin,
+			Dantooine,
+			Dathomir,
+			Deko_Neimoidia,
+			Denon,
+			Devaron,
+			Duro,
+			Felucia,
+			Filve,
+			Florrum,
+			Foerost,
+			Fondor,
+			Galaxy_Core_Art_Model,
+			Geonosis,
+			Glee_Anselm,
+			Gyndine,
+			Haruun_Kal,
+			Humbarine,
+			Hypori,
+			Iego,
+			Ithor,
+			Jabiim,
+			Kaikielius,
+			Kalarba,
+			Kamino,
+			Kashyyyk,
+			Khomm,
+			Kirima,
+			Kooriva,
+			Korda,
+			Kuat,
+			Lantillies,
+			Lola_Sayu,
+			Malastare,
+			Mandalore,
+			Maridun,
+			Mimban,
+			Minntooine,
+			Mon_Calamari,
+			Murkhana,
+			Mustafar,
+			Muunilinst,
+			Mygeeto,
+			Naboo,
+			Nal_Hutta,
+			Nelvaan,
+			New_Plympto,
+			Onderon,
+			Ord_Biniir,
+			Ord_Cestus,
+			Ord_Mantell,
+			Ord_Trasi,
+			Ord_Vaug,
+			Pammant,
+			Pantora,
+			Phaeda,
+			Praesitlyn,
+			Qiilura,
+			Quell,
+			Raxus,
+			Raxus_Second,
+			Rendili,
+			Rhen_Var,
+			Ringo_Vinda,
+			Rintonne,
+			Rishi,
+			Roche,
+			Rodia,
+			Rothana,
+			Ryloth,
+			Saleucami,
+			Sarrish,
+			Scipio,
+			Serenno,
+			Sluis_Van,
+			Sullust,
+			Talcene,
+			Tatooine,
+			Tibrin,
+			Toydaria,
+			Trandosha,
+			Turkana,
+			Tynna,
+			Ubrikkia,
+			Umbara,
+			Utapau,
+			Vassek,
+			Wayland,
+			Xagobah,
+			YagDhul,
+			Yavin,
+			Zanbar,
+	</Locations>
+    
+	<Trade_Routes>
+			Aargonar_Quell,
+			Aargonar_Ringo_Vinda,
+			Aargonar_Talcene,
+			Aargonar_Zanbar,
+			Agamar_Dathomir,
+			Agamar_Ithor,
+			Agamar_Ord_Trasi,
+			Agamar_Phaeda,
+			Agamar_Serenno,
+			Alderaan_Anaxes,
+			Alderaan_Carida,
+			Alderaan_Columus,
+			Alderaan_Coruscant,
+			Alderaan_Kaikielius,
+			Alderaan_Kuat,
+			Anaxes_Arkania,
+			Anaxes_Bilbringi,
+			Anaxes_Coruscant,
+			Ando_Prime_Christophsis,
+			Ando_Prime_Cularin,
+			Ando_Prime_Filve,
+			Ando_Prime_Rintonne,
+			Arkania_Carida,
+			Arkania_Ord_Mantell,
+			Bajic_Naboo,
+			Bajic_Nelvaan,
+			Bajic_Pantora,
+			Bajic_Rintonne,
+			Bajic_Xagobah,
+			Balmorra_Carida,
+			Balmorra_Deko_Neimoidia,
+			Balmorra_Kuat,
+			Balmorra_Onderon,
+			Begeren_Florrum,
+			Begeren_Maridun,
+			Begeren_Serenno,
+			Belderone_Jabiim,
+			Belderone_Murkhana,
+			Belderone_Rhen_Var,
+			Belderone_Ringo_Vinda,
+			Bespin_Bomis_Koori,
+			Bespin_Mustafar,
+			Bespin_Tibrin,
+			Bespin_Vassek,
+			Bestine_Devaron,
+			Bestine_Fondor,
+			Bestine_Kooriva,
+			Bestine_YagDhul,
+			Bilbringi_Glee_Anselm,
+			Bilbringi_Qiilura,
+			Bomis_Koori_Sarrish,
+			Bomis_Koori_Tibrin,
+			Bomis_Koori_Vassek,
+			Bothawui_Bresnia,
+			Bothawui_Filve,
+			Bothawui_Rishi,
+			Bothawui_Toydaria,
+			Boz_Pity_Ringo_Vinda,
+			Boz_Pity_Roche,
+			Boz_Pity_Saleucami,
+			Boz_Pity_Toydaria,
+			Boz_Pity_Ubrikkia,
+			Bresnia_Cularin,
+			Bresnia_Mimban,
+			Carida_Chazwa,
+			Cato_Neimoidia_Deko_Neimoidia,
+			Cato_Neimoidia_Denon,
+			Cato_Neimoidia_Humbarine,
+			Cato_Neimoidia_Rendili,
+			Chazwa_Ithor,
+			Chazwa_Korda,
+			Chazwa_Onderon,
+			Chazwa_Wayland,
+			Christophsis_Nelvaan,
+			Christophsis_Rodia,
+			Columus_Kaikielius,
+			Columus_New_Plympto,
+			Columus_Rendili,
+			Coruscant_Foerost,
+			Coruscant_Kaikielius,
+			Cularin_Kalarba,
+			Cularin_Mimban,
+			Cularin_Tynna,
+			Dantooine_Muunilinst,
+			Dantooine_Ord_Trasi,
+			Dathomir_Mandalore,
+			Dathomir_Ord_Cestus,
+			Dathomir_Wayland,
+			Deko_Neimoidia_Gyndine,
+			Deko_Neimoidia_Mimban,
+			Deko_Neimoidia_Onderon,
+			Denon_Devaron,
+			Denon_Duro,
+			Denon_Gyndine,
+			Denon_Tynna,
+			Devaron_Duro,
+			Devaron_Kooriva,
+			Duro_New_Plympto,
+			Duro_Rendili,
+			Felucia_Florrum,
+			Felucia_Lola_Sayu,
+			Felucia_Murkhana,
+			Felucia_Raxus,
+			Filve_Kamino,
+			Filve_Rodia,
+			Florrum_Raxus_Second,
+			Foerost_Kaikielius,
+			Fondor_Khomm,
+			Fondor_Sarrish,
+			Fondor_YagDhul,
+			Geonosis_Nelvaan,
+			Geonosis_Ryloth,
+			Geonosis_Tatooine,
+			Glee_Anselm_Qiilura,
+			Glee_Anselm_Scipio,
+			Gyndine_Mimban,
+			Gyndine_Tynna,
+			Haruun_Kal_Malastare,
+			Haruun_Kal_Ord_Vaug,
+			Haruun_Kal_Sullust,
+			Humbarine_Kuat,
+			Humbarine_Rendili,
+			Hypori_Kamino,
+			Hypori_Rothana,
+			Hypori_Ryloth,
+			Hypori_Tatooine,
+			Iego_Jabiim,
+			Iego_Minntooine,
+			Ithor_Ord_Mantell,
+			Ithor_Phaeda,
+			Ithor_Wayland,
+			Jabiim_Saleucami,
+			Kaikielius_Khomm,
+			Kalarba_Kirima,
+			Kalarba_Rintonne,
+			Kamino_Rishi,
+			Kashyyyk_Korda,
+			Kashyyyk_Trandosha,
+			Kashyyyk_Umbara,
+			Khomm_New_Plympto,
+			Kirima_Malastare,
+			Kirima_Naboo,
+			Kirima_Tynna,
+			Kooriva_Malastare,
+			Kooriva_Tynna,
+			Korda_Lantillies,
+			Korda_Mandalore,
+			Korda_Onderon,
+			Korda_Wayland,
+			Lantillies_Mandalore,
+			Lantillies_Roche,
+			Lantillies_Trandosha,
+			Lola_Sayu_Maridun,
+			Lola_Sayu_Rhen_Var,
+			Malastare_Naboo,
+			Mandalore_Zanbar,
+			Maridun_Quell,
+			Maridun_Yavin,
+			Maridun_Zanbar,
+			Mimban_Ubrikkia,
+			Mimban_Umbara,
+			Minntooine_Mon_Calamari,
+			Minntooine_Murkhana,
+			Minntooine_Pammant,
+			Mon_Calamari_Pammant,
+			Mon_Calamari_Turkana,
+			Murkhana_Raxus,
+			Mustafar_Sluis_Van,
+			Mustafar_Tibrin,
+			Mustafar_Utapau,
+			Muunilinst_Mygeeto,
+			Mygeeto_Ord_Trasi,
+			Mygeeto_Scipio,
+			Naboo_Rintonne,
+			Nal_Hutta_Rishi,
+			Nal_Hutta_Toydaria,
+			Nelvaan_Ryloth,
+			Onderon_Umbara,
+			Ord_Biniir_Ord_Trasi,
+			Ord_Biniir_Phaeda,
+			Ord_Biniir_Scipio,
+			Ord_Cestus_Serenno,
+			Ord_Cestus_Yavin,
+			Ord_Cestus_Zanbar,
+			Ord_Mantell_Qiilura,
+			Ord_Vaug_Sarrish,
+			Ord_Vaug_Tibrin,
+			Ord_Vaug_YagDhul,
+			Pantora_Praesitlyn,
+			Pantora_Utapau,
+			Phaeda_Qiilura,
+			Praesitlyn_Sluis_Van,
+			Praesitlyn_Utapau,
+			Praesitlyn_Xagobah,
+			Qiilura_Scipio,
+			Quell_Rhen_Var,
+			Raxus_Raxus_Second,
+			Raxus_Turkana,
+			Ringo_Vinda_Saleucami,
+			Ringo_Vinda_Talcene,
+			Rishi_Rothana,
+			Roche_Talcene,
+			Roche_Trandosha,
+			Rodia_Tatooine,
+			Sarrish_YagDhul,
+			Serenno_Yavin,
+			Sluis_Van_Tibrin,
+			Sluis_Van_Utapau,
+			Sullust_Tibrin,
+			Sullust_Xagobah,
+			Toydaria_Ubrikkia,
+			Trandosha_Ubrikkia,
+			Ubrikkia_Umbara,
+	</Trade_Routes>
+    
+	<Starting_Active_Player>Rebel</Starting_Active_Player>
+    <AI_Player_Control>Banking_Clan, None</AI_Player_Control>
+    <AI_Player_Control>Commerce_Guild, None</AI_Player_Control>
+    <AI_Player_Control>Empire, None</AI_Player_Control>
+    <AI_Player_Control>Hostile, None</AI_Player_Control>
+    <AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+    <AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+    <AI_Player_Control>Mandalorians, None</AI_Player_Control>
+    <AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
+    <AI_Player_Control>Sector_Forces, None</AI_Player_Control>
+    <AI_Player_Control>Techno_Union, None</AI_Player_Control>
+    <AI_Player_Control>Trade_Federation, None</AI_Player_Control>
+    <AI_Player_Control>Underworld, None</AI_Player_Control>
+    <Markup_Filename>Banking_Clan, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Commerce_Guild, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Hutt_Cartels, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Sector_Forces, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Techno_Union, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Trade_Federation, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+    
+	<Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
+    <AI_Victory_Conditions>Galactic_All_Planets_Controlled</AI_Victory_Conditions>
+    
+	<Story_Name>
+		Rebel, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_CIS.xml,
+		Empire, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Republic.xml,
+		Hutt_Cartels, Conquests\Story_Plots_Generic_Hutt_Cartels.xml,
+		Underworld, Conquests\Progressive\Story_Plots_Sandbox_CloneWars_Container.xml
+	</Story_Name>
+    
+	<Starting_Credits>Banking_Clan, 10000</Starting_Credits>
+    <Starting_Tech_Level>Banking_Clan, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Banking_Clan, 5</Max_Tech_Level>
+    <Starting_Credits>Commerce_Guild, 10000</Starting_Credits>
+    <Starting_Tech_Level>Commerce_Guild, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Commerce_Guild, 5</Max_Tech_Level>
+    <Starting_Credits>Empire, 10000</Starting_Credits>
+    <Starting_Tech_Level>Empire, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Empire, 5</Max_Tech_Level>
+    <Starting_Credits>Hostile, 10000</Starting_Credits>
+    <Starting_Tech_Level>Hostile, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Hostile, 5</Max_Tech_Level>
+    <Starting_Credits>Hutt_Cartels, 10000</Starting_Credits>
+    <Starting_Tech_Level>Hutt_Cartels, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Hutt_Cartels, 5</Max_Tech_Level>
+    <Starting_Credits>Independent_Forces, 10000</Starting_Credits>
+    <Starting_Tech_Level>Independent_Forces, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Independent_Forces, 5</Max_Tech_Level>
+    <Starting_Credits>Mandalorians, 10000</Starting_Credits>
+    <Starting_Tech_Level>Mandalorians, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Mandalorians, 5</Max_Tech_Level>
+    <Starting_Credits>Rebel, 10000</Starting_Credits>
+    <Starting_Tech_Level>Rebel, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Rebel, 5</Max_Tech_Level>
+    <Starting_Credits>Sector_Forces, 10000</Starting_Credits>
+    <Starting_Tech_Level>Sector_Forces, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Sector_Forces, 5</Max_Tech_Level>
+    <Starting_Credits>Techno_Union, 10000</Starting_Credits>
+    <Starting_Tech_Level>Techno_Union, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Techno_Union, 5</Max_Tech_Level>
+    <Starting_Credits>Trade_Federation, 10000</Starting_Credits>
+    <Starting_Tech_Level>Trade_Federation, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Trade_Federation, 5</Max_Tech_Level>
+    <Starting_Credits>Underworld, 10000</Starting_Credits>
+    <Starting_Tech_Level>Underworld, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Underworld, 5</Max_Tech_Level>
+    
+	<Starting_Forces>Empire, Aargonar, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Aargonar, Era_Three_Dummy</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Agamar, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Alderaan, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Anaxes, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ando_Prime, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Arkania, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Bajic, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Balmorra, Generate_Force</Starting_Forces>
+    <Starting_Forces>Commerce_Guild, Begeren, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Belderone, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Bespin, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Bestine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Bilbringi, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Bomis_Koori, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Bothawui, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Boz_Pity, Generate_Force</Starting_Forces>
+    <Starting_Forces>Sector_Forces, Bresnia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Carida, Generate_Force</Starting_Forces>
+    <Starting_Forces>Trade_Federation, Cato_Neimoidia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Chazwa, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Republic_LAAT_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, AV7_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Republic_AT_TE_Walker_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Republic_AT_RT_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Empire_Office</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Pelta_Assault</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Clonetrooper_Phase_One_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Clonetrooper_Phase_One_Company</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Pelta_Support</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Venator_Star_Destroyer</Starting_Forces>
+    <Starting_Forces>Empire, Christophsis, Empire_Star_Base_1</Starting_Forces>
+    <Starting_Forces>Empire, Columus, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Coruscant, Republic_Capital</Starting_Forces>
+    <Starting_Forces>Empire, Coruscant, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Coruscant, Senate_Commando_Company</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Cularin, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Dantooine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Dathomir, Generate_Force</Starting_Forces>
+    <Starting_Forces>Trade_Federation, Deko_Neimoidia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Denon, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Devaron, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Duro, Generate_Force</Starting_Forces>
+    <Starting_Forces>Commerce_Guild, Felucia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Trade_Federation, Filve, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Florrum, Generate_Force</Starting_Forces>
+    <Starting_Forces>Techno_Union, Foerost, Generate_Force</Starting_Forces>
+    <Starting_Forces>Techno_Union, Fondor, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, R_Ground_Heavy_Vehicle_Factory</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Destroyer_Droid_I_W_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, AAT_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, J1_Cannon_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Rebel_Star_Base_3</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Secondary_TF_Outpost</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Lucrehulk_Core_Destroyer</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Hardcell</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Hardcell_Tender</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, R_Ground_Light_Vehicle_Factory</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, R_Ground_Barracks</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Galactic_Turbolaser_Tower_Defenses_CIS</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, Rebel_Office</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, B2_Droid_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, B1_Geo_Droid_Company</Starting_Forces>
+    <Starting_Forces>Rebel, Geonosis, B1_Geo_Droid_Company</Starting_Forces>
+    <Starting_Forces>Empire, Glee_Anselm, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Gyndine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Haruun_Kal, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Humbarine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Techno_Union, Hypori, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Iego, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ithor, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Jabiim, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Kaikielius, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Kalarba, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Kamino, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Kashyyyk, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Khomm, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Kirima, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Kooriva, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Korda, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Kuat, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Lantillies, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Lola_Sayu, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Malastare, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Mandalore, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Maridun, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Mimban, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Minntooine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Mon_Calamari, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Murkhana, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Mustafar, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Muunilinst, Generate_Force</Starting_Forces>
+    <Starting_Forces>Banking_Clan, Mygeeto, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Naboo, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Nal_Hutta, Hutt_Capital</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Nal_Hutta, Generate_Force</Starting_Forces>
+    <Starting_Forces>Techno_Union, Nelvaan, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, New_Plympto, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Onderon, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ord_Biniir, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ord_Cestus, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ord_Mantell, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ord_Trasi, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ord_Vaug, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Pammant, Generate_Force</Starting_Forces>
+    <Starting_Forces>Trade_Federation, Pantora, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Phaeda, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Praesitlyn, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Qiilura, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Quell, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Raxus, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Raxus_Second, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Raxus_Second, CIS_Capital</Starting_Forces>
+    <Starting_Forces>Sector_Forces, Rendili, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rhen_Var, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ringo_Vinda, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rintonne, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rishi, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Roche, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rodia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Rothana, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ryloth, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Saleucami, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Sarrish, Generate_Force</Starting_Forces>
+    <Starting_Forces>Banking_Clan, Scipio, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Serenno, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Sluis_Van, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Sullust, Generate_Force</Starting_Forces>
+    <Starting_Forces>Commerce_Guild, Talcene, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Tatooine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Tibrin, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Toydaria, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Trandosha, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Turkana, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Tynna, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Ubrikkia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Umbara, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Utapau, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Vassek, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Wayland, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Xagobah, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, YagDhul, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Yavin, Generate_Force</Starting_Forces>
+    <Starting_Forces>Mandalorians, Zanbar, Generate_Force</Starting_Forces>
+  </Campaign>
+</Campaigns>
