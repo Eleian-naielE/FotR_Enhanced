@@ -70,10 +70,12 @@ return {
                     end
                 end
             end
-
+            
             crossplot:publish("CONQUER_RENDILI", "empty")
             crossplot:publish("CONQUER_MON_CALAMARI", "empty")
             crossplot:publish("CIS_MANDALORE_SUPPORT_CHOICE_ACTIVE", "empty")
+            -- FotR_Enhanced
+            crossplot:publish("CONQUER_RENDILI_REP", "empty")
         end
     end,
     on_exit = function(self, state_context)
