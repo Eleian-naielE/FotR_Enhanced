@@ -815,13 +815,13 @@ function RepublicHeroes:on_galactic_hero_killed(hero_name, owner)
 		jet_dead = true
 		if bacara_dead == false then
 			Handle_Hero_Add("Bacara", clone_data)
-			clone_data.active_player.Lock_Tech("Bacara2Jet")
+			clone_data.active_player.Lock_Tech(Find_Object_Type("Bacara2Jet"))
 		end
 	elseif clone_tag == "Bacara" then
 		bacara_dead = true
 		if jet_dead == false then	
 			Handle_Hero_Add("Jet", clone_data)
-			clone_data.active_player.Lock_Tech("Jet2Bacara")
+			clone_data.active_player.Lock_Tech(Find_Object_Type("Jet2Bacara"))
 		end
 	elseif clone_tag == "Appo" then
 		Bow_Check()
