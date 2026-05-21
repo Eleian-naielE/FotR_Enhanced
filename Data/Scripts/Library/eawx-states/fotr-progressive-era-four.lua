@@ -98,6 +98,8 @@ return {
             crossplot:publish("BULWARK1_RESEARCH_FINISHED", "empty")
             crossplot:publish("VICTORY1_RESEARCH_FINISHED", "empty")
             crossplot:publish("GEEN_UNLOCK", "empty")
+            -- FotR_Enhanced
+            crossplot:publish("CONQUER_RENDILI_REP", "empty")
         end
     end,
     on_exit = function(self, state_context)

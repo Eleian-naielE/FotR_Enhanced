@@ -110,6 +110,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 		},
 		story_locked_list = {--Heroes not accessible, but able to return with the right conditions
 			["Tenant"] = true,
+			["Dallin"] = true,
 		},
 		active_player = Find_Player("Empire"),
 		extra_name = "EXTRA_ADMIRAL_SLOT",
@@ -548,6 +549,7 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 
 	if tech_level >= 5 then
 		Handle_Hero_Add("Trachta", moff_data)
+		Handle_Hero_Add("Dallin", admiral_data)
 
 		Handle_Hero_Exit("Ahsoka", council_data)
 		Handle_Hero_Exit("Halcyon", council_data)
