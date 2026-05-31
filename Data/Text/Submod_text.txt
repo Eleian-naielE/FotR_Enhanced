@@ -361,3 +361,5 @@ TEXT_TOOLTIP_SCORPENEK_UTILITY_WEAP3,1x AI Beam Cannon: 20 / 5.0s / 240m
 TEXT_TOOLTIP_SCORPENEK_WEAP1,2x AV Blaster Cannons: 2 / 2.0s / 320m
 TEXT_TOOLTIP_SCORPENEK_WEAP2,2x AI Blaster Cannons: 2 / 0.5s / 320m
 TEXT_TOOLTIP_ABILITY_AMMOSWAP_DESCRIPTION_SCORPENEK,Reconfigure the Scorpenek's weapons to an anti-infantry setting or back to the default anti-vehicle arrangement.
+
+TEXT_SPEECH_CONQUER_RENDILI_REP_FINISHED,

@@ -1243,9 +1243,6 @@ end
 
 function RepublicHeroes:Dallin_Unlock()
 	Handle_Hero_Add("Dallin", admiral_data)
-	if Find_Player("Empire").Is_Human() then
-		StoryUtil.Multimedia("TEXT_SPEECH_SCREED_RETURNS_DEMOLISHER", 15, nil, "Piett_Loop", 0)
-	end
 end
 
 function JetBacaraSwap()
