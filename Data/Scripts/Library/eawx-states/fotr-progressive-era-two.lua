@@ -23,6 +23,8 @@ return {
         })
 
         if self.entry_time <= 5 then
+            GlobalValue.Set("CLONE_DEFAULT", -1)
+            Find_Player("Empire").Lock_Tech(Find_Object_Type("Option_Cycle_Clones")) -- FotR_Enhanced
             --GlobalValue.Set("ARC_LIFETIME_LIMIT", 40) -- FotR_Enhanced
             if Find_Player("local") == Find_Player("Empire") then
                 StoryUtil.Multimedia("TEXT_STORY_INTRO_PROGRESSIVE_REPUBLIC_PALPATINE_ERA_2", 15, nil, "PalpatineFotR_Loop", 0)
