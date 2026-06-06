@@ -2679,8 +2679,9 @@
 		<Required_Orbiting_Units>CR25_Landing_Craft_Solomahal</Required_Orbiting_Units>
 	</DummyStructure>
 
-	<!-- Order 66 -->
+	<!-- Order 66 --> 
 	
+	<!-- FotR_Enhanced -->
 	<UniqueUnit Name="Rohn_AT_TE">
 		<Variant_Of_Existing_Type>Republic_AT_TE_Walker</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -2871,11 +2872,136 @@
 
 	<!-- Moff/Sector Commander Staff Ground -->
 
-	<UniqueUnit Name="Gann_">
-		<Variant_Of_Existing_Type></Variant_Of_Existing_Type>
+	<UniqueUnit Name="Gann_A6_Prototype"> <!-- Non-Staff -->
+		<Variant_Of_Existing_Type>Republic_A6_Prototype</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_GANN</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_GANN
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_A6_PROTOTYPE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_A6_PROTOTYPE_HEALTH
+		TEXT_TOOLTIP_JUGGERNAUT_A6_MOVE
+		TEXT_TOOLTIP_A6_PROTOTYPE_WEAP1 
+		TEXT_TOOLTIP_A6_PROTOTYPE_WEAP2 
+		TEXT_TOOLTIP_A6_PROTOTYPE_WEAP3
+		TEXT_TOOLTIP_A6_PROTOTYPE_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_A6_PROTOTYPE_INFANTRY_HEAL
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SECTOR_COMMANDER</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_GANN.tga</Icon_Name>
+		<Affiliation>Empire</Affiliation>
+		<Ranking_In_Category>5</Ranking_In_Category>
+		<CategoryMask> VehicleHero | AntiInfantry | AntiVehicle </CategoryMask>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
+			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.21</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_07_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.21</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Force_Healing_Ability Name="A6_Prototype_Healing">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>200.0</Heal_Range>
+				<Heal_Amount> 3.0 </Heal_Amount>
+				<Heal_Percent> 0.0 </Heal_Percent>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Heal_Infantry_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.1, 1.2, 1.1</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
 	</UniqueUnit>
+	<HeroCompany Name="Gann_Team">
+		<Text_ID>TEXT_HERO_GANN</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_GANN
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_A6_PROTOTYPE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_A6_PROTOTYPE_HEALTH
+		TEXT_TOOLTIP_JUGGERNAUT_A6_MOVE
+		TEXT_TOOLTIP_A6_PROTOTYPE_WEAP1 
+		TEXT_TOOLTIP_A6_PROTOTYPE_WEAP2 
+		TEXT_TOOLTIP_A6_PROTOTYPE_WEAP3
+		TEXT_TOOLTIP_A6_PROTOTYPE_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_A6_PROTOTYPE_INFANTRY_HEAL
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SECTOR_COMMANDER</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_GANN.tga</Icon_Name>
 
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
 
+		<Population_Value>1</Population_Value>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>CR25_Landing_Craft_Heavy_Gann</Company_Transport_Unit>
+		<Company_Units>Gann_A6_Prototype</Company_Units>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Imperial_Walker</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Imperial_Walker</SFXEvent_Fleet_Move>
+	</HeroCompany>
+	
+	<!-- End -->
+	
 	<!-- Non-Staff Heroes -->
 
 	<!-- Non-Staff: Infantry/Commando Heroes -->
