@@ -363,3 +363,7 @@ TEXT_TOOLTIP_SCORPENEK_WEAP2,2x AI Blaster Cannons: 2 / 0.5s / 320m
 TEXT_TOOLTIP_ABILITY_AMMOSWAP_DESCRIPTION_SCORPENEK,Reconfigure the Scorpenek's weapons to an anti-infantry setting or back to the default anti-vehicle arrangement.
 
 TEXT_SPEECH_CONQUER_RENDILI_REP_FINISHED,
+
+TEXT_HERO_GANN,Cinzero Gann
+TEXT_TOOLTIP_GANN,Grand Moff of Sector 5, Cinzero Gann would slowly lose control over the Deep Core after both of Palpatine’s deaths and Daala’s coup. Despite being one of the highest ranking survivors of the New Order, the vast majority of his underlings would answer to him in name only as they ran their own independent fiefdoms inside the Deep Core.
+TEXT_TOOLTIP_A6_PROTOTYPE_INFANTRY_HEAL,
