@@ -4563,136 +4563,6 @@
 
 	<!-- FotR_Enhanced Ships--> 
 
-	<!-- OFC Units Currenty Unused -->
-
-	<SpaceUnit Name="Charger_C70_OFC">
-		<Variant_Of_Existing_Type>Charger_C70</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_C70_OFC</Text_ID>
-		
-		<Space_Model_Name>Consular-class_c70_ofc.alo</Space_Model_Name>
-		<Icon_Name>i_button_c70_rep_ofc.tga</Icon_Name>
-
-		<Tech_Level>99</Tech_Level>
-		<Build_Limit_Current_Per_Player>50</Build_Limit_Current_Per_Player>
-
-	</SpaceUnit>	
-	
-	<SpaceUnit Name="Generic_Acclamator_Assault_Ship_I_OFC">
-		<Variant_Of_Existing_Type>Generic_Acclamator_Assault_Ship_I</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ACCLAMATOR_I_OFC</Text_ID>
-		<Encyclopedia_Text>
-			TEXT_TOOLTIP_ACCLAMATOR_I
-			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-			TEXT_TOOLTIP_ACCLAMATOR_I_HULL
-			TEXT_TOOLTIP_ACCLAMATOR_I_SHIELD
-			TEXT_TOOLTIP_ACCLAMATOR_I_MOVE
-			TEXT_TOOLTIP_ACCLAMATOR_I_SQUADRON
-			TEXT_TOOLTIP_ACCLAMATOR_I_WEAP1
-			TEXT_TOOLTIP_ACCLAMATOR_I_WEAP2 
-			TEXT_TOOLTIP_ACCLAMATOR_I_WEAP3 
-			TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-			TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
-			TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN 
-			TEXT_TOOLTIP_CAPABILITY_BOARDABLE
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_ACCLAMATOR_REP_OFC.TGA</Icon_Name>
-
-		<Space_Model_Name>ev_acclamator_i_ofc.alo</Space_Model_Name>
-		<Tech_Level>99</Tech_Level>
-		<Build_Limit_Current_Per_Player>24</Build_Limit_Current_Per_Player>
-	</SpaceUnit>
-
-	<SpaceUnit Name="Generic_Venator_OFC">
-		<Variant_Of_Existing_Type>Generic_Venator</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_VENATOR_OFC</Text_ID>
-		<Icon_Name>i_button_jedi_Cruiser_rep_OFC.tga</Icon_Name>
-		<Space_Model_Name>Venator_OFC.alo</Space_Model_Name>
-        <Lua_Script>GenericGameObject</Lua_Script>
-		<Encyclopedia_Text> 
-			TEXT_TOOLTIP_VENATOR_OFC
-			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-			TEXT_TOOLTIP_VENATOR_HULL 
-			TEXT_TOOLTIP_VENATOR_SHIELD
-			TEXT_TOOLTIP_VENATOR_MOVE
-			TEXT_TOOLTIP_VENATOR_SQUADRON_OFC
-			TEXT_TOOLTIP_VENAOTR_OFC_SPECIAL
-			TEXT_TOOLTIP_VENATOR_WEAP1
-			TEXT_TOOLTIP_VENATOR_WEAP2
-			TEXT_TOOLTIP_VENATOR_WEAP3
-			TEXT_TOOLTIP_VENATOR_WEAP4
-			TEXT_TOOLTIP_VENATOR_WEAP5
-			TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-			TEXT_TOOLTIP_VENATOR_OFC_UPGRADEABLE
-			TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
-			TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
-			TEXT_TOOLTIP_CAPABILITY_BOARDABLE
-			TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
-			TEXT_TOOLTIP_BUILDLIMIT_VENATOR_OFC
-		</Encyclopedia_Text>
-
-		<Tech_Level>99</Tech_Level>
-
-		<Affiliation>Empire</Affiliation>
-		<GUI_Row> 1 </GUI_Row>
-		<Build_Limit_Current_Per_Player>12</Build_Limit_Current_Per_Player>
-
-        <!-- fighter spawn -->
-
-		<Starting_Spawned_Units_Tech_0>Torrent_Squadron_Triple, 1</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>BTLB_Y-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
-
-		<Starting_Spawned_Units_Tech_2>Torrent_Squadron_Triple, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>BTLB_Y-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_2>
-
-		<Starting_Spawned_Units_Tech_3>Generic_ARC_170_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>Torrent_Squadron_Double, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>BTLB_Y-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_3>
-
-		<Starting_Spawned_Units_Tech_4>Generic_ARC_170_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>Torrent_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>Republic_Z-95_Headhunter, 1</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>BTLB_Y-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_4>
-
-		<Starting_Spawned_Units_Tech_5>Generic_ARC_170_Squadron, 1</Starting_Spawned_Units_Tech_5>		
-		<Starting_Spawned_Units_Tech_5>V-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>	
-		<Starting_Spawned_Units_Tech_5>Republic_Z-95_Headhunter, 1</Starting_Spawned_Units_Tech_5>		
-		<Starting_Spawned_Units_Tech_5>BTLB_Y-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_5>
-
-
-		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>
-
-
-		<Reserve_Spawned_Units_Tech_0>Torrent_Squadron_Triple, 3</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>BTLB_Y-WING_SQUADRON, 3</Reserve_Spawned_Units_Tech_0>
-
-		<Reserve_Spawned_Units_Tech_2>Torrent_Squadron_Triple, 3</Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>BTLB_Y-WING_SQUADRON, 3</Reserve_Spawned_Units_Tech_2>
-
-		<Reserve_Spawned_Units_Tech_3>Generic_ARC_170_Squadron, 3</Reserve_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>Torrent_Squadron_Double, 3</Reserve_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>BTLB_Y-WING_SQUADRON, 3</Reserve_Spawned_Units_Tech_3>
-
-		<Reserve_Spawned_Units_Tech_4>Generic_ARC_170_Squadron, 3</Reserve_Spawned_Units_Tech_4>	
-		<Reserve_Spawned_Units_Tech_4>Torrent_Squadron, 3</Reserve_Spawned_Units_Tech_4>	
-		<Reserve_Spawned_Units_Tech_4>Republic_Z-95_Headhunter, 3</Reserve_Spawned_Units_Tech_4>	
-		<Reserve_Spawned_Units_Tech_4>BTLB_Y-WING_SQUADRON, 3</Reserve_Spawned_Units_Tech_4>
-
-		<Reserve_Spawned_Units_Tech_5>Generic_ARC_170_Squadron, 3</Reserve_Spawned_Units_Tech_5>		
-		<Reserve_Spawned_Units_Tech_5>V-Wing_Squadron, 3</Reserve_Spawned_Units_Tech_5>		
-		<Reserve_Spawned_Units_Tech_5>Republic_Z95_Headhunter_Squadron, 3</Reserve_Spawned_Units_Tech_5>		
-		<Reserve_Spawned_Units_Tech_5>BTLB_Y-WING_SQUADRON, 3</Reserve_Spawned_Units_Tech_5>
-		
-		<Death_Clone>Damage_Normal, Venator_OFC_Death_Clone</Death_Clone>
-		
-	</SpaceUnit>
-
-	<SpaceUnit Name="Generic_Venator_OFC_Campaign"> <!-- Historical Campaign Variant : no build limit -->
-		<Variant_Of_Existing_Type>Generic_Venator_OFC</Variant_Of_Existing_Type>
-		<Lua_Script>GenericGameObject</Lua_Script>
-		<Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player>
-		<Tech_Level>99</Tech_Level>
-	</SpaceUnit>
-
 	<SpaceUnit Name="Venator_SPHA_T">
 		<Variant_Of_Existing_Type>Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_VENATOR_SPHA_T</Text_ID>
@@ -4721,7 +4591,8 @@
 		</Encyclopedia_Text>
 
 		<HardPoints>
-			Venator_Bay, Venator_Engines, HP_Venator_01, HP_Venator_02, HP_Venator_03, HP_Venator_04, HP_Venator_05, HP_Venator_06, HP_Venator_07, HP_Venator_08, HP_Venator_Turret_01, HP_Venator_Turret_02, HP_Venator_Turret_03, HP_Venator_Turret_04, Yularen_Venator_Bay_SPHAT
+			Venator_Bay, Venator_Engines, HP_Venator_01, HP_Venator_02, HP_Venator_03, HP_Venator_04, HP_Venator_05, HP_Venator_06, HP_Venator_07, HP_Venator_08, 
+			HP_Venator_Turret_01, HP_Venator_Turret_02, HP_Venator_Turret_03, HP_Venator_Turret_04, Yularen_Venator_Bay_SPHAT
 		</HardPoints>
 		<Tech_Level>99</Tech_Level>
 		<Icon_Name>i_button_jedi_Cruiser_rep_SPHAT.tga</Icon_Name>
