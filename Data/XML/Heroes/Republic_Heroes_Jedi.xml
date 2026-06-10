@@ -1253,6 +1253,7 @@
 				<Activation_Max_Range>200.0</Activation_Max_Range>
 				<Saber_Name>Proj_SaberThrow_Single_Blue</Saber_Name>
 				<Catch_Dist>15.0</Catch_Dist>
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 			</Saber_Throw_Ability>
 		</Abilities>
 	</HeroUnit>
@@ -13028,6 +13029,7 @@
 				<Activation_Max_Range>200.0</Activation_Max_Range>
 				<Saber_Name>Proj_SaberThrow_Single_Blue</Saber_Name>
 				<Catch_Dist>15.0</Catch_Dist>
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 			</Saber_Throw_Ability>
 		</Abilities>
 	</HeroUnit>
@@ -13499,6 +13501,7 @@
 				<Activation_Max_Range>200.0</Activation_Max_Range>
 				<Saber_Name>Proj_SaberThrow_Single_Red</Saber_Name>
 				<Catch_Dist>15.0</Catch_Dist>
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 			</Saber_Throw_Ability>
 		</Abilities>
 	</HeroUnit>
@@ -13816,6 +13819,7 @@
 		TEXT_TOOLTIP_STAR_DESTROYER_WEAP5
 		TEXT_TOOLTIP_STAR_DESTROYER_WEAP6
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK 
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_SUPPORT_VADER
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
@@ -13915,6 +13919,7 @@
 		TEXT_TOOLTIP_STAR_DESTROYER_WEAP5
 		TEXT_TOOLTIP_STAR_DESTROYER_WEAP6
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK 
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_SUPPORT_VADER
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
@@ -15042,6 +15047,7 @@
 				<Activation_Max_Range>200.0</Activation_Max_Range>
 				<Saber_Name>Proj_SaberThrow_Single_Blue</Saber_Name>
 				<Catch_Dist>15.0</Catch_Dist>
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 			</Saber_Throw_Ability>
 			
 		</Abilities>
