@@ -1,6 +1,9 @@
 require("eawx-util/StoryUtil")
+
+EaWXEnhancedUtil = {}
+
 ---@param object string
-function Find_Nearest_Friendly_Planet(object)
+function EaWXEnhancedUtil.Find_Nearest_Friendly_Planet(object)
     local checkObject = object
     if type(checkObject) == "string" then 
         checkObject = Find_First_Object(object)
@@ -14,7 +17,7 @@ function Find_Nearest_Friendly_Planet(object)
     end
 end
 
-function Replace_Troops(old_unit_name, upgraded_unit_name)
+function EaWXEnhancedUtil.Replace_Troops(old_unit_name, upgraded_unit_name)
     for _,unit in pairs(Find_All_Objects_Of_Type(old_unit_name)) do
         location = unit.Get_Planet_Location()
         if location == nil then
