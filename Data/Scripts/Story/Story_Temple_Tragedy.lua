@@ -314,6 +314,23 @@ function State_Hero_Death_Appo()
 	--GlobalValue.Set("TACTICAL_KNIGHTFALL_DEFEAT",true)
 end
 
+---@param old GameObject | string
+---@param new string 
+function ReplaceAtPosition(old, new)
+	local checkObject = old
+    if type(checkObject) == "string" then 
+        checkObject = Find_First_Object(old)
+    end
+	if TestValid(checkObject) then
+		local pos = checkObject.Get_Position()
+		local owner = checkObject.Get_Owner()
+		Spawn_Unit(Find_Object_Type(new), pos, owner)
+	end
+end
+
+function ReplaceAllAtLocation()
+end
+
 function Story_Handle_Esc()
 	if p_republic.Is_Human() then
 		if cinematic_one then
@@ -697,6 +714,9 @@ function Start_Cinematic_Intro_Rep()
 	player_anakin = Find_First_Object("ANAKIN_DARKSIDE")
 	player_anakin.Teleport_And_Face(intro_hero_2_marker)
 	Register_Death_Event(player_anakin, State_Hero_Death_Anakin)
+	-- FotR_Enhanced ; temporary blue blade for Anakin DS
+	Hide_Sub_Object(player_anakin, 0, "Lightsaber_Blue") 
+	Hide_Sub_Object(player_anakin, 1, "Lightsaber_Red") 
 	
 	-- FotR_Enhanced ; pre mission start up swaps for spec ops and pre-rework clone commandos 
 	Find_All_Objects_Of_Type("Clone_Special_Ops_Squad")
