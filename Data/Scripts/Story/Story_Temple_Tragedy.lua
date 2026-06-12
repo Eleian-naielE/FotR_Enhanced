@@ -325,10 +325,16 @@ function ReplaceAtPosition(old, new)
 		local pos = checkObject.Get_Position()
 		local owner = checkObject.Get_Owner()
 		Spawn_Unit(Find_Object_Type(new), pos, owner)
+		checkObject.Despawn()
 	end
 end
-
-function ReplaceAllAtLocation()
+---@param old string
+---@param new string 
+function ReplaceAllAtLocation(old, new)
+	local old_obj_table = Find_All_Objects_Of_Type(old)
+	for _,old_obj in pairs(old_obj_table) do
+		ReplaceAtPosition(old_obj, new)
+	end
 end
 
 function Story_Handle_Esc()
@@ -716,10 +722,11 @@ function Start_Cinematic_Intro_Rep()
 	Register_Death_Event(player_anakin, State_Hero_Death_Anakin)
 	-- FotR_Enhanced ; temporary blue blade for Anakin DS
 	Hide_Sub_Object(player_anakin, 0, "Lightsaber_Blue") 
-	Hide_Sub_Object(player_anakin, 1, "Lightsaber_Red") 
+	Hide_Sub_Object(player_anakin, 1, "Lightsaber_Red")
 	
 	-- FotR_Enhanced ; pre mission start up swaps for spec ops and pre-rework clone commandos 
-	Find_All_Objects_Of_Type("Clone_Special_Ops_Squad")
+	ReplaceAllAtLocation("Clone_Special_Ops_Squad", "Clone_Blaze_Trooper_Squad")
+	ReplaceAllAtLocation("Clone_Commando_Company_Dummy", "Clone_Commando_Rework_Mission_Company_Dummy")
 
 	player_laddinare = Find_First_Object("LADDINARE_TORBIN")
 	player_laddinare.Teleport_And_Face(intro_torbin_marker)
