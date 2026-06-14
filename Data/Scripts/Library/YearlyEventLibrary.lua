@@ -1,8 +1,8 @@
 return {
 	["22 BBY"] = {
 		{month = 7, name = "PROVIDENCE_RESEARCH"},
-		{month = 7, name = "ARC_STASIS_UNLOCK"},
-		{month = 8, name = "ASSAULT_ACC_UNLOCK"}, -- actual date tbd
+		{month = 8, name = "ARC_TRAINING_PROGRAM"},
+		{month = 8, name = "ACCLAMATOR_ASSAULT_FINISHED"}, -- actual date tbd
 		{month = 9, name = "KNIGHTING_CEREMONY"},
 		{month = 11, name = "COMMAND_STAFF_RETURN", params = {{"Ahsoka"}, 3, true}},
 		{month = 10, name = "VENATOR_RESEARCH"},

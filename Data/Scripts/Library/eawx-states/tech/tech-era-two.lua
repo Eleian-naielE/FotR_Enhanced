@@ -24,6 +24,7 @@ return {
                 "AT_OT_Walker_Company",
                 "Republic_Gian_Company",
                 "UT_AT_Speeder_Company",
+                "Acclamator_I_Assault",
             }, false)
 
             UnitUtil.SetLockList("EMPIRE", {

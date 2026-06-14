@@ -61,6 +61,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	crossplot:subscribe("SENATE_CHOICE_MADE", self.Senate_Choice_Handler, self)
 	
 	-- FotR_Enhanced
+	crossplot:subscribe("ARC_HEROES", self.ARC_Heroes, self)
 	crossplot:subscribe("DALLIN_UNLLOCK", self.Dallin_Unlock, self)
 	crossplot:subscribe("GEEN_UNLOCK", self.Geen_Unlock, self)
 	-- FotR_Enhanced 
@@ -263,8 +264,8 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			["Prudii"] = {"PRUDII_ASSIGN",{"PRUDII_RETIRE","PRUDII_RETIRE2"},{"PRUDII_SKIRATA","PRUDII_SKIRATA2"},"Prudii Skirata", ["Companies"] = {"PRUDII_SKIRATA_TEAM","PRUDII_SKIRATA2_TEAM"}}, 
 		},
 		available_list = {--Heroes currently available for purchase. Seeded with those who have no special prereqs
-			"Alpha",
-			"Fordo",
+			--"Alpha",
+			--"Fordo",
 			"Gregor",
 			"Voca",
 			"Delta",
@@ -351,6 +352,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	JetBacara_swapped = 0
 
 	Venator_init = false
+	ARC_init = false
 end
 
 function RepublicHeroes:on_production_finished(planet, object_type_name)--object_type_name, owner)
@@ -880,9 +882,6 @@ function RepublicHeroes:Phase_II()
 	clone_data.total_slots = clone_data.total_slots + 1
 	clone_data.free_hero_slots = clone_data.free_hero_slots + 1
 
-	commando_data.total_slots = commando_data.total_slots + 1
-	commando_data.free_hero_slots = commando_data.free_hero_slots + 1
-
 	set_unit_index("Cody",2,clone_data)
 	set_unit_index("Rex",2,clone_data)
 	set_unit_index("Appo",2,clone_data)
@@ -1219,6 +1218,18 @@ function RepublicHeroes:Remove_Fighter_Set(set, nolock)
 end
 
 -- FotR_Enhanced
+
+function RepublicHeroes:ARC_Heroes() -- FotR_Enhanced ; 
+	--Logger:trace("entering RepublicHeroes:Venator_Heroes")
+	if not ARC_init then
+		Handle_Hero_Add("Fordo", commando_data)
+		Handle_Hero_Add("Alpha", commando_data)
+
+		commando_data.total_slots = commando_data.total_slots + 1
+		commando_data.free_hero_slots = commando_data.free_hero_slots + 1
+	end
+	ARC_init = true
+end
 
 function RepublicHeroes:Geen_Unlock()
 	Handle_Hero_Add("Geen", general_data)

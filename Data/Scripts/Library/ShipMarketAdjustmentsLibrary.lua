@@ -10,6 +10,8 @@ return {
 				{"EMPIRE", "CLONE_MARKET", "CLONE_VEHICULAR_ASSAULT_COMPANY", false},
 				{"EMPIRE", "CLONE_MARKET", "CLONE_SPECIAL_OPS_COMPANY", false},
 			},
+		},
+		["ARC_ACTIVATION"] = {
 			initial_amounts = {
 				{"EMPIRE", "CLONE_MARKET", "ARC_PHASE_ONE_COMPANY", GlobalValue.Get("ARC_LIFETIME_LIMIT")}
 			},
