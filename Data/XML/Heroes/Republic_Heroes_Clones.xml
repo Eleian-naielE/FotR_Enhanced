@@ -6854,7 +6854,7 @@
 				<Alternate_Icon_Name>i_sa_Cautiousness.tga</Alternate_Icon_Name> <!-- I_SA_BERSERKER? -->
 				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
 					 Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
-				<Effective_Radius>1</Effective_Radius>
+				<Effective_Radius>1000</Effective_Radius>
 
 				<Target_Types />
 
