@@ -64,6 +64,9 @@ function Definitions()
 	draliq_spawn = false
 
 	mission_started = false
+	-- FotR_Enhanced ; Swapped to Phase 2 type units, Swapped to reworked commando variant
+	ReplaceAllAtLocation("Clone_Special_Ops_Squad", "Clone_Blaze_Trooper_Squad")
+	ReplaceAllAtLocation("Clone_Commando_Company_Dummy", "Clone_Commando_Rework_Mission_Company_Dummy")
 end
 function Begin_Battle(message)
 	if message == OnEnter then
@@ -223,12 +226,6 @@ function Begin_Battle(message)
 			current_cinematic_thread_id = Create_Thread("Start_Cinematic_Intro_CIS")
 		elseif p_republic.Is_Human() then
 			current_cinematic_thread_id = Create_Thread("Start_Cinematic_Intro_Rep")
-			-- FotR_Enhanced ; Swapped to Phase 2 type units, Swapped to reworked commando variant, Reset Dark side Anakin's saber color to blue
-			local player_anakin = Find_First_Object("ANAKIN_DARKSIDE")
-			Hide_Sub_Object(player_anakin, 1, "Lightsaber_Blue") 
-			Hide_Sub_Object(player_anakin, 0, "Lightsaber_Red")
-			ReplaceAllAtLocation("Clone_Special_Ops_Squad", "Clone_Blaze_Trooper_Squad")
-			ReplaceAllAtLocation("Clone_Commando_Company_Dummy", "Clone_Commando_Rework_Mission_Company_Dummy")
 		end
 	end
 end
@@ -330,9 +327,8 @@ function ReplaceAtPosition(old, new)
 	if TestValid(checkObject) then
 		local pos = checkObject.Get_Position()
 		local owner = checkObject.Get_Owner()
-		local swapped = Spawn_Unit(Find_Object_Type(new), pos, owner)
+		Spawn_Unit(Find_Object_Type(new), pos, owner)
 		checkObject.Despawn()
-		StoryUtil.ShowScreenText("Found object: "..tostring(checkObject).." and swap Success! Swapped object : "..tostring(swapped), 15, nil, {r=255, g= 255, b=255})
 	end
 end
 ---@param old string
@@ -885,9 +881,6 @@ function Start_Cinematic_Midtro_Republic_One()
 	if not TestValid(player_anakin) then
 		player_anakin = MissionUtil.SpawnUnitGround("ANAKIN_DARKSIDE", midtro_hero_2_marker, p_republic)
 		Register_Death_Event(player_anakin, State_Hero_Death_Anakin)
-		-- FotR_Enhanced ; Hide Red, Show Blue 
-		Hide_Sub_Object(player_anakin, 1, "Lightsaber_Blue") 
-		Hide_Sub_Object(player_anakin, 0, "Lightsaber_Red")
 	end
 	if not TestValid(player_appo) then
 		player_appo = MissionUtil.SpawnUnitGround("MISSION_APPO", midtro_hero_1_marker, p_republic)
@@ -940,9 +933,6 @@ function Start_Cinematic_Midtro_Republic_Two()
 	if not TestValid(player_anakin) then
 		player_anakin = MissionUtil.SpawnUnitGround("ANAKIN_DARKSIDE", midtro_hero_2_marker, p_republic)
 		Register_Death_Event(player_anakin, State_Hero_Death_Anakin)
-		-- FotR_Enhanced ; Hide Red, Show Blue 
-		Hide_Sub_Object(player_anakin, 1, "Lightsaber_Blue") 
-		Hide_Sub_Object(player_anakin, 0, "Lightsaber_Red")
 	end
 	if not TestValid(player_appo) then
 		player_appo = MissionUtil.SpawnUnitGround("MISSION_APPO", midtro_hero_1_marker, p_republic)
@@ -954,10 +944,7 @@ function Start_Cinematic_Midtro_Republic_Two()
 	player_laddinare_death.Prevent_AI_Usage(true)
 	player_anakin.Teleport_And_Face(entry_laddinare_marker)
 	player_anakin_cutscene = MissionUtil.SpawnUnitGround("ANAKIN_DARKSIDE", duel_hero_2_marker, p_republic)
-	-- FotR_Enhanced ; Hide Red, Show Blue 
-	Hide_Sub_Object(player_anakin_cutscene, 1, "Lightsaber_Blue") 
-	Hide_Sub_Object(player_anakin_cutscene, 0, "Lightsaber_Red")
-	-- end
+
 	player_appo.Teleport_And_Face(entry_laddinare_marker)
 	player_laddinare.Teleport_And_Face(duel_hero_1_marker)
 	MissionUtil.SetCinematicCamera(midtrocam_duel_1_marker, midtrocam_target_5_marker, false, nil, nil)
@@ -1416,10 +1403,6 @@ function Start_Cinematic_Outro_Rep()
 
 	player_cin_death = MissionUtil.SpawnUnitGround("CIN_DRALLIG", outro_hero_dralliq_marker, p_cis)
 	player_anakin_outro = MissionUtil.SpawnUnitGround("ANAKIN_DARKSIDE", outro_hero_1_marker, p_republic)
-	-- FotR_Enhanced ; Hide Red, Show Blue 
-	Hide_Sub_Object(player_anakin_outro, 1, "Lightsaber_Blue") 
-	Hide_Sub_Object(player_anakin_outro, 0, "Lightsaber_Red")
-	-- end
 	player_anakin_outro.Teleport_And_Face(outro_hero_1_marker)
 	player_cin_death.Teleport_And_Face(outro_hero_dralliq_marker)
 	player_cin_death.Turn_To_Face(player_anakin_outro)
@@ -1447,10 +1430,6 @@ function Start_Cinematic_Outro_Rep()
 	Sleep(5.0)
 
 	player_anakin_outro_2 = MissionUtil.SpawnUnitGround("ANAKIN_DARKSIDE", outro_hero_2_marker, p_republic)
-	-- FotR_Enhanced ; Hide Red, Show Blue 
-	Hide_Sub_Object(player_anakin_outro_2, 1, "Lightsaber_Blue") 
-	Hide_Sub_Object(player_anakin_outro_2, 0, "Lightsaber_Red")
-	-- end
 	player_palpatine_outro = MissionUtil.SpawnUnitGround("EMPEROR_PALPATINE", outro_hero_palp_marker, p_republic)
 	player_palpatine_outro.Turn_To_Face(player_anakin_outro)
 	Sleep(0.5)

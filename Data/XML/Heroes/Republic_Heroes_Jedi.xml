@@ -1254,6 +1254,7 @@
 				<Saber_Name>Proj_SaberThrow_Single_Blue</Saber_Name>
 				<Catch_Dist>15.0</Catch_Dist>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>InfantryHero</Excluded_Unit_Categories>
 			</Saber_Throw_Ability>
 		</Abilities>
 	</HeroUnit>
@@ -13032,6 +13033,7 @@
 				<Saber_Name>Proj_SaberThrow_Single_Red</Saber_Name>
 				<Catch_Dist>15.0</Catch_Dist>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>InfantryHero</Excluded_Unit_Categories>
 			</Saber_Throw_Ability>
 		</Abilities>
 	</HeroUnit>
@@ -15050,6 +15052,7 @@
 				<Saber_Name>Proj_SaberThrow_Single_Blue</Saber_Name>
 				<Catch_Dist>15.0</Catch_Dist>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>InfantryHero, VehicleHero</Excluded_Unit_Categories>
 			</Saber_Throw_Ability>
 			
 		</Abilities>
