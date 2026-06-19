@@ -223,10 +223,12 @@ function Begin_Battle(message)
 			current_cinematic_thread_id = Create_Thread("Start_Cinematic_Intro_CIS")
 		elseif p_republic.Is_Human() then
 			current_cinematic_thread_id = Create_Thread("Start_Cinematic_Intro_Rep")
-			-- FotR_Enhanced ; 
+			-- FotR_Enhanced ; Swapped to Phase 2 type units, Swapped to reworked commando variant, Reset Dark side Anakin's saber color to blue
 			local player_anakin = Find_First_Object("ANAKIN_DARKSIDE")
 			Hide_Sub_Object(player_anakin, 1, "Lightsaber_Blue") 
 			Hide_Sub_Object(player_anakin, 0, "Lightsaber_Red")
+			ReplaceAllAtLocation("Clone_Special_Ops_Squad", "Clone_Blaze_Trooper_Squad")
+			ReplaceAllAtLocation("Clone_Commando_Company_Dummy", "Clone_Commando_Rework_Mission_Company_Dummy")
 		end
 	end
 end
@@ -328,8 +330,9 @@ function ReplaceAtPosition(old, new)
 	if TestValid(checkObject) then
 		local pos = checkObject.Get_Position()
 		local owner = checkObject.Get_Owner()
-		Spawn_Unit(Find_Object_Type(new), pos, owner)
+		local swapped = Spawn_Unit(Find_Object_Type(new), pos, owner)
 		checkObject.Despawn()
+		StoryUtil.ShowScreenText("Found object: "..tostring(checkObject).." and swap Success! Swapped object : "..tostring(swapped), 15, nil, {r=255, g= 255, b=255})
 	end
 end
 ---@param old string
@@ -724,10 +727,6 @@ function Start_Cinematic_Intro_Rep()
 	player_anakin = Find_First_Object("ANAKIN_DARKSIDE")
 	player_anakin.Teleport_And_Face(intro_hero_2_marker)
 	Register_Death_Event(player_anakin, State_Hero_Death_Anakin)
-	
-	-- FotR_Enhanced ; pre mission start up swaps for spec ops and pre-rework clone commandos 
-	ReplaceAllAtLocation("Clone_Special_Ops_Squad", "Clone_Blaze_Trooper_Squad")
-	ReplaceAllAtLocation("Clone_Commando_Company_Dummy", "Clone_Commando_Rework_Mission_Company_Dummy")
 
 	player_laddinare = Find_First_Object("LADDINARE_TORBIN")
 	player_laddinare.Teleport_And_Face(intro_torbin_marker)
