@@ -14678,8 +14678,6 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</HeroCompany>
 
-	<!-- Needs saber throw configuration -->
-
 	<HeroUnit Name="Anakin_Padawan">
 		<LOD_Bias>5</LOD_Bias>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
