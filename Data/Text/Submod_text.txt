@@ -154,7 +154,7 @@ TEXT_TOOLTIP_ESCORT_REX_P2_2_SUBMOD,1x Clone Trooper Rifleman Squad (P2)
 TEXT_TOOLTIP_GILLEHSPY,Holding the rank of captain, Gillehspy was the commanding officer of the Venator star destroyer Hound, operating under Darth Vader during the mission at Kestavel.
 TEXT_TOOLTIP_HAWK,A call sign named after his hawk-like eyes, Lieutenant Hawk saw actions with 501st, often transporting and escorting General Anakin Skywalker, Commander Ahsoka Tano and Captain Rex to various worlds and battles.
 TEXT_TOOLTIP_HMP_DEPLOY,Deploys: 1x B2 Super Battle Droid Squad
-TEXT_TOOLTIP_JAG, CT-55/11-9009, known as Jai'galaar or Jag, was a clone pilot captin in the Clone Army. Originally a Clone Commander, he was demoted to captain after the Retreat at Katraasii. Later, Jedi General Plo Koon drafted the captin as the test pilot for the new ARC-170 starfighters and flew with him on many battles including the battle over Cato Neimoidia.
+TEXT_TOOLTIP_JAG,CT-55/11-9009, known as Jai'galaar or Jag, was a clone pilot captin in the Clone Army. Originally a Clone Commander, he was demoted to captain after the Retreat at Katraasii. Later, Jedi General Plo Koon drafted the captin as the test pilot for the new ARC-170 starfighters and flew with him on many battles including the battle over Cato Neimoidia.
 TEXT_TOOLTIP_JAG_WINGMAN,CT-57/11-9048 was a clone pilot of the 127th Gunship Wing and wingman to Captain Jai’galaar. Flying an ARC-170 over Cato Neimoidia, he executed Order 66 without hesitation, shooting down Jedi General Plo Koon during a routine patrol.
 TEXT_TOOLTIP_JET_SWAP_BACARA,Replace Jet with Bacara
 TEXT_TOOLTIP_MAGNATRI_MISSILE,A late war variant of the infamous Magna Tri Droid, this variant replaces its heavy lasers for chain fed ordnance. It was powerful enough to blow the enemy vehicle with a single shot of its missile such as UT-AT.
@@ -183,7 +183,7 @@ TEXT_TOOLTIP_RED_GUARD_MOVE,Speed: 1.2
 TEXT_TOOLTIP_RED_GUARD_WEAP1,1x Force Pike: 1 / 1.0s / 1m
 TEXT_TOOLTIP_REPAIR_VADER_SUIT,Repair Vader's damgaed suit.
 TEXT_TOOLTIP_RESOLUTE_SPHAT_UPGRADE,Equip Resolute with SPHA-T in the hanger.
-TEXT_TOOLTIP_RESOURCE_GARRISON_TNT, Treaded Neutron Torch: 1 / 0
+TEXT_TOOLTIP_RESOURCE_GARRISON_TNT,Treaded Neutron Torch: 1 / 0
 TEXT_TOOLTIP_RESPAWN_VENTRESS,Immense hatred: Respawns after first defeat
 TEXT_TOOLTIP_ROHN,Rohn was a general in command of Shrouded Offensive, a military operation at the planet of Oster assigned by Darth Vader himself.
 TEXT_TOOLTIP_SEISMIC_TANK,A repulsorcraft that uses its large piston to inflict massive damage to the enemy. Originally used as a mining vehicle, it is repurposed as a military vehicle with the outbreak of the clone wars.
