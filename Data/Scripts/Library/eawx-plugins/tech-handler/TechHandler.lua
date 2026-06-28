@@ -29,7 +29,7 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 			{"Providence_Destroyer"}
 			)
 
-		self.ARCActivation = GenericResearch(self.galactic_conquest,
+		self.ARCActivation = GenericResearch(self.galactic_conquest, -- FotR_Enhanced ; repurpose this for arc training program
 			"ARC_ACTIVATION",
 			"Template_Research_Dummy",
 			{"Empire"},

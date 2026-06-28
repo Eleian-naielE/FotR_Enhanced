@@ -78,8 +78,6 @@ return {
             crossplot:publish("CIS_MANDALORE_SUPPORT_CHOICE_ACTIVE", "empty")
             -- FotR_Enhanced
             crossplot:publish("CONQUER_RENDILI_REP", "empty")
-            crossplot:publish("UPDATE_MOBILIZATION", "ARC_ACTIVATION")
-            crossplot:publish("UPDATE_MOBILIZATION", "ARC_ACTIVATION")
         end
     end,
     on_exit = function(self, state_context)
