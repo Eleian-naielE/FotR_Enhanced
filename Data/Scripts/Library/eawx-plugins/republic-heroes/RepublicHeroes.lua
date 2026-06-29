@@ -63,6 +63,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	-- FotR_Enhanced
 	crossplot:subscribe("DALLIN_UNLLOCK", self.Dallin_Unlock, self)
 	crossplot:subscribe("GEEN_UNLOCK", self.Geen_Unlock, self)
+	crossplot:subscribe("ARC_PROGRAM", self.ARC_Program, self)
 	-- FotR_Enhanced 
 	--Changes : 
 	--	Admiral : New Hero : Block(Venator), Yularen Resolute SPHAT, 
@@ -1219,6 +1220,10 @@ function RepublicHeroes:Remove_Fighter_Set(set, nolock)
 end
 
 -- FotR_Enhanced
+
+function RepublicHeroes:ARC_Program()
+	
+end
 
 function RepublicHeroes:Geen_Unlock()
 	Handle_Hero_Add("Geen", general_data)

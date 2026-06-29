@@ -14169,7 +14169,7 @@
 		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
 	</HeroUnit>
 
-	<!-- Early Anakin & Obi Wan from NFOW ; Needs editing-->
+	<!-- Padawn Anakin, Knight Obi Wan -->
 	
 	<HeroUnit Name="Obi_Wan_Knight">
 		<LOD_Bias>5</LOD_Bias>
