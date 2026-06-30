@@ -1864,6 +1864,17 @@
 		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
+	<!-- Ponds -->
+
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Ponds">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>Nu_Shuttle_Landing_Craft_Ponds_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	
+	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Ponds_Landing">
+		<Variant_Of_Existing_Type>Nu_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+
 	<!-- Prudii Skirata -->
 
 	<TransportUnit Name="Nu_Shuttle_Landing_Craft_Prudii">

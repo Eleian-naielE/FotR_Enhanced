@@ -6778,6 +6778,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_WALKER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PONDS_EARLY
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -6786,7 +6787,7 @@
 		TEXT_TOOLTIP_PONDS_P1_HEALTH
 		TEXT_TOOLTIP_PONDS_P1_MOVE
 		TEXT_TOOLTIP_PONDS_WEAP1
-		TEXT_TOOLTIP_PONDS_WEAP2
+		TEXT_TOOLTIP_PONDS_WEAP2_EARLY
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
@@ -6909,6 +6910,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_WALKER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PONDS_EARLY
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -6939,6 +6941,90 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Alpha_17</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Alpha_17</SFXEvent_Fleet_Move>
 	</HeroCompany>
+
+	<DummyStructure Name="Ponds_Early_Assign">
+		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_PONDS_EARLY</Text_ID>
+		<Icon_Name>i_button_ponds_early_command.tga</Icon_Name>
+
+		<SFXEvent_Build_Started> </SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled> </SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete> </SFXEvent_Build_Complete>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_WALKER
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PONDS_EARLY
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
+		</Encyclopedia_Text>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>LURE</Type>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_HOLD_POSITION_VEHICLE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_HOLD_POSITION_VEHICLE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_Cautiousness.tga</Alternate_Icon_Name> <!-- I_SA_BERSERKER? -->
+				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
+					 Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
+				<Effective_Radius>1000</Effective_Radius>
+
+				<Target_Types />
+
+				<Recharge_Seconds>40</Recharge_Seconds>
+				<Expiration_Seconds>25</Expiration_Seconds>
+
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>50</Max_Number_Of_Pulses>
+				<Particle_Effect>HOLD_POSITION_VEHICLE_Ground_Ability_Particle</Particle_Effect>
+
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name>
+				</GUI_Activated_Ability_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
+	</DummyStructure>
+	
+	<DummyStructure Name="Ponds_Early_Retire">
+		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_PONDS_EARLY</Text_ID>
+		<Icon_Name>i_button_ponds_early_retire.tga</Icon_Name>
+
+		<SFXEvent_Build_Started> </SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled> </SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete> </SFXEvent_Build_Complete>
+
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_RETIRE_REPUBLIC_CLONE
+		</Encyclopedia_Text>
+
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Ponds_Early</Required_Orbiting_Units>
+		
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
+	</DummyStructure>
 
 	<HeroUnit Name="Ponds">
 		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
@@ -7019,12 +7105,12 @@
 			<Unit_Ability>
 				<Type>LURE</Type>
 
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PRESS_ON_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PRESS_ON_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_ASSAULT.tga</Alternate_Icon_Name> <!-- I_SA_BERSERKER? -->
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_HOLD_POSITION_VEHICLE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_HOLD_POSITION_VEHICLE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_Cautiousness.tga</Alternate_Icon_Name> <!-- I_SA_BERSERKER? -->
 				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
 					 Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
-				<Effective_Radius>1</Effective_Radius>
+				<Effective_Radius>1000</Effective_Radius>
 
 				<Target_Types />
 
@@ -7034,7 +7120,7 @@
 				<Is_Pulsing>Yes</Is_Pulsing>
 				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
 				<Max_Number_Of_Pulses>50</Max_Number_Of_Pulses>
-				<Particle_Effect>PRESS_ON_Ground_Ability_Particle</Particle_Effect>
+				<Particle_Effect>HOLD_POSITION_VEHICLE_Ground_Ability_Particle</Particle_Effect>
 
 				<Supports_Autofire>False</Supports_Autofire>
 			</Unit_Ability>
@@ -7078,7 +7164,8 @@
 		<Text_ID>TEXT_HERO_PONDS_EARLY</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_05_LAND
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_WALKER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_PONDS
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
@@ -7110,6 +7197,91 @@
 		<SFXEvent_Build_Complete>Unit_Respawn_Veers</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>EHD_Reinforcements_En_Route</SFXEvent_Fleet_Move>
 	</HeroCompany>
+
+	<DummyStructure Name="Ponds_Assign">
+		<Variant_Of_Existing_Type>Template_Assign</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_PONDS</Text_ID>
+		<Icon_Name>i_button_ponds_command.tga</Icon_Name>
+
+		<SFXEvent_Build_Started> </SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled> </SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete> </SFXEvent_Build_Complete>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ASSIGN_REPUBLIC_CLONE
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_05_LAND
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_WALKER
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PONDS
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_P1_PLATOON
+		</Encyclopedia_Text>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>LURE</Type>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_HOLD_POSITION_VEHICLE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_HOLD_POSITION_VEHICLE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_Cautiousness.tga</Alternate_Icon_Name> <!-- I_SA_BERSERKER? -->
+				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
+					 Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
+				<Effective_Radius>1000</Effective_Radius>
+
+				<Target_Types />
+
+				<Recharge_Seconds>40</Recharge_Seconds>
+				<Expiration_Seconds>25</Expiration_Seconds>
+
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>50</Max_Number_Of_Pulses>
+				<Particle_Effect>HOLD_POSITION_VEHICLE_Ground_Ability_Particle</Particle_Effect>
+
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name>
+				</GUI_Activated_Ability_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
+	</DummyStructure>
+	
+	<DummyStructure Name="Ponds_Retire">
+		<Variant_Of_Existing_Type>Template_Retire</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_PONDS</Text_ID>
+		<Icon_Name>i_button_ponds_retire.tga</Icon_Name>
+
+		<SFXEvent_Build_Started> </SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled> </SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete> </SFXEvent_Build_Complete>
+
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_RETIRE_REPUBLIC_CLONE
+		</Encyclopedia_Text>
+
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Ponds</Required_Orbiting_Units>
+		
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
+	</DummyStructure>
 
 
 <!-- Special Forces -->
