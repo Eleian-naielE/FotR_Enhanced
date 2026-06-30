@@ -33,7 +33,7 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 			"ARC_TRAINING_PROGRAM",
 			"Dummy_Research_ARC_Commander",
 			{"Empire"},
-			nil,
+			{"Option_Cycle_Clones"},
 			nil,
 			nil,nil,
 			{"ARC_PROGRAM"}

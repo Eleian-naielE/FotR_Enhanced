@@ -201,7 +201,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 		total_slots = 3,			--Max slot number. Set at the start of the GC and never change
 		free_hero_slots = 3,		--Slots open to buy
 		vacant_hero_slots = 0,	    --Slots that need another action to move to free
-		vacant_limit = 16,           --Number of times a lost slot can be reopened
+		vacant_limit = 17,           --Number of times a lost slot can be reopened
 		initialized = false,
 		full_list = { --All options for reference operations
 			["Cody"] = {"CODY_ASSIGN",{"CODY_RETIRE","CODY_RETIRE2"},{"CODY","CODY2"},"Cody", ["Companies"] = {"CODY_TEAM","CODY2_TEAM"}},
@@ -221,19 +221,20 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			["Jet"] = {"JET_ASSIGN",{"JET_RETIRE","JET_RETIRE2"},{"JET","JET2"},"Jet", ["Companies"] = {"JET_TEAM","JET2_TEAM"}},
 			["Gaffa"] = {"GAFFA_ASSIGN",{"GAFFA_RETIRE"},{"GAFFA_A5RX"},"Gaffa", ["Companies"] = {"GAFFA_TEAM"}},
 			-- FotR_Enhanced
-			--["Ponds"] = {"PONDS_ASSIGN",{"PONDS_RETIRE","PONDS_RETIRE2"},{"PONDS","PONDS2"},"Ponds", ["Companies"] = {"PONDS_TEAM","PONDS2_TEAM"}},
+			["Ponds"] = {"PONDS_EARLY_ASSIGN",{"PONDS_EARLY_RETIRE", "PONDS_RETIRE"},{"PONDS_EARLY","PONDS"},"Ponds", ["Companies"] = {"PONDS_EARLY_TEAM","PONDS_TEAM"}},
 		},
 		available_list = {--Heroes currently available for purchase. Seeded with those who have no special prereqs
-			"Cody",
-			"Rex",
-			"Appo",
-			"Bly",
-			"Wolffe",
-			"Gree_Clone",
-			"Neyo",
+			--"Cody",
+			--"Rex",
+			--"Appo",
+			--"Bly",
+			--"Wolffe",
+			--"Gree_Clone",
+			--"Neyo",
 			"71",
-			"Jet",
-			"Gaffa"
+			--"Jet",
+			--"Gaffa"
+			"Ponds",
 		},
 		story_locked_list = {--Heroes not accessible, but able to return with the right conditions
 			["Bacara"] = true,
@@ -895,7 +896,6 @@ function RepublicHeroes:Phase_II()
 	set_unit_index("Neyo",2,clone_data)
 	set_unit_index("Bacara",2,clone_data)
 	set_unit_index("Jet",2,clone_data)
-	--set_unit_index("Ponds",2,clone_data)
 
 	Handle_Hero_Add("Keller", clone_data)
 	Handle_Hero_Add("Faie", clone_data)
@@ -924,7 +924,6 @@ function RepublicHeroes:Phase_II()
 	clone_data.full_list["Neyo"][1] = "NEYO_ASSIGN2"
 	clone_data.full_list["Bacara"][1] = "BACARA_ASSIGN2"
 	clone_data.full_list["Jet"][1] = "JET_ASSIGN2"
-	--clone_data.full_list["Ponds"][1] = "PONDS_ASSIGN2"
 
 	commando_data.full_list["Fordo"][1] = "FORDO_ASSIGN2"
 	commando_data.full_list["Alpha"][1] = "ALPHA_ASSIGN2"
@@ -1222,7 +1221,10 @@ end
 -- FotR_Enhanced
 
 function RepublicHeroes:ARC_Program()
-	
+	Handle_Hero_Add("Dodonna", clone_data)
+	Handle_Hero_Add("Screed", clone_data)
+	Handle_Hero_Add("Praji", clone_data)
+	Handle_Hero_Add("Ravik", clone_data)
 end
 
 function RepublicHeroes:Geen_Unlock()
