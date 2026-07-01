@@ -394,6 +394,10 @@ function GovernmentRepublic:on_construction_finished(planet, game_object_type_na
 		lifetime = lifetime -1
 		GlobalValue.Set("ARC_LIFETIME_LIMIT", lifetime)
 		StoryUtil.ShowScreenText("Available ARC Trooper left: "..tostring(lifetime) , 10, nil, {r = 244, g=244, b =0})
+	--[[ FotR_Enhanced ; for future new historicals
+	elseif game_object_type_name == "DUMMY_RESEARCH_ARC_COMMANDER" then
+		crossplot:publish("ARC_PROGRAM")
+	]]
 	end
 end
 

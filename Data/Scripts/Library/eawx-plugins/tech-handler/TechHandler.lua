@@ -179,6 +179,8 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 		"Alpha_17_2_Team", "Fordo2_Team", "Ordo_Skirata2_Team", "Aden_Skirata2_Team", "Kligson2_Team", "Rom_Mohc2_Team", "Prudii_Skirata2_Team"}
 		)
 
+	self.ARCProgramSwap = GenericSwap("ARC_PROGRAM", "EMPIRE", {"Ponds_Early"}, {"Ponds_Team"})
+
 	self.TempestResearch = GenericResearch(self.galactic_conquest,
 		"TEMPEST_RESEARCH",
 		"Dummy_Research_Tempest",

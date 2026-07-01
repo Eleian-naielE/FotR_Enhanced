@@ -7191,6 +7191,8 @@
 		<Company_Units>Ponds</Company_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
+
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>

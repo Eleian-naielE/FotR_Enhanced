@@ -353,6 +353,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	JetBacara_swapped = 0
 
 	Venator_init = false
+	ARC_Program_init = false
 end
 
 function RepublicHeroes:on_production_finished(planet, object_type_name)--object_type_name, owner)
@@ -1059,7 +1060,7 @@ function RepublicHeroes:Victory1_Heroes()
 	Set_Fighter_Hero("JAG_ARC170_127TH_SQUADRON", "DODONNA_ARDENT")
 	
 	admiral_data.total_slots = admiral_data.total_slots + 1
-		admiral_data.free_hero_slots = admiral_data.free_hero_slots + 1
+	admiral_data.free_hero_slots = admiral_data.free_hero_slots + 1
 
 	local entry_time = GetCurrentTime()
 
@@ -1221,10 +1222,18 @@ end
 -- FotR_Enhanced
 
 function RepublicHeroes:ARC_Program()
-	Handle_Hero_Add("Dodonna", clone_data)
-	Handle_Hero_Add("Screed", clone_data)
-	Handle_Hero_Add("Praji", clone_data)
-	Handle_Hero_Add("Ravik", clone_data)
+	if not ARC_Program_init then
+		Handle_Hero_Add("Cody", clone_data)
+		Handle_Hero_Add("Rex", clone_data)
+		Handle_Hero_Add("Appo", clone_data)
+		Handle_Hero_Add("Bly", clone_data)
+		Handle_Hero_Add("Wolffe", clone_data)
+		Handle_Hero_Add("Gree_Clone", clone_data)
+		Handle_Hero_Add("Jet", clone_data)
+
+		set_unit_index("Ponds", 2, clone_data)
+	end
+	ARC_Program_init = true
 end
 
 function RepublicHeroes:Geen_Unlock()
