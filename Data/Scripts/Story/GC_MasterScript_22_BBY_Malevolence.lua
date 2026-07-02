@@ -181,7 +181,7 @@ function Historical_GC_Choice_Made(choice)
 	end
 
 	crossplot:publish("VENATOR_HEROES", "empty")
-
+	crossplot:publish("ARC_PROGRAM", "empty")
 	crossplot:publish("COMMAND_STAFF_INITIALIZE", {
 			["MOFF"] = {
 				["SLOT_ADJUST"] = -2,
@@ -197,8 +197,8 @@ function Historical_GC_Choice_Made(choice)
 			["CLONE"] = {
 				["SLOT_ADJUST"] = 1,
 				["LOCKIN"] = {"Rex"},
-				["RETURN"] = {"Jet"},
-				["EXIT"] = {"Gree_Clone","Bacara","Cody"},
+				--["RETURN"] = {"Jet"}, FotR_Enhanced ; not needed, bacara removed
+				["EXIT"] = {"Gree_Clone","Cody"},
 			},
 			["COMMANDO"] = {
 				["SLOT_ADJUST"] = -2,

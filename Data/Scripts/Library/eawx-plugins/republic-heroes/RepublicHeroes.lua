@@ -198,8 +198,8 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	}
 
 	clone_data = {
-		total_slots = 3,			--Max slot number. Set at the start of the GC and never change
-		free_hero_slots = 3,		--Slots open to buy
+		total_slots = 2,			--Max slot number. Set at the start of the GC and never change
+		free_hero_slots = 2,		--Slots open to buy
 		vacant_hero_slots = 0,	    --Slots that need another action to move to free
 		vacant_limit = 17,           --Number of times a lost slot can be reopened
 		initialized = false,
@@ -519,7 +519,7 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 	if tech_level >= 4 then
 		Handle_Hero_Exit("Kilian", admiral_data)
 		Handle_Hero_Exit("Jet", clone_data)
-		--Handle_Hero_Exit("Ponds", clone_data)
+		Handle_Hero_Exit("Ponds", clone_data)
 		--Handle_Hero_Exit("Knol", council_data)
 
 		Handle_Hero_Add("Autem", admiral_data)
@@ -1232,8 +1232,16 @@ function RepublicHeroes:ARC_Program()
 		Handle_Hero_Add("Jet", clone_data)
 
 		set_unit_index("Ponds", 2, clone_data)
+		P2_Commanders_Check()
+
+		clone_data.total_slots = clone_data.total_slots + 1
+		clone_data.free_hero_slots = clone_data.free_hero_slots + 1
 	end
 	ARC_Program_init = true
+end
+
+function P2_Commanders_Check()
+
 end
 
 function RepublicHeroes:Geen_Unlock()
