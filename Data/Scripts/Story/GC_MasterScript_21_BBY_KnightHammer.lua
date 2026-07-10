@@ -199,7 +199,7 @@ function Historical_GC_Choice_Made(choice)
 	end
 
 	crossplot:publish("VENATOR_HEROES", "empty")
-
+	crossplot:publish("ARC_PROGRAM", "empty") -- FotR_Enhanced
 	crossplot:publish("COMMAND_STAFF_INITIALIZE", {
 			["MOFF"] = {
 				["SLOT_ADJUST"] = -1,

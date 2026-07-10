@@ -91,15 +91,16 @@ return {
                     end
                 end
             end
+			-- FotR_Enhanced
+            crossplot:publish("GEEN_UNLOCK", "empty")
+			crossplot:publish("ARC_TRAINING_PROGRAM_FINISHED", "empty") -- Should precede P2 research
+			crossplot:publish("CONQUER_RENDILI_REP", "empty")
 
             crossplot:publish("VENATOR_RESEARCH_FINISHED", "empty")
             crossplot:publish("PHASE_TWO_RESEARCH_FINISHED", "empty")
             crossplot:publish("PROVIDENCE_RESEARCH_FINISHED", "empty")
             crossplot:publish("BULWARK1_RESEARCH_FINISHED", "empty")
             crossplot:publish("VICTORY1_RESEARCH_FINISHED", "empty")
-            crossplot:publish("GEEN_UNLOCK", "empty")
-            -- FotR_Enhanced
-            crossplot:publish("CONQUER_RENDILI_REP", "empty")
         end
     end,
     on_exit = function(self, state_context)

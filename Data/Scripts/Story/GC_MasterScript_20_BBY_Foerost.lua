@@ -303,6 +303,7 @@ function Historical_GC_Choice_Made(choice)
 
 	crossplot:publish("VENATOR_HEROES", "empty")
 	crossplot:publish("VICTORY1_HEROES", "empty")
+	crossplot:publish("ARC_PROGRAM", "empty") -- FotR_Enhanced -- Should precede P2 research
 	crossplot:publish("CLONE_UPGRADES", "empty")
 
 	crossplot:publish("COMMAND_STAFF_INITIALIZE", {

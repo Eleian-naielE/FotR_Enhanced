@@ -351,6 +351,7 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	Forral_Checks = 0
 	Gillehspy_Checks = 0
 	JetBacara_swapped = 0
+	P2_Commanders_Checks = 0
 
 	Venator_init = false
 	ARC_Program_init = false
@@ -514,6 +515,8 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 		Handle_Hero_Add("Tenant", admiral_data)
 		Handle_Hero_Add("Jesra", general_data)
 		Handle_Hero_Add("Ahsoka", council_data)
+		
+		self.ARC_Program()
 	end
 
 	if tech_level >= 4 then
@@ -898,9 +901,6 @@ function RepublicHeroes:Phase_II()
 	set_unit_index("Bacara",2,clone_data)
 	set_unit_index("Jet",2,clone_data)
 
-	Handle_Hero_Add("Keller", clone_data)
-	Handle_Hero_Add("Faie", clone_data)
-
 	set_unit_index("Fordo",2,commando_data)
 	set_unit_index("Alpha",2,commando_data)
 	set_unit_index("Ordo",2,commando_data)
@@ -1232,16 +1232,24 @@ function RepublicHeroes:ARC_Program()
 		Handle_Hero_Add("Jet", clone_data)
 
 		set_unit_index("Ponds", 2, clone_data)
+		clone_data.full_list["Ponds"][1] = "PONDS_ASSIGN"
 		P2_Commanders_Check()
 
 		clone_data.total_slots = clone_data.total_slots + 1
 		clone_data.free_hero_slots = clone_data.free_hero_slots + 1
+
+		GlobalValue.Set("CLONE_DEFAULT", 0)
 	end
 	ARC_Program_init = true
 end
 
 function P2_Commanders_Check()
-
+	P2_Commanders_Checks = P2_Commanders_Checks + 1
+	if P2_Commanders_Checks == 2 then
+		Handle_Hero_Add("Keller", clone_data)
+		Handle_Hero_Add("Faie", clone_data)
+		Handle_Hero_Add("Neyo", clone_data)
+	end
 end
 
 function RepublicHeroes:Geen_Unlock()

@@ -215,7 +215,7 @@ function Historical_GC_Choice_Made(choice) -- FotR_Enhanced ; clone market
 
 	crossplot:publish("VENATOR_HEROES", "empty")
 	crossplot:publish("VICTORY1_HEROES", "empty")
-
+	crossplot:publish("ARC_PROGRAM", "empty") -- FotR_Enhanced
 	crossplot:publish("COMMAND_STAFF_INITIALIZE", {
 			["MOFF"] = {
 				["LOCKIN"] = {"Grant"},
@@ -229,7 +229,7 @@ function Historical_GC_Choice_Made(choice) -- FotR_Enhanced ; clone market
 			},
 			["CLONE"] = {
 				["SLOT_ADJUST"] = -2,
-				["EXIT"] = {"Rex","Bly","Cody","Wolffe","Gree_Clone","Neyo"},
+				["EXIT"] = {"Rex","Bly","Cody","Wolffe","Gree_Clone","Neyo","Ponds"}, -- FotR_Enhanced ; Ponds
 			},
 			["COMMANDO"] = {
 				["LOCKIN"] = {"Fordo"},
