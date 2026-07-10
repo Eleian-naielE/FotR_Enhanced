@@ -4,21 +4,14 @@
     "version": "2.1.0"
   },
   "directories": {
-    "xml": [
-      "data/xml"
-    ],
-    "scripts": [
-      "data/scripts"
-    ],
-    "art": [
-      "data/art"
-    ],
-    "audio": [
-      "data/audio"
-    ],
-    "text": [
-      "data/text"
-    ]
+    "xml": ["data/xml"],
+    "scripts": ["data/scripts"],
+    "art": ["data/art"],
+    "audio": ["data/audio"]
+  },
+  "localisation": {
+    "type": "DAT",
+    "directory": "data/text"
   },
   "projectReferences": [{"path": "../FOTR_ORIGINAL_FILES/FOTR_ORIGINAL_FILES.pgproj"}]
 }
