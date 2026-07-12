@@ -5661,6 +5661,7 @@
 	<UniqueUnit Name="Gillehspy_Hound">
 		<Variant_Of_Existing_Type>Venator_Star_Destroyer</Variant_Of_Existing_Type>
 		<Prevents_Story_Campaign_Autoresolve>no</Prevents_Story_Campaign_Autoresolve>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_GILLEHSPY</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
