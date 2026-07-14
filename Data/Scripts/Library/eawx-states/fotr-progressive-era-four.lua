@@ -93,7 +93,6 @@ return {
             end
 			-- FotR_Enhanced
             crossplot:publish("GEEN_UNLOCK", "empty")
-			crossplot:publish("ARC_TRAINING_PROGRAM_FINISHED", "empty") -- Should precede P2 research
 			crossplot:publish("CONQUER_RENDILI_REP", "empty")
 
             crossplot:publish("VENATOR_RESEARCH_FINISHED", "empty")

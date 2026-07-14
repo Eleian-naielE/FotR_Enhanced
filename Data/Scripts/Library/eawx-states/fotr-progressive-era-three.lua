@@ -76,7 +76,6 @@ return {
                 end
             end
 			-- FotR_Enhanced
-			crossplot:publish("ARC_TRAINING_PROGRAM_FINISHED", "empty") -- Should precede P2 research
 			crossplot:publish("CONQUER_RENDILI_REP", "empty")
 
             crossplot:publish("CONQUER_RENDILI", "empty")
