@@ -371,6 +371,7 @@ return {
 ["TJ912_RECUSANT"] = true,
 ["TM171_DH_OMNI"] = true,
 ["UMBARAN_FRIGATE"] = true,
+["RENDILI_DHC"] = true,
 ["UMBARAN_FRIGATE_INFLUENCE"] = true,
 ["VENATOR_SPHA_T"] = true,
 
