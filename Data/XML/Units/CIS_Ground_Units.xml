@@ -882,7 +882,6 @@
 		<Custom_Hard_YExtent>10.0</Custom_Hard_YExtent>
 		<FormationSpacing> 3.0 </FormationSpacing>
 		<FormationOrder>1</FormationOrder>
-		<FormationGrouping>Standard</FormationGrouping>
 		<FormationRaggedness>0.75</FormationRaggedness>
 		<MaxJiggleDistance>3.5</MaxJiggleDistance>
 		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
@@ -926,7 +925,6 @@
 		<Max_Rate_Of_Roll>3.2</Max_Rate_Of_Roll>
 		<Max_Lift>3.5</Max_Lift>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
-		<FormationGrouping> Solo </FormationGrouping>
 		<PathFrameDelay> 4 </PathFrameDelay>
 		<Hover_Height>100.0</Hover_Height>
 		<Should_Cause_Limited_Turrets_To_Turn> false </Should_Cause_Limited_Turrets_To_Turn>
@@ -5061,7 +5059,6 @@
 
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>320.0</Targeting_Max_Attack_Distance>
-		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
@@ -5110,7 +5107,6 @@
 
 
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -5179,7 +5175,7 @@
 				<Applicable_Unit_Categories>Infantry, Vehicle, Structure</Applicable_Unit_Categories>
 				<Excluded_Unit_Categories></Excluded_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>A6_Juggernaut, A6_Prototype, SPHA_T,</Excluded_Unit_Types>
+				<Excluded_Unit_Types>A6_Juggernaut, Republic_A6_Prototype, SPHA_T,</Excluded_Unit_Types>
 				<SFXEvent_Activate>Unit_Generic_Building_Death_SFX</SFXEvent_Activate>
 				<Owner_Particle_Effect>Force_Whirlwind_Particles</Owner_Particle_Effect>
 				<Owner_Particle_Bone_Name />
