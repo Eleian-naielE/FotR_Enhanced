@@ -1230,6 +1230,7 @@ function RepublicHeroes:ARC_Program()
 		Handle_Hero_Add("Wolffe", clone_data)
 		Handle_Hero_Add("Gree_Clone", clone_data)
 		Handle_Hero_Add("Jet", clone_data)
+		Handle_Hero_Add("Gaffa", clone_data)
 
 		set_unit_index("Ponds", 2, clone_data)
 		clone_data.full_list["Ponds"][1] = "PONDS_ASSIGN"

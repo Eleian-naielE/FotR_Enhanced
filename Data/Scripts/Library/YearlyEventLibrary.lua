@@ -10,6 +10,7 @@ return {
 	},
 	["21 BBY"] = {
 		{month = 2, name = "PHASE_TWO_RESEARCH"},--test
+		{month = 4, name = "COMMAND_STAFF_EXIT", params = {{"Ponds"}, 4, false}},
 		{month = 6, name = "VICTORY1_RESEARCH"},
 		{month = 6, name = "ROSTER_UPDATE_21BBY_M6_FINISHED"},
 		{month = 6, name = "BULWARK1_RESEARCH"},

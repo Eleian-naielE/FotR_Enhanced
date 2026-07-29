@@ -515,4 +515,33 @@
 		<SFXEvent_Build_Complete>RHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
 
+<!-- FotR_Enhanced -->
+  <DummyStructure Name="Dummy_Research_ARC_Commander"> <!-- should it require Alpha? -->
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_RESEARCH_ARC_COMMANDER</Text_ID>
+		<Encyclopedia_Text> TEXT_RESEARCH_ARC_COMMANDER_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_RESEARCH_ARC_COMMANDER.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Kamino</Required_Planets>
+		<Build_Cost_Credits>6000</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
 </Republic_Research_Dummies>
