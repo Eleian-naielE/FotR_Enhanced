@@ -75,6 +75,8 @@ return {
                     end
                 end
             end
+			-- FotR_Enhanced
+			crossplot:publish("CONQUER_RENDILI_REP", "empty")
 
             crossplot:publish("CONQUER_RENDILI", "empty")
             crossplot:publish("VENATOR_RESEARCH_FINISHED", "empty")

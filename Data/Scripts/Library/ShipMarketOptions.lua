@@ -112,22 +112,12 @@ return {
 					order = 9,
 				},			
 			}},
+		-- FotR_Enhanced
 		["CLONE_MARKET"] = {
 			market_name = "Clone Specialization Program",
 			faction_object = Find_Player("Empire"),
 			news_colour = {r = 250, g = 44, b = 44},
 			list = {
-				["ARC_PHASE_ONE_COMPANY"] = {
-					locked = true,
-					gc_locked = false,
-					amount = 0,
-					chance = 0,
-					perception_modifier = nil,
-					associtaion = nil,
-					readable_name = "Alpha-Class ARC Trooper Platoon (Phase I)",
-					text_requirement = "",
-					order = 1,
-				},
 				--Always Available
 				["CLONE_COMMANDO_REWORK_COMPANY"] = {
 					locked = true,
@@ -138,9 +128,20 @@ return {
 					associtaion = nil,
 					readable_name = "Clone Commando Squad",
 					text_requirement = "",
-					order = 2,
+					order = 1,
 				},
 				--Phase 1
+				["ARC_PHASE_ONE_COMPANY"] = {
+					locked = true,
+					gc_locked = false,
+					amount = 0,
+					chance = 0,
+					perception_modifier = nil,
+					associtaion = nil,
+					readable_name = "Alpha-Class ARC Trooper Platoon (Phase I)",
+					text_requirement = "",
+					order = 2,
+				},
 				["CLONE_SPECIAL_OPS_COMPANY"] = {
 					locked = true,
 					gc_locked = false,

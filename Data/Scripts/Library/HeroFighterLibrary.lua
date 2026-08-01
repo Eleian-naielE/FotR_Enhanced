@@ -222,7 +222,6 @@ function Get_Hero_Entries(upgrade_object)
 			Options = {
 				{"SEERDON", Locations = {"SEERDON_INVINCIBLE"}},				
 				{"BARAKA", Locations = {"BARAKA_NEXU"}},
-				{"DAO", Locations = {"DAO_VENATOR"}},
 				{"DRON", Locations = {"DRON_VENATOR"}},
 				{"BYLUIR", Locations = {"BYLUIR_VENATOR"}},
 				{"KREUGE", Locations = {"KREUGE_GIBBON"}},

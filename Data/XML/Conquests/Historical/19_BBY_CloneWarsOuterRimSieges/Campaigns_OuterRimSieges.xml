@@ -1202,7 +1202,7 @@
 
 		<Starting_Forces> Empire, Anaxes, Empire_Star_Base_4 </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_Shipyard_Level_Two </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Golan_Colony_One </Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Golan_Colony_Two </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Victory_I_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Venator_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Acclamator_II </Starting_Forces>
@@ -1243,8 +1243,6 @@
 		<Starting_Forces> Empire, Brentaal, Republic_Shipyard_Level_Two </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Acclamator_II </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Acclamator_I_Carrier </Starting_Forces>
-		<Starting_Forces> Empire, Brentaal, Acclamator_I_Carrier </Starting_Forces>
-		<Starting_Forces> Empire, Brentaal, Galleon </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Galleon </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, DP20 </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, DP20 </Starting_Forces>
@@ -1530,7 +1528,6 @@
 		<Starting_Forces> Empire, Kuat, Republic_Shipyard_Level_Four </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Venator_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
-		<Starting_Forces> Empire, Kuat, Acclamator_I_Assault </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Acclamator_I_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Arquitens </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Arquitens </Starting_Forces>
@@ -1549,11 +1546,9 @@
 		
 		<Starting_Forces> Empire, Lantillies, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Republic_Shipyard_Level_Two </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, TradeStation </Starting_Forces>
+		<Starting_Forces> Empire, Lantillies, Golan_Colony_Two </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Invincible_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Consular_Refit </Starting_Forces>
@@ -3205,7 +3200,7 @@
 		
 		<Starting_Forces> Sector_Forces, Belderone, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Belderone, Republic_Shipyard_Level_One </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Belderone, Golan_Colony_One </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Belderone, Golan_Colony_Two </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Belderone, Venator_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Belderone, Victory_I_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Belderone, CR90 </Starting_Forces>
@@ -3227,8 +3222,6 @@
 		<Starting_Forces> Empire, Brentaal, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Brentaal, Acclamator_II </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Acclamator_I_Carrier </Starting_Forces>
-		<Starting_Forces> Empire, Brentaal, Acclamator_I_Carrier </Starting_Forces>
-		<Starting_Forces> Empire, Brentaal, Galleon </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Galleon </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, DP20 </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, DP20 </Starting_Forces>
@@ -3512,11 +3505,9 @@
 		
 		<Starting_Forces> Empire, Lantillies, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Republic_Shipyard_Level_Two </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, TradeStation </Starting_Forces>
+		<Starting_Forces> Empire, Lantillies, Golan_Colony_Two </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Invincible_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Consular_Refit </Starting_Forces>
@@ -5148,7 +5139,7 @@
 
 		<Starting_Forces> Empire, Anaxes, Empire_Star_Base_4 </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_Shipyard_Level_Two </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Golan_Colony_One </Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Golan_Colony_Two </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Victory_I_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Venator_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Acclamator_II </Starting_Forces>
@@ -5190,8 +5181,6 @@
 		<Starting_Forces> Empire, Brentaal, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Brentaal, Acclamator_II </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Acclamator_I_Carrier </Starting_Forces>
-		<Starting_Forces> Empire, Brentaal, Acclamator_I_Carrier </Starting_Forces>
-		<Starting_Forces> Empire, Brentaal, Galleon </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Galleon </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, DP20 </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, DP20 </Starting_Forces>
@@ -5475,11 +5464,9 @@
 		
 		<Starting_Forces> Empire, Lantillies, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Republic_Shipyard_Level_Two </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, TradeStation </Starting_Forces>
+		<Starting_Forces> Empire, Lantillies, Golan_Colony_Two </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Invincible_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Consular_Refit </Starting_Forces>
@@ -7419,7 +7406,6 @@
 		<Starting_Forces> Empire, Kuat, Republic_Shipyard_Level_Four </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Venator_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
-		<Starting_Forces> Empire, Kuat, Acclamator_I_Assault </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Acclamator_I_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Arquitens </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Arquitens </Starting_Forces>
@@ -7438,11 +7424,9 @@
 		
 		<Starting_Forces> Empire, Lantillies, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Republic_Shipyard_Level_Two </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, TradeStation </Starting_Forces>
+		<Starting_Forces> Empire, Lantillies, Golan_Colony_Two </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Invincible_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Consular_Refit </Starting_Forces>
@@ -9045,7 +9029,7 @@
 
 		<Starting_Forces> Empire, Anaxes, Empire_Star_Base_4 </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_Shipyard_Level_Two </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Golan_Colony_One </Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Golan_Colony_Two </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Victory_I_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Venator_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Acclamator_II </Starting_Forces>
@@ -9087,8 +9071,6 @@
 		<Starting_Forces> Empire, Brentaal, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Brentaal, Acclamator_II </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Acclamator_I_Carrier </Starting_Forces>
-		<Starting_Forces> Empire, Brentaal, Acclamator_I_Carrier </Starting_Forces>
-		<Starting_Forces> Empire, Brentaal, Galleon </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Galleon </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, DP20 </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, DP20 </Starting_Forces>
@@ -9374,7 +9356,6 @@
 		<Starting_Forces> Empire, Kuat, Republic_Shipyard_Level_Four </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Venator_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
-		<Starting_Forces> Empire, Kuat, Acclamator_I_Assault </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Acclamator_I_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Arquitens </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Arquitens </Starting_Forces>
@@ -9393,11 +9374,9 @@
 		
 		<Starting_Forces> Empire, Lantillies, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Republic_Shipyard_Level_Two </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, TradeStation </Starting_Forces>
+		<Starting_Forces> Empire, Lantillies, Golan_Colony_Two </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Invincible_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Consular_Refit </Starting_Forces>
@@ -11004,7 +10983,7 @@
 
 		<Starting_Forces> Empire, Anaxes, Empire_Star_Base_4 </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_Shipyard_Level_Two </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Golan_Colony_One </Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Golan_Colony_Two </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Victory_I_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Venator_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Acclamator_II </Starting_Forces>
@@ -11046,8 +11025,6 @@
 		<Starting_Forces> Empire, Brentaal, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
 		<Starting_Forces> Empire, Brentaal, Acclamator_II </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Acclamator_I_Carrier </Starting_Forces>
-		<Starting_Forces> Empire, Brentaal, Acclamator_I_Carrier </Starting_Forces>
-		<Starting_Forces> Empire, Brentaal, Galleon </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, Galleon </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, DP20 </Starting_Forces>
 		<Starting_Forces> Empire, Brentaal, DP20 </Starting_Forces>
@@ -11333,7 +11310,6 @@
 		<Starting_Forces> Empire, Kuat, Republic_Shipyard_Level_Four </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Venator_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Venator_Star_Destroyer </Starting_Forces> <!-- FotR_Enhanced -->
-		<Starting_Forces> Empire, Kuat, Acclamator_I_Assault </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Acclamator_I_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Arquitens </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Arquitens </Starting_Forces>
@@ -11352,11 +11328,9 @@
 		
 		<Starting_Forces> Empire, Lantillies, Empire_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Republic_Shipyard_Level_Two </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, TradeStation </Starting_Forces>
+		<Starting_Forces> Empire, Lantillies, Golan_Colony_Two </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Invincible_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Class_C_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Lantillies, Consular_Refit </Starting_Forces>

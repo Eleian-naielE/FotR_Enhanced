@@ -2130,9 +2130,9 @@
 		<Variant_Of_Existing_Type>Lucrehulk_Transport_A</Variant_Of_Existing_Type>
 	</SpaceUnit>
 
-<!-- FotR_Enhanced Unit-->
+<!-- FotR_Enhanced -->
 
-	<!--Umbaran Frigate-->
+	<!--Umbaran Frigate--> <!-- TR 3.5 Port -->
 
 	<SpaceUnit Name="Umbaran_Frigate">
 		<Text_ID>TEXT_UNIT_UMBARAN_FRIGATE</Text_ID>
@@ -2376,7 +2376,73 @@
 		</Abilities>
 	</SpaceUnit>
 
-	<!-- Umbaran Fighter -->
+	<!-- Rendili DHC ; (Katana) -->
+
+	<SpaceUnit Name="Rendili_DHC">
+		<Variant_Of_Existing_Type>Template_Republic_DHC</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_DREADNAUGHT_RENDILI</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_DREADNAUGHT_RENDILI
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_DREADNAUGHT_HULL
+		TEXT_TOOLTIP_DREADNAUGHT_KATANA_SHIELD 
+		TEXT_TOOLTIP_DREADNAUGHT_KATANA_MOVE 
+		TEXT_TOOLTIP_DREADNAUGHT_SQUADRON_FOTR 
+		TEXT_TOOLTIP_DREADNAUGHT_WEAP1
+		TEXT_TOOLTIP_DREADNAUGHT_WEAP2
+		TEXT_TOOLTIP_DREADNAUGHT_WEAP3
+		TEXT_TOOLTIP_DREADNAUGHT_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 55</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_DREADNAUGHT_RENDILI.TGA</Icon_Name>
+
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color> <!-- Just some visual pleasure -->
+
+		<Damage>30</Damage>
+		<Shield_Points>2400</Shield_Points>
+		<Shield_Refresh_Rate>36</Shield_Refresh_Rate>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Slice_Cost_Credits>400</Slice_Cost_Credits>
+		<Tech_Level>0</Tech_Level>
+
+		<Max_Speed>4.2</Max_Speed>
+
+		<Build_Cost_Credits>1800</Build_Cost_Credits>
+		<AI_Combat_Power>900</AI_Combat_Power>
+		<Build_Time_Seconds>63</Build_Time_Seconds>
+		<Population_Value>9</Population_Value>
+		<Override_Bounty_SP>25</Override_Bounty_SP>
+		<Maintenance_Cost>38</Maintenance_Cost>
+
+		<Affiliation>Sector_Forces</Affiliation>
+
+		<Required_Planets>Rendili</Required_Planets>
+
+		<Required_Special_Structures>
+			SF_Shipyard_Level_Two | SF_Shipyard_Level_Three | SF_Shipyard_Level_Four, 
+			AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+		<Score_Cost_Credits> 2250</Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+
+	<!-- Fighters -->
+
+	<!-- Umbaran Fighter --> <!-- TR 3.5 Port -->
 
 	<SpaceUnit Name="Umbaran_Starfighter">
 		<Text_ID>TEXT_UNIT_UMBARAN_STARFIGHTER</Text_ID>

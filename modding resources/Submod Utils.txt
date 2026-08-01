@@ -28,7 +28,7 @@ Red nikto guard model(for bok & morgukai shadow army)
 Hutt_HuttGuard_NoHelmet.ALO
 Hutt_HuttGuard.ALO
 
-
+#9A5138
 
 
 Resoureces {

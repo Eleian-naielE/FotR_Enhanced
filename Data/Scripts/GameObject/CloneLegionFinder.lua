@@ -13,9 +13,12 @@ function State_Init(message)
 
 	if message == OnEnter then
 		local clone_skin = GlobalValue.Get("CLONE_DEFAULT")
-
 		if clone_skin == nil then
 			clone_skin = 0
+		end
+
+		if clone_skin == -1 then -- FotR_Enhanced ; Pre-legion paint era
+			ScriptExit()
 		end
 
 		local generics = {

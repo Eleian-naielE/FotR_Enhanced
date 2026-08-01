@@ -1,12 +1,16 @@
 return {
 	["22 BBY"] = {
 		{month = 7, name = "PROVIDENCE_RESEARCH"},
+		{month = 8, name = "ARC_TRAINING_PROGRAM"},
+		{month = 8, name = "ACCLAMATOR_ASSAULT_FINISHED"}, -- actual date tbd
+		{month = 9, name = "KNIGHTING_CEREMONY"},
 		{month = 11, name = "COMMAND_STAFF_RETURN", params = {{"Ahsoka"}, 3, true}},
 		{month = 10, name = "VENATOR_RESEARCH"},
 		--{month = 11, name = "UTAT_RESEARCH"}
 	},
 	["21 BBY"] = {
 		{month = 2, name = "PHASE_TWO_RESEARCH"},--test
+		{month = 4, name = "COMMAND_STAFF_EXIT", params = {{"Ponds"}, 4, false}},
 		{month = 6, name = "VICTORY1_RESEARCH"},
 		{month = 6, name = "ROSTER_UPDATE_21BBY_M6_FINISHED"},
 		{month = 6, name = "BULWARK1_RESEARCH"},

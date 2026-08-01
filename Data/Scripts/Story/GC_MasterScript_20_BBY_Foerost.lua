@@ -303,6 +303,7 @@ function Historical_GC_Choice_Made(choice)
 
 	crossplot:publish("VENATOR_HEROES", "empty")
 	crossplot:publish("VICTORY1_HEROES", "empty")
+	crossplot:publish("ARC_PROGRAM", "empty") -- FotR_Enhanced -- Should precede P2 research
 	crossplot:publish("CLONE_UPGRADES", "empty")
 
 	crossplot:publish("COMMAND_STAFF_INITIALIZE", {
@@ -341,6 +342,7 @@ function Generic_Story_Set_Up()
 
 	StoryUtil.SpawnAtSafePlanet("ALSAKAN", p_republic, StoryUtil.GetSafePlanetTable(), {"Trachta_Venator","Gentis_Team","Armand_Isard_Team"})
 	StoryUtil.SpawnAtSafePlanet("RENDILI", p_republic, StoryUtil.GetSafePlanetTable(), {"Dodonna_Ardent","Screed_Arlionne","Victory_I_Fleet_Star_Destroyer","Victory_I_Fleet_Star_Destroyer"})
+	StoryUtil.SpawnAtSafePlanet("ODIK", p_republic, StoryUtil.GetSafePlanetTable(), {"Gann_Team"}) -- FotR_Enhanced
 
 	p_republic.Unlock_Tech(Find_Object_Type("Victory_I_Fleet_Star_Destroyer"))
 	p_republic.Unlock_Tech(Find_Object_Type("Gladiator_I"))
@@ -366,7 +368,7 @@ function CIS_Story_Set_Up()
 		"Dodonna_Ardent","Screed_Arlionne","Bengila_Urlan_Team",
 		"Victory_I_Fleet_Star_Destroyer","Victory_I_Fleet_Star_Destroyer","Victory_I_Fleet_Star_Destroyer", "Victory_I_Fleet_Star_Destroyer","Victory_I_Fleet_Star_Destroyer","Victory_I_Fleet_Star_Destroyer"}
 	)
-	--StoryUtil.SpawnAtSafePlanet("ODIK", p_republic, StoryUtil.GetSafePlanetTable(), {"Cinzero_Gann_Team"})
+	StoryUtil.SpawnAtSafePlanet("ODIK", p_republic, StoryUtil.GetSafePlanetTable(), {"Gann_Team"}) -- FotR_Enhanced
 
 	SpawnList({"Invincible_Cruiser", "Invincible_Cruiser", "Invincible_Cruiser"}, FindPlanet("Alsakan"), p_republic, false, false)
 
@@ -606,7 +608,7 @@ function Rep_Story_Set_Up()
 
 	StoryUtil.SpawnAtSafePlanet("ALSAKAN", p_republic, StoryUtil.GetSafePlanetTable(), {"Trachta_Venator","Gentis_Team"})
 	StoryUtil.SpawnAtSafePlanet("SARAPIN", p_republic, StoryUtil.GetSafePlanetTable(), {"Bengila_Urlan_Team"})
-	--StoryUtil.SpawnAtSafePlanet("ODIK", p_republic, StoryUtil.GetSafePlanetTable(), {"Cinzero_Gann_Team"})
+	StoryUtil.SpawnAtSafePlanet("ODIK", p_republic, StoryUtil.GetSafePlanetTable(), {"Gann_Team"}) -- FotR_Enhanced
 
 	if (GlobalValue.Get("Foerost_Rep_GC_Version") == 1) then
 		p_republic.Unlock_Tech(Find_Object_Type("Lancer_Frigate_Prototype"))

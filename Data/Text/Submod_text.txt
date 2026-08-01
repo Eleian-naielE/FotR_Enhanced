@@ -1,4 +1,4 @@
-﻿TEXT_NOTE,Put text changes for submods here
+TEXT_NOTE,Put text changes for submods here
 
 TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_EMPIRE,Map Testing Campaign Defence (Republic Control)
 TEXT_CAMPAIGN_HEADER_MAP_TESTING_DEFEND_REBEL,Map Testing Campaign Defence (CIS Control)
@@ -154,7 +154,7 @@ TEXT_TOOLTIP_ESCORT_REX_P2_2_SUBMOD,1x Clone Trooper Rifleman Squad (P2)
 TEXT_TOOLTIP_GILLEHSPY,Holding the rank of captain, Gillehspy was the commanding officer of the Venator star destroyer Hound, operating under Darth Vader during the mission at Kestavel.
 TEXT_TOOLTIP_HAWK,A call sign named after his hawk-like eyes, Lieutenant Hawk saw actions with 501st, often transporting and escorting General Anakin Skywalker, Commander Ahsoka Tano and Captain Rex to various worlds and battles.
 TEXT_TOOLTIP_HMP_DEPLOY,Deploys: 1x B2 Super Battle Droid Squad
-TEXT_TOOLTIP_JAG, CT-55/11-9009, known as Jai'galaar or Jag, was a clone pilot captin in the Clone Army. Originally a Clone Commander, he was demoted to captain after the Retreat at Katraasii. Later, Jedi General Plo Koon drafted the captin as the test pilot for the new ARC-170 starfighters and flew with him on many battles including the battle over Cato Neimoidia.
+TEXT_TOOLTIP_JAG,CT-55/11-9009, known as Jai'galaar or Jag, was a clone pilot captin in the Clone Army. Originally a Clone Commander, he was demoted to captain after the Retreat at Katraasii. Later, Jedi General Plo Koon drafted the captin as the test pilot for the new ARC-170 starfighters and flew with him on many battles including the battle over Cato Neimoidia.
 TEXT_TOOLTIP_JAG_WINGMAN,CT-57/11-9048 was a clone pilot of the 127th Gunship Wing and wingman to Captain Jai’galaar. Flying an ARC-170 over Cato Neimoidia, he executed Order 66 without hesitation, shooting down Jedi General Plo Koon during a routine patrol.
 TEXT_TOOLTIP_JET_SWAP_BACARA,Replace Jet with Bacara
 TEXT_TOOLTIP_MAGNATRI_MISSILE,A late war variant of the infamous Magna Tri Droid, this variant replaces its heavy lasers for chain fed ordnance. It was powerful enough to blow the enemy vehicle with a single shot of its missile such as UT-AT.
@@ -183,7 +183,7 @@ TEXT_TOOLTIP_RED_GUARD_MOVE,Speed: 1.2
 TEXT_TOOLTIP_RED_GUARD_WEAP1,1x Force Pike: 1 / 1.0s / 1m
 TEXT_TOOLTIP_REPAIR_VADER_SUIT,Repair Vader's damgaed suit.
 TEXT_TOOLTIP_RESOLUTE_SPHAT_UPGRADE,Equip Resolute with SPHA-T in the hanger.
-TEXT_TOOLTIP_RESOURCE_GARRISON_TNT, Treaded Neutron Torch: 1 / 0
+TEXT_TOOLTIP_RESOURCE_GARRISON_TNT,Treaded Neutron Torch: 1 / 0
 TEXT_TOOLTIP_RESPAWN_VENTRESS,Immense hatred: Respawns after first defeat
 TEXT_TOOLTIP_ROHN,Rohn was a general in command of Shrouded Offensive, a military operation at the planet of Oster assigned by Darth Vader himself.
 TEXT_TOOLTIP_SEISMIC_TANK,A repulsorcraft that uses its large piston to inflict massive damage to the enemy. Originally used as a mining vehicle, it is repurposed as a military vehicle with the outbreak of the clone wars.
@@ -298,13 +298,17 @@ TEXT_UNIT_WOLFPACK_P2_RIFLEMAN_GRENADIER,Wolfpack Rifleman Grenadier(Phase II)
 TEXT_UNIT_WOLFPACK_P2_SQUAD,Wolfpack Squad (Phase II)
 
 TEXT_HERO_PONDS_EARLY,CC-6454
+TEXT_TOOLTIP_PONDS_WEAP2_EARLY,
 TEXT_TOOLTIP_PONDS_EARLY,
+TEXT_TOOLTIP_PONDS,
 TEXT_TOOLTIP_ABILITY_HOLD_POSITION_VEHICLE,
 TEXT_TOOLTIP_ABILITY_HOLD_POSITION_VEHICLE_DESCRIPTION,
 
 TEXT_TOOLTIP_BAIL_ORGANA_CW_HEALTH,
 TEXT_TOOLTIP_BAIL_ORGANA_CW_MOVE,
 TEXT_TOOLTIP_BAIL_ORGANA_CW_WEAP1,
+
+TEXT_TOOLTIP_PADME_WEAP1_SUBMOD,1x ELG-3A Blaster Pistol: 3 / 1.25s / 220m
 
 TEXT_TOOLTIP_ANAKIN_PADAWAN,
 TEXT_TOOLTIP_ANAKIN_PADAWAN_HEALTH,
@@ -315,3 +319,51 @@ TEXT_TOOLTIP_OBI_WAN_KENOBI_KNIGHT_HEALTH,
 
 TEXT_TOOLTIP_LEGIONS_NEYO,
 TEXT_TOOLTIP_TRAIT_SPECIALIZATION_WALKER,
+
+TEXT_UNIT_DREADNAUGHT_RENDILI,
+TEXT_TOOLTIP_DREADNAUGHT_RENDILI,
+
+TEXT_TOOLTIP_DREADNAUGHT_KATANA_MOVE,Speed: 4.2 | Accel: 0.175 | Turn: 0.375
+TEXT_TOOLTIP_DREADNAUGHT_KATANA_SHIELD,Shields: 2400 / [36/R] (Frigate)
+
+
+TEXT_UNIT_SCORPENEK,Scorpenek Annihilator Droid
+TEXT_UNIT_SCORPENEK_COMPANY,Scorpenek Annihilator Company
+TEXT_UNIT_SCORPENEK_SENTRY,Scorpenek Sentry Droid
+TEXT_UNIT_SCORPENEK_SENTRY_COMPANY,Scorpenek Sentry Company
+TEXT_UNIT_SCORPENEK_UTILITY,Scorpenek Utility Droid
+TEXT_UNIT_SCORPENEK_UTILITY_COMPANY,Scorpenek Utility Company
+TEXT_TOOLTIP_SCORPENEK,The Annihilator Droid is the apex of Colicoid engineering, a formidable platform built on the success of the Droideka to destroy enemy tanks and troop transports that might threaten their homeworld. Though they lack the rolling mobility of their smaller cousins, Annihilators pack powerful shield generators and versatile cannons that can engage heavy armor or fire in lower power modes to defeat infantry. Too expensive to see truly mass use and seldom deployed off of Colla, the rarely seen "Scorpeneks" have become the subject of fearsome legends.
+TEXT_TOOLTIP_SCORPENEK_COMPANY,Company: 3x Scorpenek Annihilator Droid
+TEXT_TOOLTIP_SCORPENEK_HEALTH,Health: 90 (Light Vehicle)
+TEXT_TOOLTIP_SCORPENEK_MOVE,Speed: 1.25 | Turn: 3.0
+TEXT_TOOLTIP_SCORPENEK_SENTRY,A surprising number of the fearsome Colicoid Annihilator Droids can be found in the black markets of the galaxy. A semi-standard modification is a conversion to a sentry with improved sensors and mobility systems to support ordnance. Though it's not unheard of to replace both laser assemblies, most techs prefer to keep one intact so that the droid can continue to defend itself when its projectiles are depleted.
+TEXT_TOOLTIP_SCORPENEK_SENTRY_COMPANY,Company: 3x Scorpenek Sentry Droid
+TEXT_TOOLTIP_SCORPENEK_SENTRY_HEALTH,Health: 90 (Light Vehicle)
+TEXT_TOOLTIP_SCORPENEK_SENTRY_MOVE,Speed: 1.5 | Turn: 3.0
+TEXT_TOOLTIP_SCORPENEK_SENTRY_SHIELD,Shields: 100 / [6/R] (Light Vehicle)
+TEXT_TOOLTIP_SCORPENEK_SENTRY_WEAP1,1x AV Blaster Cannon: 2 / 2.0s / 320m
+TEXT_TOOLTIP_SCORPENEK_SENTRY_WEAP2,1x AI Blaster Cannon: 2 / 0.5s / 320m
+TEXT_TOOLTIP_SCORPENEK_SENTRY_WEAP3,1x Light Proton Missile: 1 / 5.0s / 320m
+TEXT_TOOLTIP_SCORPENEK_SENTRY_WEAP4,1x Concussion Missile: 1 / 5.0s / 320m
+TEXT_TOOLTIP_SCORPENEK_SHIELD,Shields: 100 / [6/R] (Light Vehicle)
+TEXT_TOOLTIP_SCORPENEK_UTILITY,The Scorpenek frame has found use in scrapping operations across the galaxy where the legs can provide a stable platform across treacherous terrain, especially when equipped with magnetic clamps. The deadly laser cannons can be modified into welding tools to disassemble shipwrecks, and the huge powertrain allows it to haul large pieces of cargo in a package rivals are reluctant to attack. The extra power, weight, and maintenance complications of the shield generator rarely stay in the more peaceful use of these erstwhile war droids.
+TEXT_TOOLTIP_SCORPENEK_UTILITY_COMPANY,Company: 2x Scorpenek Utility Droid
+TEXT_TOOLTIP_SCORPENEK_UTILITY_HEALTH,Health: 90 (Light Vehicle)
+TEXT_TOOLTIP_SCORPENEK_UTILITY_MOVE,Speed: 1.25 | Turn: 3.0
+TEXT_TOOLTIP_SCORPENEK_UTILITY_WEAP1,1x AV Blaster Cannon: 2 / 2.0s / 320m
+TEXT_TOOLTIP_SCORPENEK_UTILITY_WEAP2,1x AI Blaster Cannon: 2 / 0.5s / 320m
+TEXT_TOOLTIP_SCORPENEK_UTILITY_WEAP3,1x AI Beam Cannon: 20 / 5.0s / 240m
+TEXT_TOOLTIP_SCORPENEK_WEAP1,2x AV Blaster Cannons: 2 / 2.0s / 320m
+TEXT_TOOLTIP_SCORPENEK_WEAP2,2x AI Blaster Cannons: 2 / 0.5s / 320m
+TEXT_TOOLTIP_ABILITY_AMMOSWAP_DESCRIPTION_SCORPENEK,Reconfigure the Scorpenek's weapons to an anti-infantry setting or back to the default anti-vehicle arrangement.
+
+TEXT_SPEECH_CONQUER_RENDILI_REP_FINISHED,
+
+TEXT_HERO_GANN,Cinzero Gann
+TEXT_TOOLTIP_GANN_CW,Cinzero Gann was a Human who served the Galactic Republic before continuing his career under the Galactic Empire. After Emperor Palpatine proclaimed the Empire in 19 BBY, Gann became Grand Moff of Sector 5 and commander of the Fifth Deep Core Army on Odik II.
+TEXT_TOOLTIP_A6_PROTOTYPE_INFANTRY_HEAL,
+
+TEXT_TOOLTIP_CAPABILITY_ORBITAL_SUPPORT_VADER,Orbital Support: Adds Vader to the reinforcement pool when in orbit.
+TEXT_RESEARCH_ARC_COMMANDER,
+TEXT_RESEARCH_ARC_COMMANDER_DESCRIPTION,

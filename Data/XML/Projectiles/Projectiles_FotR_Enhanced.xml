@@ -18,6 +18,52 @@
 		<Land_Model_Name>P_Blue_Plasma_Gun_Ground_Huge.alo</Land_Model_Name>
 	</Projectile>
 
+	<!-- Saber Throw -->
+
+	<Projectile Name="Proj_SaberThrow_Single_Green">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RI_SABER_SPIN_GREEN.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>RI_saber_spin.ALO</Land_Model_Anim_Override_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Max_Speed>8.0</Max_Speed>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>LIGHT_SABER</Projectile_Category>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Rocket_Straight_Distance>250</Projectile_Rocket_Straight_Distance>
+		<Projectile_Max_Flight_Distance>250.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>30.0</Projectile_Damage>
+		<Projectile_Stun_Radius>23</Projectile_Stun_Radius>
+		<Damage_Type> DamageL_Lightsaber </Damage_Type>
+		<Projectile_SFXEvent_Detonate>Unit_Light_Saber_Hit</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Light_Saber_Hit </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+	<Projectile Name="Proj_SaberThrow_Single_Blue">
+		<Variant_Of_Existing_Type>Proj_SaberThrow_Single_Green</Variant_Of_Existing_Type>
+		<Land_Model_Name>RI_SABER_SPIN_BLUE.ALO</Land_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_SaberThrow_Single_Red">
+		<Variant_Of_Existing_Type>Proj_SaberThrow_Single_Green</Variant_Of_Existing_Type>
+		<Land_Model_Name>RI_SABER_SPIN_RED1.ALO</Land_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_SaberThrow_Single_Purple">
+		<Variant_Of_Existing_Type>Proj_SaberThrow_Single_Green</Variant_Of_Existing_Type>
+		<Land_Model_Name>RI_SABER_SPIN_PURPLE.ALO</Land_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_SaberThrow_Single_Yellow">
+		<Variant_Of_Existing_Type>Proj_SaberThrow_Single_Green</Variant_Of_Existing_Type>
+		<Land_Model_Name>RI_SABER_SPIN_YELLOW.ALO</Land_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_SaberThrow_Single_Magenta">
+		<Variant_Of_Existing_Type>Proj_SaberThrow_Single_Green</Variant_Of_Existing_Type>
+		<Land_Model_Name>RI_SABER_SPIN_MAGENTA.ALO</Land_Model_Name>
+	</Projectile>
+
 
 	<!-- ************************************************************************************** -->
 	<!-- ********************                    Space                        ***************** -->
@@ -25,7 +71,7 @@
 
 	<Projectile Name="Space_Self_Destruct_Huge">
 		<Variant_Of_Existing_Type>Space_Self_Destruct_Medium</Variant_Of_Existing_Type>
-		<Projectile_Blast_Area_Range>150.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Range>1000.0</Projectile_Blast_Area_Range>
 		<Projectile_Blast_Area_Damage>1600.0</Projectile_Blast_Area_Damage>
 		<Projectile_Lifetime_Detonation_Particle>Huge_Explosion_Space</Projectile_Lifetime_Detonation_Particle>
 	</Projectile>

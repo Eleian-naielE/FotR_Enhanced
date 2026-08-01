@@ -19,16 +19,14 @@ function EventManager:new(galactic_conquest, human_player, planets)
 	self.RendiliConquer = GenericConquer(self.galactic_conquest,
         "CONQUER_RENDILI",
         "RENDILI", {"Rebel"},
-        {"Mellor_Yago_Rendili_Reign", 
-		"CIS_DHC", "CIS_DHC", "CIS_DHC", "CIS_DHC", "CIS_DHC", 
-		"CIS_DHC", "CIS_DHC", "CIS_DHC", "CIS_DHC", "CIS_DHC"}, 
+        {"Mellor_Yago_Rendili_Reign"}, 
 		false)
 	
-	--[[
+	-- FotR_Enhanced ; Rendili Recapture for Republic
 	self.RendiliConquerREP = GenericConquer(self.galactic_conquest,
         "CONQUER_RENDILI_REP",
-        "RENDILI", {"Empire"}, {}, false, nil, nil, nil, "DALLIN_UNLLOCK")
-	]]	
+        "RENDILI", {"Empire"}, {}, false, nil, nil, nil, {"DALLIN_UNLLOCK"})
+	
 	self.MonCalConquer = GenericConquer(self.galactic_conquest,
         "CONQUER_MON_CALAMARI",
         "MON_CALAMARI", {"Rebel"},

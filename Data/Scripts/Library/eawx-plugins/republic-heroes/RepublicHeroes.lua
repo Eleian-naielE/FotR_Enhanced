@@ -59,9 +59,11 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	crossplot:subscribe("VICTORY2_HEROES", self.Victory2_Heroes, self)
 
 	crossplot:subscribe("SENATE_CHOICE_MADE", self.Senate_Choice_Handler, self)
+	
 	-- FotR_Enhanced
-	--crossplot:subscribe("DALLIN_UNLLOCK", self.Dallin_Unlock, self)
+	crossplot:subscribe("DALLIN_UNLLOCK", self.Dallin_Unlock, self)
 	crossplot:subscribe("GEEN_UNLOCK", self.Geen_Unlock, self)
+	crossplot:subscribe("ARC_PROGRAM", self.ARC_Program, self)
 	-- FotR_Enhanced 
 	--Changes : 
 	--	Admiral : New Hero : Block(Venator), Yularen Resolute SPHAT, 
@@ -103,12 +105,13 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			["Gillehspy"] = {"GILLEHSPY_ASSIGN",{"GILLEHSPY_RETIRE"},{"GILLEHSPY_HOUND"}, "Gillehspy"},
 		},
 		available_list = {--Heroes currently available for purchase. Seeded with those who have no special prereqs
-			"Dallin",
+			--"Dallin",
 			"Maarisa",
 			"Grumby",
 		},
 		story_locked_list = {--Heroes not accessible, but able to return with the right conditions
 			["Tenant"] = true,
+			["Dallin"] = true,
 		},
 		active_player = Find_Player("Empire"),
 		extra_name = "EXTRA_ADMIRAL_SLOT",
@@ -195,10 +198,10 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	}
 
 	clone_data = {
-		total_slots = 3,			--Max slot number. Set at the start of the GC and never change
-		free_hero_slots = 3,		--Slots open to buy
+		total_slots = 2,			--Max slot number. Set at the start of the GC and never change
+		free_hero_slots = 2,		--Slots open to buy
 		vacant_hero_slots = 0,	    --Slots that need another action to move to free
-		vacant_limit = 16,           --Number of times a lost slot can be reopened
+		vacant_limit = 17,           --Number of times a lost slot can be reopened
 		initialized = false,
 		full_list = { --All options for reference operations
 			["Cody"] = {"CODY_ASSIGN",{"CODY_RETIRE","CODY_RETIRE2"},{"CODY","CODY2"},"Cody", ["Companies"] = {"CODY_TEAM","CODY2_TEAM"}},
@@ -218,19 +221,20 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 			["Jet"] = {"JET_ASSIGN",{"JET_RETIRE","JET_RETIRE2"},{"JET","JET2"},"Jet", ["Companies"] = {"JET_TEAM","JET2_TEAM"}},
 			["Gaffa"] = {"GAFFA_ASSIGN",{"GAFFA_RETIRE"},{"GAFFA_A5RX"},"Gaffa", ["Companies"] = {"GAFFA_TEAM"}},
 			-- FotR_Enhanced
-			--["Ponds"] = {"PONDS_ASSIGN",{"PONDS_RETIRE","PONDS_RETIRE2"},{"PONDS","PONDS2"},"Ponds", ["Companies"] = {"PONDS_TEAM","PONDS2_TEAM"}},
+			["Ponds"] = {"PONDS_EARLY_ASSIGN",{"PONDS_EARLY_RETIRE", "PONDS_RETIRE"},{"PONDS_EARLY","PONDS"},"Ponds", ["Companies"] = {"PONDS_EARLY_TEAM","PONDS_TEAM"}},
 		},
 		available_list = {--Heroes currently available for purchase. Seeded with those who have no special prereqs
-			"Cody",
-			"Rex",
-			"Appo",
-			"Bly",
-			"Wolffe",
-			"Gree_Clone",
-			"Neyo",
+			--"Cody",
+			--"Rex",
+			--"Appo",
+			--"Bly",
+			--"Wolffe",
+			--"Gree_Clone",
+			--"Neyo",
 			"71",
-			"Jet",
-			"Gaffa"
+			--"Jet",
+			--"Gaffa"
+			"Ponds",
 		},
 		story_locked_list = {--Heroes not accessible, but able to return with the right conditions
 			["Bacara"] = true,
@@ -347,8 +351,10 @@ function RepublicHeroes:new(gc, herokilled_finished_event, human_player, hero_cl
 	Forral_Checks = 0
 	Gillehspy_Checks = 0
 	JetBacara_swapped = 0
+	P2_Commanders_Checks = 0
 
 	Venator_init = false
+	ARC_Program_init = false
 end
 
 function RepublicHeroes:on_production_finished(planet, object_type_name)--object_type_name, owner)
@@ -509,12 +515,14 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 		Handle_Hero_Add("Tenant", admiral_data)
 		Handle_Hero_Add("Jesra", general_data)
 		Handle_Hero_Add("Ahsoka", council_data)
+		
+		self.ARC_Program()
 	end
 
 	if tech_level >= 4 then
 		Handle_Hero_Exit("Kilian", admiral_data)
 		Handle_Hero_Exit("Jet", clone_data)
-		--Handle_Hero_Exit("Ponds", clone_data)
+		Handle_Hero_Exit("Ponds", clone_data)
 		--Handle_Hero_Exit("Knol", council_data)
 
 		Handle_Hero_Add("Autem", admiral_data)
@@ -547,6 +555,7 @@ function RepublicHeroes:CommandStaff_Initialize(command_staffs)
 
 	if tech_level >= 5 then
 		Handle_Hero_Add("Trachta", moff_data)
+		Handle_Hero_Add("Dallin", admiral_data)
 
 		Handle_Hero_Exit("Ahsoka", council_data)
 		Handle_Hero_Exit("Halcyon", council_data)
@@ -793,14 +802,13 @@ function RepublicHeroes:on_galactic_hero_killed(hero_name, owner)
 			if hero_name == "SCREED_DEMOLISHER" then
 				return
 			end
-			admiral_data.full_list["Screed"].unit_id = 2  --SCREED_DEMOLISHER
+			admiral_data.full_list["Screed"].unit_id = 2 --SCREED_DEMOLISHER
 			Handle_Hero_Add("Screed", admiral_data)
 			if Find_Player("Empire").Is_Human() then
 				StoryUtil.Multimedia("TEXT_SPEECH_SCREED_RETURNS_DEMOLISHER", 15, nil, "Piett_Loop", 0)
 			end
 		end
 	end
-		
 
 	Handle_Hero_Killed(hero_name, owner, moff_data)
 
@@ -813,13 +821,13 @@ function RepublicHeroes:on_galactic_hero_killed(hero_name, owner)
 		jet_dead = true
 		if bacara_dead == false then
 			Handle_Hero_Add("Bacara", clone_data)
-			clone_data.active_player.Lock_Tech("Bacara2Jet")
+			clone_data.active_player.Lock_Tech(Find_Object_Type("Bacara2Jet"))
 		end
 	elseif clone_tag == "Bacara" then
 		bacara_dead = true
 		if jet_dead == false then	
 			Handle_Hero_Add("Jet", clone_data)
-			clone_data.active_player.Lock_Tech("Jet2Bacara")
+			clone_data.active_player.Lock_Tech(Find_Object_Type("Jet2Bacara"))
 		end
 	elseif clone_tag == "Appo" then
 		Bow_Check()
@@ -892,10 +900,6 @@ function RepublicHeroes:Phase_II()
 	set_unit_index("Neyo",2,clone_data)
 	set_unit_index("Bacara",2,clone_data)
 	set_unit_index("Jet",2,clone_data)
-	--set_unit_index("Ponds",2,clone_data)
-
-	Handle_Hero_Add("Keller", clone_data)
-	Handle_Hero_Add("Faie", clone_data)
 
 	set_unit_index("Fordo",2,commando_data)
 	set_unit_index("Alpha",2,commando_data)
@@ -921,7 +925,6 @@ function RepublicHeroes:Phase_II()
 	clone_data.full_list["Neyo"][1] = "NEYO_ASSIGN2"
 	clone_data.full_list["Bacara"][1] = "BACARA_ASSIGN2"
 	clone_data.full_list["Jet"][1] = "JET_ASSIGN2"
-	--clone_data.full_list["Ponds"][1] = "PONDS_ASSIGN2"
 
 	commando_data.full_list["Fordo"][1] = "FORDO_ASSIGN2"
 	commando_data.full_list["Alpha"][1] = "ALPHA_ASSIGN2"
@@ -1057,7 +1060,7 @@ function RepublicHeroes:Victory1_Heroes()
 	Set_Fighter_Hero("JAG_ARC170_127TH_SQUADRON", "DODONNA_ARDENT")
 	
 	admiral_data.total_slots = admiral_data.total_slots + 1
-		admiral_data.free_hero_slots = admiral_data.free_hero_slots + 1
+	admiral_data.free_hero_slots = admiral_data.free_hero_slots + 1
 
 	local entry_time = GetCurrentTime()
 
@@ -1217,6 +1220,38 @@ function RepublicHeroes:Remove_Fighter_Set(set, nolock)
 end
 
 -- FotR_Enhanced
+
+function RepublicHeroes:ARC_Program()
+	if not ARC_Program_init then
+		Handle_Hero_Add("Cody", clone_data)
+		Handle_Hero_Add("Rex", clone_data)
+		Handle_Hero_Add("Appo", clone_data)
+		Handle_Hero_Add("Bly", clone_data)
+		Handle_Hero_Add("Wolffe", clone_data)
+		Handle_Hero_Add("Gree_Clone", clone_data)
+		Handle_Hero_Add("Jet", clone_data)
+		Handle_Hero_Add("Gaffa", clone_data)
+
+		set_unit_index("Ponds", 2, clone_data)
+		clone_data.full_list["Ponds"][1] = "PONDS_ASSIGN"
+		P2_Commanders_Check()
+
+		clone_data.total_slots = clone_data.total_slots + 1
+		clone_data.free_hero_slots = clone_data.free_hero_slots + 1
+
+		GlobalValue.Set("CLONE_DEFAULT", 0)
+	end
+	ARC_Program_init = true
+end
+
+function P2_Commanders_Check()
+	P2_Commanders_Checks = P2_Commanders_Checks + 1
+	if P2_Commanders_Checks == 2 then
+		Handle_Hero_Add("Keller", clone_data)
+		Handle_Hero_Add("Faie", clone_data)
+		Handle_Hero_Add("Neyo", clone_data)
+	end
+end
 
 function RepublicHeroes:Geen_Unlock()
 	Handle_Hero_Add("Geen", general_data)
