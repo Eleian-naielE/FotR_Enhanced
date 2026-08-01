@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <UpgradeObjects>
 
-	<!-- CIS buildable units -->
+<!-- CIS buildable units -->
 
 	<UpgradeObject Name="IA_Pursuer_Enforcement_Ship_Group">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -1685,11 +1685,8 @@
 		<Lua_Script>Add_InstantActionUnit_CIS2</Lua_Script>
 	</UpgradeObject>
 
-<!-- *********************************************************************** -->
-<!-- *******************   EMPIRE UNIT SET FOR SURVIVAL MODE   ************* -->
-<!-- *********************************************************************** -->
 
-	<!-- Republic buildables -->
+<!-- Republic buildables -->
 
 	<UpgradeObject Name="IA_CR90">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -3527,13 +3524,8 @@
 		<CategoryMask>Wall</CategoryMask>
 		<Lua_Script>Add_InstantActionUnit_Republic2</Lua_Script>
 	</UpgradeObject>
-	
-	
-<!-- *********************************************************************** -->
-<!-- *******************   EMPIRE UNIT SET FOR SURVIVAL MODE   ************* -->
-<!-- *********************************************************************** -->
 
-	<!-- Influence, Hutts and IF Units -->
+<!-- Influence, Hutts and IF Units -->
 
 	<UpgradeObject Name="IA_Light_Minstrel_Yacht">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -4669,10 +4661,8 @@
 		<Lua_Script>Add_InstantActionUnit_CSA</Lua_Script>
 	</UpgradeObject>
 
-<!-- *********************************************************************** -->
-<!-- *******************   EMPIRE UNIT SET FOR SURVIVAL MODE   ************* -->
-<!-- *********************************************************************** -->
 
+<!-- Faction set dummy -->
 
 	<UpgradeObject Name="IA_Set_Empire">
 		<Behavior>DUMMY_UPGRADE</Behavior>

@@ -1,0 +1,201 @@
+<?xml version="1.0" ?>
+
+<Equations>
+
+	<Distance_To_Nearest_Friendly_Starbase>
+	Variable_Target.DistanceToNearestFriendly {	Parameter_Type = "Rebel_Star_Base_1",
+												Parameter_Type = "Rebel_Star_Base_2",
+												Parameter_Type = "Rebel_Star_Base_3",
+												Parameter_Type = "Rebel_Star_Base_4",
+												Parameter_Type = "Rebel_Star_Base_5",
+												Parameter_Type = "Empire_Star_Base_1",
+												Parameter_Type = "Empire_Star_Base_2",
+												Parameter_Type = "Empire_Star_Base_3",
+												Parameter_Type = "Empire_Star_Base_4",
+												Parameter_Type = "Empire_Star_Base_5",
+												Parameter_Type = "Hutt_Star_Base_1",
+												Parameter_Type = "Hutt_Star_Base_2",
+												Parameter_Type = "Hutt_Star_Base_3",
+												Parameter_Type = "Hutt_Star_Base_4",
+												Parameter_Type = "Hutt_Star_Base_5",
+												Parameter_Type = "Skirmish_NR_Star_Base_1",
+												Parameter_Type = "Skirmish_Remnant_Star_Base_1",
+												Parameter_Type = "Skirmish_Hutt_Star_Base_1",
+												Parameter_Type = "Skirmish_Remnant_Flagship_1",
+												Parameter_Type = "Skirmish_Remnant_Flagship_2",
+												Parameter_Type = "Skirmish_Remnant_Flagship_3",
+												Parameter_Type = "Skirmish_Remnant_Flagship_4",
+												Parameter_Type = "Skirmish_Remnant_Flagship_5",
+												Parameter_Type = "Skirmish_NR_Flagship_1",
+												Parameter_Type = "Skirmish_NR_Flagship_2",
+												Parameter_Type = "Skirmish_NR_Flagship_3",
+												Parameter_Type = "Skirmish_NR_Flagship_4",
+												Parameter_Type = "Skirmish_NR_Flagship_5",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_1",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_2",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_3",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_4",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_5"
+												}
+	</Distance_To_Nearest_Friendly_Starbase>
+
+	<Distance_To_Nearest_Enemy_Starbase>
+	Variable_Target.DistanceToNearestEnemy {	Parameter_Type = "Rebel_Star_Base_1",
+												Parameter_Type = "Rebel_Star_Base_2",
+												Parameter_Type = "Rebel_Star_Base_3",
+												Parameter_Type = "Rebel_Star_Base_4",
+												Parameter_Type = "Rebel_Star_Base_5",
+												Parameter_Type = "Empire_Star_Base_1",
+												Parameter_Type = "Empire_Star_Base_2",
+												Parameter_Type = "Empire_Star_Base_3",
+												Parameter_Type = "Empire_Star_Base_4",
+												Parameter_Type = "Empire_Star_Base_5",
+												Parameter_Type = "Hutt_Star_Base_1",
+												Parameter_Type = "Hutt_Star_Base_2",
+												Parameter_Type = "Hutt_Star_Base_3",
+												Parameter_Type = "Hutt_Star_Base_4",
+												Parameter_Type = "Hutt_Star_Base_5",
+												Parameter_Type = "Skirmish_NR_Star_Base_1",
+												Parameter_Type = "Skirmish_Remnant_Star_Base_1",
+												Parameter_Type = "Skirmish_Hutt_Star_Base_1",
+												Parameter_Type = "Skirmish_Remnant_Flagship_1",
+												Parameter_Type = "Skirmish_Remnant_Flagship_2",
+												Parameter_Type = "Skirmish_Remnant_Flagship_3",
+												Parameter_Type = "Skirmish_Remnant_Flagship_4",
+												Parameter_Type = "Skirmish_Remnant_Flagship_5",
+												Parameter_Type = "Skirmish_NR_Flagship_1",
+												Parameter_Type = "Skirmish_NR_Flagship_2",
+												Parameter_Type = "Skirmish_NR_Flagship_3",
+												Parameter_Type = "Skirmish_NR_Flagship_4",
+												Parameter_Type = "Skirmish_NR_Flagship_5",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_1",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_2",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_3",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_4",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_5"
+												}
+	</Distance_To_Nearest_Enemy_Starbase>
+
+	<Is_Starbase>
+			Variable_Target.Type.IsType {	Parameter_Type = "Rebel_Star_Base_1",
+												Parameter_Type = "Rebel_Star_Base_2",
+												Parameter_Type = "Rebel_Star_Base_3",
+												Parameter_Type = "Rebel_Star_Base_4",
+												Parameter_Type = "Rebel_Star_Base_5",
+												Parameter_Type = "Empire_Star_Base_1",
+												Parameter_Type = "Empire_Star_Base_2",
+												Parameter_Type = "Empire_Star_Base_3",
+												Parameter_Type = "Empire_Star_Base_4",
+												Parameter_Type = "Empire_Star_Base_5",
+												Parameter_Type = "Hutt_Star_Base_1",
+												Parameter_Type = "Hutt_Star_Base_2",
+												Parameter_Type = "Hutt_Star_Base_3",
+												Parameter_Type = "Hutt_Star_Base_4",
+												Parameter_Type = "Hutt_Star_Base_5",
+												Parameter_Type = "Skirmish_NR_Star_Base_1",
+												Parameter_Type = "Skirmish_Remnant_Star_Base_1",
+												Parameter_Type = "Skirmish_Hutt_Star_Base_1",
+												Parameter_Type = "Skirmish_Remnant_Flagship_1",
+												Parameter_Type = "Skirmish_Remnant_Flagship_2",
+												Parameter_Type = "Skirmish_Remnant_Flagship_3",
+												Parameter_Type = "Skirmish_Remnant_Flagship_4",
+												Parameter_Type = "Skirmish_Remnant_Flagship_5",
+												Parameter_Type = "Skirmish_NR_Flagship_1",
+												Parameter_Type = "Skirmish_NR_Flagship_2",
+												Parameter_Type = "Skirmish_NR_Flagship_3",
+												Parameter_Type = "Skirmish_NR_Flagship_4",
+												Parameter_Type = "Skirmish_NR_Flagship_5",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_1",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_2",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_3",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_4",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_5"
+												}
+	</Is_Starbase>
+
+	<EnemyForce_No_Shipyard>
+		(Variable_Self.EnemyForceUnnormalized {Parameter_Attenuator = 1.0} + Variable_Enemy.ReinforcementsUnnormalized)
+		-
+		(
+		1500 
+		*
+		Variable_Enemy.HasUnit {Parameter_Type = "CIS_Shipyard_Level_One",
+								Parameter_Type = "Republic_Shipyard_Level_One",
+								Parameter_Type = "Hutt_Shipyard_Level_One",
+								Parameter_Type = "SF_Shipyard_Level_One"}
+		+
+		2500
+		*
+		Variable_Enemy.HasUnit {Parameter_Type = "CIS_Shipyard_Level_Two",
+								Parameter_Type = "Republic_Shipyard_Level_Two",
+								Parameter_Type = "Hutt_Shipyard_Level_Two",
+								Parameter_Type = "SF_Shipyard_Level_Two",
+								Parameter_Type = "Sabaoth_HQ",
+								Parameter_Type = "Pirate_Base"}
+		+
+		6000
+		*
+		Variable_Enemy.HasUnit {Parameter_Type = "CIS_Shipyard_Level_Three",
+								Parameter_Type = "Republic_Shipyard_Level_Three",
+								Parameter_Type = "Hutt_Shipyard_Level_Three",
+								Parameter_Type = "SF_Shipyard_Level_Three"}
+		+
+		8500
+		*
+		Variable_Enemy.HasUnit {Parameter_Type = "CIS_Shipyard_Level_Four",
+								Parameter_Type = "Republic_Naval_Command_Centre",
+								Parameter_Type = "Republic_Shipyard_Level_Four",
+								Parameter_Type = "Hutt_Shipyard_Level_Four",
+								Parameter_Type = "SF_Shipyard_Level_Four"}
+		)
+	</EnemyForce_No_Shipyard>
+
+	<Is_Space_Structure_Indestructable> <!-- FotR_Enhanced ; Updated IA format ported from TR 3.5 -->
+		Variable_Target.Type.IsType { Parameter_Type = "N_Orbital_Construction_Pod"
+									,Parameter_Type = "N_Remote_Sensor_Pod"
+									,Parameter_Type = "Asteroid Huge" 
+									,Parameter_Type = "Asteroid Medium" 
+									,Parameter_Type = "Asteroid Large"
+									,Parameter_Type = "InstantAction_Marker_Empire"
+									,Parameter_Type = "InstantAction_Marker_Empire2"
+									,Parameter_Type = "InstantAction_Marker_Rebel"
+									,Parameter_Type = "InstantAction_Marker_Rebel2"
+									,Parameter_Type = "InstantAction_Marker_Extra"
+									,Parameter_Type = "InstantAction_Marker_Hutts"
+									,Parameter_Type = "InstantAction_Marker_Target"
+									}
+	</Is_Space_Structure_Indestructable>
+
+	<Has_Defense_Stations>
+		Variable_Self.HasUnit {
+			Parameter_Type = "Secondary_Haven",
+			Parameter_Type = "Secondary_TF_Outpost",
+			Parameter_Type = "Secondary_Golan_One",
+			Parameter_Type = "Secondary_Golan_Two"
+		}
+	</Has_Defense_Stations>
+
+	<Has_Interdictor>
+		Variable_Enemy.HasUnit {
+			Parameter_Type = "Interdiction_Minefield",
+			<!-- FotR -->
+			Parameter_Type = "Interdiction_Minefield_DH_Omni",
+			Parameter_Type = "Galleon",
+			Parameter_Type = "DH_Omni",
+			Parameter_Type = "Jarl_Pelta"
+			}
+	</Has_Interdictor>
+
+	<Allowed_To_Retreat_From_Space>
+		Game.IsCampaignGame
+		*
+		Variable_Self.CanRetreat
+		*
+		(1.0 - Variable_Self.IsFaction {Parameter_Faction = "Hostile",
+										Parameter_Faction = "Independent_Forces",
+										Parameter_Faction = "Mandalorians" <!-- FOTR/TR only; Rev Mandos are Underworld-->
+									   }
+		)
+	</Allowed_To_Retreat_From_Space>
+
+</Equations>

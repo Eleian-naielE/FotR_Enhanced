@@ -161,4 +161,7 @@ return {
 ["GROUNDWAR_HUTT_GW_AAP_DUMMY"] = true,
 ["GROUNDWAR_HUTT_GW_AAQ_DUMMY_1"] = true,
 ["GROUNDWAR_HUTT_GW_AAQ_DUMMY_2"] = true,
+
+-- FotR_Enhanced ; Ground IA
+["INSTANTACTION_MARKER_TARGET_GROUND"] = true,
 }
