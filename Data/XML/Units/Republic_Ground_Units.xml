@@ -1386,6 +1386,17 @@
 
 		<CategoryMask> Vehicle | AntiVehicle | Clone </CategoryMask>
 
+        <!-- FotR_Enhanced ; transport capacity-->
+		<LandBehavior>ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD, HUNT, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, GARRISON_VEHICLE, DAMAGE_TRACKING</LandBehavior>
+        
+        <Garrison_Category> Infantry, InfantryHero </Garrison_Category>
+		<Num_Garrison_Slots>1</Num_Garrison_Slots>
+		<Garrison_Bone_Names>ROOT</Garrison_Bone_Names>
+		<Garrison_Exit_Dist>50</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>50</Garrison_Enter_Dist>
+		<Garrison_Radius>50</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+
 		<SFXEvent_Select>Unit_Select_Clone_Operator</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Clone_Operator</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_UTAT</SFXEvent_Fleet_Move>
