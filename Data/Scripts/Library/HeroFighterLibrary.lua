@@ -214,7 +214,6 @@ function Get_Hero_Entries(upgrade_object)
 			Factions = {"Empire"},
 			Enabler = "REFORM_127TH",
 			DeathMessage = "127th Gunship Wing has taken crippling casualties and must be reformed.",
-
 		},
 		["BYTHEN_FORRAL_LOCATION_SET"] = {
 			Hero_Squadron = "BYTHEN_FORRAL_SQUADRON",
@@ -248,6 +247,7 @@ function Get_Hero_Entries(upgrade_object)
 			Enabler = "REFORM_HAWK2",
 			DeathMessage = "Lieutenant Hawk's squadron has taken crippling casualties and must be reformed.",
 		},
+        
 		["DUMMY_ANAKIN_DARKSIDE"] = {
 			NoInit = true, 
 			GroundReinforcementPerception = "Exactor_Anakin_Darkside_In_Orbit",
