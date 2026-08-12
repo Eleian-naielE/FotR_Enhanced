@@ -3385,6 +3385,13 @@
 		<Affiliation>Empire</Affiliation>
 		<Population_Value>16</Population_Value>
 
+        <HardPoints>
+		    Venator_Bay, Venator_Engines, HP_Venator_01, HP_Venator_02, 
+            HP_Venator_03, HP_Venator_04, HP_Venator_05, HP_Venator_06, HP_Venator_07, HP_Venator_08, 
+            HP_Venator_Turret_Hero_01, HP_Venator_Hero_Turret_02, HP_Venator_Hero_Turret_03, HP_Venator_Hero_Turret_04,
+            HP_Venator_Turret_01_Alt, HP_Venator_Turret_02_Alt, HP_Venator_Turret_03_Alt, HP_Venator_Turret_04_Alt
+        </HardPoints>
+
 		<Death_Clone>Damage_Normal, Hero_Venator_Death_Clone</Death_Clone>
 
 		<Starting_Spawned_Units_Tech_0>Clone_ARC_170_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -3404,6 +3411,19 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_VENATOR_TURRET_SWAP</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_VENATOR_TURRET_SWAP_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_SWAP_WEAPONS.TGA</Alternate_Icon_Name>
+				<Targeting_Max_Attack_Distance>375</Targeting_Max_Attack_Distance>
+				<Recharge_Seconds> 9.0 </Recharge_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Jedi_Cruiser</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 		
 		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
@@ -5197,7 +5217,7 @@
 		TEXT_TOOLTIP_VENATOR_WEAP5
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_FLEET_LEGIONS_OCA
-		TEXT_TOOLTIP_AUTEM_OVERRIDE
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_SUPPORT_AUTEM
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
@@ -5212,18 +5232,18 @@
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Tech_Level>99</Tech_Level>
 		<Affiliation>Empire</Affiliation>
-		<Population_Value>16</Population_Value>
+		<Population_Value>19</Population_Value>
 
-		<Starting_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 1 </Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1> ARC_170_OFC_Squadron, 1 </Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_1> Cloakshape_Squadron, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_1> 2_Warpod_Squadron, 1 </Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1> NTB_630_Squadron, 1 </Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_1> Scurrg_H6_Prototype_Squadron, 1 </Starting_Spawned_Units_Tech_1>
 		
 		<Spawned_Squadron_Delay_Seconds> 5 </Spawned_Squadron_Delay_Seconds>
 
-		<Reserve_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 5 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1> Cloakshape_Squadron, 4 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1> 2_Warpod_Squadron, 2 </Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1> ARC_170_OFC_Squadron, 4 </Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1> Cloakshape_Squadron, 3 </Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1> NTB_630_Squadron, 4 </Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1> Scurrg_H6_Prototype_Squadron, 3 </Reserve_Spawned_Units_Tech_1>
 
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
