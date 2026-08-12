@@ -1168,11 +1168,11 @@
 		<Starting_Forces> Sector_Forces, Kuat, E_Ground_Heavy_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Kuat, E_Ground_Advanced_Vehicle_Factory </Starting_Forces>
 
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, REP_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, REP_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
@@ -2529,11 +2529,11 @@
 		<Starting_Forces> Sector_Forces, Kuat, E_Ground_Heavy_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Kuat, E_Ground_Advanced_Vehicle_Factory </Starting_Forces>
 
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, REP_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, REP_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
@@ -3870,11 +3870,11 @@
 		<Starting_Forces> Sector_Forces, Corellia, Revolt_Precinct_House </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Corellia, CEC_HQ </Starting_Forces>
 
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, REP_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, REP_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
@@ -5212,11 +5212,11 @@
 		<Starting_Forces> Sector_Forces, Corellia, Revolt_Precinct_House </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Corellia, CEC_HQ </Starting_Forces>
 
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, REP_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, REP_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
@@ -6557,11 +6557,11 @@
 		<Starting_Forces> Sector_Forces, Corellia, Revolt_Precinct_House </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Corellia, CEC_HQ </Starting_Forces>
 
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, PDF_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, REP_DHC </Starting_Forces>
-		<Starting_Forces> Sector_Forces, Rendili, REP_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
+		<Starting_Forces> Sector_Forces, Rendili, Rendili_DHC </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Sector_Forces, Rendili, Customs_Corvette </Starting_Forces>

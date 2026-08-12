@@ -700,7 +700,7 @@ function State_CIS_DurgesLance_Conquest_Rendili(message)
 		ChangePlanetOwnerAndRetreat(FindPlanet("Rendili"), p_cis)
 
 		Sleep(2.0)
-		StoryUtil.SpawnAtSafePlanet("RENDILI", p_cis, StoryUtil.GetSafePlanetTable(), {"Mellor_Yago_Rendili_Reign"})
+		StoryUtil.SpawnAtSafePlanet("RENDILI", p_cis, StoryUtil.GetSafePlanetTable(), {"Mellor_Yago_Rendili_Reign" "Rendili_DHC", "Rendili_DHC", "Rendili_DHC", "Rendili_DHC", "Rendili_DHC"})
 
 		p_cis.Unlock_Tech(Find_Object_Type("CIS_DHC"))
 
@@ -1138,7 +1138,7 @@ function State_Rep_DurgesLance_Conquest_Rendili(message)
 		ChangePlanetOwnerAndRetreat(FindPlanet("Rendili"), p_republic)
 
 		Sleep(2.0)
-		StoryUtil.SpawnAtSafePlanet("RENDILI", p_republic, StoryUtil.GetSafePlanetTable(), {"Dallin_Kebir"})
+		StoryUtil.SpawnAtSafePlanet("RENDILI", p_republic, StoryUtil.GetSafePlanetTable(), {"Dallin_Kebir", "Rendili_DHC", "Rendili_DHC", "Rendili_DHC", "Rendili_DHC", "Rendili_DHC"})
 		p_republic.Unlock_Tech(Find_Object_Type("Rep_DHC"))
 
 		Story_Event("REP_RENDILI_END")
