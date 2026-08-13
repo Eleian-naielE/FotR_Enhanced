@@ -449,6 +449,7 @@
 			<Reduce_Production_Price_Ability Name="Cloning_Reduce_Production_Price">
 				<Applicable_Unit_Categories>Clone</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>Hutt_Guard_Company, Armored_Hutt_Company</Applicable_Unit_Types>
+				<Excluded_Unit_Categories>Vehicle</Excluded_Unit_Categories>
 				<Price_Reduction_Percentage>0.5</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>
@@ -456,6 +457,7 @@
 			<Reduce_Production_Time_Ability Name="Cloning_Production_Time_Penalty">
 				<Applicable_Unit_Categories>Clone</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>Hutt_Guard_Company, Armored_Hutt_Company</Applicable_Unit_Types>
+				<Excluded_Unit_Categories>Vehicle</Excluded_Unit_Categories>
 				<Time_Reduction_Percentage>-1.0</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>
