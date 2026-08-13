@@ -226,7 +226,7 @@
 	<Particle Name="HOLD_POSITION_VEHICLE_Ground_Ability_Particle">
 		<Land_Model_Name>p_lure_object_particle_effect_land.ALO</Land_Model_Name>
 		<Space_Model_Name>p_lure_object_particle_effect_land.ALO</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>2.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 
 		<Abilities SubObjectList="Yes">
@@ -234,13 +234,16 @@
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
-					Republic_AT_AP_Walker, UT_AT_Speeder, AT_OT_Walker, RX200_Falchion, Republic_AT_TE_Walker, AV7, AT_XT_Walker, Republic_ULAV, ULAV_Early,
+					Republic_AT_AP_Walker, UT_AT_Speeder, AT_OT_Walker, RX200_Falchion, Republic_AT_TE_Walker, AV7, AT_XT_Walker, UTAA, SPHA_T,
 					<!-- PDF Units -->
 					AAT, MZ8_Tank, Espo_Walker_91, AAT_PDF, Umbaran_Hover_Tank,
+					<!-- Captured variants -->
+					J1_Cannon_Captured, Super_Tank_Captured, CIS_Super_Tank_Captured, HAML_Captured, Scorpenek_Captured, Scorpenek_Sentry_Captured, Scorpenek_Utility_Captured,
+					Light_Rakatan_Annihilator_Captured, Heavy_Rakatan_Annihilator_Captured,
 					<!-- Heroes -->
 					Ozzel_AT_TE, Geen_UT_AT, Solomahal_RX200, 
 					<!-- Generic Commanders -->
-					Commander_Tier_III_Republic_ULAV, Commander_Tier_III_AT_XT_Walker, Commander_Tier_IV_AT_TE_Walker, Commander_Tier_IV_RX200_Falchion
+					Commander_Tier_III_AT_XT_Walker, Commander_Tier_IV_AT_TE_Walker, Commander_Tier_IV_RX200_Falchion
 				</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>    

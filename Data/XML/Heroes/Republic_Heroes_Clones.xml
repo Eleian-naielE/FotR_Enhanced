@@ -6855,7 +6855,7 @@
 				<Alternate_Icon_Name>i_sa_Cautiousness.tga</Alternate_Icon_Name> <!-- I_SA_BERSERKER? -->
 				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
 					 Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
-				<Effective_Radius>1000</Effective_Radius>
+				<Effective_Radius>5000</Effective_Radius>
 
 				<Target_Types />
 
@@ -7052,6 +7052,7 @@
 		
 		<Land_Model_Name>Clone_Commander_Ponds_P1.alo</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>TrainedHero.alo</Land_Model_Anim_Override_Name>
+		<No_Colorization_Color> 120, 70, 46, 255 </No_Colorization_Color>
 		
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
