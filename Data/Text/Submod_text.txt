@@ -159,8 +159,6 @@ TEXT_TOOLTIP_JAG_WINGMAN,CT-57/11-9048 was a clone pilot of the 127th Gunship Wi
 TEXT_TOOLTIP_JET_SWAP_BACARA,Replace Jet with Bacara
 TEXT_TOOLTIP_MAGNATRI_MISSILE,A late war variant of the infamous Magna Tri Droid, this variant replaces its heavy lasers for chain fed ordnance. It was powerful enough to blow the enemy vehicle with a single shot of its missile such as UT-AT.
 TEXT_TOOLTIP_MAGNATRI_MISSILE_COMPANY,Company: 2x Magna Octuptarra Droid (Ordance)
-TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP1,1x Super Heavy Concussion Missile: 1 / 6.0s / 560m
-TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP2,1x Light AI Blaster Cannon: 2 / 1.0s / 380m
 TEXT_TOOLTIP_MAGNATRI_WEAP1,1x Super Heavy AV Blaster Cannon: 3 / 2.0s / 400m
 TEXT_TOOLTIP_MAGNATRI_WEAP2,1x Heavy Proton Missiles: 2 / 8.33s / 480m
 TEXT_TOOLTIP_OMEGA_WEAP3_SUBMOD,1x Verpine Sniper Rifle: 2 / 3.0s / 320m
@@ -374,3 +372,6 @@ TEXT_TOOLTIP_CAPABILITY_ORBITAL_SUPPORT_AUTEM,
 
 TEXT_TOOLTIP_ABILITY_VENATOR_TURRET_SWAP,
 TEXT_TOOLTIP_ABILITY_VENATOR_TURRET_SWAP_DESCRIPTION,
+
+TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP1,1x Super Heavy Concussion Missile: 1 / 6.0s / 560m
+TEXT_TOOLTIP_MAGNATRI_MISSILE_WEAP2,1x Light AI Blaster Cannon: 2 / 1.0s / 380m
