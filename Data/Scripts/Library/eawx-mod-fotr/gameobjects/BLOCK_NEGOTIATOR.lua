@@ -3,7 +3,7 @@ return {
 		["INTERCEPTOR"] = {
 			DEFAULT = {Initial = 1, Reserve = 4}
 		},
-		["ARC_170_OFC_SQUADRON"] = {
+		["CLONE_ARC_170_OFC_SQUADRON"] = {
 			DEFAULT = {Initial = 1, Reserve = 3}
 		},
 		["BOMBER"] = {

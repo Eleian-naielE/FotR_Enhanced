@@ -12,7 +12,7 @@ return {
 		["DELTA7_SQUADRON_DOUBLE"] = {
 			DEFAULT = {Initial = 2, Reserve = 6, TechLevel = GreaterThan(2)}
 		},
-		["ARC_170_OFC_SQUADRON"] = {
+		["CLONE_ARC_170_OFC_SQUADRON"] = {
 			DEFAULT = {Initial = 1, Reserve = 2}
 		}
 	},

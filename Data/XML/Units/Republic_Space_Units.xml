@@ -4653,39 +4653,39 @@
 
 	<!-- FotR_Enhanced Fighters -->
 
-	<SpaceUnit Name="ARC_170_OFC">
+	<SpaceUnit Name="Clone_ARC_170_OFC">
 		<Variant_Of_Existing_Type>Clone_ARC_170</Variant_Of_Existing_Type>
 
 		<Space_Model_Name>ARC-170_starfighter_OFC.alo</Space_Model_Name>
 	</SpaceUnit>
 
-	<Squadron Name="ARC_170_OFC_Squadron">
+	<Squadron Name="Clone_ARC_170_OFC_Squadron">
 		<Variant_Of_Existing_Type>Clone_ARC_170_Squadron</Variant_Of_Existing_Type>
 
 		<Create_Team_Type>ARC_170_Squadron_Container</Create_Team_Type>
-		<Squadron_Units>ARC_170_OFC, ARC_170_OFC, ARC_170_OFC, ARC_170_OFC</Squadron_Units>
-		<Squadron_Units>ARC_170_OFC, ARC_170_OFC, ARC_170_OFC, ARC_170_OFC</Squadron_Units>
-		<Squadron_Units>ARC_170_OFC, ARC_170_OFC, ARC_170_OFC, ARC_170_OFC</Squadron_Units>
+		<Squadron_Units>Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC</Squadron_Units>
+		<Squadron_Units>Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC</Squadron_Units>
+		<Squadron_Units>Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC</Squadron_Units>
 	</Squadron>
 
-	<Squadron Name="ARC_170_OFC_Squadron_Double">
+	<Squadron Name="Clone_ARC_170_OFC_Squadron_Double">
 		<Variant_Of_Existing_Type>Clone_ARC_170_Squadron_Double</Variant_Of_Existing_Type>
 
 		<Create_Team_Type>ARC_170_Squadron_Double_Container</Create_Team_Type>
-		<Squadron_Units>ARC_170_OFC, ARC_170_OFC, ARC_170_OFC, ARC_170_OFC</Squadron_Units>
-		<Squadron_Units>ARC_170_OFC, ARC_170_OFC, ARC_170_OFC, ARC_170_OFC</Squadron_Units>
-		<Squadron_Units>ARC_170_OFC, ARC_170_OFC, ARC_170_OFC, ARC_170_OFC</Squadron_Units>
-		<Squadron_Units>ARC_170_OFC, ARC_170_OFC, ARC_170_OFC, ARC_170_OFC</Squadron_Units>
-		<Squadron_Units>ARC_170_OFC, ARC_170_OFC, ARC_170_OFC, ARC_170_OFC</Squadron_Units>
-		<Squadron_Units>ARC_170_OFC, ARC_170_OFC, ARC_170_OFC, ARC_170_OFC</Squadron_Units>
+		<Squadron_Units>Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC</Squadron_Units>
+		<Squadron_Units>Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC</Squadron_Units>
+		<Squadron_Units>Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC</Squadron_Units>
+		<Squadron_Units>Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC</Squadron_Units>
+		<Squadron_Units>Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC</Squadron_Units>
+		<Squadron_Units>Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC</Squadron_Units>
 	</Squadron>
 
-	<Squadron Name="ARC_170_OFC_Squadron_Half">
+	<Squadron Name="Clone_ARC_170_OFC_Squadron_Half">
 		<Variant_Of_Existing_Type>Clone_ARC_170_Squadron_Half</Variant_Of_Existing_Type>
 
 		<Create_Team_Type>ARC_170_Squadron_Half_Container</Create_Team_Type>
-		<Squadron_Units>ARC_170_OFC, ARC_170_OFC, ARC_170_OFC</Squadron_Units>
-		<Squadron_Units>ARC_170_OFC, ARC_170_OFC, ARC_170_OFC</Squadron_Units>
+		<Squadron_Units>Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC</Squadron_Units>
+		<Squadron_Units>Clone_ARC_170_OFC, Clone_ARC_170_OFC, Clone_ARC_170_OFC</Squadron_Units>
 	</Squadron>
 
 	<!-- Fighters -->

@@ -4142,7 +4142,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 	
-	<GroundVehicle Name="ARC170_Ground">
+	<GroundVehicle Name="Clone_ARC170_Ground">
 		<!-- Unit Infos -->
 		<Text_ID>TEXT_UNIT_ARC170</Text_ID>
 		<Encyclopedia_Text>
@@ -4381,7 +4381,7 @@
 	  
 	</GroundVehicle>
 
-	<GroundCompany Name="ARC170_Ground_Company">
+	<GroundCompany Name="Clone_ARC170_Ground_Company">
 		<Text_ID>TEXT_UNIT_ARC170_COMPANY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_AIRSPEEDER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -4439,7 +4439,7 @@
 		<Required_Planets/>
 		<Formation_Prority>1</Formation_Prority>
 
-		<Company_Units>ARC170_Ground, ARC170_Ground</Company_Units>
+		<Company_Units>Clone_ARC170_Ground, Clone_ARC170_Ground</Company_Units>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -4467,5 +4467,16 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
+
+    <GroundVehicle Name="Clone_ARC170_OFC_Ground">
+        <Variant_Of_Existing_Type>Clone_ARC170_Ground</Variant_Of_Existing_Type>
+        <Land_Model_Name>ARC-170_starfighter_OFC_Ground.ALO</Land_Model_Name>
+        <Land_Model_Anim_Override_Name>ARC-170_starfighter_Ground.ALO</Land_Model_Anim_Override_Name>
+    </GroundVehicle>
+
+    <GroundCompany Name="Clone_ARC170_OFC_Ground_Company">
+        <Variant_Of_Existing_Type>Clone_ARC170_Ground_Company</Variant_Of_Existing_Type>
+        <Company_Units>Clone_ARC170_OFC_Ground, Clone_ARC170_OFC_Ground</Company_Units>
+    </GroundCompany>
 
 </Republic_Ground_Companies>
