@@ -29,7 +29,7 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 			{"Providence_Destroyer"}
 			)
 
-		self.ARCProgram = GenericResearch(self.galactic_conquest, -- FotR_Enhanced ; repurpose this for arc training program
+		self.ARCProgram = GenericResearch(self.galactic_conquest, 
 			"ARC_TRAINING_PROGRAM",
 			"Dummy_Research_ARC_Commander",
 			{"Empire"},
@@ -37,7 +37,7 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 			nil,
 			nil,nil,
 			{"ARC_PROGRAM"}
-			)
+			) -- FotR_Enhanced
 
 		self.AcclamatorAssault = GenericResearch(self.galactic_conquest,
 			"ACCLAMATOR_ASSAULT",
@@ -45,6 +45,16 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 			{"Empire"},
 			{"Acclamator_I_Assault"}
 			) -- FotR_Enhanced
+
+        self.KnigthingCeremony = GenericResearch(self.galactic_conquest, -- FotR_Enhanced
+			"KNIGHTING_CEREMONY",
+			"Dummy_Research_Knighting_Ceremony",
+			{"Empire"},
+			{},
+			nil,
+			nil,nil,
+			{"ANAKIN_SWAP"}
+			)
 
 		self.VenatorResearch = GenericResearch(self.galactic_conquest,
 			"VENATOR_RESEARCH",
@@ -171,6 +181,10 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 			)
 	end
 
+    self.ARCProgramSwap = GenericSwap("ARC_PROGRAM", "EMPIRE", {"Ponds_Early"}, {"Ponds_Team"})
+    
+    self.AnakinSwap = GenericSwap("ANAKIN_SWAP", "EMPIRE", {"Anakin_Padawan", "Obi_Wan_Knight"}, {"Anakin_Delta_Team", "Obi_Wan_Delta_Team"})
+    
 	--This should probably be handled with the rest of PHASE_TWO_RESEARCH effects. (P2 as implemented in historicals would also need work to make that happen.) 
 	self.CloneSwap = GenericSwap("CLONE_UPGRADES", "EMPIRE", -- FotR_Enhanced 
 		{"Cody", "Rex", "Appo", "Commander_71", "Bacara", "Jet", "Gree_Clone", "Deviss", "Bly", "Wolffe", "Neyo", 
@@ -178,8 +192,6 @@ function TechHandler:new(galactic_conquest, human_player, planets, unlocktech)
 		{"Cody2_Team", "Rex2_Team", "Appo2_Team", "Commander_71_2_Team", "Bacara2_Team", "Jet2_Team", "Gree2_Team", "Deviss2_Team", "Bly2_Team", "Wolffe2_Team", "Neyo2_Team", 
 		"Alpha_17_2_Team", "Fordo2_Team", "Ordo_Skirata2_Team", "Aden_Skirata2_Team", "Kligson2_Team", "Rom_Mohc2_Team", "Prudii_Skirata2_Team"}
 		)
-
-	self.ARCProgramSwap = GenericSwap("ARC_PROGRAM", "EMPIRE", {"Ponds_Early"}, {"Ponds_Team"})
 
 	self.TempestResearch = GenericResearch(self.galactic_conquest,
 		"TEMPEST_RESEARCH",
