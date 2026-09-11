@@ -247,7 +247,12 @@ function Get_Hero_Entries(upgrade_object)
 			Enabler = "REFORM_HAWK2",
 			DeathMessage = "Lieutenant Hawk's squadron has taken crippling casualties and must be reformed.",
 		},
-        
+        ["CLONE_ARC170_OFC_GROUND"] = {
+            NoInit = true,
+            GroundReinforcementPerception = "Autem_In_Orbit",
+            GroundCompany = "CLONE_ARC_170_OFC_GROUND_COMPANY",
+            Factions = {"Empire"},
+        },
 		["DUMMY_ANAKIN_DARKSIDE"] = {
 			NoInit = true, 
 			GroundReinforcementPerception = "Exactor_Anakin_Darkside_In_Orbit",
