@@ -44,10 +44,10 @@ function State_Determine_Faction(message)
 			end
 		end
 
-		local plot = Get_Story_Plot("Conquests\\InstantAction\\Story_InstantAction_Ground_Galactic.xml")
+		local plot = Get_Story_Plot("Conquests\\InstantAction\\Story_InstantAction_Land_Galactic.xml")
 
 		local event = plot.Get_Event("Reload_InstantAction_Campaign")
-		event.Set_Reward_Parameter(0,"Campaign_InstantAction_Ground"..humanPlayerName)
+		event.Set_Reward_Parameter(0,"Campaign_InstantAction_Land"..humanPlayerName)
 		event.Set_Reward_Parameter(1,faction_index)
 	end
 end

@@ -174,14 +174,14 @@
 
 	<!-- FotR_Enhanced ; Ground Version -->
 
-	<Campaign Name="Campaign_InstantAction_Ground_Empire">
-		<Campaign_Set> Campaign_Set_InstantAction_Ground </Campaign_Set>
+	<Campaign Name="Campaign_InstantAction_Land_Empire">
+		<Campaign_Set> Campaign_Set_InstantAction_Land </Campaign_Set>
 		<Tutorial>false</Tutorial>
 		<Is_Listed>true</Is_Listed>
 		<Sort_Order>509</Sort_Order>
 
-		<Text_ID> TEXT_CAMPAIGN_HEADER_INSTANTACTION_GROUND </Text_ID>
-		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_INSTANTACTION_GROUND </Description_Text>
+		<Text_ID> TEXT_CAMPAIGN_HEADER_INSTANTACTION_LAND </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_INSTANTACTION_LAND </Description_Text>
 
 		<Camera_Shift_X> 40.0 </Camera_Shift_X>
 		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>

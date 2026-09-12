@@ -16,7 +16,7 @@
 		<Reward_Param4>_MOD_BATTLEMAP_GROUND.ted</Reward_Param4>
 		<Reward_Param5>Rebel</Reward_Param5>
 		<Reward_Param6></Reward_Param6>
-		<Reward_Param7>Conquests\InstantAction\Story_Plots_InstantAction_Ground_Tactical.xml</Reward_Param7>
+		<Reward_Param7>Conquests\InstantAction\Story_Plots_InstantAction_Land_Tactical.xml</Reward_Param7>
 		<Reward_Param8>0</Reward_Param8>
 		<Reward_Param9>0</Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
@@ -29,7 +29,7 @@
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0.1</Event_Param1>
 		<Reward_Type>LOAD_CAMPAIGN</Reward_Type>
-		<Reward_Param1></Reward_Param1> <!-- Set by State_Determine_Faction in Script_InstantAction_Galactic -->
+		<Reward_Param1></Reward_Param1> <!-- Set by State_Determine_Faction in Script_InstantAction_Land_Galactic -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>LINK_TACTICAL_InstantAction</Prereq>
 	</Event>

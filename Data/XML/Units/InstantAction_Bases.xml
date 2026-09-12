@@ -541,9 +541,9 @@
 		<Space_Model_Name>C-type_thrustship.alo</Space_Model_Name>
 	</DummyStructure>
 
-	<!-- FotR_Enhanced ; Ground -->
+	<!-- FotR_Enhanced ; Land -->
 
-	<UniqueUnit Name="InstantAction_Marker_Target_Ground">
+	<UniqueUnit Name="InstantAction_Land_Marker_Target">
 		<Variant_Of_Existing_Type>Cheat_Ground_Unit</Variant_Of_Existing_Type>
 		<Affiliation>Empire, Rebel, Hutt_Cartels</Affiliation>
 
