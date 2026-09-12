@@ -422,7 +422,7 @@
 		<Fire_SFXEvent>Unit_Umbaran_Fighter_Torpedo_Fire</Fire_SFXEvent>
 
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
-   </HardPoint>
+   	</HardPoint>
 
     <!-- Venator Turret Hero Alt Mode -->
 
@@ -1705,7 +1705,7 @@
 		<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Min_Range_Distance>15.0</Fire_Min_Range_Distance>
 		<Fire_Range_Distance>400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Tusken_Sniper_Fire</Fire_SFXEvent>
+		<Fire_SFXEvent/>
 
 
 		<Fire_Inaccuracy_Distance> Infantry, 1.0 </Fire_Inaccuracy_Distance>
