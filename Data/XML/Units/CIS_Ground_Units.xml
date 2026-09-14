@@ -4945,7 +4945,7 @@
 	</GroundVehicle>
 	
 <!-- FotR_Enhanced -->
-	<GroundVehicle Name="Magna_Tri_Missile">
+	<GroundVehicle Name="Magna_Octuptarra_Missile">
 		<Variant_Of_Existing_Type>Magna_Octuptarra</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_MAGNATRI_MISSILE</Text_ID>
 		<Encyclopedia_Text>
@@ -4961,19 +4961,19 @@
 		<Icon_Name>i_button_magnatri_missile.tga</Icon_Name>
 		<Land_Model_Name>Octuptarra_Magna_Tri_Droid_ROTS.alo</Land_Model_Name>
 
-		<!--<HardPoints>HP_MagnaTri_Missile_Laser, HP_MagnaTri_Missile_Missile</HardPoints>-->
+		<HardPoints>HP_MagnaTri_Missile_Laser</HardPoints>
 
 		<Target_Bones>Head, Body</Target_Bones>
 
 		<Projectile_Types>Proj_SuperHeavy_Concussion_Missile</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>4</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Pulse_Delay_Seconds>3</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>10</Projectile_Fire_Recharge_Seconds>
 
 		<AI_Combat_Power>200</AI_Combat_Power>
 	</GroundVehicle>
 
-	<GroundCompany Name="Magna_Missile_Company">
+	<GroundCompany Name="Magna_Octuptarra_Missile_Company">
 		<Variant_Of_Existing_Type>Magna_Octuptarra_Company</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_MAGNATRI_MISSILE_COMPANY</Text_ID>
 		<Encyclopedia_Text>
@@ -4988,7 +4988,7 @@
 			TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_magnatri_missile.tga</Icon_Name>
-		<Company_Units>Magna_Tri_Missile, Magna_Tri_Missile</Company_Units>
+		<Company_Units>Magna_Octuptarra_Missile, Magna_Octuptarra_Missile</Company_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 	</GroundCompany>

@@ -41,7 +41,7 @@ return {
                 "HMP_Company",
                 "Destroyer_Droid_I_Q_Company",
                 "Destroyer_Droid_II_Company",
-                "Magna_Missile_Company"
+                "Magna_Octuptarra_Missile_Company"
             })
 
             UnitUtil.SetLockList("BANKING_CLAN", {

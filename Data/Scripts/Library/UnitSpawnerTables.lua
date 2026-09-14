@@ -263,7 +263,7 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"PAC_Company", 1}
 				,{"MAF_Company", 1}
 				,{"HMP_Company", 1, StartYear = -19}
-				,{"Magna_Missile_Company", 1, StartYear = -19}
+				,{"Magna_Octuptarra_Missile_Company", 1, StartYear = -19}
 			},
 			Groundbase_Table = {
 				"R_Ground_Barracks",
