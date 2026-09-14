@@ -1144,7 +1144,9 @@ function RepublicHeroes:Senate_Choice_Handler(senate_option)
 		Handle_Hero_Exit("Dallin", admiral_data)
 		Handle_Hero_Exit("Aden", commando_data)
 		Handle_Hero_Exit("Ordo", commando_data)
-		Handle_Hero_Exit("Prudii", commando_data)
+		Handle_Hero_Exit("Prudii", commando_data) -- FotR_Enhanced ; prudii, solomahal
+		Handle_Hero_Exit("Solomahal", general_data) 
+		--Handle_Hero_Exit("Rotsu", general_data) future proof
 		Autem_Checks = -1
 
 		council_data.vacant_limit = -1

@@ -9148,7 +9148,7 @@
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Delta</Required_Orbiting_Units>
 	</DummyStructure>
 
-	<!-- FotR_Enhanced ; Ability, Speed, SWeapon(Dar, Fi) Rework-->
+	<!-- FotR_Enhanced ; Ability, Speed, Weapon(Dar, Fi) Rework-->
 	<HeroUnit Name="Niner">
 		<Variant_Of_Existing_Type>Hero_Commando_Shielded_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
