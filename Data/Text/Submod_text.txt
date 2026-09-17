@@ -39,7 +39,6 @@ TEXT_HERO_HAWK,Hawk
 TEXT_HERO_JAG,Jai'galaar "Jag" 
 TEXT_HERO_JAG_WINGMAN,CT-57/11-9048
 TEXT_HERO_OPPO_RANCISIS,Oppo Rancisis
-TEXT_HERO_PRUDII,Prudii Skirata
 TEXT_HERO_REFORM_127TH,Reform 127th Gunship Wing
 TEXT_HERO_REFORM_HAWK,Heal Hawk
 TEXT_HERO_REFORM_HAWK_SQUADRON,Reform Hawk's Squadron
@@ -168,10 +167,6 @@ TEXT_TOOLTIP_OMEGA_WEAP8,1x DC-17 Pistol: 1 / 1.0s / 75m
 TEXT_TOOLTIP_OPPO_HEALTH,Health: 230 [4%/5s] (Hero)
 TEXT_TOOLTIP_OPPO_MOVE,Speed: 1.1
 TEXT_TOOLTIP_OPPO_RANCISIS,A Thisspiasian Jedi Master trained by Master Yaddle, he became a key member of the Jedi High Council and a leader in military strategy during the Clone Wars. Rancisis played a critical role in coordinating Republic forces from Coruscant, advising on campaigns like the defense of Kamino and the Battle of Zaadja. Late in the war, he led the five-month siege of Saleucami to stop Sora Bulq’s Shadow Army but was ultimately killed by Bulq during a surprise attack.
-TEXT_TOOLTIP_PRDUII_WEAP1,1x DC-15A Blaster Rifle: 1 / 1.0s / 240m
-TEXT_TOOLTIP_PRUDII,Given his name by his trainer, Kal Skirata, Null-5 was an Advanced Recon Commando who specialized in droid factory sabotage. After spending a year collecting informations on droid metallurgic structures by interrogating separatist metallurgists, he began to manipulate metal recipe for droid instead of destroying the factory. This act significantly increased battle performance for the clones in the battle.
-TEXT_TOOLTIP_PRUDII_P1_HEALTH,Health: 160 (Hero)
-TEXT_TOOLTIP_PRUDII_P2_HEALTH,Health: 170 (Hero)
 TEXT_TOOLTIP_RECUSANT_HERO_HULL,Hull: 2560 (Frigate)
 TEXT_TOOLTIP_RECUSANT_HERO_SHIELD,Shields: 2950 / [42/R] (Frigate)
 TEXT_TOOLTIP_RECUSANT_SQUADRON_HERO,Bombers: 0.5 / 2 [Requires research]
