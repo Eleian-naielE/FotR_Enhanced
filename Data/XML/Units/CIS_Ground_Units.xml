@@ -4968,7 +4968,7 @@
 		<Projectile_Types>Proj_SuperHeavy_Concussion_Missile</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>3</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>10</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>6</Projectile_Fire_Recharge_Seconds>
 
 		<AI_Combat_Power>200</AI_Combat_Power>
 	</GroundVehicle>
@@ -5033,7 +5033,7 @@
 		<Armor_Type> ArmourG_HeavyVehicle </Armor_Type>
 		<Size_Value>70</Size_Value>
 		<Damage>6</Damage>
-		<Tactical_Health>250</Tactical_Health>
+		<Tactical_Health>350</Tactical_Health>
 		<Energy_Capacity>9999</Energy_Capacity>
 		<Energy_Refresh_Rate>9999</Energy_Refresh_Rate>
         <Mouse_Collide_Override_Sphere_Radius>35</Mouse_Collide_Override_Sphere_Radius>
@@ -5136,7 +5136,7 @@
 		<Custom_Hard_YExtent> 40.0 </Custom_Hard_YExtent>
         <Ranking_In_Category>7</Ranking_In_Category>
 
-		<Weather_Category>Flying</Weather_Category>
+		<Weather_Category>Hover</Weather_Category>
         <Converted_To_Enemy_Die_Time_Seconds>45</Converted_To_Enemy_Die_Time_Seconds>
 		<Score_Cost_Credits>100</Score_Cost_Credits>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
@@ -5316,7 +5316,7 @@
 		<AI_Combat_Power>55</AI_Combat_Power>
 
 		<Affiliation>
-			Empire, Rebel, Underworld, Hutt_Cartels, Trade_Federation, Techno_Union, Banking_Clan, Commerce_Guild,
+			Rebel, Trade_Federation, Techno_Union, Banking_Clan, Commerce_Guild,
 		</Affiliation>
 
 		<Type>Walk</Type>
@@ -5332,7 +5332,7 @@
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
 		<Tactical_Bribe_Cost>50</Tactical_Bribe_Cost>
-		<Score_Cost_Credits>37.5</Score_Cost_Credits>
+		<Score_Cost_Credits>37</Score_Cost_Credits>
 		
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>ABILITY_COUNTDOWN, LANDING, AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,SHIELDED,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
@@ -5441,7 +5441,6 @@
 		<Locomotor_Has_Animation_Priority>yes</Locomotor_Has_Animation_Priority>
 		<Attack_Animation_Is_Overlay>yes</Attack_Animation_Is_Overlay>
 		<Deploys>No</Deploys>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		
 		<Vehicle_Thief_Inside_Clone>Scorpenek_Captured</Vehicle_Thief_Inside_Clone>
 		
@@ -5592,7 +5591,6 @@
 		<Land_Model_Anim_Override_Name>Scorpenek_annihilator_droid.ALO</Land_Model_Anim_Override_Name>
 		
 		<Max_Speed>1.5</Max_Speed>
-		<Max_Thrust>1.0</Max_Thrust>
 		<OverrideAcceleration>1.5</OverrideAcceleration>
 		<OverrideDeceleration>1.5</OverrideDeceleration>
 		

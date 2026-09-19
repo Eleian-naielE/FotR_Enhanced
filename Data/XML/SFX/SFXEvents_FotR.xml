@@ -19209,4 +19209,44 @@
 			Data\Audio\SFX\Umbaran_Hovertank\Umbaran_Hovertank_Engine_Loop.wav
 		</Samples>
 	</SFXEvent>
+
+	<!--***********************************************************-->
+    <!--****************Scorpenek Annihilator Droid****************-->
+    <!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Select_Scorpenek">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>Destroyer_Droid_Select_1.wav</Samples>
+		<Min_Pitch>75</Min_Pitch>
+		<Max_Pitch>75</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Move_Scorpenek">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>Destroyer_Droid_Move_1.wav</Samples>
+		<Min_Pitch>75</Min_Pitch>
+		<Max_Pitch>75</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Fleet_Move_Scorpenek">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>Destroyer_Droid_Move_1.wav</Samples>
+		<Min_Pitch>75</Min_Pitch>
+		<Max_Pitch>75</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Select_Scorpenek_Alt">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>Buzz_Droids_1.wav Buzz_Droids_2.wav Buzz_Droids_3.wav Buzz_Droids_4.wav Buzz_Droids_5.wav</Samples>
+		<Min_Pitch>80</Min_Pitch>
+		<Max_Pitch>80</Max_Pitch>
+		<Play_Sequentially>Yes</Play_Sequentially>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Scorpenek_AV_Fire"> <!-- Pitch-shifted Droideka for Colicoid Connection -->
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>GUN_Destroyer_Droid_1.wav GUN_Destroyer_Droid_2.wav</Samples>
+		<Min_Pitch>75</Min_Pitch>
+		<Max_Pitch>75</Max_Pitch>
+	</SFXEvent>
 </SFXEvents>
