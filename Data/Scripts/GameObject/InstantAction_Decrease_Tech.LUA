@@ -25,7 +25,12 @@ function State_Init(message)
                 ModContentLoader = require("eawx-std/ModContentLoader")
             end
             local CONSTANTS = ModContentLoader.get("GameConstants")
-            
+            local next_tech
+            for _, faction in pairs(CONSTANTS.ALL_FACTIONS_NOT_NEUTRAL) do
+                local current_level = faction.Get_Tech_Level()
+                local level = current_level + 1
+                faction.Set_Tech_Level(level)
+            end
 			Story_Event("AI_NOTIF_IA_TECH_" .. tostring(display_tech))
 		end
 		ScriptExit()
