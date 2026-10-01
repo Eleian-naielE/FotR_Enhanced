@@ -14,7 +14,7 @@ return {
 		},
 		{
 			{"Lucrehulk_Auxiliary", 1},
-			{"Sabaoth_Destroyer", 2},
+			{"Lucrehulk_Auxiliary_Control", 1}, 
 		}
 	},
 	TECHNO_UNION = {
