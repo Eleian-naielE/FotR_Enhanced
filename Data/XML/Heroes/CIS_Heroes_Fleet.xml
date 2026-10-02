@@ -3330,5 +3330,19 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</UnigueUnit>
-
+	
+	<!-- Holdout upgrade -->
+	
+	<UniqueUnit Name="Toora_Defiances_Banner">
+		<Variant_Of_Existing_Type></Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_TOONBUCK_TOORA</Text_ID>
+		<Encyclopedia_Text>
+		
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+		<Icon_Name></Icon_Name>
+		
+		
+	</UniqueUnit>
 </CIS_Heroes>

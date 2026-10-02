@@ -3056,7 +3056,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</HeroCompany>
 
-    <HeroUnit Name="San_Hill"> <!-- needs actual implementation -->
+    <HeroUnit Name="San_Hill"> 
 		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_SAN_HILL</Text_ID>
@@ -3131,6 +3131,49 @@
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Respawn_Mothma</SFXEvent_Build_Complete>
 	</HeroCompany>
+
+	<HeroUnit Name="Toonbuck_Toora">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_TOONBUCK_TOORA</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+			TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SENATOR
+			TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+			TEXT_TOOLTIP_TOONBUCK_TOORA
+			TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+			TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+			TEXT_TOOLTIP_TOONBUCK_TOORA_UPGRADE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_toonbuck_toora.TGA</Icon_Name>
+
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		<Affiliation>Rebel</Affiliation>
+
+		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Senator -->
+			<Reduce_Production_Price_Ability Name="Admin_Tier_Senator_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<Reduce_Production_Time_Ability Name="Admin_Tier_Senator_Reduce_Production_Time">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			<Planet_Income_Bonus_Ability Name="Admin_Tier_Senator_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_SENATOR</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.15</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+	</HeroUnit>
+
 
 <!-- For Reference
 	<HeroUnit Name="Poggle">

@@ -7,9 +7,7 @@ return {
 		},
 		{
 			{"Defoliator_Company", 2},
-			{"Sabaoth_Frigate", 5},
 			{"Sabaoth_Frigate_Spy", 5},
-			{"Sabaoth_Hex_Deployer", 4},
 			{"Seismic_Tank_Company", 1},
 		},
 		{
@@ -105,7 +103,7 @@ return {
 		},
 		{
 			{"Space_ARC_Cruiser", 2},
-			{"Lucrehulk_Auxiliary_Control", 1},
+			{"Lucrehulk_Bulk_Cruiser", 1},
 			{"Elite_Mercenary_Company", 3},
 			{"A5_Juggernaut_Company", 2},
 		}
