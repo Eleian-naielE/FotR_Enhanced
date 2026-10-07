@@ -2935,7 +2935,7 @@
 
 		<Icon_Name>i_button_dassyne.tga</Icon_Name>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Independent_Forces</Affiliation>
 		<CategoryMask> VehicleHero | AntiInfantry | AntiStructure </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 		<LandBehavior>
@@ -3146,7 +3146,7 @@
 			TEXT_TOOLTIP_TOONBUCK_TOORA_UPGRADE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_toonbuck_toora.TGA</Icon_Name>
+		<Icon_Name>i_button_toonbuck_toora_admin.TGA</Icon_Name>
 
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<Affiliation>Independent_Forces</Affiliation>

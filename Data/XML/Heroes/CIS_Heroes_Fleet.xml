@@ -3334,15 +3334,41 @@
 	<!-- Holdout upgrade -->
 	
 	<UniqueUnit Name="Toora_Defiances_Banner">
-		<Variant_Of_Existing_Type></Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Lucrehulk_Carrier_Control</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_TOONBUCK_TOORA</Text_ID>
 		<Encyclopedia_Text>
-		
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+        TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_SPACE
+        TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_01_SPEC
+        TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+        TEXT_TOOLTIP_TOONBUCK_TOORA
+        TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+        TEXT_TOOLTIP_LUCREHULK_HULL
+		TEXT_TOOLTIP_LUCREHULKCONTROL_SHIELD
+		TEXT_TOOLTIP_LUCREHULK_MOVE
+		TEXT_TOOLTIP_LUCREHULK_SQUADRON
+		TEXT_TOOLTIP_LUCREHULK_WEAP1
+		TEXT_TOOLTIP_LUCREHULK_WEAP2
+		TEXT_TOOLTIP_LUCREHULK_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_LUCREHULK_DCS_TENDER
+		TEXT_TOOLTIP_LUCREHULK_DCS_SUPPORT
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
-		<Icon_Name></Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SENATOR</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_toonbuck_toora.tga</Icon_Name>
 		
-		
+		<Tech_Level>99</Tech_Level>
+
+        <!-- Change VO to a female one -->
+        <Affiliation>Independent_Forces</Affiliation>
+
+        <CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+        
 	</UniqueUnit>
 </CIS_Heroes>
