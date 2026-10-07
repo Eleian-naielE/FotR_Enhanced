@@ -26,9 +26,7 @@ return {
 	Era_2 = {
 		{
 			{"CEC_Light_Cruiser", 5},
-			--{"Clone_Special_Ops_Company", 5},
 			{"Clone_Flame_Trooper_Company", 5},
-			--{"Clone_Galactic_Marine_Company", 5},
 			{"Special_Tactics_Trooper_Company", 5},
 			{"Republic_Navy_Trooper_Company", 5},
 			{"Republic_Trooper_Company", 5},
@@ -45,7 +43,6 @@ return {
 		},
 		{
 			{"RX200_Falchion_Company", 2},
-			--{"Republic_A6_Juggernaut_Company", 1},
 			{"Republic_A6_Prototype_Company", 1}, -- FotR_Enhanced
 			{"Starbolt", 4},
 		}
@@ -54,9 +51,7 @@ return {
 		{
 			{"Customs_Corvette", 5},
 			{"CEC_Light_Cruiser", 5},
-			--{"Clone_Special_Ops_Company", 5},
 			{"Clone_Flame_Trooper_Company", 5},
-			--{"Clone_Galactic_Marine_Company", 5},
 			{"Special_Tactics_Trooper_Company", 5},
 			{"Republic_Navy_Trooper_Company", 5},
 			{"Republic_Trooper_Company", 5},
@@ -64,7 +59,7 @@ return {
 		{
 			{"Charger_C70", 5},
 			{"DHC_Carrier", 2},
-			{"Antarian_Ranger_Company", 5, nil, ["DisablingEvent"] = "ORDER_66"},
+			{"Antarian_Ranger_Company", 5, nil, DisablingEvent = "ORDER_66"},
 			{"Senate_Commando_Company", 5},
 			{"Clone_Jumptrooper_Phase_One_Company", 3},
 			{"Republic_A5RX_Company", 2},
@@ -72,7 +67,6 @@ return {
 		},
 		{
 			{"RX200_Falchion_Company", 2},
-			--{"Republic_A6_Juggernaut_Company", 1},
 			{"Republic_A6_Prototype_Company", 1}, -- FotR_Enhanced
 			{"Starbolt", 4},
 		}
@@ -81,9 +75,6 @@ return {
 		{
 			{"Customs_Corvette", 5},
 			{"CEC_Light_Cruiser", 5},
-			--{"Clone_Scout_Trooper_Company", 5},
-			--{"Clone_Airborne_Trooper_Company", 5},
-			--{"Clone_Galactic_Marine_Company", 5},
 			{"Clone_Flame_Trooper_Company", 5},			
 			{"Special_Tactics_Trooper_Company", 5},
 			{"Republic_Navy_Trooper_Company", 5},
@@ -91,7 +82,7 @@ return {
 		},
 		{
 			{"Charger_C70", 5},
-			{"Antarian_Ranger_Company", 5, nil, ["DisablingEvent"] = "ORDER_66"},
+			{"Antarian_Ranger_Company", 5, nil, DisablingEvent = "ORDER_66"},
 			{"Senate_Commando_Company", 5},
 			{"Clone_Jumptrooper_Phase_Two_Company", 3},
 			{"Clone_Blaze_Trooper_Company", 5},			
@@ -109,9 +100,6 @@ return {
 		{
 			{"Customs_Corvette", 5},
 			{"CEC_Light_Cruiser", 5},
-			--{"Clone_Scout_Trooper_Company", 5},
-			--{"Clone_Airborne_Trooper_Company", 5},
-			--{"Clone_Galactic_Marine_Company", 5},
 			{"Clone_Flame_Trooper_Company", 5},			
 			{"Special_Tactics_Trooper_Company", 5},
 			{"Republic_Navy_Trooper_Company", 5},
@@ -119,7 +107,7 @@ return {
 		},
 		{
 			{"Charger_C70", 5},
-			{"Antarian_Ranger_Company", 5, nil, ["DisablingEvent"] = "ORDER_66"},
+			{"Antarian_Ranger_Company", 5, nil, DisablingEvent = "ORDER_66"},
 			{"Senate_Commando_Company", 5},
 			{"Clone_Jumptrooper_Phase_Two_Company", 3},
 			{"Clone_Blaze_Trooper_Company", 5},			

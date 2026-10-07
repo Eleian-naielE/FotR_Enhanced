@@ -2917,7 +2917,6 @@
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND
 		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_FORTIFICATION
 		TEXT_TOOLTIP_TRAIT_UTILITY_SALVAGER
-		TEXT_TOOLTIP_TRAIT_COMMAND_ARROGANT
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_DASSYNE
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -2953,14 +2952,14 @@
 
 		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 + Arrogant + Fortification_Specialist -->
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 + Fortification_Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
@@ -3007,7 +3006,6 @@
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND
 		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_FORTIFICATION
 		TEXT_TOOLTIP_TRAIT_UTILITY_SALVAGER
-		TEXT_TOOLTIP_TRAIT_COMMAND_ARROGANT
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_DASSYNE
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -3150,6 +3148,8 @@
 
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<Affiliation>Independent_Forces</Affiliation>
+		
+		<!-- Female VO -->
 
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Senator -->
 			<Reduce_Production_Price_Ability Name="Admin_Tier_Senator_Reduce_Production_Price">
@@ -3177,13 +3177,13 @@
 		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_TOONBUCK_TOORA</Text_ID>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SENATOR
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_TOONBUCK_TOORA
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
-        TEXT_TOOLTIP_TOONBUCK_TOORA_UPGRADE
+			TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+			TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SENATOR
+			TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+			TEXT_TOOLTIP_TOONBUCK_TOORA
+			TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+			TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+			TEXT_TOOLTIP_TOONBUCK_TOORA_UPGRADE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MAGISTRATE </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_PASSEL_ARGENTE_ADMIN.TGA</Icon_Name>
@@ -3192,6 +3192,8 @@
 		<Company_Units>Toonbuck_Toora</Company_Units>
 		
 		<Affiliation>Rebel</Affiliation>
+		
+		<!-- Female VO -->
 		
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>

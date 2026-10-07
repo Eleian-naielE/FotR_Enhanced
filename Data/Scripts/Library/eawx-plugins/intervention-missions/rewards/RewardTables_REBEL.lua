@@ -9,6 +9,7 @@ return {
 			{"Defoliator_Company", 2},
 			{"Sabaoth_Frigate_Spy", 5},
 			{"Seismic_Tank_Company", 1},
+			{"Lucrehulk_Core_Destroyer", 1},
 		},
 		{
 			{"Lucrehulk_Auxiliary", 1},
@@ -25,9 +26,9 @@ return {
 			{"Super_Tank_Company", 2},
 		},
 		{
+			--{"Geonosian_Dreadnought", 2},
 			{"Storm_Fleet_Destroyer", 2},
-			{"Recusant_Dreadnought", 1},
-		}		
+		}
 	},
 	COMMERCE_GUILD = {
 		{
@@ -42,7 +43,9 @@ return {
 		},
 		{
 			{"Providence_Dreadnought", 1},
-			{"Providence_Carrier", 2},			
+			{"Providence_Carrier", 2},
+			{"Recusant_Dreadnought", 1},
+			--{"Fantail_Destroyer", 1},
 		},
 	},
 	IGBC = {
@@ -55,7 +58,6 @@ return {
 			{"Munificent_Subfaction", 3},
 			{"Munificent_Tender", 3},
 			{"Munificent_C3", 3},
-			{"Lucrehulk_Core_Destroyer", 1},
 		},
 		{
 			{"Munificent_Heavy_Cruiser", 2},
