@@ -3340,7 +3340,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
         TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_SPACE
-        TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_01_SPEC
+        TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02
         TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
         TEXT_TOOLTIP_TOONBUCK_TOORA
         TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -3369,6 +3369,24 @@
         <CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 
-        
+        <Abilities SubObjectList="Yes"> <!-- Command_Tier_08 + Agent_Tier_01-->
+			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.24</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.24</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.24</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_08_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.24</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
 	</UniqueUnit>
 </CIS_Heroes>
