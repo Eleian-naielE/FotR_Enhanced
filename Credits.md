@@ -3,5 +3,10 @@ Models
 - Umbaran Frigate(aka CIS Frigate), Seismic Tank : Warbnull
 - padme_CW  : Toshi, Jeff, StingRay, Liberty Ashford, Mars Marshall(NeoMarz), z3r0x, Modding_noob
 - 91st corp legion skin : Creepgamer
+- Various Saberthrow models & Animations : Creepgamer3040
+- Commander Ponds model kitbash : Destruction1214
+
+Text
+- Cinzero Gann description tooltip : Kotori4444
 
 * Feel free to use any assets other than listed above as long as you give proper credit - Eleian
