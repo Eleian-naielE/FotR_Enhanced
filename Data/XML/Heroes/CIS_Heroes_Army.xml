@@ -3185,8 +3185,8 @@
 			TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
 			TEXT_TOOLTIP_TOONBUCK_TOORA_UPGRADE
 		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MAGISTRATE </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_PASSEL_ARGENTE_ADMIN.TGA</Icon_Name>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SENATOR </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_toonbuck_toora_admin.TGA</Icon_Name>
 		
 		<Company_Transport_Unit>CIS_Sheathipede_Landing_Craft_Admin</Company_Transport_Unit>
 		<Company_Units>Toonbuck_Toora</Company_Units>

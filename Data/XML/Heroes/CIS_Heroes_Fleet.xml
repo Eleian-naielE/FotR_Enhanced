@@ -3343,6 +3343,8 @@
         TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02
         TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
         TEXT_TOOLTIP_TOONBUCK_TOORA
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_TOORA
         TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
         TEXT_TOOLTIP_LUCREHULK_HULL
 		TEXT_TOOLTIP_LUCREHULKCONTROL_SHIELD
@@ -3369,7 +3371,7 @@
         <CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 
-        <Abilities SubObjectList="Yes"> <!-- Command_Tier_08 + Agent_Tier_01-->
+        <Abilities SubObjectList="Yes"> <!-- Command_Tier_08 + Agent_Tier_02-->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -3380,6 +3382,7 @@
 				<Movement_Speed_Bonus_Percentage>0.24</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
+			
 			<Battlefield_Modifier_Ability Name="Command_Tier_08_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -3387,6 +3390,14 @@
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
+			
+			<Reduce_Production_Price_Ability Name="Agent_Tier_Agent_02_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
+				<Stacking_Category>51</Stacking_Category>
+			</Reduce_Production_Price_Ability>
 		</Abilities>
 	</UniqueUnit>
 </CIS_Heroes>
