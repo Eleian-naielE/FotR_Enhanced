@@ -2925,6 +2925,15 @@
 		</Abilities>
 
 	</SpaceUnit>
+	
+	<SpaceUnit Name="Geonosian_Dreadnought">
+		<Text_ID>TEXT_UNIT_GEONOSIAN_DREADNOUGHT</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 80</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		</Encyclopedia_Text>
+		<Icon_Name></Icon_Name>
+		
+	</SpaceUnit>
 
 
 	<!-- Capitals/Tier 3 -->
