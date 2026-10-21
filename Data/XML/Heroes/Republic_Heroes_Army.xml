@@ -2679,9 +2679,19 @@
 		<Required_Orbiting_Units>CR25_Landing_Craft_Solomahal</Required_Orbiting_Units>
 	</DummyStructure>
 
+	<!-- FotR_Enhanced -->
+
+	<HeroUnit Name="Nick_Rostu">
+		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_ROSTU</Text_ID>
+		<Encyclopedia_Text>
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MAJOR </Encyclopedia_Unit_Class>
+	</HeroUnit>
+
 	<!-- Order 66 --> 
 	
-	<!-- FotR_Enhanced -->
 	<UniqueUnit Name="Rohn_AT_TE">
 		<Variant_Of_Existing_Type>Republic_AT_TE_Walker</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
