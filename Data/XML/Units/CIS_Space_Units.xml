@@ -2926,13 +2926,27 @@
 
 	</SpaceUnit>
 	
+	<!-- FotR_Enhanced -->
 	<SpaceUnit Name="Geonosian_Dreadnought">
 		<Text_ID>TEXT_UNIT_GEONOSIAN_DREADNOUGHT</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 80</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GEONOSIAN_DREADNOUGHT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GEONOSIAN_DREADNOUGHT_HULL
+		TEXT_TOOLTIP_GEONOSIAN_DREADNOUGHT_SHIELD
+		TEXT_TOOLTIP_GEONOSIAN_DREADNOUGHT_MOVE
+		TEXT_TOOLTIP_GEONOSIAN_DREADNOUGHT_WEAP1
+		TEXT_TOOLTIP_GEONOSIAN_DREADNOUGHT_WEAP2
+		TEXT_TOOLTIP_GEONOSIAN_DREADNOUGHT_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
-		<Icon_Name></Icon_Name>
+		<Icon_Name>i_button_geonosian_dreadnought.tga</Icon_Name>
 		
+		<Space_Model_Name>CIS_GeonosianCruiser.alo</Space_Model_Name>
+		
+		<Scale_Factor>6</Scale_Factor>
 	</SpaceUnit>
 
 
