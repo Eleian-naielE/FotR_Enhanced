@@ -1311,7 +1311,8 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
-
+	
+	<!-- FotR_Enhanced ; LV and CC increased size to match new IH size-->
 	<UniqueUnit Name="Colicoid_Swarm"> <!-- Carrier/Destroyer Version -->
 		<Variant_Of_Existing_Type>Template_Providence_Carrier_Destroyer</Variant_Of_Existing_Type>
 		<Show_Hero_Head>No</Show_Hero_Head>
@@ -1338,6 +1339,9 @@
 		<Icon_Name>i_button_colicoid_swarm.TGA</Icon_Name>
 		
 		<Space_Model_Name>Providence_Colicoid_Swarm.ALO</Space_Model_Name>
+		
+		<Scale_Factor>0.7</Scale_Factor>
+		<Select_Box_Scale>1800</Select_Box_Scale>
 
 		<Tech_Level>99</Tech_Level>
 		<Affiliation>Rebel</Affiliation>
@@ -1442,6 +1446,9 @@
 		<Icon_Name>i_button_lucid_voice.TGA</Icon_Name>
 		
 		<Space_Model_Name>Providence_Lucid_Voice.ALO</Space_Model_Name>
+		
+		<Scale_Factor>0.7</Scale_Factor>
+		<Select_Box_Scale>1800</Select_Box_Scale>
 
 		<Tech_Level>99</Tech_Level>
 		<Affiliation>Rebel</Affiliation>
