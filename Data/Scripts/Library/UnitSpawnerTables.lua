@@ -871,14 +871,14 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"Victory_I_Star_Destroyer", 1, StartYear = -20}
 				,{"Munifex", 1}
 				,{"Lupus_Missile_Frigate", 1}
-				,{"Captor", 1}
 				,{"Auxilia", 1}
-				,{"C9979_Carrier_Subfaction", 1}
+				,{"Captor", 2}
+				,{"C9979_Carrier_Subfaction", 2}
 			},
 			Land_Unit_Table = {
-				{"Clonetrooper_Phase_One_Company", 1, StartYear = -22}
-				,{"Clonetrooper_Phase_Two_Company", 1, StartYear = -20}
-				,{"Clone_Galactic_Marine_Company", 1, StartYear = -22}
+				{"Clonetrooper_Phase_One_Company", 1, StartYear = -21} -- FotR_Enhanced
+				,{"Clonetrooper_Phase_Two_Company", 1, StartYear = -20} -- FotR_Enhanced
+				,{"Clone_Galactic_Marine_Company", 1, StartYear = -20} -- FotR_Enhanced ; mathced with Phase 2 research
 				,{"Republic_Trooper_Company", 2}
 				,{"Republic_Heavy_Trooper_Company", 2}
 				,{"Republic_Navy_Trooper_Company", 2}
@@ -891,6 +891,7 @@ function DefineUnitTable(faction, rosterOverride)
 				,{"Republic_A5_Juggernaut_Company", 1, StartYear = -22}
 				,{"UT_AT_Speeder_Company", 1, StartYear = -22}
 				,{"Republic_AT_TE_Walker_Company", 1, StartYear = -22}
+				,{"B1_Droid_Company", 1} -- FotR_Enhanced 
 			},
 			Government_Building = "CEC_HQ",
 		},
