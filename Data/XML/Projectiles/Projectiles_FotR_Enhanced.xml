@@ -5,6 +5,11 @@
 	<!-- ********************                    Ground                        **************** -->
 	<!-- ************************************************************************************** -->
 
+	<Projectile Name="Proj_Sniper_Invisible"> <!-- Check if it requires models to have damage -->
+		<Variant_Of_Existing_Type>Proj_Sniper_AI_Blaster_Red</Variant_Of_Existing_Type>
+		<!-- <Land_Model_Name/> -->
+	</Projectile>
+
 	<Projectile Name="Proj_SuperHeavy_Concussion_Missile">
 		<Variant_Of_Existing_Type>Proj_Heavy_Concussion_Missile</Variant_Of_Existing_Type>
 		<Damage_Type>DamageL_ProtonWarhead</Damage_Type>

@@ -155,6 +155,11 @@
 				Voca, Gregor,
 				Ordo_Skirata, Ordo_Skirata2,
 				Aden_Skirata, Aden_Skirata2,
+				<!-- FotR_Enhanced -->
+				Obi_Wan_Knight, Anakin_Padawan,
+				Oppo_Rancisis,
+				Ponds_Early, Ponds,
+				Prudii_Skirata, Prudii_Skirata2,
 			Celebrate,
 				<!--MTT_Death_Clone,-->
 				<!--CIS_MTT_Death_Clone,-->
@@ -2731,6 +2736,11 @@
 				Voca, Gregor,
 				Ordo_Skirata, Ordo_Skirata2,
 				Aden_Skirata, Aden_Skirata2,
+				<!-- FotR_Enhanced -->
+				Obi_Wan_Knight, Anakin_Padawan,
+				Oppo_Rancisis,
+				Ponds_Early, Ponds,
+				Prudii_Skirata, Prudii_Skirata2,
 			Celebrate,
 				<!--MTT_Death_Clone,-->
 				<!--CIS_MTT_Death_Clone,-->
@@ -2949,9 +2959,6 @@
 		<No_Colorization_Color> 228, 45, 49, 255 </No_Colorization_Color>
 
 		<LandBehavior> SELECTABLE, ABILITY_COUNTDOWN, LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DEMOLITION</LandBehavior>
-		<HardPoints>HP_ARC_Carbine_Skilled, HP_ARC_Grenade, HP_ARC_Wrist_Flamer</HardPoints>
-
-		<Highlight_Blob_Material_Name>Highlight_Infantry_LT</Highlight_Blob_Material_Name>
 	</GroundInfantry>
 
 	<GroundInfantry Name="ARC_Phase_One_Company_Dummy">
@@ -4176,6 +4183,11 @@
 				Voca, Gregor,
 				Ordo_Skirata, Ordo_Skirata2,
 				Aden_Skirata, Aden_Skirata2,
+				<!-- FotR_Enhanced -->
+				Obi_Wan_Knight, Anakin_Padawan,
+				Oppo_Rancisis,
+				Ponds_Early, Ponds,
+				Prudii_Skirata, Prudii_Skirata2,
 			Celebrate,
 				<!--MTT_Death_Clone,-->
 				<!--CIS_MTT_Death_Clone,-->
@@ -5409,6 +5421,11 @@
 				Voca, Gregor,
 				Ordo_Skirata, Ordo_Skirata2,
 				Aden_Skirata, Aden_Skirata2,
+				<!-- FotR_Enhanced -->
+				Obi_Wan_Knight, Anakin_Padawan,
+				Oppo_Rancisis,
+				Ponds_Early, Ponds,
+				Prudii_Skirata, Prudii_Skirata2,
 			Celebrate,
 				<!--MTT_Death_Clone,-->
 				<!--CIS_MTT_Death_Clone,-->
@@ -6237,6 +6254,11 @@
 				Voca, Gregor,
 				Ordo_Skirata, Ordo_Skirata2,
 				Aden_Skirata, Aden_Skirata2,
+				<!-- FotR_Enhanced -->
+				Obi_Wan_Knight, Anakin_Padawan,
+				Oppo_Rancisis,
+				Ponds_Early, Ponds,
+				Prudii_Skirata, Prudii_Skirata2,
 			Celebrate,
 				<!--MTT_Death_Clone,-->
 				<!--CIS_MTT_Death_Clone,-->
@@ -7096,6 +7118,11 @@
 				Voca, Gregor,
 				Ordo_Skirata, Ordo_Skirata2,
 				Aden_Skirata, Aden_Skirata2,
+				<!-- FotR_Enhanced -->
+				Obi_Wan_Knight, Anakin_Padawan,
+				Oppo_Rancisis,
+				Ponds_Early, Ponds,
+				Prudii_Skirata, Prudii_Skirata2,
 			Celebrate,
 				<!--MTT_Death_Clone,-->
 				<!--CIS_MTT_Death_Clone,-->
@@ -7696,6 +7723,11 @@
 				Voca, Gregor,
 				Ordo_Skirata, Ordo_Skirata2,
 				Aden_Skirata, Aden_Skirata2,
+				<!-- FotR_Enhanced -->
+				Obi_Wan_Knight, Anakin_Padawan,
+				Oppo_Rancisis,
+				Ponds_Early, Ponds,
+				Prudii_Skirata, Prudii_Skirata2,
 			Celebrate,
 				<!--MTT_Death_Clone,-->
 				<!--CIS_MTT_Death_Clone,-->
@@ -8182,6 +8214,11 @@
 				Voca, Gregor,
 				Ordo_Skirata, Ordo_Skirata2,
 				Aden_Skirata, Aden_Skirata2,
+				<!-- FotR_Enhanced -->
+				Obi_Wan_Knight, Anakin_Padawan,
+				Oppo_Rancisis,
+				Ponds_Early, Ponds,
+				Prudii_Skirata, Prudii_Skirata2,
 			Celebrate,
 				<!--MTT_Death_Clone,-->
 				<!--CIS_MTT_Death_Clone,-->
@@ -8480,17 +8517,6 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-
-		<Land_Model_Name>Clone_Scout_Trooper.alo</Land_Model_Name>
-		<Land_Terrain_Model_Mapping>
-			Temperate, 			Clone_Scout_Trooper.alo,
-			Urban, 				Clone_Scout_Trooper.alo,
-			Arctic, 			Clone_Scout_Trooper_Snow.alo,
-			Volcanic, 			Clone_Scout_Trooper_Desert.alo,
-			Desert, 			Clone_Scout_Trooper_Desert.alo,
-			Forest, 			Clone_Scout_Trooper_Forest.alo,
-			Swamp, 				Clone_Scout_Trooper_Forest.alo
-		</Land_Terrain_Model_Mapping>
 		
 		<AI_Combat_Power>5</AI_Combat_Power>
 
@@ -9059,6 +9085,11 @@
 				Voca, Gregor,
 				Ordo_Skirata, Ordo_Skirata2,
 				Aden_Skirata, Aden_Skirata2,
+				<!-- FotR_Enhanced -->
+				Obi_Wan_Knight, Anakin_Padawan,
+				Oppo_Rancisis,
+				Ponds_Early, Ponds,
+				Prudii_Skirata, Prudii_Skirata2,
 			Celebrate,
 				<!--MTT_Death_Clone,-->
 				<!--CIS_MTT_Death_Clone,-->
@@ -11678,7 +11709,7 @@
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
-    <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+    	<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
 
 		<CategoryMask> Organic | Clone | InfantryHero | AntiInfantry </CategoryMask>
 
@@ -12254,4 +12285,329 @@
 		</Encyclopedia_Text>
 	</GroudnCompany>
 
+	<!-- Clone Shadow Trooper -->
+	
+	<GroundInfantry Name="Clone_Shadow_Trooper">
+		<Text_ID>TEXT_UNIT_CLONE_SHADOW_TROOPER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER_HEALTH
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER_MOVE
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER_WEAP1
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ELITE_COMMANDO</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_clone_shadow.tga</Icon_Name>
+		<Land_Model_Name>shadow_clone_trooper.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
+		<Hardpoints>HP_Clone_Carbine_Stealth</Hardpoints>
+
+		<Scale_Factor>1.1</Scale_Factor>
+		<Select_Box_Scale>12</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>10</Size_Value>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 0.7 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed>1.0</Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .40 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.1</Max_Speed>
+		<OverrideAcceleration> 1.1 </OverrideAcceleration>
+		<OverrideDeceleration> 1.1 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Infantry </Armor_Type>
+		<Tactical_Health>40</Tactical_Health>
+		<Surface_Type_Cover_Damage_Shield>.25</Surface_Type_Cover_Damage_Shield>
+
+		<Damage>8</Damage>
+		<AI_Combat_Power>10</AI_Combat_Power>
+		<Affiliation/>
+		<Political_Control>0</Political_Control>
+
+		<Type>Walk</Type>
+		<CategoryMask> Organic | Infantry | AntiInfantry | AntiVehicle | Clone  </CategoryMask>
+		<Property_Flags>DoKite</Property_Flags>
+		<Weather_Category>Infantry</Weather_Category>
+		<Deploys>No</Deploys>
+		<Stealth_Capable>Yes</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Create_Team>Yes</Create_Team>
+
+		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
+
+		<HardPoints>HP_Clone_Rifle_Skilled_ARC, HP_ARC_RPS, HP_ARC_Wrist_Rocket</HardPoints>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>Proj_Light_Concussion_Grenade_Infantry</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Target_Bones>Target_00</Target_Bones>
+		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.25f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>1.0</Death_Persistence_Duration>
+
+		<!-- Normal red blood for human-ish -->
+		<Death_Explosions>Organic_Infantry_Blood, Organic_Infantry_Blood_Alt, Tiny_Dud</Death_Explosions>
+		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Explosion</Death_Clone>
+
+		<Death_Clone>Damage_Force_Lightning, Infantry_Electric_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Infantry_Electric_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Disruptor, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Flamer, Infantry_Fire_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_ProtonWarhead, Infantry_Fire_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Plasma, Infantry_Plasma_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Fire, Infantry_Fire_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Fire, Infantry_Fire_Death_Clone_01</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_00</Death_Clone>
+		<Death_Clone>DamageL_Ion, Infantry_Electric_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
+		
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Arc_Trooper </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select>Unit_Select_Arc_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Arc_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Arc_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Arc_Trooper</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Arc_Trooper</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Arc_Trooper </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Arc_Trooper </SFXEvent_Assist_Attack>
+		
+		<Death_SFXEvent_Start_Die>Unit_Arc_Trooper_Death</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Presence_Induced_Animations>
+			Attention, 
+				Emperor_Palpatine, Vader,
+				Obi_Wan, Obi_Wan2,
+				Yoda, Yoda2,
+				Mace_Windu, Mace_Windu2,
+				Plo_Koon,
+				Kit_Fisto, Kit_Fisto2,
+				Aayla_Secura, Aayla_Secura2,
+				Ki_Adi_Mundi, Ki_Adi_Mundi2,
+				Barriss_Offee, Barriss_Offee2,
+				Shaak_Ti, Shaak_Ti2,
+				Rahm_Kota, Nejaa_Halcyon, Knol_Vennari,
+				Anakin, Anakin2, Anakin3, Anakin_Darkside,
+				Ahsoka, Ahsoka2, Ahsoka3,
+				Cody, Cody2,
+				Rex, Rex2,
+				Commander_71, Commander_71_2,
+				Keller, Faie,
+				Bacara, Bacara2,
+				Jet, Jet2,
+				Gree_Clone, Gree2,
+				Deviss, Deviss2,
+				Bly, Bly2,
+				Wolffe, Wolffe2,
+				Neyo, Neyo2,
+				Bow, Vill,
+				Alpha_17, Cody2,
+				Cody, Alpha_17_2,
+				Fordo, Fordo2,
+				Boss, Fixer, Sev, Scorch,
+				Niner, Darman, Atin, Fi,
+				Voca, Gregor,
+				Ordo_Skirata, Ordo_Skirata2,
+				Aden_Skirata, Aden_Skirata2,
+				<!-- FotR_Enhanced -->
+				Obi_Wan_Knight, Anakin_Padawan,
+				Oppo_Rancisis,
+				Ponds_Early, Ponds,
+				Prudii_Skirata, Prudii_Skirata2,
+				<!-- FotR_Enhanced -->
+				Obi_Wan_Knight, Anakin_Padawan,
+				Oppo_Rancisis,
+				Ponds_Early, Ponds,
+				Prudii_Skirata, Prudii_Skirata2,
+				
+			Celebrate,
+				<!--MTT_Death_Clone,-->
+				<!--CIS_MTT_Death_Clone,-->
+				<!--Protodeka_Death_Clone,-->
+				HAG_Death_Clone, HAG_Deployed_Death_Clone,
+				Template_Planetary_Shield_Death_Clone,
+				RB_CommandCenter_Death_Clone,
+				CIS_Local_Government_Death_Clone,
+		</Presence_Induced_Animations>
+
+		<MovementClass> Infantry </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<CanCellStack>yes</CanCellStack>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationSpacing> .5 </FormationSpacing>
+		<FormationOrder> 1 </FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Sensor_Range>20</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>false</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Influences_Capture_Point>True</Influences_Capture_Point>
+
+		<Unit_Abilities_Data SubObjectList="Yes">			
+			<Unit_Ability>
+				<Type>STEALTH</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_CLOAKING</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_CLOAKING_DESCRIPTION</Alternate_Description_Text>
+				<Recharge_Seconds>10.0</Recharge_Seconds>
+				<Expiration_Seconds>35.0</Expiration_Seconds>
+				<GUI_Activated_Ability_Name>Stealth_Clone_Shadow</GUI_Activated_Ability_Name> 
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>SENSOR_JAMMING</Type>
+				<GUI_Activated_Ability_Name> Clone_Shadow_Sensor_Jamming </GUI_Activated_Ability_Name>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SENSOR_JAMMING_DESCRIPTION_INFANTRY</Alternate_Description_Text>
+				<Recharge_Seconds>70.0</Recharge_Seconds> 
+				<Expiration_Seconds>10.0</Expiration_Seconds>
+				<Effective_Radius>100.0</Effective_Radius> 
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/> 
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Stealth_Ability Name="Stealth_Clone_Shadow">
+				<Activation_Style> User_Input </Activation_Style>
+				<Stealth_Color>255, 255, 255, 255</Stealth_Color>
+				<Stealth_Transition_Time>.6</Stealth_Transition_Time>
+			</Stealth_Ability>
+
+			<Sensor_Jamming_Ability Name="Clone_Shadow_Sensor_Jamming">
+				<Activation_Style> User_Input </Activation_Style>
+				<Owner_Particle_Effect>Sensor_Jamming_Effect_Infantry</Owner_Particle_Effect>
+			</Sensor_Jamming_Ability>
+		</Abilities>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Clone_Shadow_Trooper_Sniper">
+		<Variant_Of_Existing_Type>Clone_Shadow_Trooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONE_SHADOW_TROOPER_SNIPER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER_HEALTH
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER_MOVE
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER_WEAP3
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_clone_shadow_sniper.tga</Icon_Name>
+
+		<Hardpoints>HP_Clone_Carbine_Stealth_Sniper</Hardpoints>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Clone_Shadow_Trooper_Officer">
+		<Variant_Of_Existing_Type>Clone_Shadow_Trooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONE_SHADOW_TROOPER_OFFICER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER_HEALTH
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER_MOVE
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER_WEAP4
+		TEXT_TOOLTIP_CLONE_SHADOW_TROOOPER_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_LT</Highlight_Blob_Material_Name>
+
+		<Unit_Abilities_Data SubObjectList="Yes">			
+			<Unit_Ability>
+				<Type>STEALTH</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_CLOAKING</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_CLOAKING_DESCRIPTION</Alternate_Description_Text>
+				<Recharge_Seconds>10.0</Recharge_Seconds>
+				<Expiration_Seconds>35.0</Expiration_Seconds>
+				<GUI_Activated_Ability_Name>Stealth_Clone_Shadow</GUI_Activated_Ability_Name> 
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>AREA_EFFECT_STUN</Type>
+				<Recharge_Seconds>40.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> 
+				<Spawned_Object_Type> Proj_Special_Han_Solo_Stun_Blast </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Stealth_Ability Name="Stealth_Clone_Shadow">
+				<Activation_Style> User_Input </Activation_Style>
+				<Stealth_Color>255, 255, 255, 255</Stealth_Color>
+				<Stealth_Transition_Time>.6</Stealth_Transition_Time>
+			</Stealth_Ability>
+		</Abilities>
+	</GroundInfantry>
 </Republic_Clones>
