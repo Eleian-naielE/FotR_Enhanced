@@ -40,6 +40,7 @@ return {
 				{"EMPIRE", "KDY_MARKET", "MAELSTROM_BATTLECRUISER", "[ This design has been retired ]"},
 			}
 		},
+		-- FotR_Enhanced
 		["PHASE_TWO_RESEARCH"] = {
 			lock_lists = {
 				{"EMPIRE", "CLONE_MARKET", "ARC_PHASE_TWO_COMPANY", false},
@@ -123,6 +124,7 @@ return {
 				{"EMPIRE", "CLONE_MARKET", "CLONE_VEHICULAR_ASSAULT_COMPANY", nil, nil, true},
 				{"EMPIRE", "CLONE_MARKET", "CLONE_SPECIAL_OPS_COMPANY", nil, nil, true},
 				{"EMPIRE", "CLONE_MARKET", "ARC_PHASE_ONE_COMPANY", nil, nil, true},
+				{"EMPIRE", "CLONE_MARKET", "CLONE_COMMANDO_REWORK_COMPANY", true},	
 			},
 		},
 		["DURGES_LANCE"] = {
