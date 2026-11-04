@@ -5,6 +5,8 @@ Models
 - 91st corp legion skin : Creepgamer3040
 - Various Saberthrow models & Animations : Creepgamer3040
 - Commander Ponds model kitbash : Destruction1214
+- Umbaran Militia Infantry : Sony Online Entertainment (Modified by Clonetrooper163, StarGhostss )
+- CSS Combat Refit : Spy Lake Walker
 
 Text
 - Cinzero Gann description tooltip : Kotori4444
