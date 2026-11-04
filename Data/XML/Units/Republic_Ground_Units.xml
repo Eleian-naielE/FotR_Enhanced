@@ -1490,7 +1490,7 @@
 		<SFXEvent_Attack>Unit_Attack_Clone_Operator</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Operator</SFXEvent_Guard>
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Clone_Operator</SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Atack>Unit_Assist_Attack_Clone_Operator</SFXEvent_Assist_Atack>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Clone_Operator</SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Clone_Operator </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Clone_Operator </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Operator</Death_SFXEvent_Start_Die>
@@ -1755,7 +1755,6 @@
 		<Targeting_Fire_Inaccuracy> AirSpeeder, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
 		
-		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Clone>Damage_Normal, AV7_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Normal_Deployed, AV7_Deployed_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
@@ -1870,7 +1869,7 @@
 		<SFXEvent_Attack>Unit_Attack_Clone_Operator</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Operator</SFXEvent_Guard>
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Clone_Operator</SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Atack>Unit_Assist_Attack_Clone_Operator</SFXEvent_Assist_Atack>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Clone_Operator</SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Clone_Operator </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Clone_Operator </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Operator</Death_SFXEvent_Start_Die>
@@ -2546,7 +2545,7 @@
 		<SFXEvent_Attack>Unit_Attack_Clone_Operator</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Operator</SFXEvent_Guard>
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Clone_Operator</SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Atack>Unit_Assist_Attack_Clone_Operator</SFXEvent_Assist_Atack>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Clone_Operator</SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Clone_Operator </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Clone_Operator </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Operator</Death_SFXEvent_Start_Die>
@@ -2829,7 +2828,7 @@
 		<SFXEvent_Attack>Unit_Attack_Clone_Operator</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Clone_Operator</SFXEvent_Guard>
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Clone_Operator</SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Atack>Unit_Assist_Attack_Clone_Operator</SFXEvent_Assist_Atack>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Clone_Operator</SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Clone_Operator </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Clone_Operator </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Operator</Death_SFXEvent_Start_Die>
@@ -2903,7 +2902,7 @@
 		<Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
 		<Walk_Transition>no</Walk_Transition>
 		<Has_Pre_Turn_Anim>yes</Has_Pre_Turn_Anim>
-		<Close_Enough_Angle_For_Move_Start>45</Close_Enough_Angle_For_Move_Start>
+		<Close_Enough_Angle_For_Move_Start>30</Close_Enough_Angle_For_Move_Start>
 		<Min_Speed_Fraction_For_Turn> .1 </Min_Speed_Fraction_For_Turn>
 		<MovementPredictionInterval> 5.0 </MovementPredictionInterval>
 		<MovementBoxExpansionFactor> 8.0 </MovementBoxExpansionFactor>
@@ -2911,6 +2910,7 @@
 		<Deploys>Yes</Deploys>
 		<Auto_Deploys>No</Auto_Deploys>
 		<Air_Vehicle_Turret_Target> No </Air_Vehicle_Turret_Target>
+		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- IMPORTANT! If you modify the ability below, please make same adjustments to unit's "Captured" clone. -->
 			<!-- I know this is awkward, hopefully we'll get a chance to re-write the code to fix it.   -Oksana -->
@@ -2925,7 +2925,7 @@
 				<Alternate_Description_Text>TEXT_ABILITY_DEPLOY_CLONE_DESCRIPTION</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		<Close_Enough_Angle_For_Move_Start> 30 </Close_Enough_Angle_For_Move_Start>
+
 		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
 		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
 
@@ -3716,7 +3716,7 @@
 
 
 <!-- FotR_Enhanced -->
-
+	<!-- SPHA-T -->
 	<GroundVehicle Name="SPHA_T">
 		<Text_ID>TEXT_UNIT_SPHA_T</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY</Encyclopedia_Unit_Class>
@@ -3891,7 +3891,6 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_SPMAT </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_SPMAT </SFXEvent_Assist_Attack>
 	</GroundVehicle>
-
 	<GroundCompany Name="SPHA_T_Company">
 
 		<Text_ID>TEXT_UNIT_SPHA_T</Text_ID>
@@ -3909,7 +3908,6 @@
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_SPHAT.tga</Icon_Name>
 
-		<Autoresolve_Health>100</Autoresolve_Health>
 		<Damage>60</Damage>
 
 		<Ship_Class>walker</Ship_Class>
@@ -3964,6 +3962,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+	<!-- A6 Prototype -->
 	<GroundVehicle Name="Republic_A6_Prototype">
 		<Variant_Of_Existing_Type>Republic_A6_Juggernaut</Variant_Of_Existing_Type>
 
@@ -4005,7 +4004,6 @@
 		<Lua_Script>ObjectScript_A6_Prototype</Lua_Script>
 
 		<Tactical_Health>1300</Tactical_Health>
-		<Autoresolve_Health>1300</Autoresolve_Health>
 
 		<Num_Garrison_Slots>9</Num_Garrison_Slots>
 
@@ -4048,23 +4046,6 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</GroundVehicle>
-
-	<Death_Clone Name="Republic_A6_Prototype_Death_Clone">
-		<Variant_Of_Existing_Type>Republic_A6_Prototype</Variant_Of_Existing_Type>
-		<CategoryMask>None</CategoryMask>
-		<Land_Model_Name>a6_juggernaut_d.alo</Land_Model_Name>
-		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
-		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
-		<Custom_Hard_XExtent_Offset> 15.0 </Custom_Hard_XExtent_Offset>
-		<Custom_Hard_XExtent> 47.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
-		<Death_Persistence_Duration> 15 </Death_Persistence_Duration>
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
-		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
-		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
-		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
-	</Death_Clone>
-
 	<GroundCompany Name="Republic_A6_Prototype_Company">
 
 		<Text_ID>TEXT_UNIT_A6_PROTOTYPE</Text_ID>
@@ -4141,7 +4122,103 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
+
+	<Death_Clone Name="Republic_A6_Prototype_Death_Clone">
+		<Variant_Of_Existing_Type>Republic_A6_Prototype</Variant_Of_Existing_Type>
+		<CategoryMask>None</CategoryMask>
+		<Land_Model_Name>a6_juggernaut_d.alo</Land_Model_Name>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+		<Custom_Hard_XExtent_Offset> 15.0 </Custom_Hard_XExtent_Offset>
+		<Custom_Hard_XExtent> 47.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+		<Death_Persistence_Duration> 15 </Death_Persistence_Duration>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+	</Death_Clone>
+
+
+	<!-- AT-TE Walker Cannoneer -->
+	<GroundVehicle Name="Republic_AT_TE_Walker_Canonneer"> <!-- Artillery mode needs testing! -->
+        <Variant_Of_Existing_Type>Republic_AT_TE_Walker</Variant_Of_Existing_Type>
+        <Text_ID>TEXT_UNIT_AT_TE_WALKER_CANONNEER</Text_ID>
+        <Encyclopedia_Text>
+            TEXT_TOOLTIP_ATTE_CANONNEER
+    		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+    		TEXT_TOOLTIP_ATTE_HEALTH
+    		TEXT_TOOLTIP_ATTE_MOVE
+    		TEXT_TOOLTIP_ATTE_CANONNEER_WEAP1
+    		TEXT_TOOLTIP_ATTE_WEAP2
+            TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+            TEXT_TOOLTIP_ATTE_CANONNEER_WEAP2
+    		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+    		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+    		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+    		TEXT_TOOLTIP_CAPABILITY_CRUSH
+        </Encyclopedia_Text>
+        <Icon_Name>I_BUTTON_ATTE_CANONNEER.TGA</Icon_Name>
+
+        <No_Colorization_Color>59, 95, 209, 255</No_Colorization_Color>
+        <HardPoints>
+            HP_ATTE_Main_Canonneer,
+            HP_ATTE_Main_Canonneer_Alt,
+			HP_ATTE_TurretFrontLeft,
+			HP_ATTE_TurretFrontRight,
+			HP_ATTE_TurretFrontBottomLeft,
+			HP_ATTE_TurretFrontBottomRight,
+			HP_ATTE_TurretBackLeft,
+			HP_ATTE_TurretBackRight,
+        </HardPoints>
+        
+        <Num_Garrison_Slots>0</Num_Garrison_Slots>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ARTILLERY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ARTILLERY_MODE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_SWAP_WEAPONS.TGA</Alternate_Icon_Name>
+				<Targeting_Max_Attack_Distance>375</Targeting_Max_Attack_Distance>
+				<Recharge_Seconds> 9.0 </Recharge_Seconds>
+			</Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities/>
+    </GroundVehicle> 
+    <GroundCompany Name="Republic_AT_TE_Walker_Cannoneer_Company">
+        <Variant_Of_Existing_Type>Republic_AT_TE_Walker_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_AT_TE_WALKER_CANONNEER</Text_ID>
+		<Encyclopedia_Text>
+            TEXT_TOOLTIP_ATTE_CANONNEER
+    		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+            TEXT_TOOLTIP_ATTE_CANONNEER_COMPANY
+    		TEXT_TOOLTIP_ATTE_HEALTH
+    		TEXT_TOOLTIP_ATTE_MOVE
+    		TEXT_TOOLTIP_ATTE_CANONNEER_WEAP1
+    		TEXT_TOOLTIP_ATTE_WEAP2
+            TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+            TEXT_TOOLTIP_ATTE_CANONNEER_WEAP2
+    		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+    		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+    		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+    		TEXT_TOOLTIP_CAPABILITY_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ATTE_CANONNEER.tga</Icon_Name>
+
+		<Build_Cost_Credits>750</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Required_Special_Structures>E_Ground_Advanced_Vehicle_Factory</Required_Special_Structures>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Tech_Level>6</Tech_Level>
+
+		<Company_Units>Republic_AT_TE_Walker_Canonneer</Company_Units>
+
+	</GroundCompany>
 	
+	<!-- ARC170 Ground -->
 	<GroundVehicle Name="Clone_ARC170_Ground">
 		<!-- Unit Infos -->
 		<Text_ID>TEXT_UNIT_ARC170</Text_ID>
@@ -4380,7 +4457,6 @@
 		</Unit_Abilities_Data>
 	  
 	</GroundVehicle>
-
 	<GroundCompany Name="Clone_ARC170_Ground_Company">
 		<Text_ID>TEXT_UNIT_ARC170_COMPANY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_AIRSPEEDER</Encyclopedia_Unit_Class>
@@ -4473,7 +4549,6 @@
         <Land_Model_Name>ARC-170_starfighter_OFC_Ground.ALO</Land_Model_Name>
         <Land_Model_Anim_Override_Name>ARC-170_starfighter_Ground.ALO</Land_Model_Anim_Override_Name>
     </GroundVehicle>
-
     <GroundCompany Name="Clone_ARC170_OFC_Ground_Company">
         <Variant_Of_Existing_Type>Clone_ARC170_Ground_Company</Variant_Of_Existing_Type>
         <Company_Units>Clone_ARC170_OFC_Ground, Clone_ARC170_OFC_Ground</Company_Units>

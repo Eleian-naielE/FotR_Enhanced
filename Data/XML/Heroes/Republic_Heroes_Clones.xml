@@ -11527,15 +11527,14 @@
 		<SFXEvent_Guard>Unit_Guard_Alpha_17</SFXEvent_Guard>
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Alpha_17</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Alpha_17</SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die>Unit_Death_Alpha_17</Death_SFXEvent_Start_Die>
-		
+
 		<Death_SFXEvent_Start_Die>Unit_Death_Clone_Trooper</Death_SFXEvent_Start_Die>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>40</AI_Combat_Power>
 
-		<Targeting_Priority_Set>AntiStructure</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiInfantryStructure</Targeting_Priority_Set>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->	
