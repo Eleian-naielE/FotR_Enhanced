@@ -344,8 +344,6 @@
 
 		<HardPoints> HP_Clone_Carbine</HardPoints>
 
-		<Lua_Script>CloneLegionFinder</Lua_Script>
-
 		<Land_Model_Name>clone_phase1_grenadier_legions.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
 			Temperate, 			clone_phase1_grenadier_legions.ALO,
@@ -356,7 +354,6 @@
 			Forest, 			clone_phase1_grenadier_legions.ALO,
 			Swamp, 				clone_phase1_swamp_grenadier_legions.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Ion_Grenade_Infantry</Projectile_Types>
@@ -383,10 +380,6 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<HardPoints> HP_Clone_Rifle</HardPoints>
-
-		<Lua_Script>CloneLegionFinder</Lua_Script>
-
 		<Land_Model_Name>clone_phase1_grenadier_legions.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
 			Temperate, 			clone_phase1_grenadier_legions.ALO,
@@ -397,7 +390,6 @@
 			Forest, 			clone_phase1_grenadier_legions.ALO,
 			Swamp, 				clone_phase1_swamp_grenadier_legions.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Concussion_Grenade_Infantry</Projectile_Types>
@@ -425,7 +417,6 @@
 
 		<HardPoints> HP_Clone_Carbine</HardPoints>
 
-		<Lua_Script>CloneLegionFinder</Lua_Script>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Clone_Phase_One_Gunner_Light">
@@ -444,8 +435,6 @@
 		<HardPoints> HP_Clone_LMG</HardPoints>
 
 		<Land_Model_Anim_Override_Name>Underslung.alo</Land_Model_Anim_Override_Name>
-
-		<Lua_Script>CloneLegionFinder</Lua_Script>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Gunner</Highlight_Blob_Material_Name>
 	</GroundInfantry>
@@ -478,8 +467,6 @@
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>Underslung.alo</Land_Model_Anim_Override_Name>
 
-		<Lua_Script>CloneLegionFinder</Lua_Script>
-
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Gunner</Highlight_Blob_Material_Name>
 	</GroundInfantry>
 
@@ -508,8 +495,6 @@
 			Swamp, 				clone_phase1_swamp_legions.ALO
 		</Land_Terrain_Model_Mapping>
 
-		<HardPoints> HP_Clone_Rifle</HardPoints>
-
 		<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
 	</GroundInfantry>
 
@@ -524,17 +509,6 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<No_Colorization_Color> 110, 105, 48, 255 </No_Colorization_Color>
-		<!-- P1 Officers only different for variant terrain -->
-		<Land_Terrain_Model_Mapping>
-			Temperate, 			clone_phase1_legions.ALO,
-			Urban, 				clone_phase1_legions.ALO,
-			Arctic, 			clone_phase1_snow_sergeant_legions.ALO,
-			Volcanic, 			clone_phase1_legions.ALO,
-			Desert, 			clone_phase1_legions.ALO,
-			Forest, 			clone_phase1_legions.ALO,
-			Swamp, 				clone_phase1_swamp_legions.ALO
-		</Land_Terrain_Model_Mapping>
 
 		<HardPoints> HP_Clone_Carbine</HardPoints>
 
@@ -573,7 +547,6 @@
 			Forest, 			clone_phase1_medic_legions.ALO,
 			Swamp, 				clone_phase1_medic_legions.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<HardPoints> HP_Clone_SMG</HardPoints>
 
@@ -634,8 +607,6 @@
 			Forest, 			clone_phase1_legions.ALO,
 			Swamp, 				clone_phase1_swamp_legions.ALO
 		</Land_Terrain_Model_Mapping>
-
-		<HardPoints> HP_Clone_Rifle</HardPoints>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_LT</Highlight_Blob_Material_Name>
 	</GroundInfantry>
@@ -1169,11 +1140,6 @@
 		</Encyclopedia_Text>
 		<Max_Speed>1.1</Max_Speed>
 		<Icon_Name>I_BUTTON_CLONE_P2.tga</Icon_Name>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
-
-		<HardPoints> HP_Clone_Rifle</HardPoints>
-
-		<Lua_Script>CloneLegionFinder</Lua_Script>
 
 		<Death_Clone>Damage_Force_Whirlwind, Clone_Phase_Two_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Crush, Clone_Phase_Two_Crush_Death_Clone</Death_Clone>
@@ -1287,8 +1253,6 @@
 
 		<HardPoints> HP_Clone_Carbine</HardPoints>
 
-		<Lua_Script>CloneLegionFinder</Lua_Script>
-
 		<Land_Model_Name>clone_phase2_grenadier_legions.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
 			Temperate, 			clone_phase2_grenadier_legions.ALO,
@@ -1299,7 +1263,6 @@
 			Forest, 			clone_phase2_grenadier_legions.ALO,
 			Swamp, 				clone_phase2_grenadier_legions.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Ion_Grenade_Infantry</Projectile_Types>
@@ -1326,10 +1289,6 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<HardPoints> HP_Clone_Rifle</HardPoints>
-
-		<Lua_Script>CloneLegionFinder</Lua_Script>
-
 		<Land_Model_Name>clone_phase2_grenadier_legions.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
 			Temperate, 			clone_phase2_grenadier_legions.ALO,
@@ -1340,7 +1299,6 @@
 			Forest, 			clone_phase2_grenadier_legions.ALO,
 			Swamp, 				clone_phase2_grenadier_legions.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Concussion_Grenade_Infantry</Projectile_Types>
@@ -1367,8 +1325,6 @@
 		</Encyclopedia_Text>
 
 		<HardPoints> HP_Clone_Carbine</HardPoints>
-
-		<Lua_Script>CloneLegionFinder</Lua_Script>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Clone_Phase_Two_Gunner_Light">
@@ -2942,20 +2898,7 @@
 	</GroundInfantry>
 
 	<GroundInfantry Name="ARC_Phase_One_Officer">
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P1_OFFICER_ALPHA</Text_ID>
 		<Variant_Of_Existing_Type>ARC_Phase_One_Observer</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_ARC_TROOPER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_ARC_TROOPER_OFFICER_HEALTH
-		TEXT_TOOLTIP_ARC_TROOPER_MOVE
-		TEXT_TOOLTIP_ARC_TROOPER_WEAP4
-		TEXT_TOOLTIP_ARC_TROOPER_WEAP5
-		TEXT_TOOLTIP_ARC_TROOPER_WEAP9
-		TEXT_TOOLTIP_ARC_TROOPER_WEAP11
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
-		</Encyclopedia_Text>
 		<No_Colorization_Color> 228, 45, 49, 255 </No_Colorization_Color>
 
 		<LandBehavior> SELECTABLE, ABILITY_COUNTDOWN, LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DEMOLITION</LandBehavior>
@@ -3429,13 +3372,8 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<CategoryMask> Organic | Infantry | AntiInfantry | AntiVehicle | Clone  </CategoryMask>
-
 		<Max_Speed>1.2</Max_Speed>
 		<Icon_Name>I_BUTTON_CLONE_ARC_P2.tga</Icon_Name>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
-		<HardPoints>HP_Clone_Rifle_Skilled_ARC, HP_ARC_RPS, HP_ARC_Wrist_Rocket</HardPoints>
-		<AI_Combat_Power>10</AI_Combat_Power>
 	</GroundInfantry>
 
 	<GroundInfantry Name="ARC_Phase_Two_Gunner_Heavy">
@@ -3544,26 +3482,10 @@
 	</GroundInfantry>
 
 	<GroundInfantry Name="ARC_Phase_Two_Officer">
-		<Text_ID>TEXT_UNIT_ARC_TROOPER_P2_OFFICER_ALPHA</Text_ID>
 		<Variant_Of_Existing_Type>ARC_Phase_Two_Observer</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_ARC_TROOPER 
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_ARC_TROOPER_P2_OFFICER_HEALTH
-		TEXT_TOOLTIP_ARC_TROOPER_P2_MOVE 
-		TEXT_TOOLTIP_ARC_TROOPER_WEAP4
-		TEXT_TOOLTIP_ARC_TROOPER_WEAP5
-		TEXT_TOOLTIP_ARC_TROOPER_WEAP9
-		TEXT_TOOLTIP_ARC_TROOPER_WEAP11
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
-		</Encyclopedia_Text>
 		<No_Colorization_Color> 228, 45, 49, 255 </No_Colorization_Color>
 
 		<LandBehavior> SELECTABLE, ABILITY_COUNTDOWN, LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DEMOLITION</LandBehavior>
-		<HardPoints>HP_ARC_Carbine_Skilled, HP_ARC_Grenade, HP_ARC_Wrist_Flamer</HardPoints>
-
-		<Highlight_Blob_Material_Name>Highlight_Infantry_LT</Highlight_Blob_Material_Name>
 	</GroundInfantry>
 
 	<GroundInfantry Name="ARC_Phase_Two_Company_Dummy">
@@ -5507,8 +5429,6 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<Lua_Script>CloneLegionFinder</Lua_Script>
-
 		<Land_Model_Name>Clone_HEV_Trooper_Grenadier_legions.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
 			Temperate, 			Clone_HEV_Trooper_Grenadier_legions.alo,
@@ -5562,8 +5482,6 @@
 			Swamp, 				Clone_HEV_Trooper_Sergeant_legions.alo
 		</Land_Terrain_Model_Mapping>
 
-		<Lua_Script>CloneLegionFinder</Lua_Script>
-
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
@@ -5586,8 +5504,6 @@
 
 		<HardPoints>HP_Clone_Carbine</HardPoints>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
-
-		<Lua_Script>CloneLegionFinder</Lua_Script>
 
 	</GroundInfantry>
 
@@ -5624,8 +5540,6 @@
 		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
 		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
 
-		<Lua_Script>CloneLegionFinder</Lua_Script>
-
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Grenadier</Highlight_Blob_Material_Name>
 	</GroundInfantry>
 
@@ -5657,8 +5571,6 @@
 			Forest, 			Clone_HEV_Trooper_Sergeant_legions.alo,
 			Swamp, 				Clone_HEV_Trooper_Sergeant_legions.alo
 		</Land_Terrain_Model_Mapping>
-
-		<Lua_Script>CloneLegionFinder</Lua_Script>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
 	</GroundInfantry>
@@ -5693,8 +5605,6 @@
 
 		<CategoryMask> Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
-		<Lua_Script>CloneLegionFinder</Lua_Script>
-
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
@@ -5716,8 +5626,6 @@
 		</Encyclopedia_Text>
 
 		<HardPoints> HP_BT_X42_Flamer_Hand </HardPoints>
-
-		<Lua_Script>CloneLegionFinder</Lua_Script>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Flamer</Highlight_Blob_Material_Name>
 		
@@ -5750,8 +5658,6 @@
 
 		<HardPoints> HP_Chaingun_HMG </HardPoints>
 
-		<Lua_Script>CloneLegionFinder</Lua_Script>
-
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Gunner</Highlight_Blob_Material_Name>
 	</GroundInfantry>
 
@@ -5769,8 +5675,6 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<HardPoints> HP_Clone_Rifle </HardPoints>
-
 		<Land_Model_Name>Clone_HEV_Trooper_Officer_legions.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
 			Temperate, 			Clone_HEV_Trooper_Officer_legions.alo,
@@ -5781,9 +5685,6 @@
 			Forest, 			Clone_HEV_Trooper_Officer_legions.alo,
 			Swamp, 				Clone_HEV_Trooper_Officer_legions.alo
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
-
-		<Lua_Script>CloneLegionFinder</Lua_Script>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_LT</Highlight_Blob_Material_Name>
 	</GroundInfantry>
@@ -6340,8 +6241,6 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<HardPoints> HP_Clone_Rifle_Unskilled </HardPoints>
-
 		<Land_Model_Name>clone_phase1_grenadier.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
 			Temperate, 			clone_phase1_grenadier.ALO,
@@ -6352,7 +6251,6 @@
 			Forest, 			clone_phase1_grenadier.ALO,
 			Swamp, 				clone_phase1_swamp_grenadier.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Thermal_Grenade_Infantry</Projectile_Types>
@@ -6380,8 +6278,6 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<HardPoints> HP_Clone_Rifle_Unskilled </HardPoints>
-
 		<Land_Model_Name>clone_phase1_grenadier.ALO</Land_Model_Name>
 		<No_Colorization_Color> 109, 75, 5, 255 </No_Colorization_Color>
 		<Land_Terrain_Model_Mapping>
@@ -6393,7 +6289,6 @@
 			Forest, 			clone_phase1_grenadier.ALO,
 			Swamp, 				clone_phase1_swamp_grenadier.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<Property_Flags>HealsVehicles</Property_Flags>
 
@@ -6460,8 +6355,6 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<HardPoints> HP_Clone_Carbine_Unskilled </HardPoints>
-
 		<Land_Model_Name>clone_phase1_grenadier.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
 			Temperate, 			clone_phase1_grenadier.ALO,
@@ -6472,7 +6365,6 @@
 			Forest, 			clone_phase1_grenadier.ALO,
 			Swamp, 				clone_phase1_swamp_grenadier.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Thermal_Grenade_Infantry</Projectile_Types>
@@ -6500,8 +6392,6 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<HardPoints> HP_Clone_Carbine_Unskilled </HardPoints>
-
 		<Land_Model_Name>clone_phase1_grenadier.ALO</Land_Model_Name>
 		<No_Colorization_Color> 109, 75, 5, 255 </No_Colorization_Color>
 		<Land_Terrain_Model_Mapping>
@@ -6513,7 +6403,6 @@
 			Forest, 			clone_phase1_grenadier.ALO,
 			Swamp, 				clone_phase1_swamp_grenadier.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<Property_Flags>HealsVehicles</Property_Flags>
 
@@ -6650,8 +6539,6 @@
 		<HardPoints>HP_PLX_1_hand</HardPoints>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_LT</Highlight_Blob_Material_Name>
-		
-		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Clone_Vehicular_Assault_Company_Dummy">
@@ -7281,7 +7168,6 @@
 		</Encyclopedia_Text>
 
 		<HardPoints>HP_Clone_Ion_Gun</HardPoints>
-		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 
 		<CategoryMask>Organic | Infantry | AntiVehicle | Clone </CategoryMask>
 
@@ -7342,8 +7228,6 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-
-		<HardPoints> HP_Clone_Carbine_Skilled </HardPoints>
 
 		<Land_Model_Name>Clone_phase1_Stealth_Ops_Officer.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
@@ -7813,11 +7697,8 @@
 		</Encyclopedia_Text>
 		
 		<AI_Combat_Power>4</AI_Combat_Power>
-
-		<Lua_Script>CloneLegionFinder</Lua_Script>
 		
 		<HardPoints> HP_Plasma_Gun_Underslung </HardPoints>
-		<Land_Model_Anim_Override_Name>Underslung.alo</Land_Model_Anim_Override_Name>
 
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Flame_Grenade_Infantry</Projectile_Types>
@@ -7847,11 +7728,8 @@
 		</Encyclopedia_Text>
 		
 		<AI_Combat_Power>4</AI_Combat_Power>
-
-		<Lua_Script>CloneLegionFinder</Lua_Script>
 		
 		<HardPoints> HP_Plasma_Gun_Underslung </HardPoints>
-		<Land_Model_Anim_Override_Name>Underslung.alo</Land_Model_Anim_Override_Name>
 
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Ion_Grenade_Infantry</Projectile_Types>
@@ -8313,11 +8191,7 @@
 			Forest, 			Clone_Scout_Trooper_Forest_SergeantGrenadier.alo,
 			Swamp, 				Clone_Scout_Trooper_Forest_SergeantGrenadier.alo
 		</Land_Terrain_Model_Mapping>
-
-		<AI_Combat_Power>4</AI_Combat_Power>
 		
-		<HardPoints> HP_Clone_Carbine_Skilled </HardPoints>
-
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Thermal_Grenade_Infantry</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
@@ -8353,8 +8227,6 @@
 			Forest, 			Clone_Scout_Trooper_Forest_SergeantGrenadier.alo,
 			Swamp, 				Clone_Scout_Trooper_Forest_SergeantGrenadier.alo
 		</Land_Terrain_Model_Mapping>
-
-		<AI_Combat_Power>4</AI_Combat_Power>
 		
 		<HardPoints> HP_Clone_Rifle_Skilled </HardPoints>
 		
@@ -8446,9 +8318,7 @@
 		<Tactical_Health>25</Tactical_Health>
 
 		<HardPoints>HP_ARC_Carbine_Skilled, HP_ARC_Grenade</HardPoints>
-		
-		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
-		
+				
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Ion_Grenade_Infantry</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
@@ -9223,7 +9093,6 @@
 			Forest, 			Clone_Airborne_Medic_Legions.ALO,
 			Swamp, 				Clone_Airborne_Medic_Legions.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
@@ -9281,9 +9150,7 @@
 			Forest, 			Clone_Airborne_Sergeant_Legions.alo,
 			Swamp, 				Clone_Airborne_Sergeant_Legions.alo
 		</Land_Terrain_Model_Mapping>
-		
-		<AI_Combat_Power>3</AI_Combat_Power>
-		
+				
 		<Tactical_Health>22</Tactical_Health>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
@@ -9334,8 +9201,6 @@
 			Swamp, 				Clone_Airborne_Grenadier_Legions.alo
 		</Land_Terrain_Model_Mapping>
 
-		<AI_Combat_Power>4</AI_Combat_Power>
-
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Ion_Grenade_Infantry</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
@@ -9372,7 +9237,6 @@
 			Forest, 			Clone_Airborne_Medic_Legions.ALO,
 			Swamp, 				Clone_Airborne_Medic_Legions.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
@@ -9430,9 +9294,7 @@
 			Forest, 			Clone_Airborne_Sergeant_Legions.alo,
 			Swamp, 				Clone_Airborne_Sergeant_Legions.alo
 		</Land_Terrain_Model_Mapping>
-		
-		<AI_Combat_Power>4</AI_Combat_Power>
-		
+				
 		<Tactical_Health>22</Tactical_Health>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
@@ -9480,7 +9342,6 @@
 			Forest, 			Clone_Airborne_Medic_Legions.ALO,
 			Swamp, 				Clone_Airborne_Medic_Legions.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
@@ -9574,8 +9435,6 @@
 			Swamp, 				Clone_Airborne_Sergeant_Legions.alo
 		</Land_Terrain_Model_Mapping>
 		
-		<AI_Combat_Power>5</AI_Combat_Power>
-
 		<HardPoints>HP_T21_LMG_Rep_Skilled</HardPoints>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
@@ -9608,9 +9467,7 @@
 			Swamp, 				Clone_Airborne_Rocket_Legions.ALO
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>RocketInfantry.alo</Land_Model_Anim_Override_Name>
-		
-		<AI_Combat_Power>5</AI_Combat_Power>
-		
+				
 		<HardPoints>HP_RPS_Hand</HardPoints>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 
@@ -9687,9 +9544,7 @@
 			Forest, 			Clone_Airborne_Sniper_Sergeant_Legions.alo,
 			Swamp, 				Clone_Airborne_Sniper_Sergeant_Legions.alo
 		</Land_Terrain_Model_Mapping>
-		
-		<AI_Combat_Power>5</AI_Combat_Power>
-		
+				
 		<Tactical_Health>22</Tactical_Health>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
@@ -10939,7 +10794,6 @@
 
 		<HardPoints>HP_Clone_Carbine_Skilled</HardPoints>
 		
-
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Ion_Grenade_Infantry</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
@@ -12345,8 +12199,6 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE</LandBehavior>
 
-		<HardPoints>HP_Clone_Rifle_Skilled_ARC, HP_ARC_RPS, HP_ARC_Wrist_Rocket</HardPoints>
-
 		<!-- Grenade throw -->
 		<Projectile_Types>Proj_Light_Concussion_Grenade_Infantry</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
@@ -12444,11 +12296,6 @@
 				Voca, Gregor,
 				Ordo_Skirata, Ordo_Skirata2,
 				Aden_Skirata, Aden_Skirata2,
-				<!-- FotR_Enhanced -->
-				Obi_Wan_Knight, Anakin_Padawan,
-				Oppo_Rancisis,
-				Ponds_Early, Ponds,
-				Prudii_Skirata, Prudii_Skirata2,
 				<!-- FotR_Enhanced -->
 				Obi_Wan_Knight, Anakin_Padawan,
 				Oppo_Rancisis,
@@ -12560,7 +12407,6 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_clone_shadow_sniper.tga</Icon_Name>
 
 		<Hardpoints>HP_Clone_Carbine_Stealth_Sniper</Hardpoints>
@@ -12581,6 +12427,8 @@
 		</Encyclopedia_Text>
 
 		<Highlight_Blob_Material_Name>Highlight_Infantry_LT</Highlight_Blob_Material_Name>
+
+		<HardPoints>HP_Clone_Rifle_Skilled_ARC</HardPoints>
 
 		<Unit_Abilities_Data SubObjectList="Yes">			
 			<Unit_Ability>

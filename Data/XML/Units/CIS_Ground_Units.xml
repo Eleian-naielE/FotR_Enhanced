@@ -177,7 +177,6 @@
 		<Locomotor_Has_Animation_Priority>yes</Locomotor_Has_Animation_Priority>
 		<Attack_Animation_Is_Overlay>yes</Attack_Animation_Is_Overlay>
 		<Deploys>No</Deploys>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		
 		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>
 		
