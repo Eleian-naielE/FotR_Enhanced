@@ -113,17 +113,9 @@
 
 		<Tactical_Health>135</Tactical_Health>
 
-		<Max_Speed>1.0</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
-		<OverrideAcceleration> 1.0 </OverrideAcceleration>
-		<OverrideDeceleration> 1.0 </OverrideDeceleration>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
-
-		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Clone_Rifle</HardPoints>
 
@@ -170,15 +162,12 @@
 				RB_CommandCenter_Death_Clone,
 				CIS_Local_Government_Death_Clone,
 		</Presence_Induced_Animations>
-		<Presence_Range>150.0</Presence_Range>
 
 		<Death_Clone>Damage_Normal, Cody_Death_Clone</Death_Clone>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>37</AI_Combat_Power>
-
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
 		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Company, 1</Starting_Spawned_Units_Tech_0>
 
@@ -306,22 +295,18 @@
 		<Primary_Locomotor_Name>WALK_LOCOMOTOR</Primary_Locomotor_Name>
 		<Secondary_Locomotor_Name>JETPACK_LOCOMOTOR</Secondary_Locomotor_Name>
 
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
 		<Max_Speed> 1.2 </Max_Speed>
 		<Alternate_Max_Speed> 2.5 </Alternate_Max_Speed>
-		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Alternate_Max_Rate_Of_Turn> 6.0 </Alternate_Max_Rate_Of_Turn>
 		<Min_Speed> .1 </Min_Speed>
 		<OverrideAcceleration> 1.2 </OverrideAcceleration>
 		<OverrideDeceleration> 1.2 </OverrideDeceleration>
 		<Max_Lift> .6 </Max_Lift>
 
-		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Clone_Rifle</HardPoints>
 
@@ -370,15 +355,12 @@
 				RB_CommandCenter_Death_Clone,
 				CIS_Local_Government_Death_Clone,
 		</Presence_Induced_Animations>
-		<Presence_Range>150.0</Presence_Range>
 
 		<Death_Clone>Damage_Normal, Cody2_Death_Clone</Death_Clone>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>39</AI_Combat_Power>
-
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
 		<Starting_Spawned_Units_Tech_0>Clone_Airborne_Trooper_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Clone_Airborne_Trooper_Weap_Squad, 2</Starting_Spawned_Units_Tech_0>
@@ -646,17 +628,9 @@
 
 		<Tactical_Health>150</Tactical_Health>
 
-		<Max_Speed>1.0</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
-		<OverrideAcceleration> 1.0 </OverrideAcceleration>
-		<OverrideDeceleration> 1.0 </OverrideDeceleration>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
-
-		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Clone_Carbine</HardPoints>
@@ -704,15 +678,12 @@
 				RB_CommandCenter_Death_Clone,
 				CIS_Local_Government_Death_Clone,
 		</Presence_Induced_Animations>
-		<Presence_Range>150.0</Presence_Range>
 
 		<Death_Clone>Damage_Normal, Rex_Death_Clone</Death_Clone>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>38</AI_Combat_Power>
-
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
 		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Assault_Squad, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Heavy_Squad, 1</Starting_Spawned_Units_Tech_0>
@@ -857,16 +828,12 @@
 		<Tactical_Health>155</Tactical_Health>
 
 		<Max_Speed>1.2</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<OverrideAcceleration> 1.2 </OverrideAcceleration>
 		<OverrideDeceleration> 1.2 </OverrideDeceleration>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Clone_Carbine</HardPoints>
@@ -914,15 +881,12 @@
 				RB_CommandCenter_Death_Clone,
 				CIS_Local_Government_Death_Clone,
 		</Presence_Induced_Animations>
-		<Presence_Range>150.0</Presence_Range>
 
 		<Death_Clone>Damage_Normal, Rex2_Death_Clone</Death_Clone>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>39</AI_Combat_Power>
-
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
 		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Assault_Squad, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_Two_Heavy_Squad, 1</Starting_Spawned_Units_Tech_0>
@@ -1214,18 +1178,10 @@
 
 		<Tactical_Health>135</Tactical_Health>
 
-		<Max_Speed>1.0</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
-		<OverrideAcceleration> 1.0 </OverrideAcceleration>
-		<OverrideDeceleration> 1.0 </OverrideDeceleration>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
-
-		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Clone_Rifle</HardPoints>
 
@@ -1251,8 +1207,6 @@
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>37</AI_Combat_Power>
-
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
 		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Company, 1</Starting_Spawned_Units_Tech_0>
 
@@ -1386,17 +1340,13 @@
 		<Tactical_Health>145</Tactical_Health>
 
 		<Max_Speed>1.1</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<OverrideAcceleration> 1.1 </OverrideAcceleration>
 		<OverrideDeceleration> 1.1 </OverrideDeceleration>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Clone_Rifle</HardPoints>
 
@@ -1666,17 +1616,11 @@
 		<Tactical_Health>135</Tactical_Health>
 
 		<Max_Speed>1.2</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<OverrideAcceleration> 1.2 </OverrideAcceleration>
 		<OverrideDeceleration> 1.2 </OverrideDeceleration>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
-
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Clone_Rifle</HardPoints>
 
@@ -1715,15 +1659,12 @@
 				RB_CommandCenter_Death_Clone,
 				CIS_Local_Government_Death_Clone,
 		</Presence_Induced_Animations>
-		<Presence_Range>150.0</Presence_Range>
 
 		<Death_Clone>Damage_Normal, Keller_Death_Clone</Death_Clone>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>31</AI_Combat_Power>
-
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
 		<Starting_Spawned_Units_Tech_0>Clone_Galactic_Marine_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Clone_Galactic_Marine_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
@@ -1922,16 +1863,12 @@
 		<Tactical_Health>145</Tactical_Health>
 
 		<Max_Speed>0.9</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<OverrideAcceleration> 0.9 </OverrideAcceleration>
 		<OverrideDeceleration> 0.9 </OverrideDeceleration>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Clone_Carbine</HardPoints>
@@ -1979,13 +1916,10 @@
 				RB_CommandCenter_Death_Clone,
 				CIS_Local_Government_Death_Clone,
 		</Presence_Induced_Animations>
-		<Presence_Range>150.0</Presence_Range>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>29</AI_Combat_Power>
-
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
 		<Starting_Spawned_Units_Tech_0>Clone_Galactic_Marine_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Clone_Galactic_Marine_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
@@ -2092,7 +2026,6 @@
 
 	<HeroUnit Name="Bacara2">
 		<Variant_Of_Existing_Type>Bacara</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HERO_BACARA</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_LAND
@@ -2110,7 +2043,6 @@
 		TEXT_TOOLTIP_LEGIONS_MUNDI
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MARSHAL_COMMANDER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_BACARA2.tga</Icon_Name>
 		
 		<Land_Model_Name>Clone_Commander_Bacara_phase2.alo</Land_Model_Name>
@@ -2124,8 +2056,6 @@
 			Swamp, 				Clone_Commander_Bacara_phase2.alo
 		</Land_Terrain_Model_Mapping>
 		
-		<Ranking_In_Category> 4 </Ranking_In_Category>
-
 		<Tactical_Health>155</Tactical_Health>
 
 		<Max_Speed>1.1</Max_Speed>
@@ -2135,65 +2065,6 @@
 		<AI_Combat_Power>30</AI_Combat_Power>
 		
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
-		
-		<!-- 9 av mines on solo hero -->
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SPRINT</Type>
-				<Expiration_Seconds> 8.0 </Expiration_Seconds>
-				<Recharge_Seconds> 45.0 </Recharge_Seconds>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Clone_Operator</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>PROXIMITY_MINES</Type>
-				<Recharge_Seconds>90.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Bacara_Proximity_Mines_AV</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability>Unit_Barrage_Clone_Operator</SFXEvent_Target_Ability>
-				<Area_Effect_Decal_Distance>50.0</Area_Effect_Decal_Distance>
-				<Effective_Radius> 100.0 </Effective_Radius>
-
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_ANTITANK_MINES.tga</Alternate_Icon_Name>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-
-		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
-
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 -->
-			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>    
-				<Defense_Bonus_Percentage>0.24</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.24</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
-			</Combat_Bonus_Ability>
-			<Battlefield_Modifier_Ability Name="Command_Tier_08_FOW_Increase">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.24</FOW_Reveal_Range_Multiplier>
-				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
-				<Stacking_Category>0</Stacking_Category>
-			</Battlefield_Modifier_Ability>
-
-			<Proximity_Mines_Ability Name="Bacara_Proximity_Mines_AV">
-				<Activation_Style>User_Input</Activation_Style>
-				<Activation_Min_Range>0.0</Activation_Min_Range>
-				<Activation_Max_Range>25.0</Activation_Max_Range>
-				<Mine_Type>Mine_Land_Prox_Antivehicle</Mine_Type>
-				<Trigger_Radius>5</Trigger_Radius>
-				<Number_Of_Mines>18</Number_Of_Mines>
-				<Activation_Time_In_Seconds>0.5</Activation_Time_In_Seconds>
-				<Activate_SFX>Unit_Mine_Arm</Activate_SFX>
-			</Proximity_Mines_Ability>
-		</Abilities>
 	</HeroUnit>
 	
 	<HeroCompany Name="Bacara2_Team">
@@ -2402,16 +2273,12 @@
 		<Tactical_Health>135</Tactical_Health>
 
 		<Max_Speed>1.1</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<OverrideAcceleration> 1.1 </OverrideAcceleration>
 		<OverrideDeceleration> 1.1 </OverrideDeceleration>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_PLX_1_Hand</HardPoints>
@@ -2459,7 +2326,6 @@
 				RB_CommandCenter_Death_Clone,
 				CIS_Local_Government_Death_Clone,
 		</Presence_Induced_Animations>
-		<Presence_Range>150.0</Presence_Range>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
@@ -2468,7 +2334,6 @@
 		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
 
 		<Starting_Spawned_Units_Tech_0>Clone_Special_Ops_Squad, 4</Starting_Spawned_Units_Tech_0>
-
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2581,16 +2446,12 @@
 		<Tactical_Health>150</Tactical_Health>
 
 		<Max_Speed>1.2</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<OverrideAcceleration> 1.2 </OverrideAcceleration>
 		<OverrideDeceleration> 1.2 </OverrideDeceleration>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_PLX_1_Hand</HardPoints>
@@ -2638,7 +2499,6 @@
 				RB_CommandCenter_Death_Clone,
 				CIS_Local_Government_Death_Clone,
 		</Presence_Induced_Animations>
-		<Presence_Range>150.0</Presence_Range>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
@@ -2848,10 +2708,7 @@
 		<Required_Orbiting_Units>Nu_Shuttle_Landing_Craft_Jet2</Required_Orbiting_Units>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Empire_Office</Required_Special_Structures>
 
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-
 		<Build_Cost_Credits>1</Build_Cost_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
 	</DummyStructure>
 
 
@@ -2901,18 +2758,13 @@
 		<Tactical_Health>140</Tactical_Health>
 
 		<Max_Speed>1.2</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<OverrideAcceleration> 1.2 </OverrideAcceleration>
 		<OverrideDeceleration> 1.2 </OverrideDeceleration>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 		<Property_Flags>HealsVehicles | HealsDroids</Property_Flags>
 
-
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Clone_Carbine</HardPoints>
@@ -2960,13 +2812,10 @@
 				RB_CommandCenter_Death_Clone,
 				CIS_Local_Government_Death_Clone,
 		</Presence_Induced_Animations>
-		<Presence_Range>150.0</Presence_Range>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>51</AI_Combat_Power>
-
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		
 		<Starting_Spawned_Units_Tech_0>Clone_Galactic_Marine_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Clone_Scout_Trooper_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
@@ -3197,16 +3046,12 @@
 		<Tactical_Health>135</Tactical_Health>
 
 		<Max_Speed>0.9</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<OverrideAcceleration> 0.9 </OverrideAcceleration>
 		<OverrideDeceleration> 0.9 </OverrideDeceleration>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Clone_Carbine</HardPoints>
@@ -3254,13 +3099,10 @@
 				RB_CommandCenter_Death_Clone,
 				CIS_Local_Government_Death_Clone,
 		</Presence_Induced_Animations>
-		<Presence_Range>150.0</Presence_Range>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>39</AI_Combat_Power>
-
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
 		<Starting_Spawned_Units_Tech_0>Clonetrooper_Phase_One_Company, 1</Starting_Spawned_Units_Tech_0>
 
@@ -3439,16 +3281,12 @@
 		<Tactical_Health>145</Tactical_Health>
 
 		<Max_Speed>1.1</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<OverrideAcceleration> 1.1 </OverrideAcceleration>
 		<OverrideDeceleration> 1.1 </OverrideDeceleration>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Clone_Carbine</HardPoints>
@@ -3496,13 +3334,10 @@
 				RB_CommandCenter_Death_Clone,
 				CIS_Local_Government_Death_Clone,
 		</Presence_Induced_Animations>
-		<Presence_Range>150.0</Presence_Range>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>40</AI_Combat_Power>
-
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
 		<Starting_Spawned_Units_Tech_0>Clone_Scout_Trooper_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Clone_Scout_Trooper_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
@@ -6768,7 +6603,7 @@
 
 		<Required_Orbiting_Units>CR25_Landing_Craft_Gaffa</Required_Orbiting_Units>
 	</DummyStructure>
-
+	
 <!-- FotR_Enhacnd ; Clone Officers -->
 
 	<Herounit Name="Ponds_Early">
@@ -9546,6 +9381,7 @@
 		TEXT_TOOLTIP_OMEGA_WEAP1
 		TEXT_TOOLTIP_OMEGA_WEAP2
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
 		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
@@ -9563,15 +9399,9 @@
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 
 		<Max_Speed>1.3</Max_Speed>
-		<OverrideAcceleration> 1.0 </OverrideAcceleration>
-		<OverrideDeceleration> 1.0 </OverrideDeceleration>
-
-		<Scale_Factor>1.1</Scale_Factor>
+		
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
-
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Republic_Commando_Blaster, HP_Hero_Republic_Commando_Grenade</HardPoints>
 		
@@ -9591,13 +9421,12 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Delta_Fixer_Critical_Health </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Delta_Fixer_Death </Death_SFXEvent_Start_Die>
 
-		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>41</AI_Combat_Power>
 
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<!-- Enhanced sensors capability -->
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -9740,10 +9569,7 @@
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 
 		<Max_Speed>1.3</Max_Speed>
-		<OverrideAcceleration> 1.0 </OverrideAcceleration>
-		<OverrideDeceleration> 1.0 </OverrideDeceleration>
-
-		<Scale_Factor>1.1</Scale_Factor>
+		
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>Organic | InfantryHero | AntiInfantry | Clone</CategoryMask>
 		<Property_Flags>HealsOrganics</Property_Flags>
@@ -9772,14 +9598,9 @@
 		<SFXEvent_Health_Low_Warning> Unit_Delta_Sev_Low_Health </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Delta_Sev_Critical_Health </SFXEvent_Health_Critical_Warning>
 
-		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>34</AI_Combat_Power>
-
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
-
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
